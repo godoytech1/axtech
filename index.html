@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AXTECH | Tu Tienda de Tecnología y Hardware</title>
+    <meta name="description"
+        content="En AXTECH encontrás las mejores Notebooks, Tarjetas de Video, Procesadores, Almacenamiento SSD y Domótica. Precios en Guaraníes con garantía oficial.">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon_centered.png">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+
+    <!-- Google Fonts: Outfit (headings) & Inter (body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons (Line Awesome) -->
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <!-- Project Stylesheet -->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+
+    <!-- MAIN HEADER -->
+    <header class="header">
+        <div class="container header-content">
+            <!-- Brand Logo -->
+            <a href="#" class="logo" id="header-logo">
+                <div class="logo-icon"><img src="assets/logo.jpg" alt="AXTECH Icon" class="logo-icon-img"></div>
+                <div class="logo-text">
+                    <span class="logo-main">AXTECH</span>
+                    <span class="logo-sub">TECNOLOGÍA & HARDWARE</span>
+                </div>
+            </a>
+
+            <!-- Search Bar -->
+            <div class="search-wrapper">
+                <i class="las la-search search-icon"></i>
+                <input type="text" id="search-input" placeholder="Buscar productos o marcas (Ej: RTX, SSD, Monitor)..." autocomplete="off">
+                <button id="search-clear-btn" class="search-clear-btn"><i class="las la-times"></i></button>
+                <div id="search-suggestions" class="search-suggestions" style="display: none;"></div>
+            </div>
+
+            <!-- Header Actions -->
+            <div class="header-actions">
+                <a href="https://wa.me/595976914662" target="_blank" class="contact-btn">
+                    <i class="lab la-whatsapp"></i>
+                    <div class="contact-btn-text">
+                        <span class="label">Soporte y Consultas</span>
+                        <span class="number">Escríbenos</span>
+                    </div>
+                </a>
+
+                <a href="https://instagram.com/axtech_py" target="_blank" class="instagram-btn">
+                    <i class="lab la-instagram"></i>
+                    <div class="contact-btn-text">
+                        <span class="label">Sigue Novedades</span>
+                        <span class="number">@axtech_py</span>
+                    </div>
+                </a>
+                <a href="https://www.facebook.com/to.hermana.71" target="_blank" class="facebook-btn">
+                    <i class="lab la-facebook-f"></i>
+                    <div class="contact-btn-text">
+                        <span class="label">Síguenos en</span>
+                        <span class="number">Axtech Informatica</span>
+                    </div>
+                </a>
+
+
+                <!-- Cart Button -->
+                <button class="cart-toggle-btn" id="cart-toggle-btn">
+                    <div class="cart-icon-wrapper">
+                        <i class="las la-shopping-cart"></i>
+                        <span class="cart-count" id="cart-count">0</span>
+                    </div>
+                    <span class="cart-btn-label">Mi Carrito</span>
+                </button>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+                    <i class="las la-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- NAVIGATION BAR (DEPARTMENTS) -->
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <ul class="nav-links">
+                <li><a href="#" class="nav-link active" data-category="all"><i class="las la-th-large"></i> Todo</a>
+                </li>
+                <li><a href="#" class="nav-link" data-category="Monitores"><i class="las la-tv"></i> Monitores</a></li>
+                <li><a href="#" class="nav-link" data-category="Procesadores"><i class="las la-cpu"></i>
+                        Procesadores</a></li>
+                <li><a href="#" class="nav-link" data-category="Notebooks"><i class="las la-laptop"></i> Notebooks</a>
+                </li>
+                <li><a href="#" class="nav-link" data-category="Tarjetas de Video"><i class="las la-microchip"></i>
+                        Tarjetas de Video</a></li>
+                <li><a href="#" class="nav-link" data-category="Placas Madre"><i class="las la-microchip"></i> Placas
+                        Madre</a></li>
+                <li><a href="#" class="nav-link" data-category="Almacenamiento (SSD)"><i class="las la-hdd"></i>
+                        Almacenamiento</a></li>
+                <li><a href="#" class="nav-link" data-category="Memorias RAM"><i class="las la-memory"></i> RAM</a></li>
+                <li><a href="#" class="nav-link" data-category="Fuentes de Poder"><i class="las la-plug"></i>
+                        Fuentes</a></li>
+                <li><a href="#" class="nav-link" data-category="Gabinetes"><i class="las la-server"></i>
+                        Gabinetes</a></li>
+                <li><a href="#" class="nav-link" data-category="Consolas y Videojuegos"><i class="las la-gamepad"></i>
+                        Consolas</a></li>
+                <li><a href="#" class="nav-link" data-category="Televisores"><i class="las la-tv"></i>
+                        Televisores</a></li>
+                <li><a href="#" class="nav-link" data-category="Periféricos"><i class="las la-keyboard"></i>
+                        Periféricos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- MOBILE NAVIGATION MENU -->
+    <div class="mobile-nav-overlay" id="mobile-nav-overlay"></div>
+    <div class="mobile-nav" id="mobile-nav">
+        <div class="mobile-nav-header">
+            <span class="menu-title">MENÚ AXTECH</span>
+            <button class="mobile-nav-close" id="mobile-nav-close"><i class="las la-times"></i></button>
+        </div>
+        <ul class="mobile-nav-links">
+            <li><a href="#" class="mobile-nav-link active" data-category="all"><i class="las la-th-large"></i> Todos los
+                    Productos</a></li>
+            <li><a href="#" class="mobile-nav-link" data-category="Monitores"><i class="las la-tv"></i> Monitores</a>
+            </li>
+            <li><a href="#" class="mobile-nav-link" data-category="Procesadores"><i class="las la-microchip"></i>
+                    Procesadores</a></li>
+            <li><a href="#" class="mobile-nav-link" data-category="Notebooks"><i class="las la-laptop"></i>
+                    Notebooks</a></li>
+            <li><a href="#" class="mobile-nav-link" data-category="Tarjetas de Video"><i class="las la-microchip"></i>
+                    Tarjetas de Video</a></li>
+            <li><a href="#" class="mobile-nav-link" data-category="Placas Madre"><i class="las la-microchip"></i> Placas
+                    Madre</a></li>
+            <li><a href="#" class="mobile-nav-link" data-category="Almacenamiento (SSD)"><i class="las la-hdd"></i>
+                    Almacenamiento (SSD)</a></li>
+            <li><a href="#" class="mobile-nav-link" data-category="Memorias RAM"><i class="las la-memory"></i> Memorias
+                    RAM</a></li>
+            <li><a href="#" class="mobile-nav-link" data-category="Fuentes de Poder"><i class="las la-plug"></i> Fuentes
+                    de Poder</a></li>
+            <li><a href="#" class="mobile-nav-link" data-category="Gabinetes"><i class="las la-server"></i>
+                    Gabinetes</a></li>
+            <li><a href="#" class="mobile-nav-link" data-category="Consolas y Videojuegos"><i
+                        class="las la-gamepad"></i> Consolas y Videojuegos</a></li>
+            <li><a href="#" class="mobile-nav-link" data-category="Televisores"><i class="las la-tv"></i> Televisores</a></li>
+            <li><a href="#" class="mobile-nav-link" data-category="Periféricos"><i class="las la-keyboard"></i>
+                    Periféricos</a></li>
+        </ul>
+        <div class="mobile-nav-footer">
+            <p>Contáctanos:</p>
+            <a href="https://wa.me/595976914662" target="_blank" class="contact-link"><i class="lab la-whatsapp"></i>
+                +595 976 914662</a>
+            <a href="https://instagram.com/axtech_py" target="_blank" class="contact-link"><i
+                    class="lab la-instagram"></i> @axtech_py</a>
+            <a href="https://www.facebook.com/to.hermana.71" target="_blank" class="contact-link"><i
+                    class="lab la-facebook-f"></i> Axtech Informatica</a>
+        </div>
+    </div>
+
+    <!-- MAIN BODY CONTAINER -->
+    <main class="main-content">
+
+
+        <!-- PRODUCT CATALOG SECTION -->
+        <section class="catalog-section container" id="catalog-section">
+
+            <div class="catalog-header">
+                <div class="catalog-header-left">
+                    <h3 class="section-title" id="catalog-title">Todos los Productos</h3>
+                    <p class="section-subtitle" id="catalog-results-count">Mostrando 60 productos</p>
+                </div>
+                <div class="catalog-header-right">
+
+                    <!-- Sorting control -->
+                    <div class="sort-wrapper">
+                        <label for="sort-select"><i class="las la-sort"></i> Ordenar por:</label>
+                        <select id="sort-select">
+                            <option value="default">Relevancia</option>
+                            <option value="price-asc">Precio: Menor a Mayor</option>
+                            <option value="price-desc">Precio: Mayor a Menor</option>
+                        </select>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Main catalog layout: Left categories panel + Right dynamic products grid -->
+            <div class="catalog-layout no-sidebar">
+                <!-- Sidebar categories filters -->
+                <aside class="catalog-sidebar" style="display: none;">
+                    <div class="sidebar-widget" id="sidebar-categories-widget">
+                        <h4 class="widget-title"><i class="las la-list"></i> Categorías</h4>
+                        <ul class="sidebar-links">
+                            <li><button class="sidebar-link active" data-category="all">Todos los Productos</button>
+                            </li>
+                            <li><button class="sidebar-link" data-category="Monitores">Monitores</button></li>
+                            <li><button class="sidebar-link" data-category="Procesadores">Procesadores</button></li>
+                            <li><button class="sidebar-link" data-category="Notebooks">Notebooks</button></li>
+                            <li><button class="sidebar-link" data-category="Tarjetas de Video">Tarjetas de
+                                    Video</button></li>
+                            <li><button class="sidebar-link" data-category="Placas Madre">Placas Madre</button></li>
+                            <li><button class="sidebar-link" data-category="Almacenamiento (SSD)">Almacenamiento
+                                    (SSD)</button></li>
+                            <li><button class="sidebar-link" data-category="Memorias RAM">Memorias RAM</button></li>
+                            <li><button class="sidebar-link" data-category="Fuentes de Poder">Fuentes de Poder</button>
+                            </li>
+                            <li><button class="sidebar-link" data-category="Consolas y Videojuegos">Consolas y
+                                    Videojuegos</button></li>
+                            <li><button class="sidebar-link" data-category="Televisores">Televisores</button></li>
+                            <li><button class="sidebar-link" data-category="Periféricos">Periféricos</button></li>
+                        </ul>
+                    </div>
+
+
+                </aside>
+
+                <!-- Products column -->
+                <div class="catalog-main">
+
+                    <!-- Loader spinner -->
+                    <div class="catalog-loader" id="catalog-loader">
+                        <div class="spinner"></div>
+                        <p>Buscando hardware...</p>
+                    </div>
+
+                    <!-- Dynamic Products Grid -->
+                    <div class="products-grid" id="products-grid">
+                        <!-- Cards will be dynamically injected here via app.js -->
+                    </div>
+
+                    <!-- Pagination Controls -->
+                    <div class="pagination-container" id="pagination-container">
+                        <!-- Dynamic page items injected by app.js -->
+                    </div>
+
+                    <!-- No Results Banner -->
+                    <div class="no-results-banner" id="no-results-banner">
+                        <i class="las la-search-minus icon"></i>
+                        <h4>No encontramos coincidencias</h4>
+                        <p>Intenta usar palabras claves más generales o busca en otra categoría.</p>
+                        <button id="reset-search-btn" class="btn btn-primary">Limpiar Búsqueda</button>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-top">
+            <div class="footer-widget-col">
+                <a href="#" class="logo footer-logo">
+                    <div class="logo-icon"><img src="assets/logo.jpg" alt="AXTECH Icon" class="logo-icon-img"></div>
+                    <div class="logo-text">
+                        <span class="logo-main text-white">AXTECH</span>
+                        <span class="logo-sub text-gray">HARDWARE & TECNOLOGÍA</span>
+                    </div>
+                </a>
+                <div class="footer-socials">
+                    <a href="https://www.facebook.com/to.hermana.71" target="_blank" class="social-icon"><i
+                            class="lab la-facebook-f"></i></a>
+                    <a href="https://instagram.com/axtech_py" target="_blank" class="social-icon"><i
+                            class="lab la-instagram"></i></a>
+                    <a href="https://wa.me/595976914662" target="_blank" class="social-icon"><i
+                            class="lab la-whatsapp"></i></a>
+                </div>
+            </div>
+
+
+            <div class="footer-widget-col">
+                <h4 class="footer-widget-title">Soporte y Compras</h4>
+                <ul class="footer-links">
+                    <li><a href="https://wa.me/595976914662" target="_blank"><i class="lab la-whatsapp text-green"></i>
+                            Ventas & Presupuestos</a></li>
+                    <li><a href="https://wa.me/595976914662" target="_blank"><i class="lab la-whatsapp text-green"></i>
+                            Soporte de Armados</a></li>
+                    <li><a href="https://instagram.com/axtech_py" target="_blank"><i class="lab la-instagram"></i>
+                            Novedades en Instagram</a></li>
+                    <li><a href="https://www.facebook.com/to.hermana.71" target="_blank"><i class="lab la-facebook-f text-blue"></i>
+                            Página de Facebook</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-widget-col">
+                <h4 class="footer-widget-title">Información de Tienda</h4>
+                <ul class="footer-contact-info">
+                    <li>
+                        <i class="las la-phone"></i>
+                        <div>
+                            <span>Línea Directa / WhatsApp</span>
+                            <strong>+595 976 914662</strong>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="las la-clock"></i>
+                        <div>
+                            <span>Horarios de Atención</span>
+                            <strong>Lunes a Viernes: 08:00 - 20:00 hs</strong>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="las la-globe"></i>
+                        <div>
+                            <span>Modalidad de Tienda</span>
+                            <strong>Tienda 100% Online (Sin local físico)</strong>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-content">
+                <p class="copyright">&copy; 2026 AXTECH. Todos los derechos reservados.</p>
+                <div class="payment-methods">
+                    <span><i class="las la-wallet"></i> Transferencias Bancarias / Giros / Efectivo</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SLIDE-IN SHOPPING CART DRAWERS -->
+    <div class="cart-drawer-overlay" id="cart-drawer-overlay"></div>
+    <div class="cart-drawer" id="cart-drawer">
+        <div class="cart-drawer-header">
+            <h3><i class="las la-shopping-basket"></i> Mi Carrito</h3>
+            <button class="cart-drawer-close" id="cart-drawer-close"><i class="las la-times"></i></button>
+        </div>
+
+        <!-- Cart Body -->
+        <div class="cart-drawer-body" id="cart-items-container">
+            <!-- Dynamic list of items in cart -->
+        </div>
+
+        <!-- Cart Empty State -->
+        <div class="cart-empty-state" id="cart-empty-state">
+            <i class="las la-shopping-cart icon"></i>
+            <p>Tu carrito está vacío</p>
+            <p class="small">Explora nuestro catálogo para agregar componentes.</p>
+            <button class="btn btn-primary btn-sm" id="cart-start-shopping-btn">Comenzar a Comprar</button>
+        </div>
+
+        <div class="cart-drawer-footer" id="cart-drawer-footer">
+            <div class="cart-drawer-notice">
+                <span class="notice-item"><i class="las la-shield-alt"></i> Garantía de 3 meses en productos</span>
+                <span class="notice-item"><i class="las la-truck"></i> Envío con costo adicional</span>
+            </div>
+            <div class="cart-summary-line">
+                <span>Subtotal:</span>
+                <span class="cart-total-price" id="cart-subtotal-price">Gs. 0</span>
+            </div>
+            <div class="cart-summary-line delivery-line">
+                <span>Envío:</span>
+                <span class="text-delivery-note">Costo Adicional (A coordinar) <i class="las la-truck"></i></span>
+            </div>
+            <div class="cart-total-divider"></div>
+            <div class="cart-summary-line total-line">
+                <span>Total Estimado:</span>
+                <span class="cart-total-price" id="cart-total-price">Gs. 0</span>
+            </div>
+
+            <button class="btn btn-success checkout-btn" id="cart-checkout-btn">
+                <i class="lab la-whatsapp"></i> Finalizar Pedido por WhatsApp
+            </button>
+            <p class="checkout-hint">Se abrirá un chat de WhatsApp con la lista de tus productos para concretar la
+                entrega (con costo adicional) y el pago.</p>
+        </div>
+    </div>
+
+    <!-- PRODUCT DETAILS MODAL -->
+    <div class="modal-overlay" id="product-modal-overlay"></div>
+    <div class="modal" id="product-modal">
+        <button class="modal-close" id="product-modal-close"><i class="las la-times"></i></button>
+        <div class="modal-content" id="product-modal-body">
+            <!-- Dynamic product detail injected here via app.js -->
+        </div>
+    </div>
+
+    <!-- TOAST NOTIFICATION CONTAINER -->
+    <div id="notification-container" class="notification-container"></div>
+
+    <!-- LOAD PRODUCTS AND CONTROLLERS -->
+    <script src="products.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

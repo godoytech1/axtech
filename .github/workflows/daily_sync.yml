@@ -1,0 +1,30 @@
+name: AXTECH Daily Catalog Sync
+
+on:
+  schedule:
+    # Ejecucción diaria a las 04:00 AM hora de Paraguay (07:00 UTC)
+    - cron: '0 7 * * *'
+  workflow_dispatch: # Permite ejecutar la sincronización manualmente desde GitHub en cualquier momento
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run AXTECH Catalog Sync
+        run: node sync_topdek.js
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "AXTECH Sync Bot"
+          git config --global user.email "bot@axtech-py.vercel.app"
+          git add products.js
+          git diff-index --quiet HEAD || git commit -m "Auto-sync: Actualización nocturna de catálogo y stock TopDek"
+          git push
