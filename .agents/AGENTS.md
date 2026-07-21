@@ -25,6 +25,10 @@ Este archivo contiene la especificación técnica completa, reglas de negocio, e
 - **Regla del Margen de Ganancia**:
   - A TODOS los productos importados al catálogo se les aplica un recargo fijo de **+100.000 Gs.** sobre el precio base de costo del distribuidor en Guaraníes.
   - **Fórmula**: `pyg = pyg_orig + 100000`
+- **Regla Estricta de Imágenes ("PRODUTO SEM IMAGEM")**:
+  - NUNCA importar ni mostrar productos que no tengan imagen real o que tengan la imagen de relleno por defecto ("PRODUTO SEM IMAGEM").
+  - Cualquier producto de TopDek que no posea imagen oficial de producto debe ser descartado durante la sincronización y filtrado en la tienda.
+
 - **Estructura Obligatoria de Objeto de Producto en `products.js`**:
   ```javascript
   {

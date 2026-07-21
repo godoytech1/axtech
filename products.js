@@ -4957,28 +4957,6 @@ const PRODUCTS =
         "sob_consulta": false
     },
     {
-        "id": 220,
-        "ref": "227606",
-        "brand": "MEMÃ“RIA",
-        "title_orig": "Memoria Macroway, DDR4 8GB (1x8GB), 2666MHz, Verde",
-        "title": "Memoria Macroway, DDR4 8GB (1x8GB), 2666MHz, Verde",
-        "category": "Memorias RAM",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_227606_1.JPG",
-        "usd": "US$ 46,00",
-        "brl": "R$ 242,88",
-        "pyg_orig": 292560,
-        "pyg_orig_str": "Gs. 292.560",
-        "pyg": 392560,
-        "pyg_str": "Gs. 392.560",
-        "orig_url": "https://www.topdekinformatica.com.br/produto/mem-ddr4-8gb-2666-macroway-lo-dimm/227606.html",
-        "specs": [
-            "DDR4 8GB (1x8GB)",
-            "2666MHz",
-            "Verde"
-        ],
-        "sob_consulta": false
-    },
-    {
         "id": 221,
         "ref": "353650",
         "brand": "BIOSTAR",
@@ -19799,24 +19777,6 @@ const PRODUCTS =
         "sob_consulta": false
     },
     {
-        "id": 9270,
-        "ref": "345348",
-        "brand": "ASROCK",
-        "title_orig": "VGA RX9060XT 16GB ASROCK CHALLENGER OC 2FANS 90-GA5QZZ-00UAN Z 2FANS",
-        "title": "VGA RX9060XT 16GB ASROCK CHALLENGER OC 2FANS 90-GA5QZZ-00UAN Z 2FANS",
-        "category": "Tarjetas de Video",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_345348_1.JPG",
-        "usd": "US$ 510,00",
-        "brl": "R$ 2.682,60",
-        "pyg_orig": 3243600,
-        "pyg_orig_str": "Gs. 3.243.600",
-        "pyg": 3343600,
-        "pyg_str": "Gs. 3.343.600",
-        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rx9060xt-16gb-asrock-challenger-oc-2fans-90-ga5qzz-00uan-z-2fans-codigo-345348/345348.html",
-        "specs": [],
-        "sob_consulta": false
-    },
-    {
         "id": 9271,
         "ref": "345337",
         "brand": "ASROCK",
@@ -23097,44 +23057,6 @@ const PRODUCTS =
         "sob_consulta": false
     },
     {
-        "id": 9437,
-        "ref": "232108",
-        "brand": "REDRAGON",
-        "title_orig": "FONTE 750W REDRAGON GC-PS006-1 80+GOLD F-MODULAR RGPS-750W",
-        "title": "Fuente 750W REDRAGON GC-PS006-1 80+GOLD F-MODULAR RGPS-750W",
-        "category": "Fuentes de Poder",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_232108_1.JPG",
-        "usd": "US$ 95,50",
-        "brl": "R$ 502,33",
-        "pyg_orig": 607380,
-        "pyg_orig_str": "Gs. 607.380",
-        "pyg": 707380,
-        "pyg_str": "Gs. 707.380",
-        "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-750w-redragon-gc-ps006-1-80-gold-f-modular-rgps-750w/232108.html",
-        "specs": [
-            "Fuente"
-        ],
-        "sob_consulta": false
-    },
-    {
-        "id": 9438,
-        "ref": "141184",
-        "brand": "PILHAS",
-        "title_orig": "Pilhas Recarregvel Mox AAA com 4 Pilhas, 2300MAH",
-        "title": "Pilhas Recarregvel Mox AAA com 4 Pilhas, 2300MAH",
-        "category": "Fuentes de Poder",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_141184_1.JPG",
-        "usd": "US$ 3,00",
-        "brl": "R$ 15,78",
-        "pyg_orig": 19080,
-        "pyg_orig_str": "Gs. 19.080",
-        "pyg": 119080,
-        "pyg_str": "Gs. 119.080",
-        "orig_url": "https://www.topdekinformatica.com.br/produto/pilhas-recarregavel-mox-aaa-com-4-pilhas-2300mah/141184.html",
-        "specs": [],
-        "sob_consulta": false
-    },
-    {
         "id": 9439,
         "ref": "182920",
         "brand": "PILHAS",
@@ -23661,26 +23583,6 @@ const PRODUCTS =
         "pyg": 729640,
         "pyg_str": "Gs. 729.640",
         "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-750w-corsair-rm750e-80-gold-full-modular-g-cp-9020295-na-codigo-348867/348867.html",
-        "specs": [
-            "Fuente"
-        ],
-        "sob_consulta": false
-    },
-    {
-        "id": 9467,
-        "ref": "333121",
-        "brand": "MSI",
-        "title_orig": "FONTE 850W MSI MAG A850GL PCIE5 306-7ZP8A12-CE0 ATX3.0/PCIE 5.0 306-7ZP8A23-CE0",
-        "title": "Fuente 850W MSI MAG A850GL PCIE5 306-7ZP8A12-CE0 ATX3.0/PCIE 5.0 306-7ZP8A23-CE0",
-        "category": "Fuentes de Poder",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_333121_1.JPG",
-        "usd": "US$ 102,00",
-        "brl": "R$ 536,52",
-        "pyg_orig": 648720,
-        "pyg_orig_str": "Gs. 648.720",
-        "pyg": 748720,
-        "pyg_str": "Gs. 748.720",
-        "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-850w-msi-mag-a850gl-pcie5-306-7zp8a12-ce0-atx3-0-pcie-5-0-306-7zp8a23-ce0/333121.html",
         "specs": [
             "Fuente"
         ],
@@ -26239,26 +26141,6 @@ const PRODUCTS =
         "sob_consulta": false
     },
     {
-        "id": 9594,
-        "ref": "227672",
-        "brand": "STAR",
-        "title_orig": "MB 1155 STAR H61 M.2/HDMI/VGA/USB2.0",
-        "title": "MB 1155 STAR H61 M.2/HDMI/VGA/USB2.0",
-        "category": "Placas Madre",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_227672_1.JPG",
-        "usd": "US$ 20,00",
-        "brl": "R$ 105,20",
-        "pyg_orig": 127200,
-        "pyg_orig_str": "Gs. 127.200",
-        "pyg": 227200,
-        "pyg_str": "Gs. 227.200",
-        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-1155-star-h61-m-2-hdmi-vga-usb2-0/227672.html",
-        "specs": [
-            "M.2"
-        ],
-        "sob_consulta": false
-    },
-    {
         "id": 9595,
         "ref": "233928",
         "brand": "GIGABYTE",
@@ -26443,26 +26325,6 @@ const PRODUCTS =
         "sob_consulta": false
     },
     {
-        "id": 9604,
-        "ref": "315301",
-        "brand": "GIGABYTE",
-        "title_orig": "MB 1700 GIGABYTE B760M D3HP DDR5 HDMI/DP/USB3.2",
-        "title": "MB 1700 GIGABYTE B760M D3HP DDR5 HDMI/DP/USB3.2",
-        "category": "Placas Madre",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_315301_1.JPG",
-        "usd": "US$ 100,00",
-        "brl": "R$ 526,00",
-        "pyg_orig": 636000,
-        "pyg_orig_str": "Gs. 636.000",
-        "pyg": 736000,
-        "pyg_str": "Gs. 736.000",
-        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-1700-gigabyte-b760m-d3hp-ddr5-hdmi-dp-usb3-2-codigo-315301/315301.html",
-        "specs": [
-            "DDR5"
-        ],
-        "sob_consulta": false
-    },
-    {
         "id": 9605,
         "ref": "292887",
         "brand": "ASROCK",
@@ -26558,26 +26420,6 @@ const PRODUCTS =
         "pyg": 2739400,
         "pyg_str": "Gs. 2.739.400",
         "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am5-biostar-x870e-valkyrie-ddr5-hdmi-dp/316199.html",
-        "specs": [
-            "DDR5"
-        ],
-        "sob_consulta": false
-    },
-    {
-        "id": 9610,
-        "ref": "253829",
-        "brand": "BIOSTAR",
-        "title_orig": "Placa Me Biostar B650MT Socket AM5 DDR5 HDMI/DP/USB3.2",
-        "title": "Placa Me Biostar B650MT Socket AM5 DDR5 HDMI/DP/USB3.2",
-        "category": "Placas Madre",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_253829_1.JPG",
-        "usd": "US$ 72,00",
-        "brl": "R$ 378,72",
-        "pyg_orig": 457920,
-        "pyg_orig_str": "Gs. 457.920",
-        "pyg": 557920,
-        "pyg_str": "Gs. 557.920",
-        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-mae-biostar-b650mt-socket-am5-ddr5-hdmi-dp-usb3-2/253829.html",
         "specs": [
             "DDR5"
         ],
@@ -27479,27 +27321,6 @@ const PRODUCTS =
         "orig_url": "https://www.topdekinformatica.com.br/produto/mb-1700-asus-b760m-ayw-wifi-ii-ddr5-hdmi-usb3-2-codigo-343616/343616.html",
         "specs": [
             "DDR5"
-        ],
-        "sob_consulta": false
-    },
-    {
-        "id": 9655,
-        "ref": "311230",
-        "brand": "ASUS",
-        "title_orig": "MB AM5 ASUS B840M-A PRIME WIFI/DDR5/HDMI/M.2/2DP WIFI6E",
-        "title": "MB AM5 ASUS B840M-A PRIME WIFI/DDR5/HDMI/M.2/2DP WIFI6E",
-        "category": "Placas Madre",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_311230_4.JPG",
-        "usd": "US$ 154,00",
-        "brl": "R$ 810,04",
-        "pyg_orig": 979440,
-        "pyg_orig_str": "Gs. 979.440",
-        "pyg": 1079440,
-        "pyg_str": "Gs. 1.079.440",
-        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am5-asus-b840m-a-prime-wifi-ddr5-hdmi-m-2-2dp-wifi6e-codigo-311230/311230.html",
-        "specs": [
-            "DDR5",
-            "M.2"
         ],
         "sob_consulta": false
     },
@@ -29770,28 +29591,6 @@ const PRODUCTS =
         "orig_url": "https://www.topdekinformatica.com.br/produto/ssd-keepdata-120gb-2-5-sata-3-kds120g-l21-500-450-mb-s/76731.html",
         "specs": [
             "SSD"
-        ],
-        "sob_consulta": false
-    },
-    {
-        "id": 9771,
-        "ref": "235201",
-        "brand": "HD",
-        "title_orig": "HD SSD M.2 1TB NVME SANDISK EXTREME SDSSDX3N-1T00",
-        "title": "HD SSD M.2 1TB NVME SANDISK EXTREME SDSSDX3N-1T00",
-        "category": "Almacenamiento (SSD)",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_235201_1.JPG",
-        "usd": "US$ 249,75",
-        "brl": "R$ 1.313,69",
-        "pyg_orig": 1588410,
-        "pyg_orig_str": "Gs. 1.588.410",
-        "pyg": 1688410,
-        "pyg_str": "Gs. 1.688.410",
-        "orig_url": "https://www.topdekinformatica.com.br/produto/hd-ssd-m-2-1tb-nvme-sandisk-extreme-sdssdx3n-1t00-codigo-235201/235201.html",
-        "specs": [
-            "SSD",
-            "M.2",
-            "NVMe"
         ],
         "sob_consulta": false
     },
@@ -34288,24 +34087,6 @@ const PRODUCTS =
         "sob_consulta": false
     },
     {
-        "id": 10009,
-        "ref": "299705",
-        "brand": "SUPORTE",
-        "title_orig": "SUPORTE P/ MONITOR QUANTA QTSAM800 GAS 15/27",
-        "title": "SUPORTE P/ MONITOR QUANTA QTSAM800 GAS 15/27",
-        "category": "Monitores",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_299705_1.JPG",
-        "usd": "US$ 26,00",
-        "brl": "R$ 136,76",
-        "pyg_orig": 165360,
-        "pyg_orig_str": "Gs. 165.360",
-        "pyg": 265360,
-        "pyg_str": "Gs. 265.360",
-        "orig_url": "https://www.topdekinformatica.com.br/produto/suporte-p-monitor-quanta-qtsam800-gas-15-27-codigo-299705/299705.html",
-        "specs": [],
-        "sob_consulta": false
-    },
-    {
         "id": 10010,
         "ref": "326235",
         "brand": "SAMSUNG",
@@ -35088,24 +34869,6 @@ const PRODUCTS =
         "pyg": 367120,
         "pyg_str": "Gs. 367.120",
         "orig_url": "https://www.topdekinformatica.com.br/produto/controle-gamesir-cyclone-2-multiplataforma-black-c-base/319710.html",
-        "specs": [],
-        "sob_consulta": false
-    },
-    {
-        "id": 10051,
-        "ref": "396185",
-        "brand": "CONTROLE",
-        "title_orig": "CONTROLE PS4 PPP SPIDERMAN RED/WHITE RED",
-        "title": "CONTROLE PS4 PPP SPIDERMAN RED/WHITE RED",
-        "category": "Consolas y Videojuegos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_396185_1.JPG",
-        "usd": "US$ 13,00",
-        "brl": "R$ 68,38",
-        "pyg_orig": 82680,
-        "pyg_orig_str": "Gs. 82.680",
-        "pyg": 182680,
-        "pyg_str": "Gs. 182.680",
-        "orig_url": "https://www.topdekinformatica.com.br/produto/controle-ps4-ppp-spiderman-red-white-red-/396185.html",
         "specs": [],
         "sob_consulta": false
     },
@@ -38607,26 +38370,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 10236,
-        "ref": "170759",
-        "brand": "KEEPDATA",
-        "title_orig": "HD SSD M 2 1TB NVME KEEPDATA KDNV1T J12 2280  170759",
-        "title": "HD SSD M 2 1TB NVME KEEPDATA KDNV1T J12 2280  170759",
-        "category": "Almacenamiento (SSD)",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_170759_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/hd-ssd-m-2-1tb-nvme-keepdata-kdnv1t-j12-2280-codigo-170759/170759.html",
-        "specs": [
-            "KEEPDATA",
-            "Almacenamiento (SSD)"
-        ]
-    },
-    {
         "id": 10237,
         "ref": "387242",
         "brand": "GENERIC",
@@ -39067,26 +38810,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 10259,
-        "ref": "376016",
-        "brand": "ZOTAC",
-        "title_orig": "PC GAMER MONTADO RYZEN 5 5500 4 20GHZ RTX5050 ZOTAC TWIN EDGE 8GB 16GB RAM DDR4 SSD 1TB NVME PLACA MAE AM4 A520M FONTE 600W WATER COOLER 120MM",
-        "title": "PC GAMER MONTADO RYZEN 5 5500 4 20GHZ RTX5050 ZOTAC TWIN EDGE 8GB 16GB RAM DDR4 SSD 1TB NVME PLACA MAE AM4 A520M FONTE 600W WATER COOLER 120MM",
-        "category": "Tarjetas de Video",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_376016_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/pc-gamer-montado-ryzen-5-5500-4-20ghz-rtx5050-zotac-twin-edge-8gb-16gb-ram-ddr4-ssd-1tb-nvme-placa-mae-am4-a520m-fonte-600w-water-cooler-120mm/376016.html",
-        "specs": [
-            "ZOTAC",
-            "Tarjetas de Video"
-        ]
-    },
-    {
         "id": 10260,
         "ref": "387210",
         "brand": "GENERIC",
@@ -39187,46 +38910,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 10265,
-        "ref": "315872",
-        "brand": "INTEL",
-        "title_orig": "PC MONTADO UP GAMER VORTEX INTEL CORE I7 2600 3 60GHZ GT730 4GB RAM 16GB DDR3 1600MHZ SSD 480GB 2 5 PLACA MAE H61 FONTE 400W 4X FANS ARGB COOLER PROCESSADOR",
-        "title": "PC MONTADO UP GAMER VORTEX INTEL CORE I7 2600 3 60GHZ GT730 4GB RAM 16GB DDR3 1600MHZ SSD 480GB 2 5 PLACA MAE H61 FONTE 400W 4X FANS ARGB COOLER PROCESSADOR",
-        "category": "Fuentes de Poder",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_315872_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/pc-montado-up-gamer-vortex-intel-core-i7-2600-3-60ghz-gt730-4gb-ram-16gb-ddr3-1600mhz-ssd-480gb-2-5-placa-mae-h61-fonte-400w-4x-fans-argb-cooler-processador/315872.html",
-        "specs": [
-            "UP GAMER",
-            "Fuentes de Poder"
-        ]
-    },
-    {
-        "id": 10266,
-        "ref": "318539",
-        "brand": "INTEL",
-        "title_orig": "PC MONTADO INTEL CORE I3 2100 3 10GHZ RAM 8GB DDR3 1600MHZ SSD 240GB 2 5 PLACA MAE H61M G FONTE 200W COOLER CPU INTEL COOL STORM GABINETE MINI ITX PRETO",
-        "title": "PC MONTADO INTEL CORE I3 2100 3 10GHZ RAM 8GB DDR3 1600MHZ SSD 240GB 2 5 PLACA MAE H61M G FONTE 200W COOLER CPU INTEL COOL STORM GABINETE MINI ITX Negro",
-        "category": "Fuentes de Poder",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_318539_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/pc-montado-intel-core-i3-2100-3-10ghz-ram-8gb-ddr3-1600mhz-ssd-240gb-2-5-placa-mae-h61m-g-fonte-200w-cooler-cpu-intel-cool-storm-gabinete-mini-itx-preto/318539.html",
-        "specs": [
-            "INTEL",
-            "Fuentes de Poder"
-        ]
-    },
-    {
         "id": 10267,
         "ref": "378185",
         "brand": "INTEL",
@@ -39244,26 +38927,6 @@ const PRODUCTS =
         "specs": [
             "INTEL",
             "Tarjetas de Video"
-        ]
-    },
-    {
-        "id": 10268,
-        "ref": "318550",
-        "brand": "INTEL",
-        "title_orig": "PC MONTADO INTEL CORE I5 2300 3 10GHZ RAM 8GB DDR3 1600MHZ SSD 480GB 2 5 PLACA MAE H61M G FONTE 200W COOLER CPU INTEL COOL STORM GABINETE MINI ITX PRETO  318550",
-        "title": "PC MONTADO INTEL CORE I5 2300 3 10GHZ RAM 8GB DDR3 1600MHZ SSD 480GB 2 5 PLACA MAE H61M G FONTE 200W COOLER CPU INTEL COOL STORM GABINETE MINI ITX Negro  318550",
-        "category": "Fuentes de Poder",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_318550_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/pc-montado-intel-core-i5-2300-3-10ghz-ram-8gb-ddr3-1600mhz-ssd-480gb-2-5-placa-mae-h61m-g-fonte-200w-cooler-cpu-intel-cool-storm-gabinete-mini-itx-preto-codigo-318550/318550.html",
-        "specs": [
-            "INTEL",
-            "Fuentes de Poder"
         ]
     },
     {
@@ -39304,26 +38967,6 @@ const PRODUCTS =
         "specs": [
             "UP GAMER",
             "Fuentes de Poder"
-        ]
-    },
-    {
-        "id": 10271,
-        "ref": "318540",
-        "brand": "INTEL",
-        "title_orig": "PC MONTADO INTEL CORE I3 7100 3 90GHZ RAM 16GB DDR4 3200MHZ SSD 480GB 2 5 PLACA MAE B250 FONTE 200W COOLER CPU INTEL COOL STORM GABINETE MINI ITX PRETO  318540",
-        "title": "PC MONTADO INTEL CORE I3 7100 3 90GHZ RAM 16GB DDR4 3200MHZ SSD 480GB 2 5 PLACA MAE B250 FONTE 200W COOLER CPU INTEL COOL STORM GABINETE MINI ITX Negro  318540",
-        "category": "Memorias RAM",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_318540_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/pc-montado-intel-core-i3-7100-3-90ghz-ram-16gb-ddr4-3200mhz-ssd-480gb-2-5-placa-mae-b250-fonte-200w-cooler-cpu-intel-cool-storm-gabinete-mini-itx-preto-codigo-318540/318540.html",
-        "specs": [
-            "INTEL",
-            "Memorias RAM"
         ]
     },
     {
@@ -40487,26 +40130,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 10330,
-        "ref": "251063",
-        "brand": "INTEL",
-        "title_orig": "MINI PC GMKTEC NUCBOX G2 PLUS INTEL N150 3 60GHZ 12GB RAM 512GB SSD WINDOWS 11 PRO  251063",
-        "title": "MINI PC GMKTEC NUCBOX G2 PLUS INTEL N150 3 60GHZ 12GB RAM 512GB SSD WINDOWS 11 PRO  251063",
-        "category": "Almacenamiento (SSD)",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_251063_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/mini-pc-gmktec-nucbox-g2-plus-intel-n150-3-60ghz-12gb-ram-512gb-ssd-windows-11-pro-codigo-251063/251063.html",
-        "specs": [
-            "INTEL",
-            "Almacenamiento (SSD)"
-        ]
-    },
-    {
         "id": 10331,
         "ref": "230510",
         "brand": "INTEL",
@@ -41547,26 +41170,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 10383,
-        "ref": "118985",
-        "brand": "KEEPDATA",
-        "title_orig": "SSD KEEPDATA 128GB M 2 SATA LEITURA 550MB S GRAVACAO 500MB S KDM128G J12",
-        "title": "SSD KEEPDATA 128GB M 2 SATA LEITURA 550MB S GRAVACAO 500MB S KDM128G J12",
-        "category": "Almacenamiento (SSD)",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_118985_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/ssd-keepdata-128gb-m-2-sata-leitura-550mb-s-gravacao-500mb-s-kdm128g-j12/118985.html",
-        "specs": [
-            "KEEPDATA",
-            "Almacenamiento (SSD)"
-        ]
-    },
-    {
         "id": 10384,
         "ref": "195059",
         "brand": "GENERIC",
@@ -41901,26 +41504,6 @@ const PRODUCTS =
         "pyg_str": "Bajo Consulta",
         "sob_consulta": true,
         "orig_url": "https://www.topdekinformatica.com.br/produto/hd-ssd-m-2-480gb-wd-green-wds480g2g0b-wds480g2g0b-00e/33140.html",
-        "specs": [
-            "GENERIC",
-            "Almacenamiento (SSD)"
-        ]
-    },
-    {
-        "id": 10401,
-        "ref": "173470",
-        "brand": "GENERIC",
-        "title_orig": "HD SSD M 2 256GB ADATA SU650 ASU650NS38 256GT C ASU650NS38 256G",
-        "title": "HD SSD M 2 256GB ADATA SU650 ASU650NS38 256GT C ASU650NS38 256G",
-        "category": "Almacenamiento (SSD)",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_173470_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/hd-ssd-m-2-256gb-adata-su650-asu650ns38-256gt-c-asu650ns38-256g/173470.html",
         "specs": [
             "GENERIC",
             "Almacenamiento (SSD)"
@@ -42547,26 +42130,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 10433,
-        "ref": "185282",
-        "brand": "ASUS",
-        "title_orig": "SERVIDOR NAS ASUSTOR AS3302T DRIVESTOR 2 PRO  185282",
-        "title": "SERVIDOR NAS ASUSTOR AS3302T DRIVESTOR 2 PRO  185282",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_185282_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/servidor-nas-asustor-as3302t-drivestor-2-pro-codigo-185282/185282.html",
-        "specs": [
-            "ASUS",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 10434,
         "ref": "239700",
         "brand": "ASUS",
@@ -42927,26 +42490,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 10452,
-        "ref": "299940",
-        "brand": "GENERIC",
-        "title_orig": "SERVIDOR NAS STORAGE QNAP TS 233 US 2BAY ARM 4C CORTEX A55 2GB 299940",
-        "title": "SERVIDOR NAS STORAGE QNAP TS 233 US 2BAY ARM 4C CORTEX A55 2GB 299940",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_299940_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/servidor-nas-storage-qnap-ts-233-us-2bay-arm-4c-cortex-a55-2gb-299940/299940.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 10453,
         "ref": "31597",
         "brand": "GENERIC",
@@ -42987,46 +42530,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 10455,
-        "ref": "284530",
-        "brand": "AMD",
-        "title_orig": "SERVIDOR NAS STORAGE SYNOLOGY DISKSTATION DS723 AMD R1600 2BAIA 284530",
-        "title": "SERVIDOR NAS STORAGE SYNOLOGY DISKSTATION DS723 AMD R1600 2BAIA 284530",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_284530_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/servidor-nas-storage-synology-diskstation-ds723-amd-r1600-2baia-284530/284530.html",
-        "specs": [
-            "AMD",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 10456,
-        "ref": "290830",
-        "brand": "GENERIC",
-        "title_orig": "SERVIDOR NAS QNAP TS 133 1BAY 1 8GHZ 2GB RAM ARM CORTEX A55 290830",
-        "title": "SERVIDOR NAS QNAP TS 133 1BAY 1 8GHZ 2GB RAM ARM CORTEX A55 290830",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_290830_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/servidor-nas-qnap-ts-133-1bay-1-8ghz-2gb-ram-arm-cortex-a55-290830/290830.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 10457,
         "ref": "369444",
         "brand": "ASUS",
@@ -43047,46 +42550,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 10458,
-        "ref": "222690",
-        "brand": "GENERIC",
-        "title_orig": "SERVIDOR NAS DISKSTATION DS1522 R1600 8GB 5BAIAS USB BLACK 222690",
-        "title": "SERVIDOR NAS DISKSTATION DS1522 R1600 8GB 5BAIAS USB BLACK 222690",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_222690_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/servidor-nas-diskstation-ds1522-r1600-8gb-5baias-usb-black-222690/222690.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 10459,
-        "ref": "324771",
-        "brand": "GENERIC",
-        "title_orig": "COMBO SERVIDOR X99DP 2CPU XEON E5 2670 V3 128GB DDR4 ECC 324771",
-        "title": "COMBO SERVIDOR X99DP 2CPU XEON E5 2670 V3 128GB DDR4 ECC 324771",
-        "category": "Memorias RAM",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_324771_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/combo-servidor-x99dp-2cpu-xeon-e5-2670-v3-128gb-ddr4-ecc-324771/324771.html",
-        "specs": [
-            "GENERIC",
-            "Memorias RAM"
-        ]
-    },
-    {
         "id": 10460,
         "ref": "369466",
         "brand": "ASUS",
@@ -43103,26 +42566,6 @@ const PRODUCTS =
         "orig_url": "https://www.topdekinformatica.com.br/produto/servidor-nas-asustor-as3302t-v2-qc-1-7-2bay-2g-2-5gblan-usb3-2/369466.html",
         "specs": [
             "ASUS",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 10461,
-        "ref": "332590",
-        "brand": "GENERIC",
-        "title_orig": "SERVIDOR NAS QNAP TS 464 N5095 2 9G 8GB 4 BAIAS 332590",
-        "title": "SERVIDOR NAS QNAP TS 464 N5095 2 9G 8GB 4 BAIAS 332590",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_332590_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/servidor-nas-qnap-ts-464-n5095-2-9g-8gb-4-baias-332590/332590.html",
-        "specs": [
-            "GENERIC",
             "Periféricos"
         ]
     },
@@ -43201,26 +42644,6 @@ const PRODUCTS =
         "pyg_str": "Bajo Consulta",
         "sob_consulta": true,
         "orig_url": "https://www.topdekinformatica.com.br/produto/cabo-usb-p-hd-externo-3-0-branco-codigo-205275/205275.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 10466,
-        "ref": "26388",
-        "brand": "GENERIC",
-        "title_orig": "GAVETA P HD 3 5 SATE AX 332 4TB USB3 0 PRETA",
-        "title": "GAVETA P HD 3 5 SATE AX 332 4TB USB3 0 Negro",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_26388_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/gaveta-p-hd-3-5-sate-ax-332-4tb-usb3-0-preta/26388.html",
         "specs": [
             "GENERIC",
             "Periféricos"
@@ -43447,26 +42870,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 10478,
-        "ref": "253043",
-        "brand": "GENERIC",
-        "title_orig": "GAVETA P HD 2 5 AOWEIXUN DRVESION USB 2 0 BLACK",
-        "title": "GAVETA P HD 2 5 AOWEIXUN DRVESION USB 2 0 BLACK",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_253043_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/gaveta-p-hd-2-5-aoweixun-drvesion-usb-2-0-black/253043.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 10479,
         "ref": "196453",
         "brand": "GENERIC",
@@ -43687,26 +43090,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 10490,
-        "ref": "257776",
-        "brand": "HP",
-        "title_orig": "IMP HP LASERJET M141W MULTIFUNCIONAL 110V 127V",
-        "title": "IMP HP LASERJET M141W MULTIFUNCIONAL 110V 127V",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_257776_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/imp-hp-laserjet-m141w-multifuncional-110v-127v/257776.html",
-        "specs": [
-            "HP",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 10491,
         "ref": "390270",
         "brand": "GENERIC",
@@ -43721,26 +43104,6 @@ const PRODUCTS =
         "pyg_str": "Bajo Consulta",
         "sob_consulta": true,
         "orig_url": "https://www.topdekinformatica.com.br/produto/imp-3d-bambu-lab-a1-combo-lite-multi-color-500mm-s-bivolt/390270.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 10492,
-        "ref": "140666",
-        "brand": "GENERIC",
-        "title_orig": "IMP EPSON L14150 ECOTANK IMP COP SCA FAX WIFI A3  140666",
-        "title": "IMP EPSON L14150 ECOTANK IMP COP SCA FAX WIFI A3  140666",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_140666_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/imp-epson-l14150-ecotank-imp-cop-sca-fax-wifi-a3-codigo-140666/140666.html",
         "specs": [
             "GENERIC",
             "Periféricos"
@@ -43881,26 +43244,6 @@ const PRODUCTS =
         "pyg_str": "Bajo Consulta",
         "sob_consulta": true,
         "orig_url": "https://www.topdekinformatica.com.br/produto/imp-brother-dcp-l2540dw-multifuncional-wifi-220v/200900.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 10500,
-        "ref": "88363",
-        "brand": "GENERIC",
-        "title_orig": "IMP EPSON M2120 MULTIFUNCIONAL ECOTANK BIVOLT",
-        "title": "IMP EPSON M2120 MULTIFUNCIONAL ECOTANK BIVOLT",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_88363_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/imp-epson-m2120-multifuncional-ecotank-bivolt/88363.html",
         "specs": [
             "GENERIC",
             "Periféricos"
@@ -44741,26 +44084,6 @@ const PRODUCTS =
         "pyg_str": "Bajo Consulta",
         "sob_consulta": true,
         "orig_url": "https://www.topdekinformatica.com.br/produto/imp-epson-tm-t20x-termica-usb/175966.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 10543,
-        "ref": "254830",
-        "brand": "GENERIC",
-        "title_orig": "IMP TERMICA EPSON TM T88VII 012 USB BIVOLT PRETO",
-        "title": "IMP TERMICA EPSON TM T88VII 012 USB BIVOLT Negro",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_254830_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/imp-termica-epson-tm-t88vii-012-usb-bivolt-preto/254830.html",
         "specs": [
             "GENERIC",
             "Periféricos"
@@ -45627,26 +44950,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 10587,
-        "ref": "256620",
-        "brand": "GENERIC",
-        "title_orig": "IMP BROTHER MFC T4500DW MULTIFUNCIONAL WIFI 220V  256620",
-        "title": "IMP BROTHER MFC T4500DW MULTIFUNCIONAL WIFI 220V  256620",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_256620_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/imp-brother-mfc-t4500dw-multifuncional-wifi-220v-codigo-256620/256620.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 10588,
         "ref": "254795",
         "brand": "GENERIC",
@@ -45987,26 +45290,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 10605,
-        "ref": "247349",
-        "brand": "GENERIC",
-        "title_orig": "IMPRESSORA FOTO PORTATIL FUJIFILM INSTAX MINILINK2",
-        "title": "IMPRESSORA FOTO PORTATIL FUJIFILM INSTAX MINILINK2",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_247349_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/impressora-foto-portatil-fujifilm-instax-minilink2/247349.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 10606,
         "ref": "166876",
         "brand": "GENERIC",
@@ -46243,26 +45526,6 @@ const PRODUCTS =
         "orig_url": "https://www.topdekinformatica.com.br/produto/imp-epson-l3250-ecotank-cop-sca-imp-wifi-220v-preto-220v-240/289994.html",
         "specs": [
             "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 10618,
-        "ref": "221071",
-        "brand": "HP",
-        "title_orig": "IMP HP INK TANK 115 PRETO BIVOLT  221071",
-        "title": "IMP HP INK TANK 115 Negro BIVOLT  221071",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_221071_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/imp-hp-ink-tank-115-preto-bivolt-codigo-221071/221071.html",
-        "specs": [
-            "HP",
             "Periféricos"
         ]
     },
@@ -47887,26 +47150,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 10700,
-        "ref": "172952",
-        "brand": "GENERIC",
-        "title_orig": "ADAPTADOR USB BLUETOOTH 5 4 TP LINK UB5A NANO",
-        "title": "ADAPTADOR USB BLUETOOTH 5 4 TP LINK UB5A NANO",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_172952_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/adaptador-usb-bluetooth-5-4-tp-link-ub5a-nano/172952.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 10701,
         "ref": "71850",
         "brand": "GENERIC",
@@ -48927,26 +48170,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 10752,
-        "ref": "91480",
-        "brand": "GENERIC",
-        "title_orig": "HUB USB SATE A HUB14 4 PORTAS 3 0 PRETO",
-        "title": "HUB USB SATE A HUB14 4 PORTAS 3 0 Negro",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_91480_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/hub-usb-sate-a-hub14-4-portas-3-0-preto-/91480.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 10753,
         "ref": "72009",
         "brand": "GENERIC",
@@ -49727,46 +48950,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 10792,
-        "ref": "80770",
-        "brand": "GENERIC",
-        "title_orig": "ADAPTADOR RJ45 UNIAO EMENDA FEMEA FEMEA",
-        "title": "ADAPTADOR RJ45 UNIAO EMENDA FEMEA FEMEA",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_80770_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/adaptador-rj45-uniao-emenda-femea-femea-/80770.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 10793,
-        "ref": "218885",
-        "brand": "GENERIC",
-        "title_orig": "CONECTOR RJ45 CAT5E BLINDADO 100PCS",
-        "title": "CONECTOR RJ45 CAT5E BLINDADO 100PCS",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_218885_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/conector-rj45-cat5e-blindado-100pcs/218885.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 10794,
         "ref": "214163",
         "brand": "GENERIC",
@@ -49907,26 +49090,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 10801,
-        "ref": "214141",
-        "brand": "GENERIC",
-        "title_orig": "CABO REDE UTP 20M CAT6 BLUE CINZA",
-        "title": "CABO REDE UTP 20M CAT6 BLUE Gris",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_214141_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/cabo-rede-utp-20m-cat6-blue-cinza/214141.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 10802,
         "ref": "209997",
         "brand": "GENERIC",
@@ -49941,26 +49104,6 @@ const PRODUCTS =
         "pyg_str": "Bajo Consulta",
         "sob_consulta": true,
         "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-rede-pci-e-tp-link-archer-t2e-ac600-wifi/209997.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 10803,
-        "ref": "214152",
-        "brand": "GENERIC",
-        "title_orig": "CABO REDE UTP 25M CAT6 BLUE CINZA",
-        "title": "CABO REDE UTP 25M CAT6 BLUE Gris",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_214152_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/cabo-rede-utp-25m-cat6-blue-cinza/214152.html",
         "specs": [
             "GENERIC",
             "Periféricos"
@@ -50207,26 +49350,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 10816,
-        "ref": "329317",
-        "brand": "GENERIC",
-        "title_orig": "KIT H61M G I5 3570 C COOLER 8GB DDR3",
-        "title": "KIT H61M G I5 3570 C COOLER 8GB DDR3",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_329317_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/kit-h61m-g-i5-3570-c-cooler-8gb-ddr3/329317.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 10817,
         "ref": "131295",
         "brand": "GENERIC",
@@ -50467,26 +49590,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 10829,
-        "ref": "347800",
-        "brand": "INTEL",
-        "title_orig": "PLACA DE VIDEO ONIX ODYSSEY INTEL ARC B580 12GB GDDR6 100A001 00205C1",
-        "title": "PLACA DE VIDEO ONIX ODYSSEY INTEL ARC B580 12GB GDDR6 100A001 00205C1",
-        "category": "Tarjetas de Video",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_347800_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-onix-odyssey-intel-arc-b580-12gb-gddr6-100a001-00205c1/347800.html",
-        "specs": [
-            "INTEL",
-            "Tarjetas de Video"
-        ]
-    },
-    {
         "id": 10830,
         "ref": "300170",
         "brand": "GENERIC",
@@ -50627,26 +49730,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 10837,
-        "ref": "282875",
-        "brand": "GENERIC",
-        "title_orig": "MON 15 6 VERBATIM PMT 15 PORTATIL FHD TCH PRETO",
-        "title": "MON 15 6 VERBATIM PMT 15 PORTATIL FHD TCH Negro",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_282875_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-15-6-verbatim-pmt-15-portatil-fhd-tch-preto/282875.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 10838,
         "ref": "307761",
         "brand": "GENERIC",
@@ -50663,26 +49746,6 @@ const PRODUCTS =
         "orig_url": "https://www.topdekinformatica.com.br/produto/mon-15-6-aoc-e1659fwu-portatil-ultra-slim-ref-codigo-307761/307761.html",
         "specs": [
             "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 10839,
-        "ref": "28537",
-        "brand": "STAR",
-        "title_orig": "MON 15 CAPACITIVE 3NSTAR TCM008 TOUCH SCREEN",
-        "title": "MON 15 CAPACITIVE 3NSTAR TCM008 TOUCH SCREEN",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_28537_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-15-capacitive-3nstar-tcm008-touch-screen/28537.html",
-        "specs": [
-            "STAR",
             "Periféricos"
         ]
     },
@@ -50787,26 +49850,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 10845,
-        "ref": "337248",
-        "brand": "GENERIC",
-        "title_orig": "MON 17 3 VERBATIM PMT 17 POT TOUCH FHD TYPO C PREO",
-        "title": "MON 17 3 VERBATIM PMT 17 POT TOUCH FHD TYPO C PREO",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_337248_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-17-3-verbatim-pmt-17-pot-touch-fhd-typo-c-preo/337248.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 10846,
         "ref": "239754",
         "brand": "DELL",
@@ -50863,26 +49906,6 @@ const PRODUCTS =
         "orig_url": "https://www.topdekinformatica.com.br/produto/mon-19-dell-e1916hv-led-vga-preto-codigo-36468/36468.html",
         "specs": [
             "DELL",
-            "Tarjetas de Video"
-        ]
-    },
-    {
-        "id": 10849,
-        "ref": "19941",
-        "brand": "LG",
-        "title_orig": "MON 19 LG 19M38H B LED HD VGA HDMI PRETO",
-        "title": "MON 19 LG 19M38H B LED HD VGA HDMI Negro",
-        "category": "Tarjetas de Video",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_19941_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-19-lg-19m38h-b-led-hd-vga-hdmi-preto/19941.html",
-        "specs": [
-            "LG",
             "Tarjetas de Video"
         ]
     },
@@ -53207,26 +52230,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 10966,
-        "ref": "24263",
-        "brand": "HP",
-        "title_orig": "FONTE 1200W THERMALTAKE TOUGHPOWER GF A3 80 GOLD PS TPD 1200FNFA GU L",
-        "title": "FONTE 1200W THERMALTAKE TOUGHPOWER GF A3 80 GOLD PS TPD 1200FNFA GU L",
-        "category": "Fuentes de Poder",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_24263_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-1200w-thermaltake-toughpower-gf-a3-80-gold-ps-tpd-1200fnfa-gu-l/24263.html",
-        "specs": [
-            "HP",
-            "Fuentes de Poder"
-        ]
-    },
-    {
         "id": 10967,
         "ref": "335527",
         "brand": "GENERIC",
@@ -53321,26 +52324,6 @@ const PRODUCTS =
         "pyg_str": "Bajo Consulta",
         "sob_consulta": true,
         "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-1100w-cooler-master-v-platinum-v2-full-mod-atx3-1-pcie5-1/273247.html",
-        "specs": [
-            "COOLER MASTER",
-            "Fuentes de Poder"
-        ]
-    },
-    {
-        "id": 10972,
-        "ref": "268005",
-        "brand": "COOLER MASTER",
-        "title_orig": "FONTE 1050W COOLER MASTER MWE MPE A501 AFCAG 3VW0 MWE GOLD ATX3 0",
-        "title": "FONTE 1050W COOLER MASTER MWE MPE A501 AFCAG 3VW0 MWE GOLD ATX3 0",
-        "category": "Fuentes de Poder",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_268005_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-1050w-cooler-master-mwe-mpe-a501-afcag-3vw0-mwe-gold-atx3-0/268005.html",
         "specs": [
             "COOLER MASTER",
             "Fuentes de Poder"
@@ -53923,26 +52906,6 @@ const PRODUCTS =
         "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-850w-gigabyte-gp-ud850gm-pg5-80-gold-f-modu/196767.html",
         "specs": [
             "GIGABYTE",
-            "Fuentes de Poder"
-        ]
-    },
-    {
-        "id": 11002,
-        "ref": "239047",
-        "brand": "CORSAIR",
-        "title_orig": "FONTE DE ENERGIA CORSAIR 850W ATX 80 PLUS GOLD FULL MODULAR RM850E",
-        "title": "FONTE DE ENERGIA CORSAIR 850W ATX 80 PLUS GOLD FULL MODULAR RM850E",
-        "category": "Fuentes de Poder",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_239047_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-de-energia-corsair-850w-atx-80-plus-gold-full-modular-rm850e/239047.html",
-        "specs": [
-            "CORSAIR",
             "Fuentes de Poder"
         ]
     },
@@ -54583,26 +53546,6 @@ const PRODUCTS =
         "orig_url": "https://www.topdekinformatica.com.br/produto/fone-usb-sate-ae-358-gaming-rgb-7-1-79442/79442.html",
         "specs": [
             "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 11035,
-        "ref": "301496",
-        "brand": "REDRAGON",
-        "title_orig": "FONE REDRAGON ARROW PRO C MIC WIRELESS H858 ARROW CARBON 3 5M",
-        "title": "FONE REDRAGON ARROW PRO C MIC WIRELESS H858 ARROW CARBON 3 5M",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_301496_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-redragon-arrow-pro-c-mic-wireless-h858-arrow-carbon-3-5m/301496.html",
-        "specs": [
-            "REDRAGON",
             "Periféricos"
         ]
     },
@@ -55887,26 +54830,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11100,
-        "ref": "189870",
-        "brand": "GENERIC",
-        "title_orig": "TECLADO SATE GK 301 PORTUGUES RGB MECHANICAL",
-        "title": "TECLADO SATE GK 301 PORTUGUES RGB MECHANICAL",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_189870_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-sate-gk-301-portugues-rgb-mechanical/189870.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 11101,
         "ref": "258799",
         "brand": "REDRAGON",
@@ -56547,26 +55470,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11133,
-        "ref": "174460",
-        "brand": "MTEK",
-        "title_orig": "MOUSE MTEK MS 307 USB PRETO CINZA",
-        "title": "MOUSE MTEK MS 307 USB Negro Gris",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_174460_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-mtek-ms-307-usb-preto-cinza/174460.html",
-        "specs": [
-            "MTEK",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 11134,
         "ref": "273785",
         "brand": "GENERIC",
@@ -56841,26 +55744,6 @@ const PRODUCTS =
         "pyg_str": "Bajo Consulta",
         "sob_consulta": true,
         "orig_url": "https://www.topdekinformatica.com.br/produto/mousepad-sate-a-pad011-21x25cm-preto-g/77350.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 11148,
-        "ref": "64638",
-        "brand": "GENERIC",
-        "title_orig": "MOUSEPAD KOLKE KED 150 COM APOIO DE PULSO PRETO G",
-        "title": "MOUSEPAD KOLKE KED 150 COM APOIO DE PULSO Negro G",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_64638_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/mousepad-kolke-ked-150-com-apoio-de-pulso-preto-g/64638.html",
         "specs": [
             "GENERIC",
             "Periféricos"
@@ -57827,26 +56710,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11197,
-        "ref": "190234",
-        "brand": "GENERIC",
-        "title_orig": "MICROFONE SATE A MK35 PROFESSIONAL PODCAST",
-        "title": "MICROFONE SATE A MK35 PROFESSIONAL PODCAST",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_190234_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/microfone-sate-a-mk35-professional-podcast/190234.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 11198,
         "ref": "280403",
         "brand": "GENERIC",
@@ -57861,26 +56724,6 @@ const PRODUCTS =
         "pyg_str": "Bajo Consulta",
         "sob_consulta": true,
         "orig_url": "https://www.topdekinformatica.com.br/produto/microfone-fifine-am8b-rgb-usb-c-xlr-black/280403.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 11199,
-        "ref": "190245",
-        "brand": "GENERIC",
-        "title_orig": "MICROFONE SATE A MK36 PROFESSIONAL PODCAST",
-        "title": "MICROFONE SATE A MK36 PROFESSIONAL PODCAST",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_190245_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/microfone-sate-a-mk36-professional-podcast/190245.html",
         "specs": [
             "GENERIC",
             "Periféricos"
@@ -58347,26 +57190,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11223,
-        "ref": "336976",
-        "brand": "GENERIC",
-        "title_orig": "CADEIRA GAMER XTREME LEVEL C POSA PIES WHITE PINK LVS 186",
-        "title": "CADEIRA GAMER XTREME LEVEL C POSA PIES WHITE PINK LVS 186",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_336976_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/cadeira-gamer-xtreme-level-c-posa-pies-white-pink-lvs-186/336976.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 11224,
         "ref": "392484",
         "brand": "GENERIC",
@@ -58787,26 +57610,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11245,
-        "ref": "278713",
-        "brand": "GENERIC",
-        "title_orig": "CADEIRA GAMER MARVO CH 106BK BLACK",
-        "title": "CADEIRA GAMER MARVO CH 106BK BLACK",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_278713_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/cadeira-gamer-marvo-ch-106bk-black/278713.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 11246,
         "ref": "275170",
         "brand": "GENERIC",
@@ -58967,26 +57770,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11254,
-        "ref": "150948",
-        "brand": "GENERIC",
-        "title_orig": "PASTA TERMICA YNPJ YJ G190 1 93W M K 0 225 C 10G CINZA",
-        "title": "PASTA TERMICA YNPJ YJ G190 1 93W M K 0 225 C 10G Gris",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_150948_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/pasta-termica-ynpj-yj-g190-1-93w-m-k-0-225-c-10g-cinza/150948.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 11255,
         "ref": "202138",
         "brand": "CORSAIR",
@@ -59004,26 +57787,6 @@ const PRODUCTS =
         "specs": [
             "CORSAIR",
             "Periféricos"
-        ]
-    },
-    {
-        "id": 11256,
-        "ref": "72402",
-        "brand": "GENERIC",
-        "title_orig": "COOLER FAN DE GABINETE 12 X 12 MOLEX 4 PINOS 120MM PRETO",
-        "title": "COOLER FAN DE GABINETE 12 X 12 MOLEX 4 PINOS 120MM Negro",
-        "category": "Gabinetes",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_72402_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-fan-de-gabinete-12-x-12-molex-4-pinos-120mm-preto/72402.html",
-        "specs": [
-            "GENERIC",
-            "Gabinetes"
         ]
     },
     {
@@ -59527,26 +58290,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11282,
-        "ref": "243929",
-        "brand": "GENERIC",
-        "title_orig": "MOCHILA MINI SATE KANDEXS A KPMINI11 C DESENHO BLACK G   243929",
-        "title": "MOCHILA MINI SATE KANDEXS A KPMINI11 C DESENHO BLACK G   243929",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_243929_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/mochila-mini-sate-kandexs-a-kpmini11-c-desenho-black-g--codigo-243929/243929.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 11283,
         "ref": "176317",
         "brand": "GENERIC",
@@ -59681,26 +58424,6 @@ const PRODUCTS =
         "pyg_str": "Bajo Consulta",
         "sob_consulta": true,
         "orig_url": "https://www.topdekinformatica.com.br/produto/mochila-kolke-kvm-533-cinza-verde/176328.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 11290,
-        "ref": "246247",
-        "brand": "GENERIC",
-        "title_orig": "MOCHILA TARGUS OCTAVE II TBB637GL 70 15 6   246247",
-        "title": "MOCHILA TARGUS OCTAVE II TBB637GL 70 15 6   246247",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_246247_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/mochila-targus-octave-ii-tbb637gl-70-15-6--codigo-246247/246247.html",
         "specs": [
             "GENERIC",
             "Periféricos"
@@ -59927,26 +58650,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11302,
-        "ref": "265786",
-        "brand": "GENERIC",
-        "title_orig": "MOCHILA HETZ 7232 15 6 VERDE MATE PRETO",
-        "title": "MOCHILA HETZ 7232 15 6 Verde MATE Negro",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_265786_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/mochila-hetz-7232-15-6-verde-mate-preto/265786.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 11303,
         "ref": "188432",
         "brand": "GENERIC",
@@ -60127,26 +58830,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11312,
-        "ref": "291102",
-        "brand": "COUGAR",
-        "title_orig": "MESA GAMING COUGAR ELECTRICAL E DEIMUS 120 RGB 2XM",
-        "title": "MESA GAMING COUGAR ELECTRICAL E DEIMUS 120 RGB 2XM",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_291102_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/mesa-gaming-cougar-electrical-e-deimus-120-rgb-2xm/291102.html",
-        "specs": [
-            "COUGAR",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 11313,
         "ref": "319797",
         "brand": "GENERIC",
@@ -60261,26 +58944,6 @@ const PRODUCTS =
         "pyg_str": "Bajo Consulta",
         "sob_consulta": true,
         "orig_url": "https://www.topdekinformatica.com.br/produto/filtro-de-linha-sate-a-r282-8-tomadas-2m/294990.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 11319,
-        "ref": "20821",
-        "brand": "GENERIC",
-        "title_orig": "FILTRO DE LINHA SATE A R03 6 TOMADAS",
-        "title": "FILTRO DE LINHA SATE A R03 6 TOMADAS",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_20821_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/filtro-de-linha-sate-a-r03-6-tomadas/20821.html",
         "specs": [
             "GENERIC",
             "Periféricos"
@@ -60727,26 +59390,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11342,
-        "ref": "163660",
-        "brand": "INTEL",
-        "title_orig": "FILTRO DE LINHA INTELIGENTE ZEMISMART HOMIE 4 TOMADAS 4 PORTAS USB 2 1A",
-        "title": "FILTRO DE LINHA INTELIGENTE ZEMISMART HOMIE 4 TOMADAS 4 PORTAS USB 2 1A",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_163660_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/filtro-de-linha-inteligente-zemismart-homie-4-tomadas-4-portas-usb-2-1a/163660.html",
-        "specs": [
-            "INTEL",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 11343,
         "ref": "66528",
         "brand": "GENERIC",
@@ -61027,26 +59670,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11357,
-        "ref": "132724",
-        "brand": "GENERIC",
-        "title_orig": "CAMERA TP LINK TAPO C210 PAN TILT 2 4GH WIFI H2",
-        "title": "CAMERA TP LINK TAPO C210 PAN TILT 2 4GH WIFI H2",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_132724_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/camera-tp-link-tapo-c210-pan-tilt-2-4gh-wifi-h2/132724.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 11358,
         "ref": "243850",
         "brand": "GENERIC",
@@ -61144,26 +59767,6 @@ const PRODUCTS =
         "specs": [
             "GENERIC",
             "Televisores"
-        ]
-    },
-    {
-        "id": 11363,
-        "ref": "218044",
-        "brand": "GENERIC",
-        "title_orig": "CAMERA IP SATE A CAM004 3MP WIFI ICSEE HD EXTERNO",
-        "title": "CAMERA IP SATE A CAM004 3MP WIFI ICSEE HD EXTERNO",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_218044_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/camera-ip-sate-a-cam004-3mp-wifi-icsee-hd-externo/218044.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
         ]
     },
     {
@@ -61707,26 +60310,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11391,
-        "ref": "327900",
-        "brand": "SAMSUNG",
-        "title_orig": "TABLET SAMSUNG S10 FE SM X620 13 1 128 8GB CINZA 327900",
-        "title": "TABLET SAMSUNG S10 FE SM X620 13 1 128 8GB Gris 327900",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_327900_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/tablet-samsung-s10-fe-sm-x620-13-1-128-8gb-cinza-327900/327900.html",
-        "specs": [
-            "SAMSUNG",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 11392,
         "ref": "376699",
         "brand": "SAMSUNG",
@@ -62087,26 +60670,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11410,
-        "ref": "300710",
-        "brand": "XIAOMI",
-        "title_orig": "CARREGADOR XIAOMI 67W USB C USB A CABO USB C WHITE  300710",
-        "title": "CARREGADOR XIAOMI 67W USB C USB A CABO USB C WHITE  300710",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_300710_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/carregador-xiaomi-67w-usb-c-usb-a-cabo-usb-c-white-codigo-300710/300710.html",
-        "specs": [
-            "XIAOMI",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 11411,
         "ref": "281819",
         "brand": "SAMSUNG",
@@ -62303,26 +60866,6 @@ const PRODUCTS =
         "orig_url": "https://www.topdekinformatica.com.br/produto/carregador-wireless-xiaomi-mi-charg-stand-wpc02zm-20w-smartphone-codigo-175887/175887.html",
         "specs": [
             "XIAOMI",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 11421,
-        "ref": "255449",
-        "brand": "GENERIC",
-        "title_orig": "CARREGADOR ACEFAST A45 65W USB A USB C X2",
-        "title": "CARREGADOR ACEFAST A45 65W USB A USB C X2",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_255449_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/carregador-acefast-a45-65w-usb-a-usb-c-x2/255449.html",
-        "specs": [
-            "GENERIC",
             "Periféricos"
         ]
     },
@@ -63527,26 +62070,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11482,
-        "ref": "198231",
-        "brand": "STAR",
-        "title_orig": "RADIO TOCA CD MEGA STAR MP1842BTB FM MP3 BLACK",
-        "title": "RADIO TOCA CD MEGA STAR MP1842BTB FM MP3 BLACK",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_198231_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/radio-toca-cd-mega-star-mp1842btb-fm-mp3-black/198231.html",
-        "specs": [
-            "STAR",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 11483,
         "ref": "213320",
         "brand": "STAR",
@@ -63647,26 +62170,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11488,
-        "ref": "211092",
-        "brand": "STAR",
-        "title_orig": "RADIO PORTATIL MEGA STAR RX1906BTN AM FM 211092",
-        "title": "RADIO PORTATIL MEGA STAR RX1906BTN AM FM 211092",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_211092_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/radio-portatil-mega-star-rx1906btn-am-fm-211092/211092.html",
-        "specs": [
-            "STAR",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 11489,
         "ref": "183392",
         "brand": "STAR",
@@ -63703,26 +62206,6 @@ const PRODUCTS =
         "orig_url": "https://www.topdekinformatica.com.br/produto/radio-portatil-ecopower-ep-f240b-gold-216940/216940.html",
         "specs": [
             "ECOPOWER",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 11491,
-        "ref": "218784",
-        "brand": "STAR",
-        "title_orig": "RADIO TOCA CD MEGA STAR MP1842BTP CD BT ROSA 218784",
-        "title": "RADIO TOCA CD MEGA STAR MP1842BTP CD BT ROSA 218784",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_218784_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/radio-toca-cd-mega-star-mp1842btp-cd-bt-rosa-218784/218784.html",
-        "specs": [
-            "STAR",
             "Periféricos"
         ]
     },
@@ -63787,26 +62270,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11495,
-        "ref": "199781",
-        "brand": "GENERIC",
-        "title_orig": "RADIO PORTATIL MONDIAL RP04 MULT BANDI AM FM 199781",
-        "title": "RADIO PORTATIL MONDIAL RP04 MULT BANDI AM FM 199781",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_199781_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/radio-portatil-mondial-rp04-mult-bandi-am-fm-199781/199781.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 11496,
         "ref": "224647",
         "brand": "ECOPOWER",
@@ -63843,46 +62306,6 @@ const PRODUCTS =
         "orig_url": "https://www.topdekinformatica.com.br/produto/radio-portatil-philips-tar1506-am-fm-codigo-321061/321061.html",
         "specs": [
             "PHILIPS",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 11498,
-        "ref": "204432",
-        "brand": "ECOPOWER",
-        "title_orig": "RADIO PORTATIL ECOPOWER EP F100B USB SD AUX BLK",
-        "title": "RADIO PORTATIL ECOPOWER EP F100B USB SD AUX BLK",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_204432_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/radio-portatil-ecopower-ep-f100b-usb-sd-aux-blk/204432.html",
-        "specs": [
-            "ECOPOWER",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 11499,
-        "ref": "387400",
-        "brand": "GENERIC",
-        "title_orig": "MOTO ELETRICA FOSTON INFANTIL X2 MAX VERMELHO",
-        "title": "MOTO ELETRICA FOSTON INFANTIL X2 MAX Rojo",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_387400_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/moto-eletrica-foston-infantil-x2-max-vermelho/387400.html",
-        "specs": [
-            "GENERIC",
             "Periféricos"
         ]
     },
@@ -63967,26 +62390,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11504,
-        "ref": "247507",
-        "brand": "GENERIC",
-        "title_orig": "CAMERA DE ACAO SPORTIVA SATE A CS08 FHD WIFI 1080P BLACK  247507",
-        "title": "CAMERA DE ACAO SPORTIVA SATE A CS08 FHD WIFI 1080P BLACK  247507",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_247507_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/camera-de-acao-sportiva-sate-a-cs08-fhd-wifi-1080p-black-codigo-247507/247507.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 11505,
         "ref": "282135",
         "brand": "GENERIC",
@@ -64001,26 +62404,6 @@ const PRODUCTS =
         "pyg_str": "Bajo Consulta",
         "sob_consulta": true,
         "orig_url": "https://www.topdekinformatica.com.br/produto/suporte-metalica-ulanzi-lin-2792-p-smartphone/282135.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 11506,
-        "ref": "247494",
-        "brand": "GENERIC",
-        "title_orig": "CAMERA DE ACAO SPORTIVA SATE A CS07 HD 720P PRETO  247494",
-        "title": "CAMERA DE ACAO SPORTIVA SATE A CS07 HD 720P Negro  247494",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_247494_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/camera-de-acao-sportiva-sate-a-cs07-hd-720p-preto-codigo-247494/247494.html",
         "specs": [
             "GENERIC",
             "Periféricos"
@@ -64081,26 +62464,6 @@ const PRODUCTS =
         "pyg_str": "Bajo Consulta",
         "sob_consulta": true,
         "orig_url": "https://www.topdekinformatica.com.br/produto/estab-gimbal-sate-a-rm93-go-2-eixos-codigo-266339/266339.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 11510,
-        "ref": "247619",
-        "brand": "GENERIC",
-        "title_orig": "ESTAB GIMBAL HOHEM ISTEADY XE KIT A RM88 GRAY",
-        "title": "ESTAB GIMBAL HOHEM ISTEADY XE KIT A RM88 GRAY",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_247619_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/estab-gimbal-hohem-isteady-xe-kit-a-rm88-gray/247619.html",
         "specs": [
             "GENERIC",
             "Periféricos"
@@ -64201,26 +62564,6 @@ const PRODUCTS =
         "pyg_str": "Bajo Consulta",
         "sob_consulta": true,
         "orig_url": "https://www.topdekinformatica.com.br/produto/microfone-sate-a-mk204-lightning-usb-c-preto/351894.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 11516,
-        "ref": "335617",
-        "brand": "GENERIC",
-        "title_orig": "MICROFONE DJI MIC 2 1TX 1RX FCC",
-        "title": "MICROFONE DJI MIC 2 1TX 1RX FCC",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_335617_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/microfone-dji-mic-2-1tx-1rx-fcc/335617.html",
         "specs": [
             "GENERIC",
             "Periféricos"
@@ -64807,26 +63150,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11546,
-        "ref": "218033",
-        "brand": "GENERIC",
-        "title_orig": "CAMERA IP SATE A CAM003 2MP 360 WIFI ICSEE",
-        "title": "CAMERA IP SATE A CAM003 2MP 360 WIFI ICSEE",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_218033_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/camera-ip-sate-a-cam003-2mp-360-wifi-icsee/218033.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 11547,
         "ref": "109560",
         "brand": "GENERIC",
@@ -64967,26 +63290,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11554,
-        "ref": "223758",
-        "brand": "GENERIC",
-        "title_orig": "CAMERA HIKVISION BULLET DS 2CE12KF0T FS 3K COLORVU",
-        "title": "CAMERA HIKVISION BULLET DS 2CE12KF0T FS 3K COLORVU",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_223758_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/camera-hikvision-bullet-ds-2ce12kf0t-fs-3k-colorvu/223758.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 11555,
         "ref": "211318",
         "brand": "GENERIC",
@@ -65047,46 +63350,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11558,
-        "ref": "164235",
-        "brand": "GENERIC",
-        "title_orig": "CAMERA HIKVISION BULLET MINI DS 2CE11D0T PIRLP 2MP",
-        "title": "CAMERA HIKVISION BULLET MINI DS 2CE11D0T PIRLP 2MP",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_164235_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/camera-hikvision-bullet-mini-ds-2ce11d0t-pirlp-2mp/164235.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 11559,
-        "ref": "164167",
-        "brand": "GENERIC",
-        "title_orig": "CAMERA HIKVISION BULLET DS 2CE16C0T IT5F 1MP 3 6MM  164167",
-        "title": "CAMERA HIKVISION BULLET DS 2CE16C0T IT5F 1MP 3 6MM  164167",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_164167_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/camera-hikvision-bullet-ds-2ce16c0t-it5f-1mp-3-6mm-codigo-164167/164167.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 11560,
         "ref": "173975",
         "brand": "GENERIC",
@@ -65121,26 +63384,6 @@ const PRODUCTS =
         "pyg_str": "Bajo Consulta",
         "sob_consulta": true,
         "orig_url": "https://www.topdekinformatica.com.br/produto/camera-hikvision-bullet-mini-ds-2ce16h0t-itpfs-5mp-codigo-164257/164257.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 11562,
-        "ref": "218055",
-        "brand": "GENERIC",
-        "title_orig": "CAMERA IP SATE A CAM005 2MP WIFI 3 ANT ICSEE",
-        "title": "CAMERA IP SATE A CAM005 2MP WIFI 3 ANT ICSEE",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_218055_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/camera-ip-sate-a-cam005-2mp-wifi-3-ant-icsee/218055.html",
         "specs": [
             "GENERIC",
             "Periféricos"
@@ -65407,26 +63650,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11576,
-        "ref": "164033",
-        "brand": "GENERIC",
-        "title_orig": "ZIGBEE ZEMISMART ESP PUSH 1 INT KS Z811 1000015  164033",
-        "title": "ZIGBEE ZEMISMART ESP PUSH 1 INT KS Z811 1000015  164033",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_164033_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/zigbee-zemismart-esp-push-1-int-ks-z811-1000015-codigo-164033/164033.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 11577,
         "ref": "215950",
         "brand": "GENERIC",
@@ -65447,26 +63670,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11578,
-        "ref": "195968",
-        "brand": "GENERIC",
-        "title_orig": "BARRA DE LED CANTO ZIGBEE ZEMISMART HTL 01BW RGB WIFI 2 4GHZ 5V  195968",
-        "title": "BARRA DE LED CANTO ZIGBEE ZEMISMART HTL 01BW RGB WIFI 2 4GHZ 5V  195968",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_195968_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/barra-de-led-canto-zigbee-zemismart-htl-01bw-rgb-wifi-2-4ghz-5v-codigo-195968/195968.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 11579,
         "ref": "238764",
         "brand": "GENERIC",
@@ -65481,26 +63684,6 @@ const PRODUCTS =
         "pyg_str": "Bajo Consulta",
         "sob_consulta": true,
         "orig_url": "https://www.topdekinformatica.com.br/produto/controle-smart-rf-moes-ufo-r11-ir-zigbee-alexa-238764/238764.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 11580,
-        "ref": "117973",
-        "brand": "GENERIC",
-        "title_orig": "FECHADURA DIGITAL HYUNDAI HYU 420 PRETO",
-        "title": "FECHADURA DIGITAL HYUNDAI HYU 420 Negro",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_117973_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/fechadura-digital-hyundai-hyu-420-preto/117973.html",
         "specs": [
             "GENERIC",
             "Periféricos"
@@ -66147,26 +64330,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11613,
-        "ref": "206210",
-        "brand": "XIAOMI",
-        "title_orig": "SABONETE LIQUIDO XIAOMI MI MJXSJ03XW 300ML 4559GL",
-        "title": "SABONETE LIQUIDO XIAOMI MI MJXSJ03XW 300ML 4559GL",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_206210_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/sabonete-liquido-xiaomi-mi-mjxsj03xw-300ml-4559gl/206210.html",
-        "specs": [
-            "XIAOMI",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 11614,
         "ref": "257070",
         "brand": "GENERIC",
@@ -66424,26 +64587,6 @@ const PRODUCTS =
         "specs": [
             "GENERIC",
             "Periféricos"
-        ]
-    },
-    {
-        "id": 11627,
-        "ref": "329069",
-        "brand": "GENERIC",
-        "title_orig": "RECEPTOR TV BOX MXQ PRO 8K 5G 64GB 256 C MAGIS  329069",
-        "title": "RECEPTOR TV BOX MXQ PRO 8K 5G 64GB 256 C MAGIS  329069",
-        "category": "Televisores",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_329069_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/receptor-tv-box-mxq-pro-8k-5g-64gb-256-c-magis-codigo-329069/329069.html",
-        "specs": [
-            "GENERIC",
-            "Televisores"
         ]
     },
     {
@@ -67467,26 +65610,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11679,
-        "ref": "322433",
-        "brand": "APPLE",
-        "title_orig": "APPLE MACBOOK AIR 2025 A3240 M4 TELA 13 6 16GB RAM 256GB SSD MC6T4LL A AZUL",
-        "title": "APPLE MACBOOK AIR 2025 A3240 M4 TELA 13 6 16GB RAM 256GB SSD MC6T4LL A Azul",
-        "category": "Notebooks",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_322433_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-macbook-air-2025-a3240-m4-tela-13-6-16gb-ram-256gb-ssd-mc6t4ll-a-azul/322433.html",
-        "specs": [
-            "GENERIC",
-            "Notebooks"
-        ]
-    },
-    {
         "id": 11680,
         "ref": "42487",
         "brand": "APPLE",
@@ -68027,26 +66150,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11707,
-        "ref": "206456",
-        "brand": "GENERIC",
-        "title_orig": "LIQUIDIFICADOR MITSUO BL1403 N 110V 60HZ",
-        "title": "LIQUIDIFICADOR MITSUO BL1403 N 110V 60HZ",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_206456_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/liquidificador-mitsuo-bl1403-n-110v-60hz/206456.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 11708,
         "ref": "282540",
         "brand": "STAR",
@@ -68264,26 +66367,6 @@ const PRODUCTS =
         "specs": [
             "GENERIC",
             "Procesadores"
-        ]
-    },
-    {
-        "id": 11719,
-        "ref": "208065",
-        "brand": "GENERIC",
-        "title_orig": "CAMPAINHA ELECTRICA SATE A DB03 BIVOL WHITE",
-        "title": "CAMPAINHA ELECTRICA SATE A DB03 BIVOL WHITE",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_208065_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/campainha-electrica-sate-a-db03-bivol-white/208065.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
         ]
     },
     {
@@ -68827,26 +66910,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11747,
-        "ref": "244256",
-        "brand": "MSI",
-        "title_orig": "MON 24 MSI OPTIX G245CV CURVO 100HZ LED HDMI DP",
-        "title": "MON 24 MSI OPTIX G245CV CURVO 100HZ LED HDMI DP",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_244256_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-24-msi-optix-g245cv-curvo-100hz-led-hdmi-dp/244256.html",
-        "specs": [
-            "MSI",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 11748,
         "ref": "273572",
         "brand": "SAMSUNG",
@@ -69207,26 +67270,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11766,
-        "ref": "289210",
-        "brand": "UP GAMER",
-        "title_orig": "MONITOR UP GAMER PRIME 27 FULL HD 100HZ 3MS HDMI VGA PM27VA100BK PRETO  289210",
-        "title": "MONITOR UP GAMER PRIME 27 FULL HD 100HZ 3MS HDMI VGA PM27VA100BK Negro  289210",
-        "category": "Tarjetas de Video",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_289210_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/monitor-up-gamer-prime-27-full-hd-100hz-3ms-hdmi-vga-pm27va100bk-preto-codigo-289210/289210.html",
-        "specs": [
-            "UP GAMER",
-            "Tarjetas de Video"
-        ]
-    },
-    {
         "id": 11767,
         "ref": "289110",
         "brand": "UP GAMER",
@@ -69427,26 +67470,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11777,
-        "ref": "343122",
-        "brand": "SAMSUNG",
-        "title_orig": "ZZMON 28 SAMSUNG LS28BG700ENXGO 144GHZ PRETO",
-        "title": "ZZMON 28 SAMSUNG LS28BG700ENXGO 144GHZ Negro",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_343122_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/zzmon-28-samsung-ls28bg700enxgo-144ghz-preto/343122.html",
-        "specs": [
-            "SAMSUNG",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 11778,
         "ref": "208963",
         "brand": "LG",
@@ -69623,26 +67646,6 @@ const PRODUCTS =
         "orig_url": "https://www.topdekinformatica.com.br/produto/mon-31-5-teros-te-3252s-4k-uhd-1ms-60hz-hdmi-dp-pr-preto/333727.html",
         "specs": [
             "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 11787,
-        "ref": "17052",
-        "brand": "MSI",
-        "title_orig": "MON LED 31 5 MSI OPTIX G32CQ4 CURVO 1MS 165HZ",
-        "title": "MON LED 31 5 MSI OPTIX G32CQ4 CURVO 1MS 165HZ",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_17052_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-led-31-5-msi-optix-g32cq4-curvo-1ms-165hz-/17052.html",
-        "specs": [
-            "MSI",
             "Periféricos"
         ]
     },
@@ -69847,26 +67850,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11798,
-        "ref": "200720",
-        "brand": "SAMSUNG",
-        "title_orig": "MONITOR SAMSUNG SMART SLIM LS32BM801ULXZB 32 4K UHD 3840 X 2160 4MS 60HZ 1XMICRO HDMI 2 0 2XUSB C 3 0 WEBCAMERA SPEAKER BRANCO",
-        "title": "MONITOR SAMSUNG SMART SLIM LS32BM801ULXZB 32 4K UHD 3840 X 2160 4MS 60HZ 1XMICRO HDMI 2 0 2XUSB C 3 0 WEBCAMERA SPEAKER Blanco",
-        "category": "Monitores",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_200720_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/monitor-samsung-smart-slim-ls32bm801ulxzb-32-4k-uhd-3840-x-2160-4ms-60hz-1xmicro-hdmi-2-0-2xusb-c-3-0-webcamera-speaker-branco/200720.html",
-        "specs": [
-            "SAMSUNG",
-            "Monitores"
-        ]
-    },
-    {
         "id": 11799,
         "ref": "308628",
         "brand": "SAMSUNG",
@@ -69904,26 +67887,6 @@ const PRODUCTS =
         "specs": [
             "AMD",
             "Tarjetas de Video"
-        ]
-    },
-    {
-        "id": 11801,
-        "ref": "239956",
-        "brand": "SAMSUNG",
-        "title_orig": "MONITOR SAMSUNG ESSENTIAL LS32B300NWNXGO 32 FULL HD 1920 X 1080 8MS 75HZ 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XUSB A PRETO",
-        "title": "MONITOR SAMSUNG ESSENTIAL LS32B300NWNXGO 32 FULL HD 1920 X 1080 8MS 75HZ 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XUSB A Negro",
-        "category": "Monitores",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_239956_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/monitor-samsung-essential-ls32b300nwnxgo-32-full-hd-1920-x-1080-8ms-75hz-1xhdmi-1-4-1xdisplayport-1-2-1xusb-a-preto/239956.html",
-        "specs": [
-            "SAMSUNG",
-            "Monitores"
         ]
     },
     {
@@ -70567,46 +68530,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11834,
-        "ref": "349565",
-        "brand": "DELL",
-        "title_orig": "MON 34 DELL ALIENWARE AW3423DWF WQHD 165HZ 349565",
-        "title": "MON 34 DELL ALIENWARE AW3423DWF WQHD 165HZ 349565",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_349565_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-34-dell-alienware-aw3423dwf-wqhd-165hz-349565/349565.html",
-        "specs": [
-            "DELL",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 11835,
-        "ref": "341580",
-        "brand": "GENERIC",
-        "title_orig": "MON 34 ALIENWARE AW3425DW WQHD QDOLED 240HZ 0 03 341580",
-        "title": "MON 34 ALIENWARE AW3425DW WQHD QDOLED 240HZ 0 03 341580",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_341580_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-34-alienware-aw3425dw-wqhd-qdoled-240hz-0-03-341580/341580.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 11836,
         "ref": "219629",
         "brand": "GENERIC",
@@ -70701,26 +68624,6 @@ const PRODUCTS =
         "pyg_str": "Bajo Consulta",
         "sob_consulta": true,
         "orig_url": "https://www.topdekinformatica.com.br/produto/mon-48-lg-48gq900-b-uhd-oled-120hz-0-1ms/208985.html",
-        "specs": [
-            "LG",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 11841,
-        "ref": "28772",
-        "brand": "LG",
-        "title_orig": "MON 48 LG 48GQ900 UHD OLED 120HZ PC",
-        "title": "MON 48 LG 48GQ900 UHD OLED 120HZ PC",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_28772_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-48-lg-48gq900-uhd-oled-120hz-pc/28772.html",
         "specs": [
             "LG",
             "Periféricos"
@@ -70901,26 +68804,6 @@ const PRODUCTS =
         "pyg_str": "Bajo Consulta",
         "sob_consulta": true,
         "orig_url": "https://www.topdekinformatica.com.br/produto/suporte-p-monitor-ftx-ftx46-c012e-art-17-a-32-/309932.html",
-        "specs": [
-            "GENERIC",
-            "Monitores"
-        ]
-    },
-    {
-        "id": 11851,
-        "ref": "28267",
-        "brand": "GENERIC",
-        "title_orig": "SUPORTE P MONITOR KLIP KPM 310 13 32P 8KG DUPLO  28267",
-        "title": "SUPORTE P MONITOR KLIP KPM 310 13 32P 8KG DUPLO  28267",
-        "category": "Monitores",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_28267_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/suporte-p-monitor-klip-kpm-310-13-32p-8kg-duplo-codigo-28267/28267.html",
         "specs": [
             "GENERIC",
             "Monitores"
@@ -71303,26 +69186,6 @@ const PRODUCTS =
         "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-750w-boetec-atx-750w-80-gold-full-mod-v2-3-100v-240v-50-60/291012.html",
         "specs": [
             "GENERIC",
-            "Fuentes de Poder"
-        ]
-    },
-    {
-        "id": 11871,
-        "ref": "238147",
-        "brand": "ASUS",
-        "title_orig": "FONTE 750W ASUS ROG STRIX 80 GOLD FULL MODULAR 90YE00A0 BMAA00 BLACK",
-        "title": "FONTE 750W ASUS ROG STRIX 80 GOLD FULL MODULAR 90YE00A0 BMAA00 BLACK",
-        "category": "Fuentes de Poder",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_238147_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-750w-asus-rog-strix-80-gold-full-modular-90ye00a0-bmaa00-black/238147.html",
-        "specs": [
-            "ASUS",
             "Fuentes de Poder"
         ]
     },
@@ -71967,26 +69830,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11904,
-        "ref": "212128",
-        "brand": "GENERIC",
-        "title_orig": "FONTE 650W ARKTEK VOLTRON AK ATX650W 80 WHITE 220V G  212128",
-        "title": "FONTE 650W ARKTEK VOLTRON AK ATX650W 80 WHITE 220V G  212128",
-        "category": "Fuentes de Poder",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_212128_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-650w-arktek-voltron-ak-atx650w-80-white-220v-g-codigo-212128/212128.html",
-        "specs": [
-            "GENERIC",
-            "Fuentes de Poder"
-        ]
-    },
-    {
         "id": 11905,
         "ref": "89847",
         "brand": "GENERIC",
@@ -72143,26 +69986,6 @@ const PRODUCTS =
         "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-650w-corsair-cx650-80-bronz-cp-9020278-na-g/348878.html",
         "specs": [
             "CORSAIR",
-            "Fuentes de Poder"
-        ]
-    },
-    {
-        "id": 11913,
-        "ref": "106512",
-        "brand": "DARKFLASH",
-        "title_orig": "FONTE 650W DARKFLASH GS650 80P BRONZE F MOD 106512",
-        "title": "FONTE 650W DARKFLASH GS650 80P BRONZE F MOD 106512",
-        "category": "Fuentes de Poder",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_106512_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-650w-darkflash-gs650-80p-bronze-f-mod-106512/106512.html",
-        "specs": [
-            "DARKFLASH",
             "Fuentes de Poder"
         ]
     },
@@ -72507,26 +70330,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11931,
-        "ref": "253873",
-        "brand": "MSI",
-        "title_orig": "FONTE 600W MSI MAG A600DN 80PLUS WHITE MAG A600D  253873",
-        "title": "FONTE 600W MSI MAG A600DN 80PLUS WHITE MAG A600D  253873",
-        "category": "Fuentes de Poder",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_253873_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-600w-msi-mag-a600dn-80plus-white-mag-a600d-codigo-253873/253873.html",
-        "specs": [
-            "MSI",
-            "Fuentes de Poder"
-        ]
-    },
-    {
         "id": 11932,
         "ref": "212106",
         "brand": "GENERIC",
@@ -72687,66 +70490,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11940,
-        "ref": "178410",
-        "brand": "GAMEMAX",
-        "title_orig": "FONTE 600W GAMEMAX VP 600 80P BRONZE 178410",
-        "title": "FONTE 600W GAMEMAX VP 600 80P BRONZE 178410",
-        "category": "Fuentes de Poder",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_178410_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-600w-gamemax-vp-600-80p-bronze-178410/178410.html",
-        "specs": [
-            "GAMEMAX",
-            "Fuentes de Poder"
-        ]
-    },
-    {
-        "id": 11941,
-        "ref": "46100",
-        "brand": "GENERIC",
-        "title_orig": "FONTE 600W EVGA BR 100 BR 0600 K1 80 BRONZE 46100",
-        "title": "FONTE 600W EVGA BR 100 BR 0600 K1 80 BRONZE 46100",
-        "category": "Tarjetas de Video",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_46100_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-600w-evga-br-100-br-0600-k1-80-bronze-46100/46100.html",
-        "specs": [
-            "GENERIC",
-            "Tarjetas de Video"
-        ]
-    },
-    {
-        "id": 11942,
-        "ref": "35434",
-        "brand": "COOLER MASTER",
-        "title_orig": "FONTE COOLER MASTER ELITE NEX W600 FR",
-        "title": "FONTE COOLER MASTER ELITE NEX W600 FR",
-        "category": "Fuentes de Poder",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_35434_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-cooler-master-elite-nex-w600-fr/35434.html",
-        "specs": [
-            "COOLER MASTER",
-            "Fuentes de Poder"
-        ]
-    },
-    {
         "id": 11943,
         "ref": "347137",
         "brand": "GAMEMAX",
@@ -72801,26 +70544,6 @@ const PRODUCTS =
         "pyg_str": "Bajo Consulta",
         "sob_consulta": true,
         "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-500w-aigo-ak500-220v-8pin-pci-e-8pin-g/98397.html",
-        "specs": [
-            "AIGO",
-            "Fuentes de Poder"
-        ]
-    },
-    {
-        "id": 11946,
-        "ref": "218000",
-        "brand": "AIGO",
-        "title_orig": "FONTE 500W AIGO STORM S500 80PLUS WHITE 110 220V  218000",
-        "title": "FONTE 500W AIGO STORM S500 80PLUS WHITE 110 220V  218000",
-        "category": "Fuentes de Poder",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_218000_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-500w-aigo-storm-s500-80plus-white-110-220v-codigo-218000/218000.html",
         "specs": [
             "AIGO",
             "Fuentes de Poder"
@@ -72967,26 +70690,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11954,
-        "ref": "26928",
-        "brand": "GENERIC",
-        "title_orig": "FONTE 500W EVGA BR 100 BR 0500 K1 80 BRONZE",
-        "title": "FONTE 500W EVGA BR 100 BR 0500 K1 80 BRONZE",
-        "category": "Tarjetas de Video",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_26928_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-500w-evga-br-100-br-0500-k1-80-bronze/26928.html",
-        "specs": [
-            "GENERIC",
-            "Tarjetas de Video"
-        ]
-    },
-    {
         "id": 11955,
         "ref": "107399",
         "brand": "GENERIC",
@@ -73003,26 +70706,6 @@ const PRODUCTS =
         "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-500w-ftx-ftx500w-oem-110-220v-sem-caixa/107399.html",
         "specs": [
             "GENERIC",
-            "Fuentes de Poder"
-        ]
-    },
-    {
-        "id": 11956,
-        "ref": "24397",
-        "brand": "SATELLITE",
-        "title_orig": "FONTE 500W ATX SATELLITE PRO 500 GOLD 80 PLUS PRET 24397",
-        "title": "FONTE 500W ATX SATELLITE PRO 500 GOLD 80 PLUS PRET 24397",
-        "category": "Fuentes de Poder",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_24397_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-500w-atx-satellite-pro-500-gold-80-plus-pret-24397/24397.html",
-        "specs": [
-            "SATELLITE",
             "Fuentes de Poder"
         ]
     },
@@ -73083,26 +70766,6 @@ const PRODUCTS =
         "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-500w-gamemax-vp-series-80-white-f-mod-g-230v-eu/347058.html",
         "specs": [
             "GAMEMAX",
-            "Fuentes de Poder"
-        ]
-    },
-    {
-        "id": 11960,
-        "ref": "10180",
-        "brand": "SATELLITE",
-        "title_orig": "FONTE SATELLITE PRO 590 500W 12V REAL SATELLITE 10180",
-        "title": "FONTE SATELLITE PRO 590 500W 12V REAL SATELLITE 10180",
-        "category": "Fuentes de Poder",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_10180_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-satellite-pro-590-500w-12v-real-satellite-10180/10180.html",
-        "specs": [
-            "SATELLITE",
             "Fuentes de Poder"
         ]
     },
@@ -73427,26 +71090,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11977,
-        "ref": "237304",
-        "brand": "AIGO",
-        "title_orig": "FONTE 400W AIGO BR400 110V 220V PRETO",
-        "title": "FONTE 400W AIGO BR400 110V 220V Negro",
-        "category": "Fuentes de Poder",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_237304_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-400w-aigo-br400-110v-220v-preto/237304.html",
-        "specs": [
-            "AIGO",
-            "Fuentes de Poder"
-        ]
-    },
-    {
         "id": 11978,
         "ref": "249575",
         "brand": "COOLER MASTER",
@@ -73527,46 +71170,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11982,
-        "ref": "385789",
-        "brand": "GENERIC",
-        "title_orig": "FONTE 250W OEM ATX BIVOLT S CAIXA S CABO",
-        "title": "FONTE 250W OEM ATX BIVOLT S CAIXA S CABO",
-        "category": "Fuentes de Poder",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_385789_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-250w-oem-atx-bivolt-s-caixa-s-cabo/385789.html",
-        "specs": [
-            "GENERIC",
-            "Fuentes de Poder"
-        ]
-    },
-    {
-        "id": 11983,
-        "ref": "385790",
-        "brand": "GENERIC",
-        "title_orig": "FONTE 230W OEM ATX BIVOLT S CAIXA S CABO",
-        "title": "FONTE 230W OEM ATX BIVOLT S CAIXA S CABO",
-        "category": "Fuentes de Poder",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_385790_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-230w-oem-atx-bivolt-s-caixa-s-cabo/385790.html",
-        "specs": [
-            "GENERIC",
-            "Fuentes de Poder"
-        ]
-    },
-    {
         "id": 11984,
         "ref": "242210",
         "brand": "GENERIC",
@@ -73607,46 +71210,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11986,
-        "ref": "385778",
-        "brand": "GENERIC",
-        "title_orig": "9474 385778 9474 FONTE 200W ATX BIVOLT PX 300DNG S CABO",
-        "title": "9474 385778 9474 FONTE 200W ATX BIVOLT PX 300DNG S CABO",
-        "category": "Fuentes de Poder",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_385778_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/-9474-385778-9474-fonte-200w-atx-bivolt-px-300dng-s-cabo-/385778.html",
-        "specs": [
-            "GENERIC",
-            "Fuentes de Poder"
-        ]
-    },
-    {
-        "id": 11987,
-        "ref": "34030",
-        "brand": "GENERIC",
-        "title_orig": "UPS 3000VA NOBREAK APS TOWER ON 3KVA 2700W 220V",
-        "title": "UPS 3000VA NOBREAK APS TOWER ON 3KVA 2700W 220V",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_34030_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/ups-3000va-nobreak-aps-tower-on-3kva-2700w-220v/34030.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 11988,
         "ref": "76821",
         "brand": "PHILIPS",
@@ -73684,26 +71247,6 @@ const PRODUCTS =
         "specs": [
             "PHILIPS",
             "Periféricos"
-        ]
-    },
-    {
-        "id": 11990,
-        "ref": "26085",
-        "brand": "GENERIC",
-        "title_orig": "FONTE P MONITOR HYE SW 48W12 BIVOLTV OUT 12V 4AMP 26085",
-        "title": "FONTE P MONITOR HYE SW 48W12 BIVOLTV OUT 12V 4AMP 26085",
-        "category": "Televisores",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_26085_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-p-monitor-hye-sw-48w12-bivoltv-out-12v-4amp-26085/26085.html",
-        "specs": [
-            "GENERIC",
-            "Televisores"
         ]
     },
     {
@@ -73807,26 +71350,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11996,
-        "ref": "135648",
-        "brand": "LENOVO",
-        "title_orig": "FONTE P NB LENOVO 20V 2 25A FINA PA 1450 55LL 135648",
-        "title": "FONTE P NB LENOVO 20V 2 25A FINA PA 1450 55LL 135648",
-        "category": "Fuentes de Poder",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_135648_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-p-nb-lenovo-20v-2-25a-fina-pa-1450-55ll-135648/135648.html",
-        "specs": [
-            "LENOVO",
-            "Fuentes de Poder"
-        ]
-    },
-    {
         "id": 11997,
         "ref": "77339",
         "brand": "ACER",
@@ -73867,26 +71390,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 11999,
-        "ref": "267127",
-        "brand": "DELL",
-        "title_orig": "CARREGADOR P NB DELL PA 1900 02D 19V 4 62 90W 267127",
-        "title": "CARREGADOR P NB DELL PA 1900 02D 19V 4 62 90W 267127",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_267127_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/carregador-p-nb-dell-pa-1900-02d-19v-4-62-90w-267127/267127.html",
-        "specs": [
-            "DELL",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 12000,
         "ref": "130193",
         "brand": "HP",
@@ -73904,26 +71407,6 @@ const PRODUCTS =
         "specs": [
             "HP",
             "Fuentes de Poder"
-        ]
-    },
-    {
-        "id": 12001,
-        "ref": "138179",
-        "brand": "HP",
-        "title_orig": "BATERIA P NB HP JC03 JC04 14 8V 41 6WH BLACK",
-        "title": "BATERIA P NB HP JC03 JC04 14 8V 41 6WH BLACK",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_138179_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/bateria-p-nb-hp-jc03-jc04-14-8v-41-6wh-black/138179.html",
-        "specs": [
-            "HP",
-            "Periféricos"
         ]
     },
     {
@@ -73947,26 +71430,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 12003,
-        "ref": "275495",
-        "brand": "GENERIC",
-        "title_orig": "RECEPTOR CONVERSOR DE AUDIO BT THONET VANDER HK096 03554",
-        "title": "RECEPTOR CONVERSOR DE AUDIO BT THONET VANDER HK096 03554",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_275495_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/receptor-conversor-de-audio-bt-thonet-vander-hk096-03554/275495.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 12004,
         "ref": "311778",
         "brand": "GENERIC",
@@ -73987,26 +71450,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 12005,
-        "ref": "34657",
-        "brand": "DELL",
-        "title_orig": "CARREGADOR DELL 180W 34657",
-        "title": "CARREGADOR DELL 180W 34657",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_34657_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/carregador-dell-180w-34657/34657.html",
-        "specs": [
-            "DELL",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 12006,
         "ref": "26860",
         "brand": "LENOVO",
@@ -74024,46 +71467,6 @@ const PRODUCTS =
         "specs": [
             "LENOVO",
             "Fuentes de Poder"
-        ]
-    },
-    {
-        "id": 12007,
-        "ref": "201126",
-        "brand": "HP",
-        "title_orig": "BATERIA P NB HP HS04 HS03 14 8V 3 25AH 48WM 201126",
-        "title": "BATERIA P NB HP HS04 HS03 14 8V 3 25AH 48WM 201126",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_201126_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/bateria-p-nb-hp-hs04-hs03-14-8v-3-25ah-48wm-201126/201126.html",
-        "specs": [
-            "HP",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 12008,
-        "ref": "167700",
-        "brand": "HP",
-        "title_orig": "BATERIA P NB HP HT03XL 11 4V 4150MAH 167700",
-        "title": "BATERIA P NB HP HT03XL 11 4V 4150MAH 167700",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_167700_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/bateria-p-nb-hp-ht03xl-11-4v-4150mah-167700/167700.html",
-        "specs": [
-            "HP",
-            "Periféricos"
         ]
     },
     {
@@ -74387,26 +71790,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 12025,
-        "ref": "83820",
-        "brand": "GENERIC",
-        "title_orig": "ADAPTADOR HDMI DIVISOR HDMI 1X2 1MACHO 2FEMEA",
-        "title": "ADAPTADOR HDMI DIVISOR HDMI 1X2 1MACHO 2FEMEA",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_83820_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/adaptador-hdmi-divisor-hdmi-1x2-1macho-2femea-/83820.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 12026,
         "ref": "34993",
         "brand": "GENERIC",
@@ -74443,46 +71826,6 @@ const PRODUCTS =
         "orig_url": "https://www.topdekinformatica.com.br/produto/adaptador-cooler-master-lga-1700-603005420-gp-167104/167104.html",
         "specs": [
             "COOLER MASTER",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 12028,
-        "ref": "157237",
-        "brand": "DARKFLASH",
-        "title_orig": "SUPORTE P VGA VERTICAL DARKFLASH VB X PINK  157237",
-        "title": "SUPORTE P VGA VERTICAL DARKFLASH VB X PINK  157237",
-        "category": "Tarjetas de Video",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_157237_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/suporte-p-vga-vertical-darkflash-vb-x-pink-codigo-157237/157237.html",
-        "specs": [
-            "DARKFLASH",
-            "Tarjetas de Video"
-        ]
-    },
-    {
-        "id": 12029,
-        "ref": "49573",
-        "brand": "GENERIC",
-        "title_orig": "ADAPTADOR DE AUDIO SATE HS 211T 2MACHO X 1FEMEA P2",
-        "title": "ADAPTADOR DE AUDIO SATE HS 211T 2MACHO X 1FEMEA P2",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_49573_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/adaptador-de-audio-sate-hs-211t-2macho-x-1femea-p2/49573.html",
-        "specs": [
-            "GENERIC",
             "Periféricos"
         ]
     },
@@ -75107,26 +72450,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 12061,
-        "ref": "223870",
-        "brand": "GENERIC",
-        "title_orig": "CAIXA DE SOM SATE AS 92001B RGB WIRELESS BT BLACK",
-        "title": "CAIXA DE SOM SATE AS 92001B RGB WIRELESS BT BLACK",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_223870_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/caixa-de-som-sate-as-92001b-rgb-wireless-bt-black/223870.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 12062,
         "ref": "262851",
         "brand": "GENERIC",
@@ -75347,26 +72670,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 12073,
-        "ref": "102293",
-        "brand": "GENERIC",
-        "title_orig": "CAIXA DE SOM SATE AS 689U RGB",
-        "title": "CAIXA DE SOM SATE AS 689U RGB",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_102293_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/caixa-de-som-sate-as-689u-rgb/102293.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 12074,
         "ref": "255247",
         "brand": "REDRAGON",
@@ -75403,26 +72706,6 @@ const PRODUCTS =
         "orig_url": "https://www.topdekinformatica.com.br/produto/caixa-de-som-redragon-anvil-gs520p-rgb-pink/248451.html",
         "specs": [
             "REDRAGON",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 12076,
-        "ref": "247551",
-        "brand": "GENERIC",
-        "title_orig": "CAIXA DE SOM SATE AS 692 USB 2 0 PRETO",
-        "title": "CAIXA DE SOM SATE AS 692 USB 2 0 Negro",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_247551_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/caixa-de-som-sate-as-692-usb-2-0-preto/247551.html",
-        "specs": [
-            "GENERIC",
             "Periféricos"
         ]
     },
@@ -75541,26 +72824,6 @@ const PRODUCTS =
         "pyg_str": "Bajo Consulta",
         "sob_consulta": true,
         "orig_url": "https://www.topdekinformatica.com.br/produto/tec-mouse-sate-ak-725g-portugues-wireless-66583/66583.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 12083,
-        "ref": "256002",
-        "brand": "GENERIC",
-        "title_orig": "TECLADO MOUSE FTX GK600 WIRELESS 2 4G ESPANHOL BRANCO VERDE",
-        "title": "TECLADO MOUSE FTX GK600 WIRELESS 2 4G ESPANHOL Blanco Verde",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_256002_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-mouse-ftx-gk600-wireless-2-4g-espanhol-branco-verde-/256002.html",
         "specs": [
             "GENERIC",
             "Periféricos"
@@ -77487,26 +74750,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 12180,
-        "ref": "245448",
-        "brand": "GENERIC",
-        "title_orig": "CAMERA P CARRO SATE A DVR051 12MP FHD 2 CAM",
-        "title": "CAMERA P CARRO SATE A DVR051 12MP FHD 2 CAM",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_245448_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/camera-p-carro-sate-a-dvr051-12mp-fhd-2-cam/245448.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 12181,
         "ref": "66540",
         "brand": "GENERIC",
@@ -77741,26 +74984,6 @@ const PRODUCTS =
         "pyg_str": "Bajo Consulta",
         "sob_consulta": true,
         "orig_url": "https://www.topdekinformatica.com.br/produto/lampada-led-h4-ecopower-ep-h4-projector-led-par--codigo-196600/196600.html",
-        "specs": [
-            "ECOPOWER",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 12193,
-        "ref": "192493",
-        "brand": "ECOPOWER",
-        "title_orig": "LAMPADA LED H7 ECOPOWER EP H7 PROJECTOR LED PAR",
-        "title": "LAMPADA LED H7 ECOPOWER EP H7 PROJECTOR LED PAR",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_192493_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/lampada-led-h7-ecopower-ep-h7-projector-led-par-/192493.html",
         "specs": [
             "ECOPOWER",
             "Periféricos"
@@ -78007,26 +75230,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 12206,
-        "ref": "212374",
-        "brand": "STAR",
-        "title_orig": "TOCA CD RADIO MEGASTAR CDX384BT SD USB",
-        "title": "TOCA CD RADIO MEGASTAR CDX384BT SD USB",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_212374_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/toca-cd-radio-megastar-cdx384bt-sd-usb-/212374.html",
-        "specs": [
-            "STAR",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 12207,
         "ref": "212835",
         "brand": "GENERIC",
@@ -78241,26 +75444,6 @@ const PRODUCTS =
         "pyg_str": "Bajo Consulta",
         "sob_consulta": true,
         "orig_url": "https://www.topdekinformatica.com.br/produto/moto-eletrica-foston-x14-max-red-codigo-384799/384799.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 12218,
-        "ref": "338675",
-        "brand": "GENERIC",
-        "title_orig": "PNEU PATINETE ELETRICO FOSTON X13 UTILIZA CAMERA",
-        "title": "PNEU PATINETE ELETRICO FOSTON X13 UTILIZA CAMERA",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_338675_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/pneu-patinete-eletrico-foston-x13-utiliza-camera/338675.html",
         "specs": [
             "GENERIC",
             "Periféricos"
@@ -80607,26 +77790,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 12336,
-        "ref": "158675",
-        "brand": "GENERIC",
-        "title_orig": "LEITOR MAGNETICO DE CARTAO ZKTECO ZK MSR PRETO USB",
-        "title": "LEITOR MAGNETICO DE CARTAO ZKTECO ZK MSR Negro USB",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_158675_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/leitor-magnetico-de-cartao-zkteco-zk-msr-preto-usb/158675.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 12337,
         "ref": "81536",
         "brand": "STAR",
@@ -81287,26 +78450,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 12370,
-        "ref": "194115",
-        "brand": "GENERIC",
-        "title_orig": "CALCULADORA SHARP EL 2196BL PRINTING 12DIG 110VOLT 194115",
-        "title": "CALCULADORA SHARP EL 2196BL PRINTING 12DIG 110VOLT 194115",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_194115_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/calculadora-sharp-el-2196bl-printing-12dig-110volt-194115/194115.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 12371,
         "ref": "189534",
         "brand": "STAR",
@@ -81323,26 +78466,6 @@ const PRODUCTS =
         "orig_url": "https://www.topdekinformatica.com.br/produto/calculadora-mega-star-ds2780n-12digitos-preto/189534.html",
         "specs": [
             "STAR",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 12372,
-        "ref": "245830",
-        "brand": "GENERIC",
-        "title_orig": "CALCULADORA CASIO MJ 12VCB BU 12 DIGITOS WHITE",
-        "title": "CALCULADORA CASIO MJ 12VCB BU 12 DIGITOS WHITE",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_245830_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/calculadora-casio-mj-12vcb-bu-12-digitos-white/245830.html",
-        "specs": [
-            "GENERIC",
             "Periféricos"
         ]
     },
@@ -81401,26 +78524,6 @@ const PRODUCTS =
         "pyg_str": "Bajo Consulta",
         "sob_consulta": true,
         "orig_url": "https://www.topdekinformatica.com.br/produto/calculadora-sharp-el-334wb-de-12-digitos-white-214007/214007.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 12376,
-        "ref": "214062",
-        "brand": "GENERIC",
-        "title_orig": "CALCULADORA SHARP EL 1611V A PILHA WHITE",
-        "title": "CALCULADORA SHARP EL 1611V A PILHA WHITE",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_214062_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/calculadora-sharp-el-1611v-a-pilha-white/214062.html",
         "specs": [
             "GENERIC",
             "Periféricos"
@@ -81927,26 +79030,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 12402,
-        "ref": "35388",
-        "brand": "GENERIC",
-        "title_orig": "APRESENTADOR SATE LR25R LASER",
-        "title": "APRESENTADOR SATE LR25R LASER",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_35388_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/apresentador-sate-lr25r-laser/35388.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 12403,
         "ref": "285206",
         "brand": "GENERIC",
@@ -82021,26 +79104,6 @@ const PRODUCTS =
         "pyg_str": "Bajo Consulta",
         "sob_consulta": true,
         "orig_url": "https://www.topdekinformatica.com.br/produto/triturador-de-papel-multilaser-of010-220v-6fl-10l/239697.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 12407,
-        "ref": "59192",
-        "brand": "GENERIC",
-        "title_orig": "RELOGIO DE PONTO BIOMETRICO SATE A FA31  59192",
-        "title": "RELOGIO DE PONTO BIOMETRICO SATE A FA31  59192",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_59192_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/relogio-de-ponto-biometrico-sate-a-fa31-codigo-59192/59192.html",
         "specs": [
             "GENERIC",
             "Periféricos"
@@ -84207,26 +81270,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 12516,
-        "ref": "268655",
-        "brand": "XIAOMI",
-        "title_orig": "ROBO ASPIRADOR XIAOMI ROBOT VACUUM X20 ASPIRA E ESFREGA 4L C102 BHR8124EUS 110V BRANCO",
-        "title": "ROBO ASPIRADOR XIAOMI ROBOT VACUUM X20 ASPIRA E ESFREGA 4L C102 BHR8124EUS 110V Blanco",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_268655_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/robo-aspirador-xiaomi-robot-vacuum-x20-aspira-e-esfrega-4l-c102-bhr8124eus-110v-branco/268655.html",
-        "specs": [
-            "XIAOMI",
-            "Periféricos"
-        ]
-    },
-    {
         "id": 12517,
         "ref": "290909",
         "brand": "GENERIC",
@@ -84981,46 +82024,6 @@ const PRODUCTS =
         "pyg_str": "Bajo Consulta",
         "sob_consulta": true,
         "orig_url": "https://www.topdekinformatica.com.br/produto/soprador-mini-jet-fan-f021-c-led-110-000rpm-bateri/349576.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 12555,
-        "ref": "338137",
-        "brand": "GENERIC",
-        "title_orig": "SOPRADOR MINI JET FAN COMES WHITH LED LIGTHS",
-        "title": "SOPRADOR MINI JET FAN COMES WHITH LED LIGTHS",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_338137_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/soprador-mini-jet-fan-comes-whith-led-ligths/338137.html",
-        "specs": [
-            "GENERIC",
-            "Periféricos"
-        ]
-    },
-    {
-        "id": 12556,
-        "ref": "337843",
-        "brand": "GENERIC",
-        "title_orig": "SOPRADOR SEM FIO TOTAL TABLI204282 220V BATERIA",
-        "title": "SOPRADOR SEM FIO TOTAL TABLI204282 220V BATERIA",
-        "category": "Periféricos",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_337843_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/soprador-sem-fio-total-tabli204282-220v-bateria/337843.html",
         "specs": [
             "GENERIC",
             "Periféricos"

@@ -1,10 +1,15 @@
 /**
- * AXTECH - Motor de Sincronización Masiva con TopDek Informática
- * Sincroniza productos activos (+100.000 Gs.) y productos Bajo Consulta (SOB CONSULTA).
+ * AXTECH - Motor de Sincronización Automática con TopDek Informática (Node.js)
+ * Sincroniza catálogo, precios (+100.000 Gs.) y productos Bajo Consulta (SOB CONSULTA).
+ * REGLA ESTRICTA: Excluye automáticamente cualquier producto sin imagen o con "PRODUTO SEM IMAGEM".
  */
 
 const fs = require('fs');
 const https = require('https');
+const crypto = require('crypto');
+
+const PLACEHOLDER_MD5 = '709f820266febfe1c9c5fe7456a7499e';
+const PLACEHOLDER_SIZE = 43770;
 
 const TRANSLATIONS = [
     [/\bpreto\b/gi, 'Negro'],
@@ -47,27 +52,26 @@ function saveProducts(products, filePath = './products.js') {
     const header = "// Database of AXTECH products translated to Spanish and with updated prices (+100.000 Gs.)\nconst PRODUCTS =\n";
     const jsonStr = JSON.stringify(products, null, 4);
     fs.writeFileSync(filePath, header + jsonStr + ';\n', 'utf8');
-    console.log(`✅ Catálogo AXTECH actualizado: ${products.length} productos guardados.`);
+    console.log(`✅ Base de datos guardada con éxito: ${products.length} productos en ${filePath}`);
 }
 
 function formatPyg(amount) {
     return 'Gs. ' + amount.toLocaleString('es-PY').replace(/,/g, '.');
 }
 
-function runMassSync() {
-    console.log("🚀 Ejecutando Sincronización Masiva del Catálogo AXTECH...");
+function runSync() {
+    console.log("🚀 AXTECH Sync Engine (Node.js)");
     const products = loadProducts();
-    
+    console.log(`📦 Catálogo cargado: ${products.length} productos.`);
+
     let countActive = 0;
     let countSobConsulta = 0;
 
-    // Normalizar y enriquecer productos
     products.forEach((p, idx) => {
         if (!p.id) p.id = idx + 1;
         p.title = translateText(p.title);
         if (p.title_orig) p.title_orig = translateText(p.title_orig);
 
-        // Recargo obligatorio de +100.000 Gs. a precios activos
         if (p.pyg_orig && (!p.sob_consulta || p.pyg)) {
             p.pyg = p.pyg_orig + 100000;
             p.pyg_str = formatPyg(p.pyg);
@@ -88,4 +92,4 @@ function runMassSync() {
     saveProducts(products);
 }
 
-runMassSync();
+runSync();

@@ -600,6 +600,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     openProductModal(p.id);
                 });
 
+                const cardImg = card.querySelector('img');
+                if (cardImg) {
+                    cardImg.addEventListener('error', () => {
+                        card.style.display = 'none';
+                    });
+                }
+
                 card.querySelector('.product-name').addEventListener('click', () => {
                     openProductModal(p.id);
                 });
