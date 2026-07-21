@@ -82028,5 +82028,745 @@ const PRODUCTS =
             "GENERIC",
             "Periféricos"
         ]
+    },
+    {
+        "id": 12555,
+        "ref": "354203",
+        "brand": "APPLE",
+        "title_orig": "BOLSA PROTETORA WIWU SKIN PRO III PARA MACBOOK PRO 16 AZUL",
+        "title": "BOLSA PROTETORA WIWU SKIN PRO III PARA MACBOOK PRO 16 Azul",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_354203_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/bolsa-protetora-wiwu-skin-pro-iii-para-macbook-pro-16-azul/354203.html",
+        "specs": [
+            "APPLE",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12556,
+        "ref": "354214",
+        "brand": "APPLE",
+        "title_orig": "BOLSA PROTETORA WIWU SKIN PRO II PARA MACBOOK PRO 14 2 CINZA",
+        "title": "BOLSA PROTETORA WIWU SKIN PRO II PARA MACBOOK PRO 14 2 Gris",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_354214_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/bolsa-protetora-wiwu-skin-pro-ii-para-macbook-pro-14-2-cinza/354214.html",
+        "specs": [
+            "APPLE",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12557,
+        "ref": "404210",
+        "brand": "APPLE",
+        "title_orig": "APPLE MACBOOK AIR MQKW3LL A A2941 M2 8 CORE 8GB RAM 256GB SSD TELA RETINA 15 3 2880 X 1864 IPS MACOS INGLES MIDNIGHT 2023 OPENBOX",
+        "title": "APPLE MACBOOK AIR MQKW3LL A A2941 M2 8 CORE 8GB RAM 256GB SSD TELA RETINA 15 3 2880 X 1864 IPS MACOS INGLES MIDNIGHT 2023 OPENBOX",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_404210_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/-apple-macbook-air-mqkw3ll-a-a2941-m2-8-core-8gb-ram-256gb-ssd-tela-retina-15-3-2880-x-1864-ips-macos-ingles-midnight-2023-openbox/404210.html",
+        "specs": [
+            "APPLE",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12558,
+        "ref": "319900",
+        "brand": "APPLE",
+        "title_orig": "MACBOOK PRO MX2W3LL M4MAX 48G 1TBSSD 16 2 SILVER",
+        "title": "MACBOOK PRO MX2W3LL M4MAX 48G 1TBSSD 16 2 SILVER",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_319900_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/macbook-pro-mx2w3ll-m4max-48g-1tbssd-16-2-silver/319900.html",
+        "specs": [
+            "APPLE",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12559,
+        "ref": "237348",
+        "brand": "APPLE",
+        "title_orig": "APPLE MACBOOK AIR 2020 M1 OCTA CORE TELA RETINA 13 3 8GB RAM 256GB SSD MGN93BZ A PRATA",
+        "title": "APPLE MACBOOK AIR 2020 M1 OCTA CORE TELA RETINA 13 3 8GB RAM 256GB SSD MGN93BZ A Plata",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_237348_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-macbook-air-2020-m1-octa-core-tela-retina-13-3-8gb-ram-256gb-ssd-mgn93bz-a-prata/237348.html",
+        "specs": [
+            "APPLE",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12560,
+        "ref": "322433",
+        "brand": "APPLE",
+        "title_orig": "APPLE MACBOOK AIR 2025 A3240 M4 TELA 13 6 16GB RAM 256GB SSD MC6T4LL A AZUL",
+        "title": "APPLE MACBOOK AIR 2025 A3240 M4 TELA 13 6 16GB RAM 256GB SSD MC6T4LL A Azul",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_322433_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-macbook-air-2025-a3240-m4-tela-13-6-16gb-ram-256gb-ssd-mc6t4ll-a-azul/322433.html",
+        "specs": [
+            "APPLE",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12561,
+        "ref": "127390",
+        "brand": "APPLE",
+        "title_orig": "APPLE MACBOOK AIR 2020 MGN93LL A A2337 M1 OCTA CORE 8GB RAM 256GB SSD TELA RETINA 13 3 MACOS INGLES PRATA",
+        "title": "APPLE MACBOOK AIR 2020 MGN93LL A A2337 M1 OCTA CORE 8GB RAM 256GB SSD TELA RETINA 13 3 MACOS INGLES Plata",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_127390_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-macbook-air-2020-mgn93ll-a-a2337-m1-octa-core-8gb-ram-256gb-ssd-tela-retina-13-3-macos-ingles-prata/127390.html",
+        "specs": [
+            "APPLE",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12562,
+        "ref": "67281",
+        "brand": "APPLE",
+        "title_orig": "CABO HDMI P MINI DISPLAYPORT P MACBOOK 1 8M",
+        "title": "CABO HDMI P MINI DISPLAYPORT P MACBOOK 1 8M",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_67281_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cabo-hdmi-p-mini-displayport-p-macbook-1-8m/67281.html",
+        "specs": [
+            "APPLE",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12563,
+        "ref": "246023",
+        "brand": "APPLE",
+        "title_orig": "APPLE MACBOOK AIR MLXW3LL A A2681 M2 OCTA CORE 8GB RAM 256GB SSD TELA RETINA 13 6 MACOS INGLES CINZA ESPACIAL",
+        "title": "APPLE MACBOOK AIR MLXW3LL A A2681 M2 OCTA CORE 8GB RAM 256GB SSD TELA RETINA 13 6 MACOS INGLES Gris ESPACIAL",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_246023_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-macbook-air-mlxw3ll-a-a2681-m2-octa-core-8gb-ram-256gb-ssd-tela-retina-13-6-macos-ingles-cinza-espacial/246023.html",
+        "specs": [
+            "APPLE",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12564,
+        "ref": "350827",
+        "brand": "APPLE",
+        "title_orig": "APPLE MACBOOK AIR 2025 A3240 M4 10 CORE TELA RETINA 13 6 IPS 16GB RAM 256GB SSD MACOS INGLES MW123LL A MIDNIGHT",
+        "title": "APPLE MACBOOK AIR 2025 A3240 M4 10 CORE TELA RETINA 13 6 IPS 16GB RAM 256GB SSD MACOS INGLES MW123LL A MIDNIGHT",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_350827_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-macbook-air-2025-a3240-m4-10-core-tela-retina-13-6-ips-16gb-ram-256gb-ssd-macos-ingles-mw123ll-a-midnight/350827.html",
+        "specs": [
+            "APPLE",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12565,
+        "ref": "350906",
+        "brand": "APPLE",
+        "title_orig": "APPLE MACBOOK PRO 2025 A3434 M5 10 CORE TELA 14 2 16GB RAM 512GB SSD MDE44LL A SILVER",
+        "title": "APPLE MACBOOK PRO 2025 A3434 M5 10 CORE TELA 14 2 16GB RAM 512GB SSD MDE44LL A SILVER",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_350906_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-macbook-pro-2025-a3434-m5-10-core-tela-14-2-16gb-ram-512gb-ssd-mde44ll-a-silver/350906.html",
+        "specs": [
+            "APPLE",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12566,
+        "ref": "269612",
+        "brand": "APPLE",
+        "title_orig": "APPLE MACBOOK PRO M3 MRX63LL A 512GB 18RAM 14 2 S 269612",
+        "title": "APPLE MACBOOK PRO M3 MRX63LL A 512GB 18RAM 14 2 S 269612",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_269612_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-macbook-pro-m3-mrx63ll-a-512gb-18ram-14-2-s-269612/269612.html",
+        "specs": [
+            "APPLE",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12567,
+        "ref": "242950",
+        "brand": "APPLE",
+        "title_orig": "APPLE MACBOOK PRO MRX53LL A 1TB M3 MAX 2023 14 2 SPACE BLACK 242950",
+        "title": "APPLE MACBOOK PRO MRX53LL A 1TB M3 MAX 2023 14 2 SPACE BLACK 242950",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_242950_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-macbook-pro-mrx53ll-a-1tb-m3-max-2023-14-2-space-black-242950/242950.html",
+        "specs": [
+            "APPLE",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12568,
+        "ref": "159329",
+        "brand": "APPLE",
+        "title_orig": "APPLE MACBOOK AIR MRYU3LL A M3 8C 10C 8GB 256 15 3 MIDNIGHT 2024",
+        "title": "APPLE MACBOOK AIR MRYU3LL A M3 8C 10C 8GB 256 15 3 MIDNIGHT 2024",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_159329_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-macbook-air-mryu3ll-a-m3-8c-10c-8gb-256-15-3-midnight-2024/159329.html",
+        "specs": [
+            "APPLE",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12569,
+        "ref": "309179",
+        "brand": "APPLE",
+        "title_orig": "APPLE MACBOOK AIR M3 MXD33LL A A3114 16 512 15 SPACE GRAY 2024",
+        "title": "APPLE MACBOOK AIR M3 MXD33LL A A3114 16 512 15 SPACE GRAY 2024",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_309179_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-macbook-air-m3-mxd33ll-a-a3114-16-512-15-space-gray-2024/309179.html",
+        "specs": [
+            "APPLE",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12570,
+        "ref": "239934",
+        "brand": "APPLE",
+        "title_orig": "APPLE MACBOOK PRO MRW13LL A M3 18G 512G 16 S BLACK 2023",
+        "title": "APPLE MACBOOK PRO MRW13LL A M3 18G 512G 16 S BLACK 2023",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_239934_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-macbook-pro-mrw13ll-a-m3-18g-512g-16-s-black-2023-/239934.html",
+        "specs": [
+            "APPLE",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12571,
+        "ref": "326481",
+        "brand": "APPLE",
+        "title_orig": "APPLE MACBOOK PRO MX2X3LL A M4 PRO 24GB 512 16 BLA  326481",
+        "title": "APPLE MACBOOK PRO MX2X3LL A M4 PRO 24GB 512 16 BLA  326481",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_326481_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-macbook-pro-mx2x3ll-a-m4-pro-24gb-512-16-bla-codigo-326481/326481.html",
+        "specs": [
+            "APPLE",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12572,
+        "ref": "382417",
+        "brand": "APPLE",
+        "title_orig": "APPLE MACBOOK NEO MHFC4LL A A3404 A18 PRO 6 CORE 8GB RAM 512GB SSD TELA RETINA 13 0 2408 X 1506 MACOS INGLES SILVER 2026",
+        "title": "APPLE MACBOOK NEO MHFC4LL A A3404 A18 PRO 6 CORE 8GB RAM 512GB SSD TELA RETINA 13 0 2408 X 1506 MACOS INGLES SILVER 2026",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_382417_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-macbook-neo-mhfc4ll-a-a3404-a18-pro-6-core-8gb-ram-512gb-ssd-tela-retina-13-0-2408-x-1506-macos-ingles-silver-2026-/382417.html",
+        "specs": [
+            "APPLE",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12573,
+        "ref": "135514",
+        "brand": "APPLE",
+        "title_orig": "APPLE MACBOOK AIR M1 TELA RETINA 13 3 8GB RAM 256GB SSD CHIP OCTA CORE M1 MGND3LL A A2337 DOURADO 2020  135514",
+        "title": "APPLE MACBOOK AIR M1 TELA RETINA 13 3 8GB RAM 256GB SSD CHIP OCTA CORE M1 MGND3LL A A2337 DOURADO 2020  135514",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_135514_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-macbook-air-m1-tela-retina-13-3-8gb-ram-256gb-ssd-chip-octa-core-m1-mgnd3ll-a-a2337-dourado-2020-codigo-135514/135514.html",
+        "specs": [
+            "APPLE",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12574,
+        "ref": "242175",
+        "brand": "APPLE",
+        "title_orig": "APPLE MACBOOK PRO 14 M3PRO 18 1TB MRX73LL A SILVER",
+        "title": "APPLE MACBOOK PRO 14 M3PRO 18 1TB MRX73LL A SILVER",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_242175_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-macbook-pro-14-m3pro-18-1tb-mrx73ll-a-silver/242175.html",
+        "specs": [
+            "APPLE",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12575,
+        "ref": "302295",
+        "brand": "APPLE",
+        "title_orig": "APPLE MACBOOK AIR M3 TELA RETINA 15 3 16GB RAM 512GB SSD CHIP OCTA CORE M3 MXD43LL A A3114 MIDNIGHT 2024",
+        "title": "APPLE MACBOOK AIR M3 TELA RETINA 15 3 16GB RAM 512GB SSD CHIP OCTA CORE M3 MXD43LL A A3114 MIDNIGHT 2024",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_302295_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-macbook-air-m3-tela-retina-15-3-16gb-ram-512gb-ssd-chip-octa-core-m3-mxd43ll-a-a3114-midnight-2024/302295.html",
+        "specs": [
+            "APPLE",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12576,
+        "ref": "322444",
+        "brand": "APPLE",
+        "title_orig": "APPLE MACBOOK AIR 2025 A3240 M4 10 CORE 16GB RAM 256GB SSD TELA RETINA 13 6 IPS MACOS INGLES MW0Y3LL A STARLIGHT",
+        "title": "APPLE MACBOOK AIR 2025 A3240 M4 10 CORE 16GB RAM 256GB SSD TELA RETINA 13 6 IPS MACOS INGLES MW0Y3LL A STARLIGHT",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_322444_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-macbook-air-2025-a3240-m4-10-core-16gb-ram-256gb-ssd-tela-retina-13-6-ips-macos-ingles-mw0y3ll-a-starlight/322444.html",
+        "specs": [
+            "APPLE",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12577,
+        "ref": "267531",
+        "brand": "APPLE",
+        "title_orig": "APPLE MACBOOK AIR MQKQ3LL A M2 8C 8GB 512SSD 15 3 SPACE GRAY",
+        "title": "APPLE MACBOOK AIR MQKQ3LL A M2 8C 8GB 512SSD 15 3 SPACE GRAY",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_267531_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-macbook-air-mqkq3ll-a-m2-8c-8gb-512ssd-15-3-space-gray/267531.html",
+        "specs": [
+            "APPLE",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12578,
+        "ref": "380740",
+        "brand": "APPLE",
+        "title_orig": "APPLE MACBOOK PRO MW2V3LL A M4 10 CORE 16GB RAM 1TB SSD TELA RETINA 14 2 3024 X 1964 IPS MACOS INGLES SPACE BLACK 2024",
+        "title": "APPLE MACBOOK PRO MW2V3LL A M4 10 CORE 16GB RAM 1TB SSD TELA RETINA 14 2 3024 X 1964 IPS MACOS INGLES SPACE BLACK 2024",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_380740_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-macbook-pro-mw2v3ll-a-m4-10-core-16gb-ram-1tb-ssd-tela-retina-14-2-3024-x-1964-ips-macos-ingles-space-black-2024-/380740.html",
+        "specs": [
+            "APPLE",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12579,
+        "ref": "380257",
+        "brand": "APPLE",
+        "title_orig": "APPLE WATCH S11 46MM MEV74LW A ROSE GOLD ALUMINIUN LIGHT BLUSH SPORT",
+        "title": "APPLE WATCH S11 46MM MEV74LW A ROSE GOLD ALUMINIUN LIGHT BLUSH SPORT",
+        "category": "Relojes Mi Band",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_380257_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-watch-s11-46mm-mev74lw-a-rose-gold-aluminiun-light-blush-sport/380257.html",
+        "specs": [
+            "APPLE",
+            "Relojes Mi Band"
+        ]
+    },
+    {
+        "id": 12580,
+        "ref": "375700",
+        "brand": "APPLE",
+        "title_orig": "APPLE FONE AIRPODS PRO 3 MAGSAFE USB C MFHP4LL A",
+        "title": "APPLE FONE AIRPODS PRO 3 MAGSAFE USB C MFHP4LL A",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_375700_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-fone-airpods-pro-3-magsafe-usb-c-mfhp4ll-a-/375700.html",
+        "specs": [
+            "APPLE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12581,
+        "ref": "382461",
+        "brand": "APPLE",
+        "title_orig": "APPLE IPAD AIR M4 11 128GB MH314LL A AZUL WIFI 2026",
+        "title": "APPLE IPAD AIR M4 11 128GB MH314LL A Azul WIFI 2026",
+        "category": "Smart Home / Domótica",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_382461_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-ipad-air-m4-11-128gb-mh314ll-a-azul-wifi-2026/382461.html",
+        "specs": [
+            "APPLE",
+            "Smart Home / Domótica"
+        ]
+    },
+    {
+        "id": 12582,
+        "ref": "385320",
+        "brand": "APPLE",
+        "title_orig": "APPLE CARREGADOR USB C 20W MD3J4ZM A BRANCO",
+        "title": "APPLE CARREGADOR USB C 20W MD3J4ZM A Blanco",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_385320_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-carregador-usb-c-20w-md3j4zm-a-branco/385320.html",
+        "specs": [
+            "APPLE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12583,
+        "ref": "394688",
+        "brand": "APPLE",
+        "title_orig": "APPLE CABO USB C P USB C MQKJ3ZM A 1M WHITE",
+        "title": "APPLE CABO USB C P USB C MQKJ3ZM A 1M WHITE",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_394688_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-cabo-usb-c-p-usb-c-mqkj3zm-a-1m-white/394688.html",
+        "specs": [
+            "APPLE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12584,
+        "ref": "365148",
+        "brand": "APPLE",
+        "title_orig": "APPLE IPHONE 17 PRO MAX 256GB MFXH4LL A ORANGE COSMIC ORANGE",
+        "title": "APPLE IPHONE 17 PRO MAX 256GB MFXH4LL A ORANGE COSMIC ORANGE",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_365148_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-iphone-17-pro-max-256gb-mfxh4ll-a-orange-cosmic-orange/365148.html",
+        "specs": [
+            "APPLE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12585,
+        "ref": "405951",
+        "brand": "APPLE",
+        "title_orig": "APPLE MAC MINI MCX44LL A M4 PRO 512SSD 24GB SILVER",
+        "title": "APPLE MAC MINI MCX44LL A M4 PRO 512SSD 24GB SILVER",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_405951_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-mac-mini-mcx44ll-a-m4-pro-512ssd-24gb-silver/405951.html",
+        "specs": [
+            "APPLE",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12586,
+        "ref": "398681",
+        "brand": "APPLE",
+        "title_orig": "APPLE MAC PRO M5 48 2TB 16 2 MGE94LL A SILVER",
+        "title": "APPLE MAC PRO M5 48 2TB 16 2 MGE94LL A SILVER",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_398681_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-mac-pro-m5-48-2tb-16-2-mge94ll-a-silver/398681.html",
+        "specs": [
+            "APPLE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12587,
+        "ref": "398692",
+        "brand": "APPLE",
+        "title_orig": "APPLE MAC PRO M5 36 2TB 16 2 MGE74LL A SILVER",
+        "title": "APPLE MAC PRO M5 36 2TB 16 2 MGE74LL A SILVER",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_398692_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-mac-pro-m5-36-2tb-16-2-mge74ll-a-silver/398692.html",
+        "specs": [
+            "APPLE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12588,
+        "ref": "374170",
+        "brand": "APPLE",
+        "title_orig": "APPLE WATCH SE 3 44MM STARLIGHT MEHQ4LW A",
+        "title": "APPLE WATCH SE 3 44MM STARLIGHT MEHQ4LW A",
+        "category": "Relojes Mi Band",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_374170_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-watch-se-3-44mm-starlight-mehq4lw-a/374170.html",
+        "specs": [
+            "APPLE",
+            "Relojes Mi Band"
+        ]
+    },
+    {
+        "id": 12589,
+        "ref": "336280",
+        "brand": "APPLE",
+        "title_orig": "APPLE IMAC 2024 A3247 M4 TELA 24 IPS 4 5K 16GB RAM 256GB SSD MWUE3LL A VERDE",
+        "title": "APPLE IMAC 2024 A3247 M4 TELA 24 IPS 4 5K 16GB RAM 256GB SSD MWUE3LL A Verde",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_336280_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-imac-2024-a3247-m4-tela-24-ips-4-5k-16gb-ram-256gb-ssd-mwue3ll-a-verde/336280.html",
+        "specs": [
+            "APPLE",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12590,
+        "ref": "357766",
+        "brand": "APPLE",
+        "title_orig": "APPLE IMAC 2024 A3247 M4 TELA 24 IPS 4 5K 16GB RAM 256GB SSD MWUC3LL A PRATA  357766",
+        "title": "APPLE IMAC 2024 A3247 M4 TELA 24 IPS 4 5K 16GB RAM 256GB SSD MWUC3LL A Plata  357766",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_357766_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-imac-2024-a3247-m4-tela-24-ips-4-5k-16gb-ram-256gb-ssd-mwuc3ll-a-prata-codigo-357766/357766.html",
+        "specs": [
+            "APPLE",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12591,
+        "ref": "204544",
+        "brand": "APPLE",
+        "title_orig": "INTERRUPTOR APROXIMACAO ZIGBEE ZEMISMART HOMIE HSS 01WR ATE 15CM BIVOLT",
+        "title": "INTERRUPTOR APROXIMACAO ZIGBEE ZEMISMART HOMIE HSS 01WR ATE 15CM BIVOLT",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_204544_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/interruptor-aproximacao-zigbee-zemismart-homie-hss-01wr-ate-15cm-bivolt/204544.html",
+        "specs": [
+            "APPLE",
+            "Notebooks"
+        ]
     }
 ];
