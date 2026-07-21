@@ -113,7 +113,7 @@ const PRODUCTS =
     },
     {
         "id": 9010,
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title": "TV 32 FTX FTX32HDV1 SMART/HDMI/USB/AND 14",
         "category": "Televisores",
         "image": "https://www.topdekinformatica.com.br/img/g/IMG_300238_1.JPG",
@@ -124,7 +124,7 @@ const PRODUCTS =
     },
     {
         "id": 9011,
-        "brand": "43\"",
+        "brand": "GENERIC",
         "title": "Smart TV 43\" TPK H4 Series Android 14 Full HD Wi-Fi HDR 2xHDMI 2xUSB 60Hz",
         "category": "Televisores",
         "image": "https://www.topdekinformatica.com.br/img/g/IMG_379467_1.JPG",
@@ -135,7 +135,7 @@ const PRODUCTS =
     },
     {
         "id": 9012,
-        "brand": "32\"",
+        "brand": "GENERIC",
         "title": "Smart TV 32\" TPK H4 Series Android 14 HD Wi-Fi HDR 2xHDMI 2xUSB 60Hz ISDB-...",
         "category": "Televisores",
         "image": "https://www.topdekinformatica.com.br/img/g/IMG_379456_1.JPG",
@@ -146,7 +146,7 @@ const PRODUCTS =
     },
     {
         "id": 9013,
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title": "TV 50 FTX FTX50UHD4V1 4K SMART/HDMI/USB/AND 13",
         "category": "Televisores",
         "image": "https://www.topdekinformatica.com.br/img/g/IMG_300250_1.JPG",
@@ -179,7 +179,7 @@ const PRODUCTS =
     },
     {
         "id": 9016,
-        "brand": "MAGNAVOX",
+        "brand": "GENERIC",
         "title": "TV 40 MAGNAVOX 40MEZ443/M1 SMART/ANDROID/FHD",
         "category": "Televisores",
         "image": "https://www.topdekinformatica.com.br/img/g/IMG_291304_1.JPG",
@@ -2157,7 +2157,7 @@ const PRODUCTS =
     {
         "id": 82,
         "ref": "127234",
-        "brand": "SONY",
+        "brand": "GENERIC",
         "title_orig": "Control PlayGame PlayStation 3 PS3 DualShock Inalámbrico, Azul",
         "title": "Control PlayGame PlayStation 3 PS3 DualShock Inalámbrico, Azul",
         "category": "Consolas y Videojuegos",
@@ -2177,7 +2177,7 @@ const PRODUCTS =
     {
         "id": 83,
         "ref": "242377",
-        "brand": "BLULORY",
+        "brand": "GENERIC",
         "title_orig": "Console Blulory M15 Pro Game Stick 64GB 4K Ultra HD, 2.4GHz Wireless",
         "title": "Console Blulory M15 Pro Game Stick 64GB 4K Ultra HD, 2.4GHz Wireless",
         "category": "Consolas y Videojuegos",
@@ -2239,7 +2239,7 @@ const PRODUCTS =
     {
         "id": 86,
         "ref": "250321",
-        "brand": "SONY",
+        "brand": "GENERIC",
         "title_orig": "Control PlayGame PlayStation 3 PS3 DualShock Inalámbrico, Púrpura",
         "title": "Control PlayGame PlayStation 3 PS3 DualShock Inalámbrico, Morado",
         "category": "Consolas y Videojuegos",
@@ -2259,7 +2259,7 @@ const PRODUCTS =
     {
         "id": 87,
         "ref": "336034",
-        "brand": "VOLANTE",
+        "brand": "GENERIC",
         "title_orig": "Volante Moza KS Steering Wheel GM-RS047 para Bases Moza R3, R5, R9, R12, R16, R21 e R25, Negro",
         "title": "Volante Moza KS Steering Wheel para Bases Moza R3, R5, R9, R12, R16, R21 e R25, Negro",
         "category": "Consolas y Videojuegos",
@@ -2323,7 +2323,7 @@ const PRODUCTS =
     {
         "id": 90,
         "ref": "336359",
-        "brand": "SONY",
+        "brand": "GENERIC",
         "title_orig": "Adaptador N5 Racing Wheel Dongle para Simulador, PlayStation 5 PS5 e PS4",
         "title": "Adaptador N5 Racing Wheel Dongle para Simulador, PlayStation 5 PS5 e PS4",
         "category": "Consolas y Videojuegos",
@@ -2461,7 +2461,7 @@ const PRODUCTS =
     {
         "id": 97,
         "ref": "288837",
-        "brand": "CONTROLE",
+        "brand": "GENERIC",
         "title_orig": "CONTROLE GAMESIR K1 KALEID WIRED XBOX/SERIES X/S XBOX ONE W10/11",
         "title": "Control GAMESIR K1 KALEID WIRED X/S XBOX ONE",
         "category": "Consolas y Videojuegos",
@@ -2479,7 +2479,7 @@ const PRODUCTS =
     {
         "id": 98,
         "ref": "336315",
-        "brand": "CÃ‚MBIO",
+        "brand": "GENERIC",
         "title_orig": "Câmbio PXN A7 Shifter Manual 6+1 Marchas para PC, PS3, PS4, Xbox One, Xbox Series e Switch, Volantes PXN V9/V10/V99/V12, Negro",
         "title": "Câmbio PXN A7 Shifter Manual 6+1 Marchas para PC, PS3, PS4, Xbox One, Xbox Series e Switch, Volantes PXN Negro",
         "category": "Consolas y Videojuegos",
@@ -2504,7 +2504,7 @@ const PRODUCTS =
     {
         "id": 99,
         "ref": "33039",
-        "brand": "CONTROLE",
+        "brand": "GENERIC",
         "title_orig": "CONTROLE XBOX GAMESIR K1 WIRED KALEID FLUX A-1133769",
         "title": "Control XBOX GAMESIR K1 WIRED KALEID FLUX",
         "category": "Consolas y Videojuegos",
@@ -2522,7 +2522,7 @@ const PRODUCTS =
     {
         "id": 100,
         "ref": "373696",
-        "brand": "CONTROLE",
+        "brand": "GENERIC",
         "title_orig": "Control Microsoft Xbox Series X/S Inalámbrico Wireless, Pulse Cipher Red",
         "title": "Control Microsoft Xbox Series X/S Inalámbrico Wireless, Pulse Cipher Red",
         "category": "Consolas y Videojuegos",
@@ -2636,7 +2636,7 @@ const PRODUCTS =
     {
         "id": 107,
         "ref": "395724",
-        "brand": "SONY",
+        "brand": "GENERIC",
         "title_orig": "Control PlayGame PlayStation 3 PS3 DualShock Inalámbrico A-105433, Naranja",
         "title": "Control PlayGame PlayStation 3 PS3 DualShock Inalámbrico Naranja",
         "category": "Consolas y Videojuegos",
@@ -3230,7 +3230,7 @@ const PRODUCTS =
     {
         "id": 136,
         "ref": "334201",
-        "brand": "HP",
+        "brand": "GALAX",
         "title_orig": "Tarjeta de Video GALAX GeForce RTX3050 1-CLICK OC DUAL, 6GB GDDR6, 96Bits, 1x HDMI 3x DisplayPort, 35NRLDHP90DV",
         "title": "Tarjeta de Video GALAX GeForce RTX3050 OC DUAL, 6GB 1x HDMI 3x DisplayPort",
         "category": "Tarjetas de Video",
@@ -3692,7 +3692,7 @@ const PRODUCTS =
     {
         "id": 159,
         "ref": "277230",
-        "brand": "VGA",
+        "brand": "GENERIC",
         "title_orig": "VGA GTX1660TI 6GB GOLINE GTX-1660TI-6GB-D6 GDDR6",
         "title": "VGA GTX1660TI 6GB GOLINE",
         "category": "Tarjetas de Video",
@@ -4060,7 +4060,7 @@ const PRODUCTS =
     {
         "id": 178,
         "ref": "369837",
-        "brand": "PLACA",
+        "brand": "GENERIC",
         "title_orig": "Tarjeta de Video NVIDIA GeForce RTX5070 FOUNDERS EDITION, 12 GDDR7, 192Bits, 1x HDMI 3x DisplayPort, 900-1G146-2570- 000, Negro",
         "title": "Tarjeta de Video NVIDIA GeForce RTX5070 FOUNDERS EDITION, 12 1x HDMI 3x DisplayPort, 000, Negro",
         "category": "Tarjetas de Video",
@@ -4171,7 +4171,7 @@ const PRODUCTS =
     {
         "id": 183,
         "ref": "152838",
-        "brand": "MEMÃ“RIA",
+        "brand": "GENERIC",
         "title_orig": "Memoria Macroway, DDR3 8GB (1x8GB), 1600MHz, Verde",
         "title": "Memoria Macroway, DDR3 8GB (1x8GB), 1600MHz, Verde",
         "category": "Memorias RAM",
@@ -4431,7 +4431,7 @@ const PRODUCTS =
     {
         "id": 195,
         "ref": "77833",
-        "brand": "MEMÃ“RIA",
+        "brand": "GENERIC",
         "title_orig": "Memoria Crucial, DDR4 8GB (1x8GB), 3200MHz, CT8G4DFRA32A, Green",
         "title": "Memoria Crucial, DDR4 8GB (1x8GB), 3200MHz, Green",
         "category": "Memorias RAM",
@@ -4453,7 +4453,7 @@ const PRODUCTS =
     {
         "id": 196,
         "ref": "228482",
-        "brand": "MEMÃ“RIA",
+        "brand": "GENERIC",
         "title_orig": "Memoria Macroway, DDR4 16GB (1x16GB), 3200MHz, Verde",
         "title": "Memoria Macroway, DDR4 16GB (1x16GB), 3200MHz, Verde",
         "category": "Memorias RAM",
@@ -4497,7 +4497,7 @@ const PRODUCTS =
     {
         "id": 198,
         "ref": "290492",
-        "brand": "AMD",
+        "brand": "KINGSTON",
         "title_orig": "MEM DDR5 16GB 6000 KINGSTON FURY BEAST BLK AMD/EXP KF560C36BBE2-16",
         "title": "MEM DDR5 16GB 6000 KINGSTON FURY BEAST BLK",
         "category": "Memorias RAM",
@@ -4515,7 +4515,7 @@ const PRODUCTS =
     {
         "id": 199,
         "ref": "254885",
-        "brand": "MEMÃ“RIA",
+        "brand": "GENERIC",
         "title_orig": "Memoria Crucial, DDR4 8GB (1x8GB), 3200MHz, CB8GU3200, Verde",
         "title": "Memoria Crucial, DDR4 8GB (1x8GB), 3200MHz, Verde",
         "category": "Memorias RAM",
@@ -4577,7 +4577,7 @@ const PRODUCTS =
     {
         "id": 202,
         "ref": "292472",
-        "brand": "APPLE",
+        "brand": "UP GAMER",
         "title_orig": "Memoria UP Gamer ANUBIS, DDR4 8GB 3200MHz, c/ Dissipador, ANBS-DSDR48G-32, Negro",
         "title": "Memoria UP Gamer ANUBIS, DDR4 8GB 3200MHz, c/ Dissipador, Negro",
         "category": "Memorias RAM",
@@ -4705,7 +4705,7 @@ const PRODUCTS =
     {
         "id": 208,
         "ref": "314580",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "Memoria FTX, DDR4 16GB (1x16GB), 3200MHz, 111665, Negro",
         "title": "Memoria FTX, DDR4 16GB (1x16GB), 3200MHz, 111665, Negro",
         "category": "Memorias RAM",
@@ -4746,7 +4746,7 @@ const PRODUCTS =
     {
         "id": 210,
         "ref": "290550",
-        "brand": "AMD",
+        "brand": "KINGSTON",
         "title_orig": "MEM DDR5 32GB 6000 KINGSTON FURY BEAST BLK AMD/EXP KF560C36BBE-32",
         "title": "MEM DDR5 32GB 6000 KINGSTON FURY BEAST BLK",
         "category": "Memorias RAM",
@@ -4764,7 +4764,7 @@ const PRODUCTS =
     {
         "id": 211,
         "ref": "257585",
-        "brand": "MEM",
+        "brand": "GENERIC",
         "title_orig": "MEM DDR5 16GB 5600 CRUCIAL CT16G56C46U5",
         "title": "MEM DDR5 16GB 5600 CRUCIAL",
         "category": "Memorias RAM",
@@ -4804,7 +4804,7 @@ const PRODUCTS =
     {
         "id": 213,
         "ref": "290044",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "Memoria FTX, DDR4 8GB (1x8GB), 3200MHz, 111658, Negro",
         "title": "Memoria FTX, DDR4 8GB (1x8GB), 3200MHz, 111658, Negro",
         "category": "Memorias RAM",
@@ -4827,7 +4827,7 @@ const PRODUCTS =
     {
         "id": 214,
         "ref": "227639",
-        "brand": "MEMÃ“RIA",
+        "brand": "GENERIC",
         "title_orig": "Memoria Macroway, DDR4 16GB (1x16GB), 2666MHz, Verde",
         "title": "Memoria Macroway, DDR4 16GB (1x16GB), 2666MHz, Verde",
         "category": "Memorias RAM",
@@ -4849,7 +4849,7 @@ const PRODUCTS =
     {
         "id": 215,
         "ref": "227560",
-        "brand": "MEMÃ“RIA",
+        "brand": "GENERIC",
         "title_orig": "Memoria para Notebook Macroway, DDR4 8GB (1x8GB), 2400MHz, SO-DIMM, Verde",
         "title": "Memoria para Notebook Macroway, DDR4 8GB (1x8GB), 2400MHz, Verde",
         "category": "Memorias RAM",
@@ -4893,7 +4893,7 @@ const PRODUCTS =
     {
         "id": 217,
         "ref": "254896",
-        "brand": "MEMÃ“RIA",
+        "brand": "GENERIC",
         "title_orig": "Memoria Crucial, DDR4 16GB (1x16GB), 3200MHz, CB16GU3200, Verde",
         "title": "Memoria Crucial, DDR4 16GB (1x16GB), 3200MHz, Verde",
         "category": "Memorias RAM",
@@ -4915,7 +4915,7 @@ const PRODUCTS =
     {
         "id": 218,
         "ref": "227460",
-        "brand": "MEMÃ“RIA",
+        "brand": "GENERIC",
         "title_orig": "Memoria para Notebook Macroway, DDR4 16GB (1x16GB), 2666MHz, SO-DIMM, Verde",
         "title": "Memoria para Notebook Macroway, DDR4 16GB (1x16GB), 2666MHz, Verde",
         "category": "Memorias RAM",
@@ -4981,7 +4981,7 @@ const PRODUCTS =
     {
         "id": 222,
         "ref": "292483",
-        "brand": "APPLE",
+        "brand": "UP GAMER",
         "title_orig": "Memoria UP Gamer ANUBIS, DDR4 16GB 3200MHz, c/Dissipador, ANBS-DSDR416G-32, Negro",
         "title": "Memoria UP Gamer ANUBIS, DDR4 16GB 3200MHz, Negro",
         "category": "Memorias RAM",
@@ -5090,7 +5090,7 @@ const PRODUCTS =
     {
         "id": 227,
         "ref": "174113",
-        "brand": "MEMÃ“RIA",
+        "brand": "GENERIC",
         "title_orig": "Memoria Crucial, DDR4 32GB (1x32GB), 3200MHz, CT32G4DFD832A, Verde",
         "title": "Memoria Crucial, DDR4 32GB (1x32GB), 3200MHz, Verde",
         "category": "Memorias RAM",
@@ -5112,7 +5112,7 @@ const PRODUCTS =
     {
         "id": 228,
         "ref": "38505",
-        "brand": "MEMÃ“RIA",
+        "brand": "GENERIC",
         "title_orig": "Memoria Markvision, DDR3L 8GB (1x8GB), 1600MHz, MVD38192MLD-A6, Verde",
         "title": "Memoria Markvision, 8GB (1x8GB), 1600MHz, Verde",
         "category": "Memorias RAM",
@@ -5156,7 +5156,7 @@ const PRODUCTS =
     {
         "id": 230,
         "ref": "227628",
-        "brand": "MEMÃ“RIA",
+        "brand": "GENERIC",
         "title_orig": "Memoria Macroway, DDR4 16GB (1x16GB), 2400MHz, KF556C40BB-16, Verde",
         "title": "Memoria Macroway, DDR4 16GB (1x16GB), 2400MHz, Verde",
         "category": "Memorias RAM",
@@ -5200,7 +5200,7 @@ const PRODUCTS =
     {
         "id": 232,
         "ref": "59822",
-        "brand": "MEMÃ“RIA",
+        "brand": "GENERIC",
         "title_orig": "Memoria para Notebook Markvision, DDR3L 8GB (1x8GB), 1600MHz, SO-DIMM, MVD38192MSD-A6, Verde",
         "title": "Memoria para Notebook Markvision, 8GB (1x8GB), 1600MHz, Verde",
         "category": "Memorias RAM",
@@ -5244,7 +5244,7 @@ const PRODUCTS =
     {
         "id": 234,
         "ref": "270894",
-        "brand": "MEMÃ“RIA",
+        "brand": "GENERIC",
         "title_orig": "Memoria Adata XPG Lancer Blade, DDR5 16GB (1x16GB), 5600MHz, AX5U5600C4616G-, Negro",
         "title": "Memoria Adata XPG Lancer Blade, DDR5 16GB (1x16GB), 5600MHz, Negro",
         "category": "Memorias RAM",
@@ -5354,7 +5354,7 @@ const PRODUCTS =
     {
         "id": 239,
         "ref": "246449",
-        "brand": "MEM",
+        "brand": "GENERIC",
         "title_orig": "MEM DDR4 16GB 3200 ADATA XPG GAMMIX D35 AM AX4U320016G16A-SBKD35, Negro",
         "title": "MEM DDR4 16GB 3200 ADATA XPG GAMMIX D35 AM Negro",
         "category": "Memorias RAM",
@@ -5374,7 +5374,7 @@ const PRODUCTS =
     {
         "id": 240,
         "ref": "179926",
-        "brand": "MEMÃ“RIA",
+        "brand": "GENERIC",
         "title_orig": "Memoria para Adata, DDR4 8GB (1x8GB), 3200MHz, SO-DIMM, AD4S32008G22-SGN, Verde",
         "title": "Memoria para Adata, DDR4 8GB (1x8GB), 3200MHz, Verde",
         "category": "Memorias RAM",
@@ -5396,7 +5396,7 @@ const PRODUCTS =
     {
         "id": 241,
         "ref": "305490",
-        "brand": "MEMÃ“RIA",
+        "brand": "GENERIC",
         "title_orig": "Memoria Adata XPG Gammix D35, DDR4 16GB (1x16GB), 3200MHz, AX4U320016G16A-SWHD35, Blanco",
         "title": "Memoria Adata XPG Gammix D35, DDR4 16GB (1x16GB), 3200MHz, Blanco",
         "category": "Memorias RAM",
@@ -5418,7 +5418,7 @@ const PRODUCTS =
     {
         "id": 242,
         "ref": "181256",
-        "brand": "MEMÃ“RIA",
+        "brand": "GENERIC",
         "title_orig": "Memoria Macroway, DDR4 4GB (1x4GB), 2666MHz, Verde",
         "title": "Memoria Macroway, DDR4 4GB (1x4GB), 2666MHz, Verde",
         "category": "Memorias RAM",
@@ -5480,7 +5480,7 @@ const PRODUCTS =
     {
         "id": 245,
         "ref": "163414",
-        "brand": "MEMÃ“RIA",
+        "brand": "GENERIC",
         "title_orig": "Memoria para Notebook Keep Data, DDR4 4GB (1x4GB), 3200MHz, SO-DIMM, KD32S22/4G, Verde",
         "title": "Memoria para Notebook Keep Data, DDR4 4GB (1x4GB), 3200MHz, Verde",
         "category": "Memorias RAM",
@@ -5568,7 +5568,7 @@ const PRODUCTS =
     {
         "id": 249,
         "ref": "179937",
-        "brand": "MEMÃ“RIA",
+        "brand": "GENERIC",
         "title_orig": "Memoria para Notebook Adata, DDR4 16GB (1x16GB), 3200MHz, SO-DIMM, AD4S320016G22-SGN, Verde",
         "title": "Memoria para Notebook Adata, DDR4 16GB (1x16GB), 3200MHz, Verde",
         "category": "Memorias RAM",
@@ -5608,7 +5608,7 @@ const PRODUCTS =
     {
         "id": 251,
         "ref": "227459",
-        "brand": "MEMÃ“RIA",
+        "brand": "GENERIC",
         "title_orig": "Memoria para Notebook Macroway, DDR4 16GB (1x16GB), 2400MHz, SO-DIMM, Verde",
         "title": "Memoria para Notebook Macroway, DDR4 16GB (1x16GB), 2400MHz, Verde",
         "category": "Memorias RAM",
@@ -5630,7 +5630,7 @@ const PRODUCTS =
     {
         "id": 252,
         "ref": "92145",
-        "brand": "FONTE",
+        "brand": "GENERIC",
         "title_orig": "FONTE 650W AZZA PSAZ-650W 80+BRONZE - Bivolt BLACK",
         "title": "Fuente 650W AZZA - Bivolt BLACK",
         "category": "Fuentes de Poder",
@@ -5684,7 +5684,7 @@ const PRODUCTS =
     {
         "id": 255,
         "ref": "145504",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "FONTE 600W SATE 80+BRONZE ATX 50HZ/60HZ BIVOLT BLACK",
         "title": "Fuente 600W SATE ATX BIVOLT BLACK",
         "category": "Fuentes de Poder",
@@ -5720,7 +5720,7 @@ const PRODUCTS =
     {
         "id": 257,
         "ref": "190693",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "FONTE 500W SATE 80P BRONZE ATX BLK RGB G*",
         "title": "Fuente 500W SATE 80P BRONZE ATX BLK RGB G*",
         "category": "Fuentes de Poder",
@@ -5756,7 +5756,7 @@ const PRODUCTS =
     {
         "id": 259,
         "ref": "92134",
-        "brand": "FONTE",
+        "brand": "GENERIC",
         "title_orig": "FONTE 550W AZZA PSAZ-550W 80+BRONZE",
         "title": "Fuente 550W AZZA",
         "category": "Fuentes de Poder",
@@ -5792,7 +5792,7 @@ const PRODUCTS =
     {
         "id": 261,
         "ref": "101696",
-        "brand": "FONTE",
+        "brand": "GENERIC",
         "title_orig": "FONTE 750W AZZA PSAZ-750W 80+BRONZE BIVOLT BLACK",
         "title": "Fuente 750W AZZA BIVOLT BLACK",
         "category": "Fuentes de Poder",
@@ -5869,7 +5869,7 @@ const PRODUCTS =
     {
         "id": 265,
         "ref": "42915",
-        "brand": "CABO",
+        "brand": "GENERIC",
         "title_orig": "CABO DE FORCA P/ FONTE 1.5M PADRAO USA",
         "title": "Cable de Fuerza para Fuente 1.5M Estándar USA",
         "category": "Fuentes de Poder",
@@ -5905,7 +5905,7 @@ const PRODUCTS =
     {
         "id": 267,
         "ref": "18299",
-        "brand": "UPS",
+        "brand": "GENERIC",
         "title_orig": "UPS 850VA NOBREAK APS POWER 220V Negro 510W",
         "title": "UPS NOBREAK APS POWER 220V Negro 510W",
         "category": "Fuentes de Poder",
@@ -5941,7 +5941,7 @@ const PRODUCTS =
     {
         "id": 269,
         "ref": "10078",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "FONTE 200W SATE LC-508BTX *G",
         "title": "Fuente 200W SATE *G",
         "category": "Fuentes de Poder",
@@ -5959,7 +5959,7 @@ const PRODUCTS =
     {
         "id": 270,
         "ref": "16141",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "FONTE 400W SATE PRO460 8PIN PCI-E/8PIN CPU S/CABO",
         "title": "Fuente 400W SATE 8PIN CPU",
         "category": "Fuentes de Poder",
@@ -5995,7 +5995,7 @@ const PRODUCTS =
     {
         "id": 272,
         "ref": "92156",
-        "brand": "FONTE",
+        "brand": "GENERIC",
         "title_orig": "FONTE 650W AZZA PSAZ-650W ARGB 80P BRONZE BLACK",
         "title": "Fuente 650W AZZA ARGB 80P BRONZE BLACK",
         "category": "Fuentes de Poder",
@@ -6031,7 +6031,7 @@ const PRODUCTS =
     {
         "id": 274,
         "ref": "190054",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "FONTE 650W SATE 80+BRONZE ATX BLACK S/G",
         "title": "Fuente 650W SATE ATX BLACK S/G",
         "category": "Fuentes de Poder",
@@ -6157,7 +6157,7 @@ const PRODUCTS =
     {
         "id": 281,
         "ref": "196712",
-        "brand": "PILHA",
+        "brand": "GENERIC",
         "title_orig": "PILHA 27A 12V SUNKING ALKALINA - CARTELA 5 UNIDAD",
         "title": "PILHA 27A 12V SUNKING ALKALINA - CARTELA 5 UNIDAD",
         "category": "Fuentes de Poder",
@@ -6175,7 +6175,7 @@ const PRODUCTS =
     {
         "id": 282,
         "ref": "212688",
-        "brand": "PILHA",
+        "brand": "GENERIC",
         "title_orig": "PILHA 27A 12V SUNKING ALKALINA - CARTELA 5PCS",
         "title": "PILHA 27A 12V SUNKING ALKALINA - CARTELA 5PCS",
         "category": "Fuentes de Poder",
@@ -6193,7 +6193,7 @@ const PRODUCTS =
     {
         "id": 283,
         "ref": "79050",
-        "brand": "ESTABILIZADOR",
+        "brand": "GENERIC",
         "title_orig": "ESTABILIZADOR MICROFINS ST-1500 1500W BIVOLT",
         "title": "ESTABILIZADOR MICROFINS 1500W BIVOLT",
         "category": "Fuentes de Poder",
@@ -6211,7 +6211,7 @@ const PRODUCTS =
     {
         "id": 284,
         "ref": "281975",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "UPS 2000VA NOBREAK FTX 2000VA-BR 1200W- 220v",
         "title": "UPS NOBREAK FTX 220v",
         "category": "Fuentes de Poder",
@@ -6247,7 +6247,7 @@ const PRODUCTS =
     {
         "id": 286,
         "ref": "106758",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "FONTE 750W SATE ATX750 80+BRONZE F-MOD BIVOLT",
         "title": "Fuente 750W SATE BIVOLT",
         "category": "Fuentes de Poder",
@@ -6283,7 +6283,7 @@ const PRODUCTS =
     {
         "id": 288,
         "ref": "43815",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "FONTE 500W SATE PRO580 REAL BIVOLT BLACK",
         "title": "Fuente 500W SATE REAL BIVOLT BLACK",
         "category": "Fuentes de Poder",
@@ -6337,7 +6337,7 @@ const PRODUCTS =
     {
         "id": 291,
         "ref": "68811",
-        "brand": "ESTABILIZADOR",
+        "brand": "GENERIC",
         "title_orig": "ESTABILIZADOR MICROFINS ST-1000 1000W BIVOLT",
         "title": "ESTABILIZADOR MICROFINS 1000W BIVOLT",
         "category": "Fuentes de Poder",
@@ -6378,7 +6378,7 @@ const PRODUCTS =
     {
         "id": 293,
         "ref": "251175",
-        "brand": "FONTE",
+        "brand": "GENERIC",
         "title_orig": "FONTE P/ RECEPTOR 12V 3A BIVOLT Negro",
         "title": "Fuente para Receptor 12V 3A Bivolt Negro",
         "category": "Fuentes de Poder",
@@ -6396,7 +6396,7 @@ const PRODUCTS =
     {
         "id": 294,
         "ref": "51309",
-        "brand": "UPS",
+        "brand": "GENERIC",
         "title_orig": "UPS 1500VA NOBREAK FORZA FX-1500LCD-U 110V 840W",
         "title": "UPS NOBREAK FORZA 110V 840W",
         "category": "Fuentes de Poder",
@@ -6432,7 +6432,7 @@ const PRODUCTS =
     {
         "id": 296,
         "ref": "51746",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "FONTE 230W SATE LC-8360ITX MINI ITX SFX S/G",
         "title": "Fuente 230W SATE MINI ITX SFX S/G",
         "category": "Fuentes de Poder",
@@ -6450,7 +6450,7 @@ const PRODUCTS =
     {
         "id": 297,
         "ref": "126323",
-        "brand": "UPS",
+        "brand": "GENERIC",
         "title_orig": "UPS 1000VA NOBREAK FORZA SL-1011LCD-D 110VOLT",
         "title": "UPS NOBREAK FORZA",
         "category": "Fuentes de Poder",
@@ -6468,7 +6468,7 @@ const PRODUCTS =
     {
         "id": 298,
         "ref": "218628",
-        "brand": "PILHA",
+        "brand": "GENERIC",
         "title_orig": "PILHA CR1632 TIANQIU 3V - PACK-5",
         "title": "PILHA TIANQIU 3V",
         "category": "Fuentes de Poder",
@@ -6486,7 +6486,7 @@ const PRODUCTS =
     {
         "id": 299,
         "ref": "18962",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "FONTE 500W SATE PRO590 RGB REAL BIVOLT BLACK",
         "title": "Fuente 500W SATE RGB REAL BIVOLT BLACK",
         "category": "Fuentes de Poder",
@@ -6504,7 +6504,7 @@ const PRODUCTS =
     {
         "id": 300,
         "ref": "207738",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "FONTE 550W SATE PRO550 12V ATX BIVOLT BLACK",
         "title": "Fuente 550W SATE 12V ATX BIVOLT BLACK",
         "category": "Fuentes de Poder",
@@ -6522,7 +6522,7 @@ const PRODUCTS =
     {
         "id": 301,
         "ref": "238620",
-        "brand": "FONTE",
+        "brand": "GENERIC",
         "title_orig": "FONTE 1000W AZZA PSAZ-1000P 80+PLATINUM ATX3.1 PCI 5.0",
         "title": "Fuente 1000W AZZA PCI 5.0",
         "category": "Fuentes de Poder",
@@ -6540,7 +6540,7 @@ const PRODUCTS =
     {
         "id": 302,
         "ref": "207750",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "FONTE 650W SATE PRO650 12V ATX PFC ACTIVE BLACK",
         "title": "Fuente 650W SATE 12V ATX PFC ACTIVE BLACK",
         "category": "Fuentes de Poder",
@@ -6558,7 +6558,7 @@ const PRODUCTS =
     {
         "id": 303,
         "ref": "23218",
-        "brand": "UPS",
+        "brand": "GENERIC",
         "title_orig": "UPS 500VA NOBREAK FORZA NT-511 110V 250W",
         "title": "UPS NOBREAK FORZA 110V 250W",
         "category": "Fuentes de Poder",
@@ -6576,7 +6576,7 @@ const PRODUCTS =
     {
         "id": 304,
         "ref": "167610",
-        "brand": "UPS",
+        "brand": "GENERIC",
         "title_orig": "UPS 2KVA NOBREAK APS TOWER ON LINE 220V",
         "title": "UPS 2KVA NOBREAK APS TOWER ON LINE 220V",
         "category": "Fuentes de Poder",
@@ -6594,7 +6594,7 @@ const PRODUCTS =
     {
         "id": 305,
         "ref": "96913",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "FONTE 500W SATE PRO500 80+GOLD BIVOLT",
         "title": "Fuente 500W SATE BIVOLT",
         "category": "Fuentes de Poder",
@@ -6630,7 +6630,7 @@ const PRODUCTS =
     {
         "id": 307,
         "ref": "126266",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "UPS 2000VA NOBREAK FTX NEMA UNIVERSAL 1200W 220V",
         "title": "UPS NOBREAK FTX NEMA UNIVERSAL 1200W 220V",
         "category": "Fuentes de Poder",
@@ -6648,7 +6648,7 @@ const PRODUCTS =
     {
         "id": 308,
         "ref": "79049",
-        "brand": "ESTABILIZADOR",
+        "brand": "GENERIC",
         "title_orig": "ESTABILIZADOR MICROFINS ST-2000 2000W BIVOLT",
         "title": "ESTABILIZADOR MICROFINS 2000W BIVOLT",
         "category": "Fuentes de Poder",
@@ -6666,7 +6666,7 @@ const PRODUCTS =
     {
         "id": 309,
         "ref": "23230",
-        "brand": "UPS",
+        "brand": "GENERIC",
         "title_orig": "UPS 1000VA NOBREAK FORZA NT-1012U 220V 500W",
         "title": "UPS NOBREAK FORZA 220V 500W",
         "category": "Fuentes de Poder",
@@ -6702,7 +6702,7 @@ const PRODUCTS =
     {
         "id": 311,
         "ref": "141151",
-        "brand": "PILHAS",
+        "brand": "GENERIC",
         "title_orig": "Pilhas Recargable Mox AA con 4 Pilhas, 3000MAH",
         "title": "Pilhas Recargable Mox AA Con 4 Pilhas",
         "category": "Fuentes de Poder",
@@ -6774,7 +6774,7 @@ const PRODUCTS =
     {
         "id": 315,
         "ref": "101685",
-        "brand": "FONTE",
+        "brand": "GENERIC",
         "title_orig": "FONTE 750W AZZA PSAZ-750W 80+BRONZE RGB",
         "title": "Fuente 750W AZZA RGB",
         "category": "Fuentes de Poder",
@@ -6792,7 +6792,7 @@ const PRODUCTS =
     {
         "id": 316,
         "ref": "207749",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "FONTE 600W SATE PRO-600 12V ATX PFC ACTIVE",
         "title": "Fuente 600W SATE 12V ATX PFC ACTIVE",
         "category": "Fuentes de Poder",
@@ -6833,7 +6833,7 @@ const PRODUCTS =
     {
         "id": 318,
         "ref": "126222",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "UPS 600VA NOBREAK FTX 5106CW 360W 220VOLTS NEMA UNIVERSAL",
         "title": "UPS NOBREAK FTX 360W NEMA UNIVERSAL",
         "category": "Fuentes de Poder",
@@ -6887,7 +6887,7 @@ const PRODUCTS =
     {
         "id": 321,
         "ref": "301070",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "UPS 1200VA NOBREAK FTX 720W 220V INTERACTIVA NEMA UNIVERSAL",
         "title": "UPS NOBREAK FTX 720W 220V INTERACTIVA NEMA UNIVERSAL",
         "category": "Fuentes de Poder",
@@ -6963,7 +6963,7 @@ const PRODUCTS =
     {
         "id": 325,
         "ref": "163717",
-        "brand": "ZEMISMART",
+        "brand": "GENERIC",
         "title_orig": "ZIGBEE ZEMISMART MOTOR P/PERSIANA ZM25EL S/CONTRO",
         "title": "ZIGBEE ZEMISMART MOTOR",
         "category": "Smart Home / Domótica",
@@ -6981,7 +6981,7 @@ const PRODUCTS =
     {
         "id": 326,
         "ref": "163750",
-        "brand": "ZEMISMART",
+        "brand": "GENERIC",
         "title_orig": "ZIGBEE ZEMISMART LAMPADA RGB ZB-GU53 1000032 GU53",
         "title": "ZIGBEE ZEMISMART LAMPADA RGB 1000032 GU53",
         "category": "Smart Home / Domótica",
@@ -6999,7 +6999,7 @@ const PRODUCTS =
     {
         "id": 327,
         "ref": "178106",
-        "brand": "SONOFF",
+        "brand": "GENERIC",
         "title_orig": "SONOFF INTERRUPTOR SMART PAREDE T3EU1C 1TC Negro",
         "title": "SONOFF INTERRUPTOR SMART PAREDE 1TC Negro",
         "category": "Smart Home / Domótica",
@@ -7017,7 +7017,7 @@ const PRODUCTS =
     {
         "id": 328,
         "ref": "163829",
-        "brand": "ZEMISMART",
+        "brand": "GENERIC",
         "title_orig": "ZIGBEE ZEMISMART TRILHO DE CORTINA 2.2M ZM79-ZG-2 ZM79-ZG-2",
         "title": "ZIGBEE ZEMISMART TRILHO DE CORTINA 2.2M",
         "category": "Smart Home / Domótica",
@@ -7035,7 +7035,7 @@ const PRODUCTS =
     {
         "id": 329,
         "ref": "230790",
-        "brand": "ZEMISMART",
+        "brand": "GENERIC",
         "title_orig": "ZIGBEE ZEMISMART BOTAO S/FIO 4 TECLAS HSB04KZ-BLK",
         "title": "ZIGBEE ZEMISMART BOTAO 4 TECLAS",
         "category": "Smart Home / Domótica",
@@ -7053,7 +7053,7 @@ const PRODUCTS =
     {
         "id": 330,
         "ref": "185710",
-        "brand": "ZEMISMART",
+        "brand": "GENERIC",
         "title_orig": "ZIGBEE ZEMISMART ESP PUSH 1 INT. 100022 TB-Z21",
         "title": "ZIGBEE ZEMISMART ESP PUSH 1 INT. 100022",
         "category": "Smart Home / Domótica",
@@ -7071,7 +7071,7 @@ const PRODUCTS =
     {
         "id": 331,
         "ref": "163895",
-        "brand": "ZEMISMART",
+        "brand": "GENERIC",
         "title_orig": "ZIGBEE ZEMISMART BOTAO S/FIO 2 TECLAS HSB02TZ 0043",
         "title": "ZIGBEE ZEMISMART BOTAO 2 TECLAS 0043",
         "category": "Smart Home / Domótica",
@@ -7089,7 +7089,7 @@ const PRODUCTS =
     {
         "id": 332,
         "ref": "217920",
-        "brand": "CONTROLE",
+        "brand": "GENERIC",
         "title_orig": "CONTROLE REMOTO MOES RF YK2128-B 433MHZ BLACK",
         "title": "Control REMOTO MOES RF 433MHZ BLACK",
         "category": "Smart Home / Domótica",
@@ -7107,7 +7107,7 @@ const PRODUCTS =
     {
         "id": 333,
         "ref": "163985",
-        "brand": "HOMIE",
+        "brand": "GENERIC",
         "title_orig": "ZIGBEE HOMIE ESP PUSH 3 INT. HSS03FR WHITE HSS03FR - 606",
         "title": "ZIGBEE HOMIE ESP PUSH 3 INT. WHITE - 606",
         "category": "Smart Home / Domótica",
@@ -7125,7 +7125,7 @@ const PRODUCTS =
     {
         "id": 334,
         "ref": "180100",
-        "brand": "HOMIE",
+        "brand": "GENERIC",
         "title_orig": "ZIGBEE HOMIE ESP TOUCH 2 INT. HSS02TR WHITE WHITE",
         "title": "ZIGBEE HOMIE ESP TOUCH 2 INT. WHITE WHITE",
         "category": "Smart Home / Domótica",
@@ -7143,7 +7143,7 @@ const PRODUCTS =
     {
         "id": 335,
         "ref": "305893",
-        "brand": "HOMIE",
+        "brand": "GENERIC",
         "title_orig": "ZIGBEE HOMIE MOTOR P/CORTINA DE ROLO HCO01CZ 17MM DC",
         "title": "ZIGBEE HOMIE MOTOR DE ROLO 17MM DC",
         "category": "Smart Home / Domótica",
@@ -7161,7 +7161,7 @@ const PRODUCTS =
     {
         "id": 336,
         "ref": "292046",
-        "brand": "HOMIE",
+        "brand": "GENERIC",
         "title_orig": "ZIGBEE HOMIE ESP TOUCH 3 INT. HSS03TR-BLK BLACK",
         "title": "ZIGBEE HOMIE ESP TOUCH 3 INT. BLACK",
         "category": "Smart Home / Domótica",
@@ -7179,7 +7179,7 @@ const PRODUCTS =
     {
         "id": 337,
         "ref": "330634",
-        "brand": "TP-LINK",
+        "brand": "GENERIC",
         "title_orig": "TOMADA SMART TP-LINK WIFI TAPO P110(BR) 10A BIVOLT BIVOLT",
         "title": "TOMADA SMART WIFI TAPO 10A BIVOLT BIVOLT",
         "category": "Smart Home / Domótica",
@@ -7197,7 +7197,7 @@ const PRODUCTS =
     {
         "id": 338,
         "ref": "292035",
-        "brand": "HOMIE",
+        "brand": "GENERIC",
         "title_orig": "ZIGBEE HOMIE ESP TOUCH 4 INT. HSS04TR WHITE",
         "title": "ZIGBEE HOMIE ESP TOUCH 4 INT. WHITE",
         "category": "Smart Home / Domótica",
@@ -7215,7 +7215,7 @@ const PRODUCTS =
     {
         "id": 339,
         "ref": "291998",
-        "brand": "HOMIE",
+        "brand": "GENERIC",
         "title_orig": "ZIGBEE HOMIE ESP TOUCH 3 INT. HSS03TR WHITE",
         "title": "ZIGBEE HOMIE ESP TOUCH 3 INT. WHITE",
         "category": "Smart Home / Domótica",
@@ -7233,7 +7233,7 @@ const PRODUCTS =
     {
         "id": 340,
         "ref": "292068",
-        "brand": "HOMIE",
+        "brand": "GENERIC",
         "title_orig": "ZIGBEE HOMIE ESP TOUCH 4 INT. HSS04TR-BLK BLACK",
         "title": "ZIGBEE HOMIE ESP TOUCH 4 INT. BLACK",
         "category": "Smart Home / Domótica",
@@ -7251,7 +7251,7 @@ const PRODUCTS =
     {
         "id": 341,
         "ref": "292080",
-        "brand": "HOMIE",
+        "brand": "GENERIC",
         "title_orig": "ZIGBEE HOMIE ESP TOUCH 1 INT. HSS01TR-BLK BLACK",
         "title": "ZIGBEE HOMIE ESP TOUCH 1 INT. BLACK",
         "category": "Smart Home / Domótica",
@@ -7287,7 +7287,7 @@ const PRODUCTS =
     {
         "id": 343,
         "ref": "292079",
-        "brand": "HOMIE",
+        "brand": "GENERIC",
         "title_orig": "ZIGBEE HOMIE ESP TOUCH 2 INT. HSS02TR-BLK BLACK",
         "title": "ZIGBEE HOMIE ESP TOUCH 2 INT. BLACK",
         "category": "Smart Home / Domótica",
@@ -7305,7 +7305,7 @@ const PRODUCTS =
     {
         "id": 344,
         "ref": "387275",
-        "brand": "AMAZON",
+        "brand": "GENERIC",
         "title_orig": "AMAZON ALEXA ECHO DOT 5? GER. Azul C2N6L4",
         "title": "AMAZON ALEXA ECHO DOT 5? GER. Azul",
         "category": "Smart Home / Domótica",
@@ -7323,7 +7323,7 @@ const PRODUCTS =
     {
         "id": 345,
         "ref": "383216",
-        "brand": "AMAZON",
+        "brand": "GENERIC",
         "title_orig": "AMAZON ALEXA ECHO SHOW 11\" Negro",
         "title": "AMAZON ALEXA ECHO SHOW 11\" Negro",
         "category": "Smart Home / Domótica",
@@ -8887,7 +8887,7 @@ const PRODUCTS =
     {
         "id": 426,
         "ref": "180457",
-        "brand": "HP",
+        "brand": "BIOSTAR",
         "title_orig": "MB AM4 BIOSTAR B450MHP DDR4/HDMI/VGA",
         "title": "MB AM4 BIOSTAR",
         "category": "Placas Madre",
@@ -9243,7 +9243,7 @@ const PRODUCTS =
     {
         "id": 445,
         "ref": "137235",
-        "brand": "PLACA",
+        "brand": "GENERIC",
         "title_orig": "Placa Madre 1155 Arktek AK-H61M EL 2xDDR3, 1xVGA D-Sub, 1xHDMI, 6xUSB-A 2.0, 1xRJ45 Gigabit, 1xAudio, M-ATX",
         "title": "Placa Madre 1155 Arktek EL 2xDDR3, 1xVGA 1xHDMI, 6xUSB-A 2.0, 1xRJ45 Gigabit, 1xAudio",
         "category": "Placas Madre",
@@ -9764,7 +9764,7 @@ const PRODUCTS =
     {
         "id": 472,
         "ref": "240274",
-        "brand": "LG",
+        "brand": "GENERIC",
         "title_orig": "Soporte P/LGA1700 THERMALRIGHT LGA1700-BCF BLACK",
         "title": "Soporte THERMALRIGHT BLACK",
         "category": "Placas Madre",
@@ -10230,7 +10230,7 @@ const PRODUCTS =
     {
         "id": 495,
         "ref": "212240",
-        "brand": "AMD",
+        "brand": "MTEK",
         "title_orig": "Monitor Mtek M24SFV165C Curvo 24\" Full HD (1920 x 1080), 165HZ, 1ms, 2xHDMI 2.0, 2xDisplayPort 1.4, 1xConector de Audio, AMD FreeSync nativa e G-Sync Compatible, RGB, Negro",
         "title": "Monitor Mtek Curvo 24\" Full HD",
         "category": "Monitores",
@@ -10283,7 +10283,7 @@ const PRODUCTS =
     {
         "id": 497,
         "ref": "233513",
-        "brand": "MONITOR",
+        "brand": "GENERIC",
         "title_orig": "Monitor Hye HY27VIEW165 Curvo 27\" Full HD (1920x1080), 165Hz, 1xHDMI 1.4, 1xDisplayPort 1.2, Negro",
         "title": "Monitor Hye Curvo 27\" Full HD",
         "category": "Monitores",
@@ -10307,7 +10307,7 @@ const PRODUCTS =
     {
         "id": 498,
         "ref": "229103",
-        "brand": "MONITOR",
+        "brand": "GENERIC",
         "title_orig": "Monitor TEK PTK20NTH 20\" HD+ (1600 x 900), 5ms, 60Hz, 1xHDMI, 1xVGA (D-Sub), Negro",
         "title": "Monitor TEK 20\" HD",
         "category": "Monitores",
@@ -10332,7 +10332,7 @@ const PRODUCTS =
     {
         "id": 499,
         "ref": "244201",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "Soporte para Monitor SATE A-RM18T Doble/Gas 17/32",
         "title": "Soporte para Monitor SATE A-RM18T Doble/Gas 17/32",
         "category": "Monitores",
@@ -10374,7 +10374,7 @@ const PRODUCTS =
     {
         "id": 501,
         "ref": "217436",
-        "brand": "MONITOR",
+        "brand": "GENERIC",
         "title_orig": "Monitor Hye HYE22GFM 22\" Full HD (1920 x 1080), 3ms, 75Hz, 1xHDMI, 1xVGA (D-Sub), Negro",
         "title": "Monitor Hye 22\" Full HD",
         "category": "Monitores",
@@ -10430,7 +10430,7 @@ const PRODUCTS =
     {
         "id": 503,
         "ref": "244199",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "Soporte para Monitor SATE A-RM16T Articulado 17/32",
         "title": "Soporte para Monitor SATE A-RM16T Articulado 17/32",
         "category": "Monitores",
@@ -10500,7 +10500,7 @@ const PRODUCTS =
     {
         "id": 506,
         "ref": "233535",
-        "brand": "MONITOR",
+        "brand": "GENERIC",
         "title_orig": "Monitor Hye HY27VIEW75 27\" Full HD (1920x1080), 75Hz, 5ms, 1xHDMI 1.4, 1xVGA (D-Sub), Negro",
         "title": "Monitor Hye 27\" Full HD",
         "category": "Monitores",
@@ -10525,7 +10525,7 @@ const PRODUCTS =
     {
         "id": 507,
         "ref": "217414",
-        "brand": "MONITOR",
+        "brand": "GENERIC",
         "title_orig": "Monitor HYE HYE17NLM 17\" HD (1366 x 768), 5ms, 60Hz, 1xHDMI, 1xVGA (D-Sub), Negro",
         "title": "Monitor HYE 17\" HD",
         "category": "Monitores",
@@ -10550,7 +10550,7 @@ const PRODUCTS =
     {
         "id": 508,
         "ref": "233524",
-        "brand": "MONITOR",
+        "brand": "GENERIC",
         "title_orig": "Monitor HYE 27\" Full HD, 240Hz 1ms, 2xHDMI 1.4, 2xDisplayPort 1.2, 1xConector de Áudio, HY27VIEW240, Negro",
         "title": "Monitor HYE 27\" Full HD",
         "category": "Monitores",
@@ -10574,7 +10574,7 @@ const PRODUCTS =
     {
         "id": 509,
         "ref": "217425",
-        "brand": "MONITOR",
+        "brand": "GENERIC",
         "title_orig": "Monitor HYE HYE20NLM 20\" HD+ (1600 x 900), 5ms, 60Hz, 1xHDMI, 1xVGA (D-Sub), Negro",
         "title": "Monitor HYE 20\" HD",
         "category": "Monitores",
@@ -10671,7 +10671,7 @@ const PRODUCTS =
     {
         "id": 513,
         "ref": "70837",
-        "brand": "MONITOR",
+        "brand": "GENERIC",
         "title_orig": "Monitor Viewsonic VA1903H 19\" HD (1366 x 768), 5ms, 60HZ, 1xHDMI 1.4, 1xVGA (D-Sub), 1xUSB-C, 1xConector de Audio, Negro",
         "title": "Monitor Viewsonic 19\" HD",
         "category": "Monitores",
@@ -10716,7 +10716,7 @@ const PRODUCTS =
     {
         "id": 515,
         "ref": "100034",
-        "brand": "MONITOR",
+        "brand": "GENERIC",
         "title_orig": "Monitor HYE HY16WLNC 15.6\" HD (1024 x 768), 5ms, 60Hz, 1xHDMI, 1xVGA (D-Sub), Negro",
         "title": "Monitor HYE 15.6\" HD",
         "category": "Monitores",
@@ -10741,7 +10741,7 @@ const PRODUCTS =
     {
         "id": 516,
         "ref": "240959",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "Soporte para Monitor SATE A-CP60ST USB RGB Negro",
         "title": "Soporte para Monitor SATE A-CP60ST USB RGB Negro",
         "category": "Monitores",
@@ -10777,7 +10777,7 @@ const PRODUCTS =
     {
         "id": 518,
         "ref": "295194",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "Soporte para Monitor FTX FTX66-C011 17\" A 32\" 9KG",
         "title": "Soporte para Monitor FTX 17\" A 32\" 9KG",
         "category": "Monitores",
@@ -10795,7 +10795,7 @@ const PRODUCTS =
     {
         "id": 519,
         "ref": "240960",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "Soporte para Monitor SATE A-CP61 USB Negro *G",
         "title": "Soporte para Monitor SATE A-CP61 USB Negro *G",
         "category": "Monitores",
@@ -10840,7 +10840,7 @@ const PRODUCTS =
     {
         "id": 521,
         "ref": "138673",
-        "brand": "MONITOR",
+        "brand": "GENERIC",
         "title_orig": "Monitor HYE HY20WFNC 20\" HD (1440 x 900), 5ms, 60Hz, 1xHDMI, 1xVGA (D-Sub), Negro",
         "title": "Monitor HYE 20\" HD",
         "category": "Monitores",
@@ -10892,7 +10892,7 @@ const PRODUCTS =
     {
         "id": 523,
         "ref": "264067",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "Soporte para Notebook SATE A-CP04 17\" Negro",
         "title": "Soporte para Notebook SATE 17\" Negro",
         "category": "Monitores",
@@ -10910,7 +10910,7 @@ const PRODUCTS =
     {
         "id": 524,
         "ref": "193999",
-        "brand": "SOPORTE",
+        "brand": "GENERIC",
         "title_orig": "Soporte para Monitor E NOTE KOLKE KVS-599 BLACK",
         "title": "Soporte para Monitor E NOTE KOLKE KVS-599 BLACK",
         "category": "Monitores",
@@ -10928,7 +10928,7 @@ const PRODUCTS =
     {
         "id": 525,
         "ref": "264078",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "Soporte para Notebook SATE A-CP05 17\" Negro",
         "title": "Soporte para Notebook SATE 17\" Negro",
         "category": "Monitores",
@@ -10946,7 +10946,7 @@ const PRODUCTS =
     {
         "id": 526,
         "ref": "264090",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "Soporte para Notebook SATE A-CP41 17\" Negro",
         "title": "Soporte para Notebook SATE 17\" Negro",
         "category": "Monitores",
@@ -10984,7 +10984,7 @@ const PRODUCTS =
     {
         "id": 528,
         "ref": "233546",
-        "brand": "MONITOR",
+        "brand": "GENERIC",
         "title_orig": "Monitor Hye HY32VIEW75 Curvo 32\" Full HD (1920 x 1080), 75HZ, 1xHDMI 1.4, 1xVGA (D-Sub), Negro",
         "title": "Monitor Hye Curvo 32\" Full HD",
         "category": "Monitores",
@@ -11008,7 +11008,7 @@ const PRODUCTS =
     {
         "id": 529,
         "ref": "314344",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "Monitor FTX M22VHDBZL 22\" Full HD (1920 x 1080), 5ms, 75Hz, 1xHDMI, 1xVGA (D-Sub), Negro FTXQ2201",
         "title": "Monitor FTX 22\" Full HD",
         "category": "Monitores",
@@ -11078,7 +11078,7 @@ const PRODUCTS =
     {
         "id": 532,
         "ref": "295218",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "Soporte para Monitor FTX FTX66-C024 17\" A 32\" 9KG",
         "title": "Soporte para Monitor FTX 17\" A 32\" 9KG",
         "category": "Monitores",
@@ -11096,7 +11096,7 @@ const PRODUCTS =
     {
         "id": 533,
         "ref": "240970",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "Soporte para Notebook SATE A-CP24A 2USB RGB SILVER",
         "title": "Soporte para Notebook SATE A-CP24A 2USB RGB SILVER",
         "category": "Monitores",
@@ -11114,7 +11114,7 @@ const PRODUCTS =
     {
         "id": 534,
         "ref": "318809",
-        "brand": "AMD",
+        "brand": "MTEK",
         "title_orig": "Monitor Mtek M27SFV280C Curvo 27\" Full HD (1920 x 1080), 1MS, 280HZ, 1xHDMI 2.0, 1xHDMI 1.4, 1xDisplayPort 1.2, 1xConector de Audio, AMD FreeSync, Nvidia G-Sync, Speaker (2Wx2), Negro",
         "title": "Monitor Mtek Curvo 27\" Full HD",
         "category": "Monitores",
@@ -11144,7 +11144,7 @@ const PRODUCTS =
     {
         "id": 535,
         "ref": "318405",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "MON 15.6 SATE PORTATIL A-DM1501 FHD/1080P/USB-C TELA DUPLA",
         "title": "MON 15.6 SATE PORTATIL A-DM1501 FHD/1080P/USB-C TELA DUPLA",
         "category": "Monitores",
@@ -11194,7 +11194,7 @@ const PRODUCTS =
     {
         "id": 537,
         "ref": "309976",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "Soporte para Monitor FTX FTX46-C024E 17\" A 32\" Negro",
         "title": "Soporte para Monitor FTX 17\" A 32\" Negro",
         "category": "Monitores",
@@ -11269,7 +11269,7 @@ const PRODUCTS =
     {
         "id": 540,
         "ref": "333750",
-        "brand": "MONITOR",
+        "brand": "GENERIC",
         "title_orig": "Monitor Teros TE-2713S 27\" Full HD (1920 x 1080), 1ms, 120HZ, IPS, 1xHDMI 1.4, 1xDisplayPort 1.2, Negro",
         "title": "Monitor Teros 27\" Full HD",
         "category": "Monitores",
@@ -11407,7 +11407,7 @@ const PRODUCTS =
     {
         "id": 546,
         "ref": "125950",
-        "brand": "MONITOR",
+        "brand": "GENERIC",
         "title_orig": "Monitor Hye Curvo HY24WCGB 23.8\" Full HD (1920 x 1080), 165HZ, 1ms, 1xHDMI, 1xDisplayPort, Negro",
         "title": "Monitor Hye Curvo 23.8\" Full HD",
         "category": "Monitores",
@@ -11464,7 +11464,7 @@ const PRODUCTS =
     {
         "id": 548,
         "ref": "310193",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "Monitor Touchscreen Capacitivo FTX MT17V1 17\" SXGA (1280 x 1024), 5ms, 1xHDMI, 1xVGA (D-Sub), 1xUSB, 1x Jack 3.5mm, Negro",
         "title": "Monitor Touchscreen Capacitivo FTX 17\" SXGA (1280 x 1024)",
         "category": "Monitores",
@@ -11489,7 +11489,7 @@ const PRODUCTS =
     {
         "id": 549,
         "ref": "310228",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "Soporte para Monitor FTX FTX-02LD 17\"A 32\" 2 Monitores",
         "title": "Soporte para Monitor FTX 17\"A 32\" 2 Monitores",
         "category": "Monitores",
@@ -11597,7 +11597,7 @@ const PRODUCTS =
     {
         "id": 554,
         "ref": "295229",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "Soporte para Monitor FTX FTX66-T024 17\" A 32\" 9KG",
         "title": "Soporte para Monitor FTX 17\" A 32\" 9KG",
         "category": "Monitores",
@@ -11615,7 +11615,7 @@ const PRODUCTS =
     {
         "id": 555,
         "ref": "310206",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "Monitor Touchscreen Capacitivo FTX MT19V2 19",
         "title": "Monitor Touchscreen Capacitivo FTX MT19V2 19",
         "category": "Monitores",
@@ -11689,7 +11689,7 @@ const PRODUCTS =
     {
         "id": 558,
         "ref": "329495",
-        "brand": "MONITOR",
+        "brand": "GENERIC",
         "title_orig": "Monitor Hye HY24VIEW75 Curvo 24\" Full HD (1920 x 1080), 75HZ, 1xHDMI, 1xDisplayPort 1.2, Negro",
         "title": "Monitor Hye Curvo 24\" Full HD",
         "category": "Monitores",
@@ -11713,7 +11713,7 @@ const PRODUCTS =
     {
         "id": 560,
         "ref": "310182",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "Monitor Touchscreen Capacitivo FTX MT15V1 15\" HD (1024 x 768), 5ms, 1xHDMI, 1xVGA (D-Sub), 1xUSB, 1x Jack 3.5mm, Negro",
         "title": "Monitor Touchscreen Capacitivo FTX 15\" HD",
         "category": "Monitores",
@@ -11892,7 +11892,7 @@ const PRODUCTS =
     {
         "id": 568,
         "ref": "80052",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "KIT, Gabinete Satelite K704, MID Tower, Fuente 200W, Speaker, Mouse, Teclado espanhol, ATX, Negro",
         "title": "KIT, Gabinete Satelite K704, MID Tower, Fuente 200W, Speaker, Mouse, Teclado espanhol, ATX, Negro",
         "category": "Gabinetes",
@@ -11919,7 +11919,7 @@ const PRODUCTS =
     {
         "id": 569,
         "ref": "256720",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "Gabinete Gamer, Aquario, Sate K897, MID Tower, ARGB, E-ATX, Frontal e Lateral Vidrio Temperado, 4x Fans, Blanco 120mm ARGB",
         "title": "Gabinete Gamer, Aquario, Sate K897, MID Tower, ARGB, Frontal e Lateral Vidrio Temperado, 4x Fans, Blanco ARGB",
         "category": "Gabinetes",
@@ -11945,7 +11945,7 @@ const PRODUCTS =
     {
         "id": 570,
         "ref": "149003",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "Controlador ARGB Sate ACB-5 Black, 9xPWM, 9x Conectores ARGB 3 pines 5V, Sata Power imput, con control *G",
         "title": "Controlador ARGB Sate Black, 9xPWM, 9x Conectores ARGB 3 pines 5V, Sata Power imput, Con Control *G",
         "category": "Periféricos",
@@ -11968,7 +11968,7 @@ const PRODUCTS =
     {
         "id": 571,
         "ref": "204498",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "Gabinete Gamer Sate 1300K, MID Tower, RGB, ATX, Lateral e Frontal Acrilico, 3x Fans RGB, Negro",
         "title": "Gabinete Gamer Sate 1300K, MID Tower, RGB, ATX, Lateral e Frontal Acrilico, 3x Fans RGB, Negro",
         "category": "Gabinetes",
@@ -12072,7 +12072,7 @@ const PRODUCTS =
     {
         "id": 576,
         "ref": "164582",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "TECLADO SATE GK51 ENGLISH RGB MECHANICAL EUA",
         "title": "TECLADO SATE GK51 ENGLISH RGB MECHANICAL EUA",
         "category": "Periféricos",
@@ -12130,7 +12130,7 @@ const PRODUCTS =
     {
         "id": 579,
         "ref": "164571",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "TECLADO SATE GK31 ENGLISH RGB MECHANICAL EUA",
         "title": "TECLADO SATE GK31 ENGLISH RGB MECHANICAL EUA",
         "category": "Periféricos",
@@ -12148,7 +12148,7 @@ const PRODUCTS =
     {
         "id": 580,
         "ref": "247595",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "TECLADO SATE AK-892 ESPANHOL MULTIMEDIA USB RGB",
         "title": "TECLADO SATE ESPANHOL MULTIMEDIA USB RGB",
         "category": "Periféricos",
@@ -12166,7 +12166,7 @@ const PRODUCTS =
     {
         "id": 581,
         "ref": "95440",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "Gabinete Gamer Shastalite K883, MID Tower, ARGB, ATX, Lateral Acrílico, 1x Fan 120mm, Negro",
         "title": "Gabinete Gamer Satélite K883, MID Tower, ARGB, ATX, Lateral Acrílico, 1x Fan Negro",
         "category": "Gabinetes",
@@ -12209,7 +12209,7 @@ const PRODUCTS =
     {
         "id": 583,
         "ref": "25624",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "FILTRO DE LINHA SATE A-R05 6 TOMADAS",
         "title": "FILTRO DE LINHA SATE 6 TOMADAS",
         "category": "Periféricos",
@@ -12227,7 +12227,7 @@ const PRODUCTS =
     {
         "id": 584,
         "ref": "87307",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "Gabinete Gamer Shastalite K884, MID Tower, ARGB, ATX, Lateral Acrílico, 1x Fan 120mm, Negro",
         "title": "Gabinete Gamer Satélite K884, MID Tower, ARGB, ATX, Lateral Acrílico, 1x Fan Negro",
         "category": "Gabinetes",
@@ -12274,7 +12274,7 @@ const PRODUCTS =
     {
         "id": 586,
         "ref": "189927",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "TECLADO SATE GK-702 ESPANHOL RGB MECHANICAL",
         "title": "TECLADO SATE ESPANHOL RGB MECHANICAL",
         "category": "Periféricos",
@@ -12292,7 +12292,7 @@ const PRODUCTS =
     {
         "id": 587,
         "ref": "175999",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "Controlador RGB Sate ACB-2 Black, 2xPWM, 10x Conectores RGB 6 pines 5V, Molex Power imput, con control",
         "title": "Controlador RGB Sate Black, 2xPWM, 10x Conectores RGB 6 pines 5V, Molex Power imput, Con Control",
         "category": "Periféricos",
@@ -12333,7 +12333,7 @@ const PRODUCTS =
     {
         "id": 589,
         "ref": "79701",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "MICROFONE SATE A-MK05 LIVE BROADCAST",
         "title": "MICROFONE SATE LIVE BROADCAST",
         "category": "Periféricos",
@@ -12390,7 +12390,7 @@ const PRODUCTS =
     {
         "id": 592,
         "ref": "189960",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "TECLADO MINI SATE GK-55 MECANICO RGB USB/BT",
         "title": "TECLADO MINI SATE MECANICO RGB",
         "category": "Periféricos",
@@ -12408,7 +12408,7 @@ const PRODUCTS =
     {
         "id": 593,
         "ref": "174359",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "MOUSE SATE A-31 OPTICO USB Negro",
         "title": "MOUSE SATE A-31 OPTICO USB Negro",
         "category": "Periféricos",
@@ -12466,7 +12466,7 @@ const PRODUCTS =
     {
         "id": 596,
         "ref": "65718",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "MOUSEPAD SATE A-PAD032 30X80CM Rojo",
         "title": "MOUSEPAD SATE 30X80CM Rojo",
         "category": "Periféricos",
@@ -12556,7 +12556,7 @@ const PRODUCTS =
     {
         "id": 601,
         "ref": "65369",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "TEC/MOUSE SATE AK-726G PORTUGUES WIRELESS",
         "title": "SATE Portugués WIRELESS",
         "category": "Periféricos",
@@ -12592,7 +12592,7 @@ const PRODUCTS =
     {
         "id": 603,
         "ref": "28761",
-        "brand": "CABO",
+        "brand": "GENERIC",
         "title_orig": "CABO SATA3 DADOS - 1 UNIDADE (1 PECA)",
         "title": "Cable DADOS - 1 UNIDADE (1 PECA)",
         "category": "Periféricos",
@@ -12610,7 +12610,7 @@ const PRODUCTS =
     {
         "id": 604,
         "ref": "256710",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "Gabinete Gamer, Aquario, Sate K896, MID Tower, ARGB, E-ATX, Frontal e Lateral Vidrio Temperado, 4x Fans, Negro 120mm ARGB",
         "title": "Gabinete Gamer, Aquario, Sate K896, MID Tower, ARGB, Frontal e Lateral Vidrio Temperado, 4x Fans, Negro ARGB",
         "category": "Gabinetes",
@@ -12636,7 +12636,7 @@ const PRODUCTS =
     {
         "id": 605,
         "ref": "78700",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "Controlador RGB Sate ACB-4 Black, 2xPWM, 10x Conectores RGB 6 pines 5V, Molex Power imput, con control",
         "title": "Controlador RGB Sate Black, 2xPWM, 10x Conectores RGB 6 pines 5V, Molex Power imput, Con Control",
         "category": "Periféricos",
@@ -12721,7 +12721,7 @@ const PRODUCTS =
     {
         "id": 609,
         "ref": "247584",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "TECLADO SATE AK-891 PORTUGUES MULTIMEDIA USB RGB",
         "title": "TECLADO SATE Portugués MULTIMEDIA USB RGB",
         "category": "Periféricos",
@@ -12782,7 +12782,7 @@ const PRODUCTS =
     {
         "id": 612,
         "ref": "223881",
-        "brand": "CAIXA",
+        "brand": "GENERIC",
         "title_orig": "CAIXA DE SOM SATE AS-92002 RGB/2.0/BLACK",
         "title": "Parlante SATE",
         "category": "Periféricos",
@@ -12818,7 +12818,7 @@ const PRODUCTS =
     {
         "id": 614,
         "ref": "80153",
-        "brand": "ADAPTADOR",
+        "brand": "GENERIC",
         "title_orig": "ADAPTADOR USB P/ SATA3 (DADOS/FORCA) USB 3.0",
         "title": "Adaptador USB a USB 3.0",
         "category": "Periféricos",
@@ -12877,7 +12877,7 @@ const PRODUCTS =
     {
         "id": 617,
         "ref": "188443",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "TECLADO SATE K7 ESPANHOL GAMER SEMI MECANICO",
         "title": "TECLADO SATE K7 ESPANHOL GAMER SEMI MECANICO",
         "category": "Periféricos",
@@ -12895,7 +12895,7 @@ const PRODUCTS =
     {
         "id": 618,
         "ref": "23554",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "MOUSEPAD SATE A-PAD031 30X80CM Negro",
         "title": "MOUSEPAD SATE 30X80CM Negro",
         "category": "Periféricos",
@@ -12993,7 +12993,7 @@ const PRODUCTS =
     {
         "id": 623,
         "ref": "195395",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "TECLADO SATE AK-188 DESIG.GRAFICO PROCREATE WIFI",
         "title": "TECLADO SATE DESIG.GRAFICO PROCREATE WIFI",
         "category": "Periféricos",
@@ -13047,7 +13047,7 @@ const PRODUCTS =
     {
         "id": 626,
         "ref": "247573",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "TECLADO SATE AK-952 ESPANHOL USB Negro",
         "title": "TECLADO SATE ESPANHOL USB Negro",
         "category": "Periféricos",
@@ -13083,7 +13083,7 @@ const PRODUCTS =
     {
         "id": 628,
         "ref": "62109",
-        "brand": "CAIXA",
+        "brand": "GENERIC",
         "title_orig": "CAIXA DE SOM SATE AS-2301",
         "title": "Parlante SATE",
         "category": "Periféricos",
@@ -13146,7 +13146,7 @@ const PRODUCTS =
     {
         "id": 631,
         "ref": "65762",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "MOUSEPAD SATE A-PAD021 27X32CM Negro *G",
         "title": "MOUSEPAD SATE 27X32CM Negro *G",
         "category": "Periféricos",
@@ -13164,7 +13164,7 @@ const PRODUCTS =
     {
         "id": 632,
         "ref": "65740",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "MOUSEPAD SATE A-PAD08 80X30CM GAMING LED RGB",
         "title": "MOUSEPAD SATE 80X30CM GAMING LED RGB",
         "category": "Periféricos",
@@ -13247,7 +13247,7 @@ const PRODUCTS =
     {
         "id": 636,
         "ref": "233625",
-        "brand": "SANDISK",
+        "brand": "GENERIC",
         "title_orig": "SSD SanDisk PLUS, 1TB, M.2 PCIe 3.0 NVMe, Lectura hasta 3200MB/s Grabación 2500MB/s, SDSSDA3N-1T00-G26",
         "title": "SSD SanDisk PLUS, 1TB, M.2 PCIe 3.0 NVMe, Lectura hasta Grabación",
         "category": "Almacenamiento (SSD)",
@@ -13292,7 +13292,7 @@ const PRODUCTS =
     {
         "id": 638,
         "ref": "238944",
-        "brand": "SANDISK",
+        "brand": "GENERIC",
         "title_orig": "HD SSD M.2 2TB NVME SANDISK PLUS SDSSDA3N-2T00-G26",
         "title": "HD SSD M.2 2TB NVME SANDISK PLUS",
         "category": "Almacenamiento (SSD)",
@@ -13328,7 +13328,7 @@ const PRODUCTS =
     {
         "id": 640,
         "ref": "215008",
-        "brand": "WESTERN DIGITAL",
+        "brand": "GENERIC",
         "title_orig": "SSD Western Digital WD Green SN350, 1TB, M.2 NVMe, Lectura 2400MB/s, Grabación 1850MB/s, WDS100T2G0C",
         "title": "SSD Western Digital WD Green 1TB, M.2 NVMe, Lectura Grabación",
         "category": "Almacenamiento (SSD)",
@@ -13414,7 +13414,7 @@ const PRODUCTS =
     {
         "id": 644,
         "ref": "145761",
-        "brand": "WESTERN DIGITAL",
+        "brand": "GENERIC",
         "title_orig": "SSD Western Digital WD Green SN350, 1TB, M.2 NVMe, Lectura 3200MB/s, Grabación 2500MB/s, WDS100T3G0C",
         "title": "SSD Western Digital WD Green 1TB, M.2 NVMe, Lectura Grabación",
         "category": "Almacenamiento (SSD)",
@@ -13458,7 +13458,7 @@ const PRODUCTS =
     {
         "id": 646,
         "ref": "237810",
-        "brand": "SANDISK",
+        "brand": "GENERIC",
         "title_orig": "HD SSD M.2 500GB NVME SANDISK PLUS SDSSDA3N-500G",
         "title": "HD SSD M.2 500GB NVME SANDISK PLUS",
         "category": "Almacenamiento (SSD)",
@@ -13497,7 +13497,7 @@ const PRODUCTS =
     {
         "id": 648,
         "ref": "192225",
-        "brand": "APPLE",
+        "brand": "GENERIC",
         "title_orig": "SSD Western Digital WD Black SN850X, 1TB, M.2 NVMe, Lectura 7300MB/s, Grabación 6300MB/s, c/Dissipador, WDS100T2XHE",
         "title": "SSD Western Digital WD Black 1TB, M.2 NVMe, Lectura Grabación",
         "category": "Almacenamiento (SSD)",
@@ -13585,7 +13585,7 @@ const PRODUCTS =
     {
         "id": 653,
         "ref": "176866",
-        "brand": "WESTERN DIGITAL",
+        "brand": "GENERIC",
         "title_orig": "SSD Western Digital WD Black SN850X, 2TB, M.2 NVMe, Lectura 7300MB/s, Grabación 6600MB/s, WDS200T2X0E",
         "title": "SSD Western Digital WD Black 2TB, M.2 NVMe, Lectura Grabación",
         "category": "Almacenamiento (SSD)",
@@ -13650,7 +13650,7 @@ const PRODUCTS =
     {
         "id": 656,
         "ref": "195510",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD Adata Legend 710, 512GB, M.2 2280, PCIe Gen3 x4 NVMe, Lectura hasta 2400MB/s, Grabación hasta 1800MB/s, ALEG-710-512GCS, Azul",
         "title": "SSD Adata Legend 710, 512GB, M.2 2280, PCIe Gen3 x4 NVMe, Lectura hasta Grabación hasta Azul",
         "category": "Almacenamiento (SSD)",
@@ -13696,7 +13696,7 @@ const PRODUCTS =
     {
         "id": 658,
         "ref": "314557",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "HD SSD M.2 256GB NVME FTX 3230X1240 MB/S PCIE 3.0 115106",
         "title": "HD SSD M.2 256GB NVME FTX 3230X1240 MB/S PCIE 3.0 115106",
         "category": "Almacenamiento (SSD)",
@@ -13714,7 +13714,7 @@ const PRODUCTS =
     {
         "id": 659,
         "ref": "198578",
-        "brand": "APPLE",
+        "brand": "KINGSTON",
         "title_orig": "HD SSD M.2 2TB NVME KINGSTON RENEGADE SFYRDK/2000G SFYRDK/2000G COM DISSIPADOR",
         "title": "HD SSD M.2 2TB NVME KINGSTON RENEGADE Con DISSIPADOR",
         "category": "Almacenamiento (SSD)",
@@ -13732,7 +13732,7 @@ const PRODUCTS =
     {
         "id": 660,
         "ref": "236470",
-        "brand": "SANDISK",
+        "brand": "GENERIC",
         "title_orig": "HD SSD M.2 250GB NVME SANDISK PLUS SDSSDA3N-250G26",
         "title": "HD SSD M.2 250GB NVME SANDISK PLUS",
         "category": "Almacenamiento (SSD)",
@@ -13750,7 +13750,7 @@ const PRODUCTS =
     {
         "id": 661,
         "ref": "229305",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD Adata XPG Gammix S70 Blade, 4TB, M.2 2280, PCIe Gen4 x4 NVMe, Lectura hasta 7400MB/s, Grabación hasta 6800MB/s, AGAMMIXS70B-4T-CS, Negro",
         "title": "SSD Adata XPG Gammix S70 Blade, 4TB, M.2 2280, PCIe Gen4 x4 NVMe, Lectura hasta Grabación hasta Negro",
         "category": "Almacenamiento (SSD)",
@@ -13775,7 +13775,7 @@ const PRODUCTS =
     {
         "id": 662,
         "ref": "314568",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "HD SSD M.2 512GB NVME FTX 3500X2100 MB/S PCIE 3.0 115113",
         "title": "HD SSD M.2 512GB NVME FTX 3500X2100 MB/S PCIE 3.0 115113",
         "category": "Almacenamiento (SSD)",
@@ -13853,7 +13853,7 @@ const PRODUCTS =
     {
         "id": 666,
         "ref": "316234",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD SSD M.2 GEN4 2TB NVME WD BLACK SN7100 WDS200T4X0E 7250/6900 MB/S",
         "title": "HD SSD M.2 GEN4 2TB NVME WD BLACK MB/S",
         "category": "Almacenamiento (SSD)",
@@ -13895,7 +13895,7 @@ const PRODUCTS =
     {
         "id": 668,
         "ref": "256832",
-        "brand": "WESTERN DIGITAL",
+        "brand": "GENERIC",
         "title_orig": "SSD Western Digital WD Black SN770M, 2TB, M.2 2230 NVMe, Lectura 5150MB/s, Grabación 4850MB/s, WDS200T3X0G-00CHY0",
         "title": "SSD Western Digital WD Black 2TB, M.2 2230 NVMe, Lectura Grabación",
         "category": "Almacenamiento (SSD)",
@@ -13918,7 +13918,7 @@ const PRODUCTS =
     {
         "id": 669,
         "ref": "344246",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD SSD M.2 1TB NVME WD GREEN SN3000 GEN4X4 5000MB/ WDS100T4G0E",
         "title": "HD SSD M.2 1TB NVME WD GREEN",
         "category": "Almacenamiento (SSD)",
@@ -13936,7 +13936,7 @@ const PRODUCTS =
     {
         "id": 670,
         "ref": "314513",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "HD SSD M.2 GEN4 2TB NVME FTX 6000X5000 MB/S PCIE 4.0",
         "title": "HD SSD M.2 GEN4 2TB NVME FTX 6000X5000 MB/S PCIE 4.0",
         "category": "Almacenamiento (SSD)",
@@ -13954,7 +13954,7 @@ const PRODUCTS =
     {
         "id": 671,
         "ref": "314456",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "HD SSD M.2 1TB NVME GEN3 FTX 3520X2900 MB/S PCIE 3.0 115120",
         "title": "HD SSD M.2 1TB NVME GEN3 FTX 3520X2900 MB/S PCIE 3.0 115120",
         "category": "Almacenamiento (SSD)",
@@ -14076,7 +14076,7 @@ const PRODUCTS =
     {
         "id": 677,
         "ref": "157349",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD SSD M.2 500GB NVME WD RED SN700 WDS500G1R0C-68B",
         "title": "HD SSD M.2 500GB NVME WD RED",
         "category": "Almacenamiento (SSD)",
@@ -14094,7 +14094,7 @@ const PRODUCTS =
     {
         "id": 678,
         "ref": "321724",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD SSD M.2 500GB NVME LEXAR NM610 PRO GEN3X4 LNM610P500G- RNNNU",
         "title": "HD SSD M.2 500GB NVME LEXAR PRO RNNNU",
         "category": "Almacenamiento (SSD)",
@@ -14112,7 +14112,7 @@ const PRODUCTS =
     {
         "id": 679,
         "ref": "348610",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD Crucial M.2 2TB E100 NVMe CT2000E100SSD8 5000/4500 MB/s PCIe GEN4",
         "title": "SSD Crucial M.2 2TB E100 NVMe MB/s PCIe GEN4",
         "category": "Almacenamiento (SSD)",
@@ -14169,7 +14169,7 @@ const PRODUCTS =
     {
         "id": 682,
         "ref": "348600",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD SSD M.2 2TB NVME ADATA LEGEND 710 GEN3X4 2280 ALEG-710-2TCS",
         "title": "HD SSD M.2 2TB NVME ADATA LEGEND 710 2280",
         "category": "Almacenamiento (SSD)",
@@ -14187,7 +14187,7 @@ const PRODUCTS =
     {
         "id": 683,
         "ref": "333435",
-        "brand": "SANDISK",
+        "brand": "GENERIC",
         "title_orig": "SSD SanDisk 250GB G28 PLUS 2.5\" SATA 3 SDSSDA-250G-G28 545/550 MB/s",
         "title": "SSD SanDisk 250GB G28 PLUS 2.5\" SATA 3 MB/s",
         "category": "Almacenamiento (SSD)",
@@ -14205,7 +14205,7 @@ const PRODUCTS =
     {
         "id": 684,
         "ref": "333266",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD M.2 500GB CRUCIAL P310 NVME CT500P310SSD8 6600/3500 MB/S GEN4",
         "title": "SSD M.2 500GB CRUCIAL P310 NVME MB/S GEN4",
         "category": "Almacenamiento (SSD)",
@@ -14241,7 +14241,7 @@ const PRODUCTS =
     {
         "id": 686,
         "ref": "332557",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD SSD M.2 4TB NVME WD BLACK SN8100 WDS400T1X0M WDS400T1X0M-00C MT0/GEN 5",
         "title": "HD SSD M.2 4TB NVME WD BLACK 5",
         "category": "Almacenamiento (SSD)",
@@ -14259,7 +14259,7 @@ const PRODUCTS =
     {
         "id": 687,
         "ref": "340590",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD M.2 2TB Lexar NM610 PRO NVMe LNM610P002T-RNN 3300 MB/s PCIe Gen3x4",
         "title": "SSD M.2 2TB Lexar PRO NVMe 3300 MB/s PCIe",
         "category": "Almacenamiento (SSD)",
@@ -14277,7 +14277,7 @@ const PRODUCTS =
     {
         "id": 688,
         "ref": "355169",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD M.2 500GB WD GREEN SN350 NVME WDS500G2G0C 2400 MB/S GEN3X4",
         "title": "SSD M.2 500GB WD GREEN NVME 2400 MB/S",
         "category": "Almacenamiento (SSD)",
@@ -14295,7 +14295,7 @@ const PRODUCTS =
     {
         "id": 689,
         "ref": "333424",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD SSD M.2 2TB NVME WD BLACK SN8100 WDS200T1X0M WDS200T1X0M",
         "title": "HD SSD M.2 2TB NVME WD BLACK",
         "category": "Almacenamiento (SSD)",
@@ -14403,7 +14403,7 @@ const PRODUCTS =
     {
         "id": 695,
         "ref": "379019",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD M.2 500GB WD GREEN SN3000 NVME WDS500G4G0E 5000/4100 MB/S GEN4",
         "title": "SSD M.2 500GB WD GREEN NVME MB/S GEN4",
         "category": "Almacenamiento (SSD)",
@@ -14457,7 +14457,7 @@ const PRODUCTS =
     {
         "id": 698,
         "ref": "353358",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD M.2 2TB WD GREEN SN3000 2280 NVME WDS200T4G0E",
         "title": "SSD M.2 2TB WD GREEN 2280 NVME",
         "category": "Almacenamiento (SSD)",
@@ -14493,7 +14493,7 @@ const PRODUCTS =
     {
         "id": 700,
         "ref": "382620",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD M.2 250GB WD GREEN SN350 NVME WDS250G2G0C 2400/1500 MB/S GEN3X4",
         "title": "SSD M.2 250GB WD GREEN NVME MB/S",
         "category": "Almacenamiento (SSD)",
@@ -14511,7 +14511,7 @@ const PRODUCTS =
     {
         "id": 701,
         "ref": "378905",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD M.2 1TB WD BLACK SN8100 2280 NVME WDS100T1X0M 14900/11000 MBS GEN5X4",
         "title": "SSD M.2 1TB WD BLACK 2280 NVME MBS",
         "category": "Almacenamiento (SSD)",
@@ -14529,7 +14529,7 @@ const PRODUCTS =
     {
         "id": 702,
         "ref": "380370",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD M.2 256GB ADATA 2280 NVME ALEG-710-256GCS LEGEND 710 GEN4 2400/1800 MB/S",
         "title": "SSD M.2 256GB ADATA 2280 NVME LEGEND 710 GEN4 MB/S",
         "category": "Almacenamiento (SSD)",
@@ -14547,7 +14547,7 @@ const PRODUCTS =
     {
         "id": 703,
         "ref": "381067",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD M.2 2TB WD GREEN SN350 2280 NVME WDS200T3G0C 3200/3000 MB/S GEN3X4",
         "title": "SSD M.2 2TB WD GREEN 2280 NVME MB/S",
         "category": "Almacenamiento (SSD)",
@@ -14835,7 +14835,7 @@ const PRODUCTS =
     {
         "id": 9027,
         "ref": "86339",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "Gabinete Gamer Satelite K878, MID Tower, RGB, ATX, Lateral acrlico, 4x Fans 120mm RGB, Negro",
         "title": "Gabinete Gamer Satelite K878, MID Tower, RGB, ATX, Lateral Acrílico, 4x Fans 120mm RGB, Negro",
         "category": "Gabinetes",
@@ -14860,7 +14860,7 @@ const PRODUCTS =
     {
         "id": 9028,
         "ref": "170175",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE SATE 1401K GAMER 4FAN Negro ATX",
         "title": "GABINETE SATE 1401K GAMER 4FAN Negro ATX",
         "category": "Gabinetes",
@@ -14881,7 +14881,7 @@ const PRODUCTS =
     {
         "id": 9029,
         "ref": "170110",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE SATE 1100K GAMER 1FAN Negro ATX",
         "title": "GABINETE SATE 1100K GAMER 1FAN Negro ATX",
         "category": "Gabinetes",
@@ -14902,7 +14902,7 @@ const PRODUCTS =
     {
         "id": 9030,
         "ref": "176675",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE SATE 1600K GAMER 6FAN RGB ATX",
         "title": "GABINETE SATE 1600K GAMER 6FAN RGB ATX",
         "category": "Gabinetes",
@@ -14943,7 +14943,7 @@ const PRODUCTS =
     {
         "id": 9032,
         "ref": "10045",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE SATE 8103K C/FONTE 200W Negro ITX",
         "title": "GABINETE SATE 8103K C/Fuente 200W Negro ITX",
         "category": "Gabinetes",
@@ -14989,7 +14989,7 @@ const PRODUCTS =
     {
         "id": 9034,
         "ref": "80063",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE KIT SATE K704 PORTUGUES Negro ATX",
         "title": "GABINETE KIT SATE K704 PORTUGUES Negro ATX",
         "category": "Gabinetes",
@@ -15093,7 +15093,7 @@ const PRODUCTS =
     {
         "id": 9039,
         "ref": "34690",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE KIT SATE K731 ESPANHOL Negro ATX",
         "title": "GABINETE KIT SATE K731 ESPANHOL Negro ATX",
         "category": "Gabinetes",
@@ -15114,7 +15114,7 @@ const PRODUCTS =
     {
         "id": 9040,
         "ref": "6252",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE KIT SATE K761 ESPANHOL Negro ATX",
         "title": "GABINETE KIT SATE K761 ESPANHOL Negro ATX",
         "category": "Gabinetes",
@@ -15135,7 +15135,7 @@ const PRODUCTS =
     {
         "id": 9041,
         "ref": "351200",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "Gabinete Gamer, Aquario, FTX FTX-TANKWH, Mid Tower, ATX, Frontal e Lateral Vidrio Temperado, Sin Fans, Blanco",
         "title": "Gabinete Gamer, Aquario, FTX FTX-TANKWH, Mid Tower, ATX, Frontal e Lateral Vidrio Temperado, Sin Fans, Blanco",
         "category": "Gabinetes",
@@ -15158,7 +15158,7 @@ const PRODUCTS =
     {
         "id": 9042,
         "ref": "65819",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE SATE K382 GAMER 8FAN Blanco RGB EATX",
         "title": "GABINETE SATE K382 GAMER 8FAN Blanco RGB EATX",
         "category": "Gabinetes",
@@ -15179,7 +15179,7 @@ const PRODUCTS =
     {
         "id": 9043,
         "ref": "93001",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE KIT SATE K703 PORTUGUES Negro ATX",
         "title": "GABINETE KIT SATE K703 PORTUGUES Negro ATX",
         "category": "Gabinetes",
@@ -15200,7 +15200,7 @@ const PRODUCTS =
     {
         "id": 9044,
         "ref": "170186",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE SATE 1430K GAMER 4FAN Negro ATX",
         "title": "GABINETE SATE 1430K GAMER 4FAN Negro ATX",
         "category": "Gabinetes",
@@ -15239,7 +15239,7 @@ const PRODUCTS =
     {
         "id": 9046,
         "ref": "92997",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE KIT SATE K703 ESPANHOL Negro ATX",
         "title": "GABINETE KIT SATE K703 ESPANHOL Negro ATX",
         "category": "Gabinetes",
@@ -15260,7 +15260,7 @@ const PRODUCTS =
     {
         "id": 9047,
         "ref": "311600",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "Gabinete Gamer, Aquario, Sate K900, MID Tower, ARGB, ATX, Frontal e Lateral Vidrio Temperado, 7x Fans, Negro 120mm ARGB",
         "title": "Gabinete Gamer, Aquario, Sate K900, MID Tower, ARGB, ATX, Frontal e Lateral Vidrio Temperado, 7x Fans, Negro 120mm ARGB",
         "category": "Gabinetes",
@@ -15284,7 +15284,7 @@ const PRODUCTS =
     {
         "id": 9048,
         "ref": "277598",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE SATE K8871 4 FAN Negro",
         "title": "GABINETE SATE K8871 4 FAN Negro",
         "category": "Gabinetes",
@@ -15305,7 +15305,7 @@ const PRODUCTS =
     {
         "id": 9049,
         "ref": "292933",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE SATE K2801 GAMER 8FAN Negro E-ATX",
         "title": "GABINETE SATE K2801 GAMER 8FAN Negro E-ATX",
         "category": "Gabinetes",
@@ -15348,7 +15348,7 @@ const PRODUCTS =
     {
         "id": 9051,
         "ref": "277587",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE SATE K52 8 FAN E-ATX Blanco",
         "title": "GABINETE SATE K52 8 FAN E-ATX Blanco",
         "category": "Gabinetes",
@@ -15371,7 +15371,7 @@ const PRODUCTS =
     {
         "id": 9052,
         "ref": "277554",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE SATE K31 8 FAN E-ATX Negro",
         "title": "GABINETE SATE K31 8 FAN E-ATX Negro",
         "category": "Gabinetes",
@@ -15414,7 +15414,7 @@ const PRODUCTS =
     {
         "id": 9054,
         "ref": "277576",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE SATE K51 8 FAN E-ATX Negro",
         "title": "GABINETE SATE K51 8 FAN E-ATX Negro",
         "category": "Gabinetes",
@@ -15458,7 +15458,7 @@ const PRODUCTS =
     {
         "id": 9056,
         "ref": "277600",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE SATE K8872 4 FAN Blanco",
         "title": "GABINETE SATE K8872 4 FAN Blanco",
         "category": "Gabinetes",
@@ -15556,7 +15556,7 @@ const PRODUCTS =
     {
         "id": 9061,
         "ref": "170120",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE SATE 1101K GAMER 1FAN Negro ATX**",
         "title": "GABINETE SATE 1101K GAMER 1FAN Negro ATX**",
         "category": "Gabinetes",
@@ -15675,7 +15675,7 @@ const PRODUCTS =
     {
         "id": 9067,
         "ref": "322791",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "Gabinete Gamer, Aquario, Sate K910, MID Tower, ARGB, ATX, Frontal e Lateral Vidrio Temperado, 9x Fans, Negro 120mm ARGB",
         "title": "Gabinete Gamer, Aquario, Sate K910, MID Tower, ARGB, ATX, Frontal e Lateral Vidrio Temperado, 9x Fans, Negro 120mm ARGB",
         "category": "Gabinetes",
@@ -15699,7 +15699,7 @@ const PRODUCTS =
     {
         "id": 9068,
         "ref": "10056",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE KIT SATE K761 PORTUGUES Negro ATX",
         "title": "GABINETE KIT SATE K761 PORTUGUES Negro ATX",
         "category": "Gabinetes",
@@ -15816,7 +15816,7 @@ const PRODUCTS =
     {
         "id": 9074,
         "ref": "292764",
-        "brand": "BE QUIET!",
+        "brand": "GENERIC",
         "title_orig": "GABINETE BE QUIET PURE BASE 500DX BGW38 ARGB WHITE 3 FAN",
         "title": "GABINETE BE QUIET PURE BASE 500DX BGW38 ARGB WHITE 3 FAN",
         "category": "Gabinetes",
@@ -16020,7 +16020,7 @@ const PRODUCTS =
     {
         "id": 9084,
         "ref": "69182",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE KIT SATE K702 PORTUGUES Negro ATX",
         "title": "GABINETE KIT SATE K702 PORTUGUES Negro ATX",
         "category": "Gabinetes",
@@ -16079,7 +16079,7 @@ const PRODUCTS =
     {
         "id": 9087,
         "ref": "62030",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE KIT SATE K701 PORTUGUES Negro ATX",
         "title": "GABINETE KIT SATE K701 PORTUGUES Negro ATX",
         "category": "Gabinetes",
@@ -16182,7 +16182,7 @@ const PRODUCTS =
     {
         "id": 9092,
         "ref": "379254",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE SATE K8501 BLACK AQUARIO M-ATX 3FAN RGB",
         "title": "GABINETE SATE K8501 BLACK AQUARIO M-ATX 3FAN RGB",
         "category": "Gabinetes",
@@ -16204,7 +16204,7 @@ const PRODUCTS =
     {
         "id": 9093,
         "ref": "65820",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE KIT SATE K701 ESPANHOL Negro ATX",
         "title": "GABINETE KIT SATE K701 ESPANHOL Negro ATX",
         "category": "Gabinetes",
@@ -16335,7 +16335,7 @@ const PRODUCTS =
     {
         "id": 9099,
         "ref": "277565",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE SATE K32 8 FAN E-ATX Blanco",
         "title": "GABINETE SATE K32 8 FAN E-ATX Blanco",
         "category": "Gabinetes",
@@ -16358,7 +16358,7 @@ const PRODUCTS =
     {
         "id": 9100,
         "ref": "34680",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE KIT SATE K731 PORTUGUES Negro ATX",
         "title": "GABINETE KIT SATE K731 PORTUGUES Negro ATX",
         "category": "Gabinetes",
@@ -16435,7 +16435,7 @@ const PRODUCTS =
     {
         "id": 9104,
         "ref": "82920",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE SATE K871 GAMER 3FAN Negro RGB ATX**",
         "title": "GABINETE SATE K871 GAMER 3FAN Negro RGB ATX**",
         "category": "Gabinetes",
@@ -16642,7 +16642,7 @@ const PRODUCTS =
     {
         "id": 9114,
         "ref": "366700",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE SATE 8202K MINI ITX Negro C/FONTE 230W",
         "title": "GABINETE SATE 8202K MINI ITX Negro C/Fuente 230W",
         "category": "Gabinetes",
@@ -16664,7 +16664,7 @@ const PRODUCTS =
     {
         "id": 9115,
         "ref": "350210",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE GAMER SATE K2402 E-ATX 4 COOLER Blanco",
         "title": "GABINETE GAMER SATE K2402 E-ATX 4 COOLER Blanco",
         "category": "Gabinetes",
@@ -16727,7 +16727,7 @@ const PRODUCTS =
     {
         "id": 9118,
         "ref": "342962",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE KIT SATE K707 ESPANHOL BLACK",
         "title": "GABINETE KIT SATE K707 ESPANHOL BLACK",
         "category": "Gabinetes",
@@ -16745,7 +16745,7 @@ const PRODUCTS =
     {
         "id": 9119,
         "ref": "379243",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE SATE K8502 WHITE AQUARIO M-ATX 3FAN RGB",
         "title": "GABINETE SATE K8502 WHITE AQUARIO M-ATX 3FAN RGB",
         "category": "Gabinetes",
@@ -16858,7 +16858,7 @@ const PRODUCTS =
     {
         "id": 9124,
         "ref": "351187",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "GABINETE FTX FTX-702WH VIDRIO/TEM/ATX/MATX WHITE",
         "title": "GABINETE FTX FTX-702WH VIDRIO/TEM/ATX/MATX WHITE",
         "category": "Gabinetes",
@@ -16941,7 +16941,7 @@ const PRODUCTS =
     {
         "id": 9128,
         "ref": "357711",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "GABINETE KIT FTX FTXN14 MATX/MITX/ LATERAL TRANSPA PORTUGUES",
         "title": "GABINETE KIT FTX FTXN14 MATX/MITX/ LATERAL TRANSPA PORTUGUES",
         "category": "Gabinetes",
@@ -17185,7 +17185,7 @@ const PRODUCTS =
     {
         "id": 9140,
         "ref": "342973",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GABINETE KIT SATE K707 PORTUGUES BLACK",
         "title": "GABINETE KIT SATE K707 PORTUGUES BLACK",
         "category": "Gabinetes",
@@ -17245,7 +17245,7 @@ const PRODUCTS =
     {
         "id": 9143,
         "ref": "357687",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "GABINETE KIT FTX FTX271R MATX/MITX/LATERAL TRANSPA ESPANHOL",
         "title": "GABINETE KIT FTX FTX271R MATX/MITX/LATERAL TRANSPA ESPANHOL",
         "category": "Gabinetes",
@@ -17479,7 +17479,7 @@ const PRODUCTS =
     {
         "id": 9155,
         "ref": "365934",
-        "brand": "BE QUIET!",
+        "brand": "GENERIC",
         "title_orig": "GABINETE BE QUIET! PURE BASE 501 LX WHITE 4FAN BGW79",
         "title": "GABINETE BE QUIET! PURE BASE 501 LX WHITE 4FAN BGW79",
         "category": "Gabinetes",
@@ -17515,7 +17515,7 @@ const PRODUCTS =
     {
         "id": 9157,
         "ref": "365912",
-        "brand": "BE QUIET!",
+        "brand": "GENERIC",
         "title_orig": "GABINETE BE QUIET PURE BASE 501 AIRFLOW WINDOW WHI WHITE 2FAN BGW 75",
         "title": "GABINETE BE QUIET PURE BASE 501 AIRFLOW WINDOW WHI WHITE 2FAN BGW 75",
         "category": "Gabinetes",
@@ -20094,7 +20094,7 @@ const PRODUCTS =
     {
         "id": 9288,
         "ref": "355652",
-        "brand": "VGA",
+        "brand": "GENERIC",
         "title_orig": "VGA PNY 4GB QUADRO T400 GDDR6 VCNT4004GB-PB",
         "title": "VGA PNY 4GB QUADRO T400 GDDR6 VCNT4004GB-PB",
         "category": "Tarjetas de Video",
@@ -20206,7 +20206,7 @@ const PRODUCTS =
     {
         "id": 9294,
         "ref": "384015",
-        "brand": "PLACA",
+        "brand": "GENERIC",
         "title_orig": "Placa de Vdeo Goline Nvidia GeForce GT740 4GB GDDR5, HDMI VGA DVI, GL-GT740-4GB-D5",
         "title": "Placa de Vdeo Goline Nvidia GeForce GT740 4GB GDDR5, HDMI VGA DVI, GL-GT740-4GB-D5",
         "category": "Tarjetas de Video",
@@ -20332,7 +20332,7 @@ const PRODUCTS =
     {
         "id": 9301,
         "ref": "378589",
-        "brand": "VGA",
+        "brand": "GENERIC",
         "title_orig": "VGA GT610 1GB ARKTEK CYCLOPS AKN610D3S1GL1",
         "title": "VGA GT610 1GB ARKTEK CYCLOPS AKN610D3S1GL1",
         "category": "Tarjetas de Video",
@@ -20443,7 +20443,7 @@ const PRODUCTS =
     {
         "id": 9307,
         "ref": "361043",
-        "brand": "VGA",
+        "brand": "GENERIC",
         "title_orig": "VGA RTX5070 12GB PNY EPIC-X OC RGB GDDR7 3FAN VCG507012TFXXPB 1-O",
         "title": "VGA RTX5070 12GB PNY EPIC-X OC RGB GDDR7 3FAN VCG507012TFXXPB 1-O",
         "category": "Tarjetas de Video",
@@ -20481,7 +20481,7 @@ const PRODUCTS =
     {
         "id": 9309,
         "ref": "280592",
-        "brand": "MEMRIA",
+        "brand": "GENERIC",
         "title_orig": "Memria para Notebook Macroway, DDR4 32GB (1x32GB), 2666MHz, SO-DIMM, Verde",
         "title": "Memria para Notebook Macroway, DDR4 32GB (1x32GB), 2666MHz, SO-DIMM, Verde",
         "category": "Memorias RAM",
@@ -20501,7 +20501,7 @@ const PRODUCTS =
     {
         "id": 9310,
         "ref": "175259",
-        "brand": "MEMRIA",
+        "brand": "GENERIC",
         "title_orig": "Memria Crucial, DDR4 16GB (1x16GB), 3200MHz, CT16G4DFRA32A, Verde",
         "title": "Memria Crucial, DDR4 16GB (1x16GB), 3200MHz, CT16G4DFRA32A, Verde",
         "category": "Memorias RAM",
@@ -20542,7 +20542,7 @@ const PRODUCTS =
     {
         "id": 9312,
         "ref": "271941",
-        "brand": "XPG",
+        "brand": "GENERIC",
         "title_orig": "Memria Adata XPG Gammix D35 RGB, DDR4 16GB (1x16GB), 3200MHz, AX4U320016G16A-SBKD35, Negro",
         "title": "Memria Adata XPG Gammix D35 RGB, DDR4 16GB (1x16GB), 3200MHz, AX4U320016G16A-SBKD35, Negro",
         "category": "Memorias RAM",
@@ -20564,7 +20564,7 @@ const PRODUCTS =
     {
         "id": 9313,
         "ref": "314670",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "Memria para Notebook FTX, DDR4 8GB (1x8GB), 3200MHz, SO-DIMM, 111689, Negro",
         "title": "Memria para Notebook FTX, DDR4 8GB (1x8GB), 3200MHz, SO-DIMM, 111689, Negro",
         "category": "Memorias RAM",
@@ -20745,7 +20745,7 @@ const PRODUCTS =
     {
         "id": 9322,
         "ref": "227527",
-        "brand": "MEMRIA",
+        "brand": "GENERIC",
         "title_orig": "Memria para Notebook Macroway, DDR3L 4GB (1x4GB), 1600MHz, SO-DIMM, Verde",
         "title": "Memria para Notebook Macroway, DDR3L 4GB (1x4GB), 1600MHz, SO-DIMM, Verde",
         "category": "Memorias RAM",
@@ -20763,7 +20763,7 @@ const PRODUCTS =
     {
         "id": 9323,
         "ref": "124120",
-        "brand": "MEMRIA",
+        "brand": "GENERIC",
         "title_orig": "Memria Adata Premier, DDR4 8GB (1x8GB), 3200MHz, AD4U32008G22-SGN, Verde",
         "title": "Memria Adata Premier, DDR4 8GB (1x8GB), 3200MHz, AD4U32008G22-SGN, Verde",
         "category": "Memorias RAM",
@@ -20804,7 +20804,7 @@ const PRODUCTS =
     {
         "id": 9325,
         "ref": "314680",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "Memria para Notebook FTX, DDR4 16GB (1x16GB), 3200MHz, SO-DIMM, 111696, Negro",
         "title": "Memria para Notebook FTX, DDR4 16GB (1x16GB), 3200MHz, SO-DIMM, 111696, Negro",
         "category": "Memorias RAM",
@@ -20845,7 +20845,7 @@ const PRODUCTS =
     {
         "id": 9327,
         "ref": "306626",
-        "brand": "MEMRIA",
+        "brand": "GENERIC",
         "title_orig": "Memria Adata Premier, DDR5 8GB (1x8GB), 5600MHz, AD5U56008G-S, Negro",
         "title": "Memria Adata Premier, DDR5 8GB (1x8GB), 5600MHz, AD5U56008G-S, Negro",
         "category": "Memorias RAM",
@@ -20886,7 +20886,7 @@ const PRODUCTS =
     {
         "id": 9329,
         "ref": "78228",
-        "brand": "MEMRIA",
+        "brand": "GENERIC",
         "title_orig": "Memria para Notebook Crucial, 8GB, 3200MHz, DDR4, CT8G4SFRA32A",
         "title": "Memria para Notebook Crucial, 8GB, 3200MHz, DDR4, CT8G4SFRA32A",
         "category": "Memorias RAM",
@@ -20927,7 +20927,7 @@ const PRODUCTS =
     {
         "id": 9331,
         "ref": "175237",
-        "brand": "MEM",
+        "brand": "GENERIC",
         "title_orig": "MEM NB DDR4 32GB 3200 CRUCIAL CT32G4SFD832A",
         "title": "MEM NB DDR4 32GB 3200 CRUCIAL CT32G4SFD832A",
         "category": "Memorias RAM",
@@ -20968,7 +20968,7 @@ const PRODUCTS =
     {
         "id": 9333,
         "ref": "78430",
-        "brand": "MEMRIA",
+        "brand": "GENERIC",
         "title_orig": "Memria Adata Premier, DDR4 16GB (1x16GB), 3200MHz, AD4U320016G22-SGN, Verde",
         "title": "Memria Adata Premier, DDR4 16GB (1x16GB), 3200MHz, AD4U320016G22-SGN, Verde",
         "category": "Memorias RAM",
@@ -21026,7 +21026,7 @@ const PRODUCTS =
     {
         "id": 9336,
         "ref": "151791",
-        "brand": "MEM",
+        "brand": "GENERIC",
         "title_orig": "MEM NB DDR4 16GB 3200 CRUCIAL CT16G4SFRA32A BLISTER",
         "title": "MEM NB DDR4 16GB 3200 CRUCIAL CT16G4SFRA32A BLISTER",
         "category": "Memorias RAM",
@@ -21046,7 +21046,7 @@ const PRODUCTS =
     {
         "id": 9337,
         "ref": "314726",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "Memria para Notebook FTX, DDR5 16GB (1x16GB), 5600MHz, SO-DIMM, 115076, Negro",
         "title": "Memria para Notebook FTX, DDR5 16GB (1x16GB), 5600MHz, SO-DIMM, 115076, Negro",
         "category": "Memorias RAM",
@@ -21108,7 +21108,7 @@ const PRODUCTS =
     {
         "id": 9340,
         "ref": "314647",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "MEM DDR5 16GB 6000 FTX UDIMM 115021",
         "title": "MEM DDR5 16GB 6000 FTX UDIMM 115021",
         "category": "Memorias RAM",
@@ -21128,7 +21128,7 @@ const PRODUCTS =
     {
         "id": 9341,
         "ref": "274360",
-        "brand": "XPG",
+        "brand": "GENERIC",
         "title_orig": "Memria Adata XPG Lancer Blade RGB, DDR5 16GB (1x16GB), 6400MHz, AX5U6400C3216G-SLABRBK, Blanco",
         "title": "Memria Adata XPG Lancer Blade RGB, DDR5 16GB (1x16GB), 6400MHz, AX5U6400C3216G-SLABRBK, Blanco",
         "category": "Memorias RAM",
@@ -21150,7 +21150,7 @@ const PRODUCTS =
     {
         "id": 9342,
         "ref": "305513",
-        "brand": "XPG",
+        "brand": "GENERIC",
         "title_orig": "Memria Adata XPG Gammix D35, DDR4 32GB (1x32GB), 3200MHz, AX4U320032G16A-SWHD35, Blanco",
         "title": "Memria Adata XPG Gammix D35, DDR4 32GB (1x32GB), 3200MHz, AX4U320032G16A-SWHD35, Blanco",
         "category": "Memorias RAM",
@@ -21171,7 +21171,7 @@ const PRODUCTS =
     {
         "id": 9343,
         "ref": "59811",
-        "brand": "MEMRIA",
+        "brand": "GENERIC",
         "title_orig": "Memria para Notebook Markvision, DDR3L 4GB (1x4GB), 1600MHz, SO-DIMM, MVD34096MSD-A6, Verde",
         "title": "Memria para Notebook Markvision, DDR3L 4GB (1x4GB), 1600MHz, SO-DIMM, MVD34096MSD-A6, Verde",
         "category": "Memorias RAM",
@@ -21230,7 +21230,7 @@ const PRODUCTS =
     {
         "id": 9346,
         "ref": "241286",
-        "brand": "MEMRIA",
+        "brand": "GENERIC",
         "title_orig": "Memria Macroway, DDR4 32GB (1x32GB), 3200MHz, KF556C40BB-16, Negro",
         "title": "Memria Macroway, DDR4 32GB (1x32GB), 3200MHz, KF556C40BB-16, Negro",
         "category": "Memorias RAM",
@@ -21271,7 +21271,7 @@ const PRODUCTS =
     {
         "id": 9348,
         "ref": "280581",
-        "brand": "MEMRIA",
+        "brand": "GENERIC",
         "title_orig": "Memria Macroway, DDR4 32GB (1x32GB), 2666MHz, Verde",
         "title": "Memria Macroway, DDR4 32GB (1x32GB), 2666MHz, Verde",
         "category": "Memorias RAM",
@@ -21291,7 +21291,7 @@ const PRODUCTS =
     {
         "id": 9349,
         "ref": "314625",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "MEM DDR5 16GB 5600 FTX UDIMM 115007",
         "title": "MEM DDR5 16GB 5600 FTX UDIMM 115007",
         "category": "Memorias RAM",
@@ -21311,7 +21311,7 @@ const PRODUCTS =
     {
         "id": 9350,
         "ref": "314636",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "MEM DDR5 16GB 5200 FTX UDIMM 114970",
         "title": "MEM DDR5 16GB 5200 FTX UDIMM 114970",
         "category": "Memorias RAM",
@@ -21351,7 +21351,7 @@ const PRODUCTS =
     {
         "id": 9352,
         "ref": "149383",
-        "brand": "MEMRIA",
+        "brand": "GENERIC",
         "title_orig": "Memria Adata Premier, DDR5 16GB (1x16GB), 4800MHz, AD5U480016G-S, Negro",
         "title": "Memria Adata Premier, DDR5 16GB (1x16GB), 4800MHz, AD5U480016G-S, Negro",
         "category": "Memorias RAM",
@@ -21372,7 +21372,7 @@ const PRODUCTS =
     {
         "id": 9353,
         "ref": "314603",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "MEM DDR5 8GB 5200 FTX UDIMM 114963",
         "title": "MEM DDR5 8GB 5200 FTX UDIMM 114963",
         "category": "Memorias RAM",
@@ -21454,7 +21454,7 @@ const PRODUCTS =
     {
         "id": 9357,
         "ref": "287915",
-        "brand": "XPG",
+        "brand": "GENERIC",
         "title_orig": "Memria Adata XPG Spectrix, DDR4 16GB (1x16GB), 3200MHz, AX4U320016G16A-SWHD35G, Blanco",
         "title": "Memria Adata XPG Spectrix, DDR4 16GB (1x16GB), 3200MHz, AX4U320016G16A-SWHD35G, Blanco",
         "category": "Memorias RAM",
@@ -21495,7 +21495,7 @@ const PRODUCTS =
     {
         "id": 9359,
         "ref": "148417",
-        "brand": "MEMRIA",
+        "brand": "GENERIC",
         "title_orig": "Memria Adata Premier, DDR4 32GB (1x32GB), 3200MHz, AD4U320032G22-SGN, Verde",
         "title": "Memria Adata Premier, DDR4 32GB (1x32GB), 3200MHz, AD4U320032G22-SGN, Verde",
         "category": "Memorias RAM",
@@ -21515,7 +21515,7 @@ const PRODUCTS =
     {
         "id": 9360,
         "ref": "225255",
-        "brand": "MEMRIA",
+        "brand": "GENERIC",
         "title_orig": "Memria Lexar, 16GB, 3200MHz, DDR4, LD4AU016G-B3200GSST",
         "title": "Memria Lexar, 16GB, 3200MHz, DDR4, LD4AU016G-B3200GSST",
         "category": "Memorias RAM",
@@ -21596,7 +21596,7 @@ const PRODUCTS =
     {
         "id": 9364,
         "ref": "319136",
-        "brand": "APPLE",
+        "brand": "GENERIC",
         "title_orig": "Memria G.SKILL Aegis, DDR4 8GB (1x8GB), 3200MHz, s/Dissipador, F4-3200C16S-8GIS, Negro",
         "title": "Memria G.SKILL Aegis, DDR4 8GB (1x8GB), 3200MHz, s/Dissipador, F4-3200C16S-8GIS, Negro",
         "category": "Memorias RAM",
@@ -21657,7 +21657,7 @@ const PRODUCTS =
     {
         "id": 9367,
         "ref": "306648",
-        "brand": "MEMRIA",
+        "brand": "GENERIC",
         "title_orig": "Memria Adata Premier, 32GB, 4800MHz, DDR5, U-DIMM, AD5U480032G-S, Negro",
         "title": "Memria Adata Premier, 32GB, 4800MHz, DDR5, U-DIMM, AD5U480032G-S, Negro",
         "category": "Memorias RAM",
@@ -21678,7 +21678,7 @@ const PRODUCTS =
     {
         "id": 9368,
         "ref": "166382",
-        "brand": "APPLE",
+        "brand": "CORSAIR",
         "title_orig": "Memria Corsair Vengeance LPX, DDR4 8GB, 3200MHz, c/Dissipador, CMK8GX4M1Z3200C16, Negro",
         "title": "Memria Corsair Vengeance LPX, DDR4 8GB, 3200MHz, c/Dissipador, CMK8GX4M1Z3200C16, Negro",
         "category": "Memorias RAM",
@@ -21699,7 +21699,7 @@ const PRODUCTS =
     {
         "id": 9369,
         "ref": "319417",
-        "brand": "APPLE",
+        "brand": "GENERIC",
         "title_orig": "Memria G.SKILL Aegis, DDR4 16GB (1x16GB), 3200MHz, s/Dissipador, F4-3200C16S-16GIS, Negro",
         "title": "Memria G.SKILL Aegis, DDR4 16GB (1x16GB), 3200MHz, s/Dissipador, F4-3200C16S-16GIS, Negro",
         "category": "Memorias RAM",
@@ -21760,7 +21760,7 @@ const PRODUCTS =
     {
         "id": 9372,
         "ref": "306660",
-        "brand": "MEMRIA",
+        "brand": "GENERIC",
         "title_orig": "Memria para Notebook Adata Premier, 8GB, 5600MHz, DDR5, SO-DIMM, AD5S56008G-S, Negro",
         "title": "Memria para Notebook Adata Premier, 8GB, 5600MHz, DDR5, SO-DIMM, AD5S56008G-S, Negro",
         "category": "Memorias RAM",
@@ -21781,7 +21781,7 @@ const PRODUCTS =
     {
         "id": 9373,
         "ref": "314658",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "Memria FTX, DDR5 32GB (1x32GB), 5200MHz, 114987, Negro",
         "title": "Memria FTX, DDR5 32GB (1x32GB), 5200MHz, 114987, Negro",
         "category": "Memorias RAM",
@@ -21802,7 +21802,7 @@ const PRODUCTS =
     {
         "id": 9374,
         "ref": "314715",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "MEM NB DDR5 16GB 5200 FTX SODIMM 115045",
         "title": "MEM NB DDR5 16GB 5200 FTX SODIMM 115045",
         "category": "Memorias RAM",
@@ -21822,7 +21822,7 @@ const PRODUCTS =
     {
         "id": 9375,
         "ref": "314691",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "MEM NB DDR5 8GB 5200 FTX SODIMM 115038",
         "title": "MEM NB DDR5 8GB 5200 FTX SODIMM 115038",
         "category": "Memorias RAM",
@@ -21842,7 +21842,7 @@ const PRODUCTS =
     {
         "id": 9376,
         "ref": "241848",
-        "brand": "XPG",
+        "brand": "GENERIC",
         "title_orig": "Memria Adata XPG Lancer Blade RGB, DDR5 16GB (1x16GB), 6400MHz, AX5U6400C3216G- SLABBK, Negro",
         "title": "Memria Adata XPG Lancer Blade RGB, DDR5 16GB (1x16GB), 6400MHz, AX5U6400C3216G- SLABBK, Negro",
         "category": "Memorias RAM",
@@ -21864,7 +21864,7 @@ const PRODUCTS =
     {
         "id": 9377,
         "ref": "314737",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "MEM NB DDR5 32GB 5200 FTX SODIMM 115052",
         "title": "MEM NB DDR5 32GB 5200 FTX SODIMM 115052",
         "category": "Memorias RAM",
@@ -21925,7 +21925,7 @@ const PRODUCTS =
     {
         "id": 9380,
         "ref": "239765",
-        "brand": "APPLE",
+        "brand": "INTEL",
         "title_orig": "Memria Corsair Vengeance RGB, DDR5 32GB (2x16GB), 6200MHz, c/Dissipador, Para Intel, CMH32GX5M2B6200C36, Negro",
         "title": "Memria Corsair Vengeance RGB, DDR5 32GB (2x16GB), 6200MHz, c/Dissipador, Para Intel, CMH32GX5M2B6200C36, Negro",
         "category": "Memorias RAM",
@@ -21991,7 +21991,7 @@ const PRODUCTS =
     {
         "id": 9383,
         "ref": "314614",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "MEM DDR5 8GB 5600 FTX UDIMM 114994",
         "title": "MEM DDR5 8GB 5600 FTX UDIMM 114994",
         "category": "Memorias RAM",
@@ -22011,7 +22011,7 @@ const PRODUCTS =
     {
         "id": 9384,
         "ref": "334403",
-        "brand": "MEMRIA",
+        "brand": "GENERIC",
         "title_orig": "Memria para Notebook Macroway, DDR5 16GB (1x16GB), 5600MHz, SO-DIMM, Verde",
         "title": "Memria para Notebook Macroway, DDR5 16GB (1x16GB), 5600MHz, SO-DIMM, Verde",
         "category": "Memorias RAM",
@@ -22031,7 +22031,7 @@ const PRODUCTS =
     {
         "id": 9385,
         "ref": "334111",
-        "brand": "MEMRIA",
+        "brand": "GENERIC",
         "title_orig": "Memria Macroway, DDR4 8GB (1x8GB), 3200MHz, Verde",
         "title": "Memria Macroway, DDR4 8GB (1x8GB), 3200MHz, Verde",
         "category": "Memorias RAM",
@@ -22072,7 +22072,7 @@ const PRODUCTS =
     {
         "id": 9387,
         "ref": "354886",
-        "brand": "MEMRIA",
+        "brand": "GENERIC",
         "title_orig": "Memria para Notebook Macroway, DDR4 32GB (1x32GB), 3200MHz, SO-DIMM, Verde",
         "title": "Memria para Notebook Macroway, DDR4 32GB (1x32GB), 3200MHz, SO-DIMM, Verde",
         "category": "Memorias RAM",
@@ -22092,7 +22092,7 @@ const PRODUCTS =
     {
         "id": 9388,
         "ref": "8467",
-        "brand": "APPLE",
+        "brand": "CORSAIR",
         "title_orig": "Memria Corsair Vengeance LPX, DDR4 8GB, 2666MHz, c/Dissipador, CMK8GX4M1A2666C16, Negro",
         "title": "Memria Corsair Vengeance LPX, DDR4 8GB, 2666MHz, c/Dissipador, CMK8GX4M1A2666C16, Negro",
         "category": "Memorias RAM",
@@ -22113,7 +22113,7 @@ const PRODUCTS =
     {
         "id": 9389,
         "ref": "314669",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "MEM DDR5 32GB 5600 FTX UDIMM 115014",
         "title": "MEM DDR5 32GB 5600 FTX UDIMM 115014",
         "category": "Memorias RAM",
@@ -22133,7 +22133,7 @@ const PRODUCTS =
     {
         "id": 9390,
         "ref": "314704",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "MEM NB DDR5 8GB 5600 FTX SODIMM 115069",
         "title": "MEM NB DDR5 8GB 5600 FTX SODIMM 115069",
         "category": "Memorias RAM",
@@ -22153,7 +22153,7 @@ const PRODUCTS =
     {
         "id": 9391,
         "ref": "350759",
-        "brand": "XPG",
+        "brand": "GENERIC",
         "title_orig": "Memria Adata XPG Lancer Neon RGB, DDR5 32GB (2x16GB), 6400MHz, AX5U6400C3216G DCLANRSG, Negro",
         "title": "Memria Adata XPG Lancer Neon RGB, DDR5 32GB (2x16GB), 6400MHz, AX5U6400C3216G DCLANRSG, Negro",
         "category": "Memorias RAM",
@@ -22298,7 +22298,7 @@ const PRODUCTS =
     {
         "id": 9398,
         "ref": "382988",
-        "brand": "MEM",
+        "brand": "GENERIC",
         "title_orig": "MEM DDR4 8GB 3200 MANCER DANTALION S MCR-DTLS-8GB",
         "title": "MEM DDR4 8GB 3200 MANCER DANTALION S MCR-DTLS-8GB",
         "category": "Memorias RAM",
@@ -22318,7 +22318,7 @@ const PRODUCTS =
     {
         "id": 9399,
         "ref": "368544",
-        "brand": "XPG",
+        "brand": "GENERIC",
         "title_orig": "Memria Adata XPG Armax, DDR5 16GB 5600MHz, AX5U5600C4616G-SAMBK, Negro",
         "title": "Memria Adata XPG Armax, DDR5 16GB 5600MHz, AX5U5600C4616G-SAMBK, Negro",
         "category": "Memorias RAM",
@@ -22359,7 +22359,7 @@ const PRODUCTS =
     {
         "id": 9401,
         "ref": "385050",
-        "brand": "MEM",
+        "brand": "GENERIC",
         "title_orig": "MEM DDR5 32GB 6400 CRUCIAL PRO 2X16 CP2K16G64C32U5B  Negro",
         "title": "MEM DDR5 32GB 6400 CRUCIAL PRO 2X16 CP2K16G64C32U5B  Negro",
         "category": "Memorias RAM",
@@ -22380,7 +22380,7 @@ const PRODUCTS =
     {
         "id": 9402,
         "ref": "118357",
-        "brand": "MEM",
+        "brand": "GENERIC",
         "title_orig": "MEM DDR4 16GB 2666 CRUCIAL CT16G4DFRA266",
         "title": "MEM DDR4 16GB 2666 CRUCIAL CT16G4DFRA266",
         "category": "Memorias RAM",
@@ -22400,7 +22400,7 @@ const PRODUCTS =
     {
         "id": 9403,
         "ref": "382977",
-        "brand": "MEM",
+        "brand": "GENERIC",
         "title_orig": "MEM DDR4 8GB 2666 MANCER DANTALION L MCR-DTLL-2666",
         "title": "MEM DDR4 8GB 2666 MANCER DANTALION L MCR-DTLL-2666",
         "category": "Memorias RAM",
@@ -22440,7 +22440,7 @@ const PRODUCTS =
     {
         "id": 9405,
         "ref": "376980",
-        "brand": "MEM",
+        "brand": "GENERIC",
         "title_orig": "MEM NB DDR4 16GB 3200 PUSKILL KILLBLADE OEM PSK-D4D22M3200B L-16G",
         "title": "MEM NB DDR4 16GB 3200 PUSKILL KILLBLADE OEM PSK-D4D22M3200B L-16G",
         "category": "Memorias RAM",
@@ -22460,7 +22460,7 @@ const PRODUCTS =
     {
         "id": 9406,
         "ref": "376991",
-        "brand": "MEM",
+        "brand": "GENERIC",
         "title_orig": "MEM DDR4 16GB 2666 PUSKILL KILLBLADE PSK-D4D19M2666B 16G",
         "title": "MEM DDR4 16GB 2666 PUSKILL KILLBLADE PSK-D4D19M2666B 16G",
         "category": "Memorias RAM",
@@ -22623,7 +22623,7 @@ const PRODUCTS =
     {
         "id": 9414,
         "ref": "31621",
-        "brand": "UPS",
+        "brand": "GENERIC",
         "title_orig": "UPS 1500VA NOBREAK APS POWER 220V Negro 900W",
         "title": "UPS 1500VA NOBREAK APS POWER 220V Negro 900W",
         "category": "Fuentes de Poder",
@@ -22643,7 +22643,7 @@ const PRODUCTS =
     {
         "id": 9415,
         "ref": "126233",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "UPS 800VA NOBREAK FTX 5108CW NEMA 480W 220V",
         "title": "UPS 800VA NOBREAK FTX 5108CW NEMA 480W 220V",
         "category": "Fuentes de Poder",
@@ -22701,7 +22701,7 @@ const PRODUCTS =
     {
         "id": 9418,
         "ref": "141162",
-        "brand": "PILHA",
+        "brand": "GENERIC",
         "title_orig": "PILHA AA RECARREGAVEL MOX AA X4 4300MAH",
         "title": "PILHA AA RECARREGAVEL MOX AA X4 4300MAH",
         "category": "Fuentes de Poder",
@@ -22775,7 +22775,7 @@ const PRODUCTS =
     {
         "id": 9422,
         "ref": "216771",
-        "brand": "PILHA",
+        "brand": "GENERIC",
         "title_orig": "PILHA AA RECARREGAVEL MOX AA X2 4300MAH",
         "title": "PILHA AA RECARREGAVEL MOX AA X2 4300MAH",
         "category": "Fuentes de Poder",
@@ -22793,7 +22793,7 @@ const PRODUCTS =
     {
         "id": 9423,
         "ref": "291539",
-        "brand": "FONTE",
+        "brand": "GENERIC",
         "title_orig": "FONTE 650W THERMALRIGHT TR-TB650S 80+BRONZE ATX3.0 TR-TB650S",
         "title": "Fuente 650W THERMALRIGHT TR-TB650S 80+BRONZE ATX3.0 TR-TB650S",
         "category": "Fuentes de Poder",
@@ -22875,7 +22875,7 @@ const PRODUCTS =
     {
         "id": 9427,
         "ref": "74426",
-        "brand": "UPS",
+        "brand": "GENERIC",
         "title_orig": "UPS FORZA MINI DC-140USB PORTATIL 14W 110/220",
         "title": "UPS FORZA MINI DC-140USB PORTATIL 14W 110/220",
         "category": "Fuentes de Poder",
@@ -22911,7 +22911,7 @@ const PRODUCTS =
     {
         "id": 9429,
         "ref": "294307",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "UPS 3000VA FTX FTXO3000 3000W 220V USB/RS232/EPO NEMA UNIVERSAL",
         "title": "UPS 3000VA FTX FTXO3000 3000W 220V USB/RS232/EPO NEMA UNIVERSAL",
         "category": "Fuentes de Poder",
@@ -22929,7 +22929,7 @@ const PRODUCTS =
     {
         "id": 9430,
         "ref": "318168",
-        "brand": "FONTE",
+        "brand": "GENERIC",
         "title_orig": "FONTE 750W THERMALRIGHT TR-TB750S 80+BRONZE MOD",
         "title": "Fuente 750W THERMALRIGHT TR-TB750S 80+BRONZE MOD",
         "category": "Fuentes de Poder",
@@ -22949,7 +22949,7 @@ const PRODUCTS =
     {
         "id": 9431,
         "ref": "35020",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "ESTABILIZADOR DE VOLTAGEM SATE A-VR42 1500W BIVOLT",
         "title": "ESTABILIZADOR DE VOLTAGEM SATE A-VR42 1500W BIVOLT",
         "category": "Fuentes de Poder",
@@ -22967,7 +22967,7 @@ const PRODUCTS =
     {
         "id": 9432,
         "ref": "218280",
-        "brand": "PILHAS",
+        "brand": "GENERIC",
         "title_orig": "Pilhas Recarregvel Mox AAA com 4 Pilhas, 3600MAH",
         "title": "Pilhas Recarregvel Mox AAA com 4 Pilhas, 3600MAH",
         "category": "Fuentes de Poder",
@@ -22985,7 +22985,7 @@ const PRODUCTS =
     {
         "id": 9433,
         "ref": "114195",
-        "brand": "PILHA",
+        "brand": "GENERIC",
         "title_orig": "PILHA CR2032 TMMQ LITHIUM 3V - PACK-5",
         "title": "PILHA CR2032 TMMQ LITHIUM 3V - PACK-5",
         "category": "Fuentes de Poder",
@@ -23023,7 +23023,7 @@ const PRODUCTS =
     {
         "id": 9435,
         "ref": "301081",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "UPS 1500VA NOBREAK FTX 900W 220V INTERACTIVA NEMA UNIVERSAL",
         "title": "UPS 1500VA NOBREAK FTX 900W 220V INTERACTIVA NEMA UNIVERSAL",
         "category": "Fuentes de Poder",
@@ -23059,7 +23059,7 @@ const PRODUCTS =
     {
         "id": 9439,
         "ref": "182920",
-        "brand": "PILHAS",
+        "brand": "GENERIC",
         "title_orig": "Pilhas Recarregvel Mox AAA com 2 Pilhas, 2300MAH",
         "title": "Pilhas Recarregvel Mox AAA com 2 Pilhas, 2300MAH",
         "category": "Fuentes de Poder",
@@ -23077,7 +23077,7 @@ const PRODUCTS =
     {
         "id": 9440,
         "ref": "294294",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "UPS 2000VA FTX FTXO2000 2000W 220V USB/RS232/EPO NEMA UNIVERSAL",
         "title": "UPS 2000VA FTX FTXO2000 2000W 220V USB/RS232/EPO NEMA UNIVERSAL",
         "category": "Fuentes de Poder",
@@ -23095,7 +23095,7 @@ const PRODUCTS =
     {
         "id": 9441,
         "ref": "101393",
-        "brand": "FONTE",
+        "brand": "GENERIC",
         "title_orig": "FONTE 850W AZZA PSAZ-850G 80+GOLD 100-240V",
         "title": "Fuente 850W AZZA PSAZ-850G 80+GOLD 100-240V",
         "category": "Fuentes de Poder",
@@ -23135,7 +23135,7 @@ const PRODUCTS =
     {
         "id": 9443,
         "ref": "294261",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "UPS 2000VA FTX FTXO2000BR 2000W 110V USB/RS232/EPO TOMADA BR",
         "title": "UPS 2000VA FTX FTXO2000BR 2000W 110V USB/RS232/EPO TOMADA BR",
         "category": "Fuentes de Poder",
@@ -23153,7 +23153,7 @@ const PRODUCTS =
     {
         "id": 9444,
         "ref": "23207",
-        "brand": "UPS",
+        "brand": "GENERIC",
         "title_orig": "UPS 750VA NOBREAK FORZA NT-751 110V 375W",
         "title": "UPS 750VA NOBREAK FORZA NT-751 110V 375W",
         "category": "Fuentes de Poder",
@@ -23191,7 +23191,7 @@ const PRODUCTS =
     {
         "id": 9446,
         "ref": "216782",
-        "brand": "PILHA",
+        "brand": "GENERIC",
         "title_orig": "PILHA CR2032 PANASONIC 3V LITHIUM - PACK-5",
         "title": "PILHA CR2032 PANASONIC 3V LITHIUM - PACK-5",
         "category": "Fuentes de Poder",
@@ -23209,7 +23209,7 @@ const PRODUCTS =
     {
         "id": 9447,
         "ref": "115680",
-        "brand": "PILHA",
+        "brand": "GENERIC",
         "title_orig": "PILHA CR1216 TIANQIU 3V - PACK-5",
         "title": "PILHA CR1216 TIANQIU 3V - PACK-5",
         "category": "Fuentes de Poder",
@@ -23247,7 +23247,7 @@ const PRODUCTS =
     {
         "id": 9449,
         "ref": "294283",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "UPS 1000VA FTX FTXO1000 1000W 220V USB/RS232/EPO NEMA UNIVERSAL",
         "title": "UPS 1000VA FTX FTXO1000 1000W 220V USB/RS232/EPO NEMA UNIVERSAL",
         "category": "Fuentes de Poder",
@@ -23364,7 +23364,7 @@ const PRODUCTS =
     {
         "id": 9455,
         "ref": "126334",
-        "brand": "UPS",
+        "brand": "GENERIC",
         "title_orig": "UPS 1000VA NOBREAK FORZA SL-1011UL 110V",
         "title": "UPS 1000VA NOBREAK FORZA SL-1011UL 110V",
         "category": "Fuentes de Poder",
@@ -23456,7 +23456,7 @@ const PRODUCTS =
     {
         "id": 9460,
         "ref": "312790",
-        "brand": "PILHA",
+        "brand": "GENERIC",
         "title_orig": "PILHA 27A 12V TOSHIBA ALKALINA - UNIDADE",
         "title": "PILHA 27A 12V TOSHIBA ALKALINA - UNIDADE",
         "category": "Fuentes de Poder",
@@ -23474,7 +23474,7 @@ const PRODUCTS =
     {
         "id": 9461,
         "ref": "322679",
-        "brand": "UPS",
+        "brand": "GENERIC",
         "title_orig": "UPS 1000VA APC EASY SRV SRV-1000VA 700W 220V",
         "title": "UPS 1000VA APC EASY SRV SRV-1000VA 700W 220V",
         "category": "Fuentes de Poder",
@@ -23711,7 +23711,7 @@ const PRODUCTS =
     {
         "id": 9474,
         "ref": "348980",
-        "brand": "UPS",
+        "brand": "GENERIC",
         "title_orig": "UPS 500VA NOBREAK SIERA UPS500 INTERACTIVO 220V",
         "title": "UPS 500VA NOBREAK SIERA UPS500 INTERACTIVO 220V",
         "category": "Fuentes de Poder",
@@ -23749,7 +23749,7 @@ const PRODUCTS =
     {
         "id": 9476,
         "ref": "349027",
-        "brand": "UPS",
+        "brand": "GENERIC",
         "title_orig": "UPS 1000VA NOBREAK SIERA UPS1000 INTERACTIVO 220V",
         "title": "UPS 1000VA NOBREAK SIERA UPS1000 INTERACTIVO 220V",
         "category": "Fuentes de Poder",
@@ -23767,7 +23767,7 @@ const PRODUCTS =
     {
         "id": 9477,
         "ref": "339384",
-        "brand": "FONTE",
+        "brand": "GENERIC",
         "title_orig": "FONTE 1000W AZZA PSAZ-1000G 80+GOLD ATX3.0 PSAZ-1000G",
         "title": "Fuente 1000W AZZA PSAZ-1000G 80+GOLD ATX3.0 PSAZ-1000G",
         "category": "Fuentes de Poder",
@@ -23805,7 +23805,7 @@ const PRODUCTS =
     {
         "id": 9479,
         "ref": "360536",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "UPS FTX BATERIA RECARGABLE 12V 7A SS7-12 *G",
         "title": "UPS FTX BATERIA RECARGABLE 12V 7A SS7-12 *G",
         "category": "Fuentes de Poder",
@@ -23864,7 +23864,7 @@ const PRODUCTS =
     {
         "id": 9482,
         "ref": "349016",
-        "brand": "UPS",
+        "brand": "GENERIC",
         "title_orig": "UPS 1200VA NOBREAK SIERA UPS1200 INTERACTIVO 220V",
         "title": "UPS 1200VA NOBREAK SIERA UPS1200 INTERACTIVO 220V",
         "category": "Fuentes de Poder",
@@ -23882,7 +23882,7 @@ const PRODUCTS =
     {
         "id": 9483,
         "ref": "368072",
-        "brand": "UPS",
+        "brand": "GENERIC",
         "title_orig": "UPS 3000VA NOBREAK APC ON-LINE RS232 220V SRV3KRI",
         "title": "UPS 3000VA NOBREAK APC ON-LINE RS232 220V SRV3KRI",
         "category": "Fuentes de Poder",
@@ -23920,7 +23920,7 @@ const PRODUCTS =
     {
         "id": 9485,
         "ref": "364136",
-        "brand": "UPS",
+        "brand": "GENERIC",
         "title_orig": "UPS 1000VA NOBREAK FORZA NT-1011B 110V 500W TOMADA BR",
         "title": "UPS 1000VA NOBREAK FORZA NT-1011B 110V 500W TOMADA BR",
         "category": "Fuentes de Poder",
@@ -24017,7 +24017,7 @@ const PRODUCTS =
     {
         "id": 9490,
         "ref": "364103",
-        "brand": "UPS",
+        "brand": "GENERIC",
         "title_orig": "UPS 750VA NOBREAK FORZA NT-751B 750VA/375W 110V TOMADA BR",
         "title": "UPS 750VA NOBREAK FORZA NT-751B 750VA/375W 110V TOMADA BR",
         "category": "Fuentes de Poder",
@@ -24035,7 +24035,7 @@ const PRODUCTS =
     {
         "id": 9491,
         "ref": "364125",
-        "brand": "UPS",
+        "brand": "GENERIC",
         "title_orig": "UPS 1800VA NOBREAK FORZA NT-1801PRO 900W 110V",
         "title": "UPS 1800VA NOBREAK FORZA NT-1801PRO 900W 110V",
         "category": "Fuentes de Poder",
@@ -24053,7 +24053,7 @@ const PRODUCTS =
     {
         "id": 9492,
         "ref": "369376",
-        "brand": "PILHAS",
+        "brand": "GENERIC",
         "title_orig": "Pilhas Recarregvel Mox AAA com 8 Pilhas, 3000MAH",
         "title": "Pilhas Recarregvel Mox AAA com 8 Pilhas, 3000MAH",
         "category": "Fuentes de Poder",
@@ -24129,7 +24129,7 @@ const PRODUCTS =
     {
         "id": 9496,
         "ref": "348990",
-        "brand": "UPS",
+        "brand": "GENERIC",
         "title_orig": "UPS 2000VA NOBREAK SIERA UPS2000 220V",
         "title": "UPS 2000VA NOBREAK SIERA UPS2000 220V",
         "category": "Fuentes de Poder",
@@ -24147,7 +24147,7 @@ const PRODUCTS =
     {
         "id": 9497,
         "ref": "369365",
-        "brand": "PILHAS",
+        "brand": "GENERIC",
         "title_orig": "Pilhas Recarregvel Mox AAA com 8 Pilhas, 2300MAH",
         "title": "Pilhas Recarregvel Mox AAA com 8 Pilhas, 2300MAH",
         "category": "Fuentes de Poder",
@@ -24165,7 +24165,7 @@ const PRODUCTS =
     {
         "id": 9498,
         "ref": "364114",
-        "brand": "UPS",
+        "brand": "GENERIC",
         "title_orig": "UPS 1800VA NOBREAK FORZA NT-1802PRO 900W 220V",
         "title": "UPS 1800VA NOBREAK FORZA NT-1802PRO 900W 220V",
         "category": "Fuentes de Poder",
@@ -24263,7 +24263,7 @@ const PRODUCTS =
     {
         "id": 9503,
         "ref": "216806",
-        "brand": "PILHAS",
+        "brand": "GENERIC",
         "title_orig": "Pilhas Recarregvel Mox AA com 4 Pilhas, 5000MAH",
         "title": "Pilhas Recarregvel Mox AA com 4 Pilhas, 5000MAH",
         "category": "Fuentes de Poder",
@@ -24382,7 +24382,7 @@ const PRODUCTS =
     {
         "id": 9509,
         "ref": "139876",
-        "brand": "FONTE",
+        "brand": "GENERIC",
         "title_orig": "FONTE 850W ARKTEK AK-ATX850WG 80+GOLD FULL-MOD *G BIVOLT",
         "title": "Fuente 850W ARKTEK AK-ATX850WG 80+GOLD FULL-MOD *G BIVOLT",
         "category": "Fuentes de Poder",
@@ -24402,7 +24402,7 @@ const PRODUCTS =
     {
         "id": 9510,
         "ref": "392934",
-        "brand": "FONTE",
+        "brand": "GENERIC",
         "title_orig": "FONTE 850W AZZA PSAZ-850G 80+GOLD 100-240V WHITE*G ATX 3.1",
         "title": "Fuente 850W AZZA PSAZ-850G 80+GOLD 100-240V WHITE*G ATX 3.1",
         "category": "Fuentes de Poder",
@@ -25648,7 +25648,7 @@ const PRODUCTS =
     {
         "id": 9570,
         "ref": "215838",
-        "brand": "MB",
+        "brand": "GENERIC",
         "title_orig": "MB 775 GOLINE GL-G41M-G DDR3/VGA/2.0 MICRO ATX",
         "title": "MB 775 GOLINE GL-G41M-G DDR3/VGA/2.0 MICRO ATX",
         "category": "Placas Madre",
@@ -25711,7 +25711,7 @@ const PRODUCTS =
     {
         "id": 9573,
         "ref": "132869",
-        "brand": "PLACA",
+        "brand": "GENERIC",
         "title_orig": "Placa Me 1151 B250 PRO 2xDDR4, 1xVGA D-Sub, 1xDVI-D, 1xHDMI, 1xRJ45 Gigabit, 1xAudio, ATX",
         "title": "Placa Me 1151 B250 PRO 2xDDR4, 1xVGA D-Sub, 1xDVI-D, 1xHDMI, 1xRJ45 Gigabit, 1xAudio, ATX",
         "category": "Placas Madre",
@@ -25935,7 +25935,7 @@ const PRODUCTS =
     {
         "id": 9584,
         "ref": "14240",
-        "brand": "PLACA",
+        "brand": "GENERIC",
         "title_orig": "PLACA PCI-E 4 SAIDAS USB 3.0",
         "title": "PLACA PCI-E 4 SAIDAS USB 3.0",
         "category": "Placas Madre",
@@ -25975,7 +25975,7 @@ const PRODUCTS =
     {
         "id": 9586,
         "ref": "174315",
-        "brand": "MB",
+        "brand": "GENERIC",
         "title_orig": "MB 1151 GOLINE H110M-GD3 DDR3 VGA/HDMI/GIGALAN",
         "title": "MB 1151 GOLINE H110M-GD3 DDR3 VGA/HDMI/GIGALAN",
         "category": "Placas Madre",
@@ -25993,7 +25993,7 @@ const PRODUCTS =
     {
         "id": 9587,
         "ref": "300967",
-        "brand": "MB",
+        "brand": "GENERIC",
         "title_orig": "MB AM4 GOLINE A520M-G2 DDR4 HDMI/VGA/M.2",
         "title": "MB AM4 GOLINE A520M-G2 DDR4 HDMI/VGA/M.2",
         "category": "Placas Madre",
@@ -26488,7 +26488,7 @@ const PRODUCTS =
     {
         "id": 9614,
         "ref": "201473",
-        "brand": "PLACA",
+        "brand": "GENERIC",
         "title_orig": "PLACA PCI P/ 1 PARALELO 2 SERIAL",
         "title": "PLACA PCI P/ 1 PARALELO 2 SERIAL",
         "category": "Placas Madre",
@@ -26647,7 +26647,7 @@ const PRODUCTS =
     {
         "id": 9622,
         "ref": "321533",
-        "brand": "MB",
+        "brand": "GENERIC",
         "title_orig": "MB AM4 AFOX A520 A520D4-MA2-V2 DDR4/HDMI/VGA",
         "title": "MB AM4 AFOX A520 A520D4-MA2-V2 DDR4/HDMI/VGA",
         "category": "Placas Madre",
@@ -26922,7 +26922,7 @@ const PRODUCTS =
     {
         "id": 9635,
         "ref": "318113",
-        "brand": "SUPORTE",
+        "brand": "GENERIC",
         "title_orig": "SUPORTE P/ AM5 THERMALRIGHT SECURE FRAME V2 BLACK TR-AM5SFBV2",
         "title": "SUPORTE P/ AM5 THERMALRIGHT SECURE FRAME V2 BLACK TR-AM5SFBV2",
         "category": "Placas Madre",
@@ -27041,7 +27041,7 @@ const PRODUCTS =
     {
         "id": 9641,
         "ref": "317639",
-        "brand": "MB",
+        "brand": "GENERIC",
         "title_orig": "MB 1151 B250 AFOX IB250-MA4-V2 6A/7A/8A/9A GNR",
         "title": "MB 1151 B250 AFOX IB250-MA4-V2 6A/7A/8A/9A GNR",
         "category": "Placas Madre",
@@ -27447,7 +27447,7 @@ const PRODUCTS =
     {
         "id": 9662,
         "ref": "339777",
-        "brand": "MB",
+        "brand": "GENERIC",
         "title_orig": "MB AM5 B850 MAX GAMING WIFI W DDR5/HDMI/DP/WHITE",
         "title": "MB AM5 B850 MAX GAMING WIFI W DDR5/HDMI/DP/WHITE",
         "category": "Placas Madre",
@@ -28131,7 +28131,7 @@ const PRODUCTS =
     {
         "id": 9696,
         "ref": "380369",
-        "brand": "MB",
+        "brand": "GENERIC",
         "title_orig": "MB 1155 GOLINE H61M-G DDR3 HDMI/VGA/M.2/USB2.0",
         "title": "MB 1155 GOLINE H61M-G DDR3 HDMI/VGA/M.2/USB2.0",
         "category": "Placas Madre",
@@ -28434,7 +28434,7 @@ const PRODUCTS =
     {
         "id": 9711,
         "ref": "380112",
-        "brand": "MB",
+        "brand": "GENERIC",
         "title_orig": "MB 1155 GOLINE B75M-G DDR3 HDMI/VGA/M.2/USB3.0",
         "title": "MB 1155 GOLINE B75M-G DDR3 HDMI/VGA/M.2/USB3.0",
         "category": "Placas Madre",
@@ -28515,7 +28515,7 @@ const PRODUCTS =
     {
         "id": 9715,
         "ref": "382057",
-        "brand": "MB",
+        "brand": "GENERIC",
         "title_orig": "MB 1151 GOLINE GL-H310M-G DDR4 HDMI/DVI/VGA/USB3.0",
         "title": "MB 1151 GOLINE GL-H310M-G DDR4 HDMI/DVI/VGA/USB3.0",
         "category": "Placas Madre",
@@ -28555,7 +28555,7 @@ const PRODUCTS =
     {
         "id": 9717,
         "ref": "381897",
-        "brand": "MB",
+        "brand": "GENERIC",
         "title_orig": "MB 1700 GOLINE H610M-G DDR4 2HDMI/DP/M.2/USB3.0",
         "title": "MB 1700 GOLINE H610M-G DDR4 2HDMI/DP/M.2/USB3.0",
         "category": "Placas Madre",
@@ -28780,7 +28780,7 @@ const PRODUCTS =
     {
         "id": 9728,
         "ref": "173224",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD Crucial BX500, 500GB, 2.5",
         "title": "SSD Crucial BX500, 500GB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -28800,7 +28800,7 @@ const PRODUCTS =
     {
         "id": 9729,
         "ref": "5802",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 32GB SANDISK Z50 CRUZER BLADE",
         "title": "PEN DRIVE 32GB SANDISK Z50 CRUZER BLADE",
         "category": "Almacenamiento (SSD)",
@@ -28818,7 +28818,7 @@ const PRODUCTS =
     {
         "id": 9730,
         "ref": "200821",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 256GB SANDISK Z410 ULTRA SHIFT USB 3.0",
         "title": "PEN DRIVE 256GB SANDISK Z410 ULTRA SHIFT USB 3.0",
         "category": "Almacenamiento (SSD)",
@@ -28856,7 +28856,7 @@ const PRODUCTS =
     {
         "id": 9732,
         "ref": "159239",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD Western Digital WD Green, 1TB, 2.5",
         "title": "SSD Western Digital WD Green, 1TB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -28896,7 +28896,7 @@ const PRODUCTS =
     {
         "id": 9734,
         "ref": "209863",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD Western Digital 2TB WD Purple Surveillance SATA 3 5400RPM 3.5",
         "title": "HD Western Digital 2TB WD Purple Surveillance SATA 3 5400RPM 3.5",
         "category": "Almacenamiento (SSD)",
@@ -28934,7 +28934,7 @@ const PRODUCTS =
     {
         "id": 9736,
         "ref": "207010",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD Western Digital 4TB WD Purple SATA 3 5400RPM 3.5",
         "title": "HD Western Digital 4TB WD Purple SATA 3 5400RPM 3.5",
         "category": "Almacenamiento (SSD)",
@@ -28970,7 +28970,7 @@ const PRODUCTS =
     {
         "id": 9738,
         "ref": "121362",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 128GB SANDISK Z410 ULTRA SHIF 3.0 PURPLE",
         "title": "PEN DRIVE 128GB SANDISK Z410 ULTRA SHIF 3.0 PURPLE",
         "category": "Almacenamiento (SSD)",
@@ -28988,7 +28988,7 @@ const PRODUCTS =
     {
         "id": 9739,
         "ref": "167350",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 64GB SANDISK Z50 CRUZER BLADE",
         "title": "PEN DRIVE 64GB SANDISK Z50 CRUZER BLADE",
         "category": "Almacenamiento (SSD)",
@@ -29006,7 +29006,7 @@ const PRODUCTS =
     {
         "id": 9740,
         "ref": "90244",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 64GB SANDISK Z410 ULT.SHIFT USB3.0 BLACK",
         "title": "PEN DRIVE 64GB SANDISK Z410 ULT.SHIFT USB3.0 BLACK",
         "category": "Almacenamiento (SSD)",
@@ -29024,7 +29024,7 @@ const PRODUCTS =
     {
         "id": 9741,
         "ref": "167181",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD Western Digital WD Green, 480GB, 2.5",
         "title": "SSD Western Digital WD Green, 480GB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -29064,7 +29064,7 @@ const PRODUCTS =
     {
         "id": 9743,
         "ref": "164661",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD SSD M.2 240GB WD GREEN WDS240G3G0B 545MB/S",
         "title": "HD SSD M.2 240GB WD GREEN WDS240G3G0B 545MB/S",
         "category": "Almacenamiento (SSD)",
@@ -29085,7 +29085,7 @@ const PRODUCTS =
     {
         "id": 9744,
         "ref": "57214",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GAVETA P/ HD 2.5 SATE AX-233 USB 3.0",
         "title": "GAVETA P/ HD 2.5 SATE AX-233 USB 3.0",
         "category": "Almacenamiento (SSD)",
@@ -29123,7 +29123,7 @@ const PRODUCTS =
     {
         "id": 9746,
         "ref": "201563",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 16GB SANDISK Z430 ULTRA FIT USB 3.2 SDCZ430-016G-G46",
         "title": "PEN DRIVE 16GB SANDISK Z430 ULTRA FIT USB 3.2 SDCZ430-016G-G46",
         "category": "Almacenamiento (SSD)",
@@ -29141,7 +29141,7 @@ const PRODUCTS =
     {
         "id": 9747,
         "ref": "181515",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 128GB SANDISK Z430 ULTRA FIT USB 3.2",
         "title": "PEN DRIVE 128GB SANDISK Z430 ULTRA FIT USB 3.2",
         "category": "Almacenamiento (SSD)",
@@ -29159,7 +29159,7 @@ const PRODUCTS =
     {
         "id": 9748,
         "ref": "78182",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD 8TB SEAGATE IRONWOLF NAS ST8000VN004 7200RPM",
         "title": "HD 8TB SEAGATE IRONWOLF NAS ST8000VN004 7200RPM",
         "category": "Almacenamiento (SSD)",
@@ -29177,7 +29177,7 @@ const PRODUCTS =
     {
         "id": 9749,
         "ref": "95978",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 64GB SANDISK Z430 ULTRA FIT 3.2 SDCZ430-064G-G46",
         "title": "PEN DRIVE 64GB SANDISK Z430 ULTRA FIT 3.2 SDCZ430-064G-G46",
         "category": "Almacenamiento (SSD)",
@@ -29195,7 +29195,7 @@ const PRODUCTS =
     {
         "id": 9750,
         "ref": "115073",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD Seagate 500GB Pipeline Slim SATA 2 5900RPM 3.5",
         "title": "HD Seagate 500GB Pipeline Slim SATA 2 5900RPM 3.5",
         "category": "Almacenamiento (SSD)",
@@ -29213,7 +29213,7 @@ const PRODUCTS =
     {
         "id": 9751,
         "ref": "25030",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD Crucial BX500, 1TB, 2.5",
         "title": "SSD Crucial BX500, 1TB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -29233,7 +29233,7 @@ const PRODUCTS =
     {
         "id": 9752,
         "ref": "206658",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD Seagate 2TB SkyHawk Surveillance SATA 3 5400RPM 3.5",
         "title": "HD Seagate 2TB SkyHawk Surveillance SATA 3 5400RPM 3.5",
         "category": "Almacenamiento (SSD)",
@@ -29251,7 +29251,7 @@ const PRODUCTS =
     {
         "id": 9753,
         "ref": "56707",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD Western Digital 500GB Green SATA 2 7200RPM 3.5",
         "title": "HD Western Digital 500GB Green SATA 2 7200RPM 3.5",
         "category": "Almacenamiento (SSD)",
@@ -29305,7 +29305,7 @@ const PRODUCTS =
     {
         "id": 9756,
         "ref": "167372",
-        "brand": "CARTO",
+        "brand": "GENERIC",
         "title_orig": "Carto de Memria SanDisk Ultra, 128GB, Micro SD, UHS-I C10, 100MB/s, SDSQUNR-128G-GN3MA",
         "title": "Carto de Memria SanDisk Ultra, 128GB, Micro SD, UHS-I C10, 100MB/s, SDSQUNR-128G-GN3MA",
         "category": "Almacenamiento (SSD)",
@@ -29323,7 +29323,7 @@ const PRODUCTS =
     {
         "id": 9757,
         "ref": "160444",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD Western Digital WD Green, 240GB, 2.5",
         "title": "SSD Western Digital WD Green, 240GB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -29343,7 +29343,7 @@ const PRODUCTS =
     {
         "id": 9758,
         "ref": "159542",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD Western Digital 500GB Green SATA 2 7200RPM 3.5",
         "title": "HD Western Digital 500GB Green SATA 2 7200RPM 3.5",
         "category": "Almacenamiento (SSD)",
@@ -29381,7 +29381,7 @@ const PRODUCTS =
     {
         "id": 9760,
         "ref": "290055",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "SSD 240GB FTX 2.5",
         "title": "SSD 240GB FTX 2.5",
         "category": "Almacenamiento (SSD)",
@@ -29421,7 +29421,7 @@ const PRODUCTS =
     {
         "id": 9762,
         "ref": "57078",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD Externo Seagate Expansion, 500GB, 2.5",
         "title": "HD Externo Seagate Expansion, 500GB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -29459,7 +29459,7 @@ const PRODUCTS =
     {
         "id": 9764,
         "ref": "185451",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD Seagate 10TB SkyHawk AI Surveillance 3.5",
         "title": "HD Seagate 10TB SkyHawk AI Surveillance 3.5",
         "category": "Almacenamiento (SSD)",
@@ -29477,7 +29477,7 @@ const PRODUCTS =
     {
         "id": 9765,
         "ref": "149249",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GAVETA P/ SSD M.2 SATE AX-204S USB3.0 NGFF SATA",
         "title": "GAVETA P/ SSD M.2 SATE AX-204S USB3.0 NGFF SATA",
         "category": "Almacenamiento (SSD)",
@@ -29498,7 +29498,7 @@ const PRODUCTS =
     {
         "id": 9766,
         "ref": "160613",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD Western Digital WD Green, 480GB, M.2 SATA, Leitura 545MB/s, WDS480G3G0B",
         "title": "SSD Western Digital WD Green, 480GB, M.2 SATA, Leitura 545MB/s, WDS480G3G0B",
         "category": "Almacenamiento (SSD)",
@@ -29519,7 +29519,7 @@ const PRODUCTS =
     {
         "id": 9767,
         "ref": "217537",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD Externo Toshiba Canvio Basics, 1TB, 2.5",
         "title": "HD Externo Toshiba Canvio Basics, 1TB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -29557,7 +29557,7 @@ const PRODUCTS =
     {
         "id": 9769,
         "ref": "5790",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD Sandisk Plus, 480GB, 2.5",
         "title": "SSD Sandisk Plus, 480GB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -29597,7 +29597,7 @@ const PRODUCTS =
     {
         "id": 9772,
         "ref": "44322",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD Seagate 2TB BarraCuda  SATA 3 7200RPM 3.5",
         "title": "HD Seagate 2TB BarraCuda  SATA 3 7200RPM 3.5",
         "category": "Almacenamiento (SSD)",
@@ -29636,7 +29636,7 @@ const PRODUCTS =
     {
         "id": 9774,
         "ref": "314759",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "SSD FTX 120GB 2.5",
         "title": "SSD FTX 120GB 2.5",
         "category": "Almacenamiento (SSD)",
@@ -29656,7 +29656,7 @@ const PRODUCTS =
     {
         "id": 9775,
         "ref": "6779",
-        "brand": "CARTO",
+        "brand": "GENERIC",
         "title_orig": "Carto de Memria SanDisk Ultra, 32GB, Micro SDHC, C10, 100MB/s, SDSQUNR-032G-GN3MA",
         "title": "Carto de Memria SanDisk Ultra, 32GB, Micro SDHC, C10, 100MB/s, SDSQUNR-032G-GN3MA",
         "category": "Almacenamiento (SSD)",
@@ -29694,7 +29694,7 @@ const PRODUCTS =
     {
         "id": 9777,
         "ref": "76428",
-        "brand": "CARTO",
+        "brand": "GENERIC",
         "title_orig": "Carto de Memria SanDisk Ultra, 256GB, Micro SDXC, C10, 100MB/s, SDSQUNR-256G-GN6TA",
         "title": "Carto de Memria SanDisk Ultra, 256GB, Micro SDXC, C10, 100MB/s, SDSQUNR-256G-GN6TA",
         "category": "Almacenamiento (SSD)",
@@ -29753,7 +29753,7 @@ const PRODUCTS =
     {
         "id": 9780,
         "ref": "35715",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "LEITOR DE CARTAO SATE A-HUB07 +3P USB 2.0",
         "title": "LEITOR DE CARTAO SATE A-HUB07 +3P USB 2.0",
         "category": "Almacenamiento (SSD)",
@@ -29771,7 +29771,7 @@ const PRODUCTS =
     {
         "id": 9781,
         "ref": "190772",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 32GB LUO FLASH DRIVE MINI 2.0 METAL",
         "title": "PEN DRIVE 32GB LUO FLASH DRIVE MINI 2.0 METAL",
         "category": "Almacenamiento (SSD)",
@@ -29849,7 +29849,7 @@ const PRODUCTS =
     {
         "id": 9785,
         "ref": "216570",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD Externo Toshiba Canvio Basics, 2TB, 2.5",
         "title": "HD Externo Toshiba Canvio Basics, 2TB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -29867,7 +29867,7 @@ const PRODUCTS =
     {
         "id": 9786,
         "ref": "176664",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 32GB SANDISK Z430 ULTRA FIT USB 3.2 130MB/s SDCZ430-032G-G46",
         "title": "PEN DRIVE 32GB SANDISK Z430 ULTRA FIT USB 3.2 130MB/s SDCZ430-032G-G46",
         "category": "Almacenamiento (SSD)",
@@ -29885,7 +29885,7 @@ const PRODUCTS =
     {
         "id": 9787,
         "ref": "17680",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GAVETA P/ HD 2.5 SATE AX-241 BLACK 2.0",
         "title": "GAVETA P/ HD 2.5 SATE AX-241 BLACK 2.0",
         "category": "Almacenamiento (SSD)",
@@ -29941,7 +29941,7 @@ const PRODUCTS =
     {
         "id": 9790,
         "ref": "3912",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD Seagate 4TB BarraCuda SATA 3 5400RPM 3.5",
         "title": "HD Seagate 4TB BarraCuda SATA 3 5400RPM 3.5",
         "category": "Almacenamiento (SSD)",
@@ -30002,7 +30002,7 @@ const PRODUCTS =
     {
         "id": 9793,
         "ref": "53175",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD Adata SU650, 240GB, 2.5",
         "title": "SSD Adata SU650, 240GB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -30062,7 +30062,7 @@ const PRODUCTS =
     {
         "id": 9796,
         "ref": "284855",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GAVETA P/ SSD M.2 NVME SATE AX-207S TYPE-C GRAY",
         "title": "GAVETA P/ SSD M.2 NVME SATE AX-207S TYPE-C GRAY",
         "category": "Almacenamiento (SSD)",
@@ -30084,7 +30084,7 @@ const PRODUCTS =
     {
         "id": 9797,
         "ref": "88319",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD Western Digital WD Green, 2TB, 2.5",
         "title": "SSD Western Digital WD Green, 2TB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -30104,7 +30104,7 @@ const PRODUCTS =
     {
         "id": 9798,
         "ref": "160646",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 32GB SANDISK Z600 CRUZER GLIDE ULTRA 3.0 SDCZ600-032G-G35",
         "title": "PEN DRIVE 32GB SANDISK Z600 CRUZER GLIDE ULTRA 3.0 SDCZ600-032G-G35",
         "category": "Almacenamiento (SSD)",
@@ -30122,7 +30122,7 @@ const PRODUCTS =
     {
         "id": 9799,
         "ref": "10471",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD SATA2 500GB SEAGATE ST3500414CS PULL PIPELINE",
         "title": "HD SATA2 500GB SEAGATE ST3500414CS PULL PIPELINE",
         "category": "Almacenamiento (SSD)",
@@ -30201,7 +30201,7 @@ const PRODUCTS =
     {
         "id": 9803,
         "ref": "259172",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "LEITOR DE CARTAO SATE A-HUB06 2EN1 USB 3.0 Negro",
         "title": "LEITOR DE CARTAO SATE A-HUB06 2EN1 USB 3.0 Negro",
         "category": "Almacenamiento (SSD)",
@@ -30261,7 +30261,7 @@ const PRODUCTS =
     {
         "id": 9806,
         "ref": "244010",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD SATA3 1TB WD WD11PURZ SURVEILLANCE PURPLE",
         "title": "HD SATA3 1TB WD WD11PURZ SURVEILLANCE PURPLE",
         "category": "Almacenamiento (SSD)",
@@ -30299,7 +30299,7 @@ const PRODUCTS =
     {
         "id": 9808,
         "ref": "35691",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GAVETA P/ SSD M.2 SATE AX-203S USB3.0 Negro",
         "title": "GAVETA P/ SSD M.2 SATE AX-203S USB3.0 Negro",
         "category": "Almacenamiento (SSD)",
@@ -30321,7 +30321,7 @@ const PRODUCTS =
     {
         "id": 9809,
         "ref": "63480",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD Crucial BX500, 2TB, 2.5",
         "title": "SSD Crucial BX500, 2TB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -30379,7 +30379,7 @@ const PRODUCTS =
     {
         "id": 9812,
         "ref": "57225",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GAVETA P/ HD 2.5/3.5 SATE AX-234 DOCKSTATION 3.0",
         "title": "GAVETA P/ HD 2.5/3.5 SATE AX-234 DOCKSTATION 3.0",
         "category": "Almacenamiento (SSD)",
@@ -30397,7 +30397,7 @@ const PRODUCTS =
     {
         "id": 9813,
         "ref": "207053",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD Externo Porttil SanDisk Extreme, 1TB, SDSSDE81-1T00-G25, 2000 MB/s, Negro",
         "title": "SSD Externo Porttil SanDisk Extreme, 1TB, SDSSDE81-1T00-G25, 2000 MB/s, Negro",
         "category": "Almacenamiento (SSD)",
@@ -30436,7 +30436,7 @@ const PRODUCTS =
     {
         "id": 9815,
         "ref": "181111",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD Externo Porttil SanDisk Extreme, 1TB, SDSSDE61-1T00-G25B, Azul",
         "title": "SSD Externo Porttil SanDisk Extreme, 1TB, SDSSDE61-1T00-G25B, Azul",
         "category": "Almacenamiento (SSD)",
@@ -30456,7 +30456,7 @@ const PRODUCTS =
     {
         "id": 9816,
         "ref": "251096",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD Externo Seagate Expansion, 4TB, 2.5",
         "title": "HD Externo Seagate Expansion, 4TB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -30474,7 +30474,7 @@ const PRODUCTS =
     {
         "id": 9817,
         "ref": "207536",
-        "brand": "CARTAO",
+        "brand": "GENERIC",
         "title_orig": "CARTAO MICROSD 512GB SANDISK ULTRA 150MB/S C10 SDSQUAC-512G-GN 6MA",
         "title": "CARTAO MICROSD 512GB SANDISK ULTRA 150MB/S C10 SDSQUAC-512G-GN 6MA",
         "category": "Almacenamiento (SSD)",
@@ -30512,7 +30512,7 @@ const PRODUCTS =
     {
         "id": 9819,
         "ref": "212500",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD EXT  4TB Sandisk Extreme PRO SDSSDE81-4T00-G25 2000 MB/s Negro",
         "title": "SSD EXT  4TB Sandisk Extreme PRO SDSSDE81-4T00-G25 2000 MB/s Negro",
         "category": "Almacenamiento (SSD)",
@@ -30571,7 +30571,7 @@ const PRODUCTS =
     {
         "id": 9822,
         "ref": "188083",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD Seagate 4TB Iron Wolf Nas SATA 3 5400RPM 3.5",
         "title": "HD Seagate 4TB Iron Wolf Nas SATA 3 5400RPM 3.5",
         "category": "Almacenamiento (SSD)",
@@ -30589,7 +30589,7 @@ const PRODUCTS =
     {
         "id": 9823,
         "ref": "199557",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD Externo Porttil SanDisk Extreme, 500GB, SDSSDE61-500G-G25, Negro",
         "title": "SSD Externo Porttil SanDisk Extreme, 500GB, SDSSDE61-500G-G25, Negro",
         "category": "Almacenamiento (SSD)",
@@ -30628,7 +30628,7 @@ const PRODUCTS =
     {
         "id": 9825,
         "ref": "6017",
-        "brand": "ADAPTADOR",
+        "brand": "GENERIC",
         "title_orig": "Adaptador Caddy Gravador SATA 2.5",
         "title": "Adaptador Caddy Gravador SATA 2.5",
         "category": "Almacenamiento (SSD)",
@@ -30646,7 +30646,7 @@ const PRODUCTS =
     {
         "id": 9826,
         "ref": "107670",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD Lexar NQ100, 240GB, 2.5",
         "title": "SSD Lexar NQ100, 240GB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -30666,7 +30666,7 @@ const PRODUCTS =
     {
         "id": 9827,
         "ref": "314760",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "HD SSD 480GB FTX 550/470 MB/S 2.5",
         "title": "HD SSD 480GB FTX 550/470 MB/S 2.5",
         "category": "Almacenamiento (SSD)",
@@ -30704,7 +30704,7 @@ const PRODUCTS =
     {
         "id": 9829,
         "ref": "238562",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD Externo Porttil SanDisk Extreme, 2TB, 1050 MB/S, SDSSDE61-2T00-G25, Negro",
         "title": "SSD Externo Porttil SanDisk Extreme, 2TB, 1050 MB/S, SDSSDE61-2T00-G25, Negro",
         "category": "Almacenamiento (SSD)",
@@ -30725,7 +30725,7 @@ const PRODUCTS =
     {
         "id": 9830,
         "ref": "248923",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD SATA3 4TB TOSHIBA SURVEILLANCE S300 HDWT840",
         "title": "HD SATA3 4TB TOSHIBA SURVEILLANCE S300 HDWT840",
         "category": "Almacenamiento (SSD)",
@@ -30802,7 +30802,7 @@ const PRODUCTS =
     {
         "id": 9834,
         "ref": "285845",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 64GB SANDISK Z410 ULT.SHIFT USB3.2 YELLO SDCZ410-064G-G4",
         "title": "PEN DRIVE 64GB SANDISK Z410 ULT.SHIFT USB3.2 YELLO SDCZ410-064G-G4",
         "category": "Almacenamiento (SSD)",
@@ -30820,7 +30820,7 @@ const PRODUCTS =
     {
         "id": 9835,
         "ref": "382944",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD Mancer Reaper RF 240GB, 2.5",
         "title": "SSD Mancer Reaper RF 240GB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -30840,7 +30840,7 @@ const PRODUCTS =
     {
         "id": 9836,
         "ref": "65415",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "GAVETA P/ HD 2.5 SATE AX-250 USB 3.0 TYPE-C TRANSP",
         "title": "GAVETA P/ HD 2.5 SATE AX-250 USB 3.0 TYPE-C TRANSP",
         "category": "Almacenamiento (SSD)",
@@ -30896,7 +30896,7 @@ const PRODUCTS =
     {
         "id": 9839,
         "ref": "5813",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 8GB SANDISK Z50 CRUZER BLADE",
         "title": "PEN DRIVE 8GB SANDISK Z50 CRUZER BLADE",
         "category": "Almacenamiento (SSD)",
@@ -30914,7 +30914,7 @@ const PRODUCTS =
     {
         "id": 9840,
         "ref": "232769",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD Externo Porttil SanDisk Extreme, 4TB,  SDSSDE61-4T00-G25 , Negro USB-C",
         "title": "SSD Externo Porttil SanDisk Extreme, 4TB,  SDSSDE61-4T00-G25 , Negro USB-C",
         "category": "Almacenamiento (SSD)",
@@ -30935,7 +30935,7 @@ const PRODUCTS =
     {
         "id": 9841,
         "ref": "291629",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD Western Digital 8TB WD Red Plus Nas SATA 3 5640RPM 3.5",
         "title": "HD Western Digital 8TB WD Red Plus Nas SATA 3 5640RPM 3.5",
         "category": "Almacenamiento (SSD)",
@@ -30953,7 +30953,7 @@ const PRODUCTS =
     {
         "id": 9842,
         "ref": "194700",
-        "brand": "CARTAO",
+        "brand": "GENERIC",
         "title_orig": "CARTAO MICROSD 128GB SANDISK EXT.V30 200MB/S 90MB SDSQXCD-128G-GN6MA",
         "title": "CARTAO MICROSD 128GB SANDISK EXT.V30 200MB/S 90MB SDSQXCD-128G-GN6MA",
         "category": "Almacenamiento (SSD)",
@@ -30971,7 +30971,7 @@ const PRODUCTS =
     {
         "id": 9843,
         "ref": "209885",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD Externo Toshiba Canvio Basics, 4TB, 2.5",
         "title": "HD Externo Toshiba Canvio Basics, 4TB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -30989,7 +30989,7 @@ const PRODUCTS =
     {
         "id": 9844,
         "ref": "270132",
-        "brand": "CARTAO",
+        "brand": "GENERIC",
         "title_orig": "CARTAO MICROSD 32GB SANDISK EXTREME PRO CLASSE 10 SDSDXXO-032G-GN",
         "title": "CARTAO MICROSD 32GB SANDISK EXTREME PRO CLASSE 10 SDSDXXO-032G-GN",
         "category": "Almacenamiento (SSD)",
@@ -31027,7 +31027,7 @@ const PRODUCTS =
     {
         "id": 9846,
         "ref": "43624",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD Adata SU650, 480GB, 2.5",
         "title": "SSD Adata SU650, 480GB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -31047,7 +31047,7 @@ const PRODUCTS =
     {
         "id": 9847,
         "ref": "280212",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD Seagate 24TB Iron Wolf Pro SATA 3 7200RPM 3.5",
         "title": "HD Seagate 24TB Iron Wolf Pro SATA 3 7200RPM 3.5",
         "category": "Almacenamiento (SSD)",
@@ -31065,7 +31065,7 @@ const PRODUCTS =
     {
         "id": 9848,
         "ref": "239642",
-        "brand": "CARTAO",
+        "brand": "GENERIC",
         "title_orig": "CARTAO MICROSD 128GB SANDISK EXTREME 190MB/S 4K SDSQXAA-128G-GN6AA",
         "title": "CARTAO MICROSD 128GB SANDISK EXTREME 190MB/S 4K SDSQXAA-128G-GN6AA",
         "category": "Almacenamiento (SSD)",
@@ -31105,7 +31105,7 @@ const PRODUCTS =
     {
         "id": 9850,
         "ref": "169914",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD Externo Seagate Expansion, 16TB, 3.5",
         "title": "HD Externo Seagate Expansion, 16TB, 3.5",
         "category": "Almacenamiento (SSD)",
@@ -31123,7 +31123,7 @@ const PRODUCTS =
     {
         "id": 9851,
         "ref": "152210",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD Externo Seagate Expansion, 10TB, 3.5",
         "title": "HD Externo Seagate Expansion, 10TB, 3.5",
         "category": "Almacenamiento (SSD)",
@@ -31141,7 +31141,7 @@ const PRODUCTS =
     {
         "id": 9852,
         "ref": "239372",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD Externo Porttil SanDisk Extreme, 2TB, SDSSDE61-2T00-G25M, 1050 MB/s, Azul",
         "title": "SSD Externo Porttil SanDisk Extreme, 2TB, SDSSDE61-2T00-G25M, 1050 MB/s, Azul",
         "category": "Almacenamiento (SSD)",
@@ -31161,7 +31161,7 @@ const PRODUCTS =
     {
         "id": 9853,
         "ref": "216984",
-        "brand": "CARTAO",
+        "brand": "GENERIC",
         "title_orig": "CARTAO MICROSD 256GB SANDISK EXTREME 190/130MBS SDSQXAV-256G-GN6MA",
         "title": "CARTAO MICROSD 256GB SANDISK EXTREME 190/130MBS SDSQXAV-256G-GN6MA",
         "category": "Almacenamiento (SSD)",
@@ -31179,7 +31179,7 @@ const PRODUCTS =
     {
         "id": 9854,
         "ref": "208728",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD SATA3 6TB WESTERN WD64PURZ SURVEILLANCE PURPLE",
         "title": "HD SATA3 6TB WESTERN WD64PURZ SURVEILLANCE PURPLE",
         "category": "Almacenamiento (SSD)",
@@ -31197,7 +31197,7 @@ const PRODUCTS =
     {
         "id": 9855,
         "ref": "273179",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD SATA3 6TB TOSHIBA HDWT860UZSVA SATA 3 5400RPM",
         "title": "HD SATA3 6TB TOSHIBA HDWT860UZSVA SATA 3 5400RPM",
         "category": "Almacenamiento (SSD)",
@@ -31235,7 +31235,7 @@ const PRODUCTS =
     {
         "id": 9857,
         "ref": "142770",
-        "brand": "CARTAO",
+        "brand": "GENERIC",
         "title_orig": "CARTAO MICROSD 32GB SANDISK EXT.PRO SDS 100MBS/90  SDSQXCG-032G-GN6MA",
         "title": "CARTAO MICROSD 32GB SANDISK EXT.PRO SDS 100MBS/90  SDSQXCG-032G-GN6MA",
         "category": "Almacenamiento (SSD)",
@@ -31253,7 +31253,7 @@ const PRODUCTS =
     {
         "id": 9858,
         "ref": "263560",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD 10TB SEAGATE EXOS 7E10 ST10000NM017B 3.5",
         "title": "HD 10TB SEAGATE EXOS 7E10 ST10000NM017B 3.5",
         "category": "Almacenamiento (SSD)",
@@ -31271,7 +31271,7 @@ const PRODUCTS =
     {
         "id": 9859,
         "ref": "285812",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 64GB SANDISK Z410 ULT.SHIFT USB3.2 BLUE SDCZ410-064G-G4",
         "title": "PEN DRIVE 64GB SANDISK Z410 ULT.SHIFT USB3.2 BLUE SDCZ410-064G-G4",
         "category": "Almacenamiento (SSD)",
@@ -31289,7 +31289,7 @@ const PRODUCTS =
     {
         "id": 9860,
         "ref": "313635",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 128GB SANDISK Z460 ULTRA USB-C USB3.1 SDCZ460-128G-G4 6",
         "title": "PEN DRIVE 128GB SANDISK Z460 ULTRA USB-C USB3.1 SDCZ460-128G-G4 6",
         "category": "Almacenamiento (SSD)",
@@ -31307,7 +31307,7 @@ const PRODUCTS =
     {
         "id": 9861,
         "ref": "197296",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD Seagate 8TB Exos 7E10 Enterprise SATA3 7200RPM 3.5",
         "title": "HD Seagate 8TB Exos 7E10 Enterprise SATA3 7200RPM 3.5",
         "category": "Almacenamiento (SSD)",
@@ -31325,7 +31325,7 @@ const PRODUCTS =
     {
         "id": 9862,
         "ref": "132825",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD Western Digital 1TB WD Purple SATA 3 5400RPM 3.5",
         "title": "HD Western Digital 1TB WD Purple SATA 3 5400RPM 3.5",
         "category": "Almacenamiento (SSD)",
@@ -31343,7 +31343,7 @@ const PRODUCTS =
     {
         "id": 9863,
         "ref": "329205",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD Western Digital 1TB Western Green 2.5",
         "title": "SSD Western Digital 1TB Western Green 2.5",
         "category": "Almacenamiento (SSD)",
@@ -31384,7 +31384,7 @@ const PRODUCTS =
     {
         "id": 9865,
         "ref": "277734",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD Western Digital 4TB Red SA500 2.5",
         "title": "SSD Western Digital 4TB Red SA500 2.5",
         "category": "Almacenamiento (SSD)",
@@ -31404,7 +31404,7 @@ const PRODUCTS =
     {
         "id": 9866,
         "ref": "212925",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 32GB SANDISK Z410 ULT.SHIFT USB3.2 PURPL",
         "title": "PEN DRIVE 32GB SANDISK Z410 ULT.SHIFT USB3.2 PURPL",
         "category": "Almacenamiento (SSD)",
@@ -31440,7 +31440,7 @@ const PRODUCTS =
     {
         "id": 9868,
         "ref": "105599",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD Western Digital 14TB WD Red Pro Nas SATA 3 7200RPM 3.5",
         "title": "HD Western Digital 14TB WD Red Pro Nas SATA 3 7200RPM 3.5",
         "category": "Almacenamiento (SSD)",
@@ -31494,7 +31494,7 @@ const PRODUCTS =
     {
         "id": 9871,
         "ref": "166584",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD SSD 960GB ADATA SU650 ASU650SS-960GT-R",
         "title": "HD SSD 960GB ADATA SU650 ASU650SS-960GT-R",
         "category": "Almacenamiento (SSD)",
@@ -31514,7 +31514,7 @@ const PRODUCTS =
     {
         "id": 9872,
         "ref": "280985",
-        "brand": "CARTAO",
+        "brand": "GENERIC",
         "title_orig": "CARTAO SD 512GB SANDISK EXTREME PRO 200MB SDSQXCD-512G-GN6MA",
         "title": "CARTAO SD 512GB SANDISK EXTREME PRO 200MB SDSQXCD-512G-GN6MA",
         "category": "Almacenamiento (SSD)",
@@ -31532,7 +31532,7 @@ const PRODUCTS =
     {
         "id": 9873,
         "ref": "285823",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 64GB SANDISK Z410 ULT.SHIFT USB3.2 PURPL SDCZ410-064G-G4",
         "title": "PEN DRIVE 64GB SANDISK Z410 ULT.SHIFT USB3.2 PURPL SDCZ410-064G-G4",
         "category": "Almacenamiento (SSD)",
@@ -31570,7 +31570,7 @@ const PRODUCTS =
     {
         "id": 9875,
         "ref": "14396",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD NB SATA3 2TB SEAGATE 5400RPM 128MB ST2000LM015",
         "title": "HD NB SATA3 2TB SEAGATE 5400RPM 128MB ST2000LM015",
         "category": "Almacenamiento (SSD)",
@@ -31588,7 +31588,7 @@ const PRODUCTS =
     {
         "id": 9876,
         "ref": "278768",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD SATA3 8TB WESTERN WD8002PURP PURPLE PRO 7200RPM WD8002PURP",
         "title": "HD SATA3 8TB WESTERN WD8002PURP PURPLE PRO 7200RPM WD8002PURP",
         "category": "Almacenamiento (SSD)",
@@ -31606,7 +31606,7 @@ const PRODUCTS =
     {
         "id": 9877,
         "ref": "316470",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD EXT  4TB Sandisk Extreme SDSSDE61-4T00-G25B 2000 MB/s Azul",
         "title": "SSD EXT  4TB Sandisk Extreme SDSSDE61-4T00-G25B 2000 MB/s Azul",
         "category": "Almacenamiento (SSD)",
@@ -31626,7 +31626,7 @@ const PRODUCTS =
     {
         "id": 9878,
         "ref": "327381",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD SSD EXT 1TB SANDISK CREATOR SDSSDE81C-1T00-G25 CREATOR PRO",
         "title": "HD SSD EXT 1TB SANDISK CREATOR SDSSDE81C-1T00-G25 CREATOR PRO",
         "category": "Almacenamiento (SSD)",
@@ -31664,7 +31664,7 @@ const PRODUCTS =
     {
         "id": 9880,
         "ref": "47022",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD Seagate 500GB Pipeline Slim SATA 3 7200RPM 3.5",
         "title": "HD Seagate 500GB Pipeline Slim SATA 3 7200RPM 3.5",
         "category": "Almacenamiento (SSD)",
@@ -31682,7 +31682,7 @@ const PRODUCTS =
     {
         "id": 9881,
         "ref": "327113",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "Cabo USB-C Macho para USB-C Macho 3.2, 2M FTX CT-C160-PU31-CMCM2-AG2, 20Gbps, 100W, 20V, 5A, 4K, 60Hz/120Hz, 1080P, Negro, Carcaa de alumnio, Nylon tranado",
         "title": "Cabo USB-C Macho para USB-C Macho 3.2, 2M FTX CT-C160-PU31-CMCM2-AG2, 20Gbps, 100W, 20V, 5A, 4K, 60Hz/120Hz, 1080P, Negro, Carcaa de alumnio, Nylon tranado",
         "category": "Almacenamiento (SSD)",
@@ -31704,7 +31704,7 @@ const PRODUCTS =
     {
         "id": 9882,
         "ref": "354561",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "SSD 2.5  1TB FTX 550/470MB/S 2.5",
         "title": "SSD 2.5  1TB FTX 550/470MB/S 2.5",
         "category": "Almacenamiento (SSD)",
@@ -31724,7 +31724,7 @@ const PRODUCTS =
     {
         "id": 9883,
         "ref": "317997",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD Seagate 8TB BarraCuda SATA 3 5400RPM 3.5",
         "title": "HD Seagate 8TB BarraCuda SATA 3 5400RPM 3.5",
         "category": "Almacenamiento (SSD)",
@@ -31760,7 +31760,7 @@ const PRODUCTS =
     {
         "id": 9885,
         "ref": "270648",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD SATA3 8TB SEAGATE IRONWOLF PRO ST8000NT001",
         "title": "HD SATA3 8TB SEAGATE IRONWOLF PRO ST8000NT001",
         "category": "Almacenamiento (SSD)",
@@ -31778,7 +31778,7 @@ const PRODUCTS =
     {
         "id": 9886,
         "ref": "329945",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD Western Digital 250GB Western Green 2.5",
         "title": "SSD Western Digital 250GB Western Green 2.5",
         "category": "Almacenamiento (SSD)",
@@ -31816,7 +31816,7 @@ const PRODUCTS =
     {
         "id": 9888,
         "ref": "327102",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "Cabo USB-C Macho para USB-C Macho 3.2, 1M FTX CT-C160-PU31-CMCM2-AG1, 20Gbps, 100W, 20V, 5A, 4K, 60Hz/120Hz, 1080P, Negro, Carcaa de alumnio, Nylon tranado",
         "title": "Cabo USB-C Macho para USB-C Macho 3.2, 1M FTX CT-C160-PU31-CMCM2-AG1, 20Gbps, 100W, 20V, 5A, 4K, 60Hz/120Hz, 1080P, Negro, Carcaa de alumnio, Nylon tranado",
         "category": "Almacenamiento (SSD)",
@@ -31838,7 +31838,7 @@ const PRODUCTS =
     {
         "id": 9889,
         "ref": "361357",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD 1TB SEAGATE PIPELINE ST1000VM002 5900RPM PULL S/G",
         "title": "HD 1TB SEAGATE PIPELINE ST1000VM002 5900RPM PULL S/G",
         "category": "Almacenamiento (SSD)",
@@ -31856,7 +31856,7 @@ const PRODUCTS =
     {
         "id": 9890,
         "ref": "329192",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD Western Digital 500GB Western Green 2.5",
         "title": "SSD Western Digital 500GB Western Green 2.5",
         "category": "Almacenamiento (SSD)",
@@ -31876,7 +31876,7 @@ const PRODUCTS =
     {
         "id": 9891,
         "ref": "357318",
-        "brand": "CARTAO",
+        "brand": "GENERIC",
         "title_orig": "CARTAO MICROSD 128GB SANDISK ULTRA C10 SDSQUNR-128 SDSQUNR-128G-G GN3MA",
         "title": "CARTAO MICROSD 128GB SANDISK ULTRA C10 SDSQUNR-128 SDSQUNR-128G-G GN3MA",
         "category": "Almacenamiento (SSD)",
@@ -31894,7 +31894,7 @@ const PRODUCTS =
     {
         "id": 9892,
         "ref": "313332",
-        "brand": "CARTO",
+        "brand": "GENERIC",
         "title_orig": "Carto de Memria SanDisk Ultra, 128GB, SDXC, C10, 100MB/s, SDSDUNR-128G-GN3IN",
         "title": "Carto de Memria SanDisk Ultra, 128GB, SDXC, C10, 100MB/s, SDSDUNR-128G-GN3IN",
         "category": "Almacenamiento (SSD)",
@@ -31912,7 +31912,7 @@ const PRODUCTS =
     {
         "id": 9893,
         "ref": "257653",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 128GB SANDISK ULTRA DUAL DRIVE GO TYPE-C",
         "title": "PEN DRIVE 128GB SANDISK ULTRA DUAL DRIVE GO TYPE-C",
         "category": "Almacenamiento (SSD)",
@@ -31930,7 +31930,7 @@ const PRODUCTS =
     {
         "id": 9894,
         "ref": "316166",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD Western Digital 12TB WD Red Pro Nas SATA 3 7200RPM  3.5",
         "title": "HD Western Digital 12TB WD Red Pro Nas SATA 3 7200RPM  3.5",
         "category": "Almacenamiento (SSD)",
@@ -31948,7 +31948,7 @@ const PRODUCTS =
     {
         "id": 9895,
         "ref": "333244",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD EXT 26TB SEAGATE STKP26000400 3.5",
         "title": "HD EXT 26TB SEAGATE STKP26000400 3.5",
         "category": "Almacenamiento (SSD)",
@@ -31966,7 +31966,7 @@ const PRODUCTS =
     {
         "id": 9896,
         "ref": "329923",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD SSD 1TB SANDISK SSD PLUS SDSSDA-1T00-G28 2.5",
         "title": "HD SSD 1TB SANDISK SSD PLUS SDSSDA-1T00-G28 2.5",
         "category": "Almacenamiento (SSD)",
@@ -31986,7 +31986,7 @@ const PRODUCTS =
     {
         "id": 9897,
         "ref": "311161",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD Toshiba 8TB S300 Pro Surveillance SATA 3 7200RPM 3.5",
         "title": "HD Toshiba 8TB S300 Pro Surveillance SATA 3 7200RPM 3.5",
         "category": "Almacenamiento (SSD)",
@@ -32004,7 +32004,7 @@ const PRODUCTS =
     {
         "id": 9898,
         "ref": "321566",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 128GB SANDISK Z410 ULTRA SHIF 3.0 BLUE SDCZ410-128G-G4 6BB",
         "title": "PEN DRIVE 128GB SANDISK Z410 ULTRA SHIF 3.0 BLUE SDCZ410-128G-G4 6BB",
         "category": "Almacenamiento (SSD)",
@@ -32022,7 +32022,7 @@ const PRODUCTS =
     {
         "id": 9899,
         "ref": "280122",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD SATA3 10TB TOSHIBA N300 NAS HDWG71AXZSTA 3.5",
         "title": "HD SATA3 10TB TOSHIBA N300 NAS HDWG71AXZSTA 3.5",
         "category": "Almacenamiento (SSD)",
@@ -32040,7 +32040,7 @@ const PRODUCTS =
     {
         "id": 9900,
         "ref": "356888",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD EXT  2TB SEAGATE STGX2000400 3.0 2.5",
         "title": "HD EXT  2TB SEAGATE STGX2000400 3.0 2.5",
         "category": "Almacenamiento (SSD)",
@@ -32058,7 +32058,7 @@ const PRODUCTS =
     {
         "id": 9901,
         "ref": "321588",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 256GB SANDISK Z410 ULTRA SHIFT USB 3.0 SDCZ410-256G-G4 6BB/BLUE",
         "title": "PEN DRIVE 256GB SANDISK Z410 ULTRA SHIFT USB 3.0 SDCZ410-256G-G4 6BB/BLUE",
         "category": "Almacenamiento (SSD)",
@@ -32076,7 +32076,7 @@ const PRODUCTS =
     {
         "id": 9902,
         "ref": "191156",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD Seagate 16TB Exos X18 Enterprise SATA 3 7200RPM 3.5",
         "title": "HD Seagate 16TB Exos X18 Enterprise SATA 3 7200RPM 3.5",
         "category": "Almacenamiento (SSD)",
@@ -32094,7 +32094,7 @@ const PRODUCTS =
     {
         "id": 9903,
         "ref": "321577",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 128GB SANDISK Z410 ULTRA SHIF 3.0 YELLOW SDCZ410-128G-G4 6EP",
         "title": "PEN DRIVE 128GB SANDISK Z410 ULTRA SHIF 3.0 YELLOW SDCZ410-128G-G4 6EP",
         "category": "Almacenamiento (SSD)",
@@ -32112,7 +32112,7 @@ const PRODUCTS =
     {
         "id": 9904,
         "ref": "335640",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 256GB SANDISK Z430 ULTRA FIT USB 3.2",
         "title": "PEN DRIVE 256GB SANDISK Z430 ULTRA FIT USB 3.2",
         "category": "Almacenamiento (SSD)",
@@ -32130,7 +32130,7 @@ const PRODUCTS =
     {
         "id": 9905,
         "ref": "229024",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD SATA3 20TB SEAGATE IRONWOLF PRO ST20000NT001",
         "title": "HD SATA3 20TB SEAGATE IRONWOLF PRO ST20000NT001",
         "category": "Almacenamiento (SSD)",
@@ -32148,7 +32148,7 @@ const PRODUCTS =
     {
         "id": 9906,
         "ref": "225200",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD SATA3 8TB SEAGATE SKYHAWK ST8000VX010 3.5",
         "title": "HD SATA3 8TB SEAGATE SKYHAWK ST8000VX010 3.5",
         "category": "Almacenamiento (SSD)",
@@ -32166,7 +32166,7 @@ const PRODUCTS =
     {
         "id": 9907,
         "ref": "361122",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD M.2  1TB LEXAR NM610 PRO 2280 NVME LNM610P001T-RNN NG/3300MB/S",
         "title": "SSD M.2  1TB LEXAR NM610 PRO 2280 NVME LNM610P001T-RNN NG/3300MB/S",
         "category": "Almacenamiento (SSD)",
@@ -32188,7 +32188,7 @@ const PRODUCTS =
     {
         "id": 9908,
         "ref": "321601",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 256GB SANDISK Z410 ULTRA SHIFT USB 3.0 SDCZ410-256G-G4 6EP/YELLOW",
         "title": "PEN DRIVE 256GB SANDISK Z410 ULTRA SHIFT USB 3.0 SDCZ410-256G-G4 6EP/YELLOW",
         "category": "Almacenamiento (SSD)",
@@ -32206,7 +32206,7 @@ const PRODUCTS =
     {
         "id": 9909,
         "ref": "357755",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD  4TB WD PURPLE WD44PURZ SURV 5400RPM 3.5",
         "title": "HD  4TB WD PURPLE WD44PURZ SURV 5400RPM 3.5",
         "category": "Almacenamiento (SSD)",
@@ -32224,7 +32224,7 @@ const PRODUCTS =
     {
         "id": 9910,
         "ref": "338080",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD SanDisk 500GB G28 Plus 2.5",
         "title": "SSD SanDisk 500GB G28 Plus 2.5",
         "category": "Almacenamiento (SSD)",
@@ -32282,7 +32282,7 @@ const PRODUCTS =
     {
         "id": 9913,
         "ref": "318001",
-        "brand": "CARTAO",
+        "brand": "GENERIC",
         "title_orig": "CARTAO MICROSD 256GB SANDISK ULTRA 150MB/S C10 SDSQUAC-256G-GN 6MA",
         "title": "CARTAO MICROSD 256GB SANDISK ULTRA 150MB/S C10 SDSQUAC-256G-GN 6MA",
         "category": "Almacenamiento (SSD)",
@@ -32300,7 +32300,7 @@ const PRODUCTS =
     {
         "id": 9914,
         "ref": "143333",
-        "brand": "GAVETA",
+        "brand": "GENERIC",
         "title_orig": "GAVETA P/ HD 2.5 ARGOM ARG-AC-1033 USB3.0 Negro",
         "title": "GAVETA P/ HD 2.5 ARGOM ARG-AC-1033 USB3.0 Negro",
         "category": "Almacenamiento (SSD)",
@@ -32341,7 +32341,7 @@ const PRODUCTS =
     {
         "id": 9916,
         "ref": "329934",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD SSD 2TB SANDISK SSD PLUS SDSSDA-2T00-G28 2.5",
         "title": "HD SSD 2TB SANDISK SSD PLUS SDSSDA-2T00-G28 2.5",
         "category": "Almacenamiento (SSD)",
@@ -32379,7 +32379,7 @@ const PRODUCTS =
     {
         "id": 9918,
         "ref": "329216",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD Western Digital 2TB Western Green 2.5",
         "title": "SSD Western Digital 2TB Western Green 2.5",
         "category": "Almacenamiento (SSD)",
@@ -32419,7 +32419,7 @@ const PRODUCTS =
     {
         "id": 9920,
         "ref": "364180",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD EXT  1TB SANDISK SDSSDE30-1T00-G26 800 MB/S Negro",
         "title": "SSD EXT  1TB SANDISK SDSSDE30-1T00-G26 800 MB/S Negro",
         "category": "Almacenamiento (SSD)",
@@ -32496,7 +32496,7 @@ const PRODUCTS =
     {
         "id": 9924,
         "ref": "352740",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD 12TB WD RED PLUS WD120EFGX 7200RPM NAS 7200RPM",
         "title": "HD 12TB WD RED PLUS WD120EFGX 7200RPM NAS 7200RPM",
         "category": "Almacenamiento (SSD)",
@@ -32532,7 +32532,7 @@ const PRODUCTS =
     {
         "id": 9926,
         "ref": "342424",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD Seagate 16TB Iron Wolf Pro Nas SATA 3 7200RPM 3.5",
         "title": "HD Seagate 16TB Iron Wolf Pro Nas SATA 3 7200RPM 3.5",
         "category": "Almacenamiento (SSD)",
@@ -32550,7 +32550,7 @@ const PRODUCTS =
     {
         "id": 9927,
         "ref": "311194",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD SATA3 12TB TOSHIBA N300 PRO NAS HDWG51CXZSTB 7200RPM 3.5",
         "title": "HD SATA3 12TB TOSHIBA N300 PRO NAS HDWG51CXZSTB 7200RPM 3.5",
         "category": "Almacenamiento (SSD)",
@@ -32568,7 +32568,7 @@ const PRODUCTS =
     {
         "id": 9928,
         "ref": "367128",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 16GB SANDISK Z50 CRUZER BLADE ZDCZ50-016 SDCZ50-016G-B35",
         "title": "PEN DRIVE 16GB SANDISK Z50 CRUZER BLADE ZDCZ50-016 SDCZ50-016G-B35",
         "category": "Almacenamiento (SSD)",
@@ -32586,7 +32586,7 @@ const PRODUCTS =
     {
         "id": 9929,
         "ref": "354572",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "SSD 2.5  2TB FTX 550/470MB/S 2.5",
         "title": "SSD 2.5  2TB FTX 550/470MB/S 2.5",
         "category": "Almacenamiento (SSD)",
@@ -32606,7 +32606,7 @@ const PRODUCTS =
     {
         "id": 9930,
         "ref": "364518",
-        "brand": "CARTAO",
+        "brand": "GENERIC",
         "title_orig": "CARTAO MICROSD 128GB SANDISK CREATOR 190MBS/90MB/S SDSQXAA-128G-GN 6MS",
         "title": "CARTAO MICROSD 128GB SANDISK CREATOR 190MBS/90MB/S SDSQXAA-128G-GN 6MS",
         "category": "Almacenamiento (SSD)",
@@ -32662,7 +32662,7 @@ const PRODUCTS =
     {
         "id": 9933,
         "ref": "352739",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 64GB SANDISK Z50 CRUZER BLADE SDCZ50-064G-B35",
         "title": "PEN DRIVE 64GB SANDISK Z50 CRUZER BLADE SDCZ50-064G-B35",
         "category": "Almacenamiento (SSD)",
@@ -32680,7 +32680,7 @@ const PRODUCTS =
     {
         "id": 9934,
         "ref": "366687",
-        "brand": "CARTAO",
+        "brand": "GENERIC",
         "title_orig": "CARTAO MICROSD 64GB SANDISK EXTREME PRO U3 200MBS SDSQXCU-064G-GN 6MA 200MB/S",
         "title": "CARTAO MICROSD 64GB SANDISK EXTREME PRO U3 200MBS SDSQXCU-064G-GN 6MA 200MB/S",
         "category": "Almacenamiento (SSD)",
@@ -32698,7 +32698,7 @@ const PRODUCTS =
     {
         "id": 9935,
         "ref": "323893",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD SATA3 24TB SEAGATE SKYHAWK AI ST24000VE002 GB",
         "title": "HD SATA3 24TB SEAGATE SKYHAWK AI ST24000VE002 GB",
         "category": "Almacenamiento (SSD)",
@@ -32734,7 +32734,7 @@ const PRODUCTS =
     {
         "id": 9937,
         "ref": "370458",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 64GB LUO FLASH DRIVE MINI 2.0",
         "title": "PEN DRIVE 64GB LUO FLASH DRIVE MINI 2.0",
         "category": "Almacenamiento (SSD)",
@@ -32752,7 +32752,7 @@ const PRODUCTS =
     {
         "id": 9938,
         "ref": "361133",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 32GB SANDISK Z50 CRUZER BLADE ZDCZ50-032 SDCZ50-032G-B35",
         "title": "PEN DRIVE 32GB SANDISK Z50 CRUZER BLADE ZDCZ50-032 SDCZ50-032G-B35",
         "category": "Almacenamiento (SSD)",
@@ -32770,7 +32770,7 @@ const PRODUCTS =
     {
         "id": 9939,
         "ref": "366474",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 32GB SANDISK Z410 ULT.SHIFT USB3.2 BLACK SDCZ410-032G-G4 6",
         "title": "PEN DRIVE 32GB SANDISK Z410 ULT.SHIFT USB3.2 BLACK SDCZ410-032G-G4 6",
         "category": "Almacenamiento (SSD)",
@@ -32788,7 +32788,7 @@ const PRODUCTS =
     {
         "id": 9940,
         "ref": "376319",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD EXT 1TB SANDISK FIFA WORLD CUP 2026 800MB/S SDSSDE30F-1T00- G25",
         "title": "SSD EXT 1TB SANDISK FIFA WORLD CUP 2026 800MB/S SDSSDE30F-1T00- G25",
         "category": "Almacenamiento (SSD)",
@@ -32808,7 +32808,7 @@ const PRODUCTS =
     {
         "id": 9941,
         "ref": "382955",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD Mancer Reaper RF 480GB, 2.5",
         "title": "SSD Mancer Reaper RF 480GB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -32828,7 +32828,7 @@ const PRODUCTS =
     {
         "id": 9942,
         "ref": "373573",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD EXT 24TB SEAGATE EXPANSION STKP24000400 3.0 3.5 Negro",
         "title": "HD EXT 24TB SEAGATE EXPANSION STKP24000400 3.0 3.5 Negro",
         "category": "Almacenamiento (SSD)",
@@ -32848,7 +32848,7 @@ const PRODUCTS =
     {
         "id": 9943,
         "ref": "374888",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD  8TB SEAGATE SKYHAWK ST8000VE001 SURV 7200RPM",
         "title": "HD  8TB SEAGATE SKYHAWK ST8000VE001 SURV 7200RPM",
         "category": "Almacenamiento (SSD)",
@@ -32886,7 +32886,7 @@ const PRODUCTS =
     {
         "id": 9945,
         "ref": "359937",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD Externo Seagate Game Drive 2TB STKX2000400 2.5",
         "title": "HD Externo Seagate Game Drive 2TB STKX2000400 2.5",
         "category": "Almacenamiento (SSD)",
@@ -32904,7 +32904,7 @@ const PRODUCTS =
     {
         "id": 9946,
         "ref": "180514",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD EXT 4TB TOSHIBA CANVIO READY USB3.0  HDTP340XK3CA",
         "title": "HD EXT 4TB TOSHIBA CANVIO READY USB3.0  HDTP340XK3CA",
         "category": "Almacenamiento (SSD)",
@@ -32922,7 +32922,7 @@ const PRODUCTS =
     {
         "id": 9947,
         "ref": "352706",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD EXT  2TB SANDISK EXTREME SDSSDE61-2T00-G25B 1050 SKY BLUE Azul",
         "title": "SSD EXT  2TB SANDISK EXTREME SDSSDE61-2T00-G25B 1050 SKY BLUE Azul",
         "category": "Almacenamiento (SSD)",
@@ -32942,7 +32942,7 @@ const PRODUCTS =
     {
         "id": 9948,
         "ref": "375755",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD  4TB SEAGATE SKYHAWK ST4000VX016 SURV 5400RPM 3.5",
         "title": "HD  4TB SEAGATE SKYHAWK ST4000VX016 SURV 5400RPM 3.5",
         "category": "Almacenamiento (SSD)",
@@ -32960,7 +32960,7 @@ const PRODUCTS =
     {
         "id": 9949,
         "ref": "374260",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD 12TB SEAGATE IRONWOLF PRO ST12000NT001 NAS 7200 3.5",
         "title": "HD 12TB SEAGATE IRONWOLF PRO ST12000NT001 NAS 7200 3.5",
         "category": "Almacenamiento (SSD)",
@@ -32998,7 +32998,7 @@ const PRODUCTS =
     {
         "id": 9951,
         "ref": "371639",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD  8TB WD PURPLE WD85PURZ SURV 5640RPM 3.5",
         "title": "HD  8TB WD PURPLE WD85PURZ SURV 5640RPM 3.5",
         "category": "Almacenamiento (SSD)",
@@ -33016,7 +33016,7 @@ const PRODUCTS =
     {
         "id": 9952,
         "ref": "351031",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD EXT  1TB SANDISK EXTREME SDSSDE61-1T00-G25M Verde",
         "title": "SSD EXT  1TB SANDISK EXTREME SDSSDE61-1T00-G25M Verde",
         "category": "Almacenamiento (SSD)",
@@ -33036,7 +33036,7 @@ const PRODUCTS =
     {
         "id": 9953,
         "ref": "360615",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD EXT  1TB TOSHIBA CANVIO BASICS HDTB510XK3AA 3.2 2.5",
         "title": "HD EXT  1TB TOSHIBA CANVIO BASICS HDTB510XK3AA 3.2 2.5",
         "category": "Almacenamiento (SSD)",
@@ -33054,7 +33054,7 @@ const PRODUCTS =
     {
         "id": 9954,
         "ref": "366496",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 32GB SANDISK Z410 ULT.SHIFT USB3.2 YELLO SDCZ410-032G-G4 6EP",
         "title": "PEN DRIVE 32GB SANDISK Z410 ULT.SHIFT USB3.2 YELLO SDCZ410-032G-G4 6EP",
         "category": "Almacenamiento (SSD)",
@@ -33072,7 +33072,7 @@ const PRODUCTS =
     {
         "id": 9955,
         "ref": "366485",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 32GB SANDISK Z410 ULT.SHIFT USB3.2 BLUE SDCZ410-032G-G4 6BB",
         "title": "PEN DRIVE 32GB SANDISK Z410 ULT.SHIFT USB3.2 BLUE SDCZ410-032G-G4 6BB",
         "category": "Almacenamiento (SSD)",
@@ -33090,7 +33090,7 @@ const PRODUCTS =
     {
         "id": 9956,
         "ref": "373584",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD EXT  2TB WD ELEMENTS WDBU6Y0020BBK 3.0 2.5",
         "title": "HD EXT  2TB WD ELEMENTS WDBU6Y0020BBK 3.0 2.5",
         "category": "Almacenamiento (SSD)",
@@ -33108,7 +33108,7 @@ const PRODUCTS =
     {
         "id": 9957,
         "ref": "372539",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD 12TB WD PURPLE PRO WD122PURP SURV 7200RPM 3.5",
         "title": "HD 12TB WD PURPLE PRO WD122PURP SURV 7200RPM 3.5",
         "category": "Almacenamiento (SSD)",
@@ -33126,7 +33126,7 @@ const PRODUCTS =
     {
         "id": 9958,
         "ref": "382248",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD  1TB SEAGATE SKYHAWK ST1000VX013 SURV 5400RPM 5400RPM 3.5",
         "title": "HD  1TB SEAGATE SKYHAWK ST1000VX013 SURV 5400RPM 5400RPM 3.5",
         "category": "Almacenamiento (SSD)",
@@ -33144,7 +33144,7 @@ const PRODUCTS =
     {
         "id": 9959,
         "ref": "340602",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD SSD 2TB LEXAR NQ100 LNQ100X002T-RNNNG 550MB/S",
         "title": "HD SSD 2TB LEXAR NQ100 LNQ100X002T-RNNNG 550MB/S",
         "category": "Almacenamiento (SSD)",
@@ -33164,7 +33164,7 @@ const PRODUCTS =
     {
         "id": 9960,
         "ref": "383710",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 128GB SANDISK CREATOR PHONE DRIVE USB-C SDIXDON-128G-GN 6TP",
         "title": "PEN DRIVE 128GB SANDISK CREATOR PHONE DRIVE USB-C SDIXDON-128G-GN 6TP",
         "category": "Almacenamiento (SSD)",
@@ -33182,7 +33182,7 @@ const PRODUCTS =
     {
         "id": 9961,
         "ref": "377353",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD M.2  1TB WD BLACK SN7100 WDS100T4X0E-00CJA0 7250MB/S",
         "title": "SSD M.2  1TB WD BLACK SN7100 WDS100T4X0E-00CJA0 7250MB/S",
         "category": "Almacenamiento (SSD)",
@@ -33203,7 +33203,7 @@ const PRODUCTS =
     {
         "id": 9962,
         "ref": "377241",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD  6TB SEAGATE SKYHAWK ST6000VX009 SURV 5400RPM 3.5",
         "title": "HD  6TB SEAGATE SKYHAWK ST6000VX009 SURV 5400RPM 3.5",
         "category": "Almacenamiento (SSD)",
@@ -33221,7 +33221,7 @@ const PRODUCTS =
     {
         "id": 9963,
         "ref": "377342",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD 2.5  2TB SANDISK FORTNITE SDSSDE30-2T00-G25F 800MB/S",
         "title": "SSD 2.5  2TB SANDISK FORTNITE SDSSDE30-2T00-G25F 800MB/S",
         "category": "Almacenamiento (SSD)",
@@ -33241,7 +33241,7 @@ const PRODUCTS =
     {
         "id": 9964,
         "ref": "375788",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD EXT   128GB VERBATIM VX460 USB 3.1 460MB/S",
         "title": "SSD EXT   128GB VERBATIM VX460 USB 3.1 460MB/S",
         "category": "Almacenamiento (SSD)",
@@ -33261,7 +33261,7 @@ const PRODUCTS =
     {
         "id": 9965,
         "ref": "376431",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 64GB ZANDISK FIFA WORLD CUP 2026 USB-C SDCZIA-064G-G46",
         "title": "PEN DRIVE 64GB ZANDISK FIFA WORLD CUP 2026 USB-C SDCZIA-064G-G46",
         "category": "Almacenamiento (SSD)",
@@ -33317,7 +33317,7 @@ const PRODUCTS =
     {
         "id": 9968,
         "ref": "180490",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD EXT 1TB TOSHIBA CANVIO READY USB3.0  HDTP310XK3AA",
         "title": "HD EXT 1TB TOSHIBA CANVIO READY USB3.0  HDTP310XK3AA",
         "category": "Almacenamiento (SSD)",
@@ -33335,7 +33335,7 @@ const PRODUCTS =
     {
         "id": 9969,
         "ref": "376510",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 128GB SANDISK FIFA WORLD CUP 2026 USB-C SDCZIA-128G-G46",
         "title": "PEN DRIVE 128GB SANDISK FIFA WORLD CUP 2026 USB-C SDCZIA-128G-G46",
         "category": "Almacenamiento (SSD)",
@@ -33415,7 +33415,7 @@ const PRODUCTS =
     {
         "id": 9973,
         "ref": "382832",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD  2TB WD BLACK WD2003FZEX 7200RPM 3.5",
         "title": "HD  2TB WD BLACK WD2003FZEX 7200RPM 3.5",
         "category": "Almacenamiento (SSD)",
@@ -33433,7 +33433,7 @@ const PRODUCTS =
     {
         "id": 9974,
         "ref": "376521",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD EXT  2TB SANDISK SDSSDE30-2T00-G26 800 MB/S Negro",
         "title": "SSD EXT  2TB SANDISK SDSSDE30-2T00-G26 800 MB/S Negro",
         "category": "Almacenamiento (SSD)",
@@ -33516,7 +33516,7 @@ const PRODUCTS =
     {
         "id": 9978,
         "ref": "187789",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD 500GB SEAGATE ST3500418AS 7200RPM PULL S/G",
         "title": "HD 500GB SEAGATE ST3500418AS 7200RPM PULL S/G",
         "category": "Almacenamiento (SSD)",
@@ -33554,7 +33554,7 @@ const PRODUCTS =
     {
         "id": 9980,
         "ref": "377836",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD EXT  4TB WD ELEMENTS USB WDBU6Y0040BBK 3.0 2.5",
         "title": "HD EXT  4TB WD ELEMENTS USB WDBU6Y0040BBK 3.0 2.5",
         "category": "Almacenamiento (SSD)",
@@ -33590,7 +33590,7 @@ const PRODUCTS =
     {
         "id": 9982,
         "ref": "381842",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD M.2  1TB WD BLACK SN7100 WDS100T4X0E-00CJA0 7250MB/S",
         "title": "SSD M.2  1TB WD BLACK SN7100 WDS100T4X0E-00CJA0 7250MB/S",
         "category": "Almacenamiento (SSD)",
@@ -33611,7 +33611,7 @@ const PRODUCTS =
     {
         "id": 9983,
         "ref": "384665",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD EXT  8TB SEAGATE EXPANSION STKP8000400 3.0 3.5",
         "title": "HD EXT  8TB SEAGATE EXPANSION STKP8000400 3.0 3.5",
         "category": "Almacenamiento (SSD)",
@@ -33629,7 +33629,7 @@ const PRODUCTS =
     {
         "id": 9984,
         "ref": "378499",
-        "brand": "XPG",
+        "brand": "GENERIC",
         "title_orig": "SSD M.2  1TB NVME ADATA XPG GAMMIX S60 GEN4 X4 AGAMMIXS60-1T-C S",
         "title": "SSD M.2  1TB NVME ADATA XPG GAMMIX S60 GEN4 X4 AGAMMIXS60-1T-C S",
         "category": "Almacenamiento (SSD)",
@@ -33651,7 +33651,7 @@ const PRODUCTS =
     {
         "id": 9985,
         "ref": "363651",
-        "brand": "SSD",
+        "brand": "GENERIC",
         "title_orig": "SSD 2.5 2TB SANDISK SDSSDA-2T00-G26 545/450 MB/S G26 PLUS",
         "title": "SSD 2.5 2TB SANDISK SDSSDA-2T00-G26 545/450 MB/S G26 PLUS",
         "category": "Almacenamiento (SSD)",
@@ -33671,7 +33671,7 @@ const PRODUCTS =
     {
         "id": 9986,
         "ref": "389503",
-        "brand": "CARTAO",
+        "brand": "GENERIC",
         "title_orig": "CARTAO MICROSD 32GB SANDISK EXT.PRO SDSQCG-032G-GN SDSQXCG-032G-GN 6MA",
         "title": "CARTAO MICROSD 32GB SANDISK EXT.PRO SDSQCG-032G-GN SDSQXCG-032G-GN 6MA",
         "category": "Almacenamiento (SSD)",
@@ -33707,7 +33707,7 @@ const PRODUCTS =
     {
         "id": 9988,
         "ref": "197039",
-        "brand": "CARTAO",
+        "brand": "GENERIC",
         "title_orig": "CARTAO MICROSD 64GB SANDISK EXTREME U3 170MB/S SDSQXAH-064G-GN 6AA",
         "title": "CARTAO MICROSD 64GB SANDISK EXTREME U3 170MB/S SDSQXAH-064G-GN 6AA",
         "category": "Almacenamiento (SSD)",
@@ -33725,7 +33725,7 @@ const PRODUCTS =
     {
         "id": 9989,
         "ref": "175911",
-        "brand": "CARTAO",
+        "brand": "GENERIC",
         "title_orig": "CARTAO MICROSD 128GB SANDISK EXTREME 160MB/S 4K SDSQXA1-128G-GN 6MA U3 V30",
         "title": "CARTAO MICROSD 128GB SANDISK EXTREME 160MB/S 4K SDSQXA1-128G-GN 6MA U3 V30",
         "category": "Almacenamiento (SSD)",
@@ -33745,7 +33745,7 @@ const PRODUCTS =
     {
         "id": 9990,
         "ref": "396714",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 32GB SANDISK G46 PHONE DRIVE 2EN1 PURPLE SDDDC6-032G-G46 PO USB/USB-C",
         "title": "PEN DRIVE 32GB SANDISK G46 PHONE DRIVE 2EN1 PURPLE SDDDC6-032G-G46 PO USB/USB-C",
         "category": "Almacenamiento (SSD)",
@@ -33763,7 +33763,7 @@ const PRODUCTS =
     {
         "id": 9991,
         "ref": "393542",
-        "brand": "CARTAO",
+        "brand": "GENERIC",
         "title_orig": "CARTAO MICROSD 256GB SANDISK EXTREME PRO 140MB/S SDSQXCD-256G-GN 6MA",
         "title": "CARTAO MICROSD 256GB SANDISK EXTREME PRO 140MB/S SDSQXCD-256G-GN 6MA",
         "category": "Almacenamiento (SSD)",
@@ -33781,7 +33781,7 @@ const PRODUCTS =
     {
         "id": 9992,
         "ref": "390720",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 128GB SANDISK Z410 ULTRA SHIF 3.0 BLACK SDCZ410-128G-G4 6EP USB3.2",
         "title": "PEN DRIVE 128GB SANDISK Z410 ULTRA SHIF 3.0 BLACK SDCZ410-128G-G4 6EP USB3.2",
         "category": "Almacenamiento (SSD)",
@@ -33817,7 +33817,7 @@ const PRODUCTS =
     {
         "id": 9994,
         "ref": "396725",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 32GB SANDISK G46 PHONE DRIVE 2EN1 SALMON SDDDC6-032G-G46 NO USB/USB-C",
         "title": "PEN DRIVE 32GB SANDISK G46 PHONE DRIVE 2EN1 SALMON SDDDC6-032G-G46 NO USB/USB-C",
         "category": "Almacenamiento (SSD)",
@@ -33835,7 +33835,7 @@ const PRODUCTS =
     {
         "id": 9995,
         "ref": "395960",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 128GB SANDISK Z50 CRUZER BLADE SDCZ50-128G-B35",
         "title": "PEN DRIVE 128GB SANDISK Z50 CRUZER BLADE SDCZ50-128G-B35",
         "category": "Almacenamiento (SSD)",
@@ -33853,7 +33853,7 @@ const PRODUCTS =
     {
         "id": 9996,
         "ref": "396736",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 32GB SANDISK G46 PHONE DRIVE 2EN1 YELLOW SDDDC6-032G-G46 YD USB/USB-C",
         "title": "PEN DRIVE 32GB SANDISK G46 PHONE DRIVE 2EN1 YELLOW SDDDC6-032G-G46 YD USB/USB-C",
         "category": "Almacenamiento (SSD)",
@@ -33907,7 +33907,7 @@ const PRODUCTS =
     {
         "id": 9999,
         "ref": "343335",
-        "brand": "CARTAO",
+        "brand": "GENERIC",
         "title_orig": "CARTAO MICROSD 1TB SANDISK EXTREME 200MB/S U3 A2 SDSQXCD-1T00-GN 6MA",
         "title": "CARTAO MICROSD 1TB SANDISK EXTREME 200MB/S U3 A2 SDSQXCD-1T00-GN 6MA",
         "category": "Almacenamiento (SSD)",
@@ -34017,7 +34017,7 @@ const PRODUCTS =
     {
         "id": 10005,
         "ref": "396690",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 32GB SANDISK Z50 CRUZER BLADE PINK SDCZ50C-032G-B3 5PE",
         "title": "PEN DRIVE 32GB SANDISK Z50 CRUZER BLADE PINK SDCZ50C-032G-B3 5PE",
         "category": "Almacenamiento (SSD)",
@@ -34035,7 +34035,7 @@ const PRODUCTS =
     {
         "id": 10006,
         "ref": "396321",
-        "brand": "PEN",
+        "brand": "GENERIC",
         "title_orig": "PEN DRIVE 16GB SANDISK Z50 CRUZER BLADE PINK SDCZ50C-016G-B3 5PE UBS 2.0",
         "title": "PEN DRIVE 16GB SANDISK Z50 CRUZER BLADE PINK SDCZ50C-016G-B3 5PE UBS 2.0",
         "category": "Almacenamiento (SSD)",
@@ -34053,7 +34053,7 @@ const PRODUCTS =
     {
         "id": 10007,
         "ref": "400979",
-        "brand": "HD",
+        "brand": "GENERIC",
         "title_orig": "HD  8TB SEAGATE IRONWOLF ST8000VN004 NAS PULL S/G SEM GARANTIA",
         "title": "HD  8TB SEAGATE IRONWOLF ST8000VN004 NAS PULL S/G SEM GARANTIA",
         "category": "Almacenamiento (SSD)",
@@ -34128,7 +34128,7 @@ const PRODUCTS =
     {
         "id": 10012,
         "ref": "309831",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "Monitor Ftx M24VHDB 24",
         "title": "Monitor Ftx M24VHDB 24",
         "category": "Monitores",
@@ -34184,7 +34184,7 @@ const PRODUCTS =
     {
         "id": 10015,
         "ref": "314366",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "Monitor FTX M24VHDFML 24",
         "title": "Monitor FTX M24VHDFML 24",
         "category": "Monitores",
@@ -34408,7 +34408,7 @@ const PRODUCTS =
     {
         "id": 10027,
         "ref": "375485",
-        "brand": "MON",
+        "brand": "GENERIC",
         "title_orig": "MON 15.6 KOLKE KES-800 PORTATIL FHD/IPS USB-C/HDMI (2XHDMI)",
         "title": "MON 15.6 KOLKE KES-800 PORTATIL FHD/IPS USB-C/HDMI (2XHDMI)",
         "category": "Monitores",
@@ -34429,7 +34429,7 @@ const PRODUCTS =
     {
         "id": 10028,
         "ref": "329484",
-        "brand": "MONITOR",
+        "brand": "GENERIC",
         "title_orig": "Monitor Hye HYE23NLM 23.6",
         "title": "Monitor Hye HYE23NLM 23.6",
         "category": "Monitores",
@@ -34530,7 +34530,7 @@ const PRODUCTS =
     {
         "id": 10033,
         "ref": "362369",
-        "brand": "MON",
+        "brand": "GENERIC",
         "title_orig": "MON 27 TEROS TE-2714S FHD 1MS 14HZ/Negro",
         "title": "MON 27 TEROS TE-2714S FHD 1MS 14HZ/Negro",
         "category": "Monitores",
@@ -34801,7 +34801,7 @@ const PRODUCTS =
     {
         "id": 10047,
         "ref": "337821",
-        "brand": "SIMULADOR",
+        "brand": "GENERIC",
         "title_orig": "SIMULADOR PXN V99 VOLANTE + PEDAL*3+CAMBIO PC/PS4 PS4/X-ONE X-S",
         "title": "SIMULADOR PXN V99 VOLANTE + PEDAL*3+CAMBIO PC/PS4 PS4/X-ONE X-S",
         "category": "Consolas y Videojuegos",
@@ -34819,7 +34819,7 @@ const PRODUCTS =
     {
         "id": 10048,
         "ref": "320106",
-        "brand": "CONTROLE",
+        "brand": "GENERIC",
         "title_orig": "CONTROLE MARVO GT-90 PACT 70 WIRELESS PS4/IOS/ANDR",
         "title": "CONTROLE MARVO GT-90 PACT 70 WIRELESS PS4/IOS/ANDR",
         "category": "Consolas y Videojuegos",
@@ -34837,7 +34837,7 @@ const PRODUCTS =
     {
         "id": 10049,
         "ref": "323200",
-        "brand": "CONTROLE",
+        "brand": "GENERIC",
         "title_orig": "CONTROLE GAMESIR CYCLONE 2 C/BASE Blanco PC/SWITCH",
         "title": "CONTROLE GAMESIR CYCLONE 2 C/BASE Blanco PC/SWITCH",
         "category": "Consolas y Videojuegos",
@@ -34857,7 +34857,7 @@ const PRODUCTS =
     {
         "id": 10050,
         "ref": "319710",
-        "brand": "CONTROLE",
+        "brand": "GENERIC",
         "title_orig": "CONTROLE GAMESIR CYCLONE 2 MULTIPLATAFORMA BLACK C/ BASE",
         "title": "CONTROLE GAMESIR CYCLONE 2 MULTIPLATAFORMA BLACK C/ BASE",
         "category": "Consolas y Videojuegos",
@@ -34893,7 +34893,7 @@ const PRODUCTS =
     {
         "id": 10053,
         "ref": "233276",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "SUPORTE P/ TV SATE A-RM43A 14/43",
         "title": "SUPORTE P/ TV SATE A-RM43A 14/43",
         "category": "Televisores",
@@ -34967,7 +34967,7 @@ const PRODUCTS =
     {
         "id": 10057,
         "ref": "221049",
-        "brand": "ANTENA",
+        "brand": "GENERIC",
         "title_orig": "ANTENA UBIQUITI NANOSTATION AC NS-5ACL LOCO AIRMAX 10KM 13D S/FONTE",
         "title": "ANTENA UBIQUITI NANOSTATION AC NS-5ACL LOCO AIRMAX 10KM 13D S/Fuente",
         "category": "Televisores",
@@ -35026,7 +35026,7 @@ const PRODUCTS =
     {
         "id": 10060,
         "ref": "252143",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "SUPORTE P/ TV SATE A-2660A 26/60 *G",
         "title": "SUPORTE P/ TV SATE A-2660A 26/60 *G",
         "category": "Televisores",
@@ -35044,7 +35044,7 @@ const PRODUCTS =
     {
         "id": 10061,
         "ref": "78048",
-        "brand": "SUPORTE",
+        "brand": "GENERIC",
         "title_orig": "SUPORTE P/ TV KLIP KPM-885 26/55 50KG INCLI",
         "title": "SUPORTE P/ TV KLIP KPM-885 26/55 50KG INCLI",
         "category": "Televisores",
@@ -35140,7 +35140,7 @@ const PRODUCTS =
     {
         "id": 10066,
         "ref": "300238",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "TV 32 FTX FTX32HDV1 SMART/HDMI/USB/AND 14",
         "title": "TV 32 FTX FTX32HDV1 SMART/HDMI/USB/AND 14",
         "category": "Televisores",
@@ -35158,7 +35158,7 @@ const PRODUCTS =
     {
         "id": 10067,
         "ref": "379467",
-        "brand": "SMART",
+        "brand": "GENERIC",
         "title_orig": "Smart TV 43",
         "title": "Smart TV 43",
         "category": "Televisores",
@@ -35176,7 +35176,7 @@ const PRODUCTS =
     {
         "id": 10068,
         "ref": "379456",
-        "brand": "SMART",
+        "brand": "GENERIC",
         "title_orig": "Smart TV 32",
         "title": "Smart TV 32",
         "category": "Televisores",
@@ -35194,7 +35194,7 @@ const PRODUCTS =
     {
         "id": 10069,
         "ref": "300250",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "TV 50 FTX FTX50UHD4V1 4K SMART/HDMI/USB/AND 13",
         "title": "TV 50 FTX FTX50UHD4V1 4K SMART/HDMI/USB/AND 13",
         "category": "Televisores",
@@ -35214,7 +35214,7 @@ const PRODUCTS =
     {
         "id": 10070,
         "ref": "35478",
-        "brand": "SATELLITE",
+        "brand": "GENERIC",
         "title_orig": "SUPORTE P/ TV SATE A-RM14371 14/37P GIRATORORIO",
         "title": "SUPORTE P/ TV SATE A-RM14371 14/37P GIRATORORIO",
         "category": "Televisores",
@@ -35272,7 +35272,7 @@ const PRODUCTS =
     {
         "id": 10073,
         "ref": "291304",
-        "brand": "TV",
+        "brand": "GENERIC",
         "title_orig": "TV 40 MAGNAVOX 40MEZ443/M1 SMART/ANDROID/FHD",
         "title": "TV 40 MAGNAVOX 40MEZ443/M1 SMART/ANDROID/FHD",
         "category": "Televisores",
@@ -35368,7 +35368,7 @@ const PRODUCTS =
     {
         "id": 10078,
         "ref": "310250",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "SUPORTE P/ TV FTX FTX68-221 23",
         "title": "SUPORTE P/ TV FTX FTX68-221 23",
         "category": "Televisores",
@@ -35404,7 +35404,7 @@ const PRODUCTS =
     {
         "id": 10080,
         "ref": "309550",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "SUPORTE P/ TV FTX FTX78-443 32",
         "title": "SUPORTE P/ TV FTX FTX78-443 32",
         "category": "Televisores",
@@ -35422,7 +35422,7 @@ const PRODUCTS =
     {
         "id": 10081,
         "ref": "338732",
-        "brand": "TV",
+        "brand": "GENERIC",
         "title_orig": "TV 40 COMPAQ LED SMART HD/WIFI/DOLBY/HDMI/HDREADY COMPAQ",
         "title": "TV 40 COMPAQ LED SMART HD/WIFI/DOLBY/HDMI/HDREADY COMPAQ",
         "category": "Televisores",
@@ -35440,7 +35440,7 @@ const PRODUCTS =
     {
         "id": 10082,
         "ref": "270569",
-        "brand": "TELA",
+        "brand": "GENERIC",
         "title_orig": "TELA PARA PROJETOR QUANTA QTTLE100 220V PAREDE/TETO",
         "title": "TELA PARA PROJETOR QUANTA QTTLE100 220V PAREDE/TETO",
         "category": "Televisores",
@@ -35519,7 +35519,7 @@ const PRODUCTS =
     {
         "id": 10086,
         "ref": "383912",
-        "brand": "TV",
+        "brand": "GENERIC",
         "title_orig": "TV 50 TOSHIBA 50C450NS UHD/QLED/4K/SMART/GOOGLE TV",
         "title": "TV 50 TOSHIBA 50C450NS UHD/QLED/4K/SMART/GOOGLE TV",
         "category": "Televisores",
@@ -35580,7 +35580,7 @@ const PRODUCTS =
     {
         "id": 10089,
         "ref": "357193",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "TV 40 FTX FTX40FHD4V1 FHD/DIGITAL/2USB/AND14",
         "title": "TV 40 FTX FTX40FHD4V1 FHD/DIGITAL/2USB/AND14",
         "category": "Televisores",
@@ -35640,7 +35640,7 @@ const PRODUCTS =
     {
         "id": 10092,
         "ref": "315793",
-        "brand": "TV",
+        "brand": "GENERIC",
         "title_orig": "TV 50 MAGNAVOX 50MEZ573/M1 SMART 4K/HDMI/USB/AND12",
         "title": "TV 50 MAGNAVOX 50MEZ573/M1 SMART 4K/HDMI/USB/AND12",
         "category": "Televisores",
@@ -35660,7 +35660,7 @@ const PRODUCTS =
     {
         "id": 10093,
         "ref": "356003",
-        "brand": "TV",
+        "brand": "GENERIC",
         "title_orig": "TV 32 HYE HYE32ATHQ QLED SMART",
         "title": "TV 32 HYE HYE32ATHQ QLED SMART",
         "category": "Televisores",
@@ -35699,7 +35699,7 @@ const PRODUCTS =
     {
         "id": 10095,
         "ref": "353795",
-        "brand": "TV",
+        "brand": "GENERIC",
         "title_orig": "TV 32 COBY CY3359-32ISDBT HD/USB/HDMI/ANDROID14 2 CONTROLES",
         "title": "TV 32 COBY CY3359-32ISDBT HD/USB/HDMI/ANDROID14 2 CONTROLES",
         "category": "Televisores",
@@ -35717,7 +35717,7 @@ const PRODUCTS =
     {
         "id": 10096,
         "ref": "331152",
-        "brand": "TV",
+        "brand": "GENERIC",
         "title_orig": "TV 40 COBY CY3359-40SMS ANDRO14/FHD/USB/HDMI/WIFI/",
         "title": "TV 40 COBY CY3359-40SMS ANDRO14/FHD/USB/HDMI/WIFI/",
         "category": "Televisores",
@@ -35757,7 +35757,7 @@ const PRODUCTS =
     {
         "id": 10098,
         "ref": "345662",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "TV 43 FTX FTX43FHD4V1 FHD/DIGI/SMART/AND.14",
         "title": "TV 43 FTX FTX43FHD4V1 FHD/DIGI/SMART/AND.14",
         "category": "Televisores",
@@ -35777,7 +35777,7 @@ const PRODUCTS =
     {
         "id": 10099,
         "ref": "350276",
-        "brand": "TV",
+        "brand": "GENERIC",
         "title_orig": "TV 32 RCA RT-32A02 SMART USB/WIFI/ANDROID 14",
         "title": "TV 32 RCA RT-32A02 SMART USB/WIFI/ANDROID 14",
         "category": "Televisores",
@@ -36098,7 +36098,7 @@ const PRODUCTS =
     {
         "id": 10115,
         "ref": "383899",
-        "brand": "TV",
+        "brand": "GENERIC",
         "title_orig": "TV 32 TOSHIBA 32V35MS SMART VIDAA/HD/LED/USB Negro",
         "title": "TV 32 TOSHIBA 32V35MS SMART VIDAA/HD/LED/USB Negro",
         "category": "Televisores",
@@ -36198,7 +36198,7 @@ const PRODUCTS =
     {
         "id": 10120,
         "ref": "383901",
-        "brand": "TV",
+        "brand": "GENERIC",
         "title_orig": "TV 43 TOSHIBA 43V35MS SMART VIDAA/FHD/WIFI Negro",
         "title": "TV 43 TOSHIBA 43V35MS SMART VIDAA/FHD/WIFI Negro",
         "category": "Televisores",
@@ -36219,7 +36219,7 @@ const PRODUCTS =
     {
         "id": 10121,
         "ref": "381572",
-        "brand": "TV",
+        "brand": "GENERIC",
         "title_orig": "TV 50 HYE HYE50ATHQ SMART/QLED/4K/ANDROID Negro",
         "title": "TV 50 HYE HYE50ATHQ SMART/QLED/4K/ANDROID Negro",
         "category": "Televisores",
@@ -36302,7 +36302,7 @@ const PRODUCTS =
     {
         "id": 10125,
         "ref": "383990",
-        "brand": "TV",
+        "brand": "GENERIC",
         "title_orig": "TV 65 TOSHIBA 65C350LS UHD/4K/WIFI Negro",
         "title": "TV 65 TOSHIBA 65C350LS UHD/4K/WIFI Negro",
         "category": "Televisores",
@@ -36344,7 +36344,7 @@ const PRODUCTS =
     {
         "id": 10127,
         "ref": "389749",
-        "brand": "TV",
+        "brand": "GENERIC",
         "title_orig": "TV 55 MOTOROLA MOT55ULE11 SMART/4K/ULTRA HD/WIFI",
         "title": "TV 55 MOTOROLA MOT55ULE11 SMART/4K/ULTRA HD/WIFI",
         "category": "Televisores",
@@ -36628,7 +36628,7 @@ const PRODUCTS =
     {
         "id": 10141,
         "ref": "398839",
-        "brand": "TV",
+        "brand": "GENERIC",
         "title_orig": "TV 32 LUO LU-510 SMART/ISDB-T/ANDROID-14 *G",
         "title": "TV 32 LUO LU-510 SMART/ISDB-T/ANDROID-14 *G",
         "category": "Televisores",
@@ -36664,7 +36664,7 @@ const PRODUCTS =
     {
         "id": 10143,
         "ref": "260254",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO HAYLOU SOLAR PRO LS18 BROWN",
         "title": "RELOGIO HAYLOU SOLAR PRO LS18 BROWN",
         "category": "Relojes Mi Band",
@@ -36700,7 +36700,7 @@ const PRODUCTS =
     {
         "id": 10145,
         "ref": "260265",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO HAYLOU SOLAR PRO LS18 SILVER",
         "title": "RELOGIO HAYLOU SOLAR PRO LS18 SILVER",
         "category": "Relojes Mi Band",
@@ -36718,7 +36718,7 @@ const PRODUCTS =
     {
         "id": 10146,
         "ref": "260232",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO HAYLOU RS5 LS19 Plata+PULSEIRALS19",
         "title": "RELOGIO HAYLOU RS5 LS19 Plata+PULSEIRALS19",
         "category": "Relojes Mi Band",
@@ -36738,7 +36738,7 @@ const PRODUCTS =
     {
         "id": 10147,
         "ref": "294597",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH FTX FTXAM12-RGW ROSE GOLD/GRAY 111788",
         "title": "RELOGIO SMART WATCH FTX FTXAM12-RGW ROSE GOLD/GRAY 111788",
         "category": "Relojes Mi Band",
@@ -36756,7 +36756,7 @@ const PRODUCTS =
     {
         "id": 10148,
         "ref": "294575",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH FTX FTXAM12-RGP ROSE/GOLD 111771",
         "title": "RELOGIO SMART WATCH FTX FTXAM12-RGP ROSE/GOLD 111771",
         "category": "Relojes Mi Band",
@@ -36792,7 +36792,7 @@ const PRODUCTS =
     {
         "id": 10150,
         "ref": "294586",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH FTX FTXAM12-RGRGS GOLD/METAL 111795",
         "title": "RELOGIO SMART WATCH FTX FTXAM12-RGRGS GOLD/METAL 111795",
         "category": "Relojes Mi Band",
@@ -36810,7 +36810,7 @@ const PRODUCTS =
     {
         "id": 10151,
         "ref": "294510",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH FTX FTXA10P-RGPK GOLD/ROSA 111864",
         "title": "RELOGIO SMART WATCH FTX FTXA10P-RGPK GOLD/ROSA 111864",
         "category": "Relojes Mi Band",
@@ -36828,7 +36828,7 @@ const PRODUCTS =
     {
         "id": 10152,
         "ref": "295363",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO HAYLOU LS21 SOLAR NEO SILVER + KIT22MM BEI KIT22MM BEIGE",
         "title": "RELOGIO HAYLOU LS21 SOLAR NEO SILVER + KIT22MM BEI KIT22MM BEIGE",
         "category": "Relojes Mi Band",
@@ -36846,7 +36846,7 @@ const PRODUCTS =
     {
         "id": 10153,
         "ref": "294520",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH FTX FTXA10P-SVLB Plata/Azul 111856",
         "title": "RELOGIO SMART WATCH FTX FTXA10P-SVLB Plata/Azul 111856",
         "category": "Relojes Mi Band",
@@ -36866,7 +36866,7 @@ const PRODUCTS =
     {
         "id": 10154,
         "ref": "291897",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART TEC W8 SILVER/WHITE",
         "title": "RELOGIO SMART TEC W8 SILVER/WHITE",
         "category": "Relojes Mi Band",
@@ -36884,7 +36884,7 @@ const PRODUCTS =
     {
         "id": 10155,
         "ref": "339509",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART TEC W8 BLUE",
         "title": "RELOGIO SMART TEC W8 BLUE",
         "category": "Relojes Mi Band",
@@ -36920,7 +36920,7 @@ const PRODUCTS =
     {
         "id": 10157,
         "ref": "342244",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART TEC W8 PINK",
         "title": "RELOGIO SMART TEC W8 PINK",
         "category": "Relojes Mi Band",
@@ -36938,7 +36938,7 @@ const PRODUCTS =
     {
         "id": 10158,
         "ref": "328090",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO GARMIN VENU 3S GRAY 010-02785-00",
         "title": "RELOGIO GARMIN VENU 3S GRAY 010-02785-00",
         "category": "Relojes Mi Band",
@@ -36956,7 +36956,7 @@ const PRODUCTS =
     {
         "id": 10159,
         "ref": "367903",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH FTX FTXK10-BL+BOLSA CONS IGLOO RELOGIO BLUE 123194",
         "title": "RELOGIO SMART WATCH FTX FTXK10-BL+BOLSA CONS IGLOO RELOGIO BLUE 123194",
         "category": "Relojes Mi Band",
@@ -36974,7 +36974,7 @@ const PRODUCTS =
     {
         "id": 10160,
         "ref": "368039",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO HAYLOU SOLAR ULTRA HF009 SILVER",
         "title": "RELOGIO HAYLOU SOLAR ULTRA HF009 SILVER",
         "category": "Relojes Mi Band",
@@ -36992,7 +36992,7 @@ const PRODUCTS =
     {
         "id": 10161,
         "ref": "373204",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH G-TIDE R9 EDGE SILVER",
         "title": "RELOGIO SMART WATCH G-TIDE R9 EDGE SILVER",
         "category": "Relojes Mi Band",
@@ -37010,7 +37010,7 @@ const PRODUCTS =
     {
         "id": 10162,
         "ref": "341399",
-        "brand": "FTX",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH FTX FTXA9C-RR 46MM RED 120018",
         "title": "RELOGIO SMART WATCH FTX FTXA9C-RR 46MM RED 120018",
         "category": "Relojes Mi Band",
@@ -37066,7 +37066,7 @@ const PRODUCTS =
     {
         "id": 10165,
         "ref": "339990",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO GARMIN FORERUNNER 55 BLACK - ENGLISH ONLY 010-02562-50",
         "title": "RELOGIO GARMIN FORERUNNER 55 BLACK - ENGLISH ONLY 010-02562-50",
         "category": "Relojes Mi Band",
@@ -37102,7 +37102,7 @@ const PRODUCTS =
     {
         "id": 10167,
         "ref": "372886",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH G-TIDE S6 PRO + PERF AMBOS SILVER",
         "title": "RELOGIO SMART WATCH G-TIDE S6 PRO + PERF AMBOS SILVER",
         "category": "Relojes Mi Band",
@@ -37120,7 +37120,7 @@ const PRODUCTS =
     {
         "id": 10168,
         "ref": "370985",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH BLACKVIEW R50 BLUE",
         "title": "RELOGIO SMART WATCH BLACKVIEW R50 BLUE",
         "category": "Relojes Mi Band",
@@ -37138,7 +37138,7 @@ const PRODUCTS =
     {
         "id": 10169,
         "ref": "348586",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART HAYLOU NEO HF014 BLACK",
         "title": "RELOGIO SMART HAYLOU NEO HF014 BLACK",
         "category": "Relojes Mi Band",
@@ -37156,7 +37156,7 @@ const PRODUCTS =
     {
         "id": 10170,
         "ref": "373103",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH G-TIDE R6 PRO GREY + 2 PULSEIRA",
         "title": "RELOGIO SMART WATCH G-TIDE R6 PRO GREY + 2 PULSEIRA",
         "category": "Relojes Mi Band",
@@ -37174,7 +37174,7 @@ const PRODUCTS =
     {
         "id": 10171,
         "ref": "357924",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART HAYLOU WATCH 4 HF011 SILVER",
         "title": "RELOGIO SMART HAYLOU WATCH 4 HF011 SILVER",
         "category": "Relojes Mi Band",
@@ -37192,7 +37192,7 @@ const PRODUCTS =
     {
         "id": 10172,
         "ref": "370974",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH BLACKVIEW R50 BLACK",
         "title": "RELOGIO SMART WATCH BLACKVIEW R50 BLACK",
         "category": "Relojes Mi Band",
@@ -37210,7 +37210,7 @@ const PRODUCTS =
     {
         "id": 10173,
         "ref": "370963",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH BLACKVIEW R30 MAX GREY",
         "title": "RELOGIO SMART WATCH BLACKVIEW R30 MAX GREY",
         "category": "Relojes Mi Band",
@@ -37228,7 +37228,7 @@ const PRODUCTS =
     {
         "id": 10174,
         "ref": "370941",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH BLACKVIEW R30 MAX BLACK",
         "title": "RELOGIO SMART WATCH BLACKVIEW R30 MAX BLACK",
         "category": "Relojes Mi Band",
@@ -37264,7 +37264,7 @@ const PRODUCTS =
     {
         "id": 10176,
         "ref": "362279",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART HAYLOU WATCH 4 HF011 BLACK",
         "title": "RELOGIO SMART HAYLOU WATCH 4 HF011 BLACK",
         "category": "Relojes Mi Band",
@@ -37282,7 +37282,7 @@ const PRODUCTS =
     {
         "id": 10177,
         "ref": "381337",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH G-TIDE S6 PRO + PERF AMBOS BLACK",
         "title": "RELOGIO SMART WATCH G-TIDE S6 PRO + PERF AMBOS BLACK",
         "category": "Relojes Mi Band",
@@ -37300,7 +37300,7 @@ const PRODUCTS =
     {
         "id": 10178,
         "ref": "371044",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH BLACKVIEW W70 PRO KHAKI",
         "title": "RELOGIO SMART WATCH BLACKVIEW W70 PRO KHAKI",
         "category": "Relojes Mi Band",
@@ -37318,7 +37318,7 @@ const PRODUCTS =
     {
         "id": 10179,
         "ref": "381360",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH G-TIDE R5 LITE PURPLE",
         "title": "RELOGIO SMART WATCH G-TIDE R5 LITE PURPLE",
         "category": "Relojes Mi Band",
@@ -37336,7 +37336,7 @@ const PRODUCTS =
     {
         "id": 10180,
         "ref": "370996",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH BLACKVIEW R50 GREY",
         "title": "RELOGIO SMART WATCH BLACKVIEW R50 GREY",
         "category": "Relojes Mi Band",
@@ -37354,7 +37354,7 @@ const PRODUCTS =
     {
         "id": 10181,
         "ref": "374430",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH G-TIDE Q1 BLACK",
         "title": "RELOGIO SMART WATCH G-TIDE Q1 BLACK",
         "category": "Relojes Mi Band",
@@ -37372,7 +37372,7 @@ const PRODUCTS =
     {
         "id": 10182,
         "ref": "381392",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH G-TIDE R9 EDGE GRAY",
         "title": "RELOGIO SMART WATCH G-TIDE R9 EDGE GRAY",
         "category": "Relojes Mi Band",
@@ -37390,7 +37390,7 @@ const PRODUCTS =
     {
         "id": 10183,
         "ref": "374451",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH G-TIDE S5 PRO BLACK",
         "title": "RELOGIO SMART WATCH G-TIDE S5 PRO BLACK",
         "category": "Relojes Mi Band",
@@ -37408,7 +37408,7 @@ const PRODUCTS =
     {
         "id": 10184,
         "ref": "381381",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH G-TIDE R8 PRO SILVER + 2 PULSEIRAS",
         "title": "RELOGIO SMART WATCH G-TIDE R8 PRO SILVER + 2 PULSEIRAS",
         "category": "Relojes Mi Band",
@@ -37426,7 +37426,7 @@ const PRODUCTS =
     {
         "id": 10185,
         "ref": "384755",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH G-TIDE R5 LITE BLUE",
         "title": "RELOGIO SMART WATCH G-TIDE R5 LITE BLUE",
         "category": "Relojes Mi Band",
@@ -37444,7 +37444,7 @@ const PRODUCTS =
     {
         "id": 10186,
         "ref": "377915",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH G-TIDE Q1 PINK",
         "title": "RELOGIO SMART WATCH G-TIDE Q1 PINK",
         "category": "Relojes Mi Band",
@@ -37462,7 +37462,7 @@ const PRODUCTS =
     {
         "id": 10187,
         "ref": "381359",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH G-TIDE S6 PRO + PERF AMBOS SILVER",
         "title": "RELOGIO SMART WATCH G-TIDE S6 PRO + PERF AMBOS SILVER",
         "category": "Relojes Mi Band",
@@ -37480,7 +37480,7 @@ const PRODUCTS =
     {
         "id": 10188,
         "ref": "381348",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH G-TIDE S6 PRO + PERF AMBOS GOLD",
         "title": "RELOGIO SMART WATCH G-TIDE S6 PRO + PERF AMBOS GOLD",
         "category": "Relojes Mi Band",
@@ -37498,7 +37498,7 @@ const PRODUCTS =
     {
         "id": 10189,
         "ref": "384744",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH G-TIDE Q1 PURPLE",
         "title": "RELOGIO SMART WATCH G-TIDE Q1 PURPLE",
         "category": "Relojes Mi Band",
@@ -37534,7 +37534,7 @@ const PRODUCTS =
     {
         "id": 10191,
         "ref": "389782",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH G-TIDE ROMANCE + PERF ZOHOOR BLACK",
         "title": "RELOGIO SMART WATCH G-TIDE ROMANCE + PERF ZOHOOR BLACK",
         "category": "Relojes Mi Band",
@@ -37570,7 +37570,7 @@ const PRODUCTS =
     {
         "id": 10193,
         "ref": "389222",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART HAYLOU WATCH 2 PRO BLACK",
         "title": "RELOGIO SMART HAYLOU WATCH 2 PRO BLACK",
         "category": "Relojes Mi Band",
@@ -37696,7 +37696,7 @@ const PRODUCTS =
     {
         "id": 10200,
         "ref": "387950",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO HAYLOU SOLAR ULTRA HF HF009 Negro",
         "title": "RELOGIO HAYLOU SOLAR ULTRA HF HF009 Negro",
         "category": "Relojes Mi Band",
@@ -37860,7 +37860,7 @@ const PRODUCTS =
     {
         "id": 10209,
         "ref": "389009",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH BLACKVIEW W70 PRO GREEN",
         "title": "RELOGIO SMART WATCH BLACKVIEW W70 PRO GREEN",
         "category": "Relojes Mi Band",
@@ -37896,7 +37896,7 @@ const PRODUCTS =
     {
         "id": 10211,
         "ref": "389323",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART HAYLOU SOLAR 5 HF004 LS20 BLACK + PULSEIRA",
         "title": "RELOGIO SMART HAYLOU SOLAR 5 HF004 LS20 BLACK + PULSEIRA",
         "category": "Relojes Mi Band",
@@ -37914,7 +37914,7 @@ const PRODUCTS =
     {
         "id": 10212,
         "ref": "389211",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART HAYLOU SOLAR PRO LS18 GREEN",
         "title": "RELOGIO SMART HAYLOU SOLAR PRO LS18 GREEN",
         "category": "Relojes Mi Band",
@@ -37950,7 +37950,7 @@ const PRODUCTS =
     {
         "id": 10214,
         "ref": "392787",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO XIAMOI AMAZFIT ACTIVE MAX BLACK A2557",
         "title": "RELOGIO XIAMOI AMAZFIT ACTIVE MAX BLACK A2557",
         "category": "Relojes Mi Band",
@@ -37968,7 +37968,7 @@ const PRODUCTS =
     {
         "id": 10215,
         "ref": "389480",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART WATCH BLACKVIEW Z10 KID SAFE PINK P/ CRIAN?AS",
         "title": "RELOGIO SMART WATCH BLACKVIEW Z10 KID SAFE PINK P/ CRIAN?AS",
         "category": "Relojes Mi Band",
@@ -38004,7 +38004,7 @@ const PRODUCTS =
     {
         "id": 10217,
         "ref": "389367",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO SMART HAYLOU WATCH 3 HCS02 BT Negro",
         "title": "RELOGIO SMART HAYLOU WATCH 3 HCS02 BT Negro",
         "category": "Relojes Mi Band",
@@ -38042,7 +38042,7 @@ const PRODUCTS =
     {
         "id": 10219,
         "ref": "393564",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO HAYLOU WATCH S6 HF010 Negro HF010",
         "title": "RELOGIO HAYLOU WATCH S6 HF010 Negro HF010",
         "category": "Relojes Mi Band",
@@ -38098,7 +38098,7 @@ const PRODUCTS =
     {
         "id": 10222,
         "ref": "333503",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO AMAZFIT BALANCE 2 A2430 Negro",
         "title": "RELOGIO AMAZFIT BALANCE 2 A2430 Negro",
         "category": "Relojes Mi Band",
@@ -38118,7 +38118,7 @@ const PRODUCTS =
     {
         "id": 10223,
         "ref": "392776",
-        "brand": "RELOGIO",
+        "brand": "GENERIC",
         "title_orig": "RELOGIO XIAMOI AMAZFIT ACTIVE 3 PREMIUN SILVER A2559",
         "title": "RELOGIO XIAMOI AMAZFIT ACTIVE 3 PREMIUN SILVER A2559",
         "category": "Relojes Mi Band",
@@ -46212,7 +46212,7 @@ const PRODUCTS =
     {
         "id": 10653,
         "ref": "164189",
-        "brand": "APPLE",
+        "brand": "GENERIC",
         "title_orig": "IMPRESSORA EPSON SURECOLOR SC F170 SUBLIMACAO WIFI BIVOLT BRANCO",
         "title": "IMPRESSORA EPSON SURECOLOR SC F170 SUBLIMACAO WIFI BIVOLT Blanco",
         "category": "Periféricos",
@@ -82032,7 +82032,7 @@ const PRODUCTS =
     {
         "id": 12555,
         "ref": "354203",
-        "brand": "APPLE",
+        "brand": "GENERIC",
         "title_orig": "BOLSA PROTETORA WIWU SKIN PRO III PARA MACBOOK PRO 16 AZUL",
         "title": "BOLSA PROTETORA WIWU SKIN PRO III PARA MACBOOK PRO 16 Azul",
         "category": "Notebooks",
@@ -82052,7 +82052,7 @@ const PRODUCTS =
     {
         "id": 12556,
         "ref": "354214",
-        "brand": "APPLE",
+        "brand": "GENERIC",
         "title_orig": "BOLSA PROTETORA WIWU SKIN PRO II PARA MACBOOK PRO 14 2 CINZA",
         "title": "BOLSA PROTETORA WIWU SKIN PRO II PARA MACBOOK PRO 14 2 Gris",
         "category": "Notebooks",
@@ -82092,7 +82092,7 @@ const PRODUCTS =
     {
         "id": 12558,
         "ref": "319900",
-        "brand": "APPLE",
+        "brand": "GENERIC",
         "title_orig": "MACBOOK PRO MX2W3LL M4MAX 48G 1TBSSD 16 2 SILVER",
         "title": "MACBOOK PRO MX2W3LL M4MAX 48G 1TBSSD 16 2 SILVER",
         "category": "Notebooks",
@@ -82172,7 +82172,7 @@ const PRODUCTS =
     {
         "id": 12562,
         "ref": "67281",
-        "brand": "APPLE",
+        "brand": "GENERIC",
         "title_orig": "CABO HDMI P MINI DISPLAYPORT P MACBOOK 1 8M",
         "title": "CABO HDMI P MINI DISPLAYPORT P MACBOOK 1 8M",
         "category": "Notebooks",
@@ -82752,7 +82752,7 @@ const PRODUCTS =
     {
         "id": 12591,
         "ref": "204544",
-        "brand": "APPLE",
+        "brand": "GENERIC",
         "title_orig": "INTERRUPTOR APROXIMACAO ZIGBEE ZEMISMART HOMIE HSS 01WR ATE 15CM BIVOLT",
         "title": "INTERRUPTOR APROXIMACAO ZIGBEE ZEMISMART HOMIE HSS 01WR ATE 15CM BIVOLT",
         "category": "Notebooks",
@@ -82767,6 +82767,7746 @@ const PRODUCTS =
         "specs": [
             "APPLE",
             "Notebooks"
+        ]
+    },
+    {
+        "id": 12592,
+        "ref": "406919",
+        "brand": "ASUS",
+        "title_orig": "ASUS V16 V3607VM ES74 I7 16G 512GB RTX5060 W11 LCD16 0 WUXGA",
+        "title": "ASUS V16 V3607VM ES74 I7 16G 512GB RTX5060 W11 LCD16 0 WUXGA",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_406919_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/asus-v16-v3607vm-es74-i7-16g-512gb-rtx5060-w11-lcd16-0-wuxga/406919.html",
+        "specs": [
+            "ASUS",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12593,
+        "ref": "398738",
+        "brand": "LENOVO",
+        "title_orig": "NOTEBOOK LENOVO V15 G4 IRU 83A100PBUS INTEL CORE I3 1315U 1 20GHZ 4 50GHZ 16GB RAM 512GB SSD TELA 15 6 FULL HD 1920 X 1080 WINDOWS 11 HOME ETHERNET RJ45 INGLES BUSINESS PRETO",
+        "title": "NOTEBOOK LENOVO V15 G4 IRU 83A100PBUS INTEL CORE I3 1315U 1 20GHZ 4 50GHZ 16GB RAM 512GB SSD TELA 15 6 FULL HD 1920 X 1080 WINDOWS 11 HOME ETHERNET RJ45 INGLES BUSINESS Negro",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_398738_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-lenovo-v15-g4-iru-83a100pbus-intel-core-i3-1315u-1-20ghz-4-50ghz-16gb-ram-512gb-ssd-tela-15-6-full-hd-1920-x-1080-windows-11-home-ethernet-rj45-ingles-business-preto/398738.html",
+        "specs": [
+            "LENOVO",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12594,
+        "ref": "406469",
+        "brand": "LENOVO",
+        "title_orig": "TABLET LENOVO YOGA TAB PLUS TB520FU 16 256G TEAL 16G 256GTE EC K B P TEC PEN VERDE AZULADO",
+        "title": "TABLET LENOVO YOGA TAB PLUS TB520FU 16 256G TEAL 16G 256GTE EC K B P TEC PEN Verde AZULADO",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_406469_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tablet-lenovo-yoga-tab-plus-tb520fu-16-256g-teal-16g-256gte-ec-k-b-p-tec-pen-verde-azulado/406469.html",
+        "specs": [
+            "LENOVO",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12595,
+        "ref": "402870",
+        "brand": "LENOVO",
+        "title_orig": "NOTEBOOK LENOVO IDEAPAD 5 2 IN 1 16IRU9 83DU004VUS INTEL CORE 5 120U 1 40GHZ 5 00GHZ 16GB RAM 512GB SSD TELA 16 TOUCH 360 WUXGA 1920X1200 IPS WINDOWS 11 HOME INGLES LUNA CINZA",
+        "title": "NOTEBOOK LENOVO IDEAPAD 5 2 IN 1 16IRU9 83DU004VUS INTEL CORE 5 120U 1 40GHZ 5 00GHZ 16GB RAM 512GB SSD TELA 16 TOUCH 360 WUXGA 1920X1200 IPS WINDOWS 11 HOME INGLES LUNA Gris",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_402870_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-lenovo-ideapad-5-2-in-1-16iru9-83du004vus-intel-core-5-120u-1-40ghz-5-00ghz-16gb-ram-512gb-ssd-tela-16-touch-360-wuxga-1920x1200-ips-windows-11-home-ingles-luna-cinza/402870.html",
+        "specs": [
+            "LENOVO",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12596,
+        "ref": "403938",
+        "brand": "HP",
+        "title_orig": "NOTEBOOK LENOVO IDEAPAD 5 2 IN 1 16AHP9 83DS0056US AMD RYZEN 7 8845HS 3 8GHZ 5 10GHZ 16GB RAM 1TB SSD TELA 16 TOUCH 360 WUXGA 1920X1200 IPS WINDOWS 11 HOME INGLES LUNA CINZA",
+        "title": "NOTEBOOK LENOVO IDEAPAD 5 2 IN 1 16AHP9 83DS0056US AMD RYZEN 7 8845HS 3 8GHZ 5 10GHZ 16GB RAM 1TB SSD TELA 16 TOUCH 360 WUXGA 1920X1200 IPS WINDOWS 11 HOME INGLES LUNA Gris",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_403938_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-lenovo-ideapad-5-2-in-1-16ahp9-83ds0056us-amd-ryzen-7-8845hs-3-8ghz-5-10ghz-16gb-ram-1tb-ssd-tela-16-touch-360-wuxga-1920x1200-ips-windows-11-home-ingles-luna-cinza/403938.html",
+        "specs": [
+            "HP",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12597,
+        "ref": "404737",
+        "brand": "LENOVO",
+        "title_orig": "NOTEBOOK LENOVO THINKPAD L14 GEN 4 21H1008DUS INTEL CORE I7 1365U 3 90HZ 5 20GHZ 16GB3 RAM 512GB SSD TELA 14 TOUCH FULL HD 1920 X 1080 WINDOWS 11 HOME INGLES PRETO",
+        "title": "NOTEBOOK LENOVO THINKPAD L14 GEN 4 21H1008DUS INTEL CORE I7 1365U 3 90HZ 5 20GHZ 16GB3 RAM 512GB SSD TELA 14 TOUCH FULL HD 1920 X 1080 WINDOWS 11 HOME INGLES Negro",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_404737_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-lenovo-thinkpad-l14-gen-4-21h1008dus-intel-core-i7-1365u-3-90hz-5-20ghz-16gb3-ram-512gb-ssd-tela-14-touch-full-hd-1920-x-1080-windows-11-home-ingles-preto/404737.html",
+        "specs": [
+            "LENOVO",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12598,
+        "ref": "404906",
+        "brand": "LENOVO",
+        "title_orig": "ALL IN ONE LENOVO F0HM00HCUS I5 13420H 16GB 512SD 27 FHD W11  404906",
+        "title": "ALL IN ONE LENOVO F0HM00HCUS I5 13420H 16GB 512SD 27 FHD W11  404906",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_404906_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/all-in-one-lenovo-f0hm00hcus-i5-13420h-16gb-512sd-27-fhd-w11-codigo-404906/404906.html",
+        "specs": [
+            "LENOVO",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12599,
+        "ref": "401161",
+        "brand": "LENOVO",
+        "title_orig": "MOCHILA P NB LENOVO B210 15 6 GREY",
+        "title": "MOCHILA P NB LENOVO B210 15 6 GREY",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_401161_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mochila-p-nb-lenovo-b210-15-6-grey/401161.html",
+        "specs": [
+            "LENOVO",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12600,
+        "ref": "406458",
+        "brand": "LENOVO",
+        "title_orig": "TABLET LENOVO IDEA TAB PLUS 8 256G CL EC KB P TB361FU B P TEC PENC",
+        "title": "TABLET LENOVO IDEA TAB PLUS 8 256G CL EC KB P TB361FU B P TEC PENC",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_406458_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tablet-lenovo-idea-tab-plus-8-256g-cl-ec-kb-p-tb361fu-b-p-tec-penc/406458.html",
+        "specs": [
+            "LENOVO",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12601,
+        "ref": "407448",
+        "brand": "LENOVO",
+        "title_orig": "NOTEBOOK LENOVO THINKPAD E16 GEN 2 21M5000HUS AMD RYZEN 5 7535U 2 90HZ 4 55GHZ 8GB RAM 256GB SSD TELA 16 WUXGA 2K 1920 X 1200 IPS WINDOWS 11 PRO INGLES PRETO",
+        "title": "NOTEBOOK LENOVO THINKPAD E16 GEN 2 21M5000HUS AMD RYZEN 5 7535U 2 90HZ 4 55GHZ 8GB RAM 256GB SSD TELA 16 WUXGA 2K 1920 X 1200 IPS WINDOWS 11 PRO INGLES Negro",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_407448_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-lenovo-thinkpad-e16-gen-2-21m5000hus-amd-ryzen-5-7535u-2-90hz-4-55ghz-8gb-ram-256gb-ssd-tela-16-wuxga-2k-1920-x-1200-ips-windows-11-pro-ingles-preto/407448.html",
+        "specs": [
+            "LENOVO",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12602,
+        "ref": "406920",
+        "brand": "LENOVO",
+        "title_orig": "NOTEBOOK LENOVO IDEAPAD PRO 5 16IAH10 83JM0019US INTEL CORE ULTRA 9 285H 2 90GHZ 5 40GHZ 32GB RAM 1TB SSD TELA 16 TOUCH 2 8K 2880 X 1800 OLED GEFORCE RTX5050 8GB WINDOWS 11 HOME INGLES LUNA CINZA CODI",
+        "title": "NOTEBOOK LENOVO IDEAPAD PRO 5 16IAH10 83JM0019US INTEL CORE ULTRA 9 285H 2 90GHZ 5 40GHZ 32GB RAM 1TB SSD TELA 16 TOUCH 2 8K 2880 X 1800 OLED GEFORCE RTX5050 8GB WINDOWS 11 HOME INGLES LUNA Gris CODI",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_406920_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-lenovo-ideapad-pro-5-16iah10-83jm0019us-intel-core-ultra-9-285h-2-90ghz-5-40ghz-32gb-ram-1tb-ssd-tela-16-touch-2-8k-2880-x-1800-oled-geforce-rtx5050-8gb-windows-11-home-ingles-luna-cinza-codi/406920.html",
+        "specs": [
+            "LENOVO",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12603,
+        "ref": "407437",
+        "brand": "LENOVO",
+        "title_orig": "NOTEBOOK LENOVO V14 G5 IRL 83HDA06JUS INTEL CORE 7 240H 2 50GHZ 5 20GHZ 16GB RAM 1TB SSD TELA 14 FULL HD 1920 X 1080 WINDOWS 11 HOME ETHERNET RJ45 INGLES BUSINESS PRETO  407437",
+        "title": "NOTEBOOK LENOVO V14 G5 IRL 83HDA06JUS INTEL CORE 7 240H 2 50GHZ 5 20GHZ 16GB RAM 1TB SSD TELA 14 FULL HD 1920 X 1080 WINDOWS 11 HOME ETHERNET RJ45 INGLES BUSINESS Negro  407437",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_407437_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-lenovo-v14-g5-irl-83hda06jus-intel-core-7-240h-2-50ghz-5-20ghz-16gb-ram-1tb-ssd-tela-14-full-hd-1920-x-1080-windows-11-home-ethernet-rj45-ingles-business-preto-codigo-407437/407437.html",
+        "specs": [
+            "LENOVO",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12604,
+        "ref": "194754",
+        "brand": "LENOVO",
+        "title_orig": "NB LENOVO 82SA001GUS I7 12650H 16GB 512 RTX3060 6G 16 W11 GREY INGLES",
+        "title": "NB LENOVO 82SA001GUS I7 12650H 16GB 512 RTX3060 6G 16 W11 GREY INGLES",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_194754_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/nb-lenovo-82sa001gus-i7-12650h-16gb-512-rtx3060-6g-16-w11-grey-ingles/194754.html",
+        "specs": [
+            "LENOVO",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12605,
+        "ref": "388827",
+        "brand": "DELL",
+        "title_orig": "NOTEBOOK DELL 16 LDC16251 7537 PUS INTEL CORE 7 150U 1 80HZ 5 40GHZ 16GB RAM 1TB SSD TELA 16 TOUCH FULL HD 1920 X 1080 WINDOWS 11 HOME INGLES ICE AZUL",
+        "title": "NOTEBOOK DELL 16 LDC16251 7537 PUS INTEL CORE 7 150U 1 80HZ 5 40GHZ 16GB RAM 1TB SSD TELA 16 TOUCH FULL HD 1920 X 1080 WINDOWS 11 HOME INGLES ICE Azul",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_388827_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-dell-16-ldc16251-7537-pus-intel-core-7-150u-1-80hz-5-40ghz-16gb-ram-1tb-ssd-tela-16-touch-full-hd-1920-x-1080-windows-11-home-ingles-ice-azul/388827.html",
+        "specs": [
+            "DELL",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12606,
+        "ref": "365293",
+        "brand": "DELL",
+        "title_orig": "BATERIA PARA NB DELL 1V1XF 11 4 V 42WH INTERNO",
+        "title": "BATERIA PARA NB DELL 1V1XF 11 4 V 42WH INTERNO",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_365293_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/bateria-para-nb-dell-1v1xf-11-4-v-42wh-interno/365293.html",
+        "specs": [
+            "DELL",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12607,
+        "ref": "396040",
+        "brand": "DELL",
+        "title_orig": "NOTEBOOK DELL INSPIRON 14 I5441 SX8685GRY PUS SNAPDRAGON X PLUS 8 CORE X1P 42 100 3 40GHZ NPU 45 TOPS 16GB RAM 1TB SSD TELA 14 FULL HD WUXGA 1920 X 1200 WINDOWS 11 HOME COPILOT PC INGLES TITAN CINZA C",
+        "title": "NOTEBOOK DELL INSPIRON 14 I5441 SX8685GRY PUS SNAPDRAGON X PLUS 8 CORE X1P 42 100 3 40GHZ NPU 45 TOPS 16GB RAM 1TB SSD TELA 14 FULL HD WUXGA 1920 X 1200 WINDOWS 11 HOME COPILOT PC INGLES TITAN Gris C",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_396040_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-dell-inspiron-14-i5441-sx8685gry-pus-snapdragon-x-plus-8-core-x1p-42-100-3-40ghz-npu-45-tops-16gb-ram-1tb-ssd-tela-14-full-hd-wuxga-1920-x-1200-windows-11-home-copilot-pc-ingles-titan-cinza-c/396040.html",
+        "specs": [
+            "DELL",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12608,
+        "ref": "256551",
+        "brand": "DELL",
+        "title_orig": "NOTEBOOK DELL INSPIRON 15 3000 3520 INTEL CORE I5 1235U 3 30GHZ 4 40GHZ 8GB RAM 512GB SSD TELA 15 6 FULL HD WINDOWS 11 HOME INGLES CARBON PRETO",
+        "title": "NOTEBOOK DELL INSPIRON 15 3000 3520 INTEL CORE I5 1235U 3 30GHZ 4 40GHZ 8GB RAM 512GB SSD TELA 15 6 FULL HD WINDOWS 11 HOME INGLES CARBON Negro",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_256551_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-dell-inspiron-15-3000-3520-intel-core-i5-1235u-3-30ghz-4-40ghz-8gb-ram-512gb-ssd-tela-15-6-full-hd-windows-11-home-ingles-carbon-preto/256551.html",
+        "specs": [
+            "DELL",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12609,
+        "ref": "276329",
+        "brand": "DELL",
+        "title_orig": "NOTEBOOK DELL INSPIRON 15 I3535 A813BLK PUS AMD RYZEN 7 7730U 2 00HZ 4 50GHZ 16GB RAM 512GB SSD TELA 15 6 TOUCH FULL HD WINDOWS 11 HOME INGLES CARBON PRETO",
+        "title": "NOTEBOOK DELL INSPIRON 15 I3535 A813BLK PUS AMD RYZEN 7 7730U 2 00HZ 4 50GHZ 16GB RAM 512GB SSD TELA 15 6 TOUCH FULL HD WINDOWS 11 HOME INGLES CARBON Negro",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_276329_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-dell-inspiron-15-i3535-a813blk-pus-amd-ryzen-7-7730u-2-00hz-4-50ghz-16gb-ram-512gb-ssd-tela-15-6-touch-full-hd-windows-11-home-ingles-carbon-preto/276329.html",
+        "specs": [
+            "DELL",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12610,
+        "ref": "267408",
+        "brand": "DELL",
+        "title_orig": "NOTEBOOK DELL G15 G5530 7388GRY PUS INTEL CORE I7 13650HX 2 60HZ 4 90GHZ 16GB RAM 1TB SSD TELA 15 6 FULL HD 120HZ GEFORCE RTX4060 8GB WINDOWS 11 HOME INGLES DARK SHADOW CINZA  267408",
+        "title": "NOTEBOOK DELL G15 G5530 7388GRY PUS INTEL CORE I7 13650HX 2 60HZ 4 90GHZ 16GB RAM 1TB SSD TELA 15 6 FULL HD 120HZ GEFORCE RTX4060 8GB WINDOWS 11 HOME INGLES DARK SHADOW Gris  267408",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_267408_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-dell-g15-g5530-7388gry-pus-intel-core-i7-13650hx-2-60hz-4-90ghz-16gb-ram-1tb-ssd-tela-15-6-full-hd-120hz-geforce-rtx4060-8gb-windows-11-home-ingles-dark-shadow-cinza-codigo-267408/267408.html",
+        "specs": [
+            "DELL",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12611,
+        "ref": "293631",
+        "brand": "DELL",
+        "title_orig": "NOTEBOOK DELL INSPIRON 15 3000 3535 AMD RYZEN 5 7520U 2 80HZ 4 30GHZ 8GB RAM 512GB SSD TELA 15 6 FULL HD WINDOWS 11 HOME INGLES CARBON PRETO",
+        "title": "NOTEBOOK DELL INSPIRON 15 3000 3535 AMD RYZEN 5 7520U 2 80HZ 4 30GHZ 8GB RAM 512GB SSD TELA 15 6 FULL HD WINDOWS 11 HOME INGLES CARBON Negro",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_293631_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-dell-inspiron-15-3000-3535-amd-ryzen-5-7520u-2-80hz-4-30ghz-8gb-ram-512gb-ssd-tela-15-6-full-hd-windows-11-home-ingles-carbon-preto/293631.html",
+        "specs": [
+            "DELL",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12612,
+        "ref": "264618",
+        "brand": "DELL",
+        "title_orig": "NB DELL AWM16R 9487BLK ULTRA9 32GB 1TBSD RTX4070 W11",
+        "title": "NB DELL AWM16R 9487BLK ULTRA9 32GB 1TBSD RTX4070 W11",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_264618_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/nb-dell-awm16r-9487blk-ultra9-32gb-1tbsd-rtx4070-w11/264618.html",
+        "specs": [
+            "DELL",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12613,
+        "ref": "304938",
+        "brand": "DELL",
+        "title_orig": "NOTEBOOK DELL LATITUDE 7455 SNAPDRAGON X PLUS X1P 64 100 3 4GHZ 16GB RAM 512G SSD TELA 14 TOUCH WQXGA QHD IPS WINDOWS 11 PRO INGLES CINZA",
+        "title": "NOTEBOOK DELL LATITUDE 7455 SNAPDRAGON X PLUS X1P 64 100 3 4GHZ 16GB RAM 512G SSD TELA 14 TOUCH WQXGA QHD IPS WINDOWS 11 PRO INGLES Gris",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_304938_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-dell-latitude-7455-snapdragon-x-plus-x1p-64-100-3-4ghz-16gb-ram-512g-ssd-tela-14-touch-wqxga-qhd-ips-windows-11-pro-ingles-cinza-/304938.html",
+        "specs": [
+            "DELL",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12614,
+        "ref": "274630",
+        "brand": "DELL",
+        "title_orig": "NOTEBOOK GAMER DELL G16 INTEL CORE I9 13900HX GEFORCE RTX4060 8GB 16GB RAM TELA QHD 16 1TB SSD METALLIC NIGHTSHADE G7630 9302GRY PUS INGLES",
+        "title": "NOTEBOOK GAMER DELL G16 INTEL CORE I9 13900HX GEFORCE RTX4060 8GB 16GB RAM TELA QHD 16 1TB SSD METALLIC NIGHTSHADE G7630 9302GRY PUS INGLES",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_274630_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-gamer-dell-g16-intel-core-i9-13900hx-geforce-rtx4060-8gb-16gb-ram-tela-qhd-16-1tb-ssd-metallic-nightshade-g7630-9302gry-pus-ingles/274630.html",
+        "specs": [
+            "DELL",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12615,
+        "ref": "257888",
+        "brand": "DELL",
+        "title_orig": "NOTEBOOK DELL INSPIRON 16 I7630 5640SLV INTEL CORE I5 1335U 1 30GHZ 4 60GHZ 8GB RAM 512GB SSD TELA 16 TOUCH 360 FULL HD WINDOWS 11 HOME INGLES PLATINUM SILVER",
+        "title": "NOTEBOOK DELL INSPIRON 16 I7630 5640SLV INTEL CORE I5 1335U 1 30GHZ 4 60GHZ 8GB RAM 512GB SSD TELA 16 TOUCH 360 FULL HD WINDOWS 11 HOME INGLES PLATINUM SILVER",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_257888_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-dell-inspiron-16-i7630-5640slv-intel-core-i5-1335u-1-30ghz-4-60ghz-8gb-ram-512gb-ssd-tela-16-touch-360-full-hd-windows-11-home-ingles-platinum-silver/257888.html",
+        "specs": [
+            "DELL",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12616,
+        "ref": "298490",
+        "brand": "DELL",
+        "title_orig": "MONITOR DELL ALIENWARE AW2524HF 25 FULL HD 1920 X 1080 0 5MS 500HZ IPS 1XHDMI 2 1 2XDISPLAYPORT 1 4 4XUSB A 3 2 1XUSB B AMD FREESYNC PREMIUM AJUSTE ALTURA PIVO ROTACAO PRETO",
+        "title": "MONITOR DELL ALIENWARE AW2524HF 25 FULL HD 1920 X 1080 0 5MS 500HZ IPS 1XHDMI 2 1 2XDISPLAYPORT 1 4 4XUSB A 3 2 1XUSB B AMD FREESYNC PREMIUM AJUSTE ALTURA PIVO ROTACAO Negro",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_298490_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/monitor-dell-alienware-aw2524hf-25-full-hd-1920-x-1080-0-5ms-500hz-ips-1xhdmi-2-1-2xdisplayport-1-4-4xusb-a-3-2-1xusb-b-amd-freesync-premium-ajuste-altura-pivo-rotacao-preto/298490.html",
+        "specs": [
+            "DELL",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 12617,
+        "ref": "270097",
+        "brand": "DELL",
+        "title_orig": "NOTEBOOK DELL INSPIRON 14 I7445 7326BLU PUS AMD RYZEN 7 8840HS 3 30GHZ 5 10GHZ 16GB RAM 1TB SSD TELA 14 360 TOUCH FULL HD WINDOWS 11 HOME INGLES MIDNIGHT BLUE",
+        "title": "NOTEBOOK DELL INSPIRON 14 I7445 7326BLU PUS AMD RYZEN 7 8840HS 3 30GHZ 5 10GHZ 16GB RAM 1TB SSD TELA 14 360 TOUCH FULL HD WINDOWS 11 HOME INGLES MIDNIGHT BLUE",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_270097_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-dell-inspiron-14-i7445-7326blu-pus-amd-ryzen-7-8840hs-3-30ghz-5-10ghz-16gb-ram-1tb-ssd-tela-14-360-touch-full-hd-windows-11-home-ingles-midnight-blue/270097.html",
+        "specs": [
+            "DELL",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12618,
+        "ref": "301799",
+        "brand": "DELL",
+        "title_orig": "NB DELL 3000 3405 R5 3450U 8GB 256 14 W10 PRO BLACK ESPANHOL",
+        "title": "NB DELL 3000 3405 R5 3450U 8GB 256 14 W10 PRO BLACK ESPANHOL",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_301799_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/nb-dell-3000-3405-r5-3450u-8gb-256-14-w10-pro-black-espanhol/301799.html",
+        "specs": [
+            "DELL",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12619,
+        "ref": "323423",
+        "brand": "ACER",
+        "title_orig": "MOUSE ACER L175S H BK WIRELESS WHITE",
+        "title": "MOUSE ACER L175S H BK WIRELESS WHITE",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_323423_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-acer-l175s-h-bk-wireless-white/323423.html",
+        "specs": [
+            "ACER",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12620,
+        "ref": "323445",
+        "brand": "ACER",
+        "title_orig": "MOUSE ACER EMW130 RGB USB WIRED PRETO",
+        "title": "MOUSE ACER EMW130 RGB USB WIRED Negro",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_323445_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-acer-emw130-rgb-usb-wired-preto/323445.html",
+        "specs": [
+            "ACER",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12621,
+        "ref": "323412",
+        "brand": "ACER",
+        "title_orig": "MOUSE ACER M117 USB WIRED PRETO",
+        "title": "MOUSE ACER M117 USB WIRED Negro",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_323412_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-acer-m117-usb-wired-preto/323412.html",
+        "specs": [
+            "ACER",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12622,
+        "ref": "385218",
+        "brand": "ACER",
+        "title_orig": "DESKTOP ALL IN ONE ACER C24 2G UR14 R5 7430U 8GB 512 23 8 W11 INGLES PRETO  385218",
+        "title": "DESKTOP ALL IN ONE ACER C24 2G UR14 R5 7430U 8GB 512 23 8 W11 INGLES Negro  385218",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_385218_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/desktop-all-in-one-acer-c24-2g-ur14-r5-7430u-8gb-512-23-8-w11-ingles-preto-codigo-385218/385218.html",
+        "specs": [
+            "ACER",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12623,
+        "ref": "392205",
+        "brand": "ACER",
+        "title_orig": "ALL IN ONE ACER C24 2G UR15 R5 7430U 16GB 512 23 8",
+        "title": "ALL IN ONE ACER C24 2G UR15 R5 7430U 16GB 512 23 8",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_392205_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/all-in-one-acer-c24-2g-ur15-r5-7430u-16gb-512-23-8/392205.html",
+        "specs": [
+            "ACER",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12624,
+        "ref": "402915",
+        "brand": "ACER",
+        "title_orig": "MONITOR GAMER ACER NITRO XVM270M3 27 FULL HD IPS 180HZ 0 5MS FREESYNC PREMIUM M3WIIPR UM HX0AA 306 BRANCO",
+        "title": "MONITOR GAMER ACER NITRO XVM270M3 27 FULL HD IPS 180HZ 0 5MS FREESYNC PREMIUM M3WIIPR UM HX0AA 306 Blanco",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_402915_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/monitor-gamer-acer-nitro-xvm270m3-27-full-hd-ips-180hz-0-5ms-freesync-premium-m3wiipr-um-hx0aa-306-branco/402915.html",
+        "specs": [
+            "ACER",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 12625,
+        "ref": "306367",
+        "brand": "MSI",
+        "title_orig": "COOLER WATER MSI MAG CORELIQUID A13 240 ARGB BLACK 306 7ZWCA11 L80",
+        "title": "COOLER WATER MSI MAG CORELIQUID A13 240 ARGB BLACK 306 7ZWCA11 L80",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_306367_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-water-msi-mag-coreliquid-a13-240-argb-black-306-7zwca11-l80/306367.html",
+        "specs": [
+            "MSI",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12626,
+        "ref": "167585",
+        "brand": "TCL",
+        "title_orig": "MIKROTIK ROUTERBOARD RB941 2ND TC L4 HAP LITE RB 941 2ND TCL4",
+        "title": "MIKROTIK ROUTERBOARD RB941 2ND TC L4 HAP LITE RB 941 2ND TCL4",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_167585_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mikrotik-routerboard-rb941-2nd-tc-l4-hap-lite-rb-941-2nd-tcl4/167585.html",
+        "specs": [
+            "TCL",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12627,
+        "ref": "274226",
+        "brand": "TCL",
+        "title_orig": "TV 55 TCL 55P635 4K SMART HDMI USB BLUETOOTH",
+        "title": "TV 55 TCL 55P635 4K SMART HDMI USB BLUETOOTH",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_274226_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tv-55-tcl-55p635-4k-smart-hdmi-usb-bluetooth/274226.html",
+        "specs": [
+            "TCL",
+            "Televisores"
+        ]
+    },
+    {
+        "id": 12628,
+        "ref": "382933",
+        "brand": "TCL",
+        "title_orig": "TV 55 TCL 55Q77K QLED 4K GOOGLE TV SMART  382933",
+        "title": "TV 55 TCL 55Q77K QLED 4K GOOGLE TV SMART  382933",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_382933_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tv-55-tcl-55q77k-qled-4k-google-tv-smart-codigo-382933/382933.html",
+        "specs": [
+            "TCL",
+            "Televisores"
+        ]
+    },
+    {
+        "id": 12629,
+        "ref": "229944",
+        "brand": "TCL",
+        "title_orig": "TV 32 TCL 32S5400AF FULL HD SMART ANDROID WIFI  229944",
+        "title": "TV 32 TCL 32S5400AF FULL HD SMART ANDROID WIFI  229944",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_229944_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tv-32-tcl-32s5400af-full-hd-smart-android-wifi-codigo-229944/229944.html",
+        "specs": [
+            "TCL",
+            "Televisores"
+        ]
+    },
+    {
+        "id": 12630,
+        "ref": "386040",
+        "brand": "TCL",
+        "title_orig": "TV 40 TCL 40Q3K QLED ANDROID 2K PRETO  386040",
+        "title": "TV 40 TCL 40Q3K QLED ANDROID 2K Negro  386040",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_386040_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tv-40-tcl-40q3k-qled-android-2k-preto-codigo-386040/386040.html",
+        "specs": [
+            "TCL",
+            "Televisores"
+        ]
+    },
+    {
+        "id": 12631,
+        "ref": "310395",
+        "brand": "ACER",
+        "title_orig": "CADEIRA GAMER MAXRACER TACTICAL BLACK WHITE TCL 3  310395",
+        "title": "CADEIRA GAMER MAXRACER TACTICAL BLACK WHITE TCL 3  310395",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_310395_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cadeira-gamer-maxracer-tactical-black-white-tcl-3-codigo-310395/310395.html",
+        "specs": [
+            "ACER",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12632,
+        "ref": "401071",
+        "brand": "JVC",
+        "title_orig": "TV 40 JVC 40KB448 SMART GOOGLE FHD",
+        "title": "TV 40 JVC 40KB448 SMART GOOGLE FHD",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_401071_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tv-40-jvc-40kb448-smart-google-fhd/401071.html",
+        "specs": [
+            "JVC",
+            "Televisores"
+        ]
+    },
+    {
+        "id": 12633,
+        "ref": "403769",
+        "brand": "JVC",
+        "title_orig": "TV 75 JVC LT 75NQ7165U 4K UHD QLED DIG BT WHALE OS",
+        "title": "TV 75 JVC LT 75NQ7165U 4K UHD QLED DIG BT WHALE OS",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_403769_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tv-75-jvc-lt-75nq7165u-4k-uhd-qled-dig-bt-whale-os/403769.html",
+        "specs": [
+            "JVC",
+            "Televisores"
+        ]
+    },
+    {
+        "id": 12634,
+        "ref": "174954",
+        "brand": "JVC",
+        "title_orig": "TV 55 JVC LT55N775U 4K UHD HDR DIG SMART HDMI USB  174954",
+        "title": "TV 55 JVC LT55N775U 4K UHD HDR DIG SMART HDMI USB  174954",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_174954_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tv-55-jvc-lt55n775u-4k-uhd-hdr-dig-smart-hdmi-usb-codigo-174954/174954.html",
+        "specs": [
+            "JVC",
+            "Televisores"
+        ]
+    },
+    {
+        "id": 12635,
+        "ref": "161792",
+        "brand": "JVC",
+        "title_orig": "TV 42 JVC LT42N750U FHD DIGITAL SMART 3HDMI USB",
+        "title": "TV 42 JVC LT42N750U FHD DIGITAL SMART 3HDMI USB",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_161792_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tv-42-jvc-lt42n750u-fhd-digital-smart-3hdmi-usb/161792.html",
+        "specs": [
+            "JVC",
+            "Televisores"
+        ]
+    },
+    {
+        "id": 12636,
+        "ref": "278847",
+        "brand": "JVC",
+        "title_orig": "TV 65 JVC LT 65N775U 4K HDMI UHD SMART HDR BT",
+        "title": "TV 65 JVC LT 65N775U 4K HDMI UHD SMART HDR BT",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_278847_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tv-65-jvc-lt-65n775u-4k-hdmi-uhd-smart-hdr-bt/278847.html",
+        "specs": [
+            "JVC",
+            "Televisores"
+        ]
+    },
+    {
+        "id": 12637,
+        "ref": "161781",
+        "brand": "JVC",
+        "title_orig": "TV 32 JVC LT32N750U HD DIGITAL SMART 3HDMI USB V",
+        "title": "TV 32 JVC LT32N750U HD DIGITAL SMART 3HDMI USB V",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_161781_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tv-32-jvc-lt32n750u-hd-digital-smart-3hdmi-usb-v/161781.html",
+        "specs": [
+            "JVC",
+            "Televisores"
+        ]
+    },
+    {
+        "id": 12638,
+        "ref": "269274",
+        "brand": "JVC",
+        "title_orig": "TV 58 JVC LT 58KB538 4K UDH WIFI LED GOOGLE TV  269274",
+        "title": "TV 58 JVC LT 58KB538 4K UDH WIFI LED GOOGLE TV  269274",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_269274_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tv-58-jvc-lt-58kb538-4k-udh-wifi-led-google-tv-codigo-269274/269274.html",
+        "specs": [
+            "JVC",
+            "Televisores"
+        ]
+    },
+    {
+        "id": 12639,
+        "ref": "151376",
+        "brand": "JVC",
+        "title_orig": "TV 70 JVC LT70N7105U UHD 4K DIG SMART HDMI BT  151376",
+        "title": "TV 70 JVC LT70N7105U UHD 4K DIG SMART HDMI BT  151376",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_151376_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tv-70-jvc-lt70n7105u-uhd-4k-dig-smart-hdmi-bt-codigo-151376/151376.html",
+        "specs": [
+            "JVC",
+            "Televisores"
+        ]
+    },
+    {
+        "id": 12640,
+        "ref": "327304",
+        "brand": "JVC",
+        "title_orig": "TV 43 JVC LT 43KM348 SMART GOOGLE 4K ISDB T WIFI",
+        "title": "TV 43 JVC LT 43KM348 SMART GOOGLE 4K ISDB T WIFI",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_327304_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tv-43-jvc-lt-43km348-smart-google-4k-isdb-t-wifi/327304.html",
+        "specs": [
+            "JVC",
+            "Televisores"
+        ]
+    },
+    {
+        "id": 12641,
+        "ref": "356508",
+        "brand": "JVC",
+        "title_orig": "TV 43 JVC LT 43KB758 QLED SMART GOOGLE BT PRETO",
+        "title": "TV 43 JVC LT 43KB758 QLED SMART GOOGLE BT Negro",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_356508_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tv-43-jvc-lt-43kb758-qled-smart-google-bt-preto/356508.html",
+        "specs": [
+            "JVC",
+            "Televisores"
+        ]
+    },
+    {
+        "id": 12642,
+        "ref": "357261",
+        "brand": "JVC",
+        "title_orig": "TV 70 JVC LT 70NQ7165U 4K QLED OPT DIGITAL BT 2USB",
+        "title": "TV 70 JVC LT 70NQ7165U 4K QLED OPT DIGITAL BT 2USB",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_357261_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tv-70-jvc-lt-70nq7165u-4k-qled-opt-digital-bt-2usb/357261.html",
+        "specs": [
+            "JVC",
+            "Televisores"
+        ]
+    },
+    {
+        "id": 12643,
+        "ref": "356563",
+        "brand": "JVC",
+        "title_orig": "TV 65 JVC LT 65KM558 UHD SMART GOOGLE BT WIFI",
+        "title": "TV 65 JVC LT 65KM558 UHD SMART GOOGLE BT WIFI",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_356563_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tv-65-jvc-lt-65km558-uhd-smart-google-bt-wifi/356563.html",
+        "specs": [
+            "JVC",
+            "Televisores"
+        ]
+    },
+    {
+        "id": 12644,
+        "ref": "192684",
+        "brand": "JVC",
+        "title_orig": "TV 65 JVC LT 65N885U UHD SMART HDMI VGA USB 192684",
+        "title": "TV 65 JVC LT 65N885U UHD SMART HDMI VGA USB 192684",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_192684_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tv-65-jvc-lt-65n885u-uhd-smart-hdmi-vga-usb-192684/192684.html",
+        "specs": [
+            "JVC",
+            "Televisores"
+        ]
+    },
+    {
+        "id": 12645,
+        "ref": "356552",
+        "brand": "JVC",
+        "title_orig": "TV 58 JVC LT 58KM858 QLEDPRO SLIM ATMOS 2 0",
+        "title": "TV 58 JVC LT 58KM858 QLEDPRO SLIM ATMOS 2 0",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_356552_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tv-58-jvc-lt-58km858-qledpro-slim-atmos-2-0/356552.html",
+        "specs": [
+            "JVC",
+            "Televisores"
+        ]
+    },
+    {
+        "id": 12646,
+        "ref": "356620",
+        "brand": "JVC",
+        "title_orig": "TV 75 JVC LT 75KM958 QDMINI ATMOS2 1",
+        "title": "TV 75 JVC LT 75KM958 QDMINI ATMOS2 1",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_356620_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tv-75-jvc-lt-75km958-qdmini-atmos2-1/356620.html",
+        "specs": [
+            "JVC",
+            "Televisores"
+        ]
+    },
+    {
+        "id": 12647,
+        "ref": "356574",
+        "brand": "JVC",
+        "title_orig": "TV 65 JVC LT 65KM858 QLEDPRO ATMOS2 0",
+        "title": "TV 65 JVC LT 65KM858 QLEDPRO ATMOS2 0",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_356574_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tv-65-jvc-lt-65km858-qledpro-atmos2-0/356574.html",
+        "specs": [
+            "JVC",
+            "Televisores"
+        ]
+    },
+    {
+        "id": 12648,
+        "ref": "356610",
+        "brand": "JVC",
+        "title_orig": "TV 75 JVC LT 75KM858 QLEDPRO ATMOS2 0 PRETO",
+        "title": "TV 75 JVC LT 75KM858 QLEDPRO ATMOS2 0 Negro",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_356610_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tv-75-jvc-lt-75km858-qledpro-atmos2-0-preto/356610.html",
+        "specs": [
+            "JVC",
+            "Televisores"
+        ]
+    },
+    {
+        "id": 12649,
+        "ref": "356495",
+        "brand": "JVC",
+        "title_orig": "TV 32 JVC LT 32KM158 SMART GOOGLE BT PRETO",
+        "title": "TV 32 JVC LT 32KM158 SMART GOOGLE BT Negro",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_356495_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tv-32-jvc-lt-32km158-smart-google-bt-preto/356495.html",
+        "specs": [
+            "JVC",
+            "Televisores"
+        ]
+    },
+    {
+        "id": 12650,
+        "ref": "357575",
+        "brand": "JVC",
+        "title_orig": "TV 85 JVC LT 85NQ7165U 4K UHD QLED DIGITAL BT",
+        "title": "TV 85 JVC LT 85NQ7165U 4K UHD QLED DIGITAL BT",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_357575_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tv-85-jvc-lt-85nq7165u-4k-uhd-qled-digital-bt/357575.html",
+        "specs": [
+            "JVC",
+            "Televisores"
+        ]
+    },
+    {
+        "id": 12651,
+        "ref": "356541",
+        "brand": "JVC",
+        "title_orig": "TV 58 JVC LT 58KM558 UHD SMART GOOGLE PRETO",
+        "title": "TV 58 JVC LT 58KM558 UHD SMART GOOGLE Negro",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_356541_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tv-58-jvc-lt-58km558-uhd-smart-google-preto/356541.html",
+        "specs": [
+            "JVC",
+            "Televisores"
+        ]
+    },
+    {
+        "id": 12652,
+        "ref": "377713",
+        "brand": "XIAOMI",
+        "title_orig": "XIAOMI TV STICK 4K 2 GER MDZ 33 AA MDZ 33 AA  377713",
+        "title": "XIAOMI TV STICK 4K 2 GER MDZ 33 AA MDZ 33 AA  377713",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_377713_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/xiaomi-tv-stick-4k-2-ger-mdz-33-aa-mdz-33-aa-codigo-377713/377713.html",
+        "specs": [
+            "XIAOMI",
+            "Televisores"
+        ]
+    },
+    {
+        "id": 12653,
+        "ref": "249856",
+        "brand": "XIAOMI",
+        "title_orig": "REPETIDOR XIAOMI N300 RD10M DVB4398GL 2ANT WHITE",
+        "title": "REPETIDOR XIAOMI N300 RD10M DVB4398GL 2ANT WHITE",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_249856_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/repetidor-xiaomi-n300-rd10m-dvb4398gl-2ant-white/249856.html",
+        "specs": [
+            "XIAOMI",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12654,
+        "ref": "43400",
+        "brand": "XIAOMI",
+        "title_orig": "REPETIDOR XIAOMI MI PRO R03 300MBPS WIFI 2 ANTENA BR",
+        "title": "REPETIDOR XIAOMI MI PRO R03 300MBPS WIFI 2 ANTENA BR",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_43400_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/repetidor-xiaomi-mi-pro-r03-300mbps-wifi-2-antena-br/43400.html",
+        "specs": [
+            "XIAOMI",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12655,
+        "ref": "153681",
+        "brand": "XIAOMI",
+        "title_orig": "ROUTER XIAOMI MI 4A DVB4230GL 1200MBPS 4ANT WHITE 153681",
+        "title": "ROUTER XIAOMI MI 4A DVB4230GL 1200MBPS 4ANT WHITE 153681",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_153681_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/router-xiaomi-mi-4a-dvb4230gl-1200mbps-4ant-white-153681/153681.html",
+        "specs": [
+            "XIAOMI",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12656,
+        "ref": "277677",
+        "brand": "XIAOMI",
+        "title_orig": "ROUTER XIAOMI MESH SYSTEM AX3000T RD23 DVB4423GL WIFI 6 WHITE",
+        "title": "ROUTER XIAOMI MESH SYSTEM AX3000T RD23 DVB4423GL WIFI 6 WHITE",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_277677_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/router-xiaomi-mesh-system-ax3000t-rd23-dvb4423gl-wifi-6-white/277677.html",
+        "specs": [
+            "XIAOMI",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12657,
+        "ref": "297119",
+        "brand": "XIAOMI",
+        "title_orig": "MOUSE XIAOMI MI 3 XMWXSB03YM BT 12000DPI BLUE  297119",
+        "title": "MOUSE XIAOMI MI 3 XMWXSB03YM BT 12000DPI BLUE  297119",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_297119_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-xiaomi-mi-3-xmwxsb03ym-bt-12000dpi-blue-codigo-297119/297119.html",
+        "specs": [
+            "XIAOMI",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12658,
+        "ref": "238472",
+        "brand": "SONY",
+        "title_orig": "ESTACAO DE CARREGAMENTO SONY PLAYSTATION 5 PS5 DUALSENSE CFI ZDS1 BRANCO",
+        "title": "ESTACAO DE CARREGAMENTO SONY PLAYSTATION 5 PS5 DUALSENSE CFI ZDS1 Blanco",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_238472_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/estacao-de-carregamento-sony-playstation-5-ps5-dualsense-cfi-zds1-branco/238472.html",
+        "specs": [
+            "SONY",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12659,
+        "ref": "367117",
+        "brand": "SONY",
+        "title_orig": "UNIDADE DE DISCO SONY PLAYSTATION 5 PS5 CFI ZDD1 PARA PS5 SLIM E PS5 PRO",
+        "title": "UNIDADE DE DISCO SONY PLAYSTATION 5 PS5 CFI ZDD1 PARA PS5 SLIM E PS5 PRO",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_367117_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/unidade-de-disco-sony-playstation-5-ps5-cfi-zdd1-para-ps5-slim-e-ps5-pro/367117.html",
+        "specs": [
+            "SONY",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12660,
+        "ref": "229911",
+        "brand": "SONY",
+        "title_orig": "CONTROLE SONY PLAYSTATION 5 PS5 DUALSENSE CFI ZCT1W SEM FIO USB C ORIGINAL CHROMA INDIGO",
+        "title": "CONTROLE SONY PLAYSTATION 5 PS5 DUALSENSE CFI ZCT1W SEM FIO USB C ORIGINAL CHROMA INDIGO",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_229911_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/controle-sony-playstation-5-ps5-dualsense-cfi-zct1w-sem-fio-usb-c-original-chroma-indigo/229911.html",
+        "specs": [
+            "SONY",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12661,
+        "ref": "365732",
+        "brand": "SONY",
+        "title_orig": "CONTROLE SONY PLAYSTATION 5 PS5 DUALSENSE CFI ZCT1W SEM FIO USB C ORIGINAL STERLING SILVER",
+        "title": "CONTROLE SONY PLAYSTATION 5 PS5 DUALSENSE CFI ZCT1W SEM FIO USB C ORIGINAL STERLING SILVER",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_365732_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/controle-sony-playstation-5-ps5-dualsense-cfi-zct1w-sem-fio-usb-c-original-sterling-silver/365732.html",
+        "specs": [
+            "SONY",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12662,
+        "ref": "389984",
+        "brand": "SONY",
+        "title_orig": "CONSOLE SONY PLAYSTATION PS5 SLIM CFI 2115B 4K DIGITAL 120HZ 825GB SEM DISCO BIVOLT FORTNITE",
+        "title": "CONSOLE SONY PLAYSTATION PS5 SLIM CFI 2115B 4K DIGITAL 120HZ 825GB SEM DISCO BIVOLT FORTNITE",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_389984_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/console-sony-playstation-ps5-slim-cfi-2115b-4k-digital-120hz-825gb-sem-disco-bivolt-fortnite/389984.html",
+        "specs": [
+            "SONY",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12663,
+        "ref": "389973",
+        "brand": "SONY",
+        "title_orig": "CONSOLE SONY PLAYSTATION 5 PS5 SLIM CFI 2015 4K 120HZ 1TB BIVOLT COM DISCO BRANCO",
+        "title": "CONSOLE SONY PLAYSTATION 5 PS5 SLIM CFI 2015 4K 120HZ 1TB BIVOLT COM DISCO Blanco",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_389973_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/console-sony-playstation-5-ps5-slim-cfi-2015-4k-120hz-1tb-bivolt-com-disco-branco/389973.html",
+        "specs": [
+            "SONY",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12664,
+        "ref": "404287",
+        "brand": "SONY",
+        "title_orig": "CONSOLE SONY PLAYSTATION 5 PS5 SLIM CFI 2115 4K 120HZ 1TB BIVOLT COM DISCO ASTRO BOT GRAN TURISMO 7",
+        "title": "CONSOLE SONY PLAYSTATION 5 PS5 SLIM CFI 2115 4K 120HZ 1TB BIVOLT COM DISCO ASTRO BOT GRAN TURISMO 7",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_404287_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/console-sony-playstation-5-ps5-slim-cfi-2115-4k-120hz-1tb-bivolt-com-disco-astro-bot-gran-turismo-7/404287.html",
+        "specs": [
+            "SONY",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12665,
+        "ref": "405255",
+        "brand": "SONY",
+        "title_orig": "FONE SONY PLAYSTATION 5 PS5 PULSE ELITE CFI ZWH2 WIRELESS PRETO E BRANCO",
+        "title": "FONE SONY PLAYSTATION 5 PS5 PULSE ELITE CFI ZWH2 WIRELESS Negro E Blanco",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_405255_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-sony-playstation-5-ps5-pulse-elite-cfi-zwh2-wireless-preto-e-branco/405255.html",
+        "specs": [
+            "SONY",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12666,
+        "ref": "406087",
+        "brand": "SONY",
+        "title_orig": "CONTROLE SONY PLAYSTATION 5 PS5 DUALSENSE CFI ZCT2W SEM FIO USB C RHYTHM BLUE",
+        "title": "CONTROLE SONY PLAYSTATION 5 PS5 DUALSENSE CFI ZCT2W SEM FIO USB C RHYTHM BLUE",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_406087_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/controle-sony-playstation-5-ps5-dualsense-cfi-zct2w-sem-fio-usb-c-rhythm-blue/406087.html",
+        "specs": [
+            "SONY",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12667,
+        "ref": "406076",
+        "brand": "SONY",
+        "title_orig": "CONTROLE SONY PLAYSTATION 5 PS5 DUALSENSE CFI ZCT2W SEM FIO USB C GALACTIC PURPLE",
+        "title": "CONTROLE SONY PLAYSTATION 5 PS5 DUALSENSE CFI ZCT2W SEM FIO USB C GALACTIC PURPLE",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_406076_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/controle-sony-playstation-5-ps5-dualsense-cfi-zct2w-sem-fio-usb-c-galactic-purple/406076.html",
+        "specs": [
+            "SONY",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12668,
+        "ref": "405266",
+        "brand": "SONY",
+        "title_orig": "FONE SONY PLAYSTATION 5 PS5 PULSE ELITE CFI ZWH2 WIRELESS PRETO",
+        "title": "FONE SONY PLAYSTATION 5 PS5 PULSE ELITE CFI ZWH2 WIRELESS Negro",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_405266_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-sony-playstation-5-ps5-pulse-elite-cfi-zwh2-wireless-preto/405266.html",
+        "specs": [
+            "SONY",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12669,
+        "ref": "411847",
+        "brand": "SONY",
+        "title_orig": "CONTROLE PS5 SONY DUAL SENSE CFI ZCT2W TECHNO RED",
+        "title": "CONTROLE PS5 SONY DUAL SENSE CFI ZCT2W TECHNO RED",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_411847_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/controle-ps5-sony-dual-sense-cfi-zct2w-techno-red/411847.html",
+        "specs": [
+            "SONY",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12670,
+        "ref": "258015",
+        "brand": "SONY",
+        "title_orig": "CONSOLE SONY PS5 CFI 2015 SLIM DIGITAL 1TB 8K BIVOLT",
+        "title": "CONSOLE SONY PS5 CFI 2015 SLIM DIGITAL 1TB 8K BIVOLT",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_258015_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/console-sony-ps5-cfi-2015-slim-digital-1tb-8k-bivolt/258015.html",
+        "specs": [
+            "SONY",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12671,
+        "ref": "305792",
+        "brand": "SONY",
+        "title_orig": "CONSOLE SONY PS5 SLIM 4K 120HZ 1TB BIVOLT CARD FORTNITE CFI 2115B COM DISCO",
+        "title": "CONSOLE SONY PS5 SLIM 4K 120HZ 1TB BIVOLT CARD FORTNITE CFI 2115B COM DISCO",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_305792_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/console-sony-ps5-slim-4k-120hz-1tb-bivolt-card-fortnite-cfi-2115b-com-disco/305792.html",
+        "specs": [
+            "SONY",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12672,
+        "ref": "231533",
+        "brand": "SONY",
+        "title_orig": "CONSOLE SONY PS5 CFI 2015A 1TB RETURN RCLANK COM DISCO",
+        "title": "CONSOLE SONY PS5 CFI 2015A 1TB RETURN RCLANK COM DISCO",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_231533_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/console-sony-ps5-cfi-2015a-1tb-return-rclank-com-disco/231533.html",
+        "specs": [
+            "SONY",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12673,
+        "ref": "222847",
+        "brand": "SONY",
+        "title_orig": "CONTROLE SONY DUALSHOCK 4 PLAYSTATION 4 PS4 SEM FIO MICRO USB ORIGINAL VERMELHO  222847",
+        "title": "CONTROLE SONY DUALSHOCK 4 PLAYSTATION 4 PS4 SEM FIO MICRO USB ORIGINAL Rojo  222847",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_222847_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/controle-sony-dualshock-4-playstation-4-ps4-sem-fio-micro-usb-original-vermelho-codigo-222847/222847.html",
+        "specs": [
+            "SONY",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12674,
+        "ref": "222858",
+        "brand": "SONY",
+        "title_orig": "CONTROLE PS4 SONY DUALSHOCK 4 GREEN CAMUFLADO ORI 222858",
+        "title": "CONTROLE PS4 SONY DUALSHOCK 4 GREEN CAMUFLADO ORI 222858",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_222858_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/controle-ps4-sony-dualshock-4-green-camuflado-ori-222858/222858.html",
+        "specs": [
+            "SONY",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12675,
+        "ref": "398591",
+        "brand": "NINTENDO",
+        "title_orig": "CONTROLE SUPER NINTENDO PLAY GAME PADRAO USB CINZA  398591",
+        "title": "CONTROLE SUPER NINTENDO PLAY GAME PADRAO USB Gris  398591",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_398591_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/controle-super-nintendo-play-game-padrao-usb-cinza-codigo-398591/398591.html",
+        "specs": [
+            "NINTENDO",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12676,
+        "ref": "232365",
+        "brand": "NINTENDO",
+        "title_orig": "CONTROLE NINTENDO SWITCH PRO CONTROLLER 232365",
+        "title": "CONTROLE NINTENDO SWITCH PRO CONTROLLER 232365",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_232365_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/controle-nintendo-switch-pro-controller-232365/232365.html",
+        "specs": [
+            "NINTENDO",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12677,
+        "ref": "117367",
+        "brand": "NINTENDO",
+        "title_orig": "CARREGADOR P CONT NINTENDO SWITCH HYPERX HX CPQD 117367",
+        "title": "CARREGADOR P CONT NINTENDO SWITCH HYPERX HX CPQD 117367",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_117367_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/carregador-p-cont-nintendo-switch-hyperx-hx-cpqd-117367/117367.html",
+        "specs": [
+            "NINTENDO",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12678,
+        "ref": "160231",
+        "brand": "NINTENDO",
+        "title_orig": "CONSOLE NINTENDO SWITCH 64GB OLED WHITE HEG 001",
+        "title": "CONSOLE NINTENDO SWITCH 64GB OLED WHITE HEG 001",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_160231_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/console-nintendo-switch-64gb-oled-white-heg-001/160231.html",
+        "specs": [
+            "NINTENDO",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12679,
+        "ref": "170568",
+        "brand": "NINTENDO",
+        "title_orig": "CONTROLE SUPER NINTENDO PLAY GAME PADRAO USB 170568",
+        "title": "CONTROLE SUPER NINTENDO PLAY GAME PADRAO USB 170568",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_170568_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/controle-super-nintendo-play-game-padrao-usb-170568/170568.html",
+        "specs": [
+            "NINTENDO",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12680,
+        "ref": "271504",
+        "brand": "NINTENDO",
+        "title_orig": "CONSOLE NINTENDO SWITCH LITE HDH S YAZAA JPN YELL",
+        "title": "CONSOLE NINTENDO SWITCH LITE HDH S YAZAA JPN YELL",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_271504_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/console-nintendo-switch-lite-hdh-s-yazaa-jpn-yell/271504.html",
+        "specs": [
+            "NINTENDO",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12681,
+        "ref": "211564",
+        "brand": "NINTENDO",
+        "title_orig": "CONSOLE NINTENDO SWITCH 64GB OLED SPLATOON 3 HEG S KCAAA  211564",
+        "title": "CONSOLE NINTENDO SWITCH 64GB OLED SPLATOON 3 HEG S KCAAA  211564",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_211564_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/console-nintendo-switch-64gb-oled-splatoon-3-heg-s-kcaaa-codigo-211564/211564.html",
+        "specs": [
+            "NINTENDO",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12682,
+        "ref": "223220",
+        "brand": "NINTENDO",
+        "title_orig": "CONSOLE NINTENDO SWITCH 64GB OLED WHITE BLACK JPN",
+        "title": "CONSOLE NINTENDO SWITCH 64GB OLED WHITE BLACK JPN",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_223220_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/console-nintendo-switch-64gb-oled-white-black-jpn/223220.html",
+        "specs": [
+            "NINTENDO",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12683,
+        "ref": "70120",
+        "brand": "NINTENDO",
+        "title_orig": "CONSOLE NINTENDO SWITCH LITE HDH S BAZAA TURQUESA JPN",
+        "title": "CONSOLE NINTENDO SWITCH LITE HDH S BAZAA TURQUESA JPN",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_70120_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/console-nintendo-switch-lite-hdh-s-bazaa-turquesa-jpn/70120.html",
+        "specs": [
+            "NINTENDO",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12684,
+        "ref": "238439",
+        "brand": "NINTENDO",
+        "title_orig": "CONSOLE NINTENDO SWITCH RED HEG S RAAAA JPN",
+        "title": "CONSOLE NINTENDO SWITCH RED HEG S RAAAA JPN",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_238439_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/console-nintendo-switch-red-heg-s-raaaa-jpn-/238439.html",
+        "specs": [
+            "NINTENDO",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12685,
+        "ref": "324604",
+        "brand": "NINTENDO",
+        "title_orig": "CONSOLE NINTENDO SWITCH 2 256GB MARIO KART WORLD KART WORLD HKG GRAY  324604",
+        "title": "CONSOLE NINTENDO SWITCH 2 256GB MARIO KART WORLD KART WORLD HKG GRAY  324604",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_324604_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/console-nintendo-switch-2-256gb-mario-kart-world-kart-world-hkg-gray-codigo-324604/324604.html",
+        "specs": [
+            "NINTENDO",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12686,
+        "ref": "275271",
+        "brand": "NINTENDO",
+        "title_orig": "CONTROLE NINTENDO SWITCH JOY CON L R HAC A JAEAA BLUE RED JP",
+        "title": "CONTROLE NINTENDO SWITCH JOY CON L R HAC A JAEAA BLUE RED JP",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_275271_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/controle-nintendo-switch-joy-con-l-r-hac-a-jaeaa-blue-red-jp/275271.html",
+        "specs": [
+            "NINTENDO",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12687,
+        "ref": "332940",
+        "brand": "NINTENDO",
+        "title_orig": "CONSOLE NINTENDO SWITCH 2 256GB LCD GRAY UK 3PINOS LCD GRAY",
+        "title": "CONSOLE NINTENDO SWITCH 2 256GB LCD GRAY UK 3PINOS LCD GRAY",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_332940_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/console-nintendo-switch-2-256gb-lcd-gray-uk-3pinos-lcd-gray-/332940.html",
+        "specs": [
+            "NINTENDO",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12688,
+        "ref": "360716",
+        "brand": "NINTENDO",
+        "title_orig": "CONSOLE NINTENDO SWITCH 2 256GB MARIO KART WORLD KART WORLD HKG GRAY",
+        "title": "CONSOLE NINTENDO SWITCH 2 256GB MARIO KART WORLD KART WORLD HKG GRAY",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_360716_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/console-nintendo-switch-2-256gb-mario-kart-world-kart-world-hkg-gray/360716.html",
+        "specs": [
+            "NINTENDO",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12689,
+        "ref": "361065",
+        "brand": "NINTENDO",
+        "title_orig": "CONSOLE NINTENDO SWITCH OLED 64GB 7 AZUL VERMELH HEG 001",
+        "title": "CONSOLE NINTENDO SWITCH OLED 64GB 7 Azul VERMELH HEG 001",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_361065_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/console-nintendo-switch-oled-64gb-7-azul-vermelh-heg-001/361065.html",
+        "specs": [
+            "NINTENDO",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12690,
+        "ref": "201732",
+        "brand": "NINTENDO",
+        "title_orig": "CARTAO MICROSD 128GB SANDISK NINTENDO 100 90MBS SDSQXAO 128G GNCZN",
+        "title": "CARTAO MICROSD 128GB SANDISK NINTENDO 100 90MBS SDSQXAO 128G GNCZN",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_201732_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cartao-microsd-128gb-sandisk-nintendo-100-90mbs-sdsqxao-128g-gnczn/201732.html",
+        "specs": [
+            "NINTENDO",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12691,
+        "ref": "232343",
+        "brand": "NINTENDO",
+        "title_orig": "CONSOLE NINTENDO SWITCH LITE CINZA JP HDH S GAZAA  232343",
+        "title": "CONSOLE NINTENDO SWITCH LITE Gris JP HDH S GAZAA  232343",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_232343_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/console-nintendo-switch-lite-cinza-jp-hdh-s-gazaa-codigo-232343/232343.html",
+        "specs": [
+            "NINTENDO",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12692,
+        "ref": "354763",
+        "brand": "NINTENDO",
+        "title_orig": "CONSOLE NINTENDO SWITCH LITE CORAL JP HDH S PAZAA  354763",
+        "title": "CONSOLE NINTENDO SWITCH LITE CORAL JP HDH S PAZAA  354763",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_354763_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/console-nintendo-switch-lite-coral-jp-hdh-s-pazaa-codigo-354763/354763.html",
+        "specs": [
+            "NINTENDO",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12693,
+        "ref": "234176",
+        "brand": "NINTENDO",
+        "title_orig": "CONSOLE NINTENDO SWITCH OLED 64GB 7 POKEMON EDT HEG S KEAAA",
+        "title": "CONSOLE NINTENDO SWITCH OLED 64GB 7 POKEMON EDT HEG S KEAAA",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_234176_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/console-nintendo-switch-oled-64gb-7-pokemon-edt-heg-s-keaaa/234176.html",
+        "specs": [
+            "NINTENDO",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12694,
+        "ref": "360514",
+        "brand": "NINTENDO",
+        "title_orig": "CONSOLE NINTENDO SWITCH LED HEG 001 7PL WIFI BT VER AZUL",
+        "title": "CONSOLE NINTENDO SWITCH LED HEG 001 7PL WIFI BT VER Azul",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_360514_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/console-nintendo-switch-led-heg-001-7pl-wifi-bt-ver-azul/360514.html",
+        "specs": [
+            "NINTENDO",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12695,
+        "ref": "365710",
+        "brand": "NINTENDO",
+        "title_orig": "CONSOLE NINTENDO SWITCH OLED 64GB 7 BRANCO HEG 001  365710",
+        "title": "CONSOLE NINTENDO SWITCH OLED 64GB 7 Blanco HEG 001  365710",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_365710_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/console-nintendo-switch-oled-64gb-7-branco-heg-001-codigo-365710/365710.html",
+        "specs": [
+            "NINTENDO",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12696,
+        "ref": "261962",
+        "brand": "INTEL",
+        "title_orig": "WATER COOLER CPU CORSAIR H100I ELITE LCD XT CW 9060074 WW LIQUID AF RGB 240MM INTEL 115X 1200 1700 2011 2066 AMD AM4 AM5 TR4 STRX4 PRETO",
+        "title": "WATER COOLER CPU CORSAIR H100I ELITE LCD XT CW 9060074 WW LIQUID AF RGB 240MM INTEL 115X 1200 1700 2011 2066 AMD AM4 AM5 TR4 STRX4 Negro",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_261962_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/water-cooler-cpu-corsair-h100i-elite-lcd-xt-cw-9060074-ww-liquid-af-rgb-240mm-intel-115x-1200-1700-2011-2066-amd-am4-am5-tr4-strx4-preto/261962.html",
+        "specs": [
+            "INTEL",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12697,
+        "ref": "240645",
+        "brand": "CORSAIR",
+        "title_orig": "COOLER WATER CORSAIR H100I RGB AIO ICUE LINK",
+        "title": "COOLER WATER CORSAIR H100I RGB AIO ICUE LINK",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_240645_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-water-corsair-h100i-rgb-aio-icue-link/240645.html",
+        "specs": [
+            "CORSAIR",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12698,
+        "ref": "240623",
+        "brand": "CORSAIR",
+        "title_orig": "COOLER WATER CORSAIR H100I RGB ICUE LINK WHITE 240623",
+        "title": "COOLER WATER CORSAIR H100I RGB ICUE LINK WHITE 240623",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_240623_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-water-corsair-h100i-rgb-icue-link-white-240623/240623.html",
+        "specs": [
+            "CORSAIR",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12699,
+        "ref": "326852",
+        "brand": "CORSAIR",
+        "title_orig": "COOLER FAN CORSAIR QX120 ICUE LINK RGB 120MM WHITE CO 9051005 WW",
+        "title": "COOLER FAN CORSAIR QX120 ICUE LINK RGB 120MM WHITE CO 9051005 WW",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_326852_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-fan-corsair-qx120-icue-link-rgb-120mm-white-co-9051005-ww/326852.html",
+        "specs": [
+            "CORSAIR",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12700,
+        "ref": "265966",
+        "brand": "CORSAIR",
+        "title_orig": "TECLADO CORSAIR K100 AIR RGB MECHAN WIRELESS PRETO",
+        "title": "TECLADO CORSAIR K100 AIR RGB MECHAN WIRELESS Negro",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_265966_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-corsair-k100-air-rgb-mechan-wireless-preto/265966.html",
+        "specs": [
+            "CORSAIR",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12701,
+        "ref": "325504",
+        "brand": "CORSAIR",
+        "title_orig": "MEMORIA CORSAIR VENGEANCE DDR5 16GB RGB 6000MHZ C DISSIPADOR CMH16GX5M1E6000Z36 PRETO",
+        "title": "MEMORIA CORSAIR VENGEANCE DDR5 16GB RGB 6000MHZ C DISSIPADOR CMH16GX5M1E6000Z36 Negro",
+        "category": "Memorias RAM",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_325504_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/memoria-corsair-vengeance-ddr5-16gb-rgb-6000mhz-c-dissipador-cmh16gx5m1e6000z36-preto/325504.html",
+        "specs": [
+            "CORSAIR",
+            "Memorias RAM"
+        ]
+    },
+    {
+        "id": 12702,
+        "ref": "92538",
+        "brand": "CORSAIR",
+        "title_orig": "MOUSE CORSAIR KATAR PRO RGB CH 930C011 NA PRETO CH 930C011 NA  92538",
+        "title": "MOUSE CORSAIR KATAR PRO RGB CH 930C011 NA Negro CH 930C011 NA  92538",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_92538_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-corsair-katar-pro-rgb-ch-930c011-na-preto-ch-930c011-na-codigo-92538/92538.html",
+        "specs": [
+            "CORSAIR",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12703,
+        "ref": "327932",
+        "brand": "CORSAIR",
+        "title_orig": "COOLER WATER CORSAIR NAUTILUS 240RS ARGB 240MM PRE CW 9060092 WW  327932",
+        "title": "COOLER WATER CORSAIR NAUTILUS 240RS ARGB 240MM PRE CW 9060092 WW  327932",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_327932_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-water-corsair-nautilus-240rs-argb-240mm-pre-cw-9060092-ww-codigo-327932/327932.html",
+        "specs": [
+            "CORSAIR",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12704,
+        "ref": "318976",
+        "brand": "CORSAIR",
+        "title_orig": "PASTA TERMICA CORSAIR XTM60 PERFORMANCE CT 9010015 CT 9010015 WW  318976",
+        "title": "PASTA TERMICA CORSAIR XTM60 PERFORMANCE CT 9010015 CT 9010015 WW  318976",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_318976_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/pasta-termica-corsair-xtm60-performance-ct-9010015-ct-9010015-ww-codigo-318976/318976.html",
+        "specs": [
+            "CORSAIR",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12705,
+        "ref": "319002",
+        "brand": "CORSAIR",
+        "title_orig": "TECLADO CORSAIR K55 CORE USB RGB PRETO USA CH 9226C65 NA",
+        "title": "TECLADO CORSAIR K55 CORE USB RGB Negro USA CH 9226C65 NA",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_319002_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-corsair-k55-core-usb-rgb-preto-usa-ch-9226c65-na/319002.html",
+        "specs": [
+            "CORSAIR",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12706,
+        "ref": "363932",
+        "brand": "CORSAIR",
+        "title_orig": "MOUSE CORSAIR M55 WIRELESS CH 931F002 NA PRETO",
+        "title": "MOUSE CORSAIR M55 WIRELESS CH 931F002 NA Negro",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_363932_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-corsair-m55-wireless-ch-931f002-na-preto/363932.html",
+        "specs": [
+            "CORSAIR",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12707,
+        "ref": "101428",
+        "brand": "REDRAGON",
+        "title_orig": "TECLADO GAMER MECANICO REDRAGON KUMARA K552W RGB 80 USB SWITCH OUTEMU BLUE INGLES BRANCO  101428",
+        "title": "TECLADO GAMER MECANICO REDRAGON KUMARA K552W RGB 80 USB SWITCH OUTEMU BLUE INGLES Blanco  101428",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_101428_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-gamer-mecanico-redragon-kumara-k552w-rgb-80-usb-switch-outemu-blue-ingles-branco-codigo-101428/101428.html",
+        "specs": [
+            "REDRAGON",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12708,
+        "ref": "161300",
+        "brand": "REDRAGON",
+        "title_orig": "TECLADO REDRAGON K616 RGB FIZZ PRO BT WIFI BLACK",
+        "title": "TECLADO REDRAGON K616 RGB FIZZ PRO BT WIFI BLACK",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_161300_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-redragon-k616-rgb-fizz-pro-bt-wifi-black/161300.html",
+        "specs": [
+            "REDRAGON",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12709,
+        "ref": "301676",
+        "brand": "REDRAGON",
+        "title_orig": "TECLADO GAMER MECANICO REDRAGON GALATIN PRO K719 RGB 96 SEM FIO USB C BT SWITCH MAMBO BRANCO VERDE INGLES",
+        "title": "TECLADO GAMER MECANICO REDRAGON GALATIN PRO K719 RGB 96 SEM FIO USB C BT SWITCH MAMBO Blanco Verde INGLES",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_301676_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-gamer-mecanico-redragon-galatin-pro-k719-rgb-96-sem-fio-usb-c-bt-switch-mambo-branco-verde-ingles/301676.html",
+        "specs": [
+            "REDRAGON",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12710,
+        "ref": "255280",
+        "brand": "REDRAGON",
+        "title_orig": "TECLADO REDRAGON K605 ALIEN MECA RGB PRETO USA",
+        "title": "TECLADO REDRAGON K605 ALIEN MECA RGB Negro USA",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_255280_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-redragon-k605-alien-meca-rgb-preto-usa/255280.html",
+        "specs": [
+            "REDRAGON",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12711,
+        "ref": "23071",
+        "brand": "REDRAGON",
+        "title_orig": "MOUSE REDRAGON M711 COBRA GAMING 10000DPI RGB BLK",
+        "title": "MOUSE REDRAGON M711 COBRA GAMING 10000DPI RGB BLK",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_23071_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-redragon-m711-cobra-gaming-10000dpi-rgb-blk/23071.html",
+        "specs": [
+            "REDRAGON",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12712,
+        "ref": "294206",
+        "brand": "REDRAGON",
+        "title_orig": "TECLADO REDRAGON K709W RGB NOVA MECANI USA WHITE",
+        "title": "TECLADO REDRAGON K709W RGB NOVA MECANI USA WHITE",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_294206_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-redragon-k709w-rgb-nova-mecani-usa-white/294206.html",
+        "specs": [
+            "REDRAGON",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12713,
+        "ref": "294037",
+        "brand": "STAR",
+        "title_orig": "MOUSE REDRAGON M917GB PRO WIRELESS 26000DPI GREY STAR GREY",
+        "title": "MOUSE REDRAGON M917GB PRO WIRELESS 26000DPI GREY STAR GREY",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_294037_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-redragon-m917gb-pro-wireless-26000dpi-grey-star-grey/294037.html",
+        "specs": [
+            "STAR",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12714,
+        "ref": "256215",
+        "brand": "REDRAGON",
+        "title_orig": "TECLADO GAMER MECANICO REDRAGON ELF PRO K649CT RGB 75 SEM FIO USB C BT SWITCH CRYSTAL INGLES TRANSPARENTE",
+        "title": "TECLADO GAMER MECANICO REDRAGON ELF PRO K649CT RGB 75 SEM FIO USB C BT SWITCH CRYSTAL INGLES TRANSPARENTE",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_256215_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-gamer-mecanico-redragon-elf-pro-k649ct-rgb-75-sem-fio-usb-c-bt-switch-crystal-ingles-transparente/256215.html",
+        "specs": [
+            "REDRAGON",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12715,
+        "ref": "244605",
+        "brand": "REDRAGON",
+        "title_orig": "MOUSE REDRAGON M656 GAINER WIRELESS BLACK 4000DPI",
+        "title": "MOUSE REDRAGON M656 GAINER WIRELESS BLACK 4000DPI",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_244605_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-redragon-m656-gainer-wireless-black-4000dpi/244605.html",
+        "specs": [
+            "REDRAGON",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12716,
+        "ref": "143759",
+        "brand": "REDRAGON",
+        "title_orig": "TECLADO REDRAGON K599 KRS DEIMOS WIFI TYPE C BLACK K999 KRS",
+        "title": "TECLADO REDRAGON K599 KRS DEIMOS WIFI TYPE C BLACK K999 KRS",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_143759_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-redragon-k599-krs-deimos-wifi-type-c-black-k999-krs/143759.html",
+        "specs": [
+            "REDRAGON",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12717,
+        "ref": "294182",
+        "brand": "REDRAGON",
+        "title_orig": "TECLADO GAMER MECANICO REDRAGON EISA MAX K686WBG RGB 96 SEM FIO USB C BT SWITCH MAMBO VERDE PRETO BRANCO INGLES",
+        "title": "TECLADO GAMER MECANICO REDRAGON EISA MAX K686WBG RGB 96 SEM FIO USB C BT SWITCH MAMBO Verde Negro Blanco INGLES",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_294182_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-gamer-mecanico-redragon-eisa-max-k686wbg-rgb-96-sem-fio-usb-c-bt-switch-mambo-verde-preto-branco-ingles/294182.html",
+        "specs": [
+            "REDRAGON",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12718,
+        "ref": "244650",
+        "brand": "REDRAGON",
+        "title_orig": "MOUSE REDRAGON M808W KS STORM PRO WIRELESS WHITE",
+        "title": "MOUSE REDRAGON M808W KS STORM PRO WIRELESS WHITE",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_244650_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-redragon-m808w-ks-storm-pro-wireless-white/244650.html",
+        "specs": [
+            "REDRAGON",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12719,
+        "ref": "51599",
+        "brand": "REDRAGON",
+        "title_orig": "MOUSE REDRAGON M607 GRIFFIN GAMING RGB 7200DPI BLK  51599",
+        "title": "MOUSE REDRAGON M607 GRIFFIN GAMING RGB 7200DPI BLK  51599",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_51599_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-redragon-m607-griffin-gaming-rgb-7200dpi-blk-codigo-51599/51599.html",
+        "specs": [
+            "REDRAGON",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12720,
+        "ref": "294105",
+        "brand": "REDRAGON",
+        "title_orig": "TECLADO REDRAGON K641B BW RGB SHACO MECAN RGB BLU C SUPORTE USA",
+        "title": "TECLADO REDRAGON K641B BW RGB SHACO MECAN RGB BLU C SUPORTE USA",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_294105_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-redragon-k641b-bw-rgb-shaco-mecan-rgb-blu-c-suporte-usa/294105.html",
+        "specs": [
+            "REDRAGON",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12721,
+        "ref": "332265",
+        "brand": "REDRAGON",
+        "title_orig": "TECLADO REDRAGON BK 7114GB 96 SEM FIO BT SWITCH SCISSOR PRETO BRANCO INGLES",
+        "title": "TECLADO REDRAGON BK 7114GB 96 SEM FIO BT SWITCH SCISSOR Negro Blanco INGLES",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_332265_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-redragon-bk-7114gb-96-sem-fio-bt-switch-scissor-preto-branco-ingles/332265.html",
+        "specs": [
+            "REDRAGON",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12722,
+        "ref": "215748",
+        "brand": "REDRAGON",
+        "title_orig": "TECLADO REDRAGON K530RGB PRO DRACONIC MEC USA  215748",
+        "title": "TECLADO REDRAGON K530RGB PRO DRACONIC MEC USA  215748",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_215748_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-redragon-k530rgb-pro-draconic-mec-usa-codigo-215748/215748.html",
+        "specs": [
+            "REDRAGON",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12723,
+        "ref": "240500",
+        "brand": "AIGO",
+        "title_orig": "COOLER FAN DE GABINETE KIT COM 3 AIGO DARKFLASH AM12 PRO ARGB ARGB 3 PINOS PWM 4 PINOS 120MM SEM CONTROLADOR PRETO",
+        "title": "COOLER FAN DE GABINETE KIT COM 3 AIGO DARKFLASH AM12 PRO ARGB ARGB 3 PINOS PWM 4 PINOS 120MM SEM CONTROLADOR Negro",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_240500_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-fan-de-gabinete-kit-com-3-aigo-darkflash-am12-pro-argb-argb-3-pinos-pwm-4-pinos-120mm-sem-controlador-preto/240500.html",
+        "specs": [
+            "AIGO",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 12724,
+        "ref": "120956",
+        "brand": "AIGO",
+        "title_orig": "PASTA TERMICA AIGO ZER 07 1G 3 0W M K GOLD  120956",
+        "title": "PASTA TERMICA AIGO ZER 07 1G 3 0W M K GOLD  120956",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_120956_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/pasta-termica-aigo-zer-07-1g-3-0w-m-k-gold-codigo-120956/120956.html",
+        "specs": [
+            "AIGO",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12725,
+        "ref": "241668",
+        "brand": "INTEL",
+        "title_orig": "WATER COOLER CPU AIGO DARKFLASH TWISTER DX 240 V2 6 LIQUID ARGB PRETO 240MM INTEL 115X 1200 1700 2011 V3 AMD AM2 AM3 AM4 AM5 FM2",
+        "title": "WATER COOLER CPU AIGO DARKFLASH TWISTER DX 240 V2 6 LIQUID ARGB Negro 240MM INTEL 115X 1200 1700 2011 V3 AMD AM2 AM3 AM4 AM5 FM2",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_241668_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/water-cooler-cpu-aigo-darkflash-twister-dx-240-v2-6-liquid-argb-preto-240mm-intel-115x-1200-1700-2011-v3-amd-am2-am3-am4-am5-fm2-/241668.html",
+        "specs": [
+            "INTEL",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12726,
+        "ref": "204195",
+        "brand": "INTEL",
+        "title_orig": "WATER COOLER CPU AIGO DARKFLASH SYMPHONY TR360 LIQUID ARGB BRANCO 360MM INTEL 775 115X 1200 1366 1700 2011 V3 AMD AM2 AM3 AM4 AM5 FM2",
+        "title": "WATER COOLER CPU AIGO DARKFLASH SYMPHONY TR360 LIQUID ARGB Blanco 360MM INTEL 775 115X 1200 1366 1700 2011 V3 AMD AM2 AM3 AM4 AM5 FM2",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_204195_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/water-cooler-cpu-aigo-darkflash-symphony-tr360-liquid-argb-branco-360mm-intel-775-115x-1200-1366-1700-2011-v3-amd-am2-am3-am4-am5-fm2-/204195.html",
+        "specs": [
+            "INTEL",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12727,
+        "ref": "256652",
+        "brand": "INTEL",
+        "title_orig": "WATER COOLER CPU AIGO DARKFLASH RADIANT DCS 240 LIQUID ARGB PRETO 240MM INTEL 115X 1200 1700 2011 V3 AMD AM3 AM4 AM5 FM2   256652",
+        "title": "WATER COOLER CPU AIGO DARKFLASH RADIANT DCS 240 LIQUID ARGB Negro 240MM INTEL 115X 1200 1700 2011 V3 AMD AM3 AM4 AM5 FM2   256652",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_256652_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/water-cooler-cpu-aigo-darkflash-radiant-dcs-240-liquid-argb-preto-240mm-intel-115x-1200-1700-2011-v3-amd-am3-am4-am5-fm2--codigo-256652/256652.html",
+        "specs": [
+            "INTEL",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12728,
+        "ref": "232051",
+        "brand": "AIGO",
+        "title_orig": "COOLER FAN DE GABINETE AIGO DARKFLASH AM12 PRO ARGB ARGB 3 PINOS PWM 4 PINOS 120MM BRANCO",
+        "title": "COOLER FAN DE GABINETE AIGO DARKFLASH AM12 PRO ARGB ARGB 3 PINOS PWM 4 PINOS 120MM Blanco",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_232051_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-fan-de-gabinete-aigo-darkflash-am12-pro-argb-argb-3-pinos-pwm-4-pinos-120mm-branco/232051.html",
+        "specs": [
+            "AIGO",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 12729,
+        "ref": "256674",
+        "brand": "INTEL",
+        "title_orig": "WATER COOLER CPU AIGO DARKFLASH TWISTER DX360 V2 6 LIQUID ARGB BRANCO 360MM INTEL 115X 1200 1700 2011 V3 AMD AM2 AM3 AM4 AM5 FM2",
+        "title": "WATER COOLER CPU AIGO DARKFLASH TWISTER DX360 V2 6 LIQUID ARGB Blanco 360MM INTEL 115X 1200 1700 2011 V3 AMD AM2 AM3 AM4 AM5 FM2",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_256674_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/water-cooler-cpu-aigo-darkflash-twister-dx360-v2-6-liquid-argb-branco-360mm-intel-115x-1200-1700-2011-v3-amd-am2-am3-am4-am5-fm2-/256674.html",
+        "specs": [
+            "INTEL",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12730,
+        "ref": "204151",
+        "brand": "INTEL",
+        "title_orig": "WATER COOLER CPU AIGO DARKFLASH TWISTER DX120 V2 LIQUID ARGB PINK 120MM INTEL 775 115X 1200 1366 1700 2011 V3 AMD AM2 AM3 AM4 AM5 FM2",
+        "title": "WATER COOLER CPU AIGO DARKFLASH TWISTER DX120 V2 LIQUID ARGB PINK 120MM INTEL 775 115X 1200 1366 1700 2011 V3 AMD AM2 AM3 AM4 AM5 FM2",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_204151_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/water-cooler-cpu-aigo-darkflash-twister-dx120-v2-liquid-argb-pink-120mm-intel-775-115x-1200-1366-1700-2011-v3-amd-am2-am3-am4-am5-fm2-/204151.html",
+        "specs": [
+            "INTEL",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12731,
+        "ref": "94002",
+        "brand": "INTEL",
+        "title_orig": "WATER COOLER CPU AIGO DARKFLASH SYMPHONY TR120 LIQUID ARGB BRANCO 120MM INTEL 115X 1200 1366 1700 2011 V3 AMD AM2 AM3 AM4 AM5 FM2",
+        "title": "WATER COOLER CPU AIGO DARKFLASH SYMPHONY TR120 LIQUID ARGB Blanco 120MM INTEL 115X 1200 1366 1700 2011 V3 AMD AM2 AM3 AM4 AM5 FM2",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_94002_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/water-cooler-cpu-aigo-darkflash-symphony-tr120-liquid-argb-branco-120mm-intel-115x-1200-1366-1700-2011-v3-amd-am2-am3-am4-am5-fm2-/94002.html",
+        "specs": [
+            "INTEL",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12732,
+        "ref": "169745",
+        "brand": "AIGO",
+        "title_orig": "COOLER FAN DE GABINETE AIGO DARKFLASH DM12 PRO ARGB DF DM12 PRO B PH1 ARGB 3 PINOS PWM 4 PINOS 120MM BRANCO",
+        "title": "COOLER FAN DE GABINETE AIGO DARKFLASH DM12 PRO ARGB DF DM12 PRO B PH1 ARGB 3 PINOS PWM 4 PINOS 120MM Blanco",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_169745_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-fan-de-gabinete-aigo-darkflash-dm12-pro-argb-df-dm12-pro-b-ph1-argb-3-pinos-pwm-4-pinos-120mm-branco/169745.html",
+        "specs": [
+            "AIGO",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 12733,
+        "ref": "297444",
+        "brand": "INTEL",
+        "title_orig": "WATER COOLER CPU AIGO DARKFLASH NEBULA DN240S 2 1 IPS DISPLAY LIQUID ARGB PRETO 240MM INTEL 115X 1200 1700 AMD AM3 AM4 AM5  297444",
+        "title": "WATER COOLER CPU AIGO DARKFLASH NEBULA DN240S 2 1 IPS DISPLAY LIQUID ARGB Negro 240MM INTEL 115X 1200 1700 AMD AM3 AM4 AM5  297444",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_297444_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/water-cooler-cpu-aigo-darkflash-nebula-dn240s-2-1-ips-display-liquid-argb-preto-240mm-intel-115x-1200-1700-amd-am3-am4-am5-codigo-297444/297444.html",
+        "specs": [
+            "INTEL",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12734,
+        "ref": "297499",
+        "brand": "AIGO",
+        "title_orig": "COOLER WATER AIGO DARKFALSH DN360S NEBULA WHITE C DISPLAY 2 1",
+        "title": "COOLER WATER AIGO DARKFALSH DN360S NEBULA WHITE C DISPLAY 2 1",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_297499_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-water-aigo-darkfalsh-dn360s-nebula-white-c-display-2-1/297499.html",
+        "specs": [
+            "AIGO",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12735,
+        "ref": "204162",
+        "brand": "INTEL",
+        "title_orig": "WATER COOLER CPU AIGO DARKFLASH TWISTER DX120 V2 6 LIQUID ARGB BRANCO 120MM INTEL 775 115X 1200 1366 1700 2011 V3 AMD AM2 AM3 AM4 AM5 FM2",
+        "title": "WATER COOLER CPU AIGO DARKFLASH TWISTER DX120 V2 6 LIQUID ARGB Blanco 120MM INTEL 775 115X 1200 1366 1700 2011 V3 AMD AM2 AM3 AM4 AM5 FM2",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_204162_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/water-cooler-cpu-aigo-darkflash-twister-dx120-v2-6-liquid-argb-branco-120mm-intel-775-115x-1200-1366-1700-2011-v3-amd-am2-am3-am4-am5-fm2-/204162.html",
+        "specs": [
+            "INTEL",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12736,
+        "ref": "297488",
+        "brand": "AIGO",
+        "title_orig": "COOLER WATER AIGO DARKFALSH DN360S NEBULA BLACK C DISPLAY 2 1",
+        "title": "COOLER WATER AIGO DARKFALSH DN360S NEBULA BLACK C DISPLAY 2 1",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_297488_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-water-aigo-darkfalsh-dn360s-nebula-black-c-display-2-1/297488.html",
+        "specs": [
+            "AIGO",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12737,
+        "ref": "323625",
+        "brand": "AIGO",
+        "title_orig": "COOLER CPU AIGO DARKFLASH M400 BLACK",
+        "title": "COOLER CPU AIGO DARKFLASH M400 BLACK",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_323625_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-cpu-aigo-darkflash-m400-black/323625.html",
+        "specs": [
+            "AIGO",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12738,
+        "ref": "307212",
+        "brand": "AIGO",
+        "title_orig": "COOLER FAN DE GABINETE AIGO DARKFLASH C6 C6M ARGB MOLEX 4 PINOS ARGB 3 PINOS PWM 4 PINOS 120MM BRANCO",
+        "title": "COOLER FAN DE GABINETE AIGO DARKFLASH C6 C6M ARGB MOLEX 4 PINOS ARGB 3 PINOS PWM 4 PINOS 120MM Blanco",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_307212_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/-cooler-fan-de-gabinete-aigo-darkflash-c6-c6m-argb-molex-4-pinos-argb-3-pinos-pwm-4-pinos-120mm-branco/307212.html",
+        "specs": [
+            "AIGO",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 12739,
+        "ref": "341726",
+        "brand": "AIGO",
+        "title_orig": "COOLER WATER AIGO DARKFLASH DV360S ARGB BLACK DV360S  341726",
+        "title": "COOLER WATER AIGO DARKFLASH DV360S ARGB BLACK DV360S  341726",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_341726_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-water-aigo-darkflash-dv360s-argb-black-dv360s-codigo-341726/341726.html",
+        "specs": [
+            "AIGO",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12740,
+        "ref": "307234",
+        "brand": "AIGO",
+        "title_orig": "COOLER FAN DE GABINETE AIGO DARKFLASH INF 24 PRO ARGB 5V ARGB 3 PINOS PWM 4 PINOS 120MM PRETO",
+        "title": "COOLER FAN DE GABINETE AIGO DARKFLASH INF 24 PRO ARGB 5V ARGB 3 PINOS PWM 4 PINOS 120MM Negro",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_307234_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-fan-de-gabinete-aigo-darkflash-inf-24-pro-argb-5v-argb-3-pinos-pwm-4-pinos-120mm-preto/307234.html",
+        "specs": [
+            "AIGO",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 12741,
+        "ref": "378680",
+        "brand": "AIGO",
+        "title_orig": "GABINETE AIGO DARKFLASH DK260 MESH AIR BLACK S FAN",
+        "title": "GABINETE AIGO DARKFLASH DK260 MESH AIR BLACK S FAN",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_378680_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-aigo-darkflash-dk260-mesh-air-black-s-fan/378680.html",
+        "specs": [
+            "AIGO",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 12742,
+        "ref": "323670",
+        "brand": "AIGO",
+        "title_orig": "COOLER WATER AIGO DARKFLASH DG360 BLACK  323670",
+        "title": "COOLER WATER AIGO DARKFLASH DG360 BLACK  323670",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_323670_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-water-aigo-darkflash-dg360-black-codigo-323670/323670.html",
+        "specs": [
+            "AIGO",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12743,
+        "ref": "323658",
+        "brand": "AIGO",
+        "title_orig": "COOLER WATER AIGO DARKFLASH DG240 BLACK  323658",
+        "title": "COOLER WATER AIGO DARKFLASH DG240 BLACK  323658",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_323658_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-water-aigo-darkflash-dg240-black-codigo-323658/323658.html",
+        "specs": [
+            "AIGO",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12744,
+        "ref": "323680",
+        "brand": "AIGO",
+        "title_orig": "COOLER WATER AIGO DARKFLASH DG360 WHITE  323680",
+        "title": "COOLER WATER AIGO DARKFLASH DG360 WHITE  323680",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_323680_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-water-aigo-darkflash-dg360-white-codigo-323680/323680.html",
+        "specs": [
+            "AIGO",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12745,
+        "ref": "207100",
+        "brand": "INTEL",
+        "title_orig": "AIR COOLER CPU DARKFLASH S21 ARGB PRETO 120MM INTEL 115X 1200 1366 1700 AMD AM2 AM3 AM4 FM1 FM2",
+        "title": "AIR COOLER CPU DARKFLASH S21 ARGB Negro 120MM INTEL 115X 1200 1366 1700 AMD AM2 AM3 AM4 FM1 FM2",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_207100_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/air-cooler-cpu-darkflash-s21-argb-preto-120mm-intel-115x-1200-1366-1700-amd-am2-am3-am4-fm1-fm2/207100.html",
+        "specs": [
+            "INTEL",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12746,
+        "ref": "338260",
+        "brand": "DARKFLASH",
+        "title_orig": "COOLER WATER DARKFLASH DE240 EXPLORE BLACK DISPLAY 2 88 IPS",
+        "title": "COOLER WATER DARKFLASH DE240 EXPLORE BLACK DISPLAY 2 88 IPS",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_338260_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-water-darkflash-de240-explore-black-display-2-88-ips/338260.html",
+        "specs": [
+            "DARKFLASH",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12747,
+        "ref": "402667",
+        "brand": "COUGAR",
+        "title_orig": "SOFA GAMER COUGAR FIDOM COMFORT PRETO G  402667",
+        "title": "SOFA GAMER COUGAR FIDOM COMFORT Negro G  402667",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_402667_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/sofa-gamer-cougar-fidom-comfort-preto-g-codigo-402667/402667.html",
+        "specs": [
+            "COUGAR",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12748,
+        "ref": "403040",
+        "brand": "COUGAR",
+        "title_orig": "GABINETE COUGAR MX110 4FAN BLACK MID TOWER",
+        "title": "GABINETE COUGAR MX110 4FAN BLACK MID TOWER",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_403040_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-cougar-mx110-4fan-black-mid-tower/403040.html",
+        "specs": [
+            "COUGAR",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 12749,
+        "ref": "403242",
+        "brand": "COUGAR",
+        "title_orig": "GABINETE COUGAR OMNYX ARGB MID TOWER 4 FAN BLACK  403242",
+        "title": "GABINETE COUGAR OMNYX ARGB MID TOWER 4 FAN BLACK  403242",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_403242_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-cougar-omnyx-argb-mid-tower-4-fan-black-codigo-403242/403242.html",
+        "specs": [
+            "COUGAR",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 12750,
+        "ref": "403209",
+        "brand": "COUGAR",
+        "title_orig": "GABINETE COUGAR AIRFACE PURE PRO MID TOWER 4FAN BL BLACK",
+        "title": "GABINETE COUGAR AIRFACE PURE PRO MID TOWER 4FAN BL BLACK",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_403209_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-cougar-airface-pure-pro-mid-tower-4fan-bl-black/403209.html",
+        "specs": [
+            "COUGAR",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 12751,
+        "ref": "403073",
+        "brand": "COUGAR",
+        "title_orig": "GABINETE COUGAR MX230 RGB 4FAN BLACK",
+        "title": "GABINETE COUGAR MX230 RGB 4FAN BLACK",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_403073_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-cougar-mx230-rgb-4fan-black/403073.html",
+        "specs": [
+            "COUGAR",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 12752,
+        "ref": "403185",
+        "brand": "COUGAR",
+        "title_orig": "GABINETE COUGAR CFV235 MID TOWER 3FAN RGB BLACK  403185",
+        "title": "GABINETE COUGAR CFV235 MID TOWER 3FAN RGB BLACK  403185",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_403185_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-cougar-cfv235-mid-tower-3fan-rgb-black-codigo-403185/403185.html",
+        "specs": [
+            "COUGAR",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 12753,
+        "ref": "403264",
+        "brand": "COUGAR",
+        "title_orig": "GABINETE COUGAR PURITY 1 FAN BLACK MINI TOWER",
+        "title": "GABINETE COUGAR PURITY 1 FAN BLACK MINI TOWER",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_403264_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-cougar-purity-1-fan-black-mini-tower-/403264.html",
+        "specs": [
+            "COUGAR",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 12754,
+        "ref": "403881",
+        "brand": "COUGAR",
+        "title_orig": "PLATAFORMA GIRATORIA COUGAR LUMINOSA PARA GABINETE FV270 PRETO",
+        "title": "PLATAFORMA GIRATORIA COUGAR LUMINOSA PARA GABINETE FV270 Negro",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_403881_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/plataforma-giratoria-cougar-luminosa-para-gabinete-fv270-preto/403881.html",
+        "specs": [
+            "COUGAR",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 12755,
+        "ref": "403120",
+        "brand": "COUGAR",
+        "title_orig": "GABINETE COUGAR AIRFACE 180 3FAN MID TOWER BLACK",
+        "title": "GABINETE COUGAR AIRFACE 180 3FAN MID TOWER BLACK",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_403120_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-cougar-airface-180-3fan-mid-tower-black/403120.html",
+        "specs": [
+            "COUGAR",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 12756,
+        "ref": "403029",
+        "brand": "COUGAR",
+        "title_orig": "GABINETE COUGAR FV270 4FAN RGB BLACK",
+        "title": "GABINETE COUGAR FV270 4FAN RGB BLACK",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_403029_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-cougar-fv270-4fan-rgb-black/403029.html",
+        "specs": [
+            "COUGAR",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 12757,
+        "ref": "403210",
+        "brand": "COUGAR",
+        "title_orig": "GABINETE COUGAR MX600 MINI V2 PRO ARGB 4FAN BLACK",
+        "title": "GABINETE COUGAR MX600 MINI V2 PRO ARGB 4FAN BLACK",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_403210_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-cougar-mx600-mini-v2-pro-argb-4fan-black/403210.html",
+        "specs": [
+            "COUGAR",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 12758,
+        "ref": "403300",
+        "brand": "COUGAR",
+        "title_orig": "COOLER WATER COUGAR POSEIDON ELITE 360 ARGB BLACK   403300",
+        "title": "COOLER WATER COUGAR POSEIDON ELITE 360 ARGB BLACK   403300",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_403300_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-water-cougar-poseidon-elite-360-argb-black--codigo-403300/403300.html",
+        "specs": [
+            "COUGAR",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12759,
+        "ref": "403231",
+        "brand": "COUGAR",
+        "title_orig": "GABINETE COUGAR MX600 RGB 4 FAN MESH FULL TOWER",
+        "title": "GABINETE COUGAR MX600 RGB 4 FAN MESH FULL TOWER",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_403231_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-cougar-mx600-rgb-4-fan-mesh-full-tower/403231.html",
+        "specs": [
+            "COUGAR",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 12760,
+        "ref": "403297",
+        "brand": "COUGAR",
+        "title_orig": "COOLER WATER COUGAR POSEIDON ELITE 240 ARGB BLACK   403297",
+        "title": "COOLER WATER COUGAR POSEIDON ELITE 240 ARGB BLACK   403297",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_403297_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-water-cougar-poseidon-elite-240-argb-black--codigo-403297/403297.html",
+        "specs": [
+            "COUGAR",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12761,
+        "ref": "403253",
+        "brand": "COUGAR",
+        "title_orig": "GABINETE COUGAR OMNYX ARGB MID TOWER 4 FAN WHITE  403253",
+        "title": "GABINETE COUGAR OMNYX ARGB MID TOWER 4 FAN WHITE  403253",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_403253_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-cougar-omnyx-argb-mid-tower-4-fan-white-codigo-403253/403253.html",
+        "specs": [
+            "COUGAR",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 12762,
+        "ref": "403220",
+        "brand": "COUGAR",
+        "title_orig": "GABINETE COUGAR MX600 MINI V2 PRO ARGB 4FAN WHITE",
+        "title": "GABINETE COUGAR MX600 MINI V2 PRO ARGB 4FAN WHITE",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_403220_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-cougar-mx600-mini-v2-pro-argb-4fan-white/403220.html",
+        "specs": [
+            "COUGAR",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 12763,
+        "ref": "403196",
+        "brand": "COUGAR",
+        "title_orig": "GABINETE COUGAR CFV235 MID TOWER 3FAN RGB WHITE",
+        "title": "GABINETE COUGAR CFV235 MID TOWER 3FAN RGB WHITE",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_403196_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-cougar-cfv235-mid-tower-3fan-rgb-white/403196.html",
+        "specs": [
+            "COUGAR",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 12764,
+        "ref": "403119",
+        "brand": "COUGAR",
+        "title_orig": "GABINETE COUGAR MX600 AIR PRO ARGB 4FAN WHITE",
+        "title": "GABINETE COUGAR MX600 AIR PRO ARGB 4FAN WHITE",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_403119_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-cougar-mx600-air-pro-argb-4fan-white/403119.html",
+        "specs": [
+            "COUGAR",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 12765,
+        "ref": "403062",
+        "brand": "COUGAR",
+        "title_orig": "GABINETE COUGAR MX230 RGB 4FAN WHITE",
+        "title": "GABINETE COUGAR MX230 RGB 4FAN WHITE",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_403062_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-cougar-mx230-rgb-4fan-white/403062.html",
+        "specs": [
+            "COUGAR",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 12766,
+        "ref": "333446",
+        "brand": "COUGAR",
+        "title_orig": "GABINETE COUGAR MX600 RGB 4 FAN WHITE MX600",
+        "title": "GABINETE COUGAR MX600 RGB 4 FAN WHITE MX600",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_333446_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-cougar-mx600-rgb-4-fan-white-mx600/333446.html",
+        "specs": [
+            "COUGAR",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 12767,
+        "ref": "403163",
+        "brand": "COUGAR",
+        "title_orig": "GABINETE COUGAR AIRFACE PURE PRO MID TOWER 4FAN WH WHITE",
+        "title": "GABINETE COUGAR AIRFACE PURE PRO MID TOWER 4FAN WH WHITE",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_403163_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-cougar-airface-pure-pro-mid-tower-4fan-wh-white/403163.html",
+        "specs": [
+            "COUGAR",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 12768,
+        "ref": "403130",
+        "brand": "COUGAR",
+        "title_orig": "GABINETE COUGAR AIRFACE 180 3FAN MID TOWER WHITE",
+        "title": "GABINETE COUGAR AIRFACE 180 3FAN MID TOWER WHITE",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_403130_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-cougar-airface-180-3fan-mid-tower-white/403130.html",
+        "specs": [
+            "COUGAR",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 12769,
+        "ref": "403084",
+        "brand": "COUGAR",
+        "title_orig": "GABINETE COUGAR MX600 AIR PRO ARGB 4FAN BLACK",
+        "title": "GABINETE COUGAR MX600 AIR PRO ARGB 4FAN BLACK",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_403084_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-cougar-mx600-air-pro-argb-4fan-black/403084.html",
+        "specs": [
+            "COUGAR",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 12770,
+        "ref": "403152",
+        "brand": "COUGAR",
+        "title_orig": "GABINETE COUGAR AIRFACE PRO RGB 4FAN WHITE",
+        "title": "GABINETE COUGAR AIRFACE PRO RGB 4FAN WHITE",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_403152_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-cougar-airface-pro-rgb-4fan-white/403152.html",
+        "specs": [
+            "COUGAR",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 12771,
+        "ref": "269184",
+        "brand": "NZXT",
+        "title_orig": "COOLER WATER NZXT KRAKEN 360 RL KR360 B1 RGB 360MM",
+        "title": "COOLER WATER NZXT KRAKEN 360 RL KR360 B1 RGB 360MM",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_269184_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-water-nzxt-kraken-360-rl-kr360-b1-rgb-360mm/269184.html",
+        "specs": [
+            "NZXT",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12772,
+        "ref": "309034",
+        "brand": "NZXT",
+        "title_orig": "GABINETE NZXT H9 FLOW CM H91FB 01 BLACK",
+        "title": "GABINETE NZXT H9 FLOW CM H91FB 01 BLACK",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_309034_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-nzxt-h9-flow-cm-h91fb-01-black/309034.html",
+        "specs": [
+            "NZXT",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 12773,
+        "ref": "316941",
+        "brand": "NZXT",
+        "title_orig": "MB AM5 NZXT N9 X870E DDR5 WIFI BLACK BT V5 4  316941",
+        "title": "MB AM5 NZXT N9 X870E DDR5 WIFI BLACK BT V5 4  316941",
+        "category": "Memorias RAM",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_316941_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am5-nzxt-n9-x870e-ddr5-wifi-black-bt-v5-4-codigo-316941/316941.html",
+        "specs": [
+            "NZXT",
+            "Memorias RAM"
+        ]
+    },
+    {
+        "id": 12774,
+        "ref": "316930",
+        "brand": "NZXT",
+        "title_orig": "MB AM5 NZXT N9 X870E DDR5 WIFI WHITE BT V5 4",
+        "title": "MB AM5 NZXT N9 X870E DDR5 WIFI WHITE BT V5 4",
+        "category": "Memorias RAM",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_316930_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am5-nzxt-n9-x870e-ddr5-wifi-white-bt-v5-4/316930.html",
+        "specs": [
+            "NZXT",
+            "Memorias RAM"
+        ]
+    },
+    {
+        "id": 12775,
+        "ref": "265046",
+        "brand": "NZXT",
+        "title_orig": "PLACA DE CAPTURE NZXT SIGNAL HD60 ST EEEC1 WW",
+        "title": "PLACA DE CAPTURE NZXT SIGNAL HD60 ST EEEC1 WW",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_265046_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-capture-nzxt-signal-hd60-st-eeec1-ww/265046.html",
+        "specs": [
+            "NZXT",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12776,
+        "ref": "390168",
+        "brand": "XFX",
+        "title_orig": "VGA RX9060XT 16GB XFX MERCURY GDDR6 128BIT WHITE RX 96TMERCW9",
+        "title": "VGA RX9060XT 16GB XFX MERCURY GDDR6 128BIT WHITE RX 96TMERCW9",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_390168_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rx9060xt-16gb-xfx-mercury-gddr6-128bit-white-rx-96tmercw9/390168.html",
+        "specs": [
+            "XFX",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12777,
+        "ref": "324918",
+        "brand": "XFX",
+        "title_orig": "VGA RX9060XT 16GB XFX SWIFT OC GAMING EDITION 3FAN RX 96TS316B7 RX 96TS31  324918",
+        "title": "VGA RX9060XT 16GB XFX SWIFT OC GAMING EDITION 3FAN RX 96TS316B7 RX 96TS31  324918",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_324918_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rx9060xt-16gb-xfx-swift-oc-gaming-edition-3fan-rx-96ts316b7-rx-96ts31-codigo-324918/324918.html",
+        "specs": [
+            "XFX",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12778,
+        "ref": "254593",
+        "brand": "XFX",
+        "title_orig": "VGA RX6600 8GB XFX SPEEDSTER SWFT210 RX 66XL8L  254593",
+        "title": "VGA RX6600 8GB XFX SPEEDSTER SWFT210 RX 66XL8L  254593",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_254593_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rx6600-8gb-xfx-speedster-swft210-rx-66xl8l-codigo-254593/254593.html",
+        "specs": [
+            "XFX",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12779,
+        "ref": "310834",
+        "brand": "XFX",
+        "title_orig": "VGA RX9070XT 16GB XFX SWIFT GAMING 3FAN GDDR6 RX 97TSWF3B9 RX 97TSWF 3FAN",
+        "title": "VGA RX9070XT 16GB XFX SWIFT GAMING 3FAN GDDR6 RX 97TSWF3B9 RX 97TSWF 3FAN",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_310834_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rx9070xt-16gb-xfx-swift-gaming-3fan-gddr6-rx-97tswf3b9-rx-97tswf-3fan/310834.html",
+        "specs": [
+            "XFX",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12780,
+        "ref": "267878",
+        "brand": "XFX",
+        "title_orig": "VGA RX7600 XT 16GB XFX SWFT210 SPEEDSTER RX 76TSWF RX 76TSWFTFP",
+        "title": "VGA RX7600 XT 16GB XFX SWFT210 SPEEDSTER RX 76TSWF RX 76TSWFTFP",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_267878_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rx7600-xt-16gb-xfx-swft210-speedster-rx-76tswf-rx-76tswftfp/267878.html",
+        "specs": [
+            "XFX",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12781,
+        "ref": "213724",
+        "brand": "XFX",
+        "title_orig": "VGA RX6750 XT 12GB XFX SPEEDSTER QICK319 RX 675XYJ RX 675XYJFDP",
+        "title": "VGA RX6750 XT 12GB XFX SPEEDSTER QICK319 RX 675XYJ RX 675XYJFDP",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_213724_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rx6750-xt-12gb-xfx-speedster-qick319-rx-675xyj-rx-675xyjfdp/213724.html",
+        "specs": [
+            "XFX",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12782,
+        "ref": "213713",
+        "brand": "XFX",
+        "title_orig": "VGA RX6650XT 8GB XFX SPEEDSTER SWFT210 RX 665X8D RX 665X8DFDY  213713",
+        "title": "VGA RX6650XT 8GB XFX SPEEDSTER SWFT210 RX 665X8D RX 665X8DFDY  213713",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_213713_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rx6650xt-8gb-xfx-speedster-swft210-rx-665x8d-rx-665x8dfdy-codigo-213713/213713.html",
+        "specs": [
+            "XFX",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12783,
+        "ref": "213746",
+        "brand": "XFX",
+        "title_orig": "VGA RX7900XT 20GB XFX SPEEDSTER MERC310 RX 79TMERC  213746",
+        "title": "VGA RX7900XT 20GB XFX SPEEDSTER MERC310 RX 79TMERC  213746",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_213746_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rx7900xt-20gb-xfx-speedster-merc310-rx-79tmerc-codigo-213746/213746.html",
+        "specs": [
+            "XFX",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12784,
+        "ref": "306570",
+        "brand": "XFX",
+        "title_orig": "PLACA DE VIDEO XFX SPEEDSTER SWFT 210 RADEON RX7800 XT 16GB GDDR6 2430MHZ DP HDMI RX 78TSWF RX 78TSWFTFP",
+        "title": "PLACA DE VIDEO XFX SPEEDSTER SWFT 210 RADEON RX7800 XT 16GB GDDR6 2430MHZ DP HDMI RX 78TSWF RX 78TSWFTFP",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_306570_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-xfx-speedster-swft-210-radeon-rx7800-xt-16gb-gddr6-2430mhz-dp-hdmi-rx-78tswf-rx-78tswftfp/306570.html",
+        "specs": [
+            "XFX",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12785,
+        "ref": "299626",
+        "brand": "AMD",
+        "title_orig": "PLACA DE VIDEO XFX AMD RADEON RX7900 XTX MERCURY MAGNETIC AIR 24GB GDDR6 384 BIT RX 79XMAIRB9",
+        "title": "PLACA DE VIDEO XFX AMD RADEON RX7900 XTX MERCURY MAGNETIC AIR 24GB GDDR6 384 BIT RX 79XMAIRB9",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_299626_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-xfx-amd-radeon-rx7900-xtx-mercury-magnetic-air-24gb-gddr6-384-bit-rx-79xmairb9/299626.html",
+        "specs": [
+            "AMD",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12786,
+        "ref": "271098",
+        "brand": "XFX",
+        "title_orig": "VGA RX6800 16GB XFX SPEEDSTER SWFT319 RX 68XLAQFD9 RX 68XLAQFD9",
+        "title": "VGA RX6800 16GB XFX SPEEDSTER SWFT319 RX 68XLAQFD9 RX 68XLAQFD9",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_271098_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rx6800-16gb-xfx-speedster-swft319-rx-68xlaqfd9-rx-68xlaqfd9/271098.html",
+        "specs": [
+            "XFX",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12787,
+        "ref": "324907",
+        "brand": "XFX",
+        "title_orig": "VGA RX9060XT 16GB XFX SWIFT OC GAMING EDI WHITE RX 96TS316W7 RX 96TS31 3FAN",
+        "title": "VGA RX9060XT 16GB XFX SWIFT OC GAMING EDI WHITE RX 96TS316W7 RX 96TS31 3FAN",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_324907_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rx9060xt-16gb-xfx-swift-oc-gaming-edi-white-rx-96ts316w7-rx-96ts31-3fan/324907.html",
+        "specs": [
+            "XFX",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12788,
+        "ref": "288668",
+        "brand": "XFX",
+        "title_orig": "VGA RX7800XT 16GB XFX QUICK SILVER CLASS RX 78TMAI RX 78TMAIRW9  288668",
+        "title": "VGA RX7800XT 16GB XFX QUICK SILVER CLASS RX 78TMAI RX 78TMAIRW9  288668",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_288668_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rx7800xt-16gb-xfx-quick-silver-class-rx-78tmai-rx-78tmairw9-codigo-288668/288668.html",
+        "specs": [
+            "XFX",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12789,
+        "ref": "333154",
+        "brand": "XFX",
+        "title_orig": "VGA RX9060XT 16GB XFX MERCURY GDDR6 128BIT WHITE RX 96TMERCW9  333154",
+        "title": "VGA RX9060XT 16GB XFX MERCURY GDDR6 128BIT WHITE RX 96TMERCW9  333154",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_333154_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rx9060xt-16gb-xfx-mercury-gddr6-128bit-white-rx-96tmercw9-codigo-333154/333154.html",
+        "specs": [
+            "XFX",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12790,
+        "ref": "333132",
+        "brand": "XFX",
+        "title_orig": "VGA RX9060XT 16GB XFX SWIFT DUAL OC RX 96TSW16BQ RX 96TSW16BQ",
+        "title": "VGA RX9060XT 16GB XFX SWIFT DUAL OC RX 96TSW16BQ RX 96TSW16BQ",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_333132_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rx9060xt-16gb-xfx-swift-dual-oc-rx-96tsw16bq-rx-96tsw16bq/333132.html",
+        "specs": [
+            "XFX",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12791,
+        "ref": "297130",
+        "brand": "XFX",
+        "title_orig": "VGA RX7700XT XFX 12GB SPEEDSTER SWFT210 RX 77TSWF RX 77TSWFTFP  297130",
+        "title": "VGA RX7700XT XFX 12GB SPEEDSTER SWFT210 RX 77TSWF RX 77TSWFTFP  297130",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_297130_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rx7700xt-xfx-12gb-speedster-swft210-rx-77tswf-rx-77tswftfp-codigo-297130/297130.html",
+        "specs": [
+            "XFX",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12792,
+        "ref": "266036",
+        "brand": "XFX",
+        "title_orig": "VGA RX7800XT 16GB XFX SPEEDSTER QICK319 RX 78TQIC",
+        "title": "VGA RX7800XT 16GB XFX SPEEDSTER QICK319 RX 78TQIC",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_266036_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rx7800xt-16gb-xfx-speedster-qick319-rx-78tqic/266036.html",
+        "specs": [
+            "XFX",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12793,
+        "ref": "324883",
+        "brand": "XFX",
+        "title_orig": "VGA RX9060XT 8GB XFX SWIFT OC GAMING EDITION WHITE RX 96TSW8GWQ RX 96TSW8 2FAN  324883",
+        "title": "VGA RX9060XT 8GB XFX SWIFT OC GAMING EDITION WHITE RX 96TSW8GWQ RX 96TSW8 2FAN  324883",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_324883_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rx9060xt-8gb-xfx-swift-oc-gaming-edition-white-rx-96tsw8gwq-rx-96tsw8-2fan-codigo-324883/324883.html",
+        "specs": [
+            "XFX",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12794,
+        "ref": "263426",
+        "brand": "XFX",
+        "title_orig": "VGA RX7600 8GB XFX SPEEDSTER QICK 308 RX 76PQIC  263426",
+        "title": "VGA RX7600 8GB XFX SPEEDSTER QICK 308 RX 76PQIC  263426",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_263426_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rx7600-8gb-xfx-speedster-qick-308-rx-76pqic-codigo-263426/263426.html",
+        "specs": [
+            "XFX",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12795,
+        "ref": "308325",
+        "brand": "AMD",
+        "title_orig": "PLACA DE VIDEO SAPPHIRE PULSE AMD RADEON RX9070 16GB GDDR6 2520MHZ 256BIT DUAL FAN FSR DP HDMI 88 2E490 100SA 11349 03 20G  308325",
+        "title": "PLACA DE VIDEO SAPPHIRE PULSE AMD RADEON RX9070 16GB GDDR6 2520MHZ 256BIT DUAL FAN FSR DP HDMI 88 2E490 100SA 11349 03 20G  308325",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_308325_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-sapphire-pulse-amd-radeon-rx9070-16gb-gddr6-2520mhz-256bit-dual-fan-fsr-dp-hdmi-88-2e490-100sa-11349-03-20g-codigo-308325/308325.html",
+        "specs": [
+            "AMD",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12796,
+        "ref": "306604",
+        "brand": "SAPPHIRE",
+        "title_orig": "PLACA DE VIDEO SAPPHIRE PULSE GAMING RX7700 XT 12GB RADEON GDDR6 2544MHZ 192BIT DP HDMI 11335 04 20G",
+        "title": "PLACA DE VIDEO SAPPHIRE PULSE GAMING RX7700 XT 12GB RADEON GDDR6 2544MHZ 192BIT DP HDMI 11335 04 20G",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_306604_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-sapphire-pulse-gaming-rx7700-xt-12gb-radeon-gddr6-2544mhz-192bit-dp-hdmi-11335-04-20g/306604.html",
+        "specs": [
+            "SAPPHIRE",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12797,
+        "ref": "307794",
+        "brand": "AMD",
+        "title_orig": "ZZVGA RX9070XT 16GB SAPPHIRE PULSE OC AMD RADEON S88 1E490 100SA RX9070XT GAMING",
+        "title": "ZZVGA RX9070XT 16GB SAPPHIRE PULSE OC AMD RADEON S88 1E490 100SA RX9070XT GAMING",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_307794_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/zzvga-rx9070xt-16gb-sapphire-pulse-oc-amd-radeon-s88-1e490-100sa-rx9070xt-gaming/307794.html",
+        "specs": [
+            "AMD",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12798,
+        "ref": "207883",
+        "brand": "SAPPHIRE",
+        "title_orig": "VGA RX7600 8GB SAPPHIRE PULSE OC S88 2E452 020SA 11324 01 20G  207883",
+        "title": "VGA RX7600 8GB SAPPHIRE PULSE OC S88 2E452 020SA 11324 01 20G  207883",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_207883_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rx7600-8gb-sapphire-pulse-oc-s88-2e452-020sa-11324-01-20g-codigo-207883/207883.html",
+        "specs": [
+            "SAPPHIRE",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12799,
+        "ref": "304332",
+        "brand": "SAPPHIRE",
+        "title_orig": "VGA RX7800XT 16GB XT PULSE SAPPHIRE DDR6 2FAN S88 4E476 810SA  304332",
+        "title": "VGA RX7800XT 16GB XT PULSE SAPPHIRE DDR6 2FAN S88 4E476 810SA  304332",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_304332_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rx7800xt-16gb-xt-pulse-sapphire-ddr6-2fan-s88-4e476-810sa-codigo-304332/304332.html",
+        "specs": [
+            "SAPPHIRE",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12800,
+        "ref": "311925",
+        "brand": "SAPPHIRE",
+        "title_orig": "ZZVGA RX9070XT 16GB SAPPHIRE PURE OC EDITION WHIT S88 3E490 100UD 11348 020 20G",
+        "title": "ZZVGA RX9070XT 16GB SAPPHIRE PURE OC EDITION WHIT S88 3E490 100UD 11348 020 20G",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_311925_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/zzvga-rx9070xt-16gb-sapphire-pure-oc-edition-whit-s88-3e490-100ud-11348-020-20g/311925.html",
+        "specs": [
+            "SAPPHIRE",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12801,
+        "ref": "326099",
+        "brand": "AMD",
+        "title_orig": "VGA RX9060XT 8GB SAPPHIRE PULSE OC AMD RADEON 2FAN 11350 04 20G S88 1E495 101SA  326099",
+        "title": "VGA RX9060XT 8GB SAPPHIRE PULSE OC AMD RADEON 2FAN 11350 04 20G S88 1E495 101SA  326099",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_326099_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rx9060xt-8gb-sapphire-pulse-oc-amd-radeon-2fan-11350-04-20g-s88-1e495-101sa-codigo-326099/326099.html",
+        "specs": [
+            "AMD",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12802,
+        "ref": "314175",
+        "brand": "SAPPHIRE",
+        "title_orig": "ZZ VGA RX9070XT 16GB SAPPHIRE PULSE OC RADEON GDD 11348 03 20G",
+        "title": "ZZ VGA RX9070XT 16GB SAPPHIRE PULSE OC RADEON GDD 11348 03 20G",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_314175_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/zz-vga-rx9070xt-16gb-sapphire-pulse-oc-radeon-gdd-11348-03-20g/314175.html",
+        "specs": [
+            "SAPPHIRE",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12803,
+        "ref": "304119",
+        "brand": "SAPPHIRE",
+        "title_orig": "VGA RX7900 GRE 16GB SAPPHIRE NITRO OC GDDR6 S88 2E475 001SA  304119",
+        "title": "VGA RX7900 GRE 16GB SAPPHIRE NITRO OC GDDR6 S88 2E475 001SA  304119",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_304119_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rx7900-gre-16gb-sapphire-nitro-oc-gddr6-s88-2e475-001sa-codigo-304119/304119.html",
+        "specs": [
+            "SAPPHIRE",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12804,
+        "ref": "324782",
+        "brand": "SAPPHIRE",
+        "title_orig": "VGA RX9060XT 16GB SAPPHIRE NITRO OC 11350 01 20G S88 1E493 101SA",
+        "title": "VGA RX9060XT 16GB SAPPHIRE NITRO OC 11350 01 20G S88 1E493 101SA",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_324782_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rx9060xt-16gb-sapphire-nitro-oc-11350-01-20g-s88-1e493-101sa/324782.html",
+        "specs": [
+            "SAPPHIRE",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12805,
+        "ref": "309090",
+        "brand": "AMD",
+        "title_orig": "PLACA DE VIDEO SAPPHIRE PULSE AMD RADEON RX7600 8GB GDDR6 128 BIT 11324 01 20G",
+        "title": "PLACA DE VIDEO SAPPHIRE PULSE AMD RADEON RX7600 8GB GDDR6 128 BIT 11324 01 20G",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_309090_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-sapphire-pulse-amd-radeon-rx7600-8gb-gddr6-128-bit-11324-01-20g/309090.html",
+        "specs": [
+            "AMD",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12806,
+        "ref": "344257",
+        "brand": "AMD",
+        "title_orig": "VGA RX9060XT 16GB SAPPHIRE PULSE OC AMD RADEON S88 3E493 101FT  344257",
+        "title": "VGA RX9060XT 16GB SAPPHIRE PULSE OC AMD RADEON S88 3E493 101FT  344257",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_344257_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rx9060xt-16gb-sapphire-pulse-oc-amd-radeon-s88-3e493-101ft-codigo-344257/344257.html",
+        "specs": [
+            "AMD",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12807,
+        "ref": "355215",
+        "brand": "SAPPHIRE",
+        "title_orig": "VGA RX9070XT 16GB SAPPHIRE GAMING NITRO OC S88 1E489 310SA  355215",
+        "title": "VGA RX9070XT 16GB SAPPHIRE GAMING NITRO OC S88 1E489 310SA  355215",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_355215_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rx9070xt-16gb-sapphire-gaming-nitro-oc-s88-1e489-310sa-codigo-355215/355215.html",
+        "specs": [
+            "SAPPHIRE",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12808,
+        "ref": "395948",
+        "brand": "ZOTAC",
+        "title_orig": "VGA RTX5050 8GB ZOTAC TWIN EDGE OC ZT B50500H 10A 288 1N792 200Z6 GDDR6",
+        "title": "VGA RTX5050 8GB ZOTAC TWIN EDGE OC ZT B50500H 10A 288 1N792 200Z6 GDDR6",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_395948_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rtx5050-8gb-zotac-twin-edge-oc-zt-b50500h-10a-288-1n792-200z6-gddr6/395948.html",
+        "specs": [
+            "ZOTAC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12809,
+        "ref": "303061",
+        "brand": "ZOTAC",
+        "title_orig": "VGA RTX5090 32GB ZOTAC SOLID OC EDITION GDDR7 ZT B50900J 10P 288 1N761 400Z6",
+        "title": "VGA RTX5090 32GB ZOTAC SOLID OC EDITION GDDR7 ZT B50900J 10P 288 1N761 400Z6",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_303061_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rtx5090-32gb-zotac-solid-oc-edition-gddr7-zt-b50900j-10p-288-1n761-400z6/303061.html",
+        "specs": [
+            "ZOTAC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12810,
+        "ref": "221980",
+        "brand": "ZOTAC",
+        "title_orig": "PLACA DE VIDEO ZOTAC GAMING GEFORCE RTX4060 TWIN EDGE OC EDITION 8GB GDDR6 128 BIT ZT D40600H 10M",
+        "title": "PLACA DE VIDEO ZOTAC GAMING GEFORCE RTX4060 TWIN EDGE OC EDITION 8GB GDDR6 128 BIT ZT D40600H 10M",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_221980_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-zotac-gaming-geforce-rtx4060-twin-edge-oc-edition-8gb-gddr6-128-bit-zt-d40600h-10m/221980.html",
+        "specs": [
+            "ZOTAC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12811,
+        "ref": "320745",
+        "brand": "ZOTAC",
+        "title_orig": "VGA RTX3060 12GB ZOTAC TWIN EDGE ZT A30600E 10M P288 7N630 201Z 8 GDDR6  320745",
+        "title": "VGA RTX3060 12GB ZOTAC TWIN EDGE ZT A30600E 10M P288 7N630 201Z 8 GDDR6  320745",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_320745_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rtx3060-12gb-zotac-twin-edge-zt-a30600e-10m-p288-7n630-201z-8-gddr6-codigo-320745/320745.html",
+        "specs": [
+            "ZOTAC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12812,
+        "ref": "301946",
+        "brand": "ZOTAC",
+        "title_orig": "VGA RTX5080 16GB ZOTAC SOLID OC EDITION GDDR7 ZT B50800J 10P P288 1N762 400Z",
+        "title": "VGA RTX5080 16GB ZOTAC SOLID OC EDITION GDDR7 ZT B50800J 10P P288 1N762 400Z",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_301946_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rtx5080-16gb-zotac-solid-oc-edition-gddr7-zt-b50800j-10p-p288-1n762-400z/301946.html",
+        "specs": [
+            "ZOTAC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12813,
+        "ref": "308751",
+        "brand": "ZOTAC",
+        "title_orig": "PLACA DE VIDEO ZOTAC SOLID OC 12GB NVIDIA GEFORCE RTX5070 GDDR7 ZT B50700J 10P P288 1N764 301Z8 192BITS 2542MHZ 1XHDMI 3XDISPLAYPORT  308751",
+        "title": "PLACA DE VIDEO ZOTAC SOLID OC 12GB NVIDIA GEFORCE RTX5070 GDDR7 ZT B50700J 10P P288 1N764 301Z8 192BITS 2542MHZ 1XHDMI 3XDISPLAYPORT  308751",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_308751_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-zotac-solid-oc-12gb-nvidia-geforce-rtx5070-gddr7-zt-b50700j-10p-p288-1n764-301z8-192bits-2542mhz-1xhdmi-3xdisplayport-codigo-308751/308751.html",
+        "specs": [
+            "ZOTAC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12814,
+        "ref": "271111",
+        "brand": "ZOTAC",
+        "title_orig": "PLACA DE VIDEO ZOTAC GAMING GEFORCE RTX3060 12GB GDDR6 192 BIT ZT A30600P 10M",
+        "title": "PLACA DE VIDEO ZOTAC GAMING GEFORCE RTX3060 12GB GDDR6 192 BIT ZT A30600P 10M",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_271111_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-zotac-gaming-geforce-rtx3060-12gb-gddr6-192-bit-zt-a30600p-10m/271111.html",
+        "specs": [
+            "ZOTAC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12815,
+        "ref": "316000",
+        "brand": "ZOTAC",
+        "title_orig": "VGA RTX5070TI 16GB ZOTAC SOLID OC ZT B50710J 10P P288 2N762 400Z 8",
+        "title": "VGA RTX5070TI 16GB ZOTAC SOLID OC ZT B50710J 10P P288 2N762 400Z 8",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_316000_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rtx5070ti-16gb-zotac-solid-oc-zt-b50710j-10p-p288-2n762-400z-8/316000.html",
+        "specs": [
+            "ZOTAC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12816,
+        "ref": "331770",
+        "brand": "ZOTAC",
+        "title_orig": "VGA RTX5050 8GB ZOTAC TWIN EDGE OC ZT B50500H 10M 288 1N792 200Z6 GDDR6  331770",
+        "title": "VGA RTX5050 8GB ZOTAC TWIN EDGE OC ZT B50500H 10M 288 1N792 200Z6 GDDR6  331770",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_331770_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rtx5050-8gb-zotac-twin-edge-oc-zt-b50500h-10m-288-1n792-200z6-gddr6-codigo-331770/331770.html",
+        "specs": [
+            "ZOTAC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12817,
+        "ref": "244098",
+        "brand": "ZOTAC",
+        "title_orig": "PLACA DE VIDEO RTX4070 SUPER 12GB ZOTAC TWIN EDGE GDDR6X ZT D40720E 10M 9288 5N710 201Z  244098",
+        "title": "PLACA DE VIDEO RTX4070 SUPER 12GB ZOTAC TWIN EDGE GDDR6X ZT D40720E 10M 9288 5N710 201Z  244098",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_244098_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-rtx4070-super-12gb-zotac-twin-edge-gddr6x-zt-d40720e-10m-9288-5n710-201z-codigo-244098/244098.html",
+        "specs": [
+            "ZOTAC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12818,
+        "ref": "258621",
+        "brand": "ZOTAC",
+        "title_orig": "PLACA DE VIDEO ZOTAC GAMING LP 6GB NVIDIA GEFORCE RTX3050 GDDR6 ZT A30510L 10L 9288 1N739 200Z 96BITS 1470MHZ HDMI DISPLAYPORT LOWPROFILE",
+        "title": "PLACA DE VIDEO ZOTAC GAMING LP 6GB NVIDIA GEFORCE RTX3050 GDDR6 ZT A30510L 10L 9288 1N739 200Z 96BITS 1470MHZ HDMI DISPLAYPORT LOWPROFILE",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_258621_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-zotac-gaming-lp-6gb-nvidia-geforce-rtx3050-gddr6-zt-a30510l-10l-9288-1n739-200z-96bits-1470mhz-hdmi-displayport-lowprofile/258621.html",
+        "specs": [
+            "ZOTAC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12819,
+        "ref": "280480",
+        "brand": "ZOTAC",
+        "title_orig": "VGA RTX4060TI 16GB ZOTAC GAMING AMP ZT D40620F 10M 9288 3N717 520Z  280480",
+        "title": "VGA RTX4060TI 16GB ZOTAC GAMING AMP ZT D40620F 10M 9288 3N717 520Z  280480",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_280480_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rtx4060ti-16gb-zotac-gaming-amp-zt-d40620f-10m-9288-3n717-520z-codigo-280480/280480.html",
+        "specs": [
+            "ZOTAC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12820,
+        "ref": "217087",
+        "brand": "ZOTAC",
+        "title_orig": "PLACA DE VIDEO RTX4060TI 8GB ZOTAC TWIN EDGE OC WHITE EDITI ZT D40610Q 10M 9288 1N717 401Z",
+        "title": "PLACA DE VIDEO RTX4060TI 8GB ZOTAC TWIN EDGE OC WHITE EDITI ZT D40610Q 10M 9288 1N717 401Z",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_217087_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-rtx4060ti-8gb-zotac-twin-edge-oc-white-editi-zt-d40610q-10m-9288-1n717-401z/217087.html",
+        "specs": [
+            "ZOTAC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12821,
+        "ref": "301935",
+        "brand": "ZOTAC",
+        "title_orig": "PLACA DE VIDEO ZOTAC AMP EXTREME INFINITY 16GB NVIDIA GEFORCE RTX5080 GDDR7 ZT B50800B 10P P288 1N762 100Z 256BITS 2670MHZ 1XHDMI 3XDISPLAYPORT PRETO  301935",
+        "title": "PLACA DE VIDEO ZOTAC AMP EXTREME INFINITY 16GB NVIDIA GEFORCE RTX5080 GDDR7 ZT B50800B 10P P288 1N762 100Z 256BITS 2670MHZ 1XHDMI 3XDISPLAYPORT Negro  301935",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_301935_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-zotac-amp-extreme-infinity-16gb-nvidia-geforce-rtx5080-gddr7-zt-b50800b-10p-p288-1n762-100z-256bits-2670mhz-1xhdmi-3xdisplayport-preto-codigo-301935/301935.html",
+        "specs": [
+            "ZOTAC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12822,
+        "ref": "234334",
+        "brand": "ZOTAC",
+        "title_orig": "PLACA DE VIDEO ZOTAC GAMING ECO 8GB NVIDIA GEFORCE RTX3050 GDDR6 ZT A30500K 10M 9288 2N641 100Z 128BITS 1777MHZ HDMI 3XDISPLAYPORT",
+        "title": "PLACA DE VIDEO ZOTAC GAMING ECO 8GB NVIDIA GEFORCE RTX3050 GDDR6 ZT A30500K 10M 9288 2N641 100Z 128BITS 1777MHZ HDMI 3XDISPLAYPORT",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_234334_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-zotac-gaming-eco-8gb-nvidia-geforce-rtx3050-gddr6-zt-a30500k-10m-9288-2n641-100z-128bits-1777mhz-hdmi-3xdisplayport/234334.html",
+        "specs": [
+            "ZOTAC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12823,
+        "ref": "331556",
+        "brand": "ZOTAC",
+        "title_orig": "VGA RTX3050 6GB ZOTAC GAMING TWIN EDGE OC GDDR6 P288 3N641 200Z 8 ZT A30510H 10  331556",
+        "title": "VGA RTX3050 6GB ZOTAC GAMING TWIN EDGE OC GDDR6 P288 3N641 200Z 8 ZT A30510H 10  331556",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_331556_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rtx3050-6gb-zotac-gaming-twin-edge-oc-gddr6-p288-3n641-200z-8-zt-a30510h-10-codigo-331556/331556.html",
+        "specs": [
+            "ZOTAC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12824,
+        "ref": "153894",
+        "brand": "ZOTAC",
+        "title_orig": "VGA GTX1660 6GB ZOTAC SUPER AMP 9288 5N527 301Z8  153894",
+        "title": "VGA GTX1660 6GB ZOTAC SUPER AMP 9288 5N527 301Z8  153894",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_153894_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-gtx1660-6gb-zotac-super-amp-9288-5n527-301z8-codigo-153894/153894.html",
+        "specs": [
+            "ZOTAC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12825,
+        "ref": "254874",
+        "brand": "ZOTAC",
+        "title_orig": "VGA RTX4060TI 8GB ZOTAC TWIN EDGE OC GDDR6 2FAN 9288 1N717 301Z 9288 1N717 301Z",
+        "title": "VGA RTX4060TI 8GB ZOTAC TWIN EDGE OC GDDR6 2FAN 9288 1N717 301Z 9288 1N717 301Z",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_254874_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rtx4060ti-8gb-zotac-twin-edge-oc-gddr6-2fan-9288-1n717-301z-9288-1n717-301z-/254874.html",
+        "specs": [
+            "ZOTAC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12826,
+        "ref": "244100",
+        "brand": "ZOTAC",
+        "title_orig": "PLACA DE VIDEO RTX4070 SUPER 12GB ZOTAC TWIN EDGE OC EDITION",
+        "title": "PLACA DE VIDEO RTX4070 SUPER 12GB ZOTAC TWIN EDGE OC EDITION",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_244100_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-rtx4070-super-12gb-zotac-twin-edge-oc-edition/244100.html",
+        "specs": [
+            "ZOTAC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12827,
+        "ref": "143120",
+        "brand": "ZOTAC",
+        "title_orig": "VGA RTX3070TI 8GB ZOTAC TRINITY 9288 1N653 501Z8 ZT A30710D 10P GDDR6X  143120",
+        "title": "VGA RTX3070TI 8GB ZOTAC TRINITY 9288 1N653 501Z8 ZT A30710D 10P GDDR6X  143120",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_143120_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rtx3070ti-8gb-zotac-trinity-9288-1n653-501z8-zt-a30710d-10p-gddr6x-codigo-143120/143120.html",
+        "specs": [
+            "ZOTAC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12828,
+        "ref": "331982",
+        "brand": "ZOTAC",
+        "title_orig": "VGA RTX5050 8GB ZOTAC GAMING SOLO ZT B50500G 10 288 1N792 300Z6 SUPER COMPACT",
+        "title": "VGA RTX5050 8GB ZOTAC GAMING SOLO ZT B50500G 10 288 1N792 300Z6 SUPER COMPACT",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_331982_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rtx5050-8gb-zotac-gaming-solo-zt-b50500g-10-288-1n792-300z6-super-compact/331982.html",
+        "specs": [
+            "ZOTAC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12829,
+        "ref": "375004",
+        "brand": "PALIT",
+        "title_orig": "VGA RTX5050 8GB PALIT DUAL OC NE65050S19P1 GB2070D NE65050S19P1 GB 2070D",
+        "title": "VGA RTX5050 8GB PALIT DUAL OC NE65050S19P1 GB2070D NE65050S19P1 GB 2070D",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_375004_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rtx5050-8gb-palit-dual-oc-ne65050s19p1-gb2070d-ne65050s19p1-gb-2070d/375004.html",
+        "specs": [
+            "PALIT",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12830,
+        "ref": "408886",
+        "brand": "PALIT",
+        "title_orig": "VGA RTX5070TI 16GB PALIT GAMINGPRO S GDDR7 3FAN NE7507T019T2 GB 2031U",
+        "title": "VGA RTX5070TI 16GB PALIT GAMINGPRO S GDDR7 3FAN NE7507T019T2 GB 2031U",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_408886_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rtx5070ti-16gb-palit-gamingpro-s-gddr7-3fan-ne7507t019t2-gb-2031u/408886.html",
+        "specs": [
+            "PALIT",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12831,
+        "ref": "408897",
+        "brand": "PALIT",
+        "title_orig": "VGA RTX5080 16GB PALIT INFINITY 3 GDDR7 3FAN NE75080019T2 GB 2035S",
+        "title": "VGA RTX5080 16GB PALIT INFINITY 3 GDDR7 3FAN NE75080019T2 GB 2035S",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_408897_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rtx5080-16gb-palit-infinity-3-gddr7-3fan-ne75080019t2-gb-2035s/408897.html",
+        "specs": [
+            "PALIT",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12832,
+        "ref": "408875",
+        "brand": "PALIT",
+        "title_orig": "VGA RTX5050 8GB PALIT STORMX NE65050019P1 GB2070F GDDR6",
+        "title": "VGA RTX5050 8GB PALIT STORMX NE65050019P1 GB2070F GDDR6",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_408875_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rtx5050-8gb-palit-stormx-ne65050019p1-gb2070f-gddr6/408875.html",
+        "specs": [
+            "PALIT",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12833,
+        "ref": "318897",
+        "brand": "PALIT",
+        "title_orig": "VGA RTX5090 32GB PALIT GAMEROCK NE75090019R5 GDDR7 NE75090019R5 GB 2020G  318897",
+        "title": "VGA RTX5090 32GB PALIT GAMEROCK NE75090019R5 GDDR7 NE75090019R5 GB 2020G  318897",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_318897_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rtx5090-32gb-palit-gamerock-ne75090019r5-gddr7-ne75090019r5-gb-2020g-codigo-318897/318897.html",
+        "specs": [
+            "PALIT",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12834,
+        "ref": "324850",
+        "brand": "PALIT",
+        "title_orig": "VGA RTX5060 8GB PALIT DUAL OC NE75060S19P1 GB2063D GDDR7 2FAN  324850",
+        "title": "VGA RTX5060 8GB PALIT DUAL OC NE75060S19P1 GB2063D GDDR7 2FAN  324850",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_324850_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rtx5060-8gb-palit-dual-oc-ne75060s19p1-gb2063d-gddr7-2fan-codigo-324850/324850.html",
+        "specs": [
+            "PALIT",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12835,
+        "ref": "308762",
+        "brand": "PALIT",
+        "title_orig": "PLACA DE VIDEO PALIT GAMINGPRO 12GB NVIDIA GEFORCE RTX5070 GDDR7 NE75070019K9 GB20 192BITS 2325MHZ 1XHDMI 3XDISPLAYPORT",
+        "title": "PLACA DE VIDEO PALIT GAMINGPRO 12GB NVIDIA GEFORCE RTX5070 GDDR7 NE75070019K9 GB20 192BITS 2325MHZ 1XHDMI 3XDISPLAYPORT",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_308762_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-palit-gamingpro-12gb-nvidia-geforce-rtx5070-gddr7-ne75070019k9-gb20-192bits-2325mhz-1xhdmi-3xdisplayport/308762.html",
+        "specs": [
+            "PALIT",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12836,
+        "ref": "271267",
+        "brand": "PALIT",
+        "title_orig": "PLACA DE VIDEO PALIT INFINITY 2 8GB NVIDIA GEFORCE RTX4060 GDDR6 NE64060019P1 1070L 128BITS 1830MHZ 1XHDMI 3XDISPLAYPORT",
+        "title": "PLACA DE VIDEO PALIT INFINITY 2 8GB NVIDIA GEFORCE RTX4060 GDDR6 NE64060019P1 1070L 128BITS 1830MHZ 1XHDMI 3XDISPLAYPORT",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_271267_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/-placa-de-video-palit-infinity-2-8gb-nvidia-geforce-rtx4060-gddr6-ne64060019p1-1070l-128bits-1830mhz-1xhdmi-3xdisplayport/271267.html",
+        "specs": [
+            "PALIT",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12837,
+        "ref": "309416",
+        "brand": "PALIT",
+        "title_orig": "PLACA DE VIDEO PALIT GEFORCE RTX5080 GAMING PRO OC EDITION 16GB GDDR7 256 BIT NE75080019T2 GB2031A",
+        "title": "PLACA DE VIDEO PALIT GEFORCE RTX5080 GAMING PRO OC EDITION 16GB GDDR7 256 BIT NE75080019T2 GB2031A",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_309416_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-palit-geforce-rtx5080-gaming-pro-oc-edition-16gb-gddr7-256-bit-ne75080019t2-gb2031a/309416.html",
+        "specs": [
+            "PALIT",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12838,
+        "ref": "245492",
+        "brand": "PALIT",
+        "title_orig": "PLACA DE VIDEO RTX4060 8GB PALIT STORMX NE64060019P1 1070F",
+        "title": "PLACA DE VIDEO RTX4060 8GB PALIT STORMX NE64060019P1 1070F",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_245492_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-rtx4060-8gb-palit-stormx-ne64060019p1-1070f/245492.html",
+        "specs": [
+            "PALIT",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12839,
+        "ref": "245516",
+        "brand": "PALIT",
+        "title_orig": "PLACA DE VIDEO RTX4060TI 16GB PALIT JETSTREAM NE6406T019T1 10",
+        "title": "PLACA DE VIDEO RTX4060TI 16GB PALIT JETSTREAM NE6406T019T1 10",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_245516_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-rtx4060ti-16gb-palit-jetstream-ne6406t019t1-10/245516.html",
+        "specs": [
+            "PALIT",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12840,
+        "ref": "158495",
+        "brand": "PALIT",
+        "title_orig": "PLACA DE VIDEO PALIT DUAL 8GB NVIDIA GEFORCE RTX3050 GDDR6 NE63050018P1 1070D 128BITS 1552MHZ HDMI DVI DISPLAYPORT",
+        "title": "PLACA DE VIDEO PALIT DUAL 8GB NVIDIA GEFORCE RTX3050 GDDR6 NE63050018P1 1070D 128BITS 1552MHZ HDMI DVI DISPLAYPORT",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_158495_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-palit-dual-8gb-nvidia-geforce-rtx3050-gddr6-ne63050018p1-1070d-128bits-1552mhz-hdmi-dvi-displayport/158495.html",
+        "specs": [
+            "PALIT",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12841,
+        "ref": "258510",
+        "brand": "PALIT",
+        "title_orig": "PLACA DE VIDEO PALIT KALMX 6GB NVIDIA GEFORCE RTX3050 GDDR6 NE63050018JE 1070H 96BITS 1042MHZ HDMI DVI DISPLAYPORT",
+        "title": "PLACA DE VIDEO PALIT KALMX 6GB NVIDIA GEFORCE RTX3050 GDDR6 NE63050018JE 1070H 96BITS 1042MHZ HDMI DVI DISPLAYPORT",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_258510_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-palit-kalmx-6gb-nvidia-geforce-rtx3050-gddr6-ne63050018je-1070h-96bits-1042mhz-hdmi-dvi-displayport/258510.html",
+        "specs": [
+            "PALIT",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12842,
+        "ref": "237168",
+        "brand": "PALIT",
+        "title_orig": "VGA RTX3050 8GB PALIT STORMX NE63050018P1 1070F  237168",
+        "title": "VGA RTX3050 8GB PALIT STORMX NE63050018P1 1070F  237168",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_237168_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rtx3050-8gb-palit-stormx-ne63050018p1-1070f-codigo-237168/237168.html",
+        "specs": [
+            "PALIT",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12843,
+        "ref": "318864",
+        "brand": "PALIT",
+        "title_orig": "VGA RTX5070TI 16GB PALIT GAMINGPRO OC NE7507TS19T2 NE7507TS19T2 GB 2031Y GDDR7",
+        "title": "VGA RTX5070TI 16GB PALIT GAMINGPRO OC NE7507TS19T2 NE7507TS19T2 GB 2031Y GDDR7",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_318864_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rtx5070ti-16gb-palit-gamingpro-oc-ne7507ts19t2-ne7507ts19t2-gb-2031y-gddr7/318864.html",
+        "specs": [
+            "PALIT",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12844,
+        "ref": "273594",
+        "brand": "PALIT",
+        "title_orig": "VGA RTX4070 SUPER 12GB PALIT DUAL NED407S019K9 104",
+        "title": "VGA RTX4070 SUPER 12GB PALIT DUAL NED407S019K9 104",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_273594_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rtx4070-super-12gb-palit-dual-ned407s019k9-104/273594.html",
+        "specs": [
+            "PALIT",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12845,
+        "ref": "158484",
+        "brand": "PALIT",
+        "title_orig": "PLACA DE VIDEO PALIT DUAL 12GB NVIDIA GEFORCE RTX3060 GDDR6 NE63060019K9 190AD 192BITS 1320MHZ HDMI 3XDISPLAYPORT",
+        "title": "PLACA DE VIDEO PALIT DUAL 12GB NVIDIA GEFORCE RTX3060 GDDR6 NE63060019K9 190AD 192BITS 1320MHZ HDMI 3XDISPLAYPORT",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_158484_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-palit-dual-12gb-nvidia-geforce-rtx3060-gddr6-ne63060019k9-190ad-192bits-1320mhz-hdmi-3xdisplayport/158484.html",
+        "specs": [
+            "PALIT",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12846,
+        "ref": "335011",
+        "brand": "PALIT",
+        "title_orig": "VGA RTX5060 8GB PALIT INFINITY 3 NE75060019P1 GB GB2063S  335011",
+        "title": "VGA RTX5060 8GB PALIT INFINITY 3 NE75060019P1 GB GB2063S  335011",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_335011_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rtx5060-8gb-palit-infinity-3-ne75060019p1-gb-gb2063s-codigo-335011/335011.html",
+        "specs": [
+            "PALIT",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12847,
+        "ref": "318875",
+        "brand": "PALIT",
+        "title_orig": "PLACA DE VIDEO PALIT GEFORCE RTX5080 GAMING PRO OC 16GB GDDR7 256BITS 16GB GDDR7 1X HDMI 3X DISPLAYPORT NE75080S19T2 NE75080S19T2 GB 2031A GDDR7",
+        "title": "PLACA DE VIDEO PALIT GEFORCE RTX5080 GAMING PRO OC 16GB GDDR7 256BITS 16GB GDDR7 1X HDMI 3X DISPLAYPORT NE75080S19T2 NE75080S19T2 GB 2031A GDDR7",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_318875_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-palit-geforce-rtx5080-gaming-pro-oc-16gb-gddr7-256bits-16gb-gddr7-1x-hdmi-3x-displayport-ne75080s19t2-ne75080s19t2-gb-2031a-gddr7/318875.html",
+        "specs": [
+            "PALIT",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12848,
+        "ref": "245505",
+        "brand": "PALIT",
+        "title_orig": "PLACA DE VIDEO RTX4060TI 8GB PALIT DUAL NE6406T019P1 1060D",
+        "title": "PLACA DE VIDEO RTX4060TI 8GB PALIT DUAL NE6406T019P1 1060D",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_245505_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-rtx4060ti-8gb-palit-dual-ne6406t019p1-1060d/245505.html",
+        "specs": [
+            "PALIT",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12849,
+        "ref": "308773",
+        "brand": "PALIT",
+        "title_orig": "VGA RTX5070TI 16GB PALIT GAMINGPRO GDDR7 3FN NE7507T019T2 GB 2031A  308773",
+        "title": "VGA RTX5070TI 16GB PALIT GAMINGPRO GDDR7 3FN NE7507T019T2 GB 2031A  308773",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_308773_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rtx5070ti-16gb-palit-gamingpro-gddr7-3fn-ne7507t019t2-gb-2031a-codigo-308773/308773.html",
+        "specs": [
+            "PALIT",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12850,
+        "ref": "318853",
+        "brand": "PALIT",
+        "title_orig": "VGA RTX5070TI 16GB PALIT GAMINGPRO NE7507T019T2 GB 2031Y GDDR7",
+        "title": "VGA RTX5070TI 16GB PALIT GAMINGPRO NE7507T019T2 GB 2031Y GDDR7",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_318853_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rtx5070ti-16gb-palit-gamingpro-ne7507t019t2-gb-2031y-gddr7/318853.html",
+        "specs": [
+            "PALIT",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12851,
+        "ref": "365631",
+        "brand": "SAMSUNG",
+        "title_orig": "LOCALIZADOR SAMSUNG GALAXY SMART TAG2 4PACK EI T5600KWEGWW BRANCO PRETO",
+        "title": "LOCALIZADOR SAMSUNG GALAXY SMART TAG2 4PACK EI T5600KWEGWW Blanco Negro",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_365631_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/localizador-samsung-galaxy-smart-tag2-4pack-ei-t5600kwegww-branco-preto/365631.html",
+        "specs": [
+            "SAMSUNG",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12852,
+        "ref": "387905",
+        "brand": "SAMSUNG",
+        "title_orig": "LOCALIZADOR SAMSUNG GALAXY SMART TAG2 1PACK PRETO EI T5600BWEGWW  387905",
+        "title": "LOCALIZADOR SAMSUNG GALAXY SMART TAG2 1PACK Negro EI T5600BWEGWW  387905",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_387905_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/localizador-samsung-galaxy-smart-tag2-1pack-preto-ei-t5600bwegww-codigo-387905/387905.html",
+        "specs": [
+            "SAMSUNG",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12853,
+        "ref": "399963",
+        "brand": "GALAX",
+        "title_orig": "TRICICLO ELETRICO HYE TR02 8 5 PURPLE GALAXY  399963",
+        "title": "TRICICLO ELETRICO HYE TR02 8 5 PURPLE GALAXY  399963",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_399963_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/triciclo-eletrico-hye-tr02-8-5-purple-galaxy-codigo-399963/399963.html",
+        "specs": [
+            "GALAX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12854,
+        "ref": "399952",
+        "brand": "GALAX",
+        "title_orig": "TRICICLO ELETRICO HYE TR01 6 5 BLUE GALAXY  399952",
+        "title": "TRICICLO ELETRICO HYE TR01 6 5 BLUE GALAXY  399952",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_399952_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/triciclo-eletrico-hye-tr01-6-5-blue-galaxy-codigo-399952/399952.html",
+        "specs": [
+            "GALAX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12855,
+        "ref": "409786",
+        "brand": "SAMSUNG",
+        "title_orig": "TABLET SAMSUNG GALAXY TAB A11 SM X135G 4GB 64GB SL SILVER",
+        "title": "TABLET SAMSUNG GALAXY TAB A11 SM X135G 4GB 64GB SL SILVER",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_409786_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tablet-samsung-galaxy-tab-a11-sm-x135g-4gb-64gb-sl-silver/409786.html",
+        "specs": [
+            "SAMSUNG",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12856,
+        "ref": "409507",
+        "brand": "SAMSUNG",
+        "title_orig": "FONE EAR SAMSUNG GALAXY BUDS4 PRO SM R640NZWALTA WHITE",
+        "title": "FONE EAR SAMSUNG GALAXY BUDS4 PRO SM R640NZWALTA WHITE",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_409507_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-ear-samsung-galaxy-buds4-pro-sm-r640nzwalta-white/409507.html",
+        "specs": [
+            "SAMSUNG",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12857,
+        "ref": "409494",
+        "brand": "SAMSUNG",
+        "title_orig": "RELOGIO SAMSUNG GALAXY WATCH8 40MM SM L320 SILVER SM L320NZSALTA",
+        "title": "RELOGIO SAMSUNG GALAXY WATCH8 40MM SM L320 SILVER SM L320NZSALTA",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_409494_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/relogio-samsung-galaxy-watch8-40mm-sm-l320-silver-sm-l320nzsalta/409494.html",
+        "specs": [
+            "SAMSUNG",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12858,
+        "ref": "409797",
+        "brand": "SAMSUNG",
+        "title_orig": "FONE EAR SAMSUNG GALAXY BUDS4 PRO SM R640NZKALTA BLACK  409797",
+        "title": "FONE EAR SAMSUNG GALAXY BUDS4 PRO SM R640NZKALTA BLACK  409797",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_409797_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-ear-samsung-galaxy-buds4-pro-sm-r640nzkalta-black-codigo-409797/409797.html",
+        "specs": [
+            "SAMSUNG",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12859,
+        "ref": "334526",
+        "brand": "GALAX",
+        "title_orig": "PLACA DE VIDEO GALAX GEFORCE RTX5080 GALAX HOF GAMING EDITION 16GB GDDR7 256BITS 1X HDMI 3X DISPLAYPORT 58NZN6MDDPFG BRANCO",
+        "title": "PLACA DE VIDEO GALAX GEFORCE RTX5080 GALAX HOF GAMING EDITION 16GB GDDR7 256BITS 1X HDMI 3X DISPLAYPORT 58NZN6MDDPFG Blanco",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_334526_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-galax-geforce-rtx5080-galax-hof-gaming-edition-16gb-gddr7-256bits-1x-hdmi-3x-displayport-58nzn6mddpfg-branco/334526.html",
+        "specs": [
+            "GALAX",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12860,
+        "ref": "252907",
+        "brand": "GALAX",
+        "title_orig": "MOUSE GALAX SLIDER 02 RGB GAMNING 3600DPI PRETO",
+        "title": "MOUSE GALAX SLIDER 02 RGB GAMNING 3600DPI Negro",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_252907_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-galax-slider-02-rgb-gamning-3600dpi-preto/252907.html",
+        "specs": [
+            "GALAX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12861,
+        "ref": "252894",
+        "brand": "GALAX",
+        "title_orig": "MOUSE GALAX SLIDER 01 RGB GAMING 7200DPI PRETO",
+        "title": "MOUSE GALAX SLIDER 01 RGB GAMING 7200DPI Negro",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_252894_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-galax-slider-01-rgb-gaming-7200dpi-preto/252894.html",
+        "specs": [
+            "GALAX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12862,
+        "ref": "334313",
+        "brand": "GALAX",
+        "title_orig": "PLACA DE VIDEO GALAX GEFORCE RTX5070TI HALL OF FAME GAMING 16GB GDDR7 256BITS 1X HDMI 3X DISPLAYPORT 57IZN6MDCXHS PRETO",
+        "title": "PLACA DE VIDEO GALAX GEFORCE RTX5070TI HALL OF FAME GAMING 16GB GDDR7 256BITS 1X HDMI 3X DISPLAYPORT 57IZN6MDCXHS Negro",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_334313_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-galax-geforce-rtx5070ti-hall-of-fame-gaming-16gb-gddr7-256bits-1x-hdmi-3x-displayport-57izn6mdcxhs-preto/334313.html",
+        "specs": [
+            "GALAX",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12863,
+        "ref": "334302",
+        "brand": "GALAX",
+        "title_orig": "PLACA DE VIDEO GALAX GEFORCE RTX5070TI HALL OF FAME GAMING 16GB GDDR7 256BITS 1X HDMI 3X DISPLAYPORT 57IZN6MDDPWT I",
+        "title": "PLACA DE VIDEO GALAX GEFORCE RTX5070TI HALL OF FAME GAMING 16GB GDDR7 256BITS 1X HDMI 3X DISPLAYPORT 57IZN6MDDPWT I",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_334302_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-galax-geforce-rtx5070ti-hall-of-fame-gaming-16gb-gddr7-256bits-1x-hdmi-3x-displayport-57izn6mddpwt-i-/334302.html",
+        "specs": [
+            "GALAX",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12864,
+        "ref": "334212",
+        "brand": "GALAX",
+        "title_orig": "VGA RTX5050 8GB GALAX 1 CLICK OC BLACK GDDR6 55NSL8MHDCHD  334212",
+        "title": "VGA RTX5050 8GB GALAX 1 CLICK OC BLACK GDDR6 55NSL8MHDCHD  334212",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_334212_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rtx5050-8gb-galax-1-click-oc-black-gddr6-55nsl8mhdchd-codigo-334212/334212.html",
+        "specs": [
+            "GALAX",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12865,
+        "ref": "204981",
+        "brand": "GALAX",
+        "title_orig": "PLACA DE VIDEO GALAX SG LHR CLICK OC FEATURE 10GB NVIDIA GEFORCE RTX3080 GDDR6X 38NWM3MD99RG 320BITS 1725MHZ 1XHDMI 3XDISPLAYPORT  204981",
+        "title": "PLACA DE VIDEO GALAX SG LHR CLICK OC FEATURE 10GB NVIDIA GEFORCE RTX3080 GDDR6X 38NWM3MD99RG 320BITS 1725MHZ 1XHDMI 3XDISPLAYPORT  204981",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_204981_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-galax-sg-lhr-click-oc-feature-10gb-nvidia-geforce-rtx3080-gddr6x-38nwm3md99rg-320bits-1725mhz-1xhdmi-3xdisplayport-codigo-204981/204981.html",
+        "specs": [
+            "GALAX",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12866,
+        "ref": "252918",
+        "brand": "GALAX",
+        "title_orig": "FONE GALAX C MIC SONAR 01 RGB GAMING USB7 1 PRETO",
+        "title": "FONE GALAX C MIC SONAR 01 RGB GAMING USB7 1 Negro",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_252918_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-galax-c-mic-sonar-01-rgb-gaming-usb7-1-preto/252918.html",
+        "specs": [
+            "GALAX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12867,
+        "ref": "334234",
+        "brand": "GALAX",
+        "title_orig": "VGA RTX5060 8GB GALAX 1 CLICK OC GDDR7 128BIT 56NSN8MDDCOC  334234",
+        "title": "VGA RTX5060 8GB GALAX 1 CLICK OC GDDR7 128BIT 56NSN8MDDCOC  334234",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_334234_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rtx5060-8gb-galax-1-click-oc-gddr7-128bit-56nsn8mddcoc-codigo-334234/334234.html",
+        "specs": [
+            "GALAX",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12868,
+        "ref": "241635",
+        "brand": "GALAX",
+        "title_orig": "PLACA DE VIDEO RTX2060 8GB GALAX SUPER 1 CLICK OC GDDR6 256B",
+        "title": "PLACA DE VIDEO RTX2060 8GB GALAX SUPER 1 CLICK OC GDDR6 256B",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_241635_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-rtx2060-8gb-galax-super-1-click-oc-gddr6-256b/241635.html",
+        "specs": [
+            "GALAX",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12869,
+        "ref": "334289",
+        "brand": "GALAX",
+        "title_orig": "VGA RTX5070 12GB GALAX 1 CLICK OC GDDR7 192BIT 57NON7MDBROC",
+        "title": "VGA RTX5070 12GB GALAX 1 CLICK OC GDDR7 192BIT 57NON7MDBROC",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_334289_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rtx5070-12gb-galax-1-click-oc-gddr7-192bit-57non7mdbroc/334289.html",
+        "specs": [
+            "GALAX",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12870,
+        "ref": "334290",
+        "brand": "GALAX",
+        "title_orig": "VGA RTX5060TI 16GB GALAX 1 CLICK OC GDDR7 128BIT 56IZN8MDCPOC  334290",
+        "title": "VGA RTX5060TI 16GB GALAX 1 CLICK OC GDDR7 128BIT 56IZN8MDCPOC  334290",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_334290_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rtx5060ti-16gb-galax-1-click-oc-gddr7-128bit-56izn8mdcpoc-codigo-334290/334290.html",
+        "specs": [
+            "GALAX",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12871,
+        "ref": "334357",
+        "brand": "GALAX",
+        "title_orig": "MOUSE GALAX HOF ACE M2 GAMING WHITE GMGHM2P708RG2BW  334357",
+        "title": "MOUSE GALAX HOF ACE M2 GAMING WHITE GMGHM2P708RG2BW  334357",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_334357_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-galax-hof-ace-m2-gaming-white-gmghm2p708rg2bw-codigo-334357/334357.html",
+        "specs": [
+            "GALAX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12872,
+        "ref": "387466",
+        "brand": "ASROCK",
+        "title_orig": "MB AM4 ASROCK B450M AC R2 0 DDR4 HDMI USB3 2  387466",
+        "title": "MB AM4 ASROCK B450M AC R2 0 DDR4 HDMI USB3 2  387466",
+        "category": "Memorias RAM",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_387466_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am4-asrock-b450m-ac-r2-0-ddr4-hdmi-usb3-2-codigo-387466/387466.html",
+        "specs": [
+            "ASROCK",
+            "Memorias RAM"
+        ]
+    },
+    {
+        "id": 12873,
+        "ref": "387993",
+        "brand": "ASROCK",
+        "title_orig": "PLACA MAE AM5 ASROCK B850M STEEL LEGEND WIFI DDR5 M 2",
+        "title": "PLACA MAE AM5 ASROCK B850M STEEL LEGEND WIFI DDR5 M 2",
+        "category": "Memorias RAM",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_387993_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-mae-am5-asrock-b850m-steel-legend-wifi-ddr5-m-2/387993.html",
+        "specs": [
+            "ASROCK",
+            "Memorias RAM"
+        ]
+    },
+    {
+        "id": 12874,
+        "ref": "404568",
+        "brand": "ASROCK",
+        "title_orig": "FONTE 850W ASROCK PG 850G 80 GOLD FULL MOD BLACK",
+        "title": "FONTE 850W ASROCK PG 850G 80 GOLD FULL MOD BLACK",
+        "category": "Fuentes de Poder",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_404568_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fonte-850w-asrock-pg-850g-80-gold-full-mod-black/404568.html",
+        "specs": [
+            "ASROCK",
+            "Fuentes de Poder"
+        ]
+    },
+    {
+        "id": 12875,
+        "ref": "152781",
+        "brand": "ASROCK",
+        "title_orig": "MB AM4 ASROCK B450M HDV R4 0 DVI D HDMI VGA  152781",
+        "title": "MB AM4 ASROCK B450M HDV R4 0 DVI D HDMI VGA  152781",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_152781_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am4-asrock-b450m-hdv-r4-0-dvi-d-hdmi-vga-codigo-152781/152781.html",
+        "specs": [
+            "ASROCK",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12876,
+        "ref": "99815",
+        "brand": "AMD",
+        "title_orig": "PLACA MAE ASROCK B450M STEEL LEGEND CHIPSET AMD B450 SOCKET AM4 DDR4 MICRO ATX",
+        "title": "PLACA MAE ASROCK B450M STEEL LEGEND CHIPSET AMD B450 SOCKET AM4 DDR4 MICRO ATX",
+        "category": "Memorias RAM",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_99815_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-mae-asrock-b450m-steel-legend-chipset-amd-b450-socket-am4-ddr4-micro-atx/99815.html",
+        "specs": [
+            "AMD",
+            "Memorias RAM"
+        ]
+    },
+    {
+        "id": 12877,
+        "ref": "380661",
+        "brand": "BIOSTAR",
+        "title_orig": "VGA GTX1660TI 6GB BIOSTAR EXTREME GAMING VN1666TF6 VN1666TF69 TN1R A BS2",
+        "title": "VGA GTX1660TI 6GB BIOSTAR EXTREME GAMING VN1666TF6 VN1666TF69 TN1R A BS2",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_380661_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-gtx1660ti-6gb-biostar-extreme-gaming-vn1666tf6-vn1666tf69-tn1r-a-bs2/380661.html",
+        "specs": [
+            "BIOSTAR",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12878,
+        "ref": "317942",
+        "brand": "RAZER",
+        "title_orig": "MOUSE RAZER VIPER V3 PRO RZ01 05120100 R3U1 BLACK",
+        "title": "MOUSE RAZER VIPER V3 PRO RZ01 05120100 R3U1 BLACK",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_317942_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-razer-viper-v3-pro-rz01-05120100-r3u1-black/317942.html",
+        "specs": [
+            "RAZER",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12879,
+        "ref": "302890",
+        "brand": "RAZER",
+        "title_orig": "MOUSE RAZER DEATHADDER V3 PRO WIRELESS HIPR USB RZ01 04630300",
+        "title": "MOUSE RAZER DEATHADDER V3 PRO WIRELESS HIPR USB RZ01 04630300",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_302890_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-razer-deathadder-v3-pro-wireless-hipr-usb-rz01-04630300-/302890.html",
+        "specs": [
+            "RAZER",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12880,
+        "ref": "83606",
+        "brand": "RAZER",
+        "title_orig": "TECLADO GAMER MECANICO RAZER HUNTSMAN MINI RGB 60 USB C SWITCH RAZER CLICKY ROXO INGLES BRANCO MERCURY",
+        "title": "TECLADO GAMER MECANICO RAZER HUNTSMAN MINI RGB 60 USB C SWITCH RAZER CLICKY ROXO INGLES Blanco MERCURY",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_83606_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-gamer-mecanico-razer-huntsman-mini-rgb-60-usb-c-switch-razer-clicky-roxo-ingles-branco-mercury/83606.html",
+        "specs": [
+            "RAZER",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12881,
+        "ref": "219853",
+        "brand": "RAZER",
+        "title_orig": "MOUSE RAZER BASILISK V3 X HYPERSPEED RZ01 04870100 RZ01 04870100 R",
+        "title": "MOUSE RAZER BASILISK V3 X HYPERSPEED RZ01 04870100 RZ01 04870100 R",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_219853_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-razer-basilisk-v3-x-hyperspeed-rz01-04870100-rz01-04870100-r/219853.html",
+        "specs": [
+            "RAZER",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12882,
+        "ref": "304668",
+        "brand": "RAZER",
+        "title_orig": "MOUSE RAZER DEATHADDER ESSENTIAL ERGONOMIC WIRED RZ01 03850100 R  304668",
+        "title": "MOUSE RAZER DEATHADDER ESSENTIAL ERGONOMIC WIRED RZ01 03850100 R  304668",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_304668_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-razer-deathadder-essential-ergonomic-wired-rz01-03850100-r-codigo-304668/304668.html",
+        "specs": [
+            "RAZER",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12883,
+        "ref": "343302",
+        "brand": "RAZER",
+        "title_orig": "TECLADO RAZER HUNTSMAN RZ03 04980200 R3U1 BLACK",
+        "title": "TECLADO RAZER HUNTSMAN RZ03 04980200 R3U1 BLACK",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_343302_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-razer-huntsman-rz03-04980200-r3u1-black/343302.html",
+        "specs": [
+            "RAZER",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12884,
+        "ref": "363572",
+        "brand": "RAZER",
+        "title_orig": "TECLADO RAZER BLACKWIDOW V4 USB RGB MEC BLACK RZ03 05130200 R 3U1  363572",
+        "title": "TECLADO RAZER BLACKWIDOW V4 USB RGB MEC BLACK RZ03 05130200 R 3U1  363572",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_363572_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-razer-blackwidow-v4-usb-rgb-mec-black-rz03-05130200-r-3u1-codigo-363572/363572.html",
+        "specs": [
+            "RAZER",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12885,
+        "ref": "214982",
+        "brand": "RAZER",
+        "title_orig": "TECLADO RAZER BLACKWIDOW V4 PRO RZ03 04681900 R3U1 US RGB RGB",
+        "title": "TECLADO RAZER BLACKWIDOW V4 PRO RZ03 04681900 R3U1 US RGB RGB",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_214982_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-razer-blackwidow-v4-pro-rz03-04681900-r3u1-us-rgb-rgb/214982.html",
+        "specs": [
+            "RAZER",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12886,
+        "ref": "347901",
+        "brand": "RAZER",
+        "title_orig": "MOUSE RAZER GAMER BASILISK V3 RZ01 05240100 R3U1 S F RGB",
+        "title": "MOUSE RAZER GAMER BASILISK V3 RZ01 05240100 R3U1 S F RGB",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_347901_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-razer-gamer-basilisk-v3-rz01-05240100-r3u1-s-f-rgb/347901.html",
+        "specs": [
+            "RAZER",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12887,
+        "ref": "347899",
+        "brand": "RAZER",
+        "title_orig": "MOUSE RAZER COBRA RZ01 04660200 R3U1 S F WHITE PRO RGB",
+        "title": "MOUSE RAZER COBRA RZ01 04660200 R3U1 S F WHITE PRO RGB",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_347899_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-razer-cobra-rz01-04660200-r3u1-s-f-white-pro-rgb/347899.html",
+        "specs": [
+            "RAZER",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12888,
+        "ref": "364259",
+        "brand": "RAZER",
+        "title_orig": "FONE RAZER KRAKEN KITTY V2 WIRELESS RGB WHITE RZ04 04860600 R 3U1",
+        "title": "FONE RAZER KRAKEN KITTY V2 WIRELESS RGB WHITE RZ04 04860600 R 3U1",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_364259_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-razer-kraken-kitty-v2-wireless-rgb-white-rz04-04860600-r-3u1/364259.html",
+        "specs": [
+            "RAZER",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12889,
+        "ref": "363561",
+        "brand": "RAZER",
+        "title_orig": "TECLADO GAMER MECANICO RAZER BLACKWIDOW V4 RGB 75 USB C SWITCH RAZER ORANGE INGLES BRANCO  363561",
+        "title": "TECLADO GAMER MECANICO RAZER BLACKWIDOW V4 RGB 75 USB C SWITCH RAZER ORANGE INGLES Blanco  363561",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_363561_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-gamer-mecanico-razer-blackwidow-v4-rgb-75-usb-c-switch-razer-orange-ingles-branco-codigo-363561/363561.html",
+        "specs": [
+            "RAZER",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12890,
+        "ref": "344740",
+        "brand": "RAZER",
+        "title_orig": "FONE RAZER KRAKEN V4 X WIRED RZ04 05180200 R3M1 GAMING HEADSET GREEN",
+        "title": "FONE RAZER KRAKEN V4 X WIRED RZ04 05180200 R3M1 GAMING HEADSET GREEN",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_344740_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-razer-kraken-v4-x-wired-rz04-05180200-r3m1-gaming-headset-green/344740.html",
+        "specs": [
+            "RAZER",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12891,
+        "ref": "363540",
+        "brand": "RAZER",
+        "title_orig": "TECLADO GAMER MECANICO RAZER V3 PRO MINI RGB 60 USB C SWITCH OPTICO ANALOGICO INGLES BRANCO",
+        "title": "TECLADO GAMER MECANICO RAZER V3 PRO MINI RGB 60 USB C SWITCH OPTICO ANALOGICO INGLES Blanco",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_363540_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-gamer-mecanico-razer-v3-pro-mini-rgb-60-usb-c-switch-optico-analogico-ingles-branco/363540.html",
+        "specs": [
+            "RAZER",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12892,
+        "ref": "364260",
+        "brand": "RAZER",
+        "title_orig": "TECLADO GAMER MECANICO RAZER HUNTSMAN MINI RGB 60 USB C SWITCH RAZER CLICKY ROXO INGLES BRANCO MERCURY  364260",
+        "title": "TECLADO GAMER MECANICO RAZER HUNTSMAN MINI RGB 60 USB C SWITCH RAZER CLICKY ROXO INGLES Blanco MERCURY  364260",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_364260_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-gamer-mecanico-razer-huntsman-mini-rgb-60-usb-c-switch-razer-clicky-roxo-ingles-branco-mercury-codigo-364260/364260.html",
+        "specs": [
+            "RAZER",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12893,
+        "ref": "363720",
+        "brand": "RAZER",
+        "title_orig": "MOUSE RAZER BASILISK V3 RZ01 05230100 R3M1 PRETO",
+        "title": "MOUSE RAZER BASILISK V3 RZ01 05230100 R3M1 Negro",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_363720_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-razer-basilisk-v3-rz01-05230100-r3m1-preto/363720.html",
+        "specs": [
+            "RAZER",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12894,
+        "ref": "363550",
+        "brand": "RAZER",
+        "title_orig": "TECLADO RAZER BLACKWIDOW V4 USB MEC RGB PRETO RZ03 05000200 R 3U1",
+        "title": "TECLADO RAZER BLACKWIDOW V4 USB MEC RGB Negro RZ03 05000200 R 3U1",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_363550_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-razer-blackwidow-v4-usb-mec-rgb-preto-rz03-05000200-r-3u1/363550.html",
+        "specs": [
+            "RAZER",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12895,
+        "ref": "363583",
+        "brand": "STAR",
+        "title_orig": "FONE RAZER KRAKEN V4 X POKEMON KANTO STARTERS FRML RZ04 05180300 R 3M1",
+        "title": "FONE RAZER KRAKEN V4 X POKEMON KANTO STARTERS FRML RZ04 05180300 R 3M1",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_363583_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-razer-kraken-v4-x-pokemon-kanto-starters-frml-rz04-05180300-r-3m1/363583.html",
+        "specs": [
+            "STAR",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12896,
+        "ref": "363831",
+        "brand": "RAZER",
+        "title_orig": "TECLADO GAMER MECANICO RAZER HUNTSMAN MINI RGB 60 USB C SWITCH RAZER CLICKY ROXO INGLES BRANCO MERCURY  363831",
+        "title": "TECLADO GAMER MECANICO RAZER HUNTSMAN MINI RGB 60 USB C SWITCH RAZER CLICKY ROXO INGLES Blanco MERCURY  363831",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_363831_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-gamer-mecanico-razer-huntsman-mini-rgb-60-usb-c-switch-razer-clicky-roxo-ingles-branco-mercury-codigo-363831/363831.html",
+        "specs": [
+            "RAZER",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12897,
+        "ref": "364270",
+        "brand": "RAZER",
+        "title_orig": "TECLADO RAZER HUNTSMAN MINI RZ03 03392100 R311 BLK",
+        "title": "TECLADO RAZER HUNTSMAN MINI RZ03 03392100 R311 BLK",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_364270_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-razer-huntsman-mini-rz03-03392100-r311-blk/364270.html",
+        "specs": [
+            "RAZER",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12898,
+        "ref": "398883",
+        "brand": "KINGSTON",
+        "title_orig": "MEM DDR4 8GB 3600 KINGSTON HYPERX FURY BEAST RGB KF436C17BB2A 8 BLACK",
+        "title": "MEM DDR4 8GB 3600 KINGSTON HYPERX FURY BEAST RGB KF436C17BB2A 8 BLACK",
+        "category": "Memorias RAM",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_398883_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mem-ddr4-8gb-3600-kingston-hyperx-fury-beast-rgb-kf436c17bb2a-8-black/398883.html",
+        "specs": [
+            "KINGSTON",
+            "Memorias RAM"
+        ]
+    },
+    {
+        "id": 12899,
+        "ref": "119470",
+        "brand": "KINGSTON",
+        "title_orig": "MEM DDR4 8GB 2666 KINGSTON HYPERX FURY BEAST 119470",
+        "title": "MEM DDR4 8GB 2666 KINGSTON HYPERX FURY BEAST 119470",
+        "category": "Memorias RAM",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_119470_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mem-ddr4-8gb-2666-kingston-hyperx-fury-beast-119470/119470.html",
+        "specs": [
+            "KINGSTON",
+            "Memorias RAM"
+        ]
+    },
+    {
+        "id": 12900,
+        "ref": "123948",
+        "brand": "KINGSTON",
+        "title_orig": "MEM NB DDR4 8GB 2666 KINGSTON HYPERX IMPACT BLACK 123948",
+        "title": "MEM NB DDR4 8GB 2666 KINGSTON HYPERX IMPACT BLACK 123948",
+        "category": "Memorias RAM",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_123948_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mem-nb-ddr4-8gb-2666-kingston-hyperx-impact-black-123948/123948.html",
+        "specs": [
+            "KINGSTON",
+            "Memorias RAM"
+        ]
+    },
+    {
+        "id": 12901,
+        "ref": "264337",
+        "brand": "KINGSTON",
+        "title_orig": "MEM DDR4 8GB 2666 KINGSTON HYPERX FURY BEAST RGB  264337",
+        "title": "MEM DDR4 8GB 2666 KINGSTON HYPERX FURY BEAST RGB  264337",
+        "category": "Memorias RAM",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_264337_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mem-ddr4-8gb-2666-kingston-hyperx-fury-beast-rgb-codigo-264337/264337.html",
+        "specs": [
+            "KINGSTON",
+            "Memorias RAM"
+        ]
+    },
+    {
+        "id": 12902,
+        "ref": "47538",
+        "brand": "HYPERX",
+        "title_orig": "MOUSE HYPERX PULSEFIRE FPS PRO RGB HX MC003B 1600D",
+        "title": "MOUSE HYPERX PULSEFIRE FPS PRO RGB HX MC003B 1600D",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_47538_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-hyperx-pulsefire-fps-pro-rgb-hx-mc003b-1600d/47538.html",
+        "specs": [
+            "HYPERX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12903,
+        "ref": "117435",
+        "brand": "HYPERX",
+        "title_orig": "FONE HYPERX CLOUDX XBOX HHSC2 CG SL G 117435",
+        "title": "FONE HYPERX CLOUDX XBOX HHSC2 CG SL G 117435",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_117435_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-hyperx-cloudx-xbox-hhsc2-cg-sl-g-117435/117435.html",
+        "specs": [
+            "HYPERX",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12904,
+        "ref": "61971",
+        "brand": "HYPERX",
+        "title_orig": "FONE HYPERX CLOUDX XBOX STINGER CORE HX HSCSCX BK",
+        "title": "FONE HYPERX CLOUDX XBOX STINGER CORE HX HSCSCX BK",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_61971_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-hyperx-cloudx-xbox-stinger-core-hx-hscscx-bk/61971.html",
+        "specs": [
+            "HYPERX",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12905,
+        "ref": "117525",
+        "brand": "HYPERX",
+        "title_orig": "FONE HYPERX CLOUD CHAT HX HSCCHS BK AM AZUL",
+        "title": "FONE HYPERX CLOUD CHAT HX HSCCHS BK AM Azul",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_117525_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-hyperx-cloud-chat-hx-hscchs-bk-am-azul/117525.html",
+        "specs": [
+            "HYPERX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12906,
+        "ref": "47527",
+        "brand": "HYPERX",
+        "title_orig": "MOUSE HYPERX PULSEFIRE CORE HX MC004B RGB 6200DPI",
+        "title": "MOUSE HYPERX PULSEFIRE CORE HX MC004B RGB 6200DPI",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_47527_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-hyperx-pulsefire-core-hx-mc004b-rgb-6200dpi/47527.html",
+        "specs": [
+            "HYPERX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12907,
+        "ref": "128953",
+        "brand": "KINGSTON",
+        "title_orig": "MEM DDR4 8GB 3600 KINGSTON HYPERX BEAST RGB BLACK KF436C17BBA 8",
+        "title": "MEM DDR4 8GB 3600 KINGSTON HYPERX BEAST RGB BLACK KF436C17BBA 8",
+        "category": "Memorias RAM",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_128953_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mem-ddr4-8gb-3600-kingston-hyperx-beast-rgb-black-kf436c17bba-8/128953.html",
+        "specs": [
+            "KINGSTON",
+            "Memorias RAM"
+        ]
+    },
+    {
+        "id": 12908,
+        "ref": "117457",
+        "brand": "HYPERX",
+        "title_orig": "FONE GAMER HYPERX CLOUD REVOLVER 7 1 XBOX ONE E XBOX SERIES X S COM FIO P3 3 5MM DRIVERS 50MM HHSR1 AH GM G PRETO  117457",
+        "title": "FONE GAMER HYPERX CLOUD REVOLVER 7 1 XBOX ONE E XBOX SERIES X S COM FIO P3 3 5MM DRIVERS 50MM HHSR1 AH GM G Negro  117457",
+        "category": "Consolas y Videojuegos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_117457_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-gamer-hyperx-cloud-revolver-7-1-xbox-one-e-xbox-series-x-s-com-fio-p3-3-5mm-drivers-50mm-hhsr1-ah-gm-g-preto-codigo-117457/117457.html",
+        "specs": [
+            "HYPERX",
+            "Consolas y Videojuegos"
+        ]
+    },
+    {
+        "id": 12909,
+        "ref": "185271",
+        "brand": "HYPERX",
+        "title_orig": "MOUSE HYPERX PULSEFIRE RAID HX MC005B BLACK",
+        "title": "MOUSE HYPERX PULSEFIRE RAID HX MC005B BLACK",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_185271_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-hyperx-pulsefire-raid-hx-mc005b-black/185271.html",
+        "specs": [
+            "HYPERX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12910,
+        "ref": "310485",
+        "brand": "HYPERX",
+        "title_orig": "FONE HYPERX CLOUD III C MIC 3 5MM 77Z45AA BLACK",
+        "title": "FONE HYPERX CLOUD III C MIC 3 5MM 77Z45AA BLACK",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_310485_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-hyperx-cloud-iii-c-mic-3-5mm-77z45aa-black/310485.html",
+        "specs": [
+            "HYPERX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12911,
+        "ref": "117345",
+        "brand": "HYPERX",
+        "title_orig": "MOUSEPAD HYPERX FURY ULTRA RGB HX MPFU M 36X30",
+        "title": "MOUSEPAD HYPERX FURY ULTRA RGB HX MPFU M 36X30",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_117345_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mousepad-hyperx-fury-ultra-rgb-hx-mpfu-m-36x30/117345.html",
+        "specs": [
+            "HYPERX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12912,
+        "ref": "96330",
+        "brand": "HYPERX",
+        "title_orig": "MOUSEPAD HYPERX FURY PRO HX MPFS M",
+        "title": "MOUSEPAD HYPERX FURY PRO HX MPFS M",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_96330_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mousepad-hyperx-fury-pro-hx-mpfs-m/96330.html",
+        "specs": [
+            "HYPERX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12913,
+        "ref": "117389",
+        "brand": "HYPERX",
+        "title_orig": "TECLADO HYPERX ALLOY ORIGINS RGB HX KB6RDX BR RED",
+        "title": "TECLADO HYPERX ALLOY ORIGINS RGB HX KB6RDX BR RED",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_117389_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-hyperx-alloy-origins-rgb-hx-kb6rdx-br-red/117389.html",
+        "specs": [
+            "HYPERX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12914,
+        "ref": "194091",
+        "brand": "HYPERX",
+        "title_orig": "FONE HYPERX CLOUD MIX HX HSCAM GM BLUETOOTH BLK",
+        "title": "FONE HYPERX CLOUD MIX HX HSCAM GM BLUETOOTH BLK",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_194091_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-hyperx-cloud-mix-hx-hscam-gm-bluetooth-blk/194091.html",
+        "specs": [
+            "HYPERX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12915,
+        "ref": "117569",
+        "brand": "HYPERX",
+        "title_orig": "FONE HYPERX CLOUD ORBIT S HX HSCOS GM WW PRETO USB C USB A P3",
+        "title": "FONE HYPERX CLOUD ORBIT S HX HSCOS GM WW Negro USB C USB A P3",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_117569_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-hyperx-cloud-orbit-s-hx-hscos-gm-ww-preto-usb-c-usb-a-p3/117569.html",
+        "specs": [
+            "HYPERX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12916,
+        "ref": "117591",
+        "brand": "HYPERX",
+        "title_orig": "TECLADO HYPERX ALLOY CORE HX KB5ME2 BR RGB PORTUGU HX KB5ME2 BR",
+        "title": "TECLADO HYPERX ALLOY CORE HX KB5ME2 BR RGB PORTUGU HX KB5ME2 BR",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_117591_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-hyperx-alloy-core-hx-kb5me2-br-rgb-portugu-hx-kb5me2-br/117591.html",
+        "specs": [
+            "HYPERX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12917,
+        "ref": "117301",
+        "brand": "HYPERX",
+        "title_orig": "FONE HYPERX CLOUD STINGER HX HSCSS BK AM AZUL PRET 117301",
+        "title": "FONE HYPERX CLOUD STINGER HX HSCSS BK AM Azul PRET 117301",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_117301_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-hyperx-cloud-stinger-hx-hscss-bk-am-azul-pret-117301/117301.html",
+        "specs": [
+            "HYPERX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12918,
+        "ref": "117536",
+        "brand": "HYPERX",
+        "title_orig": "FONE HYPERX CLOUD CHAT HX HSCCHX BK WW VERDE  117536",
+        "title": "FONE HYPERX CLOUD CHAT HX HSCCHX BK WW Verde  117536",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_117536_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-hyperx-cloud-chat-hx-hscchx-bk-ww-verde-codigo-117536/117536.html",
+        "specs": [
+            "HYPERX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12919,
+        "ref": "47593",
+        "brand": "HYPERX",
+        "title_orig": "TECLADO HYPERX ALLOY FPS RGB KAILH SILVER US HX KB1SS2 US",
+        "title": "TECLADO HYPERX ALLOY FPS RGB KAILH SILVER US HX KB1SS2 US",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_47593_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-hyperx-alloy-fps-rgb-kailh-silver-us-hx-kb1ss2-us/47593.html",
+        "specs": [
+            "HYPERX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12920,
+        "ref": "310463",
+        "brand": "HYPERX",
+        "title_orig": "FONE HYPERX CLOUD III C MIC 3 5MM BLK RED 727A9AA BLACK RED  310463",
+        "title": "FONE HYPERX CLOUD III C MIC 3 5MM BLK RED 727A9AA BLACK RED  310463",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_310463_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-hyperx-cloud-iii-c-mic-3-5mm-blk-red-727a9aa-black-red-codigo-310463/310463.html",
+        "specs": [
+            "HYPERX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12921,
+        "ref": "310510",
+        "brand": "HYPERX",
+        "title_orig": "MOUSE HYPERX HASTE PULSEFIRE HASTE 2 USB BLACK 6N0A7AA  310510",
+        "title": "MOUSE HYPERX HASTE PULSEFIRE HASTE 2 USB BLACK 6N0A7AA  310510",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_310510_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-hyperx-haste-pulsefire-haste-2-usb-black-6n0a7aa-codigo-310510/310510.html",
+        "specs": [
+            "HYPERX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12922,
+        "ref": "47582",
+        "brand": "HYPERX",
+        "title_orig": "TECLADO HYPERX ALLOY ELITE RGB CHERRY MX BLUE US HX KB2BL2 US R2",
+        "title": "TECLADO HYPERX ALLOY ELITE RGB CHERRY MX BLUE US HX KB2BL2 US R2",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_47582_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-hyperx-alloy-elite-rgb-cherry-mx-blue-us-hx-kb2bl2-us-r2/47582.html",
+        "specs": [
+            "HYPERX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12923,
+        "ref": "310452",
+        "brand": "HYPERX",
+        "title_orig": "FONE HYPERX CLOUD III C MIC 3 5MM BLACK 727A8AA",
+        "title": "FONE HYPERX CLOUD III C MIC 3 5MM BLACK 727A8AA",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_310452_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-hyperx-cloud-iii-c-mic-3-5mm-black-727a8aa/310452.html",
+        "specs": [
+            "HYPERX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12924,
+        "ref": "311880",
+        "brand": "JBL",
+        "title_orig": "CAIXA DE SOM JBL CHARGE 6 VERMELHA",
+        "title": "CAIXA DE SOM JBL CHARGE 6 Rojo",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_311880_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/caixa-de-som-jbl-charge-6-vermelha/311880.html",
+        "specs": [
+            "JBL",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12925,
+        "ref": "285575",
+        "brand": "JBL",
+        "title_orig": "CAIXA DE SOM JBL SOUNDBAR CINEMA SB180 USB BT 2 1",
+        "title": "CAIXA DE SOM JBL SOUNDBAR CINEMA SB180 USB BT 2 1",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_285575_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/caixa-de-som-jbl-soundbar-cinema-sb180-usb-bt-2-1/285575.html",
+        "specs": [
+            "JBL",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12926,
+        "ref": "316155",
+        "brand": "JBL",
+        "title_orig": "CAIXA DE SOM JBL FLIP 7 PURAM",
+        "title": "CAIXA DE SOM JBL FLIP 7 PURAM",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_316155_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/caixa-de-som-jbl-flip-7-puram/316155.html",
+        "specs": [
+            "JBL",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12927,
+        "ref": "61253",
+        "brand": "JBL",
+        "title_orig": "FONE JBL TUNE 500 PURE BASS C CABO BLACK 3 5MM  61253",
+        "title": "FONE JBL TUNE 500 PURE BASS C CABO BLACK 3 5MM  61253",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_61253_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-jbl-tune-500-pure-bass-c-cabo-black-3-5mm-codigo-61253/61253.html",
+        "specs": [
+            "JBL",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12928,
+        "ref": "396635",
+        "brand": "BIOSTAR",
+        "title_orig": "PLACA DE VIDEO BIOSTAR EXTREME GAMING 6GB GEFORCE GTX1660 SUPER GDDR6 VN1666TF69 TN1RA BS2",
+        "title": "PLACA DE VIDEO BIOSTAR EXTREME GAMING 6GB GEFORCE GTX1660 SUPER GDDR6 VN1666TF69 TN1RA BS2",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_396635_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-biostar-extreme-gaming-6gb-geforce-gtx1660-super-gddr6-vn1666tf69-tn1ra-bs2/396635.html",
+        "specs": [
+            "BIOSTAR",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12929,
+        "ref": "168026",
+        "brand": "GENERIC",
+        "title_orig": "PLACA DE VIDEO AFOX GEFORCE GTX 750 2GB GDDR5 128BITS 1X DVI 1X HDMI 1X VGA AF750 2048D5H6 V3  168026",
+        "title": "PLACA DE VIDEO AFOX GEFORCE GTX 750 2GB GDDR5 128BITS 1X DVI 1X HDMI 1X VGA AF750 2048D5H6 V3  168026",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_168026_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-afox-geforce-gtx-750-2gb-gddr5-128bits-1x-dvi-1x-hdmi-1x-vga-af750-2048d5h6-v3-codigo-168026/168026.html",
+        "specs": [
+            "GENERIC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12930,
+        "ref": "223141",
+        "brand": "STAR",
+        "title_orig": "VGA GTX750TI 4GB STAR DDR5 128BITS DVI HDMI",
+        "title": "VGA GTX750TI 4GB STAR DDR5 128BITS DVI HDMI",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_223141_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-gtx750ti-4gb-star-ddr5-128bits-dvi-hdmi/223141.html",
+        "specs": [
+            "STAR",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12931,
+        "ref": "244807",
+        "brand": "ASUS",
+        "title_orig": "NOTEBOOK ASUS ROG ZEPHYRUS G14 GA401IHR HZ045T AMD RYZEN 7 4800HS 2 90GHZ 4 20GHZ 8GB RAM 512GB SSD TELA 14 FHD IPS 144HZ GEFORCE GTX1650 4GB WINDOWS 11 HOME INGLES PRETO",
+        "title": "NOTEBOOK ASUS ROG ZEPHYRUS G14 GA401IHR HZ045T AMD RYZEN 7 4800HS 2 90GHZ 4 20GHZ 8GB RAM 512GB SSD TELA 14 FHD IPS 144HZ GEFORCE GTX1650 4GB WINDOWS 11 HOME INGLES Negro",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_244807_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-asus-rog-zephyrus-g14-ga401ihr-hz045t-amd-ryzen-7-4800hs-2-90ghz-4-20ghz-8gb-ram-512gb-ssd-tela-14-fhd-ips-144hz-geforce-gtx1650-4gb-windows-11-home-ingles-preto/244807.html",
+        "specs": [
+            "ASUS",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12932,
+        "ref": "202755",
+        "brand": "UP GAMER",
+        "title_orig": "ZZVGA GTX750TI 4GB UP GAMER DDR5 128BIT HDMI VGA D",
+        "title": "ZZVGA GTX750TI 4GB UP GAMER DDR5 128BIT HDMI VGA D",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_202755_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/zzvga-gtx750ti-4gb-up-gamer-ddr5-128bit-hdmi-vga-d/202755.html",
+        "specs": [
+            "UP GAMER",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12933,
+        "ref": "141039",
+        "brand": "GENERIC",
+        "title_orig": "PLACA DE VIDEO GAINWARD GHOST GEFORCE GTX1660TI 6GB GDDR6 NE6166T018J9 11 CPO OPEN BOX  141039",
+        "title": "PLACA DE VIDEO GAINWARD GHOST GEFORCE GTX1660TI 6GB GDDR6 NE6166T018J9 11 CPO OPEN BOX  141039",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_141039_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-gainward-ghost-geforce-gtx1660ti-6gb-gddr6-ne6166t018j9-11-cpo-open-box-codigo-141039/141039.html",
+        "specs": [
+            "GENERIC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12934,
+        "ref": "80882",
+        "brand": "GENERIC",
+        "title_orig": "VGA GTX750TI 2GB ARKTEK DDR5 CYCLOPS AKN750TID5S 80882",
+        "title": "VGA GTX750TI 2GB ARKTEK DDR5 CYCLOPS AKN750TID5S 80882",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_80882_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-gtx750ti-2gb-arktek-ddr5-cyclops-akn750tid5s-80882/80882.html",
+        "specs": [
+            "GENERIC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12935,
+        "ref": "313927",
+        "brand": "ACER",
+        "title_orig": "NOTEBOOK ACER NITRO 5 ACER AN515 55 56VR INTEL CORE I5 10300H 2 50HZ 4 50GHZ 8GB RAM 1TB HDD TELA 15 6 FULL HD IPS GEFORCE GTX1650 4GB WINDOWS 10 HOME ESPANHOL OBSIDIAN PRETO",
+        "title": "NOTEBOOK ACER NITRO 5 ACER AN515 55 56VR INTEL CORE I5 10300H 2 50HZ 4 50GHZ 8GB RAM 1TB HDD TELA 15 6 FULL HD IPS GEFORCE GTX1650 4GB WINDOWS 10 HOME ESPANHOL OBSIDIAN Negro",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_313927_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-acer-nitro-5-acer-an515-55-56vr-intel-core-i5-10300h-2-50hz-4-50ghz-8gb-ram-1tb-hdd-tela-15-6-full-hd-ips-geforce-gtx1650-4gb-windows-10-home-espanhol-obsidian-preto/313927.html",
+        "specs": [
+            "ACER",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12936,
+        "ref": "316032",
+        "brand": "GENERIC",
+        "title_orig": "VGA GTX1660TI 6GB GOLINE GTX 1660TI 6GB D6 DDR6",
+        "title": "VGA GTX1660TI 6GB GOLINE GTX 1660TI 6GB D6 DDR6",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_316032_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-gtx1660ti-6gb-goline-gtx-1660ti-6gb-d6-ddr6/316032.html",
+        "specs": [
+            "GENERIC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12937,
+        "ref": "172098",
+        "brand": "GENERIC",
+        "title_orig": "PLACA DE VIDEO ARKTEK MATRIX 6GB NVIDIA GEFORCE GTX1660 SUPER GDDR6 AKN1660SD6S6GH1 192BITS 1785MHZ HDMI DVI DISPLAYPORT",
+        "title": "PLACA DE VIDEO ARKTEK MATRIX 6GB NVIDIA GEFORCE GTX1660 SUPER GDDR6 AKN1660SD6S6GH1 192BITS 1785MHZ HDMI DVI DISPLAYPORT",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_172098_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-arktek-matrix-6gb-nvidia-geforce-gtx1660-super-gddr6-akn1660sd6s6gh1-192bits-1785mhz-hdmi-dvi-displayport/172098.html",
+        "specs": [
+            "GENERIC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12938,
+        "ref": "182896",
+        "brand": "MSI",
+        "title_orig": "NOTEBOOK MSI GF63 11SC 693US INTEL CORE I5 11400H 2 70GHZ 4 50GHZ 8GB RAM 256GB SSD TELA 15 6 FULL HD IPS 144HZ GEFORCE GTX1650 4GB WINDOWS 11 INGLES PRETO",
+        "title": "NOTEBOOK MSI GF63 11SC 693US INTEL CORE I5 11400H 2 70GHZ 4 50GHZ 8GB RAM 256GB SSD TELA 15 6 FULL HD IPS 144HZ GEFORCE GTX1650 4GB WINDOWS 11 INGLES Negro",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_182896_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-msi-gf63-11sc-693us-intel-core-i5-11400h-2-70ghz-4-50ghz-8gb-ram-256gb-ssd-tela-15-6-full-hd-ips-144hz-geforce-gtx1650-4gb-windows-11-ingles-preto/182896.html",
+        "specs": [
+            "MSI",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12939,
+        "ref": "242535",
+        "brand": "MSI",
+        "title_orig": "PLACA DE VIDEO MSI D6 VENTUS XS GEFORCE GTX1650 4GB GDDR6 912 V812 003",
+        "title": "PLACA DE VIDEO MSI D6 VENTUS XS GEFORCE GTX1650 4GB GDDR6 912 V812 003",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_242535_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-msi-d6-ventus-xs-geforce-gtx1650-4gb-gddr6-912-v812-003/242535.html",
+        "specs": [
+            "MSI",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12940,
+        "ref": "269992",
+        "brand": "DELL",
+        "title_orig": "NB DELL G15 5510 I5 10500 8GB 256SSD GTX1650 15 6 GTX1650 4GB",
+        "title": "NB DELL G15 5510 I5 10500 8GB 256SSD GTX1650 15 6 GTX1650 4GB",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_269992_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/nb-dell-g15-5510-i5-10500-8gb-256ssd-gtx1650-15-6-gtx1650-4gb/269992.html",
+        "specs": [
+            "DELL",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12941,
+        "ref": "279220",
+        "brand": "GENERIC",
+        "title_orig": "PLACA DE VIDEO GOLINE 4GB NVIDIA GEFORCE GTX1050TI GDDR5 GTX 1050TI 4GB D5 128BITS 1430MHZ HDMI DVI DISPLAYPORT",
+        "title": "PLACA DE VIDEO GOLINE 4GB NVIDIA GEFORCE GTX1050TI GDDR5 GTX 1050TI 4GB D5 128BITS 1430MHZ HDMI DVI DISPLAYPORT",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_279220_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-goline-4gb-nvidia-geforce-gtx1050ti-gddr5-gtx-1050ti-4gb-d5-128bits-1430mhz-hdmi-dvi-displayport/279220.html",
+        "specs": [
+            "GENERIC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12942,
+        "ref": "172000",
+        "brand": "GENERIC",
+        "title_orig": "PLACA DE VIDEO ARKTEK CYCLOPS 4GB NVIDIA GEFORCE GTX750TI GDDR5 AKN750TID5S4GH1 128BITS 1020MHZ HDMI DVI VGA D SUB   172000",
+        "title": "PLACA DE VIDEO ARKTEK CYCLOPS 4GB NVIDIA GEFORCE GTX750TI GDDR5 AKN750TID5S4GH1 128BITS 1020MHZ HDMI DVI VGA D SUB   172000",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_172000_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-arktek-cyclops-4gb-nvidia-geforce-gtx750ti-gddr5-akn750tid5s4gh1-128bits-1020mhz-hdmi-dvi-vga-d-sub--codigo-172000/172000.html",
+        "specs": [
+            "GENERIC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12943,
+        "ref": "149721",
+        "brand": "GENERIC",
+        "title_orig": "PLACA DE VIDEO AFOX 2GB NVIDIA GEFORCE GTX750TI GDDR5 AF750TI 2048D5H5 128BITS 1020MHZ HDMI DVI VGA D SUB   149721",
+        "title": "PLACA DE VIDEO AFOX 2GB NVIDIA GEFORCE GTX750TI GDDR5 AF750TI 2048D5H5 128BITS 1020MHZ HDMI DVI VGA D SUB   149721",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_149721_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-afox-2gb-nvidia-geforce-gtx750ti-gddr5-af750ti-2048d5h5-128bits-1020mhz-hdmi-dvi-vga-d-sub--codigo-149721/149721.html",
+        "specs": [
+            "GENERIC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12944,
+        "ref": "186812",
+        "brand": "ZOTAC",
+        "title_orig": "PLACA DE VIDEO ZOTAC 4GB NVIDIA GEFORCE GTX1630 GDDR6 ZT T16300F 10L 9288 2N595 300Z8 64BITS 1785MHZ HDMI DVI DISPLAYPORT",
+        "title": "PLACA DE VIDEO ZOTAC 4GB NVIDIA GEFORCE GTX1630 GDDR6 ZT T16300F 10L 9288 2N595 300Z8 64BITS 1785MHZ HDMI DVI DISPLAYPORT",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_186812_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-zotac-4gb-nvidia-geforce-gtx1630-gddr6-zt-t16300f-10l-9288-2n595-300z8-64bits-1785mhz-hdmi-dvi-displayport/186812.html",
+        "specs": [
+            "ZOTAC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12945,
+        "ref": "387971",
+        "brand": "GIGABYTE",
+        "title_orig": "VGA RX9060XT 16GB GIGABYTE GAMING OC ICE RADEON GV R906XGAMINGO CICE 16GD",
+        "title": "VGA RX9060XT 16GB GIGABYTE GAMING OC ICE RADEON GV R906XGAMINGO CICE 16GD",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_387971_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rx9060xt-16gb-gigabyte-gaming-oc-ice-radeon-gv-r906xgamingo-cice-16gd/387971.html",
+        "specs": [
+            "GIGABYTE",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12946,
+        "ref": "403791",
+        "brand": "ASUS",
+        "title_orig": "VGA RX9070 GRE 12GB ASUS ATS OC GTIII AMD RADEON 90YV0MW0 M0NA00 ATS RX9070GRE O12G",
+        "title": "VGA RX9070 GRE 12GB ASUS ATS OC GTIII AMD RADEON 90YV0MW0 M0NA00 ATS RX9070GRE O12G",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_403791_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-rx9070-gre-12gb-asus-ats-oc-gtiii-amd-radeon-90yv0mw0-m0na00-ats-rx9070gre-o12g/403791.html",
+        "specs": [
+            "ASUS",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12947,
+        "ref": "195485",
+        "brand": "AMD",
+        "title_orig": "PLACA DE VIDEO UP GAMER AMD RADEON RX580 GAMING 8GB GDDR5 DUAL FAN DIRECTX 12 VULKAN UPRX5808GBK  195485",
+        "title": "PLACA DE VIDEO UP GAMER AMD RADEON RX580 GAMING 8GB GDDR5 DUAL FAN DIRECTX 12 VULKAN UPRX5808GBK  195485",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_195485_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-up-gamer-amd-radeon-rx580-gaming-8gb-gddr5-dual-fan-directx-12-vulkan-uprx5808gbk-codigo-195485/195485.html",
+        "specs": [
+            "AMD",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12948,
+        "ref": "202777",
+        "brand": "AMD",
+        "title_orig": "PLACA DE VIDEO UP GAMER 8GB AMD RADEON RX5700XT GDDR6 UPG RX5700 XT 8GB 256BITS 2560MHZ 1XHDMI 3XDISPLAYPORT PRETO",
+        "title": "PLACA DE VIDEO UP GAMER 8GB AMD RADEON RX5700XT GDDR6 UPG RX5700 XT 8GB 256BITS 2560MHZ 1XHDMI 3XDISPLAYPORT Negro",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_202777_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-up-gamer-8gb-amd-radeon-rx5700xt-gddr6-upg-rx5700-xt-8gb-256bits-2560mhz-1xhdmi-3xdisplayport-preto/202777.html",
+        "specs": [
+            "AMD",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12949,
+        "ref": "261940",
+        "brand": "ASUS",
+        "title_orig": "NOTEBOOK GAMER ASUS TUF GAMING A16 ADVANTAGE EDITION AMD RYZEN 7 7735HS TELA 16 FHD 165HZ 16GB RAM 512GB SSD RADEON RX 7700S 8GB FA617NT A16 R77700 PRETO INGLES",
+        "title": "NOTEBOOK GAMER ASUS TUF GAMING A16 ADVANTAGE EDITION AMD RYZEN 7 7735HS TELA 16 FHD 165HZ 16GB RAM 512GB SSD RADEON RX 7700S 8GB FA617NT A16 R77700 Negro INGLES",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_261940_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-gamer-asus-tuf-gaming-a16-advantage-edition-amd-ryzen-7-7735hs-tela-16-fhd-165hz-16gb-ram-512gb-ssd-radeon-rx-7700s-8gb-fa617nt-a16-r77700-preto-ingles/261940.html",
+        "specs": [
+            "ASUS",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12950,
+        "ref": "253649",
+        "brand": "AMD",
+        "title_orig": "PLACA DE VIDEO ASROCK CHALLENGER AMD RADEON RX6600 8GB GDDR6 90 GA2RZZ 00UANH  253649",
+        "title": "PLACA DE VIDEO ASROCK CHALLENGER AMD RADEON RX6600 8GB GDDR6 90 GA2RZZ 00UANH  253649",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_253649_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-asrock-challenger-amd-radeon-rx6600-8gb-gddr6-90-ga2rzz-00uanh-codigo-253649/253649.html",
+        "specs": [
+            "AMD",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12951,
+        "ref": "309247",
+        "brand": "AMD",
+        "title_orig": "PLACA DE VIDEO ASROCK AMD RADEON RX6600 CHALLENGER D DUAL 8GB GDDR6 128 BIT 90 GA2RZZ 00UAN",
+        "title": "PLACA DE VIDEO ASROCK AMD RADEON RX6600 CHALLENGER D DUAL 8GB GDDR6 128 BIT 90 GA2RZZ 00UAN",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_309247_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-de-video-asrock-amd-radeon-rx6600-challenger-d-dual-8gb-gddr6-128-bit-90-ga2rzz-00uan/309247.html",
+        "specs": [
+            "AMD",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12952,
+        "ref": "402364",
+        "brand": "MTEK",
+        "title_orig": "MONITOR GAMER MTEK MSY32FV240C 32 FULL HD 240HZ 1MS CURVO HDR RGB PRETO",
+        "title": "MONITOR GAMER MTEK MSY32FV240C 32 FULL HD 240HZ 1MS CURVO HDR RGB Negro",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_402364_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/monitor-gamer-mtek-msy32fv240c-32-full-hd-240hz-1ms-curvo-hdr-rgb-preto/402364.html",
+        "specs": [
+            "MTEK",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 12953,
+        "ref": "402353",
+        "brand": "MTEK",
+        "title_orig": "MONITOR GAMER MTEK MSY27FV280C 27 FULL HD 280HZ 1MS CURVO RGB PRETO",
+        "title": "MONITOR GAMER MTEK MSY27FV280C 27 FULL HD 280HZ 1MS CURVO RGB Negro",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_402353_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/monitor-gamer-mtek-msy27fv280c-27-full-hd-280hz-1ms-curvo-rgb-preto/402353.html",
+        "specs": [
+            "MTEK",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 12954,
+        "ref": "373382",
+        "brand": "MSI",
+        "title_orig": "MONITOR GAMER MSI MAG 276CXF 27 FULL HD 280HZ 0 5MS CURVO PRETO",
+        "title": "MONITOR GAMER MSI MAG 276CXF 27 FULL HD 280HZ 0 5MS CURVO Negro",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_373382_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/monitor-gamer-msi-mag-276cxf-27-full-hd-280hz-0-5ms-curvo-preto-/373382.html",
+        "specs": [
+            "MSI",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 12955,
+        "ref": "400621",
+        "brand": "HP",
+        "title_orig": "NOTEBOOK HP OMNIBOOK X FLIP 16 16 CB0043DX INTEL CORE ULTRA 9 386H 2 10HZ 4 90GHZ INTEL AI BOOST 50 TOPS 32GB RAM 1TB SSD TELA 16 TOUCH 360 3K 2880 X 1800 OLED 120HZ WINDOWS 11 HOME COPILOT PC INGLES",
+        "title": "NOTEBOOK HP OMNIBOOK X FLIP 16 16 CB0043DX INTEL CORE ULTRA 9 386H 2 10HZ 4 90GHZ INTEL AI BOOST 50 TOPS 32GB RAM 1TB SSD TELA 16 TOUCH 360 3K 2880 X 1800 OLED 120HZ WINDOWS 11 HOME COPILOT PC INGLES",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_400621_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-hp-omnibook-x-flip-16-16-cb0043dx-intel-core-ultra-9-386h-2-10hz-4-90ghz-intel-ai-boost-50-tops-32gb-ram-1tb-ssd-tela-16-touch-360-3k-2880-x-1800-oled-120hz-windows-11-home-copilot-pc-ingles-/400621.html",
+        "specs": [
+            "HP",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12956,
+        "ref": "400600",
+        "brand": "HP",
+        "title_orig": "NOTEBOOK HP OMNIBOOK X 16 BG0013DX INTEL CORE ULTRA X7 358H 1 90HZ 4 80GHZ 32GB RAM 1TB SSD TELA 16 TOUCH 2K WUXGA 1920 X 1200 OLED 120HZ WINDOWS 11 HOME INGLES PRATA",
+        "title": "NOTEBOOK HP OMNIBOOK X 16 BG0013DX INTEL CORE ULTRA X7 358H 1 90HZ 4 80GHZ 32GB RAM 1TB SSD TELA 16 TOUCH 2K WUXGA 1920 X 1200 OLED 120HZ WINDOWS 11 HOME INGLES Plata",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_400600_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-hp-omnibook-x-16-bg0013dx-intel-core-ultra-x7-358h-1-90hz-4-80ghz-32gb-ram-1tb-ssd-tela-16-touch-2k-wuxga-1920-x-1200-oled-120hz-windows-11-home-ingles-prata/400600.html",
+        "specs": [
+            "HP",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12957,
+        "ref": "406873",
+        "brand": "HP",
+        "title_orig": "NOTEBOOK HP OMNIBOOK X 14 14 KR0013DX SNAPDRAGON X PLUS X1P 42 100 3 20GHZ 3 40GHZ 16GB RAM 512GB SSD TELA 14 TOUCH WUXGA 2K 1920 X 1200 OLED CORNING GORILLA WINDOWS 11 HOME INGLES PRATA  406873",
+        "title": "NOTEBOOK HP OMNIBOOK X 14 14 KR0013DX SNAPDRAGON X PLUS X1P 42 100 3 20GHZ 3 40GHZ 16GB RAM 512GB SSD TELA 14 TOUCH WUXGA 2K 1920 X 1200 OLED CORNING GORILLA WINDOWS 11 HOME INGLES Plata  406873",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_406873_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-hp-omnibook-x-14-14-kr0013dx-snapdragon-x-plus-x1p-42-100-3-20ghz-3-40ghz-16gb-ram-512gb-ssd-tela-14-touch-wuxga-2k-1920-x-1200-oled-corning-gorilla-windows-11-home-ingles-prata-codigo-406873/406873.html",
+        "specs": [
+            "HP",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12958,
+        "ref": "400441",
+        "brand": "ASUS",
+        "title_orig": "NOTEBOOK ASUS VIVOBOOK S16 M5606KA PB77 AMD RYZEN AI 7 350 2 00HZ 5 00GHZ AMD NPU 50TOPS 24GB RAM 1TB SSD TELA 16 WUXGA 1920 X 1200 OLED WINDOWS 11 HOME COPILOT PC INGLES NEUTRAL PRETO  400441",
+        "title": "NOTEBOOK ASUS VIVOBOOK S16 M5606KA PB77 AMD RYZEN AI 7 350 2 00HZ 5 00GHZ AMD NPU 50TOPS 24GB RAM 1TB SSD TELA 16 WUXGA 1920 X 1200 OLED WINDOWS 11 HOME COPILOT PC INGLES NEUTRAL Negro  400441",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_400441_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-asus-vivobook-s16-m5606ka-pb77-amd-ryzen-ai-7-350-2-00hz-5-00ghz-amd-npu-50tops-24gb-ram-1tb-ssd-tela-16-wuxga-1920-x-1200-oled-windows-11-home-copilot-pc-ingles-neutral-preto-codigo-400441/400441.html",
+        "specs": [
+            "ASUS",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12959,
+        "ref": "407380",
+        "brand": "ACER",
+        "title_orig": "NOTEBOOK ACER SWIFT GO 16 AI SFG16 I71T 79Q6 INTEL CORE ULTRA 7 355 2 30HZ 4 70GHZ INTEL AI 49 TOPS 32GB RAM 1TB SSD TELA 16 TOUCH WUXGA 1920 X 1200 OLED WINDOWS 11 HOME COPILOT PC INGLES PRATA",
+        "title": "NOTEBOOK ACER SWIFT GO 16 AI SFG16 I71T 79Q6 INTEL CORE ULTRA 7 355 2 30HZ 4 70GHZ INTEL AI 49 TOPS 32GB RAM 1TB SSD TELA 16 TOUCH WUXGA 1920 X 1200 OLED WINDOWS 11 HOME COPILOT PC INGLES Plata",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_407380_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-acer-swift-go-16-ai-sfg16-i71t-79q6-intel-core-ultra-7-355-2-30hz-4-70ghz-intel-ai-49-tops-32gb-ram-1tb-ssd-tela-16-touch-wuxga-1920-x-1200-oled-windows-11-home-copilot-pc-ingles-prata-codigo/407380.html",
+        "specs": [
+            "ACER",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12960,
+        "ref": "400430",
+        "brand": "ASUS",
+        "title_orig": "NOTEBOOK ASUS VIVOBOOK S14 M5406WA DS76 AMD RYZEN AI 9 365 2 00HZ 5 00GHZ AI BOOST 50 TOPS 24GB RAM 512GB SSD TELA 14 3K 2880 X 1800 OLED WINDOWS 11 HOME COPILOT PC INGLES NEUTRAL PRETO  400430",
+        "title": "NOTEBOOK ASUS VIVOBOOK S14 M5406WA DS76 AMD RYZEN AI 9 365 2 00HZ 5 00GHZ AI BOOST 50 TOPS 24GB RAM 512GB SSD TELA 14 3K 2880 X 1800 OLED WINDOWS 11 HOME COPILOT PC INGLES NEUTRAL Negro  400430",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_400430_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-asus-vivobook-s14-m5406wa-ds76-amd-ryzen-ai-9-365-2-00hz-5-00ghz-ai-boost-50-tops-24gb-ram-512gb-ssd-tela-14-3k-2880-x-1800-oled-windows-11-home-copilot-pc-ingles-neutral-preto-codigo-400430/400430.html",
+        "specs": [
+            "ASUS",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12961,
+        "ref": "404344",
+        "brand": "ASUS",
+        "title_orig": "NOTEBOOK ASUS ROG ZEPHYRUS G16 GU605 U95070 INTEL CORE ULTRA 9 285H 2 90GHZ 5 40GHZ AI NPU 13TOPS 16GB RAM 1TB SSD TELA 16 2 5K WQXGA 2560X1600 OLED 240HZ GEFORCE RTX5070 8GB WINDOWS 11 HOME COPILOT P",
+        "title": "NOTEBOOK ASUS ROG ZEPHYRUS G16 GU605 U95070 INTEL CORE ULTRA 9 285H 2 90GHZ 5 40GHZ AI NPU 13TOPS 16GB RAM 1TB SSD TELA 16 2 5K WQXGA 2560X1600 OLED 240HZ GEFORCE RTX5070 8GB WINDOWS 11 HOME COPILOT P",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_404344_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-asus-rog-zephyrus-g16-gu605-u95070-intel-core-ultra-9-285h-2-90ghz-5-40ghz-ai-npu-13tops-16gb-ram-1tb-ssd-tela-16-2-5k-wqxga-2560x1600-oled-240hz-geforce-rtx5070-8gb-windows-11-home-copilot-p/404344.html",
+        "specs": [
+            "ASUS",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12962,
+        "ref": "406840",
+        "brand": "HP",
+        "title_orig": "NOTEBOOK HP OMEN BY HP TRANSCEND 14 14 FB1013DX INTEL CORE ULTRA 7 255H 2 00GHZ 5 10GHZ 32GB RAM 1TB SSD TELA 14 3K 2880 X 1800 OLED GEFORCE RTX5060 8GB WINDOWS 11 HOME INGLES PRETO",
+        "title": "NOTEBOOK HP OMEN BY HP TRANSCEND 14 14 FB1013DX INTEL CORE ULTRA 7 255H 2 00GHZ 5 10GHZ 32GB RAM 1TB SSD TELA 14 3K 2880 X 1800 OLED GEFORCE RTX5060 8GB WINDOWS 11 HOME INGLES Negro",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_406840_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-hp-omen-by-hp-transcend-14-14-fb1013dx-intel-core-ultra-7-255h-2-00ghz-5-10ghz-32gb-ram-1tb-ssd-tela-14-3k-2880-x-1800-oled-geforce-rtx5060-8gb-windows-11-home-ingles-preto/406840.html",
+        "specs": [
+            "HP",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12963,
+        "ref": "406638",
+        "brand": "ASUS",
+        "title_orig": "NOTEBOOK ASUS ZENBOOK DUO UX8406MA SH96T INTEL CORE ULTRA 9 185H 2 30GHZ 5 10GHZ AI BOOST NPU 11TOPS 16GB RAM 1TB SSD TELA DUAL 14 3K 2880 X 1800 120HZ OLED WINDOWS 11 HOME COPILOT PC INGLES INKWELL C",
+        "title": "NOTEBOOK ASUS ZENBOOK DUO UX8406MA SH96T INTEL CORE ULTRA 9 185H 2 30GHZ 5 10GHZ AI BOOST NPU 11TOPS 16GB RAM 1TB SSD TELA DUAL 14 3K 2880 X 1800 120HZ OLED WINDOWS 11 HOME COPILOT PC INGLES INKWELL C",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_406638_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-asus-zenbook-duo-ux8406ma-sh96t-intel-core-ultra-9-185h-2-30ghz-5-10ghz-ai-boost-npu-11tops-16gb-ram-1tb-ssd-tela-dual-14-3k-2880-x-1800-120hz-oled-windows-11-home-copilot-pc-ingles-inkwell-c/406638.html",
+        "specs": [
+            "ASUS",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12964,
+        "ref": "407606",
+        "brand": "ASUS",
+        "title_orig": "NOTEBOOK ASUS ROG ZEPHYRUS G16 GU605CW G16 INTEL CORE ULTRA 9 285H 2 90GHZ 5 40GHZ AI BOOST NPU 13TOPS 32GB RAM 2TB SSD TELA 16 2 5K WQXGA 2560X1600 OLED 240HZ GEFORCE RTX5080 16GB WINDOWS 11 HOME COP",
+        "title": "NOTEBOOK ASUS ROG ZEPHYRUS G16 GU605CW G16 INTEL CORE ULTRA 9 285H 2 90GHZ 5 40GHZ AI BOOST NPU 13TOPS 32GB RAM 2TB SSD TELA 16 2 5K WQXGA 2560X1600 OLED 240HZ GEFORCE RTX5080 16GB WINDOWS 11 HOME COP",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_407606_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-asus-rog-zephyrus-g16-gu605cw-g16-intel-core-ultra-9-285h-2-90ghz-5-40ghz-ai-boost-npu-13tops-32gb-ram-2tb-ssd-tela-16-2-5k-wqxga-2560x1600-oled-240hz-geforce-rtx5080-16gb-windows-11-home-cop/407606.html",
+        "specs": [
+            "ASUS",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12965,
+        "ref": "327449",
+        "brand": "ASUS",
+        "title_orig": "NOTEBOOK ASUS ZENBOOK 14 OLED UX3405CA U9321TB INTEL CORE ULTRA 9 285H 2 90GHZ 5 40GHZ INTEL AI BOOST NPU UP TO 13TOPS 32GB RAM 1TB SSD TELA 14 TOUCH WUXGA 1920 X 1200 OLED 120HZ WINDOWS 11 HOME INGLE",
+        "title": "NOTEBOOK ASUS ZENBOOK 14 OLED UX3405CA U9321TB INTEL CORE ULTRA 9 285H 2 90GHZ 5 40GHZ INTEL AI BOOST NPU UP TO 13TOPS 32GB RAM 1TB SSD TELA 14 TOUCH WUXGA 1920 X 1200 OLED 120HZ WINDOWS 11 HOME INGLE",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_327449_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-asus-zenbook-14-oled-ux3405ca-u9321tb-intel-core-ultra-9-285h-2-90ghz-5-40ghz-intel-ai-boost-npu-up-to-13tops-32gb-ram-1tb-ssd-tela-14-touch-wuxga-1920-x-1200-oled-120hz-windows-11-home-ingle/327449.html",
+        "specs": [
+            "ASUS",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12966,
+        "ref": "265439",
+        "brand": "ASUS",
+        "title_orig": "NOTEBOOK ASUS ROG ZEPHYRUS G16 GU605MI G16 U94070 INTEL ULTRA 9 185H 2 30GHZ 5 10GHZ 16GB RAM 1TB SSD TELA 16 OLED WQXGA 2 5K IPS 240HZ GEFORCE RTX4070 8GB ECLIPSE CINZA WINDOWS 11 HOME INGLES",
+        "title": "NOTEBOOK ASUS ROG ZEPHYRUS G16 GU605MI G16 U94070 INTEL ULTRA 9 185H 2 30GHZ 5 10GHZ 16GB RAM 1TB SSD TELA 16 OLED WQXGA 2 5K IPS 240HZ GEFORCE RTX4070 8GB ECLIPSE Gris WINDOWS 11 HOME INGLES",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_265439_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-asus-rog-zephyrus-g16-gu605mi-g16-u94070-intel-ultra-9-185h-2-30ghz-5-10ghz-16gb-ram-1tb-ssd-tela-16-oled-wqxga-2-5k-ips-240hz-geforce-rtx4070-8gb-eclipse-cinza-windows-11-home-ingles/265439.html",
+        "specs": [
+            "ASUS",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12967,
+        "ref": "310092",
+        "brand": "ASUS",
+        "title_orig": "NOTEBOOK ASUS VIVOBOOK GO 15 OLED E1504GA WB31 INTEL CORE I3 N305 1 80HZ 3 80GHZ 8GB RAM 128GB UFS TELA 15 6 FULL HD WINDOWS 11 HOME INGLES MIXED PRETO",
+        "title": "NOTEBOOK ASUS VIVOBOOK GO 15 OLED E1504GA WB31 INTEL CORE I3 N305 1 80HZ 3 80GHZ 8GB RAM 128GB UFS TELA 15 6 FULL HD WINDOWS 11 HOME INGLES MIXED Negro",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_310092_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-asus-vivobook-go-15-oled-e1504ga-wb31-intel-core-i3-n305-1-80hz-3-80ghz-8gb-ram-128gb-ufs-tela-15-6-full-hd-windows-11-home-ingles-mixed-preto/310092.html",
+        "specs": [
+            "ASUS",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12968,
+        "ref": "325098",
+        "brand": "ASUS",
+        "title_orig": "NOTEBOOK ASUS VIVOBOOK S16 M5606WA IS99 AMD RYZEN AI 9 365 2 00HZ 5 00GHZ AMD XDNA NPU 32GB RAM 1TB SSD TELA 16 3 2K 3200 X 2000 OLED 120HZ WINDOWS 11 HOME COPILOT PC INGLES COOL PRATA",
+        "title": "NOTEBOOK ASUS VIVOBOOK S16 M5606WA IS99 AMD RYZEN AI 9 365 2 00HZ 5 00GHZ AMD XDNA NPU 32GB RAM 1TB SSD TELA 16 3 2K 3200 X 2000 OLED 120HZ WINDOWS 11 HOME COPILOT PC INGLES COOL Plata",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_325098_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-asus-vivobook-s16-m5606wa-is99-amd-ryzen-ai-9-365-2-00hz-5-00ghz-amd-xdna-npu-32gb-ram-1tb-ssd-tela-16-3-2k-3200-x-2000-oled-120hz-windows-11-home-copilot-pc-ingles-cool-prata/325098.html",
+        "specs": [
+            "ASUS",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12969,
+        "ref": "269040",
+        "brand": "HP",
+        "title_orig": "NOTEBOOK HP ENVY X360 16 AC0023DX INTEL ULTRA 7 155U 1 20GZ 4 80GHZ 16GB RAM 1TB SSD TELA 16 WUXGA OLED TOUCH 360 IPS WINDOWS 11 HOME INGLES PRATA",
+        "title": "NOTEBOOK HP ENVY X360 16 AC0023DX INTEL ULTRA 7 155U 1 20GZ 4 80GHZ 16GB RAM 1TB SSD TELA 16 WUXGA OLED TOUCH 360 IPS WINDOWS 11 HOME INGLES Plata",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_269040_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-hp-envy-x360-16-ac0023dx-intel-ultra-7-155u-1-20gz-4-80ghz-16gb-ram-1tb-ssd-tela-16-wuxga-oled-touch-360-ips-windows-11-home-ingles-prata/269040.html",
+        "specs": [
+            "HP",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12970,
+        "ref": "244717",
+        "brand": "ASUS",
+        "title_orig": "NOTEBOOK ASUS VIVOBOOK 14X OLED K3405VF KM012W INTEL CORE I5 13500H 2 60GHZ 8GB RAM 512GB SSD TELA 14 WQ 2 8K OLED GEFORCE RTX2050 4GB INDIE PRETO WINDOWS 11 HOME ESPANHOL  244717",
+        "title": "NOTEBOOK ASUS VIVOBOOK 14X OLED K3405VF KM012W INTEL CORE I5 13500H 2 60GHZ 8GB RAM 512GB SSD TELA 14 WQ 2 8K OLED GEFORCE RTX2050 4GB INDIE Negro WINDOWS 11 HOME ESPANHOL  244717",
+        "category": "Notebooks",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_244717_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-asus-vivobook-14x-oled-k3405vf-km012w-intel-core-i5-13500h-2-60ghz-8gb-ram-512gb-ssd-tela-14-wq-2-8k-oled-geforce-rtx2050-4gb-indie-preto-windows-11-home-espanhol-codigo-244717/244717.html",
+        "specs": [
+            "ASUS",
+            "Notebooks"
+        ]
+    },
+    {
+        "id": 12971,
+        "ref": "314052",
+        "brand": "ASUS",
+        "title_orig": "NB ASUS M3500QA L1051T R7 5800H 8GB 512 15 6 W10 BLUE ESPANHOL",
+        "title": "NB ASUS M3500QA L1051T R7 5800H 8GB 512 15 6 W10 BLUE ESPANHOL",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_314052_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/nb-asus-m3500qa-l1051t-r7-5800h-8gb-512-15-6-w10-blue-espanhol/314052.html",
+        "specs": [
+            "ASUS",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12972,
+        "ref": "376262",
+        "brand": "ASUS",
+        "title_orig": "NB ASUS GU605CW G16 ULTRA9 285H 32 2TB RTX5080 16G 16 W11 GREY INGLES",
+        "title": "NB ASUS GU605CW G16 ULTRA9 285H 32 2TB RTX5080 16G 16 W11 GREY INGLES",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_376262_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/nb-asus-gu605cw-g16-ultra9-285h-32-2tb-rtx5080-16g-16-w11-grey-ingles/376262.html",
+        "specs": [
+            "ASUS",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12973,
+        "ref": "278263",
+        "brand": "GENERIC",
+        "title_orig": "ADAPTADOR DISPLAYPORT P HDMI PRETO DISPLA MACHO HDMI FEMEA",
+        "title": "ADAPTADOR DISPLAYPORT P HDMI Negro DISPLA MACHO HDMI FEMEA",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_278263_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/adaptador-displayport-p-hdmi-preto-displa-macho-hdmi-femea/278263.html",
+        "specs": [
+            "GENERIC",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12974,
+        "ref": "258250",
+        "brand": "GENERIC",
+        "title_orig": "CABO USB C P HDMI SATE AL 80 2M 4K PRETO",
+        "title": "CABO USB C P HDMI SATE AL 80 2M 4K Negro",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_258250_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cabo-usb-c-p-hdmi-sate-al-80-2m-4k-preto/258250.html",
+        "specs": [
+            "GENERIC",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12975,
+        "ref": "327179",
+        "brand": "GENERIC",
+        "title_orig": "HUB USB C 3 0 7EN1 FTX CT HBP2 AG7 2XUSB A 2 0 480MBPS 1XUSB A 3 0 5GBPS 1XHDMI 4K 30HZ 1XUSB C PD 100W 1XCARTAO SD TF CARCACA DE ALUMINIO  327179",
+        "title": "HUB USB C 3 0 7EN1 FTX CT HBP2 AG7 2XUSB A 2 0 480MBPS 1XUSB A 3 0 5GBPS 1XHDMI 4K 30HZ 1XUSB C PD 100W 1XCARTAO SD TF CARCACA DE ALUMINIO  327179",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_327179_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/hub-usb-c-3-0-7en1-ftx-ct-hbp2-ag7-2xusb-a-2-0-480mbps-1xusb-a-3-0-5gbps-1xhdmi-4k-30hz-1xusb-c-pd-100w-1xcartao-sd-tf-carcaca-de-aluminio-codigo-327179/327179.html",
+        "specs": [
+            "GENERIC",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12976,
+        "ref": "246102",
+        "brand": "GENERIC",
+        "title_orig": "ADAPTADOR HDMI SIMULADOR DE EXIBICAO 4K MINERACAO 246102",
+        "title": "ADAPTADOR HDMI SIMULADOR DE EXIBICAO 4K MINERACAO 246102",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_246102_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/adaptador-hdmi-simulador-de-exibicao-4k-mineracao-246102/246102.html",
+        "specs": [
+            "GENERIC",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12977,
+        "ref": "324165",
+        "brand": "GENERIC",
+        "title_orig": "ADAPTADOR USB C MACHO PARA HDMI FEMEA 4K 60HZ FTX CT C160 PU31 CMHDFN1 CARCACA DE ALUMINIO NYLON TRANCADO",
+        "title": "ADAPTADOR USB C MACHO PARA HDMI FEMEA 4K 60HZ FTX CT C160 PU31 CMHDFN1 CARCACA DE ALUMINIO NYLON TRANCADO",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_324165_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/adaptador-usb-c-macho-para-hdmi-femea-4k-60hz-ftx-ct-c160-pu31-cmhdfn1-carcaca-de-aluminio-nylon-trancado/324165.html",
+        "specs": [
+            "GENERIC",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12978,
+        "ref": "357553",
+        "brand": "GENERIC",
+        "title_orig": "AMAZON FIRE TV STICK 4K PLUS 8GB 840414666245",
+        "title": "AMAZON FIRE TV STICK 4K PLUS 8GB 840414666245",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_357553_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/amazon-fire-tv-stick-4k-plus-8gb-840414666245/357553.html",
+        "specs": [
+            "GENERIC",
+            "Televisores"
         ]
     }
 ];
