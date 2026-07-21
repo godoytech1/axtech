@@ -623,7 +623,7 @@ const PRODUCTS =
     {
         "id": 15,
         "ref": "348430",
-        "brand": "AMD",
+        "brand": "DELL",
         "title_orig": "Notebook Dell LDC15255-A117BLK-PUS, AMD Ryzen 7 7730U 2.00HZ (4.50GHZ), 16GB RAM, 512GB SSD, Pantalla 15.6\" Touch Full HD (1920 x 1080)IPS 120HZ, Windows 11 Home, Inglés, Cablen Negro",
         "title": "Notebook Dell AMD Ryzen 7 7730U 2.00HZ (4.50GHZ) 16GB RAM 512GB SSD",
         "category": "Notebooks",
@@ -669,7 +669,7 @@ const PRODUCTS =
     {
         "id": 17,
         "ref": "327583",
-        "brand": "INTEL",
+        "brand": "DELL",
         "title_orig": "Notebook Dell Plus 16 LDB06250-7144, Intel Core Ultra 7 256V 2.20HZ (4.80GHZ), NPU 47 TOPS 8 cores, 16GB RAM, 1TB SSD, Pantalla 16\" Touch 360° 2.5K WQXGA(2560x1600), Windows 11 Home Copilot+ PC, Inglés, Ice Azul",
         "title": "Notebook Dell Plus 16 Intel Core Ultra 7 256V 2.20HZ (4.80GHZ) 16GB RAM 1TB SSD",
         "category": "Notebooks",
@@ -831,7 +831,7 @@ const PRODUCTS =
     {
         "id": 24,
         "ref": "339698",
-        "brand": "AMD",
+        "brand": "DELL",
         "title_orig": "Notebook Dell 15 DC15255, AMD Ryzen 3 7320U 2.40HZ (4.10GHZ), 8GB RAM, 512GB SSD, Pantalla 15.6\" Full HD (1920 x 1080)IPS 120HZ, Windows 11 Home, Inglés, Cablen Negro",
         "title": "Notebook Dell 15 AMD Ryzen 3 7320U 2.40HZ (4.10GHZ) 8GB RAM 512GB SSD",
         "category": "Notebooks",
@@ -969,7 +969,7 @@ const PRODUCTS =
     {
         "id": 30,
         "ref": "321915",
-        "brand": "NOTEBOOK",
+        "brand": "DELL",
         "title_orig": "Notebook Dell Inspiron 14 I5441-SX10041GRY-PUS, Qualcomm Snapdragon X Plus X1P-64-100 10 cores 3.2GHZ (3.40GHZ), 16GB RAM, 1TB SSD, Pantalla 14\" Full HD+ (1920 x 1200) IPS, Windows 11 Home Copilot+ PC, Inglés, Titan Gris",
         "title": "Notebook Dell Inspiron 14 16GB RAM 1TB SSD",
         "category": "Notebooks",
@@ -1198,7 +1198,7 @@ const PRODUCTS =
     {
         "id": 40,
         "ref": "338430",
-        "brand": "INTEL",
+        "brand": "DELL",
         "title_orig": "Notebook Dell 15 DC15250, Intel Core I5-1334U 1.30HZ (4.60GHZ), 8GB RAM, 512GB SSD, Pantalla 15.6\" Full HD (1920 x 1080), Windows 11 Home, Inglés, Cablen Negro",
         "title": "Notebook Dell 15 Intel Core I5-1334U 1.30HZ (4.60GHZ) 8GB RAM 512GB SSD",
         "category": "Notebooks",
@@ -1361,7 +1361,7 @@ const PRODUCTS =
     {
         "id": 47,
         "ref": "373999",
-        "brand": "FTX",
+        "brand": "INTEL",
         "title_orig": "Notebook FTX N14-C2564ES, Intel Celeron N4020 1.10HZ (2.80GHZ), 4GB RAM, 256GB SSD, Pantalla 14\" HD (1366 x 768), Windows 11 Home, Ethernet(RJ45), Espanhol, Negro + Capa",
         "title": "Notebook FTX Intel Celeron 1.10HZ (2.80GHZ) 4GB RAM 256GB SSD",
         "category": "Notebooks",
@@ -1432,7 +1432,7 @@ const PRODUCTS =
     {
         "id": 50,
         "ref": "368847",
-        "brand": "INTEL",
+        "brand": "DELL",
         "title_orig": "Notebook Dell 15 LDC15250-5315BLK-PUS, Intel Core I5-1334U 1.30HZ (4.60GHZ), 8GB RAM, 512GB SSD, Pantalla 15.6\" Touch Full HD (1920 x 1080), Windows 11 Home, Inglés, Carbon Negro",
         "title": "Notebook Dell 15 Intel Core I5-1334U 1.30HZ (4.60GHZ) 8GB RAM 512GB SSD",
         "category": "Notebooks",
@@ -1622,7 +1622,7 @@ const PRODUCTS =
     {
         "id": 58,
         "ref": "383137",
-        "brand": "AMD",
+        "brand": "DELL",
         "title_orig": "Notebook Dell 16 LDC16255-A063BLK-Pus, AMD Ryzen 7 250 3.30GHZ (5.10GHZ), AI 16 TOPS, 32GB RAM, 2TB SSD, Pantalla 16\" Touch 2K WUXGA (1920 x 1200) IPS, Windows 11 Home Copilot + PC, Inglés, Cablen Negro",
         "title": "Notebook Dell 16 AMD Ryzen 7 250 3.30GHZ (5.10GHZ) 32GB RAM 2TB SSD",
         "category": "Notebooks",
@@ -1740,7 +1740,7 @@ const PRODUCTS =
     {
         "id": 63,
         "ref": "378815",
-        "brand": "AMD",
+        "brand": "DELL",
         "title_orig": "Notebook Dell 15 LDC15255-7322BLK-PUS, AMD Ryzen 7 7730U 2.00HZ (4.50GHZ), 16GB RAM, 1TB SSD, Pantalla 15.6\" Touch Full HD (1920 x 1080)IPS 120HZ, Windows 11 Home, Inglés, Carbon Black",
         "title": "Notebook Dell 15 AMD Ryzen 7 7730U 2.00HZ (4.50GHZ) 16GB RAM 1TB SSD",
         "category": "Notebooks",
@@ -1809,7 +1809,7 @@ const PRODUCTS =
     {
         "id": 66,
         "ref": "390785",
-        "brand": "INTEL",
+        "brand": "DELL",
         "title_orig": "Notebook Dell 15 DC15250, Intel Core I5-1334U 1.30HZ (4.60GHZ), 16GB RAM, 512GB SSD, Pantalla 15.6\" Full HD (1920 x 1080), Windows 11 Home, Inglés, Cablen Negro",
         "title": "Notebook Dell 15 Intel Core I5-1334U 1.30HZ (4.60GHZ) 16GB RAM 512GB SSD",
         "category": "Notebooks",
@@ -1903,7 +1903,7 @@ const PRODUCTS =
     {
         "id": 70,
         "ref": "388647",
-        "brand": "INTEL",
+        "brand": "DELL",
         "title_orig": "Notebook Dell 15 LDC15250-5434BLK-PUS, Intel Core I5-1334U 1.30HZ (4.60GHZ), 8GB RAM, 512GB SSD, Pantalla 15.6\" Touch Full HD (1920 x 1080), Windows 11 Home, Inglés, Cablen Negro",
         "title": "Notebook Dell 15 Intel Core I5-1334U 1.30HZ (4.60GHZ) 8GB RAM 512GB SSD",
         "category": "Notebooks",
@@ -1973,7 +1973,7 @@ const PRODUCTS =
     {
         "id": 73,
         "ref": "96878",
-        "brand": "SONY",
+        "brand": "LOGITECH",
         "title_orig": "Volante Logitech G29 Driving Force 941-000111 para PlayStation 5 PS5, PS4, PS3 e PC, Con Pedales, Force Feedback",
         "title": "Volante Logitech G29 Driving Force para PlayStation 5 PS5, PS4, PS3 e PC, Con Pedales, Force Feedback",
         "category": "Consolas y Videojuegos",
@@ -2197,7 +2197,7 @@ const PRODUCTS =
     {
         "id": 84,
         "ref": "246842",
-        "brand": "SONY",
+        "brand": "LOGITECH",
         "title_orig": "Volante Logitech G923 TrueForce 941-000147 para PlayStation 5 PS5, PS4 e PC, Con Pedales",
         "title": "Volante Logitech G923 TrueForce para PlayStation 5 PS5, PS4 e PC, Con Pedales",
         "category": "Consolas y Videojuegos",
@@ -2616,7 +2616,7 @@ const PRODUCTS =
     {
         "id": 106,
         "ref": "395713",
-        "brand": "SONY",
+        "brand": "GALAX",
         "title_orig": "Control PlayGame PlayStation 3 PS3 DualShock Inalámbrico A-1054156, Galaxy Pink",
         "title": "Control PlayGame PlayStation 3 PS3 DualShock Inalámbrico Galaxy Pink",
         "category": "Consolas y Videojuegos",
@@ -2656,7 +2656,7 @@ const PRODUCTS =
     {
         "id": 108,
         "ref": "355731",
-        "brand": "UP GAMER",
+        "brand": "AMD",
         "title_orig": "Tarjeta de Video UP Gamer AMD Radeon RX580 16GB GDDR5 256Bits 1500MHz, HDMI, DP, DVI, UPRX58016GWT, Blanco",
         "title": "Tarjeta de Video UP Gamer AMD Radeon RX580 16GB 1500MHz, HDMI, DP, DVI, Blanco",
         "category": "Tarjetas de Video",
@@ -2722,7 +2722,7 @@ const PRODUCTS =
     {
         "id": 111,
         "ref": "309998",
-        "brand": "BIOSTAR",
+        "brand": "AMD",
         "title_orig": "Tarjeta de Video Biostar Gaming 8GB AMD Radeon RX580, GDDR5, VA5815RQ82-TBAR A-BS2, 256Bits, 1750MHZ, 1xHDMI, 2xDISPLAYPORT, Negro",
         "title": "Tarjeta de Video Biostar Gaming 8GB AMD Radeon RX580 1750MHZ, 1xHDMI, 2xDISPLAYPORT, Negro",
         "category": "Tarjetas de Video",
@@ -2763,7 +2763,7 @@ const PRODUCTS =
     {
         "id": 113,
         "ref": "346641",
-        "brand": "XFX",
+        "brand": "AMD",
         "title_orig": "Tarjeta de Video XFX AMD Radeon RX580 GTS XXX, 8GB GDDR5, 256Bits, 1x DVI 1x HDMI 3x DisplayPort RX-580S85DD6",
         "title": "Tarjeta de Video XFX AMD Radeon RX580 GTS XXX, 8GB 1x DVI 1x HDMI 3x DisplayPort",
         "category": "Tarjetas de Video",
@@ -2882,7 +2882,7 @@ const PRODUCTS =
     {
         "id": 119,
         "ref": "324894",
-        "brand": "XFX",
+        "brand": "AMD",
         "title_orig": "Tarjeta de Video XFX AMD Radeon RX9060XT SWIFT OC GAMING EDITION, 8GB GDDR6, 128Bits, 1x HDMI 2x DisplayPort, RX-96TSW8GBQ RX-96TSW8, Negro",
         "title": "Tarjeta de Video XFX AMD Radeon RX9060XT SWIFT OC GAMING EDITION, 8GB 1x HDMI 2x DisplayPort, Negro",
         "category": "Tarjetas de Video",
@@ -3061,7 +3061,7 @@ const PRODUCTS =
     {
         "id": 128,
         "ref": "331791",
-        "brand": "PLACA",
+        "brand": "ZOTAC",
         "title_orig": "Tarjeta de Video ZOTAC GeForce RTX5060 TWIN EDGE OC, 8GB GDDR7, 128Bits, 1x HDMI 3x DisplayPort, ZT-B50600H-10M 288-1N780-200Z6",
         "title": "Tarjeta de Video ZOTAC GeForce RTX5060 TWIN EDGE OC, 8GB 1x HDMI 3x DisplayPort",
         "category": "Tarjetas de Video",
@@ -3082,7 +3082,7 @@ const PRODUCTS =
     {
         "id": 129,
         "ref": "311677",
-        "brand": "XFX",
+        "brand": "AMD",
         "title_orig": "Tarjeta de Video XFX AMD Radeon RX9070XT Swift Pro Gaming, 16GB GDDR6, 256-bit, RX-97TSWF3W9, Blanco",
         "title": "Tarjeta de Video XFX AMD Radeon RX9070XT Swift Pro Gaming, 16GB Blanco",
         "category": "Tarjetas de Video",
@@ -3103,7 +3103,7 @@ const PRODUCTS =
     {
         "id": 130,
         "ref": "333110",
-        "brand": "VGA",
+        "brand": "SAPPHIRE",
         "title_orig": "VGA RX9060XT 16GB SAPPHIRE GAMING PULSE OC 2FAN 11350-03-20G",
         "title": "VGA RX9060XT 16GB SAPPHIRE GAMING PULSE OC 2FAN",
         "category": "Tarjetas de Video",
@@ -3121,7 +3121,7 @@ const PRODUCTS =
     {
         "id": 131,
         "ref": "308178",
-        "brand": "KEEPDATA",
+        "brand": "AMD",
         "title_orig": "Tarjeta de Video Keepdata Dragonfly 8GB AMD Radeon RX580, GDDR5, KDRX580-8GD5B, 256Bits, 1244MHZ, 1xHDMI, 1xDISPLAYPORT, 1xDVI, Negro",
         "title": "Tarjeta de Video Keepdata Dragonfly 8GB AMD Radeon RX580 1244MHZ, 1xHDMI, 1xDISPLAYPORT, 1xDVI, Negro",
         "category": "Tarjetas de Video",
@@ -3145,7 +3145,7 @@ const PRODUCTS =
     {
         "id": 132,
         "ref": "310037",
-        "brand": "BIOSTAR",
+        "brand": "AMD",
         "title_orig": "Tarjeta de Video BIOSTAR AMD Radeon RX7600 Ultimate Gaming OC, 8GB GDDR6, 128Bits, 1x HDMI 3x DisplayPort, VA76S6RM81-RBAR A-BS2/HMDI, Negro",
         "title": "Tarjeta de Video BIOSTAR AMD Radeon RX7600 Ultimate Gaming OC, 8GB 1x HDMI 3x DisplayPort, Negro",
         "category": "Tarjetas de Video",
@@ -3230,7 +3230,7 @@ const PRODUCTS =
     {
         "id": 136,
         "ref": "334201",
-        "brand": "PLACA",
+        "brand": "HP",
         "title_orig": "Tarjeta de Video GALAX GeForce RTX3050 1-CLICK OC DUAL, 6GB GDDR6, 96Bits, 1x HDMI 3x DisplayPort, 35NRLDHP90DV",
         "title": "Tarjeta de Video GALAX GeForce RTX3050 OC DUAL, 6GB 1x HDMI 3x DisplayPort",
         "category": "Tarjetas de Video",
@@ -3392,7 +3392,7 @@ const PRODUCTS =
     {
         "id": 144,
         "ref": "230016",
-        "brand": "STAR",
+        "brand": "AMD",
         "title_orig": "Tarjeta de Video Star 2GB AMD Radeon R5 230 GDDR3 64Bits 625Mhz HDMI, DVI, VGA(D-Sub), Lowprofile",
         "title": "Tarjeta de Video Star 2GB AMD Radeon R5 230 625Mhz HDMI, DVI, Lowprofile",
         "category": "Tarjetas de Video",
@@ -3452,7 +3452,7 @@ const PRODUCTS =
     {
         "id": 147,
         "ref": "370650",
-        "brand": "PLACA",
+        "brand": "ZOTAC",
         "title_orig": "Tarjeta de Video Zotac GeForce RTX5090 SOLID OC EDITION, 32GB GDDR7, 512Bits, 1x HDMI 3x DisplayPort, ZT-B50900J-10A 288-1N761-400Z6",
         "title": "Tarjeta de Video Zotac GeForce RTX5090 SOLID OC EDITION, 32GB 1x HDMI 3x DisplayPort",
         "category": "Tarjetas de Video",
@@ -3473,7 +3473,7 @@ const PRODUCTS =
     {
         "id": 148,
         "ref": "356328",
-        "brand": "VGA",
+        "brand": "ZOTAC",
         "title_orig": "VGA RTX5070 12GB ZOTAC GAMING SOLID ZT-B50700D-10P 288-1N764-101Z6",
         "title": "VGA RTX5070 12GB ZOTAC GAMING SOLID",
         "category": "Tarjetas de Video",
@@ -3650,7 +3650,7 @@ const PRODUCTS =
     {
         "id": 157,
         "ref": "308920",
-        "brand": "XFX",
+        "brand": "AMD",
         "title_orig": "Tarjeta de Video XFX AMD Radeon RX9070 Swift Pro Gaming OC, 16GB GDDR6, 256-bit, RX-97SWFBW9, Blanco",
         "title": "Tarjeta de Video XFX AMD Radeon RX9070 Swift Pro Gaming OC, 16GB Blanco",
         "category": "Tarjetas de Video",
@@ -4083,7 +4083,7 @@ const PRODUCTS =
     {
         "id": 179,
         "ref": "368454",
-        "brand": "PLACA",
+        "brand": "ZOTAC",
         "title_orig": "Tarjeta de Video Zotac GeForce RTX5080 ZOTAC GAMING APOCALYPSE OC, 16 GDDR7, 256Bits, 1x HDMI 3x DisplayPort, ZT-B50800C-10P 288-1N774-100Z6, Blanco",
         "title": "Tarjeta de Video Zotac GeForce RTX5080 ZOTAC GAMING APOCALYPSE OC, 16 1x HDMI 3x DisplayPort, Blanco",
         "category": "Tarjetas de Video",
@@ -4497,7 +4497,7 @@ const PRODUCTS =
     {
         "id": 198,
         "ref": "290492",
-        "brand": "KINGSTON",
+        "brand": "AMD",
         "title_orig": "MEM DDR5 16GB 6000 KINGSTON FURY BEAST BLK AMD/EXP KF560C36BBE2-16",
         "title": "MEM DDR5 16GB 6000 KINGSTON FURY BEAST BLK",
         "category": "Memorias RAM",
@@ -4577,7 +4577,7 @@ const PRODUCTS =
     {
         "id": 202,
         "ref": "292472",
-        "brand": "UP GAMER",
+        "brand": "APPLE",
         "title_orig": "Memoria UP Gamer ANUBIS, DDR4 8GB 3200MHz, c/ Dissipador, ANBS-DSDR48G-32, Negro",
         "title": "Memoria UP Gamer ANUBIS, DDR4 8GB 3200MHz, c/ Dissipador, Negro",
         "category": "Memorias RAM",
@@ -4746,7 +4746,7 @@ const PRODUCTS =
     {
         "id": 210,
         "ref": "290550",
-        "brand": "KINGSTON",
+        "brand": "AMD",
         "title_orig": "MEM DDR5 32GB 6000 KINGSTON FURY BEAST BLK AMD/EXP KF560C36BBE-32",
         "title": "MEM DDR5 32GB 6000 KINGSTON FURY BEAST BLK",
         "category": "Memorias RAM",
@@ -5003,7 +5003,7 @@ const PRODUCTS =
     {
         "id": 222,
         "ref": "292483",
-        "brand": "UP GAMER",
+        "brand": "APPLE",
         "title_orig": "Memoria UP Gamer ANUBIS, DDR4 16GB 3200MHz, c/Dissipador, ANBS-DSDR416G-32, Negro",
         "title": "Memoria UP Gamer ANUBIS, DDR4 16GB 3200MHz, Negro",
         "category": "Memorias RAM",
@@ -6742,7 +6742,7 @@ const PRODUCTS =
     {
         "id": 312,
         "ref": "207648",
-        "brand": "CARREGADOR",
+        "brand": "PHILIPS",
         "title_orig": "CARREGADOR DE PILHA PHILIPS SCB2440NB/97 S/PILHAS",
         "title": "Cargador DE PILHA PHILIPS",
         "category": "Fuentes de Poder",
@@ -6927,7 +6927,7 @@ const PRODUCTS =
     {
         "id": 322,
         "ref": "235177",
-        "brand": "PILHAS",
+        "brand": "PHILIPS",
         "title_orig": "Pilhas Recargable Philips AA con 4 Pilhas, 2500MAH, R6B4RTU25/97",
         "title": "Pilhas Recargable Philips AA Con 4 Pilhas",
         "category": "Fuentes de Poder",
@@ -6945,7 +6945,7 @@ const PRODUCTS =
     {
         "id": 323,
         "ref": "297152",
-        "brand": "AIGO",
+        "brand": "DARKFLASH",
         "title_orig": "FONTE 750W DARKFLASH PMT750 F.MOD BIVOLT GOLD BLACK",
         "title": "Fuente 750W DARKFLASH F.MOD BIVOLT GOLD BLACK",
         "category": "Fuentes de Poder",
@@ -6963,7 +6963,7 @@ const PRODUCTS =
     {
         "id": 324,
         "ref": "183124",
-        "brand": "ZEMISMART",
+        "brand": "INTEL",
         "title_orig": "Panel Inteligente Zemismart Smart Home Leaf, Wi-fi, Alexa, RGB, 9 Piezas, ZM-SLP-9",
         "title": "Panel Inteligente Zemismart Smart Home Leaf, Alexa, RGB, 9 Piezas",
         "category": "Smart Home / Domótica",
@@ -7405,7 +7405,7 @@ const PRODUCTS =
     {
         "id": 348,
         "ref": "150555",
-        "brand": "INTEL",
+        "brand": "LG",
         "title_orig": "Procesador Intel Core i5 12400F, 2.5GHz (4.4GHz Max Turbo), Socket LGA 1700, 18MB, Box",
         "title": "Procesador Intel Core i5 12400F, 2.5GHz (4.4GHz Max Turbo), Socket LGA 1700",
         "category": "Procesadores",
@@ -7625,7 +7625,7 @@ const PRODUCTS =
     {
         "id": 359,
         "ref": "245033",
-        "brand": "INTEL",
+        "brand": "LG",
         "title_orig": "Procesador Intel Core i5 14400F, 2.5GHz (4.7GHz Max Turbo), Socket LGA 1700, 20MB, Box",
         "title": "Procesador Intel Core i5 14400F, 2.5GHz (4.7GHz Max Turbo), Socket LGA 1700",
         "category": "Procesadores",
@@ -7664,7 +7664,7 @@ const PRODUCTS =
     {
         "id": 361,
         "ref": "75506",
-        "brand": "INTEL",
+        "brand": "LG",
         "title_orig": "Procesador Intel Core i5 3470, 3.20GHz (3.60GHz Max Turbo), Socket LGA 1155, 6MB, OEM",
         "title": "Procesador Intel Core i5 3470, 3.20GHz (3.60GHz Max Turbo), Socket LGA 1155, OEM",
         "category": "Procesadores",
@@ -7686,7 +7686,7 @@ const PRODUCTS =
     {
         "id": 362,
         "ref": "149339",
-        "brand": "INTEL",
+        "brand": "LG",
         "title_orig": "Procesador Intel Core i5-12400 4.4GHz LGA 1700 Box",
         "title": "Procesador Intel Core i5-12400 4.4GHz LGA 1700 Box",
         "category": "Procesadores",
@@ -7704,7 +7704,7 @@ const PRODUCTS =
     {
         "id": 363,
         "ref": "124422",
-        "brand": "INTEL",
+        "brand": "LG",
         "title_orig": "Procesador Intel Core i7 4770, Socket LGA 1150, 3.4GHz, 8MB, OEM",
         "title": "Procesador Intel Core i7 4770, Socket LGA 1150, 3.4GHz, OEM",
         "category": "Procesadores",
@@ -7726,7 +7726,7 @@ const PRODUCTS =
     {
         "id": 364,
         "ref": "153580",
-        "brand": "INTEL",
+        "brand": "LG",
         "title_orig": "Procesador Intel Core i3-12100F 4.3GHz LGA 1700 Box s/Vídeo",
         "title": "Procesador Intel Core i3-12100F 4.3GHz LGA 1700 Box",
         "category": "Procesadores",
@@ -7782,7 +7782,7 @@ const PRODUCTS =
     {
         "id": 367,
         "ref": "69048",
-        "brand": "INTEL",
+        "brand": "LG",
         "title_orig": "Procesador Intel Core i5 10400, 2.9GHz (4.3.GHz Max Turbo), Socket LGA 1200, 12MB, Box",
         "title": "Procesador Intel Core i5 10400, 2.9GHz (4.3.GHz Max Turbo), Socket LGA 1200",
         "category": "Procesadores",
@@ -7803,7 +7803,7 @@ const PRODUCTS =
     {
         "id": 368,
         "ref": "78138",
-        "brand": "INTEL",
+        "brand": "LG",
         "title_orig": "Procesador Intel Core i5 10400F, 2.9GHz (4.3GHz Max Turbo), Socket LGA 1200, 12MB, Box",
         "title": "Procesador Intel Core i5 10400F, 2.9GHz (4.3GHz Max Turbo), Socket LGA 1200",
         "category": "Procesadores",
@@ -7884,7 +7884,7 @@ const PRODUCTS =
     {
         "id": 372,
         "ref": "230598",
-        "brand": "INTEL",
+        "brand": "LG",
         "title_orig": "Procesador Intel Core i9 14900K, 3.2GHz (6.0GHz Max Turbo), Socket LGA 1700, 36MB, s/Cooler",
         "title": "Procesador Intel Core i9 14900K, 3.2GHz (6.0GHz Max Turbo), Socket LGA 1700",
         "category": "Procesadores",
@@ -7941,7 +7941,7 @@ const PRODUCTS =
     {
         "id": 375,
         "ref": "152715",
-        "brand": "INTEL",
+        "brand": "LG",
         "title_orig": "Procesador Intel Core i5-12600KF 4.9GHz LGA 1700 Box s/Vídeo s/Cooler",
         "title": "Procesador Intel Core i5-12600KF 4.9GHz LGA 1700 Box",
         "category": "Procesadores",
@@ -7977,7 +7977,7 @@ const PRODUCTS =
     {
         "id": 377,
         "ref": "142960",
-        "brand": "INTEL",
+        "brand": "LG",
         "title_orig": "Procesador Intel Core i7-12700KF, LGA 1700, 3.6GHz, 25MB, s/Cooler",
         "title": "Procesador Intel Core i7-12700KF, LGA 1700, 3.6GHz",
         "category": "Procesadores",
@@ -7998,7 +7998,7 @@ const PRODUCTS =
     {
         "id": 378,
         "ref": "244076",
-        "brand": "INTEL",
+        "brand": "LG",
         "title_orig": "Procesador Intel Core i9 14900, 2.0GHz (5.8GHz Max Turbo), Socket LGA 1700, 36MB, Box",
         "title": "Procesador Intel Core i9 14900, 2.0GHz (5.8GHz Max Turbo), Socket LGA 1700",
         "category": "Procesadores",
@@ -8058,7 +8058,7 @@ const PRODUCTS =
     {
         "id": 381,
         "ref": "242636",
-        "brand": "INTEL",
+        "brand": "LG",
         "title_orig": "Procesador Intel Core i3-14100F 14TH GEN 4.7GHz LGA 1700 12MB Box s/Vídeo",
         "title": "Procesador Intel Core i3-14100F 14TH GEN 4.7GHz LGA 1700 12MB Box",
         "category": "Procesadores",
@@ -8098,7 +8098,7 @@ const PRODUCTS =
     {
         "id": 383,
         "ref": "242647",
-        "brand": "INTEL",
+        "brand": "LG",
         "title_orig": "Procesador Intel Core i5 14400, 2.5GHz (4.7GHz Max Turbo), Socket LGA 1700, 20MB, Box",
         "title": "Procesador Intel Core i5 14400, 2.5GHz (4.7GHz Max Turbo), Socket LGA 1700",
         "category": "Procesadores",
@@ -8140,7 +8140,7 @@ const PRODUCTS =
     {
         "id": 385,
         "ref": "230723",
-        "brand": "INTEL",
+        "brand": "LG",
         "title_orig": "Procesador Intel Core i7-14700K 14TH GEN, LGA 1700, 5.6GHz, 33MB, s/Cooler",
         "title": "Procesador Intel Core i7-14700K 14TH GEN, LGA 1700, 5.6GHz",
         "category": "Procesadores",
@@ -8161,7 +8161,7 @@ const PRODUCTS =
     {
         "id": 386,
         "ref": "184742",
-        "brand": "INTEL",
+        "brand": "LG",
         "title_orig": "Procesador Intel Core i3-13100F 3.4GHz LGA 1700 12MB Box",
         "title": "Procesador Intel Core i3-13100F 3.4GHz LGA 1700 12MB Box",
         "category": "Procesadores",
@@ -8179,7 +8179,7 @@ const PRODUCTS =
     {
         "id": 387,
         "ref": "153705",
-        "brand": "INTEL",
+        "brand": "LG",
         "title_orig": "Procesador Intel Core i7-12700 4.9GHz LGA 1700 Box",
         "title": "Procesador Intel Core i7-12700 4.9GHz LGA 1700 Box",
         "category": "Procesadores",
@@ -8197,7 +8197,7 @@ const PRODUCTS =
     {
         "id": 388,
         "ref": "143940",
-        "brand": "INTEL",
+        "brand": "LG",
         "title_orig": "Procesador Intel Core i5-12600K 4.9GHz LGA 1700 Box s/Cooler",
         "title": "Procesador Intel Core i5-12600K 4.9GHz LGA 1700 Box",
         "category": "Procesadores",
@@ -8215,7 +8215,7 @@ const PRODUCTS =
     {
         "id": 389,
         "ref": "106332",
-        "brand": "INTEL",
+        "brand": "LG",
         "title_orig": "Procesador Intel Core i5 4460, 3.20GHz (3.40GHz Max Turbo), Socket LGA 1150, 6MB, OEM",
         "title": "Procesador Intel Core i5 4460, 3.20GHz (3.40GHz Max Turbo), Socket LGA 1150, OEM",
         "category": "Procesadores",
@@ -8255,7 +8255,7 @@ const PRODUCTS =
     {
         "id": 391,
         "ref": "299604",
-        "brand": "INTEL",
+        "brand": "LG",
         "title_orig": "Procesador Intel Core Ultra 9 285K, Socket LGA 1851, 5.7GHz, 36MB",
         "title": "Procesador Intel Core Ultra 9 285K, Socket LGA 1851, 5.7GHz",
         "category": "Procesadores",
@@ -8276,7 +8276,7 @@ const PRODUCTS =
     {
         "id": 392,
         "ref": "158710",
-        "brand": "INTEL",
+        "brand": "LG",
         "title_orig": "Procesador Intel Core i9 12900, 2.4GHz (5.1GHz Max Turbo), Socket LGA 1700, 30MB, Box",
         "title": "Procesador Intel Core i9 12900, 2.4GHz (5.1GHz Max Turbo), Socket LGA 1700",
         "category": "Procesadores",
@@ -8495,7 +8495,7 @@ const PRODUCTS =
     {
         "id": 404,
         "ref": "242670",
-        "brand": "INTEL",
+        "brand": "LG",
         "title_orig": "Procesador Intel Core i9-14900F 5.8GHz LGA 1700 36MB Box s/Vídeo",
         "title": "Procesador Intel Core i9-14900F 5.8GHz LGA 1700 36MB Box",
         "category": "Procesadores",
@@ -8747,7 +8747,7 @@ const PRODUCTS =
     {
         "id": 418,
         "ref": "202698",
-        "brand": "UP GAMER",
+        "brand": "AMD",
         "title_orig": "Placa Madre UP Gamer A520M, AMD AM4, m-ATX, DDR4, M.2 NVMe, UP-A520M",
         "title": "Placa Madre UP Gamer A520M, AMD AM4, DDR4, M.2 NVMe",
         "category": "Placas Madre",
@@ -8787,7 +8787,7 @@ const PRODUCTS =
     {
         "id": 420,
         "ref": "183180",
-        "brand": "UP GAMER",
+        "brand": "LG",
         "title_orig": "Placa Madre UP Gamer H61MDR3, Intel LGA 1155, m-ATX, DDR3, M.2 NVMe, UP-H61M",
         "title": "Placa Madre UP Gamer Intel LGA 1155, DDR3, M.2 NVMe",
         "category": "Placas Madre",
@@ -8863,7 +8863,7 @@ const PRODUCTS =
     {
         "id": 424,
         "ref": "183190",
-        "brand": "UP GAMER",
+        "brand": "LG",
         "title_orig": "Placa Madre UP Gamer H81M, Intel LGA 1150, m-ATX, DDR3, M.2 NVMe, UP-H81MDR3",
         "title": "Placa Madre UP Gamer H81M, Intel LGA 1150, DDR3, M.2 NVMe",
         "category": "Placas Madre",
@@ -8885,7 +8885,7 @@ const PRODUCTS =
     {
         "id": 425,
         "ref": "202711",
-        "brand": "UP GAMER",
+        "brand": "LG",
         "title_orig": "Placa Madre UP Gamer H110M, Intel LGA 1151, m-ATX, DDR4, M.2 NVMe, HDMI, VGA, UP-H110MDR4",
         "title": "Placa Madre UP Gamer H110M, Intel LGA 1151, DDR4, M.2 NVMe, HDMI, VGA",
         "category": "Placas Madre",
@@ -8909,7 +8909,7 @@ const PRODUCTS =
     {
         "id": 426,
         "ref": "180457",
-        "brand": "BIOSTAR",
+        "brand": "HP",
         "title_orig": "MB AM4 BIOSTAR B450MHP DDR4/HDMI/VGA",
         "title": "MB AM4 BIOSTAR",
         "category": "Placas Madre",
@@ -9017,7 +9017,7 @@ const PRODUCTS =
     {
         "id": 432,
         "ref": "183214",
-        "brand": "UP GAMER",
+        "brand": "LG",
         "title_orig": "Placa Madre UP Gamer H610M, Intel LGA 1700, m-ATX, DDR4, M.2 NVMe, UP-H610MDR4",
         "title": "Placa Madre UP Gamer H610M, Intel LGA 1700, DDR4, M.2 NVMe",
         "category": "Placas Madre",
@@ -9093,7 +9093,7 @@ const PRODUCTS =
     {
         "id": 436,
         "ref": "183203",
-        "brand": "UP GAMER",
+        "brand": "LG",
         "title_orig": "Placa Madre UP Gamer H511M / H510M, Intel LGA 1200, m-ATX, DDR4, M.2 NVMe, UP-H511MDR4",
         "title": "Placa Madre UP Gamer H511M / H510M, Intel LGA 1200, DDR4, M.2 NVMe",
         "category": "Placas Madre",
@@ -9415,7 +9415,7 @@ const PRODUCTS =
     {
         "id": 453,
         "ref": "84471",
-        "brand": "BIOSTAR",
+        "brand": "AMD",
         "title_orig": "KIT Placa Madre + Procesador Biostar A68N-2100K+AMD AMD E1-6010, 2.0 ITX DDR3, HDMI VGA",
         "title": "KIT Placa Madre + Procesador Biostar AMD 2.0 ITX DDR3, HDMI VGA",
         "category": "Placas Madre",
@@ -9454,7 +9454,7 @@ const PRODUCTS =
     {
         "id": 455,
         "ref": "349050",
-        "brand": "UP GAMER",
+        "brand": "LG",
         "title_orig": "Placa Madre UP Gamer H310M, Intel LGA 1151, m-ATX, DDR4, M.2 NVMe, UP-H310M",
         "title": "Placa Madre UP Gamer H310M, Intel LGA 1151, DDR4, M.2 NVMe",
         "category": "Placas Madre",
@@ -9494,7 +9494,7 @@ const PRODUCTS =
     {
         "id": 457,
         "ref": "355674",
-        "brand": "UP GAMER",
+        "brand": "AMD",
         "title_orig": "Placa Madre UP Gamer B450M-VDH, AMD AM4, m-ATX, DDR4, M.2 NVMe, UPG-B450M-VDH",
         "title": "Placa Madre UP Gamer AMD AM4, DDR4, M.2 NVMe",
         "category": "Placas Madre",
@@ -9650,7 +9650,7 @@ const PRODUCTS =
     {
         "id": 465,
         "ref": "355720",
-        "brand": "UP GAMER",
+        "brand": "LG",
         "title_orig": "Placa Madre UP Gamer B760M GAMING X4, Intel LGA 1700 m-ATX, 4xDDR4, 1xHDMI, 2X Displayport, 1x USB-C, 2x M.2, 2x USB 3.2, 3x USB 2.0, UPG-B760MD4-GX4, Blanco",
         "title": "Placa Madre UP Gamer B760M GAMING X4, Intel LGA 1700 4xDDR4, 1xHDMI, 2X Displayport, 1x 2x M.2, 2x USB 3.2, 3x USB 2.0, Blanco",
         "category": "Placas Madre",
@@ -10252,7 +10252,7 @@ const PRODUCTS =
     {
         "id": 495,
         "ref": "212240",
-        "brand": "MTEK",
+        "brand": "AMD",
         "title_orig": "Monitor Mtek M24SFV165C Curvo 24\" Full HD (1920 x 1080), 165HZ, 1ms, 2xHDMI 2.0, 2xDisplayPort 1.4, 1xConector de Audio, AMD FreeSync nativa e G-Sync Compatible, RGB, Negro",
         "title": "Monitor Mtek Curvo 24\" Full HD",
         "category": "Monitores",
@@ -11136,7 +11136,7 @@ const PRODUCTS =
     {
         "id": 534,
         "ref": "318809",
-        "brand": "MTEK",
+        "brand": "AMD",
         "title_orig": "Monitor Mtek M27SFV280C Curvo 27\" Full HD (1920 x 1080), 1MS, 280HZ, 1xHDMI 2.0, 1xHDMI 1.4, 1xDisplayPort 1.2, 1xConector de Audio, AMD FreeSync, Nvidia G-Sync, Speaker (2Wx2), Negro",
         "title": "Monitor Mtek Curvo 27\" Full HD",
         "category": "Monitores",
@@ -11870,7 +11870,7 @@ const PRODUCTS =
     {
         "id": 566,
         "ref": "264976",
-        "brand": "UP GAMER",
+        "brand": "INTEL",
         "title_orig": "Water Cooler CPU UP Gamer Nevaska Liquid ARGB, 240MM, UP-NVK-TR240, Intel 115X/1200/1366/1700/2011(V3), AMD AM2+/AM3+/AM4/AM5/FM2+/FM1, Blanco",
         "title": "Water Cooler CPU UP Gamer Nevaska Liquid ARGB, Intel AMD Blanco",
         "category": "Periféricos",
@@ -12112,7 +12112,7 @@ const PRODUCTS =
     {
         "id": 577,
         "ref": "264943",
-        "brand": "UP GAMER",
+        "brand": "INTEL",
         "title_orig": "Water Cooler CPU UP Gamer Rainbow Liquid ARGB, 120MM, UP-RB-TR120, Intel 115X/1200/1366/1700/2011(V3), AMD AM2+/AM3+/AM4/AM5/FM2+/FM1, Negro",
         "title": "Water Cooler CPU UP Gamer Rainbow Liquid ARGB, Intel AMD Negro",
         "category": "Periféricos",
@@ -12274,7 +12274,7 @@ const PRODUCTS =
     {
         "id": 585,
         "ref": "157966",
-        "brand": "SATELLITE",
+        "brand": "INTEL",
         "title_orig": "Air Cooler CPU Sate CC-80 ARGB, 120MM, Intel 115X/1200/1366, AMD AM2/AM3/AM4/FM2/FM1, Negro",
         "title": "Air Cooler CPU Sate ARGB, Intel AMD Negro",
         "category": "Periféricos",
@@ -12761,7 +12761,7 @@ const PRODUCTS =
     {
         "id": 610,
         "ref": "209437",
-        "brand": "FONE",
+        "brand": "JBL",
         "title_orig": "Auricular JBL Tune 720BT, Sem fio, Mic Integrado, Bluetooth 5.3, Blanco",
         "title": "Auriculares JBL Tune Inalámbrico, Mic Integrado, Bluetooth 5.3, Blanco",
         "category": "Periféricos",
@@ -12822,7 +12822,7 @@ const PRODUCTS =
     {
         "id": 613,
         "ref": "198073",
-        "brand": "COOLER MASTER",
+        "brand": "LG",
         "title_orig": "ADAPTADOR COOLER MASTER LGA 1700 603005870-GP",
         "title": "Adaptador Cooler MASTER LGA 1700",
         "category": "Periféricos",
@@ -12858,7 +12858,7 @@ const PRODUCTS =
     {
         "id": 615,
         "ref": "240331",
-        "brand": "AIR",
+        "brand": "INTEL",
         "title_orig": "Air Cooler CPU Thermalright Assassin Spirit 120 EVO BL TL-S12-SC, ARGB, Negro 120MM, Intel 115X/1200/1700/1851, AMD AM4/AM5",
         "title": "Air Cooler CPU Thermalright Assassin Spirit 120 EVO BL ARGB, Negro Intel AMD",
         "category": "Periféricos",
@@ -13123,7 +13123,7 @@ const PRODUCTS =
     {
         "id": 629,
         "ref": "286016",
-        "brand": "AIR",
+        "brand": "INTEL",
         "title_orig": "Air Cooler CPU Thermalright Phantom Spirit 120 EVO BLK TL-K12, ARGB, Negro 120MM, Intel 115X/1200/1700/1851/2011/2066, AMD AM4/AM5",
         "title": "Air Cooler CPU Thermalright Phantom Spirit 120 EVO BLK ARGB, Negro Intel AMD",
         "category": "Periféricos",
@@ -13146,7 +13146,7 @@ const PRODUCTS =
     {
         "id": 630,
         "ref": "91772",
-        "brand": "SATELLITE",
+        "brand": "INTEL",
         "title_orig": "Air Cooler CPU Sate CC-73 ARGB, 120MM, Intel 115X/1200/1366, AMD AM2/AM3/AM4/AM5/FM2/FM1, Negro",
         "title": "Air Cooler CPU Sate ARGB, Intel AMD Negro",
         "category": "Periféricos",
@@ -13204,7 +13204,7 @@ const PRODUCTS =
     {
         "id": 633,
         "ref": "240421",
-        "brand": "AIR",
+        "brand": "INTEL",
         "title_orig": "Air Cooler CPU Thermalright Phantom Spirit 120 SE Black TL-C12B V2*2, Negro, 120MM, Intel 115X/1200/1700/1851, AMD AM4/AM5",
         "title": "Air Cooler CPU Thermalright Phantom Spirit 120 SE Black V2*2, Negro, Intel AMD",
         "category": "Periféricos",
@@ -13519,7 +13519,7 @@ const PRODUCTS =
     {
         "id": 648,
         "ref": "192225",
-        "brand": "WESTERN DIGITAL",
+        "brand": "APPLE",
         "title_orig": "SSD Western Digital WD Black SN850X, 1TB, M.2 NVMe, Lectura 7300MB/s, Grabación 6300MB/s, c/Dissipador, WDS100T2XHE",
         "title": "SSD Western Digital WD Black 1TB, M.2 NVMe, Lectura Grabación",
         "category": "Almacenamiento (SSD)",
@@ -13648,7 +13648,7 @@ const PRODUCTS =
     {
         "id": 655,
         "ref": "105702",
-        "brand": "SSD",
+        "brand": "PATRIOT",
         "title_orig": "SSD Patriot P300, 1TB, M.2 NVMe, Lectura 2100MB/s, Grabación 1650MB/s, P300P1TBM28 GEN3 X4",
         "title": "SSD Patriot P300, 1TB, M.2 NVMe, Lectura Grabación GEN3 X4",
         "category": "Almacenamiento (SSD)",
@@ -13736,7 +13736,7 @@ const PRODUCTS =
     {
         "id": 659,
         "ref": "198578",
-        "brand": "KINGSTON",
+        "brand": "APPLE",
         "title_orig": "HD SSD M.2 2TB NVME KINGSTON RENEGADE SFYRDK/2000G SFYRDK/2000G COM DISSIPADOR",
         "title": "HD SSD M.2 2TB NVME KINGSTON RENEGADE Con DISSIPADOR",
         "category": "Almacenamiento (SSD)",
@@ -14173,7 +14173,7 @@ const PRODUCTS =
     {
         "id": 681,
         "ref": "325379",
-        "brand": "HD",
+        "brand": "PATRIOT",
         "title_orig": "HD SSD M.2 250GB NVME PATRIOT P400LP250GM28H 3500/2700 MB/S GEN4",
         "title": "HD SSD M.2 250GB NVME PATRIOT MB/S GEN4",
         "category": "Almacenamiento (SSD)",
@@ -14461,7 +14461,7 @@ const PRODUCTS =
     {
         "id": 697,
         "ref": "380290",
-        "brand": "SSD",
+        "brand": "PATRIOT",
         "title_orig": "SSD M.2 1TB NVME PATRIOT NVME P400LP1KGM28H GEN4 1000GB",
         "title": "SSD M.2 1TB NVME PATRIOT NVME GEN4 1000GB",
         "category": "Almacenamiento (SSD)",
@@ -14587,7 +14587,7 @@ const PRODUCTS =
     {
         "id": 704,
         "ref": "381001",
-        "brand": "SSD",
+        "brand": "PATRIOT",
         "title_orig": "SSD M.2 128GB PATRIOT P320 2280 NVME P320P128GM2 P320P128GM28 PCIE GEN3 X4",
         "title": "SSD M.2 128GB PATRIOT P320 2280 NVME PCIE GEN3 X4",
         "category": "Almacenamiento (SSD)",
@@ -14605,7 +14605,7 @@ const PRODUCTS =
     {
         "id": 705,
         "ref": "380280",
-        "brand": "SSD",
+        "brand": "PATRIOT",
         "title_orig": "SSD M.2 2TB PATRIOT P310 NVME P310P192TM28 GEN3",
         "title": "SSD M.2 2TB PATRIOT P310 NVME GEN3",
         "category": "Almacenamiento (SSD)",
@@ -15820,7 +15820,7 @@ const PRODUCTS =
     {
         "id": 9073,
         "ref": "333840",
-        "brand": "AIGO",
+        "brand": "DARKFLASH",
         "title_orig": "GABINETE DARKFLASH DS900WS WHITE",
         "title": "GABINETE DARKFLASH DS900WS WHITE",
         "category": "Gabinetes",
@@ -16163,7 +16163,7 @@ const PRODUCTS =
     {
         "id": 9090,
         "ref": "296847",
-        "brand": "GAMDIAS",
+        "brand": "AMD",
         "title_orig": "GABINETE GAMDIAS TALOS M3 MESH MID-TOWER ARGB WHITE",
         "title": "GABINETE GAMDIAS TALOS M3 MESH MID-TOWER ARGB WHITE",
         "category": "Gabinetes",
@@ -17647,7 +17647,7 @@ const PRODUCTS =
     {
         "id": 9163,
         "ref": "389929",
-        "brand": "COOLER MASTER",
+        "brand": "STAR",
         "title_orig": "GABINETE COOLER MASTER QUBE 540 STARDUST IRON Q540-MGNN-S00",
         "title": "GABINETE COOLER MASTER QUBE 540 STARDUST IRON Q540-MGNN-S00",
         "category": "Gabinetes",
@@ -17895,7 +17895,7 @@ const PRODUCTS =
     {
         "id": 9176,
         "ref": "317190",
-        "brand": "AMD",
+        "brand": "LENOVO",
         "title_orig": "Notebook Lenovo IdeaPad Slim 3 15AMN8 (82XQ00EBUS), AMD Ryzen 5 7520U 2.80HZ (4.30GHZ), 8GB RAM, 256GB SSD, Tela 15.6",
         "title": "Notebook Lenovo IdeaPad Slim 3 15AMN8 (82XQ00EBUS), AMD Ryzen 5 7520U 2.80HZ (4.30GHZ), 8GB RAM, 256GB SSD, Tela 15.6",
         "category": "Notebooks",
@@ -17917,7 +17917,7 @@ const PRODUCTS =
     {
         "id": 9177,
         "ref": "347080",
-        "brand": "INTEL",
+        "brand": "LENOVO",
         "title_orig": "Notebook Lenovo Legion 5 15IRX10 (83LY0007US), Intel Core I9-14900HX 2.2GHZ (5.80GHZ), 16GB RAM, 1TB SSD, Tela 15.6",
         "title": "Notebook Lenovo Legion 5 15IRX10 (83LY0007US), Intel Core I9-14900HX 2.2GHZ (5.80GHZ), 16GB RAM, 1TB SSD, Tela 15.6",
         "category": "Notebooks",
@@ -17939,7 +17939,7 @@ const PRODUCTS =
     {
         "id": 9178,
         "ref": "381741",
-        "brand": "AMD",
+        "brand": "ACER",
         "title_orig": "Notebook Acer Aspire Go AG15-42P-R917, AMD Ryzen 7 7730U 2.00HZ (4.50GHZ), 16GB RAM, 512GB SSD, Tela 15.6",
         "title": "Notebook Acer Aspire Go AG15-42P-R917, AMD Ryzen 7 7730U 2.00HZ (4.50GHZ), 16GB RAM, 512GB SSD, Tela 15.6",
         "category": "Notebooks",
@@ -18023,7 +18023,7 @@ const PRODUCTS =
     {
         "id": 9182,
         "ref": "355999",
-        "brand": "INTEL",
+        "brand": "HP",
         "title_orig": "Notebook HP Omnibook 5 16-AF1017WM, Intel Core Ultra 7 255U 1.70HZ (5.20GHZ), 16GB RAM, 1TB SSD, Tela 16",
         "title": "Notebook HP Omnibook 5 16-AF1017WM, Intel Core Ultra 7 255U 1.70HZ (5.20GHZ), 16GB RAM, 1TB SSD, Tela 16",
         "category": "Notebooks",
@@ -18067,7 +18067,7 @@ const PRODUCTS =
     {
         "id": 9184,
         "ref": "384452",
-        "brand": "AMD",
+        "brand": "LENOVO",
         "title_orig": "Notebook Lenovo IdeaPad Slim 3 15ARP10 (83K700G8US), AMD Ryzen 7 170 3.20HZ (4.75GHZ), 16GB RAM, 512GB SSD, Tela 15.6",
         "title": "Notebook Lenovo IdeaPad Slim 3 15ARP10 (83K700G8US), AMD Ryzen 7 170 3.20HZ (4.75GHZ), 16GB RAM, 512GB SSD, Tela 15.6",
         "category": "Notebooks",
@@ -18089,7 +18089,7 @@ const PRODUCTS =
     {
         "id": 9185,
         "ref": "378848",
-        "brand": "AMD",
+        "brand": "HP",
         "title_orig": "Notebook Lenovo IdeaPad Slim 3 15AHP10 (83KA000QUS), AMD Ryzen 7 8840HS 3.3GHZ (5.10GHZ), 16GB RAM, 512GB SSD, Tela 15.6",
         "title": "Notebook Lenovo IdeaPad Slim 3 15AHP10 (83KA000QUS), AMD Ryzen 7 8840HS 3.3GHZ (5.10GHZ), 16GB RAM, 512GB SSD, Tela 15.6",
         "category": "Notebooks",
@@ -18132,7 +18132,7 @@ const PRODUCTS =
     {
         "id": 9187,
         "ref": "383091",
-        "brand": "INTEL",
+        "brand": "HP",
         "title_orig": "Notebook HP 15-FD2747NR, Intel Core Ultra 7 255U 1.70HZ (5.20GHZ), AI Boost 12 NPU TOPS, 16GB RAM, 512GB SSD, Tela 15.6",
         "title": "Notebook HP 15-FD2747NR, Intel Core Ultra 7 255U 1.70HZ (5.20GHZ), AI Boost 12 NPU TOPS, 16GB RAM, 512GB SSD, Tela 15.6",
         "category": "Notebooks",
@@ -18153,7 +18153,7 @@ const PRODUCTS =
     {
         "id": 9188,
         "ref": "396029",
-        "brand": "AMD",
+        "brand": "ACER",
         "title_orig": "Notebook Acer Nitro V 16 ANV16-61-R0YW, AMD Ryzen AI 7 350 2.00HZ (5.00GHZ), AMD NPU 50TOPS, 16GB RAM, 1TB SSD, Tela 16",
         "title": "Notebook Acer Nitro V 16 ANV16-61-R0YW, AMD Ryzen AI 7 350 2.00HZ (5.00GHZ), AMD NPU 50TOPS, 16GB RAM, 1TB SSD, Tela 16",
         "category": "Notebooks",
@@ -18195,7 +18195,7 @@ const PRODUCTS =
     {
         "id": 9190,
         "ref": "384463",
-        "brand": "INTEL",
+        "brand": "LENOVO",
         "title_orig": "Notebook Lenovo V14 G5 IRL (83HDA06FUS), Intel Core 7 240H 1.8GHZ (5.20GHZ), 8GB RAM, 512GB SSD, Tela 14",
         "title": "Notebook Lenovo V14 G5 IRL (83HDA06FUS), Intel Core 7 240H 1.8GHZ (5.20GHZ), 8GB RAM, 512GB SSD, Tela 14",
         "category": "Notebooks",
@@ -18216,7 +18216,7 @@ const PRODUCTS =
     {
         "id": 9191,
         "ref": "383115",
-        "brand": "INTEL",
+        "brand": "ACER",
         "title_orig": "Notebook Acer Aspire 14 AI A14-52MT-59DP, Intel Core Ultra 5 226V 2.10HZ (4.50GHZ), AI Boost, 16GB RAM, 1TB SSD, Tela 14",
         "title": "Notebook Acer Aspire 14 AI A14-52MT-59DP, Intel Core Ultra 5 226V 2.10HZ (4.50GHZ), AI Boost, 16GB RAM, 1TB SSD, Tela 14",
         "category": "Notebooks",
@@ -18237,7 +18237,7 @@ const PRODUCTS =
     {
         "id": 9192,
         "ref": "387332",
-        "brand": "INTEL",
+        "brand": "ACER",
         "title_orig": "Notebook Acer Aspire 16 AI A16-52MT-91B0, Intel Core Ultra 9 288V 3.30HZ (5.10GHZ), AI Boost 48 TOPS, 32GB RAM, 1TB SSD, Tela 16",
         "title": "Notebook Acer Aspire 16 AI A16-52MT-91B0, Intel Core Ultra 9 288V 3.30HZ (5.10GHZ), AI Boost 48 TOPS, 32GB RAM, 1TB SSD, Tela 16",
         "category": "Notebooks",
@@ -18280,7 +18280,7 @@ const PRODUCTS =
     {
         "id": 9194,
         "ref": "375149",
-        "brand": "INTEL",
+        "brand": "HP",
         "title_orig": "Notebook HP 15-FD0077NR, Intel Core I7-1355U 1.70HZ (5.00GHZ), 8GB RAM, 256GB SSD, Tela 15.6",
         "title": "Notebook HP 15-FD0077NR, Intel Core I7-1355U 1.70HZ (5.00GHZ), 8GB RAM, 256GB SSD, Tela 15.6",
         "category": "Notebooks",
@@ -18302,7 +18302,7 @@ const PRODUCTS =
     {
         "id": 9195,
         "ref": "388849",
-        "brand": "INTEL",
+        "brand": "DELL",
         "title_orig": "Notebook Dell 15 LDC15250-7427BLK-PUS, Intel Core I7-1355U 1.70HZ (5.00GHZ), 16GB RAM, 512GB SSD, Tela 15.6",
         "title": "Notebook Dell 15 LDC15250-7427BLK-PUS, Intel Core I7-1355U 1.70HZ (5.00GHZ), 16GB RAM, 512GB SSD, Tela 15.6",
         "category": "Notebooks",
@@ -18344,7 +18344,7 @@ const PRODUCTS =
     {
         "id": 9197,
         "ref": "380773",
-        "brand": "INTEL",
+        "brand": "DELL",
         "title_orig": "Notebook Dell 16 LDC16251-5506SLV-PUS, Intel Core 5 120U 1.40GHZ (5.00GHZ), 8GB RAM, 512GB SSD, Tela 16",
         "title": "Notebook Dell 16 LDC16251-5506SLV-PUS, Intel Core 5 120U 1.40GHZ (5.00GHZ), 8GB RAM, 512GB SSD, Tela 16",
         "category": "Notebooks",
@@ -18365,7 +18365,7 @@ const PRODUCTS =
     {
         "id": 9198,
         "ref": "387523",
-        "brand": "INTEL",
+        "brand": "ACER",
         "title_orig": "Notebook Acer Aspire Go 15 AG15-72P-97RC, Intel I9-13900H 2.60HZ (5.40GHZ), 16GB RAM, 512GB SSD, Tela 15.6",
         "title": "Notebook Acer Aspire Go 15 AG15-72P-97RC, Intel I9-13900H 2.60HZ (5.40GHZ), 16GB RAM, 512GB SSD, Tela 15.6",
         "category": "Notebooks",
@@ -18406,7 +18406,7 @@ const PRODUCTS =
     {
         "id": 9200,
         "ref": "388860",
-        "brand": "INTEL",
+        "brand": "LENOVO",
         "title_orig": "Notebook Lenovo IdeaPad Slim 3 15IRU8 (82X700KEUS), Intel Core I5-1335U 1.30GHZ (4.60GHZ), 16GB RAM, 256GB SSD, Tela 15.6",
         "title": "Notebook Lenovo IdeaPad Slim 3 15IRU8 (82X700KEUS), Intel Core I5-1335U 1.30GHZ (4.60GHZ), 16GB RAM, 256GB SSD, Tela 15.6",
         "category": "Notebooks",
@@ -18428,7 +18428,7 @@ const PRODUCTS =
     {
         "id": 9201,
         "ref": "384621",
-        "brand": "AMD",
+        "brand": "HP",
         "title_orig": "Notebook Hp 15-FC0276LA, AMD Ryzen 7 7730U 2.00HZ (4.50GHZ), 16GB RAM, 1TB SSD, Tela 15.6",
         "title": "Notebook Hp 15-FC0276LA, AMD Ryzen 7 7730U 2.00HZ (4.50GHZ), 16GB RAM, 1TB SSD, Tela 15.6",
         "category": "Notebooks",
@@ -18450,7 +18450,7 @@ const PRODUCTS =
     {
         "id": 9202,
         "ref": "388850",
-        "brand": "AMD",
+        "brand": "HP",
         "title_orig": "Notebook HP Omnibook 3 16-BY0205DX, AMD Ryzen 5 40 2.80HZ (4.30GHZ), 16GB RAM, 256GB SSD, Tela 16",
         "title": "Notebook HP Omnibook 3 16-BY0205DX, AMD Ryzen 5 40 2.80HZ (4.30GHZ), 16GB RAM, 256GB SSD, Tela 16",
         "category": "Notebooks",
@@ -18492,7 +18492,7 @@ const PRODUCTS =
     {
         "id": 9204,
         "ref": "389053",
-        "brand": "AMD",
+        "brand": "ACER",
         "title_orig": "Notebook Acer Aspire Lite 15 AL15-41P-R6Q5, AMD Ryzen 7 5700U 1.80GHZ (4.30GHZ), 16GB RAM, 512GB SSD, Tela 15.6",
         "title": "Notebook Acer Aspire Lite 15 AL15-41P-R6Q5, AMD Ryzen 7 5700U 1.80GHZ (4.30GHZ), 16GB RAM, 512GB SSD, Tela 15.6",
         "category": "Notebooks",
@@ -18514,7 +18514,7 @@ const PRODUCTS =
     {
         "id": 9205,
         "ref": "390774",
-        "brand": "INTEL",
+        "brand": "ACER",
         "title_orig": "Notebook Acer Nitro V 15 ANV15-52-778V, Intel Core I7-13620H 2.40GHZ (4.90GHZ), 16GB RAM, 512GB SSD, Tela 15.6",
         "title": "Notebook Acer Nitro V 15 ANV15-52-778V, Intel Core I7-13620H 2.40GHZ (4.90GHZ), 16GB RAM, 512GB SSD, Tela 15.6",
         "category": "Notebooks",
@@ -18557,7 +18557,7 @@ const PRODUCTS =
     {
         "id": 9207,
         "ref": "392429",
-        "brand": "AMD",
+        "brand": "ACER",
         "title_orig": "Notebook Acer Swift Go 16 SFG16-A71T-R87F, AMD Ryzen AI 9 Ryzen 465 3.30HZ (5.00GHZ), 32GB RAM, 1TB SSD, Tela 16",
         "title": "Notebook Acer Swift Go 16 SFG16-A71T-R87F, AMD Ryzen AI 9 Ryzen 465 3.30HZ (5.00GHZ), 32GB RAM, 1TB SSD, Tela 16",
         "category": "Notebooks",
@@ -18579,7 +18579,7 @@ const PRODUCTS =
     {
         "id": 9208,
         "ref": "395937",
-        "brand": "AMD",
+        "brand": "ACER",
         "title_orig": "Notebook Acer Aspire Go 15 AG15-21P-R5YG, AMD Ryzen 3 7320U 2.40HZ (4.10GHZ), 8GB RAM, 128GB SSD, Tela 15.6",
         "title": "Notebook Acer Aspire Go 15 AG15-21P-R5YG, AMD Ryzen 3 7320U 2.40HZ (4.10GHZ), 8GB RAM, 128GB SSD, Tela 15.6",
         "category": "Notebooks",
@@ -18643,7 +18643,7 @@ const PRODUCTS =
     {
         "id": 9211,
         "ref": "392700",
-        "brand": "AMD",
+        "brand": "LENOVO",
         "title_orig": "Notebook Lenovo IdeaPad Slim 3 15AMN8 (82XQ012GUS), AMD Ryzen 5 40 2.80HZ (4.30GHZ), 8GB RAM, 256GB SSD, Tela 15.6",
         "title": "Notebook Lenovo IdeaPad Slim 3 15AMN8 (82XQ012GUS), AMD Ryzen 5 40 2.80HZ (4.30GHZ), 8GB RAM, 256GB SSD, Tela 15.6",
         "category": "Notebooks",
@@ -18665,7 +18665,7 @@ const PRODUCTS =
     {
         "id": 9212,
         "ref": "387477",
-        "brand": "INTEL",
+        "brand": "HP",
         "title_orig": "Notebook Hp 15-FD0883NR, Intel Core I3-N305 1.80HZ (3.80GHZ), 8GB RAM, 256GB SSD, Tela 15.6",
         "title": "Notebook Hp 15-FD0883NR, Intel Core I3-N305 1.80HZ (3.80GHZ), 8GB RAM, 256GB SSD, Tela 15.6",
         "category": "Notebooks",
@@ -18686,7 +18686,7 @@ const PRODUCTS =
     {
         "id": 9213,
         "ref": "384610",
-        "brand": "AMD",
+        "brand": "HP",
         "title_orig": "Notebook Hp 15-FD0153LA, AMD Ryzen 5 7520U 2.80HZ (4.30GHZ), 16GB RAM, 1TB SSD, Tela 15.6",
         "title": "Notebook Hp 15-FD0153LA, AMD Ryzen 5 7520U 2.80HZ (4.30GHZ), 16GB RAM, 1TB SSD, Tela 15.6",
         "category": "Notebooks",
@@ -18728,7 +18728,7 @@ const PRODUCTS =
     {
         "id": 9215,
         "ref": "394420",
-        "brand": "INTEL",
+        "brand": "ACER",
         "title_orig": "Notebook Acer Nitro V 16 ANV16-72-933F, Intel Core 9 270H 2.7GHZ (5.80GHZ), 32GB RAM, 1TB SSD, Tela 16",
         "title": "Notebook Acer Nitro V 16 ANV16-72-933F, Intel Core 9 270H 2.7GHZ (5.80GHZ), 32GB RAM, 1TB SSD, Tela 16",
         "category": "Notebooks",
@@ -18749,7 +18749,7 @@ const PRODUCTS =
     {
         "id": 9216,
         "ref": "384643",
-        "brand": "INTEL",
+        "brand": "HP",
         "title_orig": "Notebook Hp 15-FD0250LA, Intel Core 5 120U 1.40GHZ (5.00GHZ), 8GB RAM, 512GB SSD, Tela 15.6",
         "title": "Notebook Hp 15-FD0250LA, Intel Core 5 120U 1.40GHZ (5.00GHZ), 8GB RAM, 512GB SSD, Tela 15.6",
         "category": "Notebooks",
@@ -18770,7 +18770,7 @@ const PRODUCTS =
     {
         "id": 9217,
         "ref": "382696",
-        "brand": "INTEL",
+        "brand": "LENOVO",
         "title_orig": "Notebook Lenovo IdeaPad Slim 3 15IAN8 (82XB00HVUS), Intel N100 3.40GHZ, 4GB RAM, 128GB UFS, Tela 15.6",
         "title": "Notebook Lenovo IdeaPad Slim 3 15IAN8 (82XB00HVUS), Intel N100 3.40GHZ, 4GB RAM, 128GB UFS, Tela 15.6",
         "category": "Notebooks",
@@ -18790,7 +18790,7 @@ const PRODUCTS =
     {
         "id": 9218,
         "ref": "390796",
-        "brand": "AMD",
+        "brand": "LENOVO",
         "title_orig": "Notebook Lenovo V15 G4 ABP (83CR003UUS), AMD Ryzen 7 7730U 2.00HZ (4.50GHZ), 16GB RAM, 1TB SSD, Tela 15.6",
         "title": "Notebook Lenovo V15 G4 ABP (83CR003UUS), AMD Ryzen 7 7730U 2.00HZ (4.50GHZ), 16GB RAM, 1TB SSD, Tela 15.6",
         "category": "Notebooks",
@@ -18834,7 +18834,7 @@ const PRODUCTS =
     {
         "id": 9220,
         "ref": "394295",
-        "brand": "INTEL",
+        "brand": "ACER",
         "title_orig": "Notebook Acer Aspire Go 16 AG16-71PT-5388, Intel Core 5 120U 1.40GHZ (5.00GHZ), 16GB RAM, 1TB SSD, Tela 16",
         "title": "Notebook Acer Aspire Go 16 AG16-71PT-5388, Intel Core 5 120U 1.40GHZ (5.00GHZ), 16GB RAM, 1TB SSD, Tela 16",
         "category": "Notebooks",
@@ -18855,7 +18855,7 @@ const PRODUCTS =
     {
         "id": 9221,
         "ref": "393990",
-        "brand": "AMD",
+        "brand": "LENOVO",
         "title_orig": "Notebook Lenovo IdeaPad Slim 3 15AMN8 (82XQ012HUS), AMD Ryzen 5 40 2.80HZ (4.30GHZ), 8GB RAM, 512GB SSD, Tela 15.6",
         "title": "Notebook Lenovo IdeaPad Slim 3 15AMN8 (82XQ012HUS), AMD Ryzen 5 40 2.80HZ (4.30GHZ), 8GB RAM, 512GB SSD, Tela 15.6",
         "category": "Notebooks",
@@ -18877,7 +18877,7 @@ const PRODUCTS =
     {
         "id": 9222,
         "ref": "390831",
-        "brand": "INTEL",
+        "brand": "HP",
         "title_orig": "Notebook Hp 15-FD2050WM, Intel Core Ultra 5 225U 1.50HZ (4.80GHZ), 8GB RAM, 512GB SSD, Tela 15.6",
         "title": "Notebook Hp 15-FD2050WM, Intel Core Ultra 5 225U 1.50HZ (4.80GHZ), 8GB RAM, 512GB SSD, Tela 15.6",
         "category": "Notebooks",
@@ -18919,7 +18919,7 @@ const PRODUCTS =
     {
         "id": 9224,
         "ref": "378859",
-        "brand": "INTEL",
+        "brand": "DELL",
         "title_orig": "Notebook Dell 16 LDC16251-7951SLV-Pus, Intel Core 7 150U 1.80HZ (5.40GHZ), 16GB RAM, 1TB SSD, Tela 16",
         "title": "Notebook Dell 16 LDC16251-7951SLV-Pus, Intel Core 7 150U 1.80HZ (5.40GHZ), 16GB RAM, 1TB SSD, Tela 16",
         "category": "Notebooks",
@@ -18940,7 +18940,7 @@ const PRODUCTS =
     {
         "id": 9225,
         "ref": "390820",
-        "brand": "AMD",
+        "brand": "LENOVO",
         "title_orig": "Notebook Lenovo IdeaPad Slim 3 15ARP10 (83K700TUUS), AMD Ryzen 7 170 3.20HZ (4.75GHZ), 16GB RAM, 512GB SSD, Tela 15.3",
         "title": "Notebook Lenovo IdeaPad Slim 3 15ARP10 (83K700TUUS), AMD Ryzen 7 170 3.20HZ (4.75GHZ), 16GB RAM, 512GB SSD, Tela 15.3",
         "category": "Notebooks",
@@ -18962,7 +18962,7 @@ const PRODUCTS =
     {
         "id": 9226,
         "ref": "394308",
-        "brand": "INTEL",
+        "brand": "LENOVO",
         "title_orig": "Notebook Lenovo IdeaPad Slim 3 15ITN9 (83L7002FUS), Intel N150 (3.60GHZ), 8GB RAM, 128GB UFS, Tela 15.6",
         "title": "Notebook Lenovo IdeaPad Slim 3 15ITN9 (83L7002FUS), Intel N150 (3.60GHZ), 8GB RAM, 128GB UFS, Tela 15.6",
         "category": "Notebooks",
@@ -19018,7 +19018,7 @@ const PRODUCTS =
     {
         "id": 9229,
         "ref": "165662",
-        "brand": "AMD",
+        "brand": "HP",
         "title_orig": "Notebook HP 15-EF2025NR, AMD Ryzen 7 5700U 1.80GHZ (4.30GHZ), 8GB RAM, 256GB SSD, Tela 15.6",
         "title": "Notebook HP 15-EF2025NR, AMD Ryzen 7 5700U 1.80GHZ (4.30GHZ), 8GB RAM, 256GB SSD, Tela 15.6",
         "category": "Notebooks",
@@ -19061,7 +19061,7 @@ const PRODUCTS =
     {
         "id": 9231,
         "ref": "392710",
-        "brand": "INTEL",
+        "brand": "LENOVO",
         "title_orig": "Notebook Lenovo IdeaPad Slim 3i (83L7002MUS), Intel N150 (3.60GHZ), 8GB RAM, 128GB UFS, Tela 15.6",
         "title": "Notebook Lenovo IdeaPad Slim 3i (83L7002MUS), Intel N150 (3.60GHZ), 8GB RAM, 128GB UFS, Tela 15.6",
         "category": "Notebooks",
@@ -19102,7 +19102,7 @@ const PRODUCTS =
     {
         "id": 9233,
         "ref": "390886",
-        "brand": "INTEL",
+        "brand": "HP",
         "title_orig": "Notebook HP 14-DQ6101DX, Intel N150 (3.60GHZ), 4GB RAM, 128GB UFS, Tela 14",
         "title": "Notebook HP 14-DQ6101DX, Intel N150 (3.60GHZ), 4GB RAM, 128GB UFS, Tela 14",
         "category": "Notebooks",
@@ -19140,7 +19140,7 @@ const PRODUCTS =
     {
         "id": 9235,
         "ref": "393586",
-        "brand": "INTEL",
+        "brand": "HP",
         "title_orig": "Notebook Hp 250R G10, Intel Core 5 120U 1.40GHZ (5.00GHZ), 16GB RAM, 512GB SSD, Tela 15.6",
         "title": "Notebook Hp 250R G10, Intel Core 5 120U 1.40GHZ (5.00GHZ), 16GB RAM, 512GB SSD, Tela 15.6",
         "category": "Notebooks",
@@ -19161,7 +19161,7 @@ const PRODUCTS =
     {
         "id": 9236,
         "ref": "392418",
-        "brand": "INTEL",
+        "brand": "HP",
         "title_orig": "Notebook HP 14-DQ6102DX, Intel N150 (3.60GHZ), 4GB RAM, 128GB UFS, Tela 14",
         "title": "Notebook HP 14-DQ6102DX, Intel N150 (3.60GHZ), 4GB RAM, 128GB UFS, Tela 14",
         "category": "Notebooks",
@@ -19255,7 +19255,7 @@ const PRODUCTS =
     {
         "id": 9241,
         "ref": "392282",
-        "brand": "INTEL",
+        "brand": "DELL",
         "title_orig": "Notebook Dell 16 LDC16250-7278BLK-PUS, Intel Core 7 150U 1.80HZ (5.40GHZ), 16GB RAM, 1TB SSD, Tela Touch 16",
         "title": "Notebook Dell 16 LDC16250-7278BLK-PUS, Intel Core 7 150U 1.80HZ (5.40GHZ), 16GB RAM, 1TB SSD, Tela Touch 16",
         "category": "Notebooks",
@@ -19316,7 +19316,7 @@ const PRODUCTS =
     {
         "id": 9244,
         "ref": "318831",
-        "brand": "VGA",
+        "brand": "PALIT",
         "title_orig": "VGA RTX5060TI 16GB PALIT INFINITY 3 NE7506T019T1 NE7506T019T1-GB 2061S/GDDR7",
         "title": "VGA RTX5060TI 16GB PALIT INFINITY 3 NE7506T019T1 NE7506T019T1-GB 2061S/GDDR7",
         "category": "Tarjetas de Video",
@@ -19356,7 +19356,7 @@ const PRODUCTS =
     {
         "id": 9246,
         "ref": "310015",
-        "brand": "VGA",
+        "brand": "BIOSTAR",
         "title_orig": "VGA RX6600 8GB BIOSTAR RADEON GAMING GDDR6/3DP/HDM VA6606RM81-TBMR H-BS2",
         "title": "VGA RX6600 8GB BIOSTAR RADEON GAMING GDDR6/3DP/HDM VA6606RM81-TBMR H-BS2",
         "category": "Tarjetas de Video",
@@ -19527,7 +19527,7 @@ const PRODUCTS =
     {
         "id": 9255,
         "ref": "357138",
-        "brand": "VGA",
+        "brand": "ZOTAC",
         "title_orig": "VGA RTX5060TI 16GB ZOTAC TWIN EDGE OC ZT-B50620H-10M 288-1N772-300Z6",
         "title": "VGA RTX5060TI 16GB ZOTAC TWIN EDGE OC ZT-B50620H-10M 288-1N772-300Z6",
         "category": "Tarjetas de Video",
@@ -19545,7 +19545,7 @@ const PRODUCTS =
     {
         "id": 9256,
         "ref": "307278",
-        "brand": "PLACA",
+        "brand": "STAR",
         "title_orig": "Placa de Video Star 2GB Nvidia GeForce GT740 GDDR5 128Bits 1059Mhz HDMI, DVI, VGA(D-Sub)",
         "title": "Placa de Video Star 2GB Nvidia GeForce GT740 GDDR5 128Bits 1059Mhz HDMI, DVI, VGA(D-Sub)",
         "category": "Tarjetas de Video",
@@ -19689,7 +19689,7 @@ const PRODUCTS =
     {
         "id": 9264,
         "ref": "334054",
-        "brand": "VGA",
+        "brand": "KEEPDATA",
         "title_orig": "VGA GTX960 4GB KEEPDATA KDGTX960-4GD5/128B",
         "title": "VGA GTX960 4GB KEEPDATA KDGTX960-4GD5/128B",
         "category": "Tarjetas de Video",
@@ -19727,7 +19727,7 @@ const PRODUCTS =
     {
         "id": 9266,
         "ref": "370627",
-        "brand": "PLACA",
+        "brand": "ZOTAC",
         "title_orig": "Placa de Vdeo ZOTAC GeForce RTX5070TI SOLID OC, 16GB GDDR7, 256Bits, 1x HDMI 3x DisplayPort, G 288-2N765-600Z6 ZT-B50710Q2-10P, Blanco",
         "title": "Placa de Vdeo ZOTAC GeForce RTX5070TI SOLID OC, 16GB GDDR7, 256Bits, 1x HDMI 3x DisplayPort, G 288-2N765-600Z6 ZT-B50710Q2-10P, Blanco",
         "category": "Tarjetas de Video",
@@ -19747,7 +19747,7 @@ const PRODUCTS =
     {
         "id": 9267,
         "ref": "334278",
-        "brand": "VGA",
+        "brand": "GALAX",
         "title_orig": "VGA RTX5060TI 8GB GALAX 1-CLICK OC CLASSIC GDDR7 56ISN8MDABCC",
         "title": "VGA RTX5060TI 8GB GALAX 1-CLICK OC CLASSIC GDDR7 56ISN8MDABCC",
         "category": "Tarjetas de Video",
@@ -19765,7 +19765,7 @@ const PRODUCTS =
     {
         "id": 9268,
         "ref": "381539",
-        "brand": "VGA",
+        "brand": "XFX",
         "title_orig": "VGA RX9060XT 16GB XFX SWIFT OC GAMING EDITION 3FAN RX-96TS316B7 RX-96TS31",
         "title": "VGA RX9060XT 16GB XFX SWIFT OC GAMING EDITION 3FAN RX-96TS316B7 RX-96TS31",
         "category": "Tarjetas de Video",
@@ -19783,7 +19783,7 @@ const PRODUCTS =
     {
         "id": 9269,
         "ref": "368410",
-        "brand": "VGA",
+        "brand": "BIOSTAR",
         "title_orig": "VGA RTX3050 6GB BIOSTAR EXTREME VN3516RF68-AN1RA VN3516RF68-AN1R A-BS2 GDDR6",
         "title": "VGA RTX3050 6GB BIOSTAR EXTREME VN3516RF68-AN1RA VN3516RF68-AN1R A-BS2 GDDR6",
         "category": "Tarjetas de Video",
@@ -19801,7 +19801,7 @@ const PRODUCTS =
     {
         "id": 9270,
         "ref": "345348",
-        "brand": "VGA",
+        "brand": "ASROCK",
         "title_orig": "VGA RX9060XT 16GB ASROCK CHALLENGER OC 2FANS 90-GA5QZZ-00UAN Z 2FANS",
         "title": "VGA RX9060XT 16GB ASROCK CHALLENGER OC 2FANS 90-GA5QZZ-00UAN Z 2FANS",
         "category": "Tarjetas de Video",
@@ -19819,7 +19819,7 @@ const PRODUCTS =
     {
         "id": 9271,
         "ref": "345337",
-        "brand": "VGA",
+        "brand": "ASROCK",
         "title_orig": "VGA RX9070XT 16GB ASROCK CHALLENGER 2970MHZ/3FANS 90-GA61ZZ-00UAN Z",
         "title": "VGA RX9070XT 16GB ASROCK CHALLENGER 2970MHZ/3FANS 90-GA61ZZ-00UAN Z",
         "category": "Tarjetas de Video",
@@ -19875,7 +19875,7 @@ const PRODUCTS =
     {
         "id": 9274,
         "ref": "368465",
-        "brand": "PLACA",
+        "brand": "ZOTAC",
         "title_orig": "Placa de Vdeo Zotac GeForce RTX5080 SOLID CORE OC, 16GB GDDR7, 256Bits, 1x HDMI 3x DisplayPort, ZT-B50800J2-10P 288-1N765-300Z6",
         "title": "Placa de Vdeo Zotac GeForce RTX5080 SOLID CORE OC, 16GB GDDR7, 256Bits, 1x HDMI 3x DisplayPort, ZT-B50800J2-10P 288-1N765-300Z6",
         "category": "Tarjetas de Video",
@@ -19911,7 +19911,7 @@ const PRODUCTS =
     {
         "id": 9276,
         "ref": "324839",
-        "brand": "VGA",
+        "brand": "BIOSTAR",
         "title_orig": "VGA GT710 4GB BIOSTAR GEFORCE DDR3 VN7103TH46 VN7103TH46-TN1R L-BS2",
         "title": "VGA GT710 4GB BIOSTAR GEFORCE DDR3 VN7103TH46 VN7103TH46-TN1R L-BS2",
         "category": "Tarjetas de Video",
@@ -19947,7 +19947,7 @@ const PRODUCTS =
     {
         "id": 9278,
         "ref": "381673",
-        "brand": "VGA",
+        "brand": "XFX",
         "title_orig": "VGA RX9060XT 16GB XFX SWIFT OC GAMING EDI WHITE RX-96TS316W7 RX-96TS31 3FAN",
         "title": "VGA RX9060XT 16GB XFX SWIFT OC GAMING EDI WHITE RX-96TS316W7 RX-96TS31 3FAN",
         "category": "Tarjetas de Video",
@@ -19983,7 +19983,7 @@ const PRODUCTS =
     {
         "id": 9280,
         "ref": "368443",
-        "brand": "VGA",
+        "brand": "ZOTAC",
         "title_orig": "VGA RTX5070 12GB ZOTAC GAMING SOLID OC EDITION 288-1N764-301Z6 ZT-B50700J-10P",
         "title": "VGA RTX5070 12GB ZOTAC GAMING SOLID OC EDITION 288-1N764-301Z6 ZT-B50700J-10P",
         "category": "Tarjetas de Video",
@@ -20021,7 +20021,7 @@ const PRODUCTS =
     {
         "id": 9282,
         "ref": "370649",
-        "brand": "PLACA",
+        "brand": "ZOTAC",
         "title_orig": "Placa de Vdeo ZOTAC GeForce RTX5070TI SOLID SFF OC, 16GB GDDR7, 256Bits, 1x HDMI 3x DisplayPort, GDDR ZT-B50710J3-10P 288-2N765-500Z6",
         "title": "Placa de Vdeo ZOTAC GeForce RTX5070TI SOLID SFF OC, 16GB GDDR7, 256Bits, 1x HDMI 3x DisplayPort, GDDR ZT-B50710J3-10P 288-2N765-500Z6",
         "category": "Tarjetas de Video",
@@ -20039,7 +20039,7 @@ const PRODUCTS =
     {
         "id": 9283,
         "ref": "375037",
-        "brand": "PLACA",
+        "brand": "PALIT",
         "title_orig": "Placa de Vdeo PALIT GeForce RTX5060 OC, 8GB GDDR7, 128Bits, 1x HDMI 3x DisplayPort, NE75060U19P1-GB2063M, Blanco",
         "title": "Placa de Vdeo PALIT GeForce RTX5060 OC, 8GB GDDR7, 128Bits, 1x HDMI 3x DisplayPort, NE75060U19P1-GB2063M, Blanco",
         "category": "Tarjetas de Video",
@@ -20059,7 +20059,7 @@ const PRODUCTS =
     {
         "id": 9284,
         "ref": "368400",
-        "brand": "VGA",
+        "brand": "BIOSTAR",
         "title_orig": "VGA RX560 4GB BIOSTAR GAMING VA5615RF41-XBARA-BS2 GDDR6 HDMI/VGA",
         "title": "VGA RX560 4GB BIOSTAR GAMING VA5615RF41-XBARA-BS2 GDDR6 HDMI/VGA",
         "category": "Tarjetas de Video",
@@ -20077,7 +20077,7 @@ const PRODUCTS =
     {
         "id": 9285,
         "ref": "381853",
-        "brand": "VGA",
+        "brand": "XFX",
         "title_orig": "VGA RX9060XT 16GB XFX MERCURY GDDR6 128BIT BLACK RX-96TMERCB9",
         "title": "VGA RX9060XT 16GB XFX MERCURY GDDR6 128BIT BLACK RX-96TMERCB9",
         "category": "Tarjetas de Video",
@@ -20116,7 +20116,7 @@ const PRODUCTS =
     {
         "id": 9287,
         "ref": "375060",
-        "brand": "VGA",
+        "brand": "PALIT",
         "title_orig": "VGA RTX5070 12GB PALIT INFINITY 3 NE75070019K9 NE75070019K9-GB 2050S",
         "title": "VGA RTX5070 12GB PALIT INFINITY 3 NE75070019K9 NE75070019K9-GB 2050S",
         "category": "Tarjetas de Video",
@@ -20152,7 +20152,7 @@ const PRODUCTS =
     {
         "id": 9289,
         "ref": "375015",
-        "brand": "PLACA",
+        "brand": "PALIT",
         "title_orig": "Placa de Vdeo PALIT GeForce RTX5060 INFINITY 2 OC, 8GB GDDR7, 128Bits, 1x HDMI 3x DisplayPort, NE75060V19P1-GB 2063L",
         "title": "Placa de Vdeo PALIT GeForce RTX5060 INFINITY 2 OC, 8GB GDDR7, 128Bits, 1x HDMI 3x DisplayPort, NE75060V19P1-GB 2063L",
         "category": "Tarjetas de Video",
@@ -20170,7 +20170,7 @@ const PRODUCTS =
     {
         "id": 9290,
         "ref": "368397",
-        "brand": "VGA",
+        "brand": "BIOSTAR",
         "title_orig": "VGA GT730 4GB BIOSTAR VN7313TH41-TBAR2-BS2 GDDR3 DVI/VGA/HDMI GEFORCE",
         "title": "VGA GT730 4GB BIOSTAR VN7313TH41-TBAR2-BS2 GDDR3 DVI/VGA/HDMI GEFORCE",
         "category": "Tarjetas de Video",
@@ -20206,7 +20206,7 @@ const PRODUCTS =
     {
         "id": 9292,
         "ref": "375059",
-        "brand": "PLACA",
+        "brand": "PALIT",
         "title_orig": "Placa de Vdeo PALIT GeForce RTX5070 INFINITY 3 OC, 12GB GDDR7, 192Bits, 1x HDMI 3x DisplayPort, NE75070S19K9 NE75070S19K9-GB 2050S, Negro",
         "title": "Placa de Vdeo PALIT GeForce RTX5070 INFINITY 3 OC, 12GB GDDR7, 192Bits, 1x HDMI 3x DisplayPort, NE75070S19K9 NE75070S19K9-GB 2050S, Negro",
         "category": "Tarjetas de Video",
@@ -20226,7 +20226,7 @@ const PRODUCTS =
     {
         "id": 9293,
         "ref": "379276",
-        "brand": "VGA",
+        "brand": "STAR",
         "title_orig": "VGA HD7670 4GB STAR DDR5 128BITS HDMI/VGA/DVI",
         "title": "VGA HD7670 4GB STAR DDR5 128BITS HDMI/VGA/DVI",
         "category": "Tarjetas de Video",
@@ -20264,7 +20264,7 @@ const PRODUCTS =
     {
         "id": 9295,
         "ref": "380640",
-        "brand": "VGA",
+        "brand": "BIOSTAR",
         "title_orig": "VGA GTX1050 4GB BIOSTAR EXTREME GAMING VN1055XF41 VN1055XF41-TN2R A-BS2",
         "title": "VGA GTX1050 4GB BIOSTAR EXTREME GAMING VN1055XF41 VN1055XF41-TN2R A-BS2",
         "category": "Tarjetas de Video",
@@ -20282,7 +20282,7 @@ const PRODUCTS =
     {
         "id": 9296,
         "ref": "380672",
-        "brand": "VGA",
+        "brand": "BIOSTAR",
         "title_orig": "VGA RTX3070 8GB BIOSTAR EXTREME GAMING VN3716RM82 VN3716RM82-TN1R A-BS2",
         "title": "VGA RTX3070 8GB BIOSTAR EXTREME GAMING VN3716RM82 VN3716RM82-TN1R A-BS2",
         "category": "Tarjetas de Video",
@@ -20300,7 +20300,7 @@ const PRODUCTS =
     {
         "id": 9297,
         "ref": "382170",
-        "brand": "VGA",
+        "brand": "XFX",
         "title_orig": "VGA RX9060XT 16GB XFX SWIFT DUAL OC RX-96TSW16BQ RX-96TSW16BQ",
         "title": "VGA RX9060XT 16GB XFX SWIFT DUAL OC RX-96TSW16BQ RX-96TSW16BQ",
         "category": "Tarjetas de Video",
@@ -20318,7 +20318,7 @@ const PRODUCTS =
     {
         "id": 9298,
         "ref": "380650",
-        "brand": "VGA",
+        "brand": "BIOSTAR",
         "title_orig": "VGA GTX1050TI 4GB BIOSTAR EXTREME GAMING VN1055TF4 VN1055TF41-AN1R A-BS2",
         "title": "VGA GTX1050TI 4GB BIOSTAR EXTREME GAMING VN1055TF4 VN1055TF41-AN1R A-BS2",
         "category": "Tarjetas de Video",
@@ -20336,7 +20336,7 @@ const PRODUCTS =
     {
         "id": 9299,
         "ref": "375070",
-        "brand": "VGA",
+        "brand": "PALIT",
         "title_orig": "VGA RTX5060TI 8GB PALIT OC WHITE NE7506TU19P1 NE7506TU19P1-GB 2062M",
         "title": "VGA RTX5060TI 8GB PALIT OC WHITE NE7506TU19P1 NE7506TU19P1-GB 2062M",
         "category": "Tarjetas de Video",
@@ -20354,7 +20354,7 @@ const PRODUCTS =
     {
         "id": 9300,
         "ref": "368386",
-        "brand": "VGA",
+        "brand": "BIOSTAR",
         "title_orig": "VGA G210 1GB BIOSTAR VN2103NHG6-TB1RL-BS2 DDR3 DVI/VGA GEFORCE",
         "title": "VGA G210 1GB BIOSTAR VN2103NHG6-TB1RL-BS2 DDR3 DVI/VGA GEFORCE",
         "category": "Tarjetas de Video",
@@ -20390,7 +20390,7 @@ const PRODUCTS =
     {
         "id": 9302,
         "ref": "375048",
-        "brand": "VGA",
+        "brand": "ZOTAC",
         "title_orig": "VGA RTX5060TI 8GB ZOTAC TWIN EDGE OC ZT-B50610H-10 288-1N777-300Z6 ZT-B50610H-10A",
         "title": "VGA RTX5060TI 8GB ZOTAC TWIN EDGE OC ZT-B50610H-10 288-1N777-300Z6 ZT-B50610H-10A",
         "category": "Tarjetas de Video",
@@ -20429,7 +20429,7 @@ const PRODUCTS =
     {
         "id": 9304,
         "ref": "383675",
-        "brand": "PLACA",
+        "brand": "PALIT",
         "title_orig": "Placa de Vdeo Palit Nvidia GeForce RTX5060TI 8GB GDDR7 DUAL OC, NE7506TT19P1-GB 2062D",
         "title": "Placa de Vdeo Palit Nvidia GeForce RTX5060TI 8GB GDDR7 DUAL OC, NE7506TT19P1-GB 2062D",
         "category": "Tarjetas de Video",
@@ -20561,7 +20561,7 @@ const PRODUCTS =
     {
         "id": 9311,
         "ref": "86070",
-        "brand": "MEMRIA",
+        "brand": "KEEPDATA",
         "title_orig": "Memria para Notebook Keepdata, DDR4 4GB (1x4GB), 2666MHz, SO-DIMM, KD26S19/4G, Negro",
         "title": "Memria para Notebook Keepdata, DDR4 4GB (1x4GB), 2666MHz, SO-DIMM, KD26S19/4G, Negro",
         "category": "Memorias RAM",
@@ -20625,7 +20625,7 @@ const PRODUCTS =
     {
         "id": 9314,
         "ref": "83964",
-        "brand": "MEMRIA",
+        "brand": "KEEPDATA",
         "title_orig": "Memria para Notebook Keepdata, DDR4 16GB (1x16GB), 2666MHz, SO-DIMM, KD26S19/16G, Verde",
         "title": "Memria para Notebook Keepdata, DDR4 16GB (1x16GB), 2666MHz, SO-DIMM, KD26S19/16G, Verde",
         "category": "Memorias RAM",
@@ -20645,7 +20645,7 @@ const PRODUCTS =
     {
         "id": 9315,
         "ref": "63233",
-        "brand": "MEMRIA",
+        "brand": "KEEPDATA",
         "title_orig": "Memria Keepdata, DDR4 4GB (1x4GB), 2666MHz, KD26N19/4G, Verde",
         "title": "Memria Keepdata, DDR4 4GB (1x4GB), 2666MHz, KD26N19/4G, Verde",
         "category": "Memorias RAM",
@@ -20665,7 +20665,7 @@ const PRODUCTS =
     {
         "id": 9316,
         "ref": "58944",
-        "brand": "MEMRIA",
+        "brand": "KEEPDATA",
         "title_orig": "Memria para Notebook Keepdata, DDR3 8GB (1x8GB), 1333MHz, SO-DIMM, KD13S9/8G, Verde",
         "title": "Memria para Notebook Keepdata, DDR3 8GB (1x8GB), 1333MHz, SO-DIMM, KD13S9/8G, Verde",
         "category": "Memorias RAM",
@@ -20683,7 +20683,7 @@ const PRODUCTS =
     {
         "id": 9317,
         "ref": "322769",
-        "brand": "MEMRIA",
+        "brand": "KINGSTON",
         "title_orig": "Memria Kingston Fury Beast RGB, DDR5 16GB (1x16GB), 6400MHz, KF564C32BBEA-16, Negro",
         "title": "Memria Kingston Fury Beast RGB, DDR5 16GB (1x16GB), 6400MHz, KF564C32BBEA-16, Negro",
         "category": "Memorias RAM",
@@ -20705,7 +20705,7 @@ const PRODUCTS =
     {
         "id": 9318,
         "ref": "61881",
-        "brand": "MEMRIA",
+        "brand": "KEEPDATA",
         "title_orig": "Memria Keepdata, DDR4 16GB (1x16GB), 2400MHz, KD24N17/16G, Verde",
         "title": "Memria Keepdata, DDR4 16GB (1x16GB), 2400MHz, KD24N17/16G, Verde",
         "category": "Memorias RAM",
@@ -20725,7 +20725,7 @@ const PRODUCTS =
     {
         "id": 9319,
         "ref": "64267",
-        "brand": "MEMRIA",
+        "brand": "KEEPDATA",
         "title_orig": "Memria para Notebook Keepdata, DDR4 4GB (1x4GB), 2400MHz, SO-DIMM, KD24S17/4G, Verde",
         "title": "Memria para Notebook Keepdata, DDR4 4GB (1x4GB), 2400MHz, SO-DIMM, KD24S17/4G, Verde",
         "category": "Memorias RAM",
@@ -20745,7 +20745,7 @@ const PRODUCTS =
     {
         "id": 9320,
         "ref": "66629",
-        "brand": "MEMRIA",
+        "brand": "KEEPDATA",
         "title_orig": "Memria para Notebook Keepdata, DDR4 16GB (1x16GB), 2400MHz, SO-DIMM, KD24S17/16G, Verde",
         "title": "Memria para Notebook Keepdata, DDR4 16GB (1x16GB), 2400MHz, SO-DIMM, KD24S17/16G, Verde",
         "category": "Memorias RAM",
@@ -20765,7 +20765,7 @@ const PRODUCTS =
     {
         "id": 9321,
         "ref": "308808",
-        "brand": "MEM",
+        "brand": "KINGSTON",
         "title_orig": "MEM DDR5 32GB 6400 KINGSTON FURY BEAST BLACK KF564C32BBE-32 KF564C32BBE/32",
         "title": "MEM DDR5 32GB 6400 KINGSTON FURY BEAST BLACK KF564C32BBE-32 KF564C32BBE/32",
         "category": "Memorias RAM",
@@ -20865,7 +20865,7 @@ const PRODUCTS =
     {
         "id": 9326,
         "ref": "265999",
-        "brand": "MEMRIA",
+        "brand": "KEEPDATA",
         "title_orig": "Memria Keepdata, DDR5 32GB (1x32GB), 4800MHz, KD48N40/32G, Verde",
         "title": "Memria Keepdata, DDR5 32GB (1x32GB), 4800MHz, KD48N40/32G, Verde",
         "category": "Memorias RAM",
@@ -20906,7 +20906,7 @@ const PRODUCTS =
     {
         "id": 9328,
         "ref": "66618",
-        "brand": "MEMRIA",
+        "brand": "KEEPDATA",
         "title_orig": "Memria Keepdata, DDR4 16GB (1x16GB), 2666MHz, KD26N19/16G, Verde",
         "title": "Memria Keepdata, DDR4 16GB (1x16GB), 2666MHz, KD26N19/16G, Verde",
         "category": "Memorias RAM",
@@ -20946,7 +20946,7 @@ const PRODUCTS =
     {
         "id": 9330,
         "ref": "182784",
-        "brand": "MEM",
+        "brand": "KINGSTON",
         "title_orig": "MEM DDR5 32GB 5200 KINGSTON FURY BEAST RGB BLACK KF552C40BBA-32",
         "title": "MEM DDR5 32GB 5200 KINGSTON FURY BEAST RGB BLACK KF552C40BBA-32",
         "category": "Memorias RAM",
@@ -21028,7 +21028,7 @@ const PRODUCTS =
     {
         "id": 9334,
         "ref": "85753",
-        "brand": "MEMRIA",
+        "brand": "KEEPDATA",
         "title_orig": "Memria para Notebook Keepdata, DDR2 2GB (1x2GB), 800MHz, SO-DIMM, KD800S6/2G, Verde",
         "title": "Memria para Notebook Keepdata, DDR2 2GB (1x2GB), 800MHz, SO-DIMM, KD800S6/2G, Verde",
         "category": "Memorias RAM",
@@ -21046,7 +21046,7 @@ const PRODUCTS =
     {
         "id": 9335,
         "ref": "196374",
-        "brand": "MEM",
+        "brand": "KINGSTON",
         "title_orig": "MEM NB DDR5 8GB 4800 KINGSTON FURY IMPACT",
         "title": "MEM NB DDR5 8GB 4800 KINGSTON FURY IMPACT",
         "category": "Memorias RAM",
@@ -21107,7 +21107,7 @@ const PRODUCTS =
     {
         "id": 9338,
         "ref": "297870",
-        "brand": "MEM",
+        "brand": "KINGSTON",
         "title_orig": "MEM DDR5 32GB 6400 KINGSTON FURY BEAST RGB BLACK KF564C32BBEA-32",
         "title": "MEM DDR5 32GB 6400 KINGSTON FURY BEAST RGB BLACK KF564C32BBEA-32",
         "category": "Memorias RAM",
@@ -21128,7 +21128,7 @@ const PRODUCTS =
     {
         "id": 9339,
         "ref": "266003",
-        "brand": "MEMRIA",
+        "brand": "KEEPDATA",
         "title_orig": "Memria para Notebook Keepdata, DDR5 8GB (1x8GB), 4800MHz, SO-DIMM, KD48S40/8G, Verde",
         "title": "Memria para Notebook Keepdata, DDR5 8GB (1x8GB), 4800MHz, SO-DIMM, KD48S40/8G, Verde",
         "category": "Memorias RAM",
@@ -21250,7 +21250,7 @@ const PRODUCTS =
     {
         "id": 9345,
         "ref": "175327",
-        "brand": "MEMRIA",
+        "brand": "KEEPDATA",
         "title_orig": "Memria para Notebook Keepdata, DDR4 32GB (1x32GB), 3200MHz, SO-DIMM, KD32S22/32G, Verde",
         "title": "Memria para Notebook Keepdata, DDR4 32GB (1x32GB), 3200MHz, SO-DIMM, KD32S22/32G, Verde",
         "category": "Memorias RAM",
@@ -21291,7 +21291,7 @@ const PRODUCTS =
     {
         "id": 9347,
         "ref": "281268",
-        "brand": "MEM",
+        "brand": "KINGSTON",
         "title_orig": "MEM DDR4 32GB 3200 KINGSTON KVR32N22D8/32",
         "title": "MEM DDR4 32GB 3200 KINGSTON KVR32N22D8/32",
         "category": "Memorias RAM",
@@ -21371,7 +21371,7 @@ const PRODUCTS =
     {
         "id": 9351,
         "ref": "266025",
-        "brand": "MEMRIA",
+        "brand": "KEEPDATA",
         "title_orig": "Memria para Notebook Keepdata, DDR5 32GB (1x32GB), 4800MHz, SO-DIMM, KD48S40/32G, Verde",
         "title": "Memria para Notebook Keepdata, DDR5 32GB (1x32GB), 4800MHz, SO-DIMM, KD48S40/32G, Verde",
         "category": "Memorias RAM",
@@ -21432,7 +21432,7 @@ const PRODUCTS =
     {
         "id": 9354,
         "ref": "290549",
-        "brand": "MEM",
+        "brand": "KINGSTON",
         "title_orig": "MEM NB DDR5 16GB 5600 KINGSTON KVR56S46BS8-16",
         "title": "MEM NB DDR5 16GB 5600 KINGSTON KVR56S46BS8-16",
         "category": "Memorias RAM",
@@ -21452,7 +21452,7 @@ const PRODUCTS =
     {
         "id": 9355,
         "ref": "27198",
-        "brand": "MEM",
+        "brand": "PATRIOT",
         "title_orig": "MEM DDR4 16GB 3200 PATRIOT VIPER STEEL PVS416G320C6 Gris",
         "title": "MEM DDR4 16GB 3200 PATRIOT VIPER STEEL PVS416G320C6 Gris",
         "category": "Memorias RAM",
@@ -21473,7 +21473,7 @@ const PRODUCTS =
     {
         "id": 9356,
         "ref": "368645",
-        "brand": "MEMRIA",
+        "brand": "BIOSTAR",
         "title_orig": "Memria Biostar, DDR4 8GB (1x8GB), 3200MHz, DO32NU4N08-GH12V-BS2, Negro",
         "title": "Memria Biostar, DDR4 8GB (1x8GB), 3200MHz, DO32NU4N08-GH12V-BS2, Negro",
         "category": "Memorias RAM",
@@ -21515,7 +21515,7 @@ const PRODUCTS =
     {
         "id": 9358,
         "ref": "297860",
-        "brand": "MEM",
+        "brand": "KINGSTON",
         "title_orig": "MEM NB DDR5 16GB 6000 KINGSTON FURY IMPACT BLACK KF560S38IB-16",
         "title": "MEM NB DDR5 16GB 6000 KINGSTON FURY IMPACT BLACK KF560S38IB-16",
         "category": "Memorias RAM",
@@ -21575,7 +21575,7 @@ const PRODUCTS =
     {
         "id": 9361,
         "ref": "300014",
-        "brand": "MEMRIA",
+        "brand": "KEEPDATA",
         "title_orig": "Memria para Notebook Keepdata, DDR5 8GB (1x8GB), 5600MHz, SO-DIMM, KD56S46/8G, Verde",
         "title": "Memria para Notebook Keepdata, DDR5 8GB (1x8GB), 5600MHz, SO-DIMM, KD56S46/8G, Verde",
         "category": "Memorias RAM",
@@ -21595,7 +21595,7 @@ const PRODUCTS =
     {
         "id": 9362,
         "ref": "98713",
-        "brand": "MEM",
+        "brand": "KINGSTON",
         "title_orig": "MEM NB DDR4 8GB 3200 KINGSTON KVR32S22S8/8",
         "title": "MEM NB DDR4 8GB 3200 KINGSTON KVR32S22S8/8",
         "category": "Memorias RAM",
@@ -21615,7 +21615,7 @@ const PRODUCTS =
     {
         "id": 9363,
         "ref": "300025",
-        "brand": "MEMRIA",
+        "brand": "KEEPDATA",
         "title_orig": "Memria para Notebook Keepdata, DDR5 16GB (1x16GB), 5600MHz, SO-DIMM, KD56S46/16G, Negro",
         "title": "Memria para Notebook Keepdata, DDR5 16GB (1x16GB), 5600MHz, SO-DIMM, KD56S46/16G, Negro",
         "category": "Memorias RAM",
@@ -21636,7 +21636,7 @@ const PRODUCTS =
     {
         "id": 9364,
         "ref": "319136",
-        "brand": "MEMRIA",
+        "brand": "APPLE",
         "title_orig": "Memria G.SKILL Aegis, DDR4 8GB (1x8GB), 3200MHz, s/Dissipador, F4-3200C16S-8GIS, Negro",
         "title": "Memria G.SKILL Aegis, DDR4 8GB (1x8GB), 3200MHz, s/Dissipador, F4-3200C16S-8GIS, Negro",
         "category": "Memorias RAM",
@@ -21657,7 +21657,7 @@ const PRODUCTS =
     {
         "id": 9365,
         "ref": "322905",
-        "brand": "MEM",
+        "brand": "KINGSTON",
         "title_orig": "MEM NB DDR5 16GB 6400 KINGSTON FURY IMPACT BLACK KF564S38IB-16",
         "title": "MEM NB DDR5 16GB 6400 KINGSTON FURY IMPACT BLACK KF564S38IB-16",
         "category": "Memorias RAM",
@@ -21677,7 +21677,7 @@ const PRODUCTS =
     {
         "id": 9366,
         "ref": "62625",
-        "brand": "MEMRIA",
+        "brand": "KINGSTON",
         "title_orig": "Memria Kingston, DDR4 16GB (1x16GB), 3200MHz, KVR32N22D8/16, Verde",
         "title": "Memria Kingston, DDR4 16GB (1x16GB), 3200MHz, KVR32N22D8/16, Verde",
         "category": "Memorias RAM",
@@ -21718,7 +21718,7 @@ const PRODUCTS =
     {
         "id": 9368,
         "ref": "166382",
-        "brand": "CORSAIR",
+        "brand": "APPLE",
         "title_orig": "Memria Corsair Vengeance LPX, DDR4 8GB, 3200MHz, c/Dissipador, CMK8GX4M1Z3200C16, Negro",
         "title": "Memria Corsair Vengeance LPX, DDR4 8GB, 3200MHz, c/Dissipador, CMK8GX4M1Z3200C16, Negro",
         "category": "Memorias RAM",
@@ -21739,7 +21739,7 @@ const PRODUCTS =
     {
         "id": 9369,
         "ref": "319417",
-        "brand": "MEMRIA",
+        "brand": "APPLE",
         "title_orig": "Memria G.SKILL Aegis, DDR4 16GB (1x16GB), 3200MHz, s/Dissipador, F4-3200C16S-16GIS, Negro",
         "title": "Memria G.SKILL Aegis, DDR4 16GB (1x16GB), 3200MHz, s/Dissipador, F4-3200C16S-16GIS, Negro",
         "category": "Memorias RAM",
@@ -21760,7 +21760,7 @@ const PRODUCTS =
     {
         "id": 9370,
         "ref": "179241",
-        "brand": "MEM",
+        "brand": "PATRIOT",
         "title_orig": "MEM DDR4 16GB 3200 PATRIOT VIPER PVE2416G320C8 RED",
         "title": "MEM DDR4 16GB 3200 PATRIOT VIPER PVE2416G320C8 RED",
         "category": "Memorias RAM",
@@ -21780,7 +21780,7 @@ const PRODUCTS =
     {
         "id": 9371,
         "ref": "164841",
-        "brand": "MEMRIA",
+        "brand": "KINGSTON",
         "title_orig": "Memria para Notebook Kingston, DDR4 32GB (1x32GB), 3200MHz, SO-DIMM, KVR32S22D8/32, Verde",
         "title": "Memria para Notebook Kingston, DDR4 32GB (1x32GB), 3200MHz, SO-DIMM, KVR32S22D8/32, Verde",
         "category": "Memorias RAM",
@@ -21965,7 +21965,7 @@ const PRODUCTS =
     {
         "id": 9380,
         "ref": "239765",
-        "brand": "CORSAIR",
+        "brand": "APPLE",
         "title_orig": "Memria Corsair Vengeance RGB, DDR5 32GB (2x16GB), 6200MHz, c/Dissipador, Para Intel, CMH32GX5M2B6200C36, Negro",
         "title": "Memria Corsair Vengeance RGB, DDR5 32GB (2x16GB), 6200MHz, c/Dissipador, Para Intel, CMH32GX5M2B6200C36, Negro",
         "category": "Memorias RAM",
@@ -22132,7 +22132,7 @@ const PRODUCTS =
     {
         "id": 9388,
         "ref": "8467",
-        "brand": "CORSAIR",
+        "brand": "APPLE",
         "title_orig": "Memria Corsair Vengeance LPX, DDR4 8GB, 2666MHz, c/Dissipador, CMK8GX4M1A2666C16, Negro",
         "title": "Memria Corsair Vengeance LPX, DDR4 8GB, 2666MHz, c/Dissipador, CMK8GX4M1A2666C16, Negro",
         "category": "Memorias RAM",
@@ -22215,7 +22215,7 @@ const PRODUCTS =
     {
         "id": 9392,
         "ref": "318517",
-        "brand": "MEM",
+        "brand": "KINGSTON",
         "title_orig": "MEM NB DDR5 8GB 5600 KINGSTON KVR56S46BS6-8",
         "title": "MEM NB DDR5 8GB 5600 KINGSTON KVR56S46BS6-8",
         "category": "Memorias RAM",
@@ -22235,7 +22235,7 @@ const PRODUCTS =
     {
         "id": 9393,
         "ref": "360558",
-        "brand": "MEMRIA",
+        "brand": "KINGSTON",
         "title_orig": "Memria para Notebook Kingston Fury Impact, DDR4 8GB (1x8GB), 3200MHz, SO-DIMM, KF432S20IB/8, Negro",
         "title": "Memria para Notebook Kingston Fury Impact, DDR4 8GB (1x8GB), 3200MHz, SO-DIMM, KF432S20IB/8, Negro",
         "category": "Memorias RAM",
@@ -22256,7 +22256,7 @@ const PRODUCTS =
     {
         "id": 9394,
         "ref": "311420",
-        "brand": "MEM",
+        "brand": "KINGSTON",
         "title_orig": "MEM NB DDR4 8GB 3200 KINGSTON KCP432SS8/8",
         "title": "MEM NB DDR4 8GB 3200 KINGSTON KCP432SS8/8",
         "category": "Memorias RAM",
@@ -22297,7 +22297,7 @@ const PRODUCTS =
     {
         "id": 9396,
         "ref": "365249",
-        "brand": "MEMRIA",
+        "brand": "KINGSTON",
         "title_orig": "Memria Kingston Fury Beast, DDR5 16GB (1x16GB), 6800MHz, KF568C34BB-16, Negro",
         "title": "Memria Kingston Fury Beast, DDR5 16GB (1x16GB), 6800MHz, KF568C34BB-16, Negro",
         "category": "Memorias RAM",
@@ -22318,7 +22318,7 @@ const PRODUCTS =
     {
         "id": 9397,
         "ref": "180771",
-        "brand": "MEM",
+        "brand": "KINGSTON",
         "title_orig": "MEM NB DDR4 16GB 3200 KINGSTON KVR32S22D8/16 KVR32S22D8/16",
         "title": "MEM NB DDR4 16GB 3200 KINGSTON KVR32S22D8/16 KVR32S22D8/16",
         "category": "Memorias RAM",
@@ -22379,7 +22379,7 @@ const PRODUCTS =
     {
         "id": 9400,
         "ref": "365238",
-        "brand": "MEMRIA",
+        "brand": "KINGSTON",
         "title_orig": "Memria Kingston, DDR5 16GB (1x16GB), 5600MHz, KVR56U46BS8-16, Verde",
         "title": "Memria Kingston, DDR5 16GB (1x16GB), 5600MHz, KVR56U46BS8-16, Verde",
         "category": "Memorias RAM",
@@ -22460,7 +22460,7 @@ const PRODUCTS =
     {
         "id": 9404,
         "ref": "384597",
-        "brand": "MEM",
+        "brand": "KINGSTON",
         "title_orig": "MEM DDR5 8GB 5200 KINGSTON FURY BEAST BLACK KF552C40BB/8 KF552C40BB-8",
         "title": "MEM DDR5 8GB 5200 KINGSTON FURY BEAST BLACK KF552C40BB/8 KF552C40BB-8",
         "category": "Memorias RAM",
@@ -22520,7 +22520,7 @@ const PRODUCTS =
     {
         "id": 9407,
         "ref": "360053",
-        "brand": "MEM",
+        "brand": "KINGSTON",
         "title_orig": "MEM DDR4 16GB 3600 KINGSTON FURY RENEGADE KF436C12",
         "title": "MEM DDR4 16GB 3600 KINGSTON FURY RENEGADE KF436C12",
         "category": "Memorias RAM",
@@ -22540,7 +22540,7 @@ const PRODUCTS =
     {
         "id": 9408,
         "ref": "380303",
-        "brand": "MEM",
+        "brand": "KINGSTON",
         "title_orig": "MEM DDR4 16GB 3200 KINGSTON FURY RENEGADE  BLACK KF432C16RB2/32",
         "title": "MEM DDR4 16GB 3200 KINGSTON FURY RENEGADE  BLACK KF432C16RB2/32",
         "category": "Memorias RAM",
@@ -22560,7 +22560,7 @@ const PRODUCTS =
     {
         "id": 9409,
         "ref": "384138",
-        "brand": "MEM",
+        "brand": "KINGSTON",
         "title_orig": "MEM NB DDR5 8GB 4800 KINGSTON FURY IMPACT KF548S38IB/8",
         "title": "MEM NB DDR5 8GB 4800 KINGSTON FURY IMPACT KF548S38IB/8",
         "category": "Memorias RAM",
@@ -22580,7 +22580,7 @@ const PRODUCTS =
     {
         "id": 9410,
         "ref": "387095",
-        "brand": "MEM",
+        "brand": "BIOSTAR",
         "title_orig": "MEM DDR5 16GB 5600 BIOSTAR DO56MU5N16-RM1BK-BS2",
         "title": "MEM DDR5 16GB 5600 BIOSTAR DO56MU5N16-RM1BK-BS2",
         "category": "Memorias RAM",
@@ -22600,7 +22600,7 @@ const PRODUCTS =
     {
         "id": 9411,
         "ref": "389817",
-        "brand": "CORSAIR",
+        "brand": "INTEL",
         "title_orig": "MEM DDR5 16GB 5200 CORSAIR VENGEANCE BLACK INTEL CMK16GX5M1B5200 C40",
         "title": "MEM DDR5 16GB 5200 CORSAIR VENGEANCE BLACK INTEL CMK16GX5M1B5200 C40",
         "category": "Memorias RAM",
@@ -22621,7 +22621,7 @@ const PRODUCTS =
     {
         "id": 9412,
         "ref": "403780",
-        "brand": "XPG",
+        "brand": "INTEL",
         "title_orig": "MEM DDR4 8GB 3600 XPG GAMMIX D35 WHITE AMD/INTEL AX4U36008G18I-S WHD35",
         "title": "MEM DDR4 8GB 3600 XPG GAMMIX D35 WHITE AMD/INTEL AX4U36008G18I-S WHD35",
         "category": "Memorias RAM",
@@ -25521,7 +25521,7 @@ const PRODUCTS =
     {
         "id": 9559,
         "ref": "280548",
-        "brand": "MB",
+        "brand": "ASROCK",
         "title_orig": "MB AM5 ASROCK B650M PRO RS WIFI DDR5/HDMI/DP",
         "title": "MB AM5 ASROCK B650M PRO RS WIFI DDR5/HDMI/DP",
         "category": "Placas Madre",
@@ -25541,7 +25541,7 @@ const PRODUCTS =
     {
         "id": 9560,
         "ref": "227694",
-        "brand": "PLACA",
+        "brand": "STAR",
         "title_orig": "Placa Me 1150 Star H81 2xDDR3, 1xM.2 NVMe, 1xVGA D-Sub, 1xHDMI, 2xUSB-A 3.0, 4xUSB-A 2.0, 1xRJ45 Gigabit, 1xAudio, M-ATX",
         "title": "Placa Me 1150 Star H81 2xDDR3, 1xM.2 NVMe, 1xVGA D-Sub, 1xHDMI, 2xUSB-A 3.0, 4xUSB-A 2.0, 1xRJ45 Gigabit, 1xAudio, M-ATX",
         "category": "Placas Madre",
@@ -25563,7 +25563,7 @@ const PRODUCTS =
     {
         "id": 9561,
         "ref": "205499",
-        "brand": "PLACA",
+        "brand": "BIOSTAR",
         "title_orig": "Placa Me 1150 Biostar H81MHV3 3.0 2xDDR3, 1xVGA D-Sub, 1xHDMI, 2xUSB-A 3.0, 2xUSB-A 2.0, 1xRJ45, 1xAudio, M-ATX",
         "title": "Placa Me 1150 Biostar H81MHV3 3.0 2xDDR3, 1xVGA D-Sub, 1xHDMI, 2xUSB-A 3.0, 2xUSB-A 2.0, 1xRJ45, 1xAudio, M-ATX",
         "category": "Placas Madre",
@@ -25584,7 +25584,7 @@ const PRODUCTS =
     {
         "id": 9562,
         "ref": "284620",
-        "brand": "PLACA",
+        "brand": "STAR",
         "title_orig": "Placa Me 1150 Star B85 2xDDR3, 1xM.2 NVMe, 1xVGA D-Sub, 1xHDMI, 2xUSB-A 3.0, 4xUSB-A 2.0, 1xRJ45 Gigabit, 1xAudio, M-ATX",
         "title": "Placa Me 1150 Star B85 2xDDR3, 1xM.2 NVMe, 1xVGA D-Sub, 1xHDMI, 2xUSB-A 3.0, 4xUSB-A 2.0, 1xRJ45 Gigabit, 1xAudio, M-ATX",
         "category": "Placas Madre",
@@ -25728,7 +25728,7 @@ const PRODUCTS =
     {
         "id": 9569,
         "ref": "292090",
-        "brand": "MB",
+        "brand": "KEEPDATA",
         "title_orig": "MB 2011 X79 KEEPDATA X79-KDXDRAGONFLY DDR3/HDMI",
         "title": "MB 2011 X79 KEEPDATA X79-KDXDRAGONFLY DDR3/HDMI",
         "category": "Placas Madre",
@@ -25849,7 +25849,7 @@ const PRODUCTS =
     {
         "id": 9575,
         "ref": "292114",
-        "brand": "MB",
+        "brand": "KEEPDATA",
         "title_orig": "MB AM4 KEEPDATA A320-KDGNV DDR4/VGA/HDMI",
         "title": "MB AM4 KEEPDATA A320-KDGNV DDR4/VGA/HDMI",
         "category": "Placas Madre",
@@ -25990,7 +25990,7 @@ const PRODUCTS =
     {
         "id": 9582,
         "ref": "292002",
-        "brand": "PLACA",
+        "brand": "KEEPDATA",
         "title_orig": "Placa Me 1150 Keepdata B85-KDGNV 2xDDR3, 1xM.2 NVMe, 1xVGA D-Sub, 1xHDMI, 2xUSB-A 3.0, 4xUSB-A 2.0, 1xRJ45 Gigabit, 1xAudio, M-ATX",
         "title": "Placa Me 1150 Keepdata B85-KDGNV 2xDDR3, 1xM.2 NVMe, 1xVGA D-Sub, 1xHDMI, 2xUSB-A 3.0, 4xUSB-A 2.0, 1xRJ45 Gigabit, 1xAudio, M-ATX",
         "category": "Placas Madre",
@@ -26051,7 +26051,7 @@ const PRODUCTS =
     {
         "id": 9585,
         "ref": "225749",
-        "brand": "PLACA",
+        "brand": "KEEPDATA",
         "title_orig": "Placa Me 1150 Keepdata H81-KDGNV 2xDDR3, 1xM.2 NVMe, 1xVGA D-Sub, 1xHDMI, 2xUSB-A 3.0, 4xUSB-A 2.0, 1xRJ45 Gigabit, 1xAudio, M-ATX",
         "title": "Placa Me 1150 Keepdata H81-KDGNV 2xDDR3, 1xM.2 NVMe, 1xVGA D-Sub, 1xHDMI, 2xUSB-A 3.0, 4xUSB-A 2.0, 1xRJ45 Gigabit, 1xAudio, M-ATX",
         "category": "Placas Madre",
@@ -26112,7 +26112,7 @@ const PRODUCTS =
     {
         "id": 9588,
         "ref": "227661",
-        "brand": "MB",
+        "brand": "STAR",
         "title_orig": "MB 1200 STAR H510/H511 M.2/HDMI/DP/USB3.0 A0EH510PV11",
         "title": "MB 1200 STAR H510/H511 M.2/HDMI/DP/USB3.0 A0EH510PV11",
         "category": "Placas Madre",
@@ -26153,7 +26153,7 @@ const PRODUCTS =
     {
         "id": 9590,
         "ref": "227909",
-        "brand": "MB",
+        "brand": "ASROCK",
         "title_orig": "MB 1700 ASROCK H610M-HDV/M.2+ D5 DDR5/HDMI/DP/USB-",
         "title": "MB 1700 ASROCK H610M-HDV/M.2+ D5 DDR5/HDMI/DP/USB-",
         "category": "Placas Madre",
@@ -26196,7 +26196,7 @@ const PRODUCTS =
     {
         "id": 9592,
         "ref": "227683",
-        "brand": "MB",
+        "brand": "STAR",
         "title_orig": "MB 1700 STAR H610 M.2/HDMI/DP/GIGALAN USB 3.0",
         "title": "MB 1700 STAR H610 M.2/HDMI/DP/GIGALAN USB 3.0",
         "category": "Placas Madre",
@@ -26216,7 +26216,7 @@ const PRODUCTS =
     {
         "id": 9593,
         "ref": "355709",
-        "brand": "UP GAMER",
+        "brand": "AMD",
         "title_orig": "Placa Me UP Gamer B650M VDH, AMD AM5, m-ATX, DDR5, M.2 NVMe, UPG-B650M-VDH",
         "title": "Placa Me UP Gamer B650M VDH, AMD AM5, m-ATX, DDR5, M.2 NVMe, UPG-B650M-VDH",
         "category": "Placas Madre",
@@ -26241,7 +26241,7 @@ const PRODUCTS =
     {
         "id": 9594,
         "ref": "227672",
-        "brand": "MB",
+        "brand": "STAR",
         "title_orig": "MB 1155 STAR H61 M.2/HDMI/VGA/USB2.0",
         "title": "MB 1155 STAR H61 M.2/HDMI/VGA/USB2.0",
         "category": "Placas Madre",
@@ -26281,7 +26281,7 @@ const PRODUCTS =
     {
         "id": 9596,
         "ref": "285351",
-        "brand": "MB",
+        "brand": "ASROCK",
         "title_orig": "MB AM5 ASROCK X870E TAICHI LITE DDR5",
         "title": "MB AM5 ASROCK X870E TAICHI LITE DDR5",
         "category": "Placas Madre",
@@ -26362,7 +26362,7 @@ const PRODUCTS =
     {
         "id": 9600,
         "ref": "298759",
-        "brand": "PLACA",
+        "brand": "ASROCK",
         "title_orig": "Placa Me 1700 Asrock B760M Pro RS White 4xDDR5, 2xM.2 NVMe, 1xHDMI, 1xDisplayPort 1.4, 1xUSBC 3.2, 2xUSB-A 2.0, 3xUSB-A 3.2, 1xRJ45 Gigabit 2.5, 1xAudio, M-ATX, White",
         "title": "Placa Me 1700 Asrock B760M Pro RS White 4xDDR5, 2xM.2 NVMe, 1xHDMI, 1xDisplayPort 1.4, 1xUSBC 3.2, 2xUSB-A 2.0, 3xUSB-A 3.2, 1xRJ45 Gigabit 2.5, 1xAudio, M-ATX, White",
         "category": "Placas Madre",
@@ -26465,7 +26465,7 @@ const PRODUCTS =
     {
         "id": 9605,
         "ref": "292887",
-        "brand": "MB",
+        "brand": "ASROCK",
         "title_orig": "MB AM5 ASROCK B650M PG LIGHTNING WIFI/DDR5/HDMI/DP",
         "title": "MB AM5 ASROCK B650M PG LIGHTNING WIFI/DDR5/HDMI/DP",
         "category": "Placas Madre",
@@ -26546,7 +26546,7 @@ const PRODUCTS =
     {
         "id": 9609,
         "ref": "316199",
-        "brand": "VALKYRIE",
+        "brand": "BIOSTAR",
         "title_orig": "MB AM5 BIOSTAR X870E VALKYRIE DDR5 HDMI/DP",
         "title": "MB AM5 BIOSTAR X870E VALKYRIE DDR5 HDMI/DP",
         "category": "Placas Madre",
@@ -26566,7 +26566,7 @@ const PRODUCTS =
     {
         "id": 9610,
         "ref": "253829",
-        "brand": "PLACA",
+        "brand": "BIOSTAR",
         "title_orig": "Placa Me Biostar B650MT Socket AM5 DDR5 HDMI/DP/USB3.2",
         "title": "Placa Me Biostar B650MT Socket AM5 DDR5 HDMI/DP/USB3.2",
         "category": "Placas Madre",
@@ -26664,7 +26664,7 @@ const PRODUCTS =
     {
         "id": 9615,
         "ref": "280537",
-        "brand": "MB",
+        "brand": "ASROCK",
         "title_orig": "MB AM5 ASROCK B650M PRO RS DDR5 HDMI/DP/USB3.2",
         "title": "MB AM5 ASROCK B650M PRO RS DDR5 HDMI/DP/USB3.2",
         "category": "Placas Madre",
@@ -26684,7 +26684,7 @@ const PRODUCTS =
     {
         "id": 9616,
         "ref": "308257",
-        "brand": "MB",
+        "brand": "ASROCK",
         "title_orig": "MB AM5 ASROCK X870E NOVA WIFI DDR5/HDMI/USB3.2 PHANTOM GANING",
         "title": "MB AM5 ASROCK X870E NOVA WIFI DDR5/HDMI/USB3.2 PHANTOM GANING",
         "category": "Placas Madre",
@@ -26704,7 +26704,7 @@ const PRODUCTS =
     {
         "id": 9617,
         "ref": "324817",
-        "brand": "MB",
+        "brand": "ASROCK",
         "title_orig": "MB AM5 ASROCK X870 PRO-A WIFI/DDR5/HDMI/M.2",
         "title": "MB AM5 ASROCK X870 PRO-A WIFI/DDR5/HDMI/M.2",
         "category": "Placas Madre",
@@ -26785,7 +26785,7 @@ const PRODUCTS =
     {
         "id": 9621,
         "ref": "332243",
-        "brand": "PLACA",
+        "brand": "ASROCK",
         "title_orig": "Placa Me Asrock X870 Pro RS Wi-Fi Socket,  DDR5",
         "title": "Placa Me Asrock X870 Pro RS Wi-Fi Socket,  DDR5",
         "category": "Placas Madre",
@@ -26825,7 +26825,7 @@ const PRODUCTS =
     {
         "id": 9623,
         "ref": "355696",
-        "brand": "UP GAMER",
+        "brand": "LG",
         "title_orig": "Placa Me UP Gamer B660M-VHC, Intel LGA 1700, m-ATX, DDR4, M.2 NVMe, UPG-B660M-VHC",
         "title": "Placa Me UP Gamer B660M-VHC, Intel LGA 1700, m-ATX, DDR4, M.2 NVMe, UPG-B660M-VHC",
         "category": "Placas Madre",
@@ -26850,7 +26850,7 @@ const PRODUCTS =
     {
         "id": 9624,
         "ref": "355710",
-        "brand": "UP GAMER",
+        "brand": "LG",
         "title_orig": "Placa Me UP Gamer H610M GAMING X4, Intel LGA 1700, m-ATX, 4X DDR4, M.2 NVMe, UPG-H610MD4-GX4, Blanco",
         "title": "Placa Me UP Gamer H610M GAMING X4, Intel LGA 1700, m-ATX, 4X DDR4, M.2 NVMe, UPG-H610MD4-GX4, Blanco",
         "category": "Placas Madre",
@@ -26876,7 +26876,7 @@ const PRODUCTS =
     {
         "id": 9625,
         "ref": "292024",
-        "brand": "MB",
+        "brand": "KEEPDATA",
         "title_orig": "MB 1151 KEEPDATA H310-KDGNV DDR4/HDMI/VGA/M.2",
         "title": "MB 1151 KEEPDATA H310-KDGNV DDR4/HDMI/VGA/M.2",
         "category": "Placas Madre",
@@ -26917,7 +26917,7 @@ const PRODUCTS =
     {
         "id": 9627,
         "ref": "292057",
-        "brand": "MB",
+        "brand": "KEEPDATA",
         "title_orig": "MB 1700 KEEPDATA H610-KDGNV DDR4 2HDMI/DP/M.2/USB3",
         "title": "MB 1700 KEEPDATA H610-KDGNV DDR4 2HDMI/DP/M.2/USB3",
         "category": "Placas Madre",
@@ -26979,7 +26979,7 @@ const PRODUCTS =
     {
         "id": 9630,
         "ref": "216749",
-        "brand": "MB",
+        "brand": "BIOSTAR",
         "title_orig": "MB 1700 BIOSTAR B760M-SILVER DDR5/HDMI/DP/WIFI",
         "title": "MB 1700 BIOSTAR B760M-SILVER DDR5/HDMI/DP/WIFI",
         "category": "Placas Madre",
@@ -26999,7 +26999,7 @@ const PRODUCTS =
     {
         "id": 9631,
         "ref": "308246",
-        "brand": "MB",
+        "brand": "ASROCK",
         "title_orig": "MB AM5 ASROCK B850 PRO-A WIFI DDR5/HDMI/USB3.2",
         "title": "MB AM5 ASROCK B850 PRO-A WIFI DDR5/HDMI/USB3.2",
         "category": "Placas Madre",
@@ -27159,7 +27159,7 @@ const PRODUCTS =
     {
         "id": 9639,
         "ref": "292125",
-        "brand": "MB",
+        "brand": "KEEPDATA",
         "title_orig": "MB AM4 KEEPDATA A520-KDGNV DDR4/HDMI/VGA",
         "title": "MB AM4 KEEPDATA A520-KDGNV DDR4/HDMI/VGA",
         "category": "Placas Madre",
@@ -27217,7 +27217,7 @@ const PRODUCTS =
     {
         "id": 9642,
         "ref": "321310",
-        "brand": "MB",
+        "brand": "ASROCK",
         "title_orig": "MB AM5 ASROCK X870 RIPTIDE WIFI DDR5/HDMI/USB3.2 PHANTOM GAMING",
         "title": "MB AM5 ASROCK X870 RIPTIDE WIFI DDR5/HDMI/USB3.2 PHANTOM GAMING",
         "category": "Placas Madre",
@@ -27298,7 +27298,7 @@ const PRODUCTS =
     {
         "id": 9646,
         "ref": "355685",
-        "brand": "UP GAMER",
+        "brand": "LG",
         "title_orig": "Placa Me UP Gamer B560M PRO, Intel LGA 1200, m-ATX, DDR4, M.2 NVMe, UPG-B560M-PRO",
         "title": "Placa Me UP Gamer B560M PRO, Intel LGA 1200, m-ATX, DDR4, M.2 NVMe, UPG-B560M-PRO",
         "category": "Placas Madre",
@@ -27323,7 +27323,7 @@ const PRODUCTS =
     {
         "id": 9647,
         "ref": "346584",
-        "brand": "MB",
+        "brand": "BIOSTAR",
         "title_orig": "MB 1700 BIOSTAR Z690MX2-E D4 DDR4 HDMI/DVI/VGA/M.2",
         "title": "MB 1700 BIOSTAR Z690MX2-E D4 DDR4 HDMI/DVI/VGA/M.2",
         "category": "Placas Madre",
@@ -27424,7 +27424,7 @@ const PRODUCTS =
     {
         "id": 9652,
         "ref": "339610",
-        "brand": "MB",
+        "brand": "BIOSTAR",
         "title_orig": "MB AM5 BIOSTAR B850MT2-E DJ DDR5/HDMI/DP/M.2",
         "title": "MB AM5 BIOSTAR B850MT2-E DJ DDR5/HDMI/DP/M.2",
         "category": "Placas Madre",
@@ -27566,7 +27566,7 @@ const PRODUCTS =
     {
         "id": 9659,
         "ref": "321274",
-        "brand": "MB",
+        "brand": "ASROCK",
         "title_orig": "MB AM5 ASROCK B850 PRO-A DDR5/HDMI/USB3.2",
         "title": "MB AM5 ASROCK B850 PRO-A DDR5/HDMI/USB3.2",
         "category": "Placas Madre",
@@ -27686,7 +27686,7 @@ const PRODUCTS =
     {
         "id": 9665,
         "ref": "332759",
-        "brand": "MB",
+        "brand": "BIOSTAR",
         "title_orig": "MB 1851 BIOSTAR Z890AX-E PRO DDR5/HDMI/DP 4M.2/USB3.2",
         "title": "MB 1851 BIOSTAR Z890AX-E PRO DDR5/HDMI/DP 4M.2/USB3.2",
         "category": "Placas Madre",
@@ -27746,7 +27746,7 @@ const PRODUCTS =
     {
         "id": 9668,
         "ref": "348788",
-        "brand": "MB",
+        "brand": "STAR",
         "title_orig": "MB 1700 STAR B760M DDR5 HDMI/DP/VGA/2M.2/USB3.0 PCI-E 4.0",
         "title": "MB 1700 STAR B760M DDR5 HDMI/DP/VGA/2M.2/USB3.0 PCI-E 4.0",
         "category": "Placas Madre",
@@ -27887,7 +27887,7 @@ const PRODUCTS =
     {
         "id": 9675,
         "ref": "339408",
-        "brand": "MB",
+        "brand": "ASROCK",
         "title_orig": "MB AM5 ASROCK B850M-X WIFI R2.0 DDR5/HDMI/DP",
         "title": "MB AM5 ASROCK B850M-X WIFI R2.0 DDR5/HDMI/DP",
         "category": "Placas Madre",
@@ -27907,7 +27907,7 @@ const PRODUCTS =
     {
         "id": 9676,
         "ref": "331376",
-        "brand": "MB",
+        "brand": "KEEPDATA",
         "title_orig": "MB 1200 KEEPDATA H511-KDGNV DDR4 HDMI/VGA/M.2/USB3",
         "title": "MB 1200 KEEPDATA H511-KDGNV DDR4 HDMI/VGA/M.2/USB3",
         "category": "Placas Madre",
@@ -28068,7 +28068,7 @@ const PRODUCTS =
     {
         "id": 9684,
         "ref": "360468",
-        "brand": "PLACA",
+        "brand": "ASROCK",
         "title_orig": "Placa Me AM5 Asrock X870 Nova Wifi 4xDDR5, 2xHyper M.2 NVMe, 3xM.2 NVMe 1xHDMI, 2xUSBC 3.2, 4xUSB-A 2.0, 4xUSB-A 3.2, 1xRJ45 Gigabit 2.5, 1xAudio, ATX",
         "title": "Placa Me AM5 Asrock X870 Nova Wifi 4xDDR5, 2xHyper M.2 NVMe, 3xM.2 NVMe 1xHDMI, 2xUSBC 3.2, 4xUSB-A 2.0, 4xUSB-A 3.2, 1xRJ45 Gigabit 2.5, 1xAudio, ATX",
         "category": "Placas Madre",
@@ -28171,7 +28171,7 @@ const PRODUCTS =
     {
         "id": 9689,
         "ref": "351479",
-        "brand": "MB",
+        "brand": "ASROCK",
         "title_orig": "MB AM5 ASROCK A620AM-X DDR5 HDMI/USB3.2/M.2",
         "title": "MB AM5 ASROCK A620AM-X DDR5 HDMI/USB3.2/M.2",
         "category": "Placas Madre",
@@ -28192,7 +28192,7 @@ const PRODUCTS =
     {
         "id": 9690,
         "ref": "348665",
-        "brand": "MB",
+        "brand": "STAR",
         "title_orig": "MB AM4 STAR A520 DDR4/HDMI/VGA A520G562-1000M",
         "title": "MB AM4 STAR A520 DDR4/HDMI/VGA A520G562-1000M",
         "category": "Placas Madre",
@@ -28633,7 +28633,7 @@ const PRODUCTS =
     {
         "id": 9712,
         "ref": "382966",
-        "brand": "MB",
+        "brand": "BIOSTAR",
         "title_orig": "MB AM5 BIOSTAR A620MS-E HDMI/DP/DDR5",
         "title": "MB AM5 BIOSTAR A620MS-E HDMI/DP/DDR5",
         "category": "Placas Madre",
@@ -28815,7 +28815,7 @@ const PRODUCTS =
     {
         "id": 9721,
         "ref": "380964",
-        "brand": "MB",
+        "brand": "ASROCK",
         "title_orig": "MB AM5 ASROCK B850M PRO-A WIFI DDR5/HDMI/DP/USB3.",
         "title": "MB AM5 ASROCK B850M PRO-A WIFI DDR5/HDMI/DP/USB3.",
         "category": "Placas Madre",
@@ -28876,7 +28876,7 @@ const PRODUCTS =
     {
         "id": 9724,
         "ref": "356901",
-        "brand": "MB",
+        "brand": "ASROCK",
         "title_orig": "MB AM5 ASROCK B650M-H/M.2+ DDR5 MICRO ATX",
         "title": "MB AM5 ASROCK B650M-H/M.2+ DDR5 MICRO ATX",
         "category": "Placas Madre",
@@ -29015,7 +29015,7 @@ const PRODUCTS =
     {
         "id": 9731,
         "ref": "15713",
-        "brand": "SSD",
+        "brand": "KINGSTON",
         "title_orig": "SSD Kingston A400, 960GB, 2.5",
         "title": "SSD Kingston A400, 960GB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -29055,7 +29055,7 @@ const PRODUCTS =
     {
         "id": 9733,
         "ref": "3923",
-        "brand": "SSD",
+        "brand": "KINGSTON",
         "title_orig": "SSD Kingston A400, 480GB, 2.5",
         "title": "SSD Kingston A400, 480GB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -29093,7 +29093,7 @@ const PRODUCTS =
     {
         "id": 9735,
         "ref": "172717",
-        "brand": "SSD",
+        "brand": "KINGSTON",
         "title_orig": "SSD Kingston A400, 240GB, 2.5",
         "title": "SSD Kingston A400, 240GB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -29131,7 +29131,7 @@ const PRODUCTS =
     {
         "id": 9737,
         "ref": "171839",
-        "brand": "PEN",
+        "brand": "KINGSTON",
         "title_orig": "PEN DRIVE 256GB KINGSTON DTXM/256GB EXODIA 3.2 USB",
         "title": "PEN DRIVE 256GB KINGSTON DTXM/256GB EXODIA 3.2 USB",
         "category": "Almacenamiento (SSD)",
@@ -29448,7 +29448,7 @@ const PRODUCTS =
     {
         "id": 9754,
         "ref": "171861",
-        "brand": "PEN",
+        "brand": "KINGSTON",
         "title_orig": "PEN DRIVE 64GB KINGSTON DTKN/64GB KYSON 3.2 USB",
         "title": "PEN DRIVE 64GB KINGSTON DTKN/64GB KYSON 3.2 USB",
         "category": "Almacenamiento (SSD)",
@@ -29466,7 +29466,7 @@ const PRODUCTS =
     {
         "id": 9755,
         "ref": "241714",
-        "brand": "PEN",
+        "brand": "KINGSTON",
         "title_orig": "PEN DRIVE 64GB KINGSTON KC-U2L64-7LP EXODIA PURPLE",
         "title": "PEN DRIVE 64GB KINGSTON KC-U2L64-7LP EXODIA PURPLE",
         "category": "Almacenamiento (SSD)",
@@ -29540,7 +29540,7 @@ const PRODUCTS =
     {
         "id": 9759,
         "ref": "263303",
-        "brand": "SSD",
+        "brand": "STAR",
         "title_orig": "SSD Star Solid, 240GB, 2.5",
         "title": "SSD Star Solid, 240GB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -29580,7 +29580,7 @@ const PRODUCTS =
     {
         "id": 9761,
         "ref": "91830",
-        "brand": "SSD",
+        "brand": "PATRIOT",
         "title_orig": "SSD Patriot P210, 256GB, 2.5",
         "title": "SSD Patriot P210, 256GB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -29716,7 +29716,7 @@ const PRODUCTS =
     {
         "id": 9768,
         "ref": "109380",
-        "brand": "SSD",
+        "brand": "PATRIOT",
         "title_orig": "SSD Patriot P210, 512GB, 2.5",
         "title": "SSD Patriot P210, 512GB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -29756,7 +29756,7 @@ const PRODUCTS =
     {
         "id": 9770,
         "ref": "76731",
-        "brand": "SSD",
+        "brand": "KEEPDATA",
         "title_orig": "SSD Keepdata 120GB 2.5",
         "title": "SSD Keepdata 120GB 2.5",
         "category": "Almacenamiento (SSD)",
@@ -29816,7 +29816,7 @@ const PRODUCTS =
     {
         "id": 9773,
         "ref": "149260",
-        "brand": "SSD",
+        "brand": "KEEPDATA",
         "title_orig": "SSD Keepdata, 512GB, M.2 SATA, Leitura 550MB/s, Gravao 500MB/s, KDM512G-J12",
         "title": "SSD Keepdata, 512GB, M.2 SATA, Leitura 550MB/s, Gravao 500MB/s, KDM512G-J12",
         "category": "Almacenamiento (SSD)",
@@ -29875,7 +29875,7 @@ const PRODUCTS =
     {
         "id": 9776,
         "ref": "23308",
-        "brand": "SSD",
+        "brand": "PATRIOT",
         "title_orig": "SSD Patriot 120GB Burst Elite 2.5",
         "title": "SSD Patriot 120GB Burst Elite 2.5",
         "category": "Almacenamiento (SSD)",
@@ -29913,7 +29913,7 @@ const PRODUCTS =
     {
         "id": 9778,
         "ref": "118996",
-        "brand": "SSD",
+        "brand": "KEEPDATA",
         "title_orig": "SSD Keepdata, 256GB, M.2 SATA, Leitura 550MB/s, Gravao 500MB/s, KDM256G-J12",
         "title": "SSD Keepdata, 256GB, M.2 SATA, Leitura 550MB/s, Gravao 500MB/s, KDM256G-J12",
         "category": "Almacenamiento (SSD)",
@@ -29934,7 +29934,7 @@ const PRODUCTS =
     {
         "id": 9779,
         "ref": "215355",
-        "brand": "SSD",
+        "brand": "KINGSTON",
         "title_orig": "SSD Kingston DC600M, 960GB, 2.5",
         "title": "SSD Kingston DC600M, 960GB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -29990,7 +29990,7 @@ const PRODUCTS =
     {
         "id": 9782,
         "ref": "215333",
-        "brand": "SSD",
+        "brand": "KINGSTON",
         "title_orig": "SSD Kingston DC600M Enterprise, 1.92TB, 2.5",
         "title": "SSD Kingston DC600M Enterprise, 1.92TB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -30182,7 +30182,7 @@ const PRODUCTS =
     {
         "id": 9792,
         "ref": "176350",
-        "brand": "SSD",
+        "brand": "KEEPDATA",
         "title_orig": "SSD Keepdata 2TB Gen 3, M.2 2280 SATA NGFF, Leitura at 550MB/s Gravao 500MB/s, KDM2T-J12",
         "title": "SSD Keepdata 2TB Gen 3, M.2 2280 SATA NGFF, Leitura at 550MB/s Gravao 500MB/s, KDM2T-J12",
         "category": "Almacenamiento (SSD)",
@@ -30223,7 +30223,7 @@ const PRODUCTS =
     {
         "id": 9794,
         "ref": "149250",
-        "brand": "SSD",
+        "brand": "KEEPDATA",
         "title_orig": "SSD Keepdata, 480GB, 2.5",
         "title": "SSD Keepdata, 480GB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -30243,7 +30243,7 @@ const PRODUCTS =
     {
         "id": 9795,
         "ref": "225984",
-        "brand": "SSD",
+        "brand": "KINGSTON",
         "title_orig": "SSD Externo Porttil Kingston XS1000/2000G 2TB, USB-C 3.2",
         "title": "SSD Externo Porttil Kingston XS1000/2000G 2TB, USB-C 3.2",
         "category": "Almacenamiento (SSD)",
@@ -30359,7 +30359,7 @@ const PRODUCTS =
     {
         "id": 9801,
         "ref": "170770",
-        "brand": "SSD",
+        "brand": "KEEPDATA",
         "title_orig": "SSD Keepdata 1TB Gen 3, M.2 SATA NGFF, Leitura at 550MB/s Gravao 500MB/s, KDM1T-J12",
         "title": "SSD Keepdata 1TB Gen 3, M.2 SATA NGFF, Leitura at 550MB/s Gravao 500MB/s, KDM1T-J12",
         "category": "Almacenamiento (SSD)",
@@ -30380,7 +30380,7 @@ const PRODUCTS =
     {
         "id": 9802,
         "ref": "287454",
-        "brand": "HD",
+        "brand": "KINGSTON",
         "title_orig": "HD SSD M.2 4TB NVME KINGSTON SNV3S/4000G PCIE 4.0",
         "title": "HD SSD M.2 4TB NVME KINGSTON SNV3S/4000G PCIE 4.0",
         "category": "Almacenamiento (SSD)",
@@ -30422,7 +30422,7 @@ const PRODUCTS =
     {
         "id": 9804,
         "ref": "123184",
-        "brand": "SSD",
+        "brand": "KINGSTON",
         "title_orig": "SSD Kingston KC600, 256GB, 2.5",
         "title": "SSD Kingston KC600, 256GB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -30442,7 +30442,7 @@ const PRODUCTS =
     {
         "id": 9805,
         "ref": "266732",
-        "brand": "SSD",
+        "brand": "STAR",
         "title_orig": "SSD Star Solid, 480GB, 2.5",
         "title": "SSD Star Solid, 480GB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -30480,7 +30480,7 @@ const PRODUCTS =
     {
         "id": 9807,
         "ref": "186240",
-        "brand": "SSD",
+        "brand": "KEEPDATA",
         "title_orig": "SSD Keepdata, 1TB, 2.5",
         "title": "SSD Keepdata, 1TB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -30542,7 +30542,7 @@ const PRODUCTS =
     {
         "id": 9810,
         "ref": "197364",
-        "brand": "SSD",
+        "brand": "PATRIOT",
         "title_orig": "SSD Patriot P220, 128GB, 2.5",
         "title": "SSD Patriot P220, 128GB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -30562,7 +30562,7 @@ const PRODUCTS =
     {
         "id": 9811,
         "ref": "171850",
-        "brand": "PEN",
+        "brand": "KINGSTON",
         "title_orig": "PEN DRIVE 128GB KINGSTON DTKN/128GB KYSON 3.2 USB",
         "title": "PEN DRIVE 128GB KINGSTON DTKN/128GB KYSON 3.2 USB",
         "category": "Almacenamiento (SSD)",
@@ -30693,7 +30693,7 @@ const PRODUCTS =
     {
         "id": 9818,
         "ref": "176340",
-        "brand": "SSD",
+        "brand": "KEEPDATA",
         "title_orig": "SSD Keepdata, 2TB, 2.5",
         "title": "SSD Keepdata, 2TB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -30752,7 +30752,7 @@ const PRODUCTS =
     {
         "id": 9821,
         "ref": "301801",
-        "brand": "SSD",
+        "brand": "KEEPDATA",
         "title_orig": "SSD Keepdata, 128GB, 2.5",
         "title": "SSD Keepdata, 128GB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -30811,7 +30811,7 @@ const PRODUCTS =
     {
         "id": 9824,
         "ref": "245885",
-        "brand": "PEN",
+        "brand": "KINGSTON",
         "title_orig": "PEN DRIVE 256GB KINGSTON DTKN/256GB DATATRA. KYSON",
         "title": "PEN DRIVE 256GB KINGSTON DTKN/256GB DATATRA. KYSON",
         "category": "Almacenamiento (SSD)",
@@ -30887,7 +30887,7 @@ const PRODUCTS =
     {
         "id": 9828,
         "ref": "171907",
-        "brand": "PENDRIVE",
+        "brand": "KINGSTON",
         "title_orig": "Pendrive Kingston DataTraveler 70, 128GB, USB-C DT70/128GB",
         "title": "Pendrive Kingston DataTraveler 70, 128GB, USB-C DT70/128GB",
         "category": "Almacenamiento (SSD)",
@@ -30944,7 +30944,7 @@ const PRODUCTS =
     {
         "id": 9831,
         "ref": "156943",
-        "brand": "SSD",
+        "brand": "KINGSTON",
         "title_orig": "SSD EXT  1TB Kingston SXS2000/1000G USB-C 3.2 2000 MB/s Plata",
         "title": "SSD EXT  1TB Kingston SXS2000/1000G USB-C 3.2 2000 MB/s Plata",
         "category": "Almacenamiento (SSD)",
@@ -30965,7 +30965,7 @@ const PRODUCTS =
     {
         "id": 9832,
         "ref": "302240",
-        "brand": "SSD",
+        "brand": "KEEPDATA",
         "title_orig": "SSD Keepdata 512GB 2.5",
         "title": "SSD Keepdata 512GB 2.5",
         "category": "Almacenamiento (SSD)",
@@ -30985,7 +30985,7 @@ const PRODUCTS =
     {
         "id": 9833,
         "ref": "245863",
-        "brand": "PEN",
+        "brand": "KINGSTON",
         "title_orig": "PEN DRIVE 256GB KINGSTON DT70/256GB DATATRAVELER",
         "title": "PEN DRIVE 256GB KINGSTON DT70/256GB DATATRAVELER",
         "category": "Almacenamiento (SSD)",
@@ -31077,7 +31077,7 @@ const PRODUCTS =
     {
         "id": 9838,
         "ref": "110663",
-        "brand": "SSD",
+        "brand": "PATRIOT",
         "title_orig": "SSD Patriot Burst Elite, 960GB, 2.5",
         "title": "SSD Patriot Burst Elite, 960GB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -31208,7 +31208,7 @@ const PRODUCTS =
     {
         "id": 9845,
         "ref": "174651",
-        "brand": "SSD",
+        "brand": "PATRIOT",
         "title_orig": "SSD Patriot Burst Elite, 1.92TB, 2.5",
         "title": "SSD Patriot Burst Elite, 1.92TB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -31286,7 +31286,7 @@ const PRODUCTS =
     {
         "id": 9849,
         "ref": "197353",
-        "brand": "SSD",
+        "brand": "PATRIOT",
         "title_orig": "SSD Patriot P220, 2TB, 2.5",
         "title": "SSD Patriot P220, 2TB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -31416,7 +31416,7 @@ const PRODUCTS =
     {
         "id": 9856,
         "ref": "174673",
-        "brand": "SSD",
+        "brand": "PATRIOT",
         "title_orig": "SSD Patriot P210, 2TB, 2.5",
         "title": "SSD Patriot P210, 2TB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -31564,7 +31564,7 @@ const PRODUCTS =
     {
         "id": 9864,
         "ref": "156954",
-        "brand": "HD",
+        "brand": "KINGSTON",
         "title_orig": "HD SSD EXT 2TB KINGSTON PORTATIL SXS2000/2000G Plata",
         "title": "HD SSD EXT 2TB KINGSTON PORTATIL SXS2000/2000G Plata",
         "category": "Almacenamiento (SSD)",
@@ -31623,7 +31623,7 @@ const PRODUCTS =
     {
         "id": 9867,
         "ref": "304758",
-        "brand": "PEN",
+        "brand": "KINGSTON",
         "title_orig": "PEN DRIVE 128GB KINGSTON KC-U2L128-7LN PINK EXODIA",
         "title": "PEN DRIVE 128GB KINGSTON KC-U2L128-7LN PINK EXODIA",
         "category": "Almacenamiento (SSD)",
@@ -31659,7 +31659,7 @@ const PRODUCTS =
     {
         "id": 9869,
         "ref": "304769",
-        "brand": "PEN",
+        "brand": "KINGSTON",
         "title_orig": "PEN DRIVE 128GB KINGSTON KC-U2L128-7LP ROXO EXODIA",
         "title": "PEN DRIVE 128GB KINGSTON KC-U2L128-7LP ROXO EXODIA",
         "category": "Almacenamiento (SSD)",
@@ -31677,7 +31677,7 @@ const PRODUCTS =
     {
         "id": 9870,
         "ref": "304736",
-        "brand": "PEN",
+        "brand": "KINGSTON",
         "title_orig": "PEN DRIVE 128GB KINGSTON KC-U2L128-7LB BLUE EXODIA",
         "title": "PEN DRIVE 128GB KINGSTON KC-U2L128-7LB BLUE EXODIA",
         "category": "Almacenamiento (SSD)",
@@ -31751,7 +31751,7 @@ const PRODUCTS =
     {
         "id": 9874,
         "ref": "280740",
-        "brand": "SSD",
+        "brand": "STAR",
         "title_orig": "SSD Star Solid, 1TB, 2.5",
         "title": "SSD Star Solid, 1TB, 2.5",
         "category": "Almacenamiento (SSD)",
@@ -31943,7 +31943,7 @@ const PRODUCTS =
     {
         "id": 9884,
         "ref": "62748",
-        "brand": "PEN",
+        "brand": "KINGSTON",
         "title_orig": "PEN DRIVE 64GB KINGSTON DTSE9G3/64GB",
         "title": "PEN DRIVE 64GB KINGSTON DTSE9G3/64GB",
         "category": "Almacenamiento (SSD)",
@@ -32445,7 +32445,7 @@ const PRODUCTS =
     {
         "id": 9911,
         "ref": "353640",
-        "brand": "SSD",
+        "brand": "BIOSTAR",
         "title_orig": "SSD 2.5   256GB BIOSTAR S160 SA102S2E36-PW14H-BS2",
         "title": "SSD 2.5   256GB BIOSTAR S160 SA102S2E36-PW14H-BS2",
         "category": "Almacenamiento (SSD)",
@@ -32465,7 +32465,7 @@ const PRODUCTS =
     {
         "id": 9912,
         "ref": "354471",
-        "brand": "CARTAO",
+        "brand": "KEEPDATA",
         "title_orig": "CARTAO MICROSD 32GB KEEPDATA NEOX V30 A1 C10 KDMSDC10U3V30A1 /32",
         "title": "CARTAO MICROSD 32GB KEEPDATA NEOX V30 A1 C10 KDMSDC10U3V30A1 /32",
         "category": "Almacenamiento (SSD)",
@@ -32521,7 +32521,7 @@ const PRODUCTS =
     {
         "id": 9915,
         "ref": "364090",
-        "brand": "SSD",
+        "brand": "KINGSTON",
         "title_orig": "SSD M.2 1TB KINGSTON SKC600MS/1024G SATA 2.5 550/520 MSATA",
         "title": "SSD M.2 1TB KINGSTON SKC600MS/1024G SATA 2.5 550/520 MSATA",
         "category": "Almacenamiento (SSD)",
@@ -32562,7 +32562,7 @@ const PRODUCTS =
     {
         "id": 9917,
         "ref": "354493",
-        "brand": "CARTAO",
+        "brand": "KEEPDATA",
         "title_orig": "CARTAO MICROSD 128GB KEEPDATA NEOX V30 A1 C10 KDMSDC10U3V30A1 /128",
         "title": "CARTAO MICROSD 128GB KEEPDATA NEOX V30 A1 C10 KDMSDC10U3V30A1 /128",
         "category": "Almacenamiento (SSD)",
@@ -32600,7 +32600,7 @@ const PRODUCTS =
     {
         "id": 9919,
         "ref": "338754",
-        "brand": "HD",
+        "brand": "KINGSTON",
         "title_orig": "HD SSD MSATA 256GB KINGSTON SKC600MS/256G 2.5",
         "title": "HD SSD MSATA 256GB KINGSTON SKC600MS/256G 2.5",
         "category": "Almacenamiento (SSD)",
@@ -32641,7 +32641,7 @@ const PRODUCTS =
     {
         "id": 9921,
         "ref": "354506",
-        "brand": "CARTAO",
+        "brand": "KEEPDATA",
         "title_orig": "CARTAO MICROSD 256GB KEEPDATA NEOX V30 A1 C10 KDMSDC10U3V30A1 /256",
         "title": "CARTAO MICROSD 256GB KEEPDATA NEOX V30 A1 C10 KDMSDC10U3V30A1 /256",
         "category": "Almacenamiento (SSD)",
@@ -32677,7 +32677,7 @@ const PRODUCTS =
     {
         "id": 9923,
         "ref": "364472",
-        "brand": "SSD",
+        "brand": "PATRIOT",
         "title_orig": "SSD 2.5   128GB PATRIOT P210 P210S128G25 450/350",
         "title": "SSD 2.5   128GB PATRIOT P210 P210S128G25 450/350",
         "category": "Almacenamiento (SSD)",
@@ -32715,7 +32715,7 @@ const PRODUCTS =
     {
         "id": 9925,
         "ref": "330533",
-        "brand": "PEN",
+        "brand": "KINGSTON",
         "title_orig": "PEN DRIVE 128GB KINGSTON DTSE9G3/128GB SE9 G3 3.2 DATATRAVELER GOLD",
         "title": "PEN DRIVE 128GB KINGSTON DTSE9G3/128GB SE9 G3 3.2 DATATRAVELER GOLD",
         "category": "Almacenamiento (SSD)",
@@ -32825,7 +32825,7 @@ const PRODUCTS =
     {
         "id": 9931,
         "ref": "354482",
-        "brand": "CARTAO",
+        "brand": "KEEPDATA",
         "title_orig": "CARTAO MICROSD 64GB KEEPDATA NEOX V30 A1 C10 KDMSDC10U3V30A1 /64",
         "title": "CARTAO MICROSD 64GB KEEPDATA NEOX V30 A1 C10 KDMSDC10U3V30A1 /64",
         "category": "Almacenamiento (SSD)",
@@ -32843,7 +32843,7 @@ const PRODUCTS =
     {
         "id": 9932,
         "ref": "363203",
-        "brand": "SSD",
+        "brand": "PATRIOT",
         "title_orig": "SSD 2.5   120GB PATRIOT PBE120GS25SSDR 450/320 MB",
         "title": "SSD 2.5   120GB PATRIOT PBE120GS25SSDR 450/320 MB",
         "category": "Almacenamiento (SSD)",
@@ -32917,7 +32917,7 @@ const PRODUCTS =
     {
         "id": 9936,
         "ref": "354517",
-        "brand": "CARTAO",
+        "brand": "KEEPDATA",
         "title_orig": "CARTAO MICROSD 256GB KEEPDATA RUSH V30 A2 C10 KDMSDC10U3V30A2 /256G",
         "title": "CARTAO MICROSD 256GB KEEPDATA RUSH V30 A2 C10 KDMSDC10U3V30A2 /256G",
         "category": "Almacenamiento (SSD)",
@@ -33067,7 +33067,7 @@ const PRODUCTS =
     {
         "id": 9944,
         "ref": "371650",
-        "brand": "SSD",
+        "brand": "PATRIOT",
         "title_orig": "SSD EXT  1TB PATRIOT PDP31 USB-C PDP311TB23UCK",
         "title": "SSD EXT  1TB PATRIOT PDP31 USB-C PDP311TB23UCK",
         "category": "Almacenamiento (SSD)",
@@ -33179,7 +33179,7 @@ const PRODUCTS =
     {
         "id": 9950,
         "ref": "365025",
-        "brand": "SSD",
+        "brand": "PATRIOT",
         "title_orig": "SSD 2.5   240GB PATRIOT PBE240GS25SSDR 450/320 MBS",
         "title": "SSD 2.5   240GB PATRIOT PBE240GS25SSDR 450/320 MBS",
         "category": "Almacenamiento (SSD)",
@@ -33480,7 +33480,7 @@ const PRODUCTS =
     {
         "id": 9966,
         "ref": "385532",
-        "brand": "CARTAO",
+        "brand": "KINGSTON",
         "title_orig": "CARTAO MICROSD 128GB KINGSTON 150MB/S SDCS3/128GB SDCS3/128GB CANVAS PLUS",
         "title": "CARTAO MICROSD 128GB KINGSTON 150MB/S SDCS3/128GB SDCS3/128GB CANVAS PLUS",
         "category": "Almacenamiento (SSD)",
@@ -33498,7 +33498,7 @@ const PRODUCTS =
     {
         "id": 9967,
         "ref": "379603",
-        "brand": "SSD",
+        "brand": "PATRIOT",
         "title_orig": "SSD EXT 500GB PATRIOT PDP31 PDP31500G23UCK",
         "title": "SSD EXT 500GB PATRIOT PDP31 PDP31500G23UCK",
         "category": "Almacenamiento (SSD)",
@@ -33554,7 +33554,7 @@ const PRODUCTS =
     {
         "id": 9970,
         "ref": "380617",
-        "brand": "SSD",
+        "brand": "BIOSTAR",
         "title_orig": "SSD 2.5 512GB BIOSTAR S180 6GB/S 2.5",
         "title": "SSD 2.5 512GB BIOSTAR S180 6GB/S 2.5",
         "category": "Almacenamiento (SSD)",
@@ -33574,7 +33574,7 @@ const PRODUCTS =
     {
         "id": 9971,
         "ref": "385049",
-        "brand": "SSD",
+        "brand": "KINGSTON",
         "title_orig": "SSD M.2 4TB NVME KINGSTON SKC3000D/4096G 7000 SKC3000D/4096G PCIE4.0",
         "title": "SSD M.2 4TB NVME KINGSTON SKC3000D/4096G 7000 SKC3000D/4096G PCIE4.0",
         "category": "Almacenamiento (SSD)",
@@ -33596,7 +33596,7 @@ const PRODUCTS =
     {
         "id": 9972,
         "ref": "382652",
-        "brand": "SSD",
+        "brand": "PATRIOT",
         "title_orig": "SSD 2.5  1TB PATRIOT P220 P220S1TB25 550/490 MB/S",
         "title": "SSD 2.5  1TB PATRIOT P220 P220S1TB25 550/490 MB/S",
         "category": "Almacenamiento (SSD)",
@@ -33655,7 +33655,7 @@ const PRODUCTS =
     {
         "id": 9975,
         "ref": "380795",
-        "brand": "SSD",
+        "brand": "PATRIOT",
         "title_orig": "SSD 2.5   480GB PATRIOT PBE480GS25SSDR 450/320 MBS",
         "title": "SSD 2.5   480GB PATRIOT PBE480GS25SSDR 450/320 MBS",
         "category": "Almacenamiento (SSD)",
@@ -33675,7 +33675,7 @@ const PRODUCTS =
     {
         "id": 9976,
         "ref": "382797",
-        "brand": "SSD",
+        "brand": "PATRIOT",
         "title_orig": "SSD M.2   256GB PATRIOT P320 2280 NVME 2200/1200MB P320P256GM28 GEN3X4",
         "title": "SSD M.2   256GB PATRIOT P320 2280 NVME 2200/1200MB P320P256GM28 GEN3X4",
         "category": "Almacenamiento (SSD)",
@@ -33697,7 +33697,7 @@ const PRODUCTS =
     {
         "id": 9977,
         "ref": "382551",
-        "brand": "SSD",
+        "brand": "PATRIOT",
         "title_orig": "SSD 2.5  1TB PATRIOT P210 SATA P210S1TB25 520/430M",
         "title": "SSD 2.5  1TB PATRIOT P210 SATA P210S1TB25 520/430M",
         "category": "Almacenamiento (SSD)",
@@ -33735,7 +33735,7 @@ const PRODUCTS =
     {
         "id": 9979,
         "ref": "313196",
-        "brand": "SSD",
+        "brand": "KINGSTON",
         "title_orig": "SSD EXT 2TB KINGSTON SXS1000/2000G 1050/1000 MB/S",
         "title": "SSD EXT 2TB KINGSTON SXS1000/2000G 1050/1000 MB/S",
         "category": "Almacenamiento (SSD)",
@@ -33890,7 +33890,7 @@ const PRODUCTS =
     {
         "id": 9987,
         "ref": "391180",
-        "brand": "PEN",
+        "brand": "KINGSTON",
         "title_orig": "PEN DRIVE 64GB KINGSTON DTX/64GB EXODIA 3.2",
         "title": "PEN DRIVE 64GB KINGSTON DTX/64GB EXODIA 3.2",
         "category": "Almacenamiento (SSD)",
@@ -34000,7 +34000,7 @@ const PRODUCTS =
     {
         "id": 9993,
         "ref": "396152",
-        "brand": "PEN",
+        "brand": "KINGSTON",
         "title_orig": "PEN DRIVE 128GB KINGSTON EXODIA 3.2 KC-U2G128-5R WHITE/YELLOW",
         "title": "PEN DRIVE 128GB KINGSTON EXODIA 3.2 KC-U2G128-5R WHITE/YELLOW",
         "category": "Almacenamiento (SSD)",
@@ -34072,7 +34072,7 @@ const PRODUCTS =
     {
         "id": 9997,
         "ref": "396220",
-        "brand": "PEN",
+        "brand": "KINGSTON",
         "title_orig": "PEN DRIVE 128GB KINGSTON DTXG2/128GB EXODIA USB3.2",
         "title": "PEN DRIVE 128GB KINGSTON DTXG2/128GB EXODIA USB3.2",
         "category": "Almacenamiento (SSD)",
@@ -34090,7 +34090,7 @@ const PRODUCTS =
     {
         "id": 9998,
         "ref": "396209",
-        "brand": "PEN",
+        "brand": "KINGSTON",
         "title_orig": "PEN DRIVE 512GB KINGSTON DTXS/512GB EXODIA USB 3.2 DTXS/512GB",
         "title": "PEN DRIVE 512GB KINGSTON DTXS/512GB EXODIA USB 3.2 DTXS/512GB",
         "category": "Almacenamiento (SSD)",
@@ -34126,7 +34126,7 @@ const PRODUCTS =
     {
         "id": 10000,
         "ref": "395768",
-        "brand": "PEN",
+        "brand": "PATRIOT",
         "title_orig": "PEN DRIVE 1TB PATRIOT RAGE R550 UBS 3.2 GEN 1 PFE00149-PE1TR5 50DSAD",
         "title": "PEN DRIVE 1TB PATRIOT RAGE R550 UBS 3.2 GEN 1 PFE00149-PE1TR5 50DSAD",
         "category": "Almacenamiento (SSD)",
@@ -34144,7 +34144,7 @@ const PRODUCTS =
     {
         "id": 10001,
         "ref": "395779",
-        "brand": "PEN",
+        "brand": "PATRIOT",
         "title_orig": "PEN DRIVE 1TB PATRIOT XPORTER CORE TYPE A USB3.2 9FS00360-PSF1TB XRB3U",
         "title": "PEN DRIVE 1TB PATRIOT XPORTER CORE TYPE A USB3.2 9FS00360-PSF1TB XRB3U",
         "category": "Almacenamiento (SSD)",
@@ -34162,7 +34162,7 @@ const PRODUCTS =
     {
         "id": 10002,
         "ref": "396130",
-        "brand": "PEN",
+        "brand": "KINGSTON",
         "title_orig": "PEN DRIVE 512GB KINGSTON DTKN/512GB KYSON USB 3.2 Plata 200MB/S",
         "title": "PEN DRIVE 512GB KINGSTON DTKN/512GB KYSON USB 3.2 Plata 200MB/S",
         "category": "Almacenamiento (SSD)",
@@ -34182,7 +34182,7 @@ const PRODUCTS =
     {
         "id": 10003,
         "ref": "396141",
-        "brand": "PEN",
+        "brand": "KINGSTON",
         "title_orig": "PEN DRIVE 512GB KINGSTON EXO DTXG2/512GB USB 3.2 EXODIA",
         "title": "PEN DRIVE 512GB KINGSTON EXO DTXG2/512GB USB 3.2 EXODIA",
         "category": "Almacenamiento (SSD)",
@@ -34200,7 +34200,7 @@ const PRODUCTS =
     {
         "id": 10004,
         "ref": "396196",
-        "brand": "PEN",
+        "brand": "KINGSTON",
         "title_orig": "PEN DRIVE 512GB KINGSTON DTSE9G3/512GB USB 3.2 220MB/S",
         "title": "PEN DRIVE 512GB KINGSTON DTSE9G3/512GB USB 3.2 220MB/S",
         "category": "Almacenamiento (SSD)",
@@ -35623,7 +35623,7 @@ const PRODUCTS =
     {
         "id": 10079,
         "ref": "356585",
-        "brand": "TV",
+        "brand": "JVC",
         "title_orig": "TV 65 JVC LT-65KM958 QDMINI-/ATMOS2.0",
         "title": "TV 65 JVC LT-65KM958 QDMINI-/ATMOS2.0",
         "category": "Televisores",
@@ -35796,7 +35796,7 @@ const PRODUCTS =
     {
         "id": 10088,
         "ref": "345651",
-        "brand": "TV",
+        "brand": "JVC",
         "title_orig": "TV 32 JVC LT-32N3165U FHD/DIG/BT/HDMI/2USB Negro",
         "title": "TV 32 JVC LT-32N3165U FHD/DIG/BT/HDMI/2USB Negro",
         "category": "Televisores",
@@ -35974,7 +35974,7 @@ const PRODUCTS =
     {
         "id": 10097,
         "ref": "327348",
-        "brand": "TV",
+        "brand": "JVC",
         "title_orig": "TV 65 JVC LT-65KM748 QLED/SMART/HDMI/GOOGLE/4K/USB",
         "title": "TV 65 JVC LT-65KM748 QLED/SMART/HDMI/GOOGLE/4K/USB",
         "category": "Televisores",
@@ -36032,7 +36032,7 @@ const PRODUCTS =
     {
         "id": 10100,
         "ref": "356530",
-        "brand": "TV",
+        "brand": "JVC",
         "title_orig": "TV 50 JVC LT-50KM758 QLED/SMART/GOOGLE/4K Negro",
         "title": "TV 50 JVC LT-50KM758 QLED/SMART/GOOGLE/4K Negro",
         "category": "Televisores",
@@ -36073,7 +36073,7 @@ const PRODUCTS =
     {
         "id": 10102,
         "ref": "357217",
-        "brand": "TV",
+        "brand": "JVC",
         "title_orig": "TV 43 JVC LT-43N5165U FHD/DIGITAL/BT/2USB",
         "title": "TV 43 JVC LT-43N5165U FHD/DIGITAL/BT/2USB",
         "category": "Televisores",
@@ -36176,7 +36176,7 @@ const PRODUCTS =
     {
         "id": 10107,
         "ref": "370447",
-        "brand": "TV",
+        "brand": "JVC",
         "title_orig": "TV 40 JVC LT-40KB758 QLED/SMART/HD/GOOGLE",
         "title": "TV 40 JVC LT-40KB758 QLED/SMART/HD/GOOGLE",
         "category": "Televisores",
@@ -36235,7 +36235,7 @@ const PRODUCTS =
     {
         "id": 10110,
         "ref": "356519",
-        "brand": "TV",
+        "brand": "JVC",
         "title_orig": "TV 43 JVC LT-43KM358 FHD/SMART/GOOGLE/BT Negro",
         "title": "TV 43 JVC LT-43KM358 FHD/SMART/GOOGLE/BT Negro",
         "category": "Televisores",
@@ -36256,7 +36256,7 @@ const PRODUCTS =
     {
         "id": 10111,
         "ref": "376082",
-        "brand": "TV",
+        "brand": "JVC",
         "title_orig": "TV 85 JVC LT-85KM958 4K/GOOGLE/UHD Negro",
         "title": "TV 85 JVC LT-85KM958 4K/GOOGLE/UHD Negro",
         "category": "Televisores",
@@ -36477,7 +36477,7 @@ const PRODUCTS =
     {
         "id": 10122,
         "ref": "376093",
-        "brand": "TV",
+        "brand": "JVC",
         "title_orig": "TV 100 JVC LT-100KM958 4K/SMART QDMINI/ATMOS 2.1",
         "title": "TV 100 JVC LT-100KM958 4K/SMART QDMINI/ATMOS 2.1",
         "category": "Televisores",
@@ -36784,7 +36784,7 @@ const PRODUCTS =
     {
         "id": 10137,
         "ref": "393474",
-        "brand": "TV",
+        "brand": "JVC",
         "title_orig": "TV 50 JVC LT-50KM4584 FHD/SMART/GOOGLE/BT/WIFI",
         "title": "TV 50 JVC LT-50KM4584 FHD/SMART/GOOGLE/BT/WIFI",
         "category": "Televisores",
@@ -36845,7 +36845,7 @@ const PRODUCTS =
     {
         "id": 10140,
         "ref": "394734",
-        "brand": "TV",
+        "brand": "JVC",
         "title_orig": "TV 50 JVC LT-50NQ7165U 4K/UHD/QLED/DIG/BT/WHALE OS",
         "title": "TV 50 JVC LT-50NQ7165U 4K/UHD/QLED/DIG/BT/WHALE OS",
         "category": "Televisores",
@@ -37285,7 +37285,7 @@ const PRODUCTS =
     {
         "id": 10164,
         "ref": "356126",
-        "brand": "RELOGIO",
+        "brand": "APPLE",
         "title_orig": "Relogio Apple Watch SE 3 40MM MEH34LW/A Aluminio Starlight (2025) - Sport Band S/M",
         "title": "Relogio Apple Watch SE 3 40MM MEH34LW/A Aluminio Starlight (2025) - Sport Band S/M",
         "category": "Relojes Mi Band",
@@ -38429,7 +38429,7 @@ const PRODUCTS =
     {
         "id": 10227,
         "ref": "308134",
-        "brand": "UP GAMER",
+        "brand": "INTEL",
         "title_orig": "PC MONTADO UP GAMER LIGHT INTEL CORE I3 3220 3 3GHZ 8GB DDR3 1600MHZ SSD 240GB PLACA MAE H61M FONTE 230W COOLER PROCESSADOR",
         "title": "PC MONTADO UP GAMER LIGHT INTEL CORE I3 3220 3 3GHZ 8GB DDR3 1600MHZ SSD 240GB PLACA MAE H61M FONTE 230W COOLER PROCESSADOR",
         "category": "Fuentes de Poder",
@@ -38589,7 +38589,7 @@ const PRODUCTS =
     {
         "id": 10235,
         "ref": "324020",
-        "brand": "AMD",
+        "brand": "HP",
         "title_orig": "NOTEBOOK HP VICTUS 15 FB3093DX AMD RYZEN 7 7445HS 3 20GHZ 4 70GHZ 16GB RAM 512GB SSD TELA 15 6 FULL HD 1920 X 1080 IPS 144HZ GEFORCE RTX4050 6GB WINDOWS 11 HOME ETHERNET RJ 45 INGLES PRETO",
         "title": "NOTEBOOK HP VICTUS 15 FB3093DX AMD RYZEN 7 7445HS 3 20GHZ 4 70GHZ 16GB RAM 512GB SSD TELA 15 6 FULL HD 1920 X 1080 IPS 144HZ GEFORCE RTX4050 6GB WINDOWS 11 HOME ETHERNET RJ 45 INGLES Negro",
         "category": "Notebooks",
@@ -38929,7 +38929,7 @@ const PRODUCTS =
     {
         "id": 10252,
         "ref": "268128",
-        "brand": "UP GAMER",
+        "brand": "INTEL",
         "title_orig": "PC GAMER MONTADO UP GAMER CRONOS INTEL CORE I5 4590 3 3GHZ 8GB DDR3 1600MHZ SSD 240GB 2 5 PLACA MAE H81M FONTE 400W PLUS BRONZE COOLER PROCESSADOR",
         "title": "PC GAMER MONTADO UP GAMER CRONOS INTEL CORE I5 4590 3 3GHZ 8GB DDR3 1600MHZ SSD 240GB 2 5 PLACA MAE H81M FONTE 400W PLUS BRONZE COOLER PROCESSADOR",
         "category": "Fuentes de Poder",
@@ -38949,7 +38949,7 @@ const PRODUCTS =
     {
         "id": 10253,
         "ref": "277802",
-        "brand": "UP GAMER",
+        "brand": "INTEL",
         "title_orig": "PC GAMER MONTADO UP GAMER AQUARIUS INTEL CORE I7 4770 3 4GHZ GTX1660TI 6GB GAINWARD GHOST 16GB DDR3 1600MHZ SSD 480GB 2 5 PLACA MAE H81M FONTE 600W PLUS BRONZE WATER COOLER 120MM TECLADO MOUSE MOUSEPA",
         "title": "PC GAMER MONTADO UP GAMER AQUARIUS INTEL CORE I7 4770 3 4GHZ GTX1660TI 6GB GAINWARD GHOST 16GB DDR3 1600MHZ SSD 480GB 2 5 PLACA MAE H81M FONTE 600W PLUS BRONZE WATER COOLER 120MM TECLADO MOUSE MOUSEPA",
         "category": "Tarjetas de Video",
@@ -38989,7 +38989,7 @@ const PRODUCTS =
     {
         "id": 10255,
         "ref": "268150",
-        "brand": "UP GAMER",
+        "brand": "INTEL",
         "title_orig": "PC OFFICE MONTADO UP GAMER PRIME INTEL CORE I3 4130 3 4GHZ 8GB DDR3 1600MHZ SSD 120GB 2 5 PLACA MAE H81M FONTE 200W COOLER PROCESSADOR",
         "title": "PC OFFICE MONTADO UP GAMER PRIME INTEL CORE I3 4130 3 4GHZ 8GB DDR3 1600MHZ SSD 120GB 2 5 PLACA MAE H81M FONTE 200W COOLER PROCESSADOR",
         "category": "Fuentes de Poder",
@@ -39009,7 +39009,7 @@ const PRODUCTS =
     {
         "id": 10256,
         "ref": "268139",
-        "brand": "UP GAMER",
+        "brand": "INTEL",
         "title_orig": "PC GAMER MONTADO UP GAMER VORTEX INTEL CORE I7 4770 3 4GHZ GTX750TI 4GB 16GB DDR3 1600MHZ SSD M 2 256GB NVME PLACA MAE H81M FONTE 400W 80 PLUS BRONZE WATER COOLER 120MM KIT 5 FANS",
         "title": "PC GAMER MONTADO UP GAMER VORTEX INTEL CORE I7 4770 3 4GHZ GTX750TI 4GB 16GB DDR3 1600MHZ SSD M 2 256GB NVME PLACA MAE H81M FONTE 400W 80 PLUS BRONZE WATER COOLER 120MM KIT 5 FANS",
         "category": "Tarjetas de Video",
@@ -39029,7 +39029,7 @@ const PRODUCTS =
     {
         "id": 10257,
         "ref": "305020",
-        "brand": "UP GAMER",
+        "brand": "INTEL",
         "title_orig": "PC MONTADO UP GAMER BUMBLEBEE INTEL CORE I5 3470 3 6GHZ 16GB DDR3 1600MHZ SSD 240GB PLACA MAE H61M FONTE 200W COOLER PROCESSADOR",
         "title": "PC MONTADO UP GAMER BUMBLEBEE INTEL CORE I5 3470 3 6GHZ 16GB DDR3 1600MHZ SSD 240GB PLACA MAE H61M FONTE 200W COOLER PROCESSADOR",
         "category": "Fuentes de Poder",
@@ -39049,7 +39049,7 @@ const PRODUCTS =
     {
         "id": 10258,
         "ref": "282673",
-        "brand": "UP GAMER",
+        "brand": "INTEL",
         "title_orig": "PC GAMER MONTADO UP GAMER RX INTEL CORE I3 6100 3 7GHZ RX580 8GB 16GB DDR4 2666MHZ SSD NVME 512GB PLACA MAE H110M FONTE 400W 80 PLUS BRONZE WATER COOLER ARGB 120MM GABINETE AQUARIUS  282673",
         "title": "PC GAMER MONTADO UP GAMER RX INTEL CORE I3 6100 3 7GHZ RX580 8GB 16GB DDR4 2666MHZ SSD NVME 512GB PLACA MAE H110M FONTE 400W 80 PLUS BRONZE WATER COOLER ARGB 120MM GABINETE AQUARIUS  282673",
         "category": "Memorias RAM",
@@ -39169,7 +39169,7 @@ const PRODUCTS =
     {
         "id": 10264,
         "ref": "356104",
-        "brand": "UP GAMER",
+        "brand": "INTEL",
         "title_orig": "PC MONTADO UP GAMER CRONOS INTEL CORE I7 2600 3 8GHZ 16GB DDR3 1600MHZ SSD 480GB PLACA MAE B75M PLACA DE VIDEO GT740 2GB FONTE 400W COOLER PROCESSADOR TECLADO MOUSE FANS ARGB  356104",
         "title": "PC MONTADO UP GAMER CRONOS INTEL CORE I7 2600 3 8GHZ 16GB DDR3 1600MHZ SSD 480GB PLACA MAE B75M PLACA DE VIDEO GT740 2GB FONTE 400W COOLER PROCESSADOR TECLADO MOUSE FANS ARGB  356104",
         "category": "Tarjetas de Video",
@@ -39189,7 +39189,7 @@ const PRODUCTS =
     {
         "id": 10265,
         "ref": "315872",
-        "brand": "UP GAMER",
+        "brand": "INTEL",
         "title_orig": "PC MONTADO UP GAMER VORTEX INTEL CORE I7 2600 3 60GHZ GT730 4GB RAM 16GB DDR3 1600MHZ SSD 480GB 2 5 PLACA MAE H61 FONTE 400W 4X FANS ARGB COOLER PROCESSADOR",
         "title": "PC MONTADO UP GAMER VORTEX INTEL CORE I7 2600 3 60GHZ GT730 4GB RAM 16GB DDR3 1600MHZ SSD 480GB 2 5 PLACA MAE H61 FONTE 400W 4X FANS ARGB COOLER PROCESSADOR",
         "category": "Fuentes de Poder",
@@ -39269,7 +39269,7 @@ const PRODUCTS =
     {
         "id": 10269,
         "ref": "315883",
-        "brand": "UP GAMER",
+        "brand": "INTEL",
         "title_orig": "PC MONTADO UP GAMER VORTEX INTEL CORE I5 3570 3 80GHZ GT730 4GB RAM 16GB DDR3 1600MHZ SSD 480GB 2 5 PLACA MAE H61 FONTE 200W 4X FANS ARGB COOLER PROCESSADOR",
         "title": "PC MONTADO UP GAMER VORTEX INTEL CORE I5 3570 3 80GHZ GT730 4GB RAM 16GB DDR3 1600MHZ SSD 480GB 2 5 PLACA MAE H61 FONTE 200W 4X FANS ARGB COOLER PROCESSADOR",
         "category": "Fuentes de Poder",
@@ -39289,7 +39289,7 @@ const PRODUCTS =
     {
         "id": 10270,
         "ref": "315894",
-        "brand": "UP GAMER",
+        "brand": "INTEL",
         "title_orig": "PC MONTADO UP GAMER VORTEX INTEL CORE I3 9100F 3 60GHZ GT730 4GB RAM 16GB DDR3 2666MHZ SSD 480GB 2 5 PLACA MAE H310 FONTE 400W 4X FANS ARGB COOLER PROCESSADOR",
         "title": "PC MONTADO UP GAMER VORTEX INTEL CORE I3 9100F 3 60GHZ GT730 4GB RAM 16GB DDR3 2666MHZ SSD 480GB 2 5 PLACA MAE H310 FONTE 400W 4X FANS ARGB COOLER PROCESSADOR",
         "category": "Fuentes de Poder",
@@ -39349,7 +39349,7 @@ const PRODUCTS =
     {
         "id": 10273,
         "ref": "355281",
-        "brand": "UP GAMER",
+        "brand": "INTEL",
         "title_orig": "PC OFFICE MONTADO UP GAMER INTEL CORE I7 2600 3 8GHZ 8GB DDR3 1600MHZ SSD 240GB PLACA MAE B75M FONTE 200W COOLER PROCESSADOR  355281",
         "title": "PC OFFICE MONTADO UP GAMER INTEL CORE I7 2600 3 8GHZ 8GB DDR3 1600MHZ SSD 240GB PLACA MAE B75M FONTE 200W COOLER PROCESSADOR  355281",
         "category": "Fuentes de Poder",
@@ -39369,7 +39369,7 @@ const PRODUCTS =
     {
         "id": 10274,
         "ref": "355753",
-        "brand": "UP GAMER",
+        "brand": "INTEL",
         "title_orig": "PC OFFICE MONTADO UP GAMER INTEL CORE I7 2600 3 8GHZ 16GB DDR3 1600MHZ SSD 480GB PLACA MAE B75M COOLER PROCESSADOR TECLADO MOUSE",
         "title": "PC OFFICE MONTADO UP GAMER INTEL CORE I7 2600 3 8GHZ 16GB DDR3 1600MHZ SSD 480GB PLACA MAE B75M COOLER PROCESSADOR TECLADO MOUSE",
         "category": "Procesadores",
@@ -39389,7 +39389,7 @@ const PRODUCTS =
     {
         "id": 10275,
         "ref": "356091",
-        "brand": "UP GAMER",
+        "brand": "INTEL",
         "title_orig": "PC MONTADO UP GAMER CRONOS INTEL CORE I5 3570 3 8GHZ 16GB DDR3 1600MHZ SSD 480GB PLACA MAE B75M PLACA DE VIDEO GT740 2GB FONTE 400W COOLER PROCESSADOR TECLADO MOUSE FANS ARGB",
         "title": "PC MONTADO UP GAMER CRONOS INTEL CORE I5 3570 3 8GHZ 16GB DDR3 1600MHZ SSD 480GB PLACA MAE B75M PLACA DE VIDEO GT740 2GB FONTE 400W COOLER PROCESSADOR TECLADO MOUSE FANS ARGB",
         "category": "Tarjetas de Video",
@@ -39409,7 +39409,7 @@ const PRODUCTS =
     {
         "id": 10276,
         "ref": "207334",
-        "brand": "UP GAMER",
+        "brand": "INTEL",
         "title_orig": "PC GAMER MONTADO UP GAMER CRONOS INTEL CORE I5 4590 3 3GHZ 8GB DDR3 1600MHZ SSD 240B 2 5 PLACA MAE H81M FONTE 200W COOLER PROCESSADOR  207334",
         "title": "PC GAMER MONTADO UP GAMER CRONOS INTEL CORE I5 4590 3 3GHZ 8GB DDR3 1600MHZ SSD 240B 2 5 PLACA MAE H81M FONTE 200W COOLER PROCESSADOR  207334",
         "category": "Fuentes de Poder",
@@ -39449,7 +39449,7 @@ const PRODUCTS =
     {
         "id": 10278,
         "ref": "348408",
-        "brand": "INTEL",
+        "brand": "LENOVO",
         "title_orig": "DESKTOP ALL IN ONE LENOVO F0HN005CUS INTEL CORE I5 13420H 3 40HZ 4 60GHZ 8GB RAM 512GB SSD TELA 23 8 TOUCH FULL HD 1920 X 1080 IPS WINDOWS 11 HOME INGLES LUNA CINZA  348408",
         "title": "DESKTOP ALL IN ONE LENOVO F0HN005CUS INTEL CORE I5 13420H 3 40HZ 4 60GHZ 8GB RAM 512GB SSD TELA 23 8 TOUCH FULL HD 1920 X 1080 IPS WINDOWS 11 HOME INGLES LUNA Gris  348408",
         "category": "Procesadores",
@@ -39489,7 +39489,7 @@ const PRODUCTS =
     {
         "id": 10280,
         "ref": "302802",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "APPLE IMAC 2024 A3247 M4 TELA 24 IPS 4 5K 16GB RAM 256GB SSD MWUF3LL A AZUL",
         "title": "APPLE IMAC 2024 A3247 M4 TELA 24 IPS 4 5K 16GB RAM 256GB SSD MWUF3LL A Azul",
         "category": "Almacenamiento (SSD)",
@@ -39589,7 +39589,7 @@ const PRODUCTS =
     {
         "id": 10285,
         "ref": "275126",
-        "brand": "INTEL",
+        "brand": "HP",
         "title_orig": "DESKTOP ALL IN ONE HP 27 CR0000 INTEL CORE I7 1355U 1 7GHZ 5 00GHZ 8GB RAM 1TB SSD TELA 27 FULL HD IPS WINDOWS 11 HOME INGLES PRETO",
         "title": "DESKTOP ALL IN ONE HP 27 CR0000 INTEL CORE I7 1355U 1 7GHZ 5 00GHZ 8GB RAM 1TB SSD TELA 27 FULL HD IPS WINDOWS 11 HOME INGLES Negro",
         "category": "Procesadores",
@@ -39829,7 +39829,7 @@ const PRODUCTS =
     {
         "id": 10297,
         "ref": "282640",
-        "brand": "AMD",
+        "brand": "ACER",
         "title_orig": "ALL IN ONE ACER AZ1220 ND30 AMD E1 1 4 4G 1TB 20 1 W8 USA PRETO",
         "title": "ALL IN ONE ACER AZ1220 ND30 AMD E1 1 4 4G 1TB 20 1 W8 USA Negro",
         "category": "Periféricos",
@@ -39889,7 +39889,7 @@ const PRODUCTS =
     {
         "id": 10300,
         "ref": "367824",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "APPLE IMAC M4 16 256GB 24  367824",
         "title": "APPLE IMAC M4 16 256GB 24  367824",
         "category": "Periféricos",
@@ -39909,7 +39909,7 @@ const PRODUCTS =
     {
         "id": 10301,
         "ref": "348373",
-        "brand": "INTEL",
+        "brand": "HP",
         "title_orig": "DESKTOP ALL IN ONE HP 24 CB1210 INTEL CORE I5 1235U 1 30GHZ 4 40GHZ 8GB RAM 256GB SSD TELA 23 8 FULL HD 1920 X 1080 IPS WINDOWS 11 HOME INGLES BRANCO",
         "title": "DESKTOP ALL IN ONE HP 24 CB1210 INTEL CORE I5 1235U 1 30GHZ 4 40GHZ 8GB RAM 256GB SSD TELA 23 8 FULL HD 1920 X 1080 IPS WINDOWS 11 HOME INGLES Blanco",
         "category": "Procesadores",
@@ -39929,7 +39929,7 @@ const PRODUCTS =
     {
         "id": 10302,
         "ref": "344314",
-        "brand": "AMD",
+        "brand": "HP",
         "title_orig": "DESKTOP ALL IN ONE HP 24 CR0337C AMD RYZEN 5 7520U 2 80HZ 4 30GHZ 16GB RAM 1TB SSD TELA 23 8 TOUCH FULL HD 1920 X 1080 IPS WINDOWS 11 HOME INGLES BRANCO",
         "title": "DESKTOP ALL IN ONE HP 24 CR0337C AMD RYZEN 5 7520U 2 80HZ 4 30GHZ 16GB RAM 1TB SSD TELA 23 8 TOUCH FULL HD 1920 X 1080 IPS WINDOWS 11 HOME INGLES Blanco",
         "category": "Procesadores",
@@ -40249,7 +40249,7 @@ const PRODUCTS =
     {
         "id": 10318,
         "ref": "383811",
-        "brand": "INTEL",
+        "brand": "HP",
         "title_orig": "MINI PC HP PRO MINI 260 G9 INTEL CORE I5 1334U 1 30GHZ 4 60GHZ 8GB RAM 512GB SSD FREEDOS TECLADO MOUSE",
         "title": "MINI PC HP PRO MINI 260 G9 INTEL CORE I5 1334U 1 30GHZ 4 60GHZ 8GB RAM 512GB SSD FREEDOS TECLADO MOUSE",
         "category": "Procesadores",
@@ -40349,7 +40349,7 @@ const PRODUCTS =
     {
         "id": 10323,
         "ref": "391406",
-        "brand": "INTEL",
+        "brand": "ACER",
         "title_orig": "MINI PC ACER VERITON VN2590G PEC741 INTEL CELERON 7305 1 1GHZ 4GB RAM 128GB UFS FREEDOS",
         "title": "MINI PC ACER VERITON VN2590G PEC741 INTEL CELERON 7305 1 1GHZ 4GB RAM 128GB UFS FREEDOS",
         "category": "Periféricos",
@@ -46949,7 +46949,7 @@ const PRODUCTS =
     {
         "id": 10653,
         "ref": "164189",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "IMPRESSORA EPSON SURECOLOR SC F170 SUBLIMACAO WIFI BIVOLT BRANCO",
         "title": "IMPRESSORA EPSON SURECOLOR SC F170 SUBLIMACAO WIFI BIVOLT Blanco",
         "category": "Periféricos",
@@ -50169,7 +50169,7 @@ const PRODUCTS =
     {
         "id": 10814,
         "ref": "230464",
-        "brand": "ASROCK",
+        "brand": "AMD",
         "title_orig": "MB CPU ASROCK QC6000M AMD E2 6110 DDR3 VGA HDMI 230464",
         "title": "MB CPU ASROCK QC6000M AMD E2 6110 DDR3 VGA HDMI 230464",
         "category": "Tarjetas de Video",
@@ -50449,7 +50449,7 @@ const PRODUCTS =
     {
         "id": 10828,
         "ref": "370682",
-        "brand": "ASROCK",
+        "brand": "INTEL",
         "title_orig": "VGA B580 12GB ASROCK INTEL ARC CHALLENGER OC 90 GA5LZZ 00UAN Z",
         "title": "VGA B580 12GB ASROCK INTEL ARC CHALLENGER OC 90 GA5LZZ 00UAN Z",
         "category": "Tarjetas de Video",
@@ -51489,7 +51489,7 @@ const PRODUCTS =
     {
         "id": 10880,
         "ref": "178005",
-        "brand": "AMD",
+        "brand": "LG",
         "title_orig": "MONITOR GAMER LG 22MP410 B 21 5 FULL HD 75HZ 5MS HDMI VGA D SUB AMD FREESYNC PRETO",
         "title": "MONITOR GAMER LG 22MP410 B 21 5 FULL HD 75HZ 5MS HDMI VGA D SUB AMD FREESYNC Negro",
         "category": "Tarjetas de Video",
@@ -52069,7 +52069,7 @@ const PRODUCTS =
     {
         "id": 10909,
         "ref": "230880",
-        "brand": "AMD",
+        "brand": "DELL",
         "title_orig": "MONITOR DELL GAMING CURVO S2422HG 24 FULL HD 1920 X 1080 165HZ 4MS 2XHDMI 1XDISPLAYPORT 1 2 1XSAIDA PARA FONE DE OUVIDO AMD FREESYNC PREMIUM PRETO  230880",
         "title": "MONITOR DELL GAMING CURVO S2422HG 24 FULL HD 1920 X 1080 165HZ 4MS 2XHDMI 1XDISPLAYPORT 1 2 1XSAIDA PARA FONE DE OUVIDO AMD FREESYNC PREMIUM Negro  230880",
         "category": "Monitores",
@@ -54629,7 +54629,7 @@ const PRODUCTS =
     {
         "id": 11037,
         "ref": "237630",
-        "brand": "GENERIC",
+        "brand": "RAZER",
         "title_orig": "FONE RAZER BARRACUDA X WIRELESS RZ04 04430100 R3U1 237630",
         "title": "FONE RAZER BARRACUDA X WIRELESS RZ04 04430100 R3U1 237630",
         "category": "Periféricos",
@@ -54649,7 +54649,7 @@ const PRODUCTS =
     {
         "id": 11038,
         "ref": "72995",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "FONE LOGITECH G432 PRETO AZUL 981 000769",
         "title": "FONE LOGITECH G432 Negro Azul 981 000769",
         "category": "Periféricos",
@@ -54669,7 +54669,7 @@ const PRODUCTS =
     {
         "id": 11039,
         "ref": "220395",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "FONE BT JBL TUNE 770NC PURE BASS WHITE  220395",
         "title": "FONE BT JBL TUNE 770NC PURE BASS WHITE  220395",
         "category": "Periféricos",
@@ -54749,7 +54749,7 @@ const PRODUCTS =
     {
         "id": 11043,
         "ref": "144525",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "FONE LOGITECH G435 LIGHTSPEED 981 001061 WIRELE",
         "title": "FONE LOGITECH G435 LIGHTSPEED 981 001061 WIRELE",
         "category": "Periféricos",
@@ -54769,7 +54769,7 @@ const PRODUCTS =
     {
         "id": 11044,
         "ref": "239473",
-        "brand": "GENERIC",
+        "brand": "RAZER",
         "title_orig": "FONE RAZER KRAKEN KITTY V2 C MICR USB RGB QUARTZ RZ04 04730200 R 3U1 PINK  239473",
         "title": "FONE RAZER KRAKEN KITTY V2 C MICR USB RGB QUARTZ RZ04 04730200 R 3U1 PINK  239473",
         "category": "Periféricos",
@@ -54809,7 +54809,7 @@ const PRODUCTS =
     {
         "id": 11046,
         "ref": "310419",
-        "brand": "GENERIC",
+        "brand": "HYPERX",
         "title_orig": "FONE HYPERX CLOUD STINGER 2 C MIC 3 5MM BLACK 519T1AA",
         "title": "FONE HYPERX CLOUD STINGER 2 C MIC 3 5MM BLACK 519T1AA",
         "category": "Periféricos",
@@ -54829,7 +54829,7 @@ const PRODUCTS =
     {
         "id": 11047,
         "ref": "165932",
-        "brand": "GENERIC",
+        "brand": "RAZER",
         "title_orig": "FONE RAZER BLACKSHARK V2 X RZ04 03240700 R3U1 WHT WHITE BRANCO",
         "title": "FONE RAZER BLACKSHARK V2 X RZ04 03240700 R3U1 WHT WHITE Blanco",
         "category": "Periféricos",
@@ -54929,7 +54929,7 @@ const PRODUCTS =
     {
         "id": 11052,
         "ref": "239484",
-        "brand": "GENERIC",
+        "brand": "RAZER",
         "title_orig": "FONE RAZER KRAKEN KITTY V2 BLUETOOTH RGB QUARTZ ED 239484",
         "title": "FONE RAZER KRAKEN KITTY V2 BLUETOOTH RGB QUARTZ ED 239484",
         "category": "Periféricos",
@@ -54969,7 +54969,7 @@ const PRODUCTS =
     {
         "id": 11054,
         "ref": "179151",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "FONE LOGITECH G535 LIGHTSPEED WIFI 981 000971 BLK 981 000971",
         "title": "FONE LOGITECH G535 LIGHTSPEED WIFI 981 000971 BLK 981 000971",
         "category": "Periféricos",
@@ -54989,7 +54989,7 @@ const PRODUCTS =
     {
         "id": 11055,
         "ref": "302879",
-        "brand": "GENERIC",
+        "brand": "RAZER",
         "title_orig": "FONE RAZER BLACKSHARK V2 HYPERSPEED RZ04 04960200 R3U1 WHITE WIRELESS",
         "title": "FONE RAZER BLACKSHARK V2 HYPERSPEED RZ04 04960200 R3U1 WHITE WIRELESS",
         "category": "Periféricos",
@@ -55029,7 +55029,7 @@ const PRODUCTS =
     {
         "id": 11057,
         "ref": "139720",
-        "brand": "GENERIC",
+        "brand": "RAZER",
         "title_orig": "FONE RAZER BLACKSHARK V2 X RZ04 03240600 R3U GREEN RZ04 03240600",
         "title": "FONE RAZER BLACKSHARK V2 X RZ04 03240600 R3U GREEN RZ04 03240600",
         "category": "Periféricos",
@@ -55049,7 +55049,7 @@ const PRODUCTS =
     {
         "id": 11058,
         "ref": "287094",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "FONE LOGITECH C MIC WILERESS ZONE 300 BT PRETO 981 001406",
         "title": "FONE LOGITECH C MIC WILERESS ZONE 300 BT Negro 981 001406",
         "category": "Periféricos",
@@ -55109,7 +55109,7 @@ const PRODUCTS =
     {
         "id": 11061,
         "ref": "166013",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "FONE P2 LOGITECH G335 981 001017 WHITE 981 001017  166013",
         "title": "FONE P2 LOGITECH G335 981 001017 WHITE 981 001017  166013",
         "category": "Periféricos",
@@ -55149,7 +55149,7 @@ const PRODUCTS =
     {
         "id": 11063,
         "ref": "293541",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "FONE LOGITECH ASTRO A10 GEN2 939 002046 3 5MM BLK BLACK  293541",
         "title": "FONE LOGITECH ASTRO A10 GEN2 939 002046 3 5MM BLK BLACK  293541",
         "category": "Periféricos",
@@ -55209,7 +55209,7 @@ const PRODUCTS =
     {
         "id": 11066,
         "ref": "203497",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "WEBCAM LOGITECH BRIO 300 FULL HD 960 001413 GRAFIT",
         "title": "WEBCAM LOGITECH BRIO 300 FULL HD 960 001413 GRAFIT",
         "category": "Periféricos",
@@ -55229,7 +55229,7 @@ const PRODUCTS =
     {
         "id": 11067,
         "ref": "50128",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "WEBCAM LOGITECH C930E BUSINESS RIGHLIGHT 1080P",
         "title": "WEBCAM LOGITECH C930E BUSINESS RIGHLIGHT 1080P",
         "category": "Periféricos",
@@ -55249,7 +55249,7 @@ const PRODUCTS =
     {
         "id": 11068,
         "ref": "203486",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "WEBCAM LOGITECH BRIO 300 FULL HD 960 001440 WHITE",
         "title": "WEBCAM LOGITECH BRIO 300 FULL HD 960 001440 WHITE",
         "category": "Periféricos",
@@ -55269,7 +55269,7 @@ const PRODUCTS =
     {
         "id": 11069,
         "ref": "273583",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "WEBCAM LOGITECH BRIO 105 1080P FULL HD USB C MICROFONE 960 001591 CINZA",
         "title": "WEBCAM LOGITECH BRIO 105 1080P FULL HD USB C MICROFONE 960 001591 Gris",
         "category": "Periféricos",
@@ -55289,7 +55289,7 @@ const PRODUCTS =
     {
         "id": 11070,
         "ref": "221273",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "WEBCAM LOGITECH BRIO 300 FULL HD 960 001446 PINK",
         "title": "WEBCAM LOGITECH BRIO 300 FULL HD 960 001446 PINK",
         "category": "Periféricos",
@@ -55329,7 +55329,7 @@ const PRODUCTS =
     {
         "id": 11072,
         "ref": "360659",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "WEBCAM LOGITECH VIDEO CONFERENCIA RALLY BAR HUDDLE 960 001509 GRAPHITE  360659",
         "title": "WEBCAM LOGITECH VIDEO CONFERENCIA RALLY BAR HUDDLE 960 001509 GRAPHITE  360659",
         "category": "Periféricos",
@@ -55349,7 +55349,7 @@ const PRODUCTS =
     {
         "id": 11073,
         "ref": "360648",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "WEBCAM LOGITECH MEETUP 2 4K GRAPHITE 960 001693 CAMERA CONFEREN CIA",
         "title": "WEBCAM LOGITECH MEETUP 2 4K GRAPHITE 960 001693 CAMERA CONFEREN CIA",
         "category": "Periféricos",
@@ -55369,7 +55369,7 @@ const PRODUCTS =
     {
         "id": 11074,
         "ref": "274786",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "WEBCAM LOGITECH MX BRIO 4K UHD GRAFITE 960 001548  274786",
         "title": "WEBCAM LOGITECH MX BRIO 4K UHD GRAFITE 960 001548  274786",
         "category": "Periféricos",
@@ -55389,7 +55389,7 @@ const PRODUCTS =
     {
         "id": 11075,
         "ref": "11013",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "WEBCAM LOGITECH C922 PRO HD STREAM FULL HD 1080P USB 960 001087  11013",
         "title": "WEBCAM LOGITECH C922 PRO HD STREAM FULL HD 1080P USB 960 001087  11013",
         "category": "Periféricos",
@@ -55409,7 +55409,7 @@ const PRODUCTS =
     {
         "id": 11076,
         "ref": "301834",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "WEBCAM LOGITECH BRIO MX 705 4K ULTRA HD 960 001529 960 001529",
         "title": "WEBCAM LOGITECH BRIO MX 705 4K ULTRA HD 960 001529 960 001529",
         "category": "Periféricos",
@@ -55449,7 +55449,7 @@ const PRODUCTS =
     {
         "id": 11078,
         "ref": "271671",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "WEBCAM LOGITECH BRIO 505 960 001515 GRAPHITE",
         "title": "WEBCAM LOGITECH BRIO 505 960 001515 GRAPHITE",
         "category": "Periféricos",
@@ -55489,7 +55489,7 @@ const PRODUCTS =
     {
         "id": 11080,
         "ref": "114880",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "WEBCAM LOGITECH C920E BUSINESS PRETO 960 001360  114880",
         "title": "WEBCAM LOGITECH C920E BUSINESS Negro 960 001360  114880",
         "category": "Periféricos",
@@ -55529,7 +55529,7 @@ const PRODUCTS =
     {
         "id": 11082,
         "ref": "221150",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "WEBCAM LOGITECH BRIO 100 FULL HD 960 001586 GRAFIT",
         "title": "WEBCAM LOGITECH BRIO 100 FULL HD 960 001586 GRAFIT",
         "category": "Periféricos",
@@ -55569,7 +55569,7 @@ const PRODUCTS =
     {
         "id": 11084,
         "ref": "190974",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "WEBCAM LOGITECH STREAMCAM PLUS FULL HD 960 001280  190974",
         "title": "WEBCAM LOGITECH STREAMCAM PLUS FULL HD 960 001280  190974",
         "category": "Periféricos",
@@ -55589,7 +55589,7 @@ const PRODUCTS =
     {
         "id": 11085,
         "ref": "42017",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "WEBCAM LOGITECH BCC950 1080P VIDEOCONFERENCIA 960 000866  42017",
         "title": "WEBCAM LOGITECH BCC950 1080P VIDEOCONFERENCIA 960 000866  42017",
         "category": "Periféricos",
@@ -55609,7 +55609,7 @@ const PRODUCTS =
     {
         "id": 11086,
         "ref": "220408",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "FONE BT JBL TUNE 770NC PURE BASS BLACK",
         "title": "FONE BT JBL TUNE 770NC PURE BASS BLACK",
         "category": "Periféricos",
@@ -55629,7 +55629,7 @@ const PRODUCTS =
     {
         "id": 11087,
         "ref": "35052",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "WEBCAM LOGITECH C925E 1080P 960 001075",
         "title": "WEBCAM LOGITECH C925E 1080P 960 001075",
         "category": "Periféricos",
@@ -55649,7 +55649,7 @@ const PRODUCTS =
     {
         "id": 11088,
         "ref": "151210",
-        "brand": "GENERIC",
+        "brand": "RAZER",
         "title_orig": "WEBCAM RAZER KIYO X RZ19 04170100 R3U1 USB FULL HD",
         "title": "WEBCAM RAZER KIYO X RZ19 04170100 R3U1 USB FULL HD",
         "category": "Periféricos",
@@ -55669,7 +55669,7 @@ const PRODUCTS =
     {
         "id": 11089,
         "ref": "190963",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "WEBCAM LOGITECH BRIO 500 960 001426 WHITE",
         "title": "WEBCAM LOGITECH BRIO 500 960 001426 WHITE",
         "category": "Periféricos",
@@ -55689,7 +55689,7 @@ const PRODUCTS =
     {
         "id": 11090,
         "ref": "32936",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "WEBCAM LOGITECH BRIO ULTRA HD PRO 4K 960 001105",
         "title": "WEBCAM LOGITECH BRIO ULTRA HD PRO 4K 960 001105",
         "category": "Periféricos",
@@ -55709,7 +55709,7 @@ const PRODUCTS =
     {
         "id": 11091,
         "ref": "276171",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "WEBCAM LOGITECH BRIO 305 960 001519 GRAPHITE 1080P",
         "title": "WEBCAM LOGITECH BRIO 305 960 001519 GRAPHITE 1080P",
         "category": "Periféricos",
@@ -55769,7 +55769,7 @@ const PRODUCTS =
     {
         "id": 11094,
         "ref": "190919",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "WEBCAM LOGITECH BRIO 500 FHD 960 001412 PRETO",
         "title": "WEBCAM LOGITECH BRIO 500 FHD 960 001412 Negro",
         "category": "Periféricos",
@@ -56229,7 +56229,7 @@ const PRODUCTS =
     {
         "id": 11117,
         "ref": "250030",
-        "brand": "GENERIC",
+        "brand": "RAZER",
         "title_orig": "TECLADO GAMER MECANICO RAZER BLACKWIDOW V4 X USB RGB RZ03 04700200 R3U1 BLACK INGLES  250030",
         "title": "TECLADO GAMER MECANICO RAZER BLACKWIDOW V4 X USB RGB RZ03 04700200 R3U1 BLACK INGLES  250030",
         "category": "Periféricos",
@@ -56409,7 +56409,7 @@ const PRODUCTS =
     {
         "id": 11126,
         "ref": "87834",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "MOUSE LOGITECH M190 WIRELESS 910 005903 BLK BLUE",
         "title": "MOUSE LOGITECH M190 WIRELESS 910 005903 BLK BLUE",
         "category": "Periféricos",
@@ -56469,7 +56469,7 @@ const PRODUCTS =
     {
         "id": 11129,
         "ref": "50183",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "MOUSE LOGITECH M280 WIRELESS VERMELHO 910 004286",
         "title": "MOUSE LOGITECH M280 WIRELESS Rojo 910 004286",
         "category": "Periféricos",
@@ -56529,7 +56529,7 @@ const PRODUCTS =
     {
         "id": 11132,
         "ref": "232275",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "MOUSE LOGITECH M110 SILENT USB 910 006756 BLACK  232275",
         "title": "MOUSE LOGITECH M110 SILENT USB 910 006756 BLACK  232275",
         "category": "Periféricos",
@@ -56689,7 +56689,7 @@ const PRODUCTS =
     {
         "id": 11140,
         "ref": "144435",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "MOUSE LOGITECH M190 WIRELESS 910 005902 BLK GREY",
         "title": "MOUSE LOGITECH M190 WIRELESS 910 005902 BLK GREY",
         "category": "Periféricos",
@@ -56709,7 +56709,7 @@ const PRODUCTS =
     {
         "id": 11141,
         "ref": "21519",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "MOUSE LOGITECH M170 910 004800 WIRELESS AZUL",
         "title": "MOUSE LOGITECH M170 910 004800 WIRELESS Azul",
         "category": "Periféricos",
@@ -56809,7 +56809,7 @@ const PRODUCTS =
     {
         "id": 11146,
         "ref": "197981",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "MOUSE LOGITECH G502 X OPTICO USB BLACK",
         "title": "MOUSE LOGITECH G502 X OPTICO USB BLACK",
         "category": "Periféricos",
@@ -57109,7 +57109,7 @@ const PRODUCTS =
     {
         "id": 11161,
         "ref": "203598",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "MOUSEPAD LOGITECH STUDIO SERIES 956 000035 GRAFIT",
         "title": "MOUSEPAD LOGITECH STUDIO SERIES 956 000035 GRAFIT",
         "category": "Periféricos",
@@ -57629,7 +57629,7 @@ const PRODUCTS =
     {
         "id": 11187,
         "ref": "333984",
-        "brand": "GENERIC",
+        "brand": "RAZER",
         "title_orig": "MICROFONE RAZER SEIREN V3 CHROMA RZ19 05060100 R3U RZ19 05060100 R 3U1  333984",
         "title": "MICROFONE RAZER SEIREN V3 CHROMA RZ19 05060100 R3U RZ19 05060100 R 3U1  333984",
         "category": "Periféricos",
@@ -57909,7 +57909,7 @@ const PRODUCTS =
     {
         "id": 11201,
         "ref": "219640",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "MICROFONE JBL PARTYBOX WIRELESS MIC C 2 MICROFONE PRETO",
         "title": "MICROFONE JBL PARTYBOX WIRELESS MIC C 2 MICROFONE Negro",
         "category": "Periféricos",
@@ -57989,7 +57989,7 @@ const PRODUCTS =
     {
         "id": 11205,
         "ref": "63097",
-        "brand": "GENERIC",
+        "brand": "RAZER",
         "title_orig": "MICROFONE RAZER SEIREN X RZ19 02290100 R3U1 PRETO  63097",
         "title": "MICROFONE RAZER SEIREN X RZ19 02290100 R3U1 Negro  63097",
         "category": "Periféricos",
@@ -58489,7 +58489,7 @@ const PRODUCTS =
     {
         "id": 11230,
         "ref": "407571",
-        "brand": "UP GAMER",
+        "brand": "LG",
         "title_orig": "CADEIRA GAMER UP GAMER LT SERIES BKGY01 PU ALGODAO BASE EM NYLON RECLINAVEL ATE 100KG PRETO E CINZA  407571",
         "title": "CADEIRA GAMER UP GAMER LT SERIES BKGY01 PU ALGODAO BASE EM NYLON RECLINAVEL ATE 100KG Negro E Gris  407571",
         "category": "Periféricos",
@@ -58529,7 +58529,7 @@ const PRODUCTS =
     {
         "id": 11232,
         "ref": "407550",
-        "brand": "UP GAMER",
+        "brand": "LG",
         "title_orig": "CADEIRA GAMER UP GAMER LT SERIES BKRD01 PU ALGODAO BASE EM NYLON RECLINAVEL ATE 100KG PRETO E VERMELHO",
         "title": "CADEIRA GAMER UP GAMER LT SERIES BKRD01 PU ALGODAO BASE EM NYLON RECLINAVEL ATE 100KG Negro E Rojo",
         "category": "Periféricos",
@@ -58549,7 +58549,7 @@ const PRODUCTS =
     {
         "id": 11233,
         "ref": "407582",
-        "brand": "UP GAMER",
+        "brand": "LG",
         "title_orig": "CADEIRA GAMER UP GAMER LT SERIES PKWT01 PU ALGODAO BASE EM NYLON RECLINAVEL ATE 100KG ROSA E BRANCO  407582",
         "title": "CADEIRA GAMER UP GAMER LT SERIES PKWT01 PU ALGODAO BASE EM NYLON RECLINAVEL ATE 100KG ROSA E Blanco  407582",
         "category": "Periféricos",
@@ -58569,7 +58569,7 @@ const PRODUCTS =
     {
         "id": 11234,
         "ref": "407505",
-        "brand": "UP GAMER",
+        "brand": "LG",
         "title_orig": "CADEIRA GAMER UP GAMER RT0951PK PVC ALGODAO BASE EM METAL RECLINAVEL ATE 120KG ROSA  407505",
         "title": "CADEIRA GAMER UP GAMER RT0951PK PVC ALGODAO BASE EM METAL RECLINAVEL ATE 120KG ROSA  407505",
         "category": "Periféricos",
@@ -58589,7 +58589,7 @@ const PRODUCTS =
     {
         "id": 11235,
         "ref": "407492",
-        "brand": "UP GAMER",
+        "brand": "LG",
         "title_orig": "CADEIRA GAMER UP GAMER RT0951BKBL PVC ALGODAO BASE EM METAL RECLINAVEL ATE 120KG PRETO E AZUL",
         "title": "CADEIRA GAMER UP GAMER RT0951BKBL PVC ALGODAO BASE EM METAL RECLINAVEL ATE 120KG Negro E Azul",
         "category": "Periféricos",
@@ -58609,7 +58609,7 @@ const PRODUCTS =
     {
         "id": 11236,
         "ref": "407527",
-        "brand": "UP GAMER",
+        "brand": "LG",
         "title_orig": "CADEIRA GAMER UP GAMER D2534BKBL PVC ALGODAO BASE EM METAL RECLINAVEL ATE 120KG PRETO E AZUL  407527",
         "title": "CADEIRA GAMER UP GAMER D2534BKBL PVC ALGODAO BASE EM METAL RECLINAVEL ATE 120KG Negro E Azul  407527",
         "category": "Periféricos",
@@ -58629,7 +58629,7 @@ const PRODUCTS =
     {
         "id": 11237,
         "ref": "407516",
-        "brand": "UP GAMER",
+        "brand": "LG",
         "title_orig": "CADEIRA GAMER UP GAMER D2534BKRD PVC ALGODAO BASE EM METAL RECLINAVEL ATE 120KG PRETO E VERMELHO",
         "title": "CADEIRA GAMER UP GAMER D2534BKRD PVC ALGODAO BASE EM METAL RECLINAVEL ATE 120KG Negro E Rojo",
         "category": "Periféricos",
@@ -58649,7 +58649,7 @@ const PRODUCTS =
     {
         "id": 11238,
         "ref": "407549",
-        "brand": "UP GAMER",
+        "brand": "LG",
         "title_orig": "CADEIRA GAMER UP GAMER D2534PKWT PVC ALGODAO BASE EM METAL RECLINAVEL ATE 120KG ROSA E BRANCO  407549",
         "title": "CADEIRA GAMER UP GAMER D2534PKWT PVC ALGODAO BASE EM METAL RECLINAVEL ATE 120KG ROSA E Blanco  407549",
         "category": "Periféricos",
@@ -58669,7 +58669,7 @@ const PRODUCTS =
     {
         "id": 11239,
         "ref": "407481",
-        "brand": "UP GAMER",
+        "brand": "LG",
         "title_orig": "CADEIRA GAMER UP GAMER RT0951BKRD PVC ALGODAO BASE EM METAL RECLINAVEL ATE 120KG PRETO E VERMELHO",
         "title": "CADEIRA GAMER UP GAMER RT0951BKRD PVC ALGODAO BASE EM METAL RECLINAVEL ATE 120KG Negro E Rojo",
         "category": "Periféricos",
@@ -58689,7 +58689,7 @@ const PRODUCTS =
     {
         "id": 11240,
         "ref": "407560",
-        "brand": "UP GAMER",
+        "brand": "LG",
         "title_orig": "CADEIRA GAMER UP GAMER LT SERIES BKBL01 PU ALGODAO BASE EM NYLON RECLINAVEL ATE 100KG PRETO E AZUL  407560",
         "title": "CADEIRA GAMER UP GAMER LT SERIES BKBL01 PU ALGODAO BASE EM NYLON RECLINAVEL ATE 100KG Negro E Azul  407560",
         "category": "Periféricos",
@@ -59029,7 +59029,7 @@ const PRODUCTS =
     {
         "id": 11257,
         "ref": "221914",
-        "brand": "COOLER MASTER",
+        "brand": "INTEL",
         "title_orig": "AIR COOLER CPU COOLER MASTER HYPER 212 SPECTRUM V3 RR S4NA 17PA R1 RGB 120MM INTEL 115X 1200 1700 1851 AMD AM4 AM5 PRETO",
         "title": "AIR COOLER CPU COOLER MASTER HYPER 212 SPECTRUM V3 RR S4NA 17PA R1 RGB 120MM INTEL 115X 1200 1700 1851 AMD AM4 AM5 Negro",
         "category": "Periféricos",
@@ -59069,7 +59069,7 @@ const PRODUCTS =
     {
         "id": 11259,
         "ref": "62478",
-        "brand": "MTEK",
+        "brand": "INTEL",
         "title_orig": "WATER COOLER MTEK MWC 240 LIQUID ARGB PRETO 240MM INTEL 115X 1200 1700 2011 V3 2066 AMD AM3 AM4 AM5 FM2   62478",
         "title": "WATER COOLER MTEK MWC 240 LIQUID ARGB Negro 240MM INTEL 115X 1200 1700 2011 V3 2066 AMD AM3 AM4 AM5 FM2   62478",
         "category": "Periféricos",
@@ -59089,7 +59089,7 @@ const PRODUCTS =
     {
         "id": 11260,
         "ref": "324457",
-        "brand": "KEEPDATA",
+        "brand": "INTEL",
         "title_orig": "AIR COOLER CPU KEEPDATA KD P2RGB RGB PRETO 120MM INTEL 775 115X 1200 1366 1700 AMD AM2 AM3 AM4 AM5 FM1 FM2 754 939",
         "title": "AIR COOLER CPU KEEPDATA KD P2RGB RGB Negro 120MM INTEL 775 115X 1200 1366 1700 AMD AM2 AM3 AM4 AM5 FM1 FM2 754 939",
         "category": "Periféricos",
@@ -59109,7 +59109,7 @@ const PRODUCTS =
     {
         "id": 11261,
         "ref": "73559",
-        "brand": "AIGO",
+        "brand": "INTEL",
         "title_orig": "COOLER WATER AIGO DARKFLASH SYMPHONY TR240 PINK INTEL AMD PINK  73559",
         "title": "COOLER WATER AIGO DARKFLASH SYMPHONY TR240 PINK INTEL AMD PINK  73559",
         "category": "Periféricos",
@@ -59129,7 +59129,7 @@ const PRODUCTS =
     {
         "id": 11262,
         "ref": "221903",
-        "brand": "COOLER MASTER",
+        "brand": "LG",
         "title_orig": "COOLER MASTER HYPER 212 HALO WHITE RGB LGA 1700 G RR S4WW 20PA R1",
         "title": "COOLER MASTER HYPER 212 HALO WHITE RGB LGA 1700 G RR S4WW 20PA R1",
         "category": "Periféricos",
@@ -59149,7 +59149,7 @@ const PRODUCTS =
     {
         "id": 11263,
         "ref": "332691",
-        "brand": "KEEPDATA",
+        "brand": "INTEL",
         "title_orig": "COOLER CPU KEEPDATA KD P2 UNIVERSAL INTEL AMD BLACK",
         "title": "COOLER CPU KEEPDATA KD P2 UNIVERSAL INTEL AMD BLACK",
         "category": "Periféricos",
@@ -59169,7 +59169,7 @@ const PRODUCTS =
     {
         "id": 11264,
         "ref": "169183",
-        "brand": "COOLER MASTER",
+        "brand": "INTEL",
         "title_orig": "WATER COOLER CPU COOLER MASTER MASTERLIQUID ML240 ILLUSION MLX D24M A18P2 R1 ARGB PRETO 240MM CON CONTROLE INTEL 115X 1200 1700 2011 V3 2066 AMD AM2 AM3 AM4 AM5 FM2 FM1",
         "title": "WATER COOLER CPU COOLER MASTER MASTERLIQUID ML240 ILLUSION MLX D24M A18P2 R1 ARGB Negro 240MM CON CONTROLE INTEL 115X 1200 1700 2011 V3 2066 AMD AM2 AM3 AM4 AM5 FM2 FM1",
         "category": "Periféricos",
@@ -59229,7 +59229,7 @@ const PRODUCTS =
     {
         "id": 11267,
         "ref": "243705",
-        "brand": "AIGO",
+        "brand": "INTEL",
         "title_orig": "WATER COOLER CPU AIGO DARKFLASH TWISTER DX360 V2 6 LIQUID ARGB PRETO 360MM INTEL 115X 1200 1700 2011 V3 AMD AM2 AM3 AM4 AM5 FM2 FM1",
         "title": "WATER COOLER CPU AIGO DARKFLASH TWISTER DX360 V2 6 LIQUID ARGB Negro 360MM INTEL 115X 1200 1700 2011 V3 AMD AM2 AM3 AM4 AM5 FM2 FM1",
         "category": "Periféricos",
@@ -61089,7 +61089,7 @@ const PRODUCTS =
     {
         "id": 11360,
         "ref": "165270",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "CAIXA DE SOM JBL PARTYBOX 710 PRETA BIVOLT",
         "title": "CAIXA DE SOM JBL PARTYBOX 710 Negro BIVOLT",
         "category": "Periféricos",
@@ -61209,7 +61209,7 @@ const PRODUCTS =
     {
         "id": 11366,
         "ref": "189881",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "CAIXA DE SOM JBL FLIP 6 WHITE",
         "title": "CAIXA DE SOM JBL FLIP 6 WHITE",
         "category": "Periféricos",
@@ -61409,7 +61409,7 @@ const PRODUCTS =
     {
         "id": 11376,
         "ref": "322646",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "APPLE IPAD 11 A16 11  322646",
         "title": "APPLE IPAD 11 A16 11  322646",
         "category": "Periféricos",
@@ -61549,7 +61549,7 @@ const PRODUCTS =
     {
         "id": 11383,
         "ref": "371707",
-        "brand": "GALAX",
+        "brand": "SAMSUNG",
         "title_orig": "TABLET SAMSUNG GALAXY TAB A11 SM X230 128 6 GRAY",
         "title": "TABLET SAMSUNG GALAXY TAB A11 SM X230 128 6 GRAY",
         "category": "Periféricos",
@@ -61729,7 +61729,7 @@ const PRODUCTS =
     {
         "id": 11392,
         "ref": "376699",
-        "brand": "GALAX",
+        "brand": "SAMSUNG",
         "title_orig": "TABLET SAMSUNG GALAXY TAB A11 SM X135G 8GB 128GB GRAY",
         "title": "TABLET SAMSUNG GALAXY TAB A11 SM X135G 8GB 128GB GRAY",
         "category": "Periféricos",
@@ -61789,7 +61789,7 @@ const PRODUCTS =
     {
         "id": 11395,
         "ref": "377220",
-        "brand": "GALAX",
+        "brand": "SAMSUNG",
         "title_orig": "TABLET SAMSUNG GALAXY TAB S10 LITE SM X400 128 6GB GRAY  377220",
         "title": "TABLET SAMSUNG GALAXY TAB S10 LITE SM X400 128 6GB GRAY  377220",
         "category": "Periféricos",
@@ -61829,7 +61829,7 @@ const PRODUCTS =
     {
         "id": 11397,
         "ref": "386130",
-        "brand": "GALAX",
+        "brand": "SAMSUNG",
         "title_orig": "TABLET SAMSUNG GALAXY TAB A11 SM X230 256GB 8GB GRAY WIFI  386130",
         "title": "TABLET SAMSUNG GALAXY TAB A11 SM X230 256GB 8GB GRAY WIFI  386130",
         "category": "Periféricos",
@@ -61909,7 +61909,7 @@ const PRODUCTS =
     {
         "id": 11401,
         "ref": "383700",
-        "brand": "GALAX",
+        "brand": "SAMSUNG",
         "title_orig": "TABLET SAMSUNG GALAXY TAB A11 X133 4GB 64GB 8 7 SM X133 CINZA  383700",
         "title": "TABLET SAMSUNG GALAXY TAB A11 X133 4GB 64GB 8 7 SM X133 Gris  383700",
         "category": "Periféricos",
@@ -61929,7 +61929,7 @@ const PRODUCTS =
     {
         "id": 11402,
         "ref": "392888",
-        "brand": "GALAX",
+        "brand": "SAMSUNG",
         "title_orig": "TABLET SAMSUNG GALAXY TAB S10 LITE SM X400 128 6GB WIFI CINZA CAPA  392888",
         "title": "TABLET SAMSUNG GALAXY TAB S10 LITE SM X400 128 6GB WIFI Gris CAPA  392888",
         "category": "Periféricos",
@@ -62049,7 +62049,7 @@ const PRODUCTS =
     {
         "id": 11408,
         "ref": "249890",
-        "brand": "GALAX",
+        "brand": "SAMSUNG",
         "title_orig": "TABLET SAMSUNG GALAXY TAB A9 SM X110 64 4 GRAPHITE  249890",
         "title": "TABLET SAMSUNG GALAXY TAB A9 SM X110 64 4 GRAPHITE  249890",
         "category": "Periféricos",
@@ -62389,7 +62389,7 @@ const PRODUCTS =
     {
         "id": 11425,
         "ref": "238619",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "APPLE PENCIL 1 GER USB C MUWA3AM A PARA IPAD BRANCO",
         "title": "APPLE PENCIL 1 GER USB C MUWA3AM A PARA IPAD Blanco",
         "category": "Periféricos",
@@ -62529,7 +62529,7 @@ const PRODUCTS =
     {
         "id": 11432,
         "ref": "312375",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "APPLE CABO LIGHTNING A USB MXLY2ZM A 1M BRANCO  312375",
         "title": "APPLE CABO LIGHTNING A USB MXLY2ZM A 1M Blanco  312375",
         "category": "Periféricos",
@@ -62549,7 +62549,7 @@ const PRODUCTS =
     {
         "id": 11433,
         "ref": "351503",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "APPLE IPHONE 17 PRO MAX 512GB MFXK4LL A SILVER A3257  351503",
         "title": "APPLE IPHONE 17 PRO MAX 512GB MFXK4LL A SILVER A3257  351503",
         "category": "Periféricos",
@@ -62749,7 +62749,7 @@ const PRODUCTS =
     {
         "id": 11443,
         "ref": "228684",
-        "brand": "STAR",
+        "brand": "APPLE",
         "title_orig": "RELOGIO APPLE WATCH SE 3 44MM MEHJ4LW A ALUMINIO STARLIGHT 2025 SPORT BAND M L",
         "title": "RELOGIO APPLE WATCH SE 3 44MM MEHJ4LW A ALUMINIO STARLIGHT 2025 SPORT BAND M L",
         "category": "Periféricos",
@@ -64329,7 +64329,7 @@ const PRODUCTS =
     {
         "id": 11522,
         "ref": "339026",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "MICROFONE JBL QUANTUM STREAM WIRELESS USB C BLK  339026",
         "title": "MICROFONE JBL QUANTUM STREAM WIRELESS USB C BLK  339026",
         "category": "Periféricos",
@@ -66829,7 +66829,7 @@ const PRODUCTS =
     {
         "id": 11647,
         "ref": "340264",
-        "brand": "AMD",
+        "brand": "SAMSUNG",
         "title_orig": "MONITOR SAMSUNG SMART ODYSSEY G8 G80SD LS32DG802SNXZA OLED 32 4K UHD 3840 X 2160 0 03MS 240HZ IPS 2XHDMI 2 1 1XDISPLAYPORT 1 4 2XUSB A 3 0 1XUSB B 3 0 BLUETOOTH 5 2 AMD FREESYNC PREMIUM PRO SPEAKER 10",
         "title": "MONITOR SAMSUNG SMART ODYSSEY G8 G80SD LS32DG802SNXZA OLED 32 4K UHD 3840 X 2160 0 03MS 240HZ IPS 2XHDMI 2 1 1XDISPLAYPORT 1 4 2XUSB A 3 0 1XUSB B 3 0 BLUETOOTH 5 2 AMD FREESYNC PREMIUM PRO SPEAKER 10",
         "category": "Monitores",
@@ -66929,7 +66929,7 @@ const PRODUCTS =
     {
         "id": 11652,
         "ref": "329091",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "APPLE MACBOOK PRO MW2U3LL A A3112 M4 16 512B 14 2 SPACE BLACK",
         "title": "APPLE MACBOOK PRO MW2U3LL A A3112 M4 16 512B 14 2 SPACE BLACK",
         "category": "Notebooks",
@@ -67049,7 +67049,7 @@ const PRODUCTS =
     {
         "id": 11658,
         "ref": "302497",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "LOCALIZADOR APPLE AIRTAG A2187 MX532LL A COM BLUETOOTH BRANCO 1 UNIDADE",
         "title": "LOCALIZADOR APPLE AIRTAG A2187 MX532LL A COM BLUETOOTH Blanco 1 UNIDADE",
         "category": "Periféricos",
@@ -67069,7 +67069,7 @@ const PRODUCTS =
     {
         "id": 11659,
         "ref": "318392",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "APPLE IPAD 11 A16 11",
         "title": "APPLE IPAD 11 A16 11",
         "category": "Periféricos",
@@ -67089,7 +67089,7 @@ const PRODUCTS =
     {
         "id": 11660,
         "ref": "350882",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "APPLE MAC MINI M4 16 256GB MU9D3LL A PRATA MU9D3LL A 2024",
         "title": "APPLE MAC MINI M4 16 256GB MU9D3LL A Plata MU9D3LL A 2024",
         "category": "Periféricos",
@@ -67109,7 +67109,7 @@ const PRODUCTS =
     {
         "id": 11661,
         "ref": "344942",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "CELULAR APPLE IPHONE 17 PRO MG7M4LL A A3256 256GB ESIM DEEP BLUE",
         "title": "CELULAR APPLE IPHONE 17 PRO MG7M4LL A A3256 256GB ESIM DEEP BLUE",
         "category": "Periféricos",
@@ -67129,7 +67129,7 @@ const PRODUCTS =
     {
         "id": 11662,
         "ref": "323131",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "APPLE CABO LIGHTNING MQGH2ZM A USB C 2M BRANCO",
         "title": "APPLE CABO LIGHTNING MQGH2ZM A USB C 2M Blanco",
         "category": "Periféricos",
@@ -67149,7 +67149,7 @@ const PRODUCTS =
     {
         "id": 11663,
         "ref": "303678",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "FONE DE OUVIDO APPLE AIRPODS 4 ANC MXP93LL A BRANCO",
         "title": "FONE DE OUVIDO APPLE AIRPODS 4 ANC MXP93LL A Blanco",
         "category": "Periféricos",
@@ -67169,7 +67169,7 @@ const PRODUCTS =
     {
         "id": 11664,
         "ref": "355461",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "APPLE WATCH S11 42MM ROSE GOLD MEU04LW A SPORT MEU04LW A SPORT BAND  355461",
         "title": "APPLE WATCH S11 42MM ROSE GOLD MEU04LW A SPORT MEU04LW A SPORT BAND  355461",
         "category": "Periféricos",
@@ -67189,7 +67189,7 @@ const PRODUCTS =
     {
         "id": 11665,
         "ref": "351570",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "APPLE MACBOOK PRO 2025 A3434 M5 10 CORE TELA 14 2 24GB RAM 1TB SSD MDE64LL A SILVER",
         "title": "APPLE MACBOOK PRO 2025 A3434 M5 10 CORE TELA 14 2 24GB RAM 1TB SSD MDE64LL A SILVER",
         "category": "Notebooks",
@@ -67209,7 +67209,7 @@ const PRODUCTS =
     {
         "id": 11666,
         "ref": "345460",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "APPLE WATCH ULTRA 3 49MM BLACK MF0J4LW A",
         "title": "APPLE WATCH ULTRA 3 49MM BLACK MF0J4LW A",
         "category": "Periféricos",
@@ -67229,7 +67229,7 @@ const PRODUCTS =
     {
         "id": 11667,
         "ref": "354012",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "APPLE MAGIC MOUSE 2 MXK53AM A BRANCO USB C MXK53AM A A3204",
         "title": "APPLE MAGIC MOUSE 2 MXK53AM A Blanco USB C MXK53AM A A3204",
         "category": "Periféricos",
@@ -67249,7 +67249,7 @@ const PRODUCTS =
     {
         "id": 11668,
         "ref": "340029",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "APPLE MAC MINI MU9E3LL A A3238 M4 10 CORE 16GB DE RAM 512GB SSD SILVER 2024",
         "title": "APPLE MAC MINI MU9E3LL A A3238 M4 10 CORE 16GB DE RAM 512GB SSD SILVER 2024",
         "category": "Almacenamiento (SSD)",
@@ -67269,7 +67269,7 @@ const PRODUCTS =
     {
         "id": 11669,
         "ref": "266888",
-        "brand": "STAR",
+        "brand": "APPLE",
         "title_orig": "APPLE MACBOOK AIR 2024 MRYT3LL A A3114 M3 OCTA CORE 8GB RAM 512GB SSD TELA RETINA 15 3 MACOS INGLES STARLIGHT",
         "title": "APPLE MACBOOK AIR 2024 MRYT3LL A A3114 M3 OCTA CORE 8GB RAM 512GB SSD TELA RETINA 15 3 MACOS INGLES STARLIGHT",
         "category": "Notebooks",
@@ -67289,7 +67289,7 @@ const PRODUCTS =
     {
         "id": 11670,
         "ref": "302778",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "APPLE MAC MINI M4 16 256GB MU9D3LL A PRATA MU9D3LL A 2024  302778",
         "title": "APPLE MAC MINI M4 16 256GB MU9D3LL A Plata MU9D3LL A 2024  302778",
         "category": "Periféricos",
@@ -67309,7 +67309,7 @@ const PRODUCTS =
     {
         "id": 11671,
         "ref": "286633",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "APPLE IPHONE 16 PRO MAX 256GB MYW33LL A BLACK BLACK TITANIUM",
         "title": "APPLE IPHONE 16 PRO MAX 256GB MYW33LL A BLACK BLACK TITANIUM",
         "category": "Periféricos",
@@ -67329,7 +67329,7 @@ const PRODUCTS =
     {
         "id": 11672,
         "ref": "343390",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "APPLE IPHONE 17 PRO MAX 256GB MFXG4LL A SILVER MFXG4LL A",
         "title": "APPLE IPHONE 17 PRO MAX 256GB MFXG4LL A SILVER MFXG4LL A",
         "category": "Periféricos",
@@ -67349,7 +67349,7 @@ const PRODUCTS =
     {
         "id": 11673,
         "ref": "342446",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "APPLE IPHONE 17 PRO MAX 256GB MFXJ4LL A BLUE DEEP BLUE A3257  342446",
         "title": "APPLE IPHONE 17 PRO MAX 256GB MFXJ4LL A BLUE DEEP BLUE A3257  342446",
         "category": "Periféricos",
@@ -67369,7 +67369,7 @@ const PRODUCTS =
     {
         "id": 11674,
         "ref": "269656",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "APPLE MAC MINI 2023 MMFJ3LL A A2686 M2 OCTA CORE 8GB RAM 256GB SSD MACOS INGLES PRATA",
         "title": "APPLE MAC MINI 2023 MMFJ3LL A A2686 M2 OCTA CORE 8GB RAM 256GB SSD MACOS INGLES Plata",
         "category": "Almacenamiento (SSD)",
@@ -67389,7 +67389,7 @@ const PRODUCTS =
     {
         "id": 11675,
         "ref": "285957",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "CARREGADOR APPLE USB C 20W MUVV3ZM A BRANCO",
         "title": "CARREGADOR APPLE USB C 20W MUVV3ZM A Blanco",
         "category": "Periféricos",
@@ -67429,7 +67429,7 @@ const PRODUCTS =
     {
         "id": 11677,
         "ref": "247439",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "APPLE IPHONE 13 128GB A2633 MIDNIGHT MLPF3LZ A",
         "title": "APPLE IPHONE 13 128GB A2633 MIDNIGHT MLPF3LZ A",
         "category": "Periféricos",
@@ -67469,7 +67469,7 @@ const PRODUCTS =
     {
         "id": 11679,
         "ref": "322433",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "APPLE MACBOOK AIR 2025 A3240 M4 TELA 13 6 16GB RAM 256GB SSD MC6T4LL A AZUL",
         "title": "APPLE MACBOOK AIR 2025 A3240 M4 TELA 13 6 16GB RAM 256GB SSD MC6T4LL A Azul",
         "category": "Notebooks",
@@ -67489,7 +67489,7 @@ const PRODUCTS =
     {
         "id": 11680,
         "ref": "42487",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "APPLE FONE DE OUVIDO EARPODS LIGHTNING MMTN2AM A COM FIO MICROFONE BRANCO",
         "title": "APPLE FONE DE OUVIDO EARPODS LIGHTNING MMTN2AM A COM FIO MICROFONE Blanco",
         "category": "Periféricos",
@@ -68629,7 +68629,7 @@ const PRODUCTS =
     {
         "id": 11737,
         "ref": "267384",
-        "brand": "MTEK",
+        "brand": "AMD",
         "title_orig": "MONITOR MTEK M32SFV240C CURVO 32 FULL HD 1920 X 1080 1MS 240HZ 2XHDMI 1 4 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO AMD FREESYNC NVIDIA G SYNC SPEAKER 2WX2 PRETO",
         "title": "MONITOR MTEK M32SFV240C CURVO 32 FULL HD 1920 X 1080 1MS 240HZ 2XHDMI 1 4 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO AMD FREESYNC NVIDIA G SYNC SPEAKER 2WX2 Negro",
         "category": "Monitores",
@@ -68669,7 +68669,7 @@ const PRODUCTS =
     {
         "id": 11739,
         "ref": "112474",
-        "brand": "AMD",
+        "brand": "SAMSUNG",
         "title_orig": "MONITOR SAMSUNG LC24RG50FQLXZP CURVO 24 FULL HD 1920 X 1080 144HZ 4MS 2XHDMI 1 4 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM PRETO",
         "title": "MONITOR SAMSUNG LC24RG50FQLXZP CURVO 24 FULL HD 1920 X 1080 144HZ 4MS 2XHDMI 1 4 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM Negro",
         "category": "Monitores",
@@ -68869,7 +68869,7 @@ const PRODUCTS =
     {
         "id": 11749,
         "ref": "306277",
-        "brand": "AMD",
+        "brand": "DELL",
         "title_orig": "MONITOR DELL ALIENWARE AW2523HF 25 FULL HD 1920 X 1080 360HZ 1MS IPS 2XHDMI 2 0 1XDISPLAYPORT 1 4 3X USB A 3 2 1XUSB B 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM AJUSTE ALTURA PIVO ROTACAO PRETO",
         "title": "MONITOR DELL ALIENWARE AW2523HF 25 FULL HD 1920 X 1080 360HZ 1MS IPS 2XHDMI 2 0 1XDISPLAYPORT 1 4 3X USB A 3 2 1XUSB B 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM AJUSTE ALTURA PIVO ROTACAO Negro",
         "category": "Monitores",
@@ -69089,7 +69089,7 @@ const PRODUCTS =
     {
         "id": 11760,
         "ref": "190873",
-        "brand": "AMD",
+        "brand": "LG",
         "title_orig": "MONITOR ULTRAWIDE LG 26WQ500 B 26 IPS FULL HD 75HZ 1MS 2XHDMI AMD FREESYNC PRETO",
         "title": "MONITOR ULTRAWIDE LG 26WQ500 B 26 IPS FULL HD 75HZ 1MS 2XHDMI AMD FREESYNC Negro",
         "category": "Monitores",
@@ -69289,7 +69289,7 @@ const PRODUCTS =
     {
         "id": 11770,
         "ref": "111934",
-        "brand": "MTEK",
+        "brand": "AMD",
         "title_orig": "MONITOR MTEK M27SFV240C CURVO 27 FULL HD 1920X1080 1MS 240HZ 1XHDMI 2 0 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO AMD FREESYNC NVIDIA G SYNC SPEAKER 2WX2 PRETO",
         "title": "MONITOR MTEK M27SFV240C CURVO 27 FULL HD 1920X1080 1MS 240HZ 1XHDMI 2 0 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO AMD FREESYNC NVIDIA G SYNC SPEAKER 2WX2 Negro",
         "category": "Monitores",
@@ -69329,7 +69329,7 @@ const PRODUCTS =
     {
         "id": 11772,
         "ref": "208076",
-        "brand": "AMD",
+        "brand": "SAMSUNG",
         "title_orig": "MONITOR SAMSUNG ODYSSEY G4 LS27BG402ENXGO 27 FULL HD 1920X1080 1MS 240HZ IPS 2XHDMI 2 0 1XDISPLAYPORT 1 2 1XUSB A 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM NVIDIA G SYNC AJUSTE ALTURA PIVO ROTACAO PRET",
         "title": "MONITOR SAMSUNG ODYSSEY G4 LS27BG402ENXGO 27 FULL HD 1920X1080 1MS 240HZ IPS 2XHDMI 2 0 1XDISPLAYPORT 1 2 1XUSB A 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM NVIDIA G SYNC AJUSTE ALTURA PIVO ROTACAO PRET",
         "category": "Monitores",
@@ -69789,7 +69789,7 @@ const PRODUCTS =
     {
         "id": 11795,
         "ref": "187140",
-        "brand": "AMD",
+        "brand": "SAMSUNG",
         "title_orig": "MONITOR SAMSUNG GAMING ODYSSEY G3 LS32AG320NLXZX 32 FULL HD 1920 X 1080 1MS 165HZ 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM PRETO",
         "title": "MONITOR SAMSUNG GAMING ODYSSEY G3 LS32AG320NLXZX 32 FULL HD 1920 X 1080 1MS 165HZ 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM Negro",
         "category": "Monitores",
@@ -69889,7 +69889,7 @@ const PRODUCTS =
     {
         "id": 11800,
         "ref": "282247",
-        "brand": "AMD",
+        "brand": "ACER",
         "title_orig": "MONITOR ACER KB272 27 FULL HD 1920X1080 100HZ 1MS IPS 1XHDMI 1 4 1XVGA D SUB AMD FREESYNC SPEAKER 2WX2 PRETO",
         "title": "MONITOR ACER KB272 27 FULL HD 1920X1080 100HZ 1MS IPS 1XHDMI 1 4 1XVGA D SUB AMD FREESYNC SPEAKER 2WX2 Negro",
         "category": "Tarjetas de Video",
@@ -70049,7 +70049,7 @@ const PRODUCTS =
     {
         "id": 11808,
         "ref": "218694",
-        "brand": "AMD",
+        "brand": "ACER",
         "title_orig": "MONITOR ACER NITRO EDO ED320QR UM JE0AA 303 CURVO 31 5 FULL HD 1920 X 1080 1MS 165HZ IPS 2XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM SPEAKER 2WX2 PRETO",
         "title": "MONITOR ACER NITRO EDO ED320QR UM JE0AA 303 CURVO 31 5 FULL HD 1920 X 1080 1MS 165HZ IPS 2XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM SPEAKER 2WX2 Negro",
         "category": "Monitores",
@@ -70129,7 +70129,7 @@ const PRODUCTS =
     {
         "id": 11812,
         "ref": "268903",
-        "brand": "AMD",
+        "brand": "SAMSUNG",
         "title_orig": "MONITOR SAMSUNG ODYSSEY G5 LC34G55TWWNXZA CURVO 34 ULTRAWIDE UWQHD 3440 X 1440 1MS 165HZ 1XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM PRO PRETO",
         "title": "MONITOR SAMSUNG ODYSSEY G5 LC34G55TWWNXZA CURVO 34 ULTRAWIDE UWQHD 3440 X 1440 1MS 165HZ 1XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM PRO Negro",
         "category": "Monitores",
@@ -70189,7 +70189,7 @@ const PRODUCTS =
     {
         "id": 11815,
         "ref": "277410",
-        "brand": "AMD",
+        "brand": "SAMSUNG",
         "title_orig": "MONITOR SAMSUNG VIEWFINITY S5 S50GC LS34C502GANXZA 34 ULTRAWIDE UWQHD 3440 X 1440 5MS 100HZ 2XHDMI 2 0 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO AMD FREESYNC PRETO",
         "title": "MONITOR SAMSUNG VIEWFINITY S5 S50GC LS34C502GANXZA 34 ULTRAWIDE UWQHD 3440 X 1440 5MS 100HZ 2XHDMI 2 0 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO AMD FREESYNC Negro",
         "category": "Monitores",
@@ -70249,7 +70249,7 @@ const PRODUCTS =
     {
         "id": 11818,
         "ref": "211799",
-        "brand": "AMD",
+        "brand": "LG",
         "title_orig": "MONITOR LG ULTRAWIDE CURVO 34WP65C B 34 QHD 160HZ 1MS 2XHDMI 1XDISPLAYPORT SPEAKER MAXXAUDIO 7WX2 AMD FREESYNC PREMIUM PRETO  211799",
         "title": "MONITOR LG ULTRAWIDE CURVO 34WP65C B 34 QHD 160HZ 1MS 2XHDMI 1XDISPLAYPORT SPEAKER MAXXAUDIO 7WX2 AMD FREESYNC PREMIUM Negro  211799",
         "category": "Monitores",
@@ -70329,7 +70329,7 @@ const PRODUCTS =
     {
         "id": 11822,
         "ref": "300541",
-        "brand": "AMD",
+        "brand": "SAMSUNG",
         "title_orig": "MONITOR SAMSUNG VIEWFINITY S6 S65UC LS34C650UANXGO CURVO 34 ULTRAWIDE UWQHD 3440 X 1440 5MS 100HZ 1XHDMI 2 2 1XDISPLAYPORT 1 2 1XUSB C 3XUSB A 3 0 1XCONECTOR DE AUDIO 1XLAN RJ45 SPEAKER 5WX2 AMD FREES",
         "title": "MONITOR SAMSUNG VIEWFINITY S6 S65UC LS34C650UANXGO CURVO 34 ULTRAWIDE UWQHD 3440 X 1440 5MS 100HZ 1XHDMI 2 2 1XDISPLAYPORT 1 2 1XUSB C 3XUSB A 3 0 1XCONECTOR DE AUDIO 1XLAN RJ45 SPEAKER 5WX2 AMD FREES",
         "category": "Monitores",
@@ -74429,7 +74429,7 @@ const PRODUCTS =
     {
         "id": 12027,
         "ref": "167104",
-        "brand": "COOLER MASTER",
+        "brand": "LG",
         "title_orig": "ADAPTADOR COOLER MASTER LGA 1700 603005420 GP 167104",
         "title": "ADAPTADOR COOLER MASTER LGA 1700 603005420 GP 167104",
         "category": "Periféricos",
@@ -75089,7 +75089,7 @@ const PRODUCTS =
     {
         "id": 12060,
         "ref": "135850",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "CAIXA DE SOM LOGITECH Z625 980 001256 PRETO",
         "title": "CAIXA DE SOM LOGITECH Z625 980 001256 Negro",
         "category": "Periféricos",
@@ -75329,7 +75329,7 @@ const PRODUCTS =
     {
         "id": 12072,
         "ref": "243390",
-        "brand": "REDRAGON",
+        "brand": "HP",
         "title_orig": "CAIXA DE SOM REDRAGON GS813 MOUTHPIECE PRETO 243390",
         "title": "CAIXA DE SOM REDRAGON GS813 MOUTHPIECE Negro 243390",
         "category": "Periféricos",
@@ -75569,7 +75569,7 @@ const PRODUCTS =
     {
         "id": 12084,
         "ref": "17906",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "TEC MOUSE LOGITECH MK295 920 009792 WIRELESS SPA  17906",
         "title": "TEC MOUSE LOGITECH MK295 920 009792 WIRELESS SPA  17906",
         "category": "Periféricos",
@@ -75829,7 +75829,7 @@ const PRODUCTS =
     {
         "id": 12097,
         "ref": "315457",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "TEC MOUSE LOGITECH POP ICON COMBO BT WHITE 920 013055  315457",
         "title": "TEC MOUSE LOGITECH POP ICON COMBO BT WHITE 920 013055  315457",
         "category": "Periféricos",
@@ -75869,7 +75869,7 @@ const PRODUCTS =
     {
         "id": 12099,
         "ref": "315479",
-        "brand": "GENERIC",
+        "brand": "LOGITECH",
         "title_orig": "TEC MOUSE LOGITECH POP ICON COMBO BT ROXO 920 013054",
         "title": "TEC MOUSE LOGITECH POP ICON COMBO BT ROXO 920 013054",
         "category": "Periféricos",
@@ -76769,7 +76769,7 @@ const PRODUCTS =
     {
         "id": 12144,
         "ref": "174438",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "CAIXA DE SOM JBL BOOMBOX 3 BLACK",
         "title": "CAIXA DE SOM JBL BOOMBOX 3 BLACK",
         "category": "Periféricos",
@@ -76789,7 +76789,7 @@ const PRODUCTS =
     {
         "id": 12145,
         "ref": "262963",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "CAIXA DE SOM JBL PARTYBOX STAGE 320 240W BT BIVOLT",
         "title": "CAIXA DE SOM JBL PARTYBOX STAGE 320 240W BT BIVOLT",
         "category": "Periféricos",
@@ -76829,7 +76829,7 @@ const PRODUCTS =
     {
         "id": 12147,
         "ref": "251691",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "CAIXA DE SOM JBL XTREME 4 PRETA",
         "title": "CAIXA DE SOM JBL XTREME 4 Negro",
         "category": "Periféricos",
@@ -76849,7 +76849,7 @@ const PRODUCTS =
     {
         "id": 12148,
         "ref": "107625",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "CAIXA DE SOM JBL PARTYBOX ON THE GO COM MICROFONE",
         "title": "CAIXA DE SOM JBL PARTYBOX ON THE GO COM MICROFONE",
         "category": "Periféricos",
@@ -76869,7 +76869,7 @@ const PRODUCTS =
     {
         "id": 12149,
         "ref": "73671",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "CAIXA DE SOM JBL CHARGE 5 BT BLACK  73671",
         "title": "CAIXA DE SOM JBL CHARGE 5 BT BLACK  73671",
         "category": "Periféricos",
@@ -76949,7 +76949,7 @@ const PRODUCTS =
     {
         "id": 12153,
         "ref": "266451",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "CAIXA DE SOM JBL CLIP 5 AZUL",
         "title": "CAIXA DE SOM JBL CLIP 5 Azul",
         "category": "Periféricos",
@@ -76989,7 +76989,7 @@ const PRODUCTS =
     {
         "id": 12155,
         "ref": "104813",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "CAIXA DE SOM JBL GO4 CAMUFLADA",
         "title": "CAIXA DE SOM JBL GO4 CAMUFLADA",
         "category": "Periféricos",
@@ -77009,7 +77009,7 @@ const PRODUCTS =
     {
         "id": 12156,
         "ref": "337720",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "CAIXA DE SOM JBL BOOMBOX 4 BLACK BOOMBOX 4  337720",
         "title": "CAIXA DE SOM JBL BOOMBOX 4 BLACK BOOMBOX 4  337720",
         "category": "Periféricos",
@@ -77029,7 +77029,7 @@ const PRODUCTS =
     {
         "id": 12157,
         "ref": "283327",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "CAIXA DE SOM JBL PARTYBOX ULTIMATE 1 100 WATTS  283327",
         "title": "CAIXA DE SOM JBL PARTYBOX ULTIMATE 1 100 WATTS  283327",
         "category": "Periféricos",
@@ -77049,7 +77049,7 @@ const PRODUCTS =
     {
         "id": 12158,
         "ref": "201620",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "CAIXA DE SOM JBL SOUNDBAR CINEMA SB510 BT  201620",
         "title": "CAIXA DE SOM JBL SOUNDBAR CINEMA SB510 BT  201620",
         "category": "Periféricos",
@@ -77069,7 +77069,7 @@ const PRODUCTS =
     {
         "id": 12159,
         "ref": "305961",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "CAIXA DE SOM JBL XTREME 4 AZUL",
         "title": "CAIXA DE SOM JBL XTREME 4 Azul",
         "category": "Periféricos",
@@ -77109,7 +77109,7 @@ const PRODUCTS =
     {
         "id": 12161,
         "ref": "266462",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "CAIXA DE SOM JBL CLIP 5 VERMELHA",
         "title": "CAIXA DE SOM JBL CLIP 5 Rojo",
         "category": "Periféricos",
@@ -77129,7 +77129,7 @@ const PRODUCTS =
     {
         "id": 12162,
         "ref": "337753",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "CAIXA DE SOM JBL BOOMBOX 4 BLUE BOOMBOX 4",
         "title": "CAIXA DE SOM JBL BOOMBOX 4 BLUE BOOMBOX 4",
         "category": "Periféricos",
@@ -77169,7 +77169,7 @@ const PRODUCTS =
     {
         "id": 12164,
         "ref": "332928",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "CAIXA DE SOM JBL PARTYBOX ENCORE ESSENTIAL 2",
         "title": "CAIXA DE SOM JBL PARTYBOX ENCORE ESSENTIAL 2",
         "category": "Periféricos",
@@ -77189,7 +77189,7 @@ const PRODUCTS =
     {
         "id": 12165,
         "ref": "327763",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "CAIXA DE SOM JBL PARTYBOX 520 BLUETOOTH BLACK BIVOLT",
         "title": "CAIXA DE SOM JBL PARTYBOX 520 BLUETOOTH BLACK BIVOLT",
         "category": "Periféricos",
@@ -77269,7 +77269,7 @@ const PRODUCTS =
     {
         "id": 12169,
         "ref": "333951",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "CAIXA DE SOM JBL GO ESSENTIAL 2 PRETA",
         "title": "CAIXA DE SOM JBL GO ESSENTIAL 2 Negro",
         "category": "Periféricos",
@@ -77289,7 +77289,7 @@ const PRODUCTS =
     {
         "id": 12170,
         "ref": "344617",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "CAIXA DE SOM JBL BOOMBOX 4 BRANCA",
         "title": "CAIXA DE SOM JBL BOOMBOX 4 Blanco",
         "category": "Periféricos",
@@ -77309,7 +77309,7 @@ const PRODUCTS =
     {
         "id": 12171,
         "ref": "333973",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "CAIXA DE SOM JBL GO ESSENTIAL 2 VERMELHA",
         "title": "CAIXA DE SOM JBL GO ESSENTIAL 2 Rojo",
         "category": "Periféricos",
@@ -77329,7 +77329,7 @@ const PRODUCTS =
     {
         "id": 12172,
         "ref": "332052",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "CAIXA DE SOM JBL FLIP 7 CAMUFLADA",
         "title": "CAIXA DE SOM JBL FLIP 7 CAMUFLADA",
         "category": "Periféricos",
@@ -82269,7 +82269,7 @@ const PRODUCTS =
     {
         "id": 12419,
         "ref": "47751",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "FONE BT JBL TUNE T720BT BLUETOOTH BLACK",
         "title": "FONE BT JBL TUNE T720BT BLUETOOTH BLACK",
         "category": "Periféricos",
@@ -82289,7 +82289,7 @@ const PRODUCTS =
     {
         "id": 12420,
         "ref": "202979",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "FONE BT JBL WAVE 200TWS WHITE  202979",
         "title": "FONE BT JBL WAVE 200TWS WHITE  202979",
         "category": "Periféricos",
@@ -82329,7 +82329,7 @@ const PRODUCTS =
     {
         "id": 12422,
         "ref": "234187",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "FONE BT JBL ENDURANCE RUN2 BLACK  234187",
         "title": "FONE BT JBL ENDURANCE RUN2 BLACK  234187",
         "category": "Periféricos",
@@ -82389,7 +82389,7 @@ const PRODUCTS =
     {
         "id": 12425,
         "ref": "315569",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "FONE EAR JBL WAVE BEAM 2 BLUETOOTH BLACK  315569",
         "title": "FONE EAR JBL WAVE BEAM 2 BLUETOOTH BLACK  315569",
         "category": "Periféricos",
@@ -82429,7 +82429,7 @@ const PRODUCTS =
     {
         "id": 12427,
         "ref": "351233",
-        "brand": "GENERIC",
+        "brand": "RAZER",
         "title_orig": "FONE RAZER BLACKSHARK V2 X RZ04 03240100 R3U1 BLK 351233",
         "title": "FONE RAZER BLACKSHARK V2 X RZ04 03240100 R3U1 BLK 351233",
         "category": "Periféricos",
@@ -82529,7 +82529,7 @@ const PRODUCTS =
     {
         "id": 12432,
         "ref": "216100",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "FONE BT JBL T125BT BLUETOOTH BLACK  216100",
         "title": "FONE BT JBL T125BT BLUETOOTH BLACK  216100",
         "category": "Periféricos",
@@ -82589,7 +82589,7 @@ const PRODUCTS =
     {
         "id": 12435,
         "ref": "219180",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "FONE EAR JBL WAVE FLEX BT BLACK  219180",
         "title": "FONE EAR JBL WAVE FLEX BT BLACK  219180",
         "category": "Periféricos",
@@ -82609,7 +82609,7 @@ const PRODUCTS =
     {
         "id": 12436,
         "ref": "364393",
-        "brand": "GENERIC",
+        "brand": "RAZER",
         "title_orig": "FONE RAZER BLACKSHARK V3 PRO NASA WIRELESS WHITE RZ04 05400200 R 3U1",
         "title": "FONE RAZER BLACKSHARK V3 PRO NASA WIRELESS WHITE RZ04 05400200 R 3U1",
         "category": "Periféricos",
@@ -82689,7 +82689,7 @@ const PRODUCTS =
     {
         "id": 12440,
         "ref": "364406",
-        "brand": "GENERIC",
+        "brand": "RAZER",
         "title_orig": "FONE RAZER BLACKSHARK V3 NASA WIRELESS PRETO RZ04 05410100 R 3U1",
         "title": "FONE RAZER BLACKSHARK V3 NASA WIRELESS Negro RZ04 05410100 R 3U1",
         "category": "Periféricos",
@@ -82729,7 +82729,7 @@ const PRODUCTS =
     {
         "id": 12442,
         "ref": "307166",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "FONE EAR JBL LIVE BUDS 3 TWS BLACK",
         "title": "FONE EAR JBL LIVE BUDS 3 TWS BLACK",
         "category": "Periféricos",
@@ -82889,7 +82889,7 @@ const PRODUCTS =
     {
         "id": 12450,
         "ref": "328158",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "FONE JBL TUNE T520C USB C PURPLE JBLT520CPURAM",
         "title": "FONE JBL TUNE T520C USB C PURPLE JBLT520CPURAM",
         "category": "Periféricos",
@@ -82949,7 +82949,7 @@ const PRODUCTS =
     {
         "id": 12453,
         "ref": "377533",
-        "brand": "GENERIC",
+        "brand": "JBL",
         "title_orig": "FONE EAR JBL SENSE PRO BLUETOOTH BLACK",
         "title": "FONE EAR JBL SENSE PRO BLUETOOTH BLACK",
         "category": "Periféricos",
@@ -82969,7 +82969,7 @@ const PRODUCTS =
     {
         "id": 12454,
         "ref": "355922",
-        "brand": "GENERIC",
+        "brand": "RAZER",
         "title_orig": "FONE RAZER BARRACUDA X WIRELESS RZ04 05220200 R3U1 WHITE  355922",
         "title": "FONE RAZER BARRACUDA X WIRELESS RZ04 05220200 R3U1 WHITE  355922",
         "category": "Periféricos",
@@ -83949,7 +83949,7 @@ const PRODUCTS =
     {
         "id": 12503,
         "ref": "282630",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "APPLE LOCALIZADOR SATE MF01 BLUETOOTH BRANCO  282630",
         "title": "APPLE LOCALIZADOR SATE MF01 BLUETOOTH Blanco  282630",
         "category": "Periféricos",
@@ -83969,7 +83969,7 @@ const PRODUCTS =
     {
         "id": 12504,
         "ref": "282629",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "APPLE LOCALIZADOR SATE MF01 BLUETOOTH PRETO",
         "title": "APPLE LOCALIZADOR SATE MF01 BLUETOOTH Negro",
         "category": "Periféricos",
@@ -84029,7 +84029,7 @@ const PRODUCTS =
     {
         "id": 12507,
         "ref": "301924",
-        "brand": "GALAX",
+        "brand": "SAMSUNG",
         "title_orig": "LOCALIZADOR SAMSUNG GALAXY SMART TAG2 1PACK BRANCO  301924",
         "title": "LOCALIZADOR SAMSUNG GALAXY SMART TAG2 1PACK Blanco  301924",
         "category": "Periféricos",
@@ -84049,7 +84049,7 @@ const PRODUCTS =
     {
         "id": 12508,
         "ref": "111216",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "APPLE LOCALIZADOR AIRTAG MX532AM A 1 PACK",
         "title": "APPLE LOCALIZADOR AIRTAG MX532AM A 1 PACK",
         "category": "Periféricos",
@@ -84069,7 +84069,7 @@ const PRODUCTS =
     {
         "id": 12509,
         "ref": "319898",
-        "brand": "GALAX",
+        "brand": "SAMSUNG",
         "title_orig": "LOCALIZADOR SAMSUNG GALAXY SMART TAG2 1PACK PRETO EI T5600BWEGWW",
         "title": "LOCALIZADOR SAMSUNG GALAXY SMART TAG2 1PACK Negro EI T5600BWEGWW",
         "category": "Periféricos",
@@ -84089,7 +84089,7 @@ const PRODUCTS =
     {
         "id": 12510,
         "ref": "106242",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "APPLE LOCALIZADOR AIRTAG MX532BE A 1 PACK A2187  106242",
         "title": "APPLE LOCALIZADOR AIRTAG MX532BE A 1 PACK A2187  106242",
         "category": "Periféricos",
@@ -84129,7 +84129,7 @@ const PRODUCTS =
     {
         "id": 12512,
         "ref": "370671",
-        "brand": "GALAX",
+        "brand": "SAMSUNG",
         "title_orig": "LOCALIZADOR SAMSUNG GALAXY SMART TAG2 1PACK BRANCO EI T5600BBEGWW",
         "title": "LOCALIZADOR SAMSUNG GALAXY SMART TAG2 1PACK Blanco EI T5600BBEGWW",
         "category": "Periféricos",
@@ -84149,7 +84149,7 @@ const PRODUCTS =
     {
         "id": 12513,
         "ref": "368948",
-        "brand": "GENERIC",
+        "brand": "APPLE",
         "title_orig": "APPLE LOCALIZADOR AIRTAG 1 PACK MX532LL A MX532LL A A2187",
         "title": "APPLE LOCALIZADOR AIRTAG 1 PACK MX532LL A MX532LL A A2187",
         "category": "Periféricos",
@@ -84169,7 +84169,7 @@ const PRODUCTS =
     {
         "id": 12514,
         "ref": "246034",
-        "brand": "GALAX",
+        "brand": "SAMSUNG",
         "title_orig": "LOCALIZADOR SAMSUNG GALAXY SMART TAG2 4UND BLK WHI EI T5600KWEGWW",
         "title": "LOCALIZADOR SAMSUNG GALAXY SMART TAG2 4UND BLK WHI EI T5600KWEGWW",
         "category": "Periféricos",
