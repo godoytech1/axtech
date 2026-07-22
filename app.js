@@ -710,10 +710,19 @@ document.addEventListener('DOMContentLoaded', () => {
     // ----------------------------------------------------------------------
     function getTvSize(title) {
         let match = title.match(/(\d{2,3})\s*(?:"|polegadas|inch|'|Pulgadas)/i);
-        if (!match) {
-            match = title.match(/TV\s+(\d{2,3})/i);
+        if (!match) match = title.match(/TV\s+(\d{2,3})/i);
+        if (match) {
+            let val = parseInt(match[1], 10);
+            if (val >= 30 && val <= 39) return "32\"";
+            if (val >= 40 && val <= 47) return "43\"";
+            if (val >= 48 && val <= 52) return "50\"";
+            if (val >= 53 && val <= 59) return "55\"";
+            if (val >= 60 && val <= 69) return "65\"";
+            if (val >= 70 && val <= 79) return "75\"";
+            if (val >= 80) return "85\"+";
+            return val + '"';
         }
-        return match ? match[1] : null;
+        return null;
     }
 
     function getMonitorSize(title) {
@@ -793,7 +802,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function getPsuWattage(title) {
         const match = title.match(/(\d+)\s*W\b/i);
-        return match ? match[1] + 'W' : null;
+        if (!match) return null;
+        let w = parseInt(match[1], 10);
+        if (w >= 200 && w <= 450) return "200W - 450W";
+        if (w >= 500 && w <= 600) return "500W - 600W";
+        if (w >= 650 && w <= 750) return "650W - 750W";
+        if (w >= 800 && w <= 850) return "800W - 850W";
+        if (w >= 1000) return "1000W+";
+        return w + 'W';
     }
 
     function getConsoleProductType(title) {
@@ -806,8 +822,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function getStorageCapacity(title) {
         const match = title.match(/(\d+(?:\.\d+)?)\s*(TB|GB)\b/i);
-        return match ? match[1] + match[2].toUpperCase() : null;
+        if (!match) return null;
+        let num = parseFloat(match[1]);
+        let unit = match[2].toUpperCase();
+        if (unit === 'TB') num = num * 1000;
+        
+        if (num >= 100 && num <= 300) return "120GB - 256GB";
+        if (num >= 400 && num <= 600) return "480GB - 512GB";
+        if (num >= 800 && num <= 1200) return "1TB";
+        if (num >= 1800 && num <= 2400) return "2TB";
+        if (num >= 3500) return "4TB+";
+        return num + 'GB';
     }
+
 
     function setupAccordionListeners() {
         const headers = sidebarWidget.querySelectorAll('.filter-group-header');
