@@ -39,6 +39,35 @@ document.addEventListener('DOMContentLoaded', () => {
         'sem', 'em', 'da', 'do', 'dos', 'das'
     ]);
 
+    const SEARCH_SYNONYMS = {
+        'vga': ['placa de video', 'tarjeta de video', 'gpu', 'grafica'],
+        'gpu': ['placa de video', 'tarjeta de video', 'vga', 'grafica'],
+        'grafica': ['tarjeta de video', 'placa de video', 'vga', 'gpu'],
+        'cpu': ['procesador', 'processador'],
+        'procesador': ['cpu', 'processador'],
+        'psu': ['fuente de poder', 'fonte'],
+        'fuente': ['fonte', 'psu', 'fuente de poder'],
+        'notebook': ['laptop', 'macbook', 'portatil'],
+        'laptop': ['notebook', 'macbook', 'portatil'],
+        'portatil': ['notebook', 'laptop', 'macbook'],
+        'hd': ['disco duro', 'disco externo', 'hd externo', 'ssd'],
+        'disco': ['ssd', 'hd', 'disco duro', 'disco externo'],
+        'ram': ['memoria ram', 'ddr4', 'ddr5', 'sodimm'],
+        'tv': ['televisor', 'smart tv', 'smarttv'],
+        'televisor': ['tv', 'smart tv'],
+        '4k': ['uhd', '2160p', 'quad hd'],
+        'fhd': ['1080p', 'full hd'],
+        'qhd': ['1440p', '2k', 'wqhd'],
+        'curvo': ['curved', 'curva'],
+        'aquario': ['aquarium', 'gabinete aquario', 'case aquario'],
+        'case': ['gabinete'],
+        'gabinete': ['case'],
+        'headset': ['auricular', 'audifonos', 'fone'],
+        'auricular': ['headset', 'audifonos', 'fone'],
+        'teclado': ['keyboard'],
+        'mouse': ['raton']
+    };
+
     function resetSubfilters() {
         activeSubfilters.monitorSizes = [];
         activeSubfilters.procBrands = [];
@@ -321,6 +350,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (textToSearch.includes(word)) {
                         return true;
                     }
+                    const syns = SEARCH_SYNONYMS[word];
+                    if (syns && syns.some(s => textToSearch.includes(s))) {
+                        return true;
+                    }
                     // Smart size equivalences (e.g. 24 matches 23.8, 23.6, 24.5)
                     if (word === '24') {
                         return /\b(24|23\.8|23\.6|24\.5)\b/.test(textToSearch);
@@ -333,6 +366,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                     return false;
                 });
+
 
                 // Smart search logic: if query is for parts but category is Notebooks
                 if (searchMatch && p.category === 'Notebooks') {
@@ -1349,6 +1383,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const checkboxes = sidebarWidget.querySelectorAll('.filter-checkbox');
         checkboxes.forEach(cb => {
             cb.addEventListener('change', () => {
+                // Clear active search bar text so leftover search query does not restrict sidebar selections
+                if (searchInput) searchInput.value = '';
+                searchQuery = '';
+
                 const type = cb.getAttribute('data-filter-type');
                 const val = cb.value;
 
@@ -1398,6 +1436,10 @@ document.addEventListener('DOMContentLoaded', () => {
         currentCategory = category;
         currentPage = 1; // Reset to page 1
 
+        // Clear active search bar text when switching categories
+        if (searchInput) searchInput.value = '';
+        searchQuery = '';
+
         resetSubfilters();
         renderSidebarFilters(category);
 
@@ -1407,6 +1449,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Render catalog
         renderProducts();
     }
+
 
     function syncCategoryLinks(category) {
         // Desktop nav
