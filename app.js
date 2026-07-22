@@ -760,22 +760,42 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function getMonitorSize(title) {
-        let match = title.match(/(\d{2}(?:\.\d+)?)\s*(?:"|pulgadas|polegadas|inch|inches|'|\b)/i);
-        if (!match) match = title.match(/monitor\s+(\d{2}(?:\.\d+)?)/i);
+        const t = title.toLowerCase();
+
+        if (t.includes('soporte') || t.includes('suporte') || t.includes('brazo')) return null;
+
+        // Normalize spaces in decimal numbers (e.g. "23 8" -> "23.8", "31 5" -> "31.5")
+        const cleaned = t.replace(/\b(\d{2})\s+(\d{1,2})\b/g, '$1.$2');
+
+        // 1. Match explicit quotes: e.g. 24", 23.8", 27", 15.6"
+        let match = cleaned.match(/(\d{2}(?:\.\d+)?)\s*"/);
+        
+        // 2. Match explicit unit words: e.g. 24 pulgadas, 27 inch, 23.8 polegadas
+        if (!match) {
+            match = cleaned.match(/(\d{2}(?:\.\d+)?)\s*(?:pulgadas|polegadas|inch|inches)\b/i);
+        }
+
+        // 3. Match MON / MONITOR followed by size number: e.g. "MON 24 ", "MON 23.8", "MONITOR 27"
+        if (!match) {
+            match = cleaned.match(/\b(?:mon|monitor)\b.*?\b(14|15\.4|15\.6|15|16|17|18\.5|18|19|20|21\.45|21\.5|21|22|23\.6|23\.8|24|24\.5|25|26|27|28|29|30|31\.5|32|34|40|49)\b/i);
+        }
+
         if (match) {
             let val = parseFloat(match[1]);
             if (val >= 23.0 && val <= 24.9) return "24";
-            if (val >= 26.0 && val <= 27.9) return "27";
+            if (val >= 25.0 && val <= 27.9) return "27";
             if (val >= 31.0 && val <= 32.9) return "32";
-            if (val >= 21.0 && val <= 22.9) return "22";
-            if (val >= 19.0 && val <= 20.9) return "20";
+            if (val >= 20.0 && val <= 22.9) return "20-22";
+            if (val >= 17.0 && val <= 19.9) return "17-19";
+            if (val >= 14.0 && val <= 16.9) return "15-16";
             if (val >= 33.0 && val <= 35.0) return "34";
-            if (val >= 17.0 && val <= 18.9) return "17-18";
-            if (val >= 15.0 && val <= 16.9) return "15-16";
+            if (val >= 40.0 && val <= 44.0) return "40";
+            if (val >= 48.0 && val <= 49.9) return "49";
             return Math.round(val).toString();
         }
         return null;
     }
+
 
     function getGpuChip(title) {
         const t = title.toLowerCase();
