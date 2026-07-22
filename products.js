@@ -90508,5 +90508,3689 @@ const PRODUCTS =
             "GENERIC",
             "Televisores"
         ]
+    },
+    {
+        "id": 12979,
+        "ref": "132634",
+        "brand": "GENERIC",
+        "title_orig": "VGA R5 230 1GB AFOX DDR3 64BIT AFR5230 1024D3L9 V2 132634",
+        "title": "VGA R5 230 1GB AFOX DDR3 64BIT AFR5230 1024D3L9 V2 132634",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_132634_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/vga-r5-230-1gb-afox-ddr3-64bit-afr5230-1024d3l9-v2-132634/132634.html",
+        "specs": [
+            "GENERIC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12980,
+        "ref": "166215",
+        "brand": "MSI",
+        "title_orig": "MB 1700 MSI PRO H610M G DDR4 HDMI DP VGA M 2 USB32",
+        "title": "MB 1700 MSI PRO H610M G DDR4 HDMI DP VGA M 2 USB32",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_166215_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-1700-msi-pro-h610m-g-ddr4-hdmi-dp-vga-m-2-usb32/166215.html",
+        "specs": [
+            "MSI",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 12981,
+        "ref": "269017",
+        "brand": "MSI",
+        "title_orig": "MB 1700 MSI H610M S PRO DDR4 HDMI USB3 2",
+        "title": "MB 1700 MSI H610M S PRO DDR4 HDMI USB3 2",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_269017_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-1700-msi-h610m-s-pro-ddr4-hdmi-usb3-2/269017.html",
+        "specs": [
+            "MSI",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 12982,
+        "ref": "254762",
+        "brand": "MSI",
+        "title_orig": "MB 1700 MSI Z790 GAMING PLUS WIFI 6E DDR5 HDMI DP  254762",
+        "title": "MB 1700 MSI Z790 GAMING PLUS WIFI 6E DDR5 HDMI DP 254762",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_254762_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-1700-msi-z790-gaming-plus-wifi-6e-ddr5-hdmi-dp-codigo-254762/254762.html",
+        "specs": [
+            "MSI",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 12983,
+        "ref": "270086",
+        "brand": "MSI",
+        "title_orig": "MB 1700 MSI B760M PROJECT ZERO DDR5 WIFI6E BT 5 3",
+        "title": "MB 1700 MSI B760M PROJECT ZERO DDR5 WIFI6E BT 5 3",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_270086_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-1700-msi-b760m-project-zero-ddr5-wifi6e-bt-5-3/270086.html",
+        "specs": [
+            "MSI",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 12984,
+        "ref": "293451",
+        "brand": "MSI",
+        "title_orig": "MB 1851 MSI Z890 S PRO WIFI HDMI DP M 2 BT WIFI7 BT5 4",
+        "title": "MB 1851 MSI Z890 S PRO WIFI HDMI DP M 2 BT WIFI7 BT5 4",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_293451_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-1851-msi-z890-s-pro-wifi-hdmi-dp-m-2-bt-wifi7-bt5-4/293451.html",
+        "specs": [
+            "MSI",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 12985,
+        "ref": "306389",
+        "brand": "MSI",
+        "title_orig": "WATER COOLER CPU MSI MAG CORELIQUID A13 360 WHITE 306 7ZWDA21 L80 LIQUID ARGB BRANCO 360MM INTEL 1700 1851 AMD AM4 AM5",
+        "title": "WATER COOLER CPU MSI MAG CORELIQUID A13 360 WHITE 306 7ZWDA21 L80 LIQUID ARGB Blanco 360MM INTEL 1700 1851 AMD AM4 AM5",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_306389_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/water-cooler-cpu-msi-mag-coreliquid-a13-360-white-306-7zwda21-l80-liquid-argb-branco-360mm-intel-1700-1851-amd-am4-am5/306389.html",
+        "specs": [
+            "MSI",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12986,
+        "ref": "400239",
+        "brand": "INTEL",
+        "title_orig": "NOTEBOOK ACER SWIFT GO 16 SFG16 I71T 51LC INTEL CORE ULTRA 5 322 2 50HZ 4 40GHZ 16GB RAM 512GB SSD TELA 16 TOUCH WUXGA 1920 X 1200 WINDOWS 11 HOME INGLES PRATA",
+        "title": "NOTEBOOK ACER SWIFT GO 16 SFG16 I71T 51LC INTEL CORE ULTRA 5 322 2 50Hz 4 40GHZ 16GB RAM 512GB SSD Pantalla 16 TOUCH WUXGA 1920 X 1200 WINDOWS 11 HOME INGLES Plata",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_400239_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-acer-swift-go-16-sfg16-i71t-51lc-intel-core-ultra-5-322-2-50hz-4-40ghz-16gb-ram-512gb-ssd-tela-16-touch-wuxga-1920-x-1200-windows-11-home-ingles-prata/400239.html",
+        "specs": [
+            "INTEL",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 12987,
+        "ref": "383104",
+        "brand": "AMD",
+        "title_orig": "NOTEBOOK LENOVO V15 G4 ABP 83CQ0025US AMD RYZEN 3 7320U 2 40HZ 4 10GHZ 16GB RAM 512GB SSD TELA 15 6 FULL HD 1920 X 1080 WINDOWS 11 HOME ETHERNET RJ45 INGLES BUSINESS PRETO  383104",
+        "title": "NOTEBOOK LENOVO V15 G4 ABP 83CQ0025US AMD RYZEN 3 7320U 2 40Hz 4 10GHZ 16GB RAM 512GB SSD Pantalla 15 6 FULL HD 1920 X 1080 WINDOWS 11 HOME ETHERNET RJ45 INGLES BUSINESS Negro 383104",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_383104_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-lenovo-v15-g4-abp-83cq0025us-amd-ryzen-3-7320u-2-40hz-4-10ghz-16gb-ram-512gb-ssd-tela-15-6-full-hd-1920-x-1080-windows-11-home-ethernet-rj45-ingles-business-preto-codigo-383104/383104.html",
+        "specs": [
+            "AMD",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 12988,
+        "ref": "374058",
+        "brand": "APPLE",
+        "title_orig": "APPLE IPHONE 17 PRO MAX 256GB MFXJ4LL A BLUE DEEP BLUE A3257",
+        "title": "APPLE IPHONE 17 PRO MAX 256GB MFXJ4LL A BLUE DEEP BLUE A3257",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_374058_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-iphone-17-pro-max-256gb-mfxj4ll-a-blue-deep-blue-a3257/374058.html",
+        "specs": [
+            "APPLE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12989,
+        "ref": "376824",
+        "brand": "APPLE",
+        "title_orig": "APPLE IPHONE 17 PRO 256GB MG7M4LL A DEEP BLUE A3256",
+        "title": "APPLE IPHONE 17 PRO 256GB MG7M4LL A DEEP BLUE A3256",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_376824_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-iphone-17-pro-256gb-mg7m4ll-a-deep-blue-a3256/376824.html",
+        "specs": [
+            "APPLE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12990,
+        "ref": "379333",
+        "brand": "APPLE",
+        "title_orig": "APPLE IPHONE 17 PRO MAX 256GB MFXG4LL A SILVER AME  379333",
+        "title": "APPLE IPHONE 17 PRO MAX 256GB MFXG4LL A SILVER AME 379333",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_379333_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-iphone-17-pro-max-256gb-mfxg4ll-a-silver-ame-codigo-379333/379333.html",
+        "specs": [
+            "APPLE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12991,
+        "ref": "381550",
+        "brand": "APPLE",
+        "title_orig": "APPLE IPAD 11 A16 11 128GB MD3Y4LL A SILVER WIFI",
+        "title": "APPLE IPAD 11 A16 11 128GB MD3Y4LL A SILVER WIFI",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_381550_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-ipad-11-a16-11-128gb-md3y4ll-a-silver-wifi/381550.html",
+        "specs": [
+            "APPLE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12992,
+        "ref": "401622",
+        "brand": "APPLE",
+        "title_orig": "APPLE CARREGADOR MAGSAFE 20W MHXH3ZM A WIRELESS WHITE  401622",
+        "title": "APPLE CARREGADOR MAGSAFE 20W MHXH3ZM A WIRELESS WHITE 401622",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_401622_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-carregador-magsafe-20w-mhxh3zm-a-wireless-white-codigo-401622/401622.html",
+        "specs": [
+            "APPLE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12993,
+        "ref": "398670",
+        "brand": "APPLE",
+        "title_orig": "APPLE MAC PRO M5 36GB 2TB 16 2 MGED4LL A BLACK",
+        "title": "APPLE MAC PRO M5 36GB 2TB 16 2 MGED4LL A BLACK",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_398670_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-mac-pro-m5-36gb-2tb-16-2-mged4ll-a-black/398670.html",
+        "specs": [
+            "APPLE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12994,
+        "ref": "403567",
+        "brand": "APPLE",
+        "title_orig": "APPLE FONE AIRPODS 4 MXP63LL A WHITE",
+        "title": "APPLE FONE AIRPODS 4 MXP63LL A WHITE",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_403567_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-fone-airpods-4-mxp63ll-a-white/403567.html",
+        "specs": [
+            "APPLE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 12995,
+        "ref": "273921",
+        "brand": "AMD",
+        "title_orig": "MONITOR VIEWSONIC VG2440V 24 FULL HD 1920X1080 WEBCAMERA COM MIC FHD 60HZ 5MS IPS 1XHDMI 1 4 1XVGA D SUB 1XDISPLAYPORT 1 4 1XUSB B 1XUSB A 1XCONECTOR DE AUDIO AMD FREESYNC SPEAKER 2WX2 AJUSTE ALTURA P",
+        "title": "MONITOR VIEWSONIC VG2440V 24 FULL HD 1920X1080 WEBCAMERA COM MIC FHD 60Hz 5Ms IPS 1XHDMI 1 4 1XVGA D SUB 1XDISPLAYPORT 1 4 1XUSB B 1XUSB A 1XCONECTOR DE AUDIO AMD FREESYNC SPEAKER 2WX2 AJUSTE ALTURA P",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_273921_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/monitor-viewsonic-vg2440v-24-full-hd-1920x1080-webcamera-com-mic-fhd-60hz-5ms-ips-1xhdmi-1-4-1xvga-d-sub-1xdisplayport-1-4-1xusb-b-1xusb-a-1xconector-de-audio-amd-freesync-speaker-2wx2-ajuste-altura-p/273921.html",
+        "specs": [
+            "AMD",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 12996,
+        "ref": "121127",
+        "brand": "VIEWSONIC",
+        "title_orig": "MON 27 VIEWSONIC VX2718 P MHD FHD 165HZ 1MS PRETO  121127",
+        "title": "MON 27 VIEWSONIC VX2718 P MHD FHD 165Hz 1Ms Negro 121127",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_121127_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-27-viewsonic-vx2718-p-mhd-fhd-165hz-1ms-preto-codigo-121127/121127.html",
+        "specs": [
+            "VIEWSONIC",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 12997,
+        "ref": "268352",
+        "brand": "AMD",
+        "title_orig": "MONITOR VIEWSONIC VA2447 MHU 24 FULL HD 1920X1080 100HZ 5MS 1XHDMI 1 4 1XVGA D SUB 1XCONECTOR DE AUDIO AMD FREESYNC SPEAKER 2WX2 PRETO",
+        "title": "MONITOR VIEWSONIC VA2447 MHU 24 FULL HD 1920X1080 100Hz 5Ms 1XHDMI 1 4 1XVGA D SUB 1XCONECTOR DE AUDIO AMD FREESYNC SPEAKER 2WX2 Negro",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_268352_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/monitor-viewsonic-va2447-mhu-24-full-hd-1920x1080-100hz-5ms-1xhdmi-1-4-1xvga-d-sub-1xconector-de-audio-amd-freesync-speaker-2wx2-preto/268352.html",
+        "specs": [
+            "AMD",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 12998,
+        "ref": "121116",
+        "brand": "AMD",
+        "title_orig": "MONITOR VIEWSONIC VX2718 PC MHD CURVO 27 FULL HD 1920X1080 1MS 180HZ 2XHDMI 1 4 1XDISPLAYPORT 1 2 1XUSB A 1XCONECTOR DE AUDIO AMD FREESYNC SPEAKER 2WX2 PRETO",
+        "title": "MONITOR VIEWSONIC VX2718 PC MHD CURVO 27 FULL HD 1920X1080 1Ms 180Hz 2XHDMI 1 4 1XDISPLAYPORT 1 2 1XUSB A 1XCONECTOR DE AUDIO AMD FREESYNC SPEAKER 2WX2 Negro",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_121116_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/monitor-viewsonic-vx2718-pc-mhd-curvo-27-full-hd-1920x1080-1ms-180hz-2xhdmi-1-4-1xdisplayport-1-2-1xusb-a-1xconector-de-audio-amd-freesync-speaker-2wx2-preto/121116.html",
+        "specs": [
+            "AMD",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 12999,
+        "ref": "273910",
+        "brand": "AMD",
+        "title_orig": "MONITOR VIEWSONIC VP2458 24 FULL HD 1920X1080 60HZ 5MS IPS 1XHDMI 1 4 1XVGA D SUB 1XDISPLAYPORT 1 4 1XUSB B 2XUSB A AMD FREESYNC SPEAKER 2WX2 AJUSTE ALTURA PIVO ROTACAO PRETO",
+        "title": "MONITOR VIEWSONIC VP2458 24 FULL HD 1920X1080 60Hz 5Ms IPS 1XHDMI 1 4 1XVGA D SUB 1XDISPLAYPORT 1 4 1XUSB B 2XUSB A AMD FREESYNC SPEAKER 2WX2 AJUSTE ALTURA PIVO ROTACAO Negro",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_273910_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/monitor-viewsonic-vp2458-24-full-hd-1920x1080-60hz-5ms-ips-1xhdmi-1-4-1xvga-d-sub-1xdisplayport-1-4-1xusb-b-2xusb-a-amd-freesync-speaker-2wx2-ajuste-altura-pivo-rotacao-preto/273910.html",
+        "specs": [
+            "AMD",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 13000,
+        "ref": "95552",
+        "brand": "VIEWSONIC",
+        "title_orig": "MON 27 VIEWSONIC XG270 IPS 240HZ 1MS PRETO",
+        "title": "MON 27 VIEWSONIC XG270 IPS 240Hz 1Ms Negro",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_95552_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-27-viewsonic-xg270-ips-240hz-1ms-preto/95552.html",
+        "specs": [
+            "VIEWSONIC",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 13001,
+        "ref": "289513",
+        "brand": "AMD",
+        "title_orig": "MONITOR VIEWSONIC VX2716 27 FULL HD 1920X1080 1MS 100HZ IPS 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XUSB A 1XCONECTOR DE AUDIO AMD FREESYNC SPEAKER 2WX2 PRETO",
+        "title": "MONITOR VIEWSONIC VX2716 27 FULL HD 1920X1080 1Ms 100Hz IPS 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XUSB A 1XCONECTOR DE AUDIO AMD FREESYNC SPEAKER 2WX2 Negro",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_289513_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/monitor-viewsonic-vx2716-27-full-hd-1920x1080-1ms-100hz-ips-1xhdmi-1-4-1xdisplayport-1-2-1xusb-a-1xconector-de-audio-amd-freesync-speaker-2wx2-preto/289513.html",
+        "specs": [
+            "AMD",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 13002,
+        "ref": "289502",
+        "brand": "AMD",
+        "title_orig": "MONITOR VIEWSONIC VX2468 PC MHD 24 CURVO FULL HD 1920X1080 165HZ 1MS IPS 2XHDMI 1 4 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM SPEAKER 2WX2 PRETO",
+        "title": "MONITOR VIEWSONIC VX2468 PC MHD 24 CURVO FULL HD 1920X1080 165Hz 1Ms IPS 2XHDMI 1 4 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM SPEAKER 2WX2 Negro",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_289502_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/monitor-viewsonic-vx2468-pc-mhd-24-curvo-full-hd-1920x1080-165hz-1ms-ips-2xhdmi-1-4-1xdisplayport-1-4-1xconector-de-audio-amd-freesync-premium-speaker-2wx2-preto/289502.html",
+        "specs": [
+            "AMD",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 13003,
+        "ref": "268363",
+        "brand": "VIEWSONIC",
+        "title_orig": "MONITOR VIEWSONIC VA2415 H 2 24 75HZ 4MS FULL HD PRETO  268363",
+        "title": "MONITOR VIEWSONIC VA2415 H 2 24 75Hz 4Ms FULL HD Negro 268363",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_268363_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/monitor-viewsonic-va2415-h-2-24-75hz-4ms-full-hd-preto-codigo-268363/268363.html",
+        "specs": [
+            "VIEWSONIC",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 13004,
+        "ref": "268319",
+        "brand": "VIEWSONIC",
+        "title_orig": "MON 24 VIEWSONIC VG2456A IPS ERG FHD PRETO  268319",
+        "title": "MON 24 VIEWSONIC VG2456A IPS ERG FHD Negro 268319",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_268319_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-24-viewsonic-vg2456a-ips-erg-fhd-preto-codigo-268319/268319.html",
+        "specs": [
+            "VIEWSONIC",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 13005,
+        "ref": "300563",
+        "brand": "VIEWSONIC",
+        "title_orig": "MON 16 VIEWSONIC VA1655 FHD IPS PRETO  300563",
+        "title": "MON 16 VIEWSONIC VA1655 FHD IPS Negro 300563",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_300563_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-16-viewsonic-va1655-fhd-ips-preto-codigo-300563/300563.html",
+        "specs": [
+            "VIEWSONIC",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 13006,
+        "ref": "175641",
+        "brand": "VIEWSONIC",
+        "title_orig": "MON 24 VIEWSONIC TD2423D TOUCHSCREEN FHD PRETO  175641",
+        "title": "MON 24 VIEWSONIC TD2423D TOUCHSCREEN FHD Negro 175641",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_175641_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-24-viewsonic-td2423d-touchscreen-fhd-preto-codigo-175641/175641.html",
+        "specs": [
+            "VIEWSONIC",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 13007,
+        "ref": "198455",
+        "brand": "VIEWSONIC",
+        "title_orig": "PROJETOR VIEWSONIC PA503W WXGA 3800 LUM HDMI VGA",
+        "title": "PROJETOR VIEWSONIC PA503W WXGA 3800 LUM HDMI VGA",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_198455_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/projetor-viewsonic-pa503w-wxga-3800-lum-hdmi-vga/198455.html",
+        "specs": [
+            "VIEWSONIC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 13008,
+        "ref": "340343",
+        "brand": "VIEWSONIC",
+        "title_orig": "MONITOR VIEWSONIC VA2714 H 27 FULL HD 1920 X 1080 4MS 100HZ IPS 1XHDMI 1 4 1XVGA D SUB 1XCONECTOR DE AUDIO PRETO",
+        "title": "MONITOR VIEWSONIC VA2714 H 27 FULL HD 1920 X 1080 4Ms 100Hz IPS 1XHDMI 1 4 1XVGA D SUB 1XCONECTOR DE AUDIO Negro",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_340343_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/monitor-viewsonic-va2714-h-27-full-hd-1920-x-1080-4ms-100hz-ips-1xhdmi-1-4-1xvga-d-sub-1xconector-de-audio-preto/340343.html",
+        "specs": [
+            "VIEWSONIC",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 13009,
+        "ref": "340300",
+        "brand": "VIEWSONIC",
+        "title_orig": "MON 22 VIEWSONIC VA220 H FHD 1MS 100HZ HDMI VGA PR PRETO",
+        "title": "MON 22 VIEWSONIC VA220 H FHD 1Ms 100Hz HDMI VGA PR Negro",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_340300_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-22-viewsonic-va220-h-fhd-1ms-100hz-hdmi-vga-pr-preto/340300.html",
+        "specs": [
+            "VIEWSONIC",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 13010,
+        "ref": "340332",
+        "brand": "VIEWSONIC",
+        "title_orig": "MONITOR VIEWSONIC VA2414 H 24 FULL HD 1920 X 1080 4MS 100HZ IPS 1XHDMI 1 4 1XVGA D SUB 1XCONECTOR DE AUDIO PRETO",
+        "title": "MONITOR VIEWSONIC VA2414 H 24 FULL HD 1920 X 1080 4Ms 100Hz IPS 1XHDMI 1 4 1XVGA D SUB 1XCONECTOR DE AUDIO Negro",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_340332_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/monitor-viewsonic-va2414-h-24-full-hd-1920-x-1080-4ms-100hz-ips-1xhdmi-1-4-1xvga-d-sub-1xconector-de-audio-preto/340332.html",
+        "specs": [
+            "VIEWSONIC",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 13011,
+        "ref": "282405",
+        "brand": "AOC",
+        "title_orig": "MONITOR AOC 27G15 27 4K UHD 3840X2160 60HZ 5MS IPS 1XHDMI 2 0 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XVGA D SUB 1XCONECTOR DE AUDIO PRETO",
+        "title": "MONITOR AOC 27G15 27 4K UHD 3840X2160 60Hz 5Ms IPS 1XHDMI 2 0 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XVGA D SUB 1XCONECTOR DE AUDIO Negro",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_282405_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/monitor-aoc-27g15-27-4k-uhd-3840x2160-60hz-5ms-ips-1xhdmi-2-0-1xhdmi-1-4-1xdisplayport-1-2-1xvga-d-sub-1xconector-de-audio-preto/282405.html",
+        "specs": [
+            "AOC",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 13012,
+        "ref": "277789",
+        "brand": "AOC",
+        "title_orig": "MONITOR 27 AOC 27B2H2 27 FULL HD 1920X1080 100HZ 4MS IPS 2XHDMI 1 4 1XCONECTOR DE AUDIO PRETO",
+        "title": "MONITOR 27 AOC 27B2H2 27 FULL HD 1920X1080 100Hz 4Ms IPS 2XHDMI 1 4 1XCONECTOR DE AUDIO Negro",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_277789_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/monitor-27-aoc-27b2h2-27-full-hd-1920x1080-100hz-4ms-ips-2xhdmi-1-4-1xconector-de-audio-preto/277789.html",
+        "specs": [
+            "AOC",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 13013,
+        "ref": "282381",
+        "brand": "AMD",
+        "title_orig": "MONITOR AOC 27G15 27 FULL HD 1920X1080 180HZ 1MS IPS 2XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PRETO",
+        "title": "MONITOR AOC 27G15 27 FULL HD 1920X1080 180Hz 1Ms IPS 2XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC Negro",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_282381_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/monitor-aoc-27g15-27-full-hd-1920x1080-180hz-1ms-ips-2xhdmi-2-0-1xdisplayport-1-4-1xconector-de-audio-amd-freesync-preto/282381.html",
+        "specs": [
+            "AMD",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 13014,
+        "ref": "282392",
+        "brand": "AOC",
+        "title_orig": "MON 27 AOC C27G4H CURVO FHD 180HZ PRETO",
+        "title": "MON 27 AOC C27G4H CURVO FHD 180Hz Negro",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_282392_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-27-aoc-c27g4h-curvo-fhd-180hz-preto/282392.html",
+        "specs": [
+            "AOC",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 13015,
+        "ref": "277712",
+        "brand": "AOC",
+        "title_orig": "MON 21 5 AOC 22B3HM FHD 75HZ 4MS PRETO  277712",
+        "title": "MON 21 5 AOC 22B3HM FHD 75Hz 4Ms Negro 277712",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_277712_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-21-5-aoc-22b3hm-fhd-75hz-4ms-preto-codigo-277712/277712.html",
+        "specs": [
+            "AOC",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 13016,
+        "ref": "256259",
+        "brand": "AOC",
+        "title_orig": "ESTABILIZADOR GIMBAL SATE AOCHUAN M1 PRO A MK180",
+        "title": "ESTABILIZADOR GIMBAL SATE AOCHUAN M1 PRO A MK180",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_256259_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/estabilizador-gimbal-sate-aochuan-m1-pro-a-mk180/256259.html",
+        "specs": [
+            "AOC",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13017,
+        "ref": "256260",
+        "brand": "AOC",
+        "title_orig": "ESTABILIZADOR GIMBAL SATE AOCHUAN M2 PRO A MK181",
+        "title": "ESTABILIZADOR GIMBAL SATE AOCHUAN M2 PRO A MK181",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_256260_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/estabilizador-gimbal-sate-aochuan-m2-pro-a-mk181/256260.html",
+        "specs": [
+            "AOC",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13018,
+        "ref": "62590",
+        "brand": "GAMEMAX",
+        "title_orig": "COOLER WATER GAMEMAX ICECHILL 240 ARGB G",
+        "title": "COOLER WATER GAMEMAX ICECHILL 240 ARGB G",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_62590_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-water-gamemax-icechill-240-argb-g/62590.html",
+        "specs": [
+            "GAMEMAX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13019,
+        "ref": "86989",
+        "brand": "GAMEMAX",
+        "title_orig": "COOLER WATER GAMEMAX ICECHILL 120 ARGB",
+        "title": "COOLER WATER GAMEMAX ICECHILL 120 ARGB",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_86989_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-water-gamemax-icechill-120-argb/86989.html",
+        "specs": [
+            "GAMEMAX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13020,
+        "ref": "53434",
+        "brand": "GAMEMAX",
+        "title_orig": "COOLER WATER GAMEMAX ICEBERG 120 53434",
+        "title": "COOLER WATER GAMEMAX ICEBERG 120 53434",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_53434_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-water-gamemax-iceberg-120-53434/53434.html",
+        "specs": [
+            "GAMEMAX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13021,
+        "ref": "346977",
+        "brand": "GAMEMAX",
+        "title_orig": "COOLER CPU GAMEMAX SIGMA INFINITY 550 ARGB WHIT G",
+        "title": "COOLER CPU GAMEMAX SIGMA INFINITY 550 ARGB WHIT G",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_346977_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-cpu-gamemax-sigma-infinity-550-argb-whit-g/346977.html",
+        "specs": [
+            "GAMEMAX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13022,
+        "ref": "346922",
+        "brand": "GAMEMAX",
+        "title_orig": "COOLER CPU GAMEMAX ICEHILL LIQUID 240 WHITE G",
+        "title": "COOLER CPU GAMEMAX ICEHILL LIQUID 240 WHITE G",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_346922_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-cpu-gamemax-icehill-liquid-240-white-g/346922.html",
+        "specs": [
+            "GAMEMAX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13023,
+        "ref": "346955",
+        "brand": "GAMEMAX",
+        "title_orig": "COOLER CPU GAMEMAX SIGMA 540 ARGB BLACK G 115X AM5 AM4 1851 1700",
+        "title": "COOLER CPU GAMEMAX SIGMA 540 ARGB BLACK G 115X AM5 AM4 1851 1700",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_346955_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-cpu-gamemax-sigma-540-argb-black-g-115x-am5-am4-1851-1700/346955.html",
+        "specs": [
+            "GAMEMAX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13024,
+        "ref": "53344",
+        "brand": "GAMEMAX",
+        "title_orig": "MOUSE GAMEMAX GX 9 LED 10 BOTOES 4000DPI",
+        "title": "MOUSE GAMEMAX GX 9 LED 10 BOTOES 4000DPI",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_53344_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-gamemax-gx-9-led-10-botoes-4000dpi/53344.html",
+        "specs": [
+            "GAMEMAX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13025,
+        "ref": "346843",
+        "brand": "GAMEMAX",
+        "title_orig": "COOLER CPU GAMEMAX GAMMA 300 RAINBOW PRETO G 754 939 940 AM2 AM3 AM4 FM1 FM2",
+        "title": "COOLER CPU GAMEMAX GAMMA 300 RAINBOW Negro G 754 939 940 AM2 AM3 AM4 FM1 FM2",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_346843_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-cpu-gamemax-gamma-300-rainbow-preto-g-754-939-940-am2-am3-am4-fm1-fm2/346843.html",
+        "specs": [
+            "GAMEMAX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13026,
+        "ref": "346911",
+        "brand": "GAMEMAX",
+        "title_orig": "COOLER CPU GAMEMAX ICEHILL LIQUID 240 BLACK G",
+        "title": "COOLER CPU GAMEMAX ICEHILL LIQUID 240 BLACK G",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_346911_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-cpu-gamemax-icehill-liquid-240-black-g/346911.html",
+        "specs": [
+            "GAMEMAX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13027,
+        "ref": "347271",
+        "brand": "GAMEMAX",
+        "title_orig": "MOUSE GAMEMAX MG7 RGB BLACK",
+        "title": "MOUSE GAMEMAX MG7 RGB BLACK",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_347271_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-gamemax-mg7-rgb-black/347271.html",
+        "specs": [
+            "GAMEMAX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13028,
+        "ref": "346898",
+        "brand": "GAMEMAX",
+        "title_orig": "COOLER CPU GAMEMAX ICEBURG LIQUID 120 RGB BLACK G",
+        "title": "COOLER CPU GAMEMAX ICEBURG LIQUID 120 RGB BLACK G",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_346898_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-cpu-gamemax-iceburg-liquid-120-rgb-black-g/346898.html",
+        "specs": [
+            "GAMEMAX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13029,
+        "ref": "346900",
+        "brand": "GAMEMAX",
+        "title_orig": "COOLER CPU GAMEMAX ICEBURG LIQUID 120 RGB WHITE G",
+        "title": "COOLER CPU GAMEMAX ICEBURG LIQUID 120 RGB WHITE G",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_346900_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-cpu-gamemax-iceburg-liquid-120-rgb-white-g/346900.html",
+        "specs": [
+            "GAMEMAX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13030,
+        "ref": "377825",
+        "brand": "GAMEMAX",
+        "title_orig": "COOLER WATER GAMEMAX ICECHILL 240 ARGB WHITE G",
+        "title": "COOLER WATER GAMEMAX ICECHILL 240 ARGB WHITE G",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_377825_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cooler-water-gamemax-icechill-240-argb-white-g/377825.html",
+        "specs": [
+            "GAMEMAX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13031,
+        "ref": "62940",
+        "brand": "GAMEMAX",
+        "title_orig": "GABINETE GAMEMAX G516 ASGARD BLACK",
+        "title": "GABINETE GAMEMAX G516 ASGARD BLACK",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_62940_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-gamemax-g516-asgard-black/62940.html",
+        "specs": [
+            "GAMEMAX",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 13032,
+        "ref": "53748",
+        "brand": "GAMEMAX",
+        "title_orig": "GABINETE GAMEMAX G562 MATRIX PRETO",
+        "title": "GABINETE GAMEMAX G562 MATRIX Negro",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_53748_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-gamemax-g562-matrix-preto/53748.html",
+        "specs": [
+            "GAMEMAX",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 13033,
+        "ref": "387826",
+        "brand": "HYE",
+        "title_orig": "FONE EAR HYE HYE H2PRO WIRELESS 5 4 PURPLE",
+        "title": "FONE EAR HYE HYE H2PRO WIRELESS 5 4 PURPLE",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_387826_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-ear-hye-hye-h2pro-wireless-5-4-purple/387826.html",
+        "specs": [
+            "HYE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13034,
+        "ref": "387804",
+        "brand": "HYE",
+        "title_orig": "FONE EAR HYE HYE H1PRO BT 5 4 BLACK",
+        "title": "FONE EAR HYE HYE H1PRO BT 5 4 BLACK",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_387804_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-ear-hye-hye-h1pro-bt-5-4-black/387804.html",
+        "specs": [
+            "HYE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13035,
+        "ref": "387837",
+        "brand": "HYE",
+        "title_orig": "FONE EAR HYE HYE H2PRO WIRELESS 5 4 WHITE  387837",
+        "title": "FONE EAR HYE HYE H2PRO WIRELESS 5 4 WHITE 387837",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_387837_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-ear-hye-hye-h2pro-wireless-5-4-white-codigo-387837/387837.html",
+        "specs": [
+            "HYE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13036,
+        "ref": "387815",
+        "brand": "HYE",
+        "title_orig": "FONE EAR HYE HYE H2PRO WIRELESS 5 4 BLACK  387815",
+        "title": "FONE EAR HYE HYE H2PRO WIRELESS 5 4 BLACK 387815",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_387815_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-ear-hye-hye-h2pro-wireless-5-4-black-codigo-387815/387815.html",
+        "specs": [
+            "HYE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13037,
+        "ref": "399974",
+        "brand": "HYE",
+        "title_orig": "TRICICLO ELETRICO HYE TR02 8 5 BK WH LIGHTNING  399974",
+        "title": "TRICICLO ELETRICO HYE TR02 8 5 BK WH LIGHTNING 399974",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_399974_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/triciclo-eletrico-hye-tr02-8-5-bk-wh-lightning-codigo-399974/399974.html",
+        "specs": [
+            "HYE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13038,
+        "ref": "399941",
+        "brand": "GALAX",
+        "title_orig": "TRICICLO ELETRICO HYE TR01 6 5 PURPLE GALAXY  399941",
+        "title": "TRICICLO ELETRICO HYE TR01 6 5 PURPLE GALAXY 399941",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_399941_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/triciclo-eletrico-hye-tr01-6-5-purple-galaxy-codigo-399941/399941.html",
+        "specs": [
+            "GALAX",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13039,
+        "ref": "242142",
+        "brand": "HYE",
+        "title_orig": "PATINETE ELETRICO HYE HY S09 PRO APP RECARREGAVEL 8 5 350W 10400MAH PRETO  242142",
+        "title": "PATINETE ELETRICO HYE HY S09 PRO APP RECARREGAVEL 8 5 350W 10400MAH Negro 242142",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_242142_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/patinete-eletrico-hye-hy-s09-pro-app-recarregavel-8-5-350w-10400mah-preto-codigo-242142/242142.html",
+        "specs": [
+            "HYE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13040,
+        "ref": "403714",
+        "brand": "TEROS",
+        "title_orig": "GABINETE TEROS TE 1330G ARGB 4FAN BLACK",
+        "title": "GABINETE TEROS TE 1330G ARGB 4FAN BLACK",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_403714_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-teros-te-1330g-argb-4fan-black/403714.html",
+        "specs": [
+            "TEROS",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 13041,
+        "ref": "333749",
+        "brand": "TEROS",
+        "title_orig": "MON 27 TEROS TE 2769G LED FLAT QHD 180HZ PRETO  333749",
+        "title": "MON 27 TEROS TE 2769G LED FLAT QHD 180Hz Negro 333749",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_333749_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-27-teros-te-2769g-led-flat-qhd-180hz-preto-codigo-333749/333749.html",
+        "specs": [
+            "TEROS",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 13042,
+        "ref": "362370",
+        "brand": "TEROS",
+        "title_orig": "MON 24 TEROS TE 2417S FHD 1MS 144HZ PRETO  362370",
+        "title": "MON 24 TEROS TE 2417S FHD 1Ms 144Hz Negro 362370",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_362370_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-24-teros-te-2417s-fhd-1ms-144hz-preto-codigo-362370/362370.html",
+        "specs": [
+            "TEROS",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 13043,
+        "ref": "388200",
+        "brand": "TEROS",
+        "title_orig": "MON 27 TEROS TE 2754G 200HZ QHD IPS PRETO",
+        "title": "MON 27 TEROS TE 2754G 200Hz QHD IPS Negro",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_388200_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-27-teros-te-2754g-200hz-qhd-ips-preto/388200.html",
+        "specs": [
+            "TEROS",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 13044,
+        "ref": "375430",
+        "brand": "KOLKE",
+        "title_orig": "SUPORTE P MONITOR KOLKE KVS 785 DUPLO GAS 17 32 G 9KG X 2  375430",
+        "title": "SUPORTE P MONITOR KOLKE KVS 785 DUPLO GAS 17 32 G 9KG X 2 375430",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_375430_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/suporte-p-monitor-kolke-kvs-785-duplo-gas-17-32-g-9kg-x-2-codigo-375430/375430.html",
+        "specs": [
+            "KOLKE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13045,
+        "ref": "349218",
+        "brand": "KOLKE",
+        "title_orig": "FONE BT KOLKE KAB 633 ROSA 349218",
+        "title": "FONE BT KOLKE KAB 633 ROSA 349218",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_349218_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-bt-kolke-kab-633-rosa-349218/349218.html",
+        "specs": [
+            "KOLKE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13046,
+        "ref": "378501",
+        "brand": "KOLKE",
+        "title_orig": "TECLADO KOLKE KET 797 ABNT2 PT MULTIMEDIA 107 TECLAS 15 TECLAS MULTIMIDEA BLACK",
+        "title": "TECLADO KOLKE KET 797 ABNT2 PT MULTIMEDIA 107 TECLAS 15 TECLAS MULTIMIDEA BLACK",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_378501_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-kolke-ket-797-abnt2-pt-multimedia-107-teclas-15-teclas-multimidea-black/378501.html",
+        "specs": [
+            "KOLKE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13047,
+        "ref": "409753",
+        "brand": "KOLKE",
+        "title_orig": "SINTONIZADOR DE TV DIGITAL ISBD T KOLKE KVV 754 BLACK",
+        "title": "SINTONIZADOR DE TV DIGITAL ISBD T KOLKE KVV 754 BLACK",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_409753_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/sintonizador-de-tv-digital-isbd-t-kolke-kvv-754-black/409753.html",
+        "specs": [
+            "KOLKE",
+            "Televisores"
+        ]
+    },
+    {
+        "id": 13048,
+        "ref": "207200",
+        "brand": "KOLKE",
+        "title_orig": "RECEPTOR TV BOX KOLKE KVV 606 4K 4GB 64GB WIFI BLK 207200",
+        "title": "RECEPTOR TV BOX KOLKE KVV 606 4K 4GB 64GB WIFI BLK 207200",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_207200_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/receptor-tv-box-kolke-kvv-606-4k-4gb-64gb-wifi-blk-207200/207200.html",
+        "specs": [
+            "KOLKE",
+            "Televisores"
+        ]
+    },
+    {
+        "id": 13049,
+        "ref": "186004",
+        "brand": "KOLKE",
+        "title_orig": "SUPORTE P TV KOLKE KVS 588 ARTICULADO 23 43",
+        "title": "SUPORTE P TV KOLKE KVS 588 ARTICULADO 23 43",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_186004_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/suporte-p-tv-kolke-kvs-588-articulado-23-43/186004.html",
+        "specs": [
+            "KOLKE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13050,
+        "ref": "186015",
+        "brand": "KOLKE",
+        "title_orig": "SUPORTE P TV KOLKE KVS 590 ARTICULADO 37 70",
+        "title": "SUPORTE P TV KOLKE KVS 590 ARTICULADO 37 70",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_186015_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/suporte-p-tv-kolke-kvs-590-articulado-37-70/186015.html",
+        "specs": [
+            "KOLKE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13051,
+        "ref": "275238",
+        "brand": "KOLKE",
+        "title_orig": "SPLITER HDMI KOLKE HDMI 3X1 KSW 100 3IN X 1OUT PRETO",
+        "title": "SPLITER HDMI KOLKE HDMI 3X1 KSW 100 3IN X 1OUT Negro",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_275238_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/spliter-hdmi-kolke-hdmi-3x1-ksw-100-3in-x-1out-preto/275238.html",
+        "specs": [
+            "KOLKE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13052,
+        "ref": "274966",
+        "brand": "KOLKE",
+        "title_orig": "MON 27 KOLKE KES 651 240HZ 1MS LED CURVO FHD PRETO",
+        "title": "MON 27 KOLKE KES 651 240Hz 1Ms LED CURVO FHD Negro",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_274966_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-27-kolke-kes-651-240hz-1ms-led-curvo-fhd-preto/274966.html",
+        "specs": [
+            "KOLKE",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 13053,
+        "ref": "46840",
+        "brand": "KOLKE",
+        "title_orig": "MALETA NB KOLKE KVM 317 15 6 PRETO",
+        "title": "MALETA NB KOLKE KVM 317 15 6 Negro",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_46840_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/maleta-nb-kolke-kvm-317-15-6-preto/46840.html",
+        "specs": [
+            "KOLKE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13054,
+        "ref": "198747",
+        "brand": "KOLKE",
+        "title_orig": "MOCHILA NB KOLKE KVM 603 C CADEADO PRETO 15 6   198747",
+        "title": "MOCHILA NB KOLKE KVM 603 C CADEADO Negro 15 6 198747",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_198747_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mochila-nb-kolke-kvm-603-c-cadeado-preto-15-6--codigo-198747/198747.html",
+        "specs": [
+            "KOLKE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13055,
+        "ref": "45591",
+        "brand": "KOLKE",
+        "title_orig": "FONE USB KOLKE KGA 197 AVENGER GAMING 5 1",
+        "title": "FONE USB KOLKE KGA 197 AVENGER GAMING 5 1",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_45591_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-usb-kolke-kga-197-avenger-gaming-5-1/45591.html",
+        "specs": [
+            "KOLKE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13056,
+        "ref": "188937",
+        "brand": "KOLKE",
+        "title_orig": "CONTROLE PS4 KOLKE KGJ 582 PS4 PC WIRELESS",
+        "title": "CONTROLE PS4 KOLKE KGJ 582 PS4 PC WIRELESS",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_188937_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/controle-ps4-kolke-kgj-582-ps4-pc-wireless/188937.html",
+        "specs": [
+            "KOLKE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13057,
+        "ref": "186026",
+        "brand": "KOLKE",
+        "title_orig": "SUPORTE P TV KOLKE KVS 591 ARTICULADO 37 80",
+        "title": "SUPORTE P TV KOLKE KVS 591 ARTICULADO 37 80",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_186026_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/suporte-p-tv-kolke-kvs-591-articulado-37-80/186026.html",
+        "specs": [
+            "KOLKE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13058,
+        "ref": "145581",
+        "brand": "KOLKE",
+        "title_orig": "FONE P2 KOLKE KGA 506 ODIN PRETO RGB 145581",
+        "title": "FONE P2 KOLKE KGA 506 ODIN Negro RGB 145581",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_145581_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-p2-kolke-kga-506-odin-preto-rgb-145581/145581.html",
+        "specs": [
+            "KOLKE",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13059,
+        "ref": "76832",
+        "brand": "PHILIPS",
+        "title_orig": "PILHA AA PHILIPS ALKALINA LR6P4B 97 POWERLIFE 4UND",
+        "title": "PILHA AA PHILIPS ALKALINA LR6P4B 97 POWERLIFE 4UND",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_76832_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/pilha-aa-philips-alkalina-lr6p4b-97-powerlife-4und/76832.html",
+        "specs": [
+            "PHILIPS",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13060,
+        "ref": "152265",
+        "brand": "PHILIPS",
+        "title_orig": "MOUSE PHILIPS G212 MOMENTUM WIRED RGB PRETO  152265",
+        "title": "MOUSE PHILIPS G212 MOMENTUM WIRED RGB Negro 152265",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_152265_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-philips-g212-momentum-wired-rgb-preto-codigo-152265/152265.html",
+        "specs": [
+            "PHILIPS",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13061,
+        "ref": "344099",
+        "brand": "PHILIPS",
+        "title_orig": "FONE BT PHILIPS TAH1129BK BT 5 4 BLACK",
+        "title": "FONE BT PHILIPS TAH1129BK BT 5 4 BLACK",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_344099_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-bt-philips-tah1129bk-bt-5-4-black/344099.html",
+        "specs": [
+            "PHILIPS",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13062,
+        "ref": "344167",
+        "brand": "PHILIPS",
+        "title_orig": "FONE EAR PHILIPS TAT2020BK BT 5 4 BLACK",
+        "title": "FONE EAR PHILIPS TAT2020BK BT 5 4 BLACK",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_344167_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-ear-philips-tat2020bk-bt-5-4-black/344167.html",
+        "specs": [
+            "PHILIPS",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13063,
+        "ref": "343996",
+        "brand": "PHILIPS",
+        "title_orig": "FONE EAR PHILIPS TAT2769DB BT 5 4 BLUE",
+        "title": "FONE EAR PHILIPS TAT2769DB BT 5 4 BLUE",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_343996_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-ear-philips-tat2769db-bt-5-4-blue/343996.html",
+        "specs": [
+            "PHILIPS",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13064,
+        "ref": "152366",
+        "brand": "PHILIPS",
+        "title_orig": "TEC MOUSE PHILIPS C602 WIRELESS 1000DPI PRETO  152366",
+        "title": "TEC MOUSE PHILIPS C602 WIRELESS 1000DPI Negro 152366",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_152366_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tec-mouse-philips-c602-wireless-1000dpi-preto-codigo-152366/152366.html",
+        "specs": [
+            "PHILIPS",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13065,
+        "ref": "344077",
+        "brand": "PHILIPS",
+        "title_orig": "FONE BT PHILIPS TAH6519WT BT 5 4 WHITE",
+        "title": "FONE BT PHILIPS TAH6519WT BT 5 4 WHITE",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_344077_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-bt-philips-tah6519wt-bt-5-4-white/344077.html",
+        "specs": [
+            "PHILIPS",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13066,
+        "ref": "344022",
+        "brand": "PHILIPS",
+        "title_orig": "FONE EAR PHILIPS TAT1769DB BT 5 4 BLUE",
+        "title": "FONE EAR PHILIPS TAT1769DB BT 5 4 BLUE",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_344022_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-ear-philips-tat1769db-bt-5-4-blue/344022.html",
+        "specs": [
+            "PHILIPS",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13067,
+        "ref": "344101",
+        "brand": "PHILIPS",
+        "title_orig": "FONE BT PHILIPS TAH1129WT BT 5 4 WHITE",
+        "title": "FONE BT PHILIPS TAH1129WT BT 5 4 WHITE",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_344101_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-bt-philips-tah1129wt-bt-5-4-white/344101.html",
+        "specs": [
+            "PHILIPS",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13068,
+        "ref": "344066",
+        "brand": "PHILIPS",
+        "title_orig": "FONE BT PHILIPS TAH5519BL BT 5 4 BLUE",
+        "title": "FONE BT PHILIPS TAH5519BL BT 5 4 BLUE",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_344066_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-bt-philips-tah5519bl-bt-5-4-blue/344066.html",
+        "specs": [
+            "PHILIPS",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13069,
+        "ref": "344202",
+        "brand": "PHILIPS",
+        "title_orig": "FONE EAR PHILIPS TAA1609BK BT V5 3 BLACK",
+        "title": "FONE EAR PHILIPS TAA1609BK BT V5 3 BLACK",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_344202_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-ear-philips-taa1609bk-bt-v5-3-black/344202.html",
+        "specs": [
+            "PHILIPS",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13070,
+        "ref": "344055",
+        "brand": "PHILIPS",
+        "title_orig": "FONE BT PHILIPS TAH5519WT BT 5 4 WHITE",
+        "title": "FONE BT PHILIPS TAH5519WT BT 5 4 WHITE",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_344055_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-bt-philips-tah5519wt-bt-5-4-white/344055.html",
+        "specs": [
+            "PHILIPS",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13071,
+        "ref": "344213",
+        "brand": "PHILIPS",
+        "title_orig": "FONE EAR PHILIPS TAA1609WH BT V5 3 WHITE",
+        "title": "FONE EAR PHILIPS TAA1609WH BT V5 3 WHITE",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_344213_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-ear-philips-taa1609wh-bt-v5-3-white/344213.html",
+        "specs": [
+            "PHILIPS",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13072,
+        "ref": "344088",
+        "brand": "PHILIPS",
+        "title_orig": "FONE BT PHILIPS TAH6519BL BT 5 4 BLUE",
+        "title": "FONE BT PHILIPS TAH6519BL BT 5 4 BLUE",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_344088_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-bt-philips-tah6519bl-bt-5-4-blue/344088.html",
+        "specs": [
+            "PHILIPS",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13073,
+        "ref": "344178",
+        "brand": "PHILIPS",
+        "title_orig": "FONE EAR PHILIPS TAT2020WH BT 5 4 WHITE",
+        "title": "FONE EAR PHILIPS TAT2020WH BT 5 4 WHITE",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_344178_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-ear-philips-tat2020wh-bt-5-4-white/344178.html",
+        "specs": [
+            "PHILIPS",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13074,
+        "ref": "344112",
+        "brand": "PHILIPS",
+        "title_orig": "FONE BT PHILIPS TAH1129SL BT 5 4 SILVER",
+        "title": "FONE BT PHILIPS TAH1129SL BT 5 4 SILVER",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_344112_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-bt-philips-tah1129sl-bt-5-4-silver/344112.html",
+        "specs": [
+            "PHILIPS",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13075,
+        "ref": "384510",
+        "brand": "PHILIPS",
+        "title_orig": "TUBO CD PHILIPS VIRGEM 100 UNIDADES",
+        "title": "TUBO CD PHILIPS VIRGEM 100 UNIDADES",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_384510_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tubo-cd-philips-virgem-100-unidades/384510.html",
+        "specs": [
+            "PHILIPS",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13076,
+        "ref": "183113",
+        "brand": "PHILIPS",
+        "title_orig": "PILHAS RECARREGAVEL PHILIPS AA COM 2 PILHAS 2500MAH R6B2RTU25 97",
+        "title": "PILHAS RECARREGAVEL PHILIPS AA COM 2 PILHAS 2500MAH R6B2RTU25 97",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_183113_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/pilhas-recarregavel-philips-aa-com-2-pilhas-2500mah-r6b2rtu25-97/183113.html",
+        "specs": [
+            "PHILIPS",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13077,
+        "ref": "21541",
+        "brand": "GENERIC",
+        "title_orig": "MOUSE LOGITECH M170 910 004941 WIRELESS VERMELHO 21541",
+        "title": "MOUSE LOGITECH M170 910 004941 WIRELESS Rojo 21541",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_21541_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-logitech-m170-910-004941-wireless-vermelho-21541/21541.html",
+        "specs": [
+            "GENERIC",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13078,
+        "ref": "256204",
+        "brand": "REDRAGON",
+        "title_orig": "TECLADO REDRAGON K649CTB RGB PRO MECANICO CRYSTAL  256204",
+        "title": "TECLADO REDRAGON K649CTB RGB PRO MECANICO CRYSTAL 256204",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_256204_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-redragon-k649ctb-rgb-pro-mecanico-crystal-codigo-256204/256204.html",
+        "specs": [
+            "REDRAGON",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13079,
+        "ref": "328237",
+        "brand": "REDRAGON",
+        "title_orig": "TECLADO REDRAGON K736 PRO M NEPHRITE USA 124049 8",
+        "title": "TECLADO REDRAGON K736 PRO M NEPHRITE USA 124049 8",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_328237_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-redragon-k736-pro-m-nephrite-usa-124049-8/328237.html",
+        "specs": [
+            "REDRAGON",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13080,
+        "ref": "365271",
+        "brand": "REDRAGON",
+        "title_orig": "TEC MOUSE MOUSEPAD FONE REDRAGON S149 RGB PRETO  365271",
+        "title": "TEC MOUSE MOUSEPAD FONE REDRAGON S149 RGB Negro 365271",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_365271_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tec-mouse-mousepad-fone-redragon-s149-rgb-preto-codigo-365271/365271.html",
+        "specs": [
+            "REDRAGON",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13081,
+        "ref": "348015",
+        "brand": "GENERIC",
+        "title_orig": "FONE RAZER BLACKSHARK V2 X BT HYPERSPEED RZ04 04960100 R3U1 PRETO  348015",
+        "title": "FONE RAZER BLACKSHARK V2 X BT HYPERSPEED RZ04 04960100 R3U1 Negro 348015",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_348015_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-razer-blackshark-v2-x-bt-hyperspeed-rz04-04960100-r3u1-preto-codigo-348015/348015.html",
+        "specs": [
+            "GENERIC",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13082,
+        "ref": "203554",
+        "brand": "GENERIC",
+        "title_orig": "TECLADO LOGITECH K860 ERGO WIFI 920 010343 ESP 920 010343",
+        "title": "TECLADO LOGITECH K860 ERGO WIFI 920 010343 ESP 920 010343",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_203554_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-logitech-k860-ergo-wifi-920-010343-esp-920-010343/203554.html",
+        "specs": [
+            "GENERIC",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13083,
+        "ref": "160073",
+        "brand": "GENERIC",
+        "title_orig": "MOUSE SATE A 34 OPTICO USB PRETO 160073",
+        "title": "MOUSE SATE A 34 OPTICO USB Negro 160073",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_160073_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-sate-a-34-optico-usb-preto-160073/160073.html",
+        "specs": [
+            "GENERIC",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13084,
+        "ref": "57720",
+        "brand": "GENERIC",
+        "title_orig": "HUB SWITCH TP LINK 24P TL SG3428 10 100 1000 RJ45 57720",
+        "title": "HUB SWITCH TP LINK 24P TL SG3428 10 100 1000 RJ45 57720",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_57720_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/hub-switch-tp-link-24p-tl-sg3428-10-100-1000-rj45-57720/57720.html",
+        "specs": [
+            "GENERIC",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13085,
+        "ref": "311789",
+        "brand": "REDRAGON",
+        "title_orig": "TECLADO REDRAGON K634GG RGB PRO TRARIC PRO WIRELES 60 PORTABLE ME CANICO",
+        "title": "TECLADO REDRAGON K634GG RGB PRO TRARIC PRO WIRELES 60 PORTABLE ME CANICO",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_311789_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-redragon-k634gg-rgb-pro-traric-pro-wireles-60-portable-me-canico/311789.html",
+        "specs": [
+            "REDRAGON",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13086,
+        "ref": "302699",
+        "brand": "GENERIC",
+        "title_orig": "LANTERNA SMILING SHARK SD 7134 C BATERIA PRETO USB C",
+        "title": "LANTERNA SMILING SHARK SD 7134 C BATERIA Negro USB C",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_302699_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/lanterna-smiling-shark-sd-7134-c-bateria-preto-usb-c/302699.html",
+        "specs": [
+            "GENERIC",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13087,
+        "ref": "234681",
+        "brand": "GENERIC",
+        "title_orig": "MOUSE LOGITECH MX ANYWHERE 3S WIRELESS 910 006934  234681",
+        "title": "MOUSE LOGITECH MX ANYWHERE 3S WIRELESS 910 006934 234681",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_234681_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-logitech-mx-anywhere-3s-wireless-910-006934-codigo-234681/234681.html",
+        "specs": [
+            "GENERIC",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13088,
+        "ref": "145818",
+        "brand": "GENERIC",
+        "title_orig": "HUB SWITCH TP LINK 48P TL SG3452 T2600G 52TS 4 SFP JETSTREAM 4 SFP",
+        "title": "HUB SWITCH TP LINK 48P TL SG3452 T2600G 52TS 4 SFP JETSTREAM 4 SFP",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_145818_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/hub-switch-tp-link-48p-tl-sg3452-t2600g-52ts-4-sfp-jetstream-4-sfp/145818.html",
+        "specs": [
+            "GENERIC",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13089,
+        "ref": "309607",
+        "brand": "GENERIC",
+        "title_orig": "TECLADO FTX FTXB09 BLUETOOTH ESPANHOL ROSA 106234",
+        "title": "TECLADO FTX FTXB09 BLUETOOTH ESPANHOL ROSA 106234",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_309607_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/teclado-ftx-ftxb09-bluetooth-espanhol-rosa-106234/309607.html",
+        "specs": [
+            "GENERIC",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13090,
+        "ref": "317505",
+        "brand": "GENERIC",
+        "title_orig": "TV 32 MITSUO LE 32M1 FHD BT WIFI COM DE VOZ AND 14  317505",
+        "title": "TV 32 MITSUO LE 32M1 FHD BT WIFI COM DE VOZ AND 14 317505",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_317505_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tv-32-mitsuo-le-32m1-fhd-bt-wifi-com-de-voz-and-14-codigo-317505/317505.html",
+        "specs": [
+            "GENERIC",
+            "Televisores"
+        ]
+    },
+    {
+        "id": 13091,
+        "ref": "378119",
+        "brand": "XIAOMI",
+        "title_orig": "TV 32 XIAOMI A L32MB APH 2026 SMART HD PRETO GOOGLE TV",
+        "title": "TV 32 XIAOMI A L32MB APH 2026 SMART HD Negro GOOGLE TV",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_378119_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tv-32-xiaomi-a-l32mb-aph-2026-smart-hd-preto-google-tv/378119.html",
+        "specs": [
+            "XIAOMI",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13092,
+        "ref": "392271",
+        "brand": "XIAOMI",
+        "title_orig": "MON 27 XIAOMI A27QI ELA6568EU 2K QHD 120HZ IPSMONITOR XIAOMI A27QI 27 QHD IPS 120HZ 6MS HDMI DISPLAYPORT ELA6568EU PRETO",
+        "title": "MON 27 XIAOMI A27QI ELA6568EU 2K QHD 120Hz IPSMONITOR XIAOMI A27QI 27 QHD IPS 120Hz 6Ms HDMI DISPLAYPORT ELA6568EU Negro",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_392271_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-27-xiaomi-a27qi-ela6568eu-2k-qhd-120hz-ipsmonitor-xiaomi-a27qi-27-qhd-ips-120hz-6ms-hdmi-displayport-ela6568eu-preto/392271.html",
+        "specs": [
+            "XIAOMI",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 13093,
+        "ref": "242063",
+        "brand": "GENERIC",
+        "title_orig": "REPETIDOR TP LINK TL WPA4220 POWERLINE AV600 PCK 2 242063",
+        "title": "REPETIDOR TP LINK TL WPA4220 POWERLINE AV600 PCK 2 242063",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_242063_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/repetidor-tp-link-tl-wpa4220-powerline-av600-pck-2-242063/242063.html",
+        "specs": [
+            "GENERIC",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13094,
+        "ref": "319977",
+        "brand": "GENERIC",
+        "title_orig": "MOUSE MARVO CAPO 20 M292 WH USB 8000DPI RGB WHITE  319977",
+        "title": "MOUSE MARVO CAPO 20 M292 WH USB 8000DPI RGB WHITE 319977",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_319977_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mouse-marvo-capo-20-m292-wh-usb-8000dpi-rgb-white-codigo-319977/319977.html",
+        "specs": [
+            "GENERIC",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13095,
+        "ref": "355933",
+        "brand": "GENERIC",
+        "title_orig": "FITA LED MUSICAL RGB 20 MTS DMX CONTROLE USB 5V",
+        "title": "FITA LED MUSICAL RGB 20 MTS DMX CONTROLE USB 5V",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_355933_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fita-led-musical-rgb-20-mts-dmx-controle-usb-5v/355933.html",
+        "specs": [
+            "GENERIC",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13096,
+        "ref": "389569",
+        "brand": "GENERIC",
+        "title_orig": "FONE EAR BLACKVIEW AIRBUDS 20 WIRELESS WHITE TRUE WIRELESS",
+        "title": "FONE EAR BLACKVIEW AIRBUDS 20 WIRELESS WHITE TRUE WIRELESS",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_389569_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-ear-blackview-airbuds-20-wireless-white-true-wireless/389569.html",
+        "specs": [
+            "GENERIC",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13097,
+        "ref": "399010",
+        "brand": "GENERIC",
+        "title_orig": "FONE EAR BLACKVIEW AIRBUDS 20 WIRELESS BLACK",
+        "title": "FONE EAR BLACKVIEW AIRBUDS 20 WIRELESS BLACK",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_399010_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-ear-blackview-airbuds-20-wireless-black/399010.html",
+        "specs": [
+            "GENERIC",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13098,
+        "ref": "345820",
+        "brand": "GIGABYTE",
+        "title_orig": "MB AM4 GIGABYTE B550 EAGLE WIFI6 DDR4 HDMI M 2",
+        "title": "MB AM4 GIGABYTE B550 EAGLE WIFI6 DDR4 HDMI M 2",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_345820_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am4-gigabyte-b550-eagle-wifi6-ddr4-hdmi-m-2/345820.html",
+        "specs": [
+            "GIGABYTE",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13099,
+        "ref": "398312",
+        "brand": "ASUS",
+        "title_orig": "MB AM4 ASUS PRIME B550M K ARGB DDR4 HDMI DP",
+        "title": "MB AM4 ASUS PRIME B550M K ARGB DDR4 HDMI DP",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_398312_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am4-asus-prime-b550m-k-argb-ddr4-hdmi-dp/398312.html",
+        "specs": [
+            "ASUS",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13100,
+        "ref": "109739",
+        "brand": "MSI",
+        "title_orig": "MB AM4 MSI B550 MPG GAMING PLUS DP HDMI",
+        "title": "MB AM4 MSI B550 MPG GAMING PLUS DP HDMI",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_109739_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am4-msi-b550-mpg-gaming-plus-dp-hdmi/109739.html",
+        "specs": [
+            "MSI",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13101,
+        "ref": "113486",
+        "brand": "ASROCK",
+        "title_orig": "MB AM4 ASROCK B550 STEEL LEGEND DP HDMI USB C",
+        "title": "MB AM4 ASROCK B550 STEEL LEGEND DP HDMI USB C",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_113486_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am4-asrock-b550-steel-legend-dp-hdmi-usb-c/113486.html",
+        "specs": [
+            "ASROCK",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13102,
+        "ref": "93594",
+        "brand": "GIGABYTE",
+        "title_orig": "MB AM4 GIGABYTE B550 AORUS ELITE AX V2 WIFI DP HDM",
+        "title": "MB AM4 GIGABYTE B550 AORUS ELITE AX V2 WIFI DP HDM",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_93594_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am4-gigabyte-b550-aorus-elite-ax-v2-wifi-dp-hdm/93594.html",
+        "specs": [
+            "GIGABYTE",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13103,
+        "ref": "85800",
+        "brand": "ASROCK",
+        "title_orig": "MB AM4 ASROCK B550 PHANTOM GAMING 4 HDMI M 2  85800",
+        "title": "MB AM4 ASROCK B550 PHANTOM GAMING 4 HDMI M 2 85800",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_85800_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am4-asrock-b550-phantom-gaming-4-hdmi-m-2-codigo-85800/85800.html",
+        "specs": [
+            "ASROCK",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13104,
+        "ref": "93607",
+        "brand": "GIGABYTE",
+        "title_orig": "MB AM4 GIGABYTE B550 AORUS ELITE V2 DDR4 HDMI DP",
+        "title": "MB AM4 GIGABYTE B550 AORUS ELITE V2 DDR4 HDMI DP",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_93607_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am4-gigabyte-b550-aorus-elite-v2-ddr4-hdmi-dp/93607.html",
+        "specs": [
+            "GIGABYTE",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13105,
+        "ref": "300610",
+        "brand": "MSI",
+        "title_orig": "MB AM4 MSI B550 MAG TOMAHAWK MAX WIFI DDR4 M 2",
+        "title": "MB AM4 MSI B550 MAG TOMAHAWK MAX WIFI DDR4 M 2",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_300610_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am4-msi-b550-mag-tomahawk-max-wifi-ddr4-m-2/300610.html",
+        "specs": [
+            "MSI",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13106,
+        "ref": "71401",
+        "brand": "MSI",
+        "title_orig": "MB AM4 MSI B550 MAG TOMAHAWK DVI HDMI",
+        "title": "MB AM4 MSI B550 MAG TOMAHAWK DVI HDMI",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_71401_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am4-msi-b550-mag-tomahawk-dvi-hdmi/71401.html",
+        "specs": [
+            "MSI",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13107,
+        "ref": "269498",
+        "brand": "ASROCK",
+        "title_orig": "MB AM4 ASROCK B550 PHANTOM GAMING ITX AX DDR4  269498",
+        "title": "MB AM4 ASROCK B550 PHANTOM GAMING ITX AX DDR4 269498",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_269498_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am4-asrock-b550-phantom-gaming-itx-ax-ddr4-codigo-269498/269498.html",
+        "specs": [
+            "ASROCK",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13108,
+        "ref": "324514",
+        "brand": "ASROCK",
+        "title_orig": "MB AM4 ASROCK B550 PHANTOM GAMING 4 AC DDR4 WIFI",
+        "title": "MB AM4 ASROCK B550 PHANTOM GAMING 4 AC DDR4 WIFI",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_324514_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am4-asrock-b550-phantom-gaming-4-ac-ddr4-wifi/324514.html",
+        "specs": [
+            "ASROCK",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13109,
+        "ref": "306962",
+        "brand": "ASROCK",
+        "title_orig": "MB AM4 ASROCK B550 PG VELOCITA DDR4 HDMI USB2 0",
+        "title": "MB AM4 ASROCK B550 PG VELOCITA DDR4 HDMI USB2 0",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_306962_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am4-asrock-b550-pg-velocita-ddr4-hdmi-usb2-0/306962.html",
+        "specs": [
+            "ASROCK",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13110,
+        "ref": "293462",
+        "brand": "MSI",
+        "title_orig": "MB AM4 MSI B550 GAMING GEN3 HDMI DVI D USB2 0",
+        "title": "MB AM4 MSI B550 GAMING GEN3 HDMI DVI D USB2 0",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_293462_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am4-msi-b550-gaming-gen3-hdmi-dvi-d-usb2-0/293462.html",
+        "specs": [
+            "MSI",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13111,
+        "ref": "285307",
+        "brand": "ASROCK",
+        "title_orig": "MB AM4 ASROCK B550 EXTREME4 DDR4 HDMI PICE4 0 M 2",
+        "title": "MB AM4 ASROCK B550 EXTREME4 DDR4 HDMI PICE4 0 M 2",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_285307_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am4-asrock-b550-extreme4-ddr4-hdmi-pice4-0-m-2/285307.html",
+        "specs": [
+            "ASROCK",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13112,
+        "ref": "320655",
+        "brand": "ASROCK",
+        "title_orig": "MB AM4 ASROCK B550 PG RIPTIDE 4XDDR4 CHIPSET AMD 15G000121600AK  320655",
+        "title": "MB AM4 ASROCK B550 PG RIPTIDE 4XDDR4 CHIPSET AMD 15G000121600AK 320655",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_320655_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am4-asrock-b550-pg-riptide-4xddr4-chipset-amd-15g000121600ak-codigo-320655/320655.html",
+        "specs": [
+            "ASROCK",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13113,
+        "ref": "194383",
+        "brand": "GIGABYTE",
+        "title_orig": "MB AM4 GIGABYTE B550 AORUS PRO AC DDR4 WIFI HDMI 194383",
+        "title": "MB AM4 GIGABYTE B550 AORUS PRO AC DDR4 WIFI HDMI 194383",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_194383_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am4-gigabyte-b550-aorus-pro-ac-ddr4-wifi-hdmi-194383/194383.html",
+        "specs": [
+            "GIGABYTE",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13114,
+        "ref": "380808",
+        "brand": "GIGABYTE",
+        "title_orig": "MB AM4 GIGABYTE B550 AORUS ELITE AX V2 WIFI DP HDM  380808",
+        "title": "MB AM4 GIGABYTE B550 AORUS ELITE AX V2 WIFI DP HDM 380808",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_380808_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am4-gigabyte-b550-aorus-elite-ax-v2-wifi-dp-hdm-codigo-380808/380808.html",
+        "specs": [
+            "GIGABYTE",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13115,
+        "ref": "162716",
+        "brand": "ASUS",
+        "title_orig": "MB AM4 ASUS B550 F ROG STRIX GAMING WIFI II",
+        "title": "MB AM4 ASUS B550 F ROG STRIX GAMING WIFI II",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_162716_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am4-asus-b550-f-rog-strix-gaming-wifi-ii/162716.html",
+        "specs": [
+            "ASUS",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13116,
+        "ref": "84460",
+        "brand": "GENERIC",
+        "title_orig": "MB AM4 BIOSTAR B550MH 3 0 HDMI VGA 84460",
+        "title": "MB AM4 BIOSTAR B550MH 3 0 HDMI VGA 84460",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_84460_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am4-biostar-b550mh-3-0-hdmi-vga-84460/84460.html",
+        "specs": [
+            "GENERIC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 13117,
+        "ref": "99826",
+        "brand": "ASROCK",
+        "title_orig": "PLACA MAE ASROCK B550M PRO4 SOCKET AM4 DDR4 HDMI DP VGA  99826",
+        "title": "Placa Madre ASROCK B550M PRO4 SOCKET AM4 DDR4 HDMI DP VGA 99826",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_99826_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-mae-asrock-b550m-pro4-socket-am4-ddr4-hdmi-dp-vga-codigo-99826/99826.html",
+        "specs": [
+            "ASROCK",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 13118,
+        "ref": "73830",
+        "brand": "ASROCK",
+        "title_orig": "MB AM4 ASROCK B550M HDV VGA DVI HDMI",
+        "title": "MB AM4 ASROCK B550M HDV VGA DVI HDMI",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_73830_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am4-asrock-b550m-hdv-vga-dvi-hdmi/73830.html",
+        "specs": [
+            "ASROCK",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 13119,
+        "ref": "138910",
+        "brand": "GENERIC",
+        "title_orig": "MB AM4 BIOSTAR B550MX E PRO DVI HDMI VGA 138910",
+        "title": "MB AM4 BIOSTAR B550MX E PRO DVI HDMI VGA 138910",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_138910_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am4-biostar-b550mx-e-pro-dvi-hdmi-vga-138910/138910.html",
+        "specs": [
+            "GENERIC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 13120,
+        "ref": "328573",
+        "brand": "GIGABYTE",
+        "title_orig": "MB AM4 GIGABYTE B550M GAMING X WIFI6 DDR4 HDMI",
+        "title": "MB AM4 GIGABYTE B550M GAMING X WIFI6 DDR4 HDMI",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_328573_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am4-gigabyte-b550m-gaming-x-wifi6-ddr4-hdmi-/328573.html",
+        "specs": [
+            "GIGABYTE",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13121,
+        "ref": "395533",
+        "brand": "GIGABYTE",
+        "title_orig": "MB AM5 GIGABYTE B650E EAGLE WIFI6E DDR5 HDMI DP",
+        "title": "MB AM5 GIGABYTE B650E EAGLE WIFI6E DDR5 HDMI DP",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_395533_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am5-gigabyte-b650e-eagle-wifi6e-ddr5-hdmi-dp/395533.html",
+        "specs": [
+            "GIGABYTE",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13122,
+        "ref": "179645",
+        "brand": "GENERIC",
+        "title_orig": "MIKROTIK ROTEADOR RB760IGS HEX S 880MHZ 256MB L",
+        "title": "MIKROTIK ROTEADOR RB760IGS HEX S 880MHZ 256MB L",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_179645_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mikrotik-roteador-rb760igs-hex-s-880mhz-256mb-l/179645.html",
+        "specs": [
+            "GENERIC",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13123,
+        "ref": "393026",
+        "brand": "ASUS",
+        "title_orig": "MB 1700 ASUS B760M AYW D4 WIFI II HDMI USB3 2",
+        "title": "MB 1700 ASUS B760M AYW D4 WIFI II HDMI USB3 2",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_393026_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-1700-asus-b760m-ayw-d4-wifi-ii-hdmi-usb3-2/393026.html",
+        "specs": [
+            "ASUS",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13124,
+        "ref": "393015",
+        "brand": "ASUS",
+        "title_orig": "MB 1700 ASUS PRIME B760M A WIFI II DDR5 HDMI USB USB3 2",
+        "title": "MB 1700 ASUS PRIME B760M A WIFI II DDR5 HDMI USB USB3 2",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_393015_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-1700-asus-prime-b760m-a-wifi-ii-ddr5-hdmi-usb-usb3-2/393015.html",
+        "specs": [
+            "ASUS",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13125,
+        "ref": "217794",
+        "brand": "ASUS",
+        "title_orig": "PLACA MAE ASUS PRIME B760 PLUS CHIPSET INTEL SOCKET LGA 1700 DDR5 HDMI DISPLAYPORT ATX",
+        "title": "Placa Madre ASUS PRIME B760 PLUS CHIPSET INTEL SOCKET LGA 1700 DDR5 HDMI DISPLAYPORT ATX",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_217794_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-mae-asus-prime-b760-plus-chipset-intel-socket-lga-1700-ddr5-hdmi-displayport-atx/217794.html",
+        "specs": [
+            "ASUS",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13126,
+        "ref": "196194",
+        "brand": "MSI",
+        "title_orig": "MB 1700 MSI B760 MAG TOMAHAWK WIFI DDR4 HDMI DP  196194",
+        "title": "MB 1700 MSI B760 MAG TOMAHAWK WIFI DDR4 HDMI DP 196194",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_196194_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-1700-msi-b760-mag-tomahawk-wifi-ddr4-hdmi-dp-codigo-196194/196194.html",
+        "specs": [
+            "MSI",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13127,
+        "ref": "252670",
+        "brand": "MSI",
+        "title_orig": "PLACA MAE MSI B760 GAMING PLUS WI FI SOCKET LGA 1700 DDR5 M 2 HDMI",
+        "title": "Placa Madre MSI B760 GAMING PLUS WI FI SOCKET LGA 1700 DDR5 M 2 HDMI",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_252670_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-mae-msi-b760-gaming-plus-wi-fi-socket-lga-1700-ddr5-m-2-hdmi/252670.html",
+        "specs": [
+            "MSI",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13128,
+        "ref": "270984",
+        "brand": "ASROCK",
+        "title_orig": "MB 1700 ASROCK B760 PRO RS DDR5 WIFI HDMI ATX",
+        "title": "MB 1700 ASROCK B760 PRO RS DDR5 WIFI HDMI ATX",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_270984_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-1700-asrock-b760-pro-rs-ddr5-wifi-hdmi-atx/270984.html",
+        "specs": [
+            "ASROCK",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13129,
+        "ref": "252660",
+        "brand": "GIGABYTE",
+        "title_orig": "MB 1700 GIGABYTE B760 GAMING X AX DDR5 WIFI HDMI",
+        "title": "MB 1700 GIGABYTE B760 GAMING X AX DDR5 WIFI HDMI",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_252660_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-1700-gigabyte-b760-gaming-x-ax-ddr5-wifi-hdmi/252660.html",
+        "specs": [
+            "GIGABYTE",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13130,
+        "ref": "238090",
+        "brand": "GIGABYTE",
+        "title_orig": "MB 1700 GIGABYTE B760 DS3H AC DDR4 WIFI HDMI DP 238090",
+        "title": "MB 1700 GIGABYTE B760 DS3H AC DDR4 WIFI HDMI DP 238090",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_238090_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-1700-gigabyte-b760-ds3h-ac-ddr4-wifi-hdmi-dp-238090/238090.html",
+        "specs": [
+            "GIGABYTE",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13131,
+        "ref": "273270",
+        "brand": "MSI",
+        "title_orig": "MB 1700 MSI B760 MAG TOMAHAWK WIFI DDR5 HDMI DP WIFI6E BT",
+        "title": "MB 1700 MSI B760 MAG TOMAHAWK WIFI DDR5 HDMI DP WIFI6E BT",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_273270_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-1700-msi-b760-mag-tomahawk-wifi-ddr5-hdmi-dp-wifi6e-bt/273270.html",
+        "specs": [
+            "MSI",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13132,
+        "ref": "306951",
+        "brand": "ASROCK",
+        "title_orig": "PLACA MAE 1200 ASROCK B760 PRO RS 4XDDR5 1XM 2 NVME 2XHYPER M 2 NVME 1XHDMI 1XDISPLAYPORT 1 4 1XUSBC 3 2 2XUSB A 2 0 4XUSB A 3 2 1XRJ45 GIGABIT 2 5 1XAUDIO ATX",
+        "title": "Placa Madre 1200 ASROCK B760 PRO RS 4XDDR5 1XM 2 NVME 2XHYPER M 2 NVME 1XHDMI 1XDISPLAYPORT 1 4 1XUSBC 3 2 2XUSB A 2 0 4XUSB A 3 2 1XRJ45 GIGABIT 2 5 1XAUDIO ATX",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_306951_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-mae-1200-asrock-b760-pro-rs-4xddr5-1xm-2-nvme-2xhyper-m-2-nvme-1xhdmi-1xdisplayport-1-4-1xusbc-3-2-2xusb-a-2-0-4xusb-a-3-2-1xrj45-gigabit-2-5-1xaudio-atx/306951.html",
+        "specs": [
+            "ASROCK",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13133,
+        "ref": "289939",
+        "brand": "GIGABYTE",
+        "title_orig": "MB 1700 GIGABYTE B760 DS3H AX DDR4 HDMI DP WIFI",
+        "title": "MB 1700 GIGABYTE B760 DS3H AX DDR4 HDMI DP WIFI",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_289939_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-1700-gigabyte-b760-ds3h-ax-ddr4-hdmi-dp-wifi/289939.html",
+        "specs": [
+            "GIGABYTE",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13134,
+        "ref": "328540",
+        "brand": "GIGABYTE",
+        "title_orig": "MB 1700 GIGABYTE B760 DS3H DDR5 HDMI DP M 2",
+        "title": "MB 1700 GIGABYTE B760 DS3H DDR5 HDMI DP M 2",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_328540_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-1700-gigabyte-b760-ds3h-ddr5-hdmi-dp-m-2/328540.html",
+        "specs": [
+            "GIGABYTE",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13135,
+        "ref": "357485",
+        "brand": "REDRAGON",
+        "title_orig": "FONE REDRAGON H610 VIBECORE BT PRETO  357485",
+        "title": "FONE REDRAGON H610 VIBECORE BT Negro 357485",
+        "category": "Periféricos",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_357485_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/fone-redragon-h610-vibecore-bt-preto-codigo-357485/357485.html",
+        "specs": [
+            "REDRAGON",
+            "Periféricos"
+        ]
+    },
+    {
+        "id": 13136,
+        "ref": "308975",
+        "brand": "GENERIC",
+        "title_orig": "MB 1700 AFOX H610 IH610D4 MA5 V4 DDR4 HDMI VGA  308975",
+        "title": "MB 1700 AFOX H610 IH610D4 MA5 V4 DDR4 HDMI VGA 308975",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_308975_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-1700-afox-h610-ih610d4-ma5-v4-ddr4-hdmi-vga-codigo-308975/308975.html",
+        "specs": [
+            "GENERIC",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 13137,
+        "ref": "168127",
+        "brand": "ASROCK",
+        "title_orig": "PLACA MAE 1700 ASROCK H610M HDV 2XDDR4 1XVGA D SUB 1XHDMI 2 1 1XDISPLAYPORT 1 4 4XUSB A 2 0 2XUSB A 3 2 1XRJ45 GIGABIT 1XAUDIO M ATX",
+        "title": "Placa Madre 1700 ASROCK H610M HDV 2XDDR4 1XVGA D SUB 1XHDMI 2 1 1XDISPLAYPORT 1 4 4XUSB A 2 0 2XUSB A 3 2 1XRJ45 GIGABIT 1XAUDIO M ATX",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_168127_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/placa-mae-1700-asrock-h610m-hdv-2xddr4-1xvga-d-sub-1xhdmi-2-1-1xdisplayport-1-4-4xusb-a-2-0-2xusb-a-3-2-1xrj45-gigabit-1xaudio-m-atx/168127.html",
+        "specs": [
+            "ASROCK",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 13138,
+        "ref": "180389",
+        "brand": "ASUS",
+        "title_orig": "MB 1700 ASUS H610M F D4 PRIME DDR4 VGA",
+        "title": "MB 1700 ASUS H610M F D4 PRIME DDR4 VGA",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_180389_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-1700-asus-h610m-f-d4-prime-ddr4-vga/180389.html",
+        "specs": [
+            "ASUS",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 13139,
+        "ref": "189185",
+        "brand": "HP",
+        "title_orig": "MB 1700 BIOSTAR H610MHP 2 0 DDR4 HDMI VGA M 2 USB3",
+        "title": "MB 1700 BIOSTAR H610MHP 2 0 DDR4 HDMI VGA M 2 USB3",
+        "category": "Tarjetas de Video",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_189185_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-1700-biostar-h610mhp-2-0-ddr4-hdmi-vga-m-2-usb3/189185.html",
+        "specs": [
+            "HP",
+            "Tarjetas de Video"
+        ]
+    },
+    {
+        "id": 13140,
+        "ref": "290370",
+        "brand": "GIGABYTE",
+        "title_orig": "MB AM5 GIGABYTE X870 AORUS ELITE WIFI7 DDR5 HDMI DP USB C  290370",
+        "title": "MB AM5 GIGABYTE X870 AORUS ELITE WIFI7 DDR5 HDMI DP USB C 290370",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_290370_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mb-am5-gigabyte-x870-aorus-elite-wifi7-ddr5-hdmi-dp-usb-c-codigo-290370/290370.html",
+        "specs": [
+            "GIGABYTE",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13141,
+        "ref": "197465",
+        "brand": "GENERIC",
+        "title_orig": "SSD ADATA 1TB SU650 2 5 SATA 3 ASU650SS 1TT R 520 450 MB S",
+        "title": "SSD ADATA 1TB SU650 2 5 SATA 3 ASU650SS 1TT R 520 450 MB S",
+        "category": "Placas Madre",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_197465_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/ssd-adata-1tb-su650-2-5-sata-3-asu650ss-1tt-r-520-450-mb-s/197465.html",
+        "specs": [
+            "GENERIC",
+            "Placas Madre"
+        ]
+    },
+    {
+        "id": 13142,
+        "ref": "316650",
+        "brand": "INTEL",
+        "title_orig": "NOTEBOOK AUDISAT X99 INTEL N95 1 7GHZ 3 40GHZ 8GB RAM 512GB SSD TELA 15 6 FULL HD 1920 X 1080 IPS WINDOWS 11 INGLES SILVER",
+        "title": "NOTEBOOK AUDISAT X99 INTEL N95 1 7GHZ 3 40GHZ 8GB RAM 512GB SSD Pantalla 15 6 FULL HD 1920 X 1080 IPS WINDOWS 11 INGLES SILVER",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_316650_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-audisat-x99-intel-n95-1-7ghz-3-40ghz-8gb-ram-512gb-ssd-tela-15-6-full-hd-1920-x-1080-ips-windows-11-ingles-silver/316650.html",
+        "specs": [
+            "INTEL",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 13143,
+        "ref": "374520",
+        "brand": "GENERIC",
+        "title_orig": "CAFETEIRA FTX C2 07 MULTICAPSULA 1400W 220V PRETO 1 TAZA",
+        "title": "CAFETEIRA FTX C2 07 MULTICAPSULA 1400W 220V Negro 1 TAZA",
+        "category": "Fuentes de Poder",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_374520_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cafeteira-ftx-c2-07-multicapsula-1400w-220v-preto-1-taza/374520.html",
+        "specs": [
+            "GENERIC",
+            "Fuentes de Poder"
+        ]
+    },
+    {
+        "id": 13144,
+        "ref": "248104",
+        "brand": "GENERIC",
+        "title_orig": "CAFETEIRA MEGA STAR CAF02 MULTI CAPSULA 3EN1 220V",
+        "title": "CAFETEIRA MEGA STAR CAF02 MULTI CAPSULA 3EN1 220V",
+        "category": "Fuentes de Poder",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_248104_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cafeteira-mega-star-caf02-multi-capsula-3en1-220v/248104.html",
+        "specs": [
+            "GENERIC",
+            "Fuentes de Poder"
+        ]
+    },
+    {
+        "id": 13145,
+        "ref": "319518",
+        "brand": "INTEL",
+        "title_orig": "NOTEBOOK LENOVO V15 G4 IRU 83A100PSUS INTEL CORE I5 13420H 2 10HZ 4 60GHZ 16GB RAM 512GB SSD TELA 15 6 FULL HD 1920 X 1080 WINDOWS 11 HOME INGLES BUSINESS PRETO  319518",
+        "title": "NOTEBOOK LENOVO V15 G4 IRU 83A100PSUS INTEL CORE I5 13420H 2 10Hz 4 60GHZ 16GB RAM 512GB SSD Pantalla 15 6 FULL HD 1920 X 1080 WINDOWS 11 HOME INGLES BUSINESS Negro 319518",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_319518_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/notebook-lenovo-v15-g4-iru-83a100psus-intel-core-i5-13420h-2-10hz-4-60ghz-16gb-ram-512gb-ssd-tela-15-6-full-hd-1920-x-1080-windows-11-home-ingles-business-preto-codigo-319518/319518.html",
+        "specs": [
+            "INTEL",
+            "Monitores"
+        ]
+    },
+    {
+        "id": 13146,
+        "ref": "374530",
+        "brand": "GENERIC",
+        "title_orig": "CAFETEIRA FTX C2 15 MULTICAPSULA 1050W 220V PRETO PRATA PRETO 2TA ZAS  374530",
+        "title": "CAFETEIRA FTX C2 15 MULTICAPSULA 1050W 220V Negro Plata Negro 2TA ZAS 374530",
+        "category": "Fuentes de Poder",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_374530_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/cafeteira-ftx-c2-15-multicapsula-1050w-220v-preto-prata-preto-2ta-zas-codigo-374530/374530.html",
+        "specs": [
+            "GENERIC",
+            "Fuentes de Poder"
+        ]
+    },
+    {
+        "id": 13147,
+        "ref": "193775",
+        "brand": "LIAN LI",
+        "title_orig": "GABINETE GAMER AQUARIO LIAN LI 011 DYNAMIC MINI SFX 011DMINI X MID TOWER E ATX SFX SFX L FRONTAL E LATERAL VIDRO TEMPERADO SEM FANS PRETO",
+        "title": "GABINETE GAMER AQUARIO LIAN LI 011 DYNAMIC MINI SFX 011DMINI X MID TOWER E ATX SFX SFX L FRONTAL E LATERAL Vidrio Temperado Sin Fans Negro",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_193775_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-gamer-aquario-lian-li-011-dynamic-mini-sfx-011dmini-x-mid-tower-e-atx-sfx-sfx-l-frontal-e-lateral-vidro-temperado-sem-fans-preto/193775.html",
+        "specs": [
+            "LIAN LI",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 13148,
+        "ref": "275585",
+        "brand": "AIGO",
+        "title_orig": "GABINETE GAMER AQUARIO AIGO ARC1 MID TOWER M ATX FRONTAL E LATERAL VIDRO TEMPERADO SEM FANS PRETO",
+        "title": "GABINETE GAMER AQUARIO AIGO ARC1 MID TOWER M ATX FRONTAL E LATERAL Vidrio Temperado Sin Fans Negro",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_275585_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-gamer-aquario-aigo-arc1-mid-tower-m-atx-frontal-e-lateral-vidro-temperado-sem-fans-preto/275585.html",
+        "specs": [
+            "AIGO",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 13149,
+        "ref": "253188",
+        "brand": "LIAN LI",
+        "title_orig": "GABINETE GAMER AQUARIO LIAN LI 011 VISIN 011VC CHROME MID TOWER E ATX TOPO FRONTAL E LATERAL VIDRO TEMPERADO SEM FANS CROMADO PRETO",
+        "title": "GABINETE GAMER AQUARIO LIAN LI 011 VISIN 011VC CHROME MID TOWER E ATX TOPO FRONTAL E LATERAL Vidrio Temperado Sin Fans CROMADO Negro",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_253188_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-gamer-aquario-lian-li-011-visin-011vc-chrome-mid-tower-e-atx-topo-frontal-e-lateral-vidro-temperado-sem-fans-cromado-preto/253188.html",
+        "specs": [
+            "LIAN LI",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 13150,
+        "ref": "351211",
+        "brand": "GENERIC",
+        "title_orig": "GABINETE FTX FTXMYCQ03 LATERAL FRONTAL MATX BLACK",
+        "title": "GABINETE FTX FTXMYCQ03 LATERAL FRONTAL MATX BLACK",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_351211_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-ftx-ftxmycq03-lateral-frontal-matx-black/351211.html",
+        "specs": [
+            "GENERIC",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 13151,
+        "ref": "269072",
+        "brand": "MSI",
+        "title_orig": "GABINETE GAMER AQUARIO MSI MAG PANO 100R PZ 306 7G24W28 HH9 MID TOWER ARGB ATX FRONTAL E LATERAL VIDRO TEMPERADO 4X FANS 120MM ARGB BRANCO",
+        "title": "GABINETE GAMER AQUARIO MSI MAG PANO 100R PZ 306 7G24W28 HH9 MID TOWER ARGB ATX FRONTAL E LATERAL Vidrio Temperado 4X FANS 120MM ARGB Blanco",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_269072_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-gamer-aquario-msi-mag-pano-100r-pz-306-7g24w28-hh9-mid-tower-argb-atx-frontal-e-lateral-vidro-temperado-4x-fans-120mm-argb-branco/269072.html",
+        "specs": [
+            "MSI",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 13152,
+        "ref": "251893",
+        "brand": "AIGO",
+        "title_orig": "GABINETE GAMER AQUARIO AIGO DARKFLASH DS900 AIR MID TOWER ATX FRONTAL E LATERAL VIDRO TEMPERADO SEM FANS BRANCO",
+        "title": "GABINETE GAMER AQUARIO AIGO DARKFLASH DS900 AIR MID TOWER ATX FRONTAL E LATERAL Vidrio Temperado Sin Fans Blanco",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_251893_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-gamer-aquario-aigo-darkflash-ds900-air-mid-tower-atx-frontal-e-lateral-vidro-temperado-sem-fans-branco/251893.html",
+        "specs": [
+            "AIGO",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 13153,
+        "ref": "94360",
+        "brand": "AIGO",
+        "title_orig": "GABINETE GAMER AQUARIO AIGO DARKFLASH DS900 MID TOWER ATX FRONTAL E LATERAL VIDRO TEMPERADO SEM FANS BRANCO",
+        "title": "GABINETE GAMER AQUARIO AIGO DARKFLASH DS900 MID TOWER ATX FRONTAL E LATERAL Vidrio Temperado Sin Fans Blanco",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_94360_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-gamer-aquario-aigo-darkflash-ds900-mid-tower-atx-frontal-e-lateral-vidro-temperado-sem-fans-branco/94360.html",
+        "specs": [
+            "AIGO",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 13154,
+        "ref": "297960",
+        "brand": "AIGO",
+        "title_orig": "GABINETE GAMER AQUARIO AIGO DARKFLASH DS330M MINI TOWER M ATX FRONTAL E LATERAL VIDRO TEMPERADO SEM FANS BRANCO",
+        "title": "GABINETE GAMER AQUARIO AIGO DARKFLASH DS330M MINI TOWER M ATX FRONTAL E LATERAL Vidrio Temperado Sin Fans Blanco",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_297960_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-gamer-aquario-aigo-darkflash-ds330m-mini-tower-m-atx-frontal-e-lateral-vidro-temperado-sem-fans-branco/297960.html",
+        "specs": [
+            "AIGO",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 13155,
+        "ref": "298164",
+        "brand": "AIGO",
+        "title_orig": "GABINETE GAMER AQUARIO AIGO DARKFLASH TH285M MINI TOWER M ATX TOPO FRONTAL E LATERAL VIDRO TEMPERADO SEM FANS BRANCO",
+        "title": "GABINETE GAMER AQUARIO AIGO DARKFLASH TH285M MINI TOWER M ATX TOPO FRONTAL E LATERAL Vidrio Temperado Sin Fans Blanco",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_298164_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-gamer-aquario-aigo-darkflash-th285m-mini-tower-m-atx-topo-frontal-e-lateral-vidro-temperado-sem-fans-branco-/298164.html",
+        "specs": [
+            "AIGO",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 13156,
+        "ref": "298109",
+        "brand": "AIGO",
+        "title_orig": "GABINETE GAMER AQUARIO AIGO DARKFLASH DY450 PRO MID TOWER ATX FRONTAL E LATERAL VIDRO TEMPERADO SEM FANS BRANCO",
+        "title": "GABINETE GAMER AQUARIO AIGO DARKFLASH DY450 PRO MID TOWER ATX FRONTAL E LATERAL Vidrio Temperado Sin Fans Blanco",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_298109_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-gamer-aquario-aigo-darkflash-dy450-pro-mid-tower-atx-frontal-e-lateral-vidro-temperado-sem-fans-branco/298109.html",
+        "specs": [
+            "AIGO",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 13157,
+        "ref": "288007",
+        "brand": "HYTE",
+        "title_orig": "GABINETE GAMER AQUARIO HYTE Y60 CS HYTE Y60 WW MID TOWER E ATX FRONTAL E LATERAL VIDRO TEMPERADO 3X FANS BRANCO SNOW WHITE",
+        "title": "GABINETE GAMER AQUARIO HYTE Y60 CS HYTE Y60 WW MID TOWER E ATX FRONTAL E LATERAL Vidrio Temperado 3X FANS Blanco SNOW WHITE",
+        "category": "Gabinetes",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_288007_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/gabinete-gamer-aquario-hyte-y60-cs-hyte-y60-ww-mid-tower-e-atx-frontal-e-lateral-vidro-temperado-3x-fans-branco-snow-white/288007.html",
+        "specs": [
+            "HYTE",
+            "Gabinetes"
+        ]
+    },
+    {
+        "id": 13158,
+        "ref": "208592",
+        "brand": "GENERIC",
+        "title_orig": "TV 43 XION LED SMART LED43SMART FHD WIFI ANDROID",
+        "title": "TV 43 XION LED SMART LED43SMART FHD WIFI ANDROID",
+        "category": "Televisores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_208592_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/tv-43-xion-led-smart-led43smart-fhd-wifi-android/208592.html",
+        "specs": [
+            "GENERIC",
+            "Televisores"
+        ]
+    },
+    {
+        "id": 13159,
+        "ref": "319671",
+        "brand": "SAMSUNG",
+        "title_orig": "MON 49 SAMSUNG LS49CG954SNXZA DUAL 2K QHD CURVO 240HZ 1MS",
+        "title": "Monitor Samsung Odyssey G9 LS49CG954SNXZA, Curvo 49\" Dual 2K QHD (5120x1440), 240Hz, 1Ms, FreeSync Premium",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_319671_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-49-samsung-ls49cg954snxza/319671.html",
+        "specs": [
+            "SAMSUNG",
+            "Monitores",
+            "49\""
+        ]
+    },
+    {
+        "id": 13160,
+        "ref": "285839",
+        "brand": "ASUS",
+        "title_orig": "MON 49 ASUS XG49VQ ROG STRIX ULTRA-WIDE FREESYNC DP USB 3MS",
+        "title": "Monitor Asus ROG Strix XG49VQ, Curvo 49\" UltraWide DFHD (3840x1080), 144Hz, 4Ms, DisplayPort, USB, FreeSync Premium",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_285839_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-49-asus-xg49vq-rog-strix-ultra-wide-freesync-dp-usb-3ms/285839.html",
+        "specs": [
+            "ASUS",
+            "Monitores",
+            "49\""
+        ]
+    },
+    {
+        "id": 13161,
+        "ref": "345078",
+        "brand": "SAMSUNG",
+        "title_orig": "MON 49 SAMSUNG LS49A950UINZA DQHD CURVO HDR",
+        "title": "Monitor Samsung ViewFinity S9 S95UA LS49A950UINZA, Curvo 49\" Dual QHD (5120x1440), 120Hz, 4Ms, HDR400, USB-C",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_345078_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-49-samsung-ls49a950uinza-dqhd-curvo-hdr/345078.html",
+        "specs": [
+            "SAMSUNG",
+            "Monitores",
+            "49\""
+        ]
+    },
+    {
+        "id": 13162,
+        "ref": "347264",
+        "brand": "GAMEMAX",
+        "title_orig": "MON 49 GAMEMAX GMM49DQ4K CURVO 4K FHD IPS 144HZ",
+        "title": "Monitor GameMax GMM49DQ4K, Curvo 49\" Dual QHD (5120x1440), 144Hz, 1Ms, IPS, HDMI, DisplayPort, FreeSync",
+        "category": "Monitores",
+        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_347264_1.JPG",
+        "usd": "SOB CONSULTA",
+        "pyg_orig": 0,
+        "pyg_orig_str": "SOB CONSULTA",
+        "pyg": 0,
+        "pyg_str": "Bajo Consulta",
+        "sob_consulta": true,
+        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-49-gamemax-gmm49dq4k-curvo-4k-fhd-ips-144-7/347264.html",
+        "specs": [
+            "GAMEMAX",
+            "Monitores",
+            "49\""
+        ]
     }
 ];
