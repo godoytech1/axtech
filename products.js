@@ -82090,26 +82090,6 @@ const PRODUCTS =
         ]
     },
     {
-        "id": 12558,
-        "ref": "319900",
-        "brand": "GENERIC",
-        "title_orig": "MACBOOK PRO MX2W3LL M4MAX 48G 1TBSSD 16 2 SILVER",
-        "title": "MACBOOK PRO MX2W3LL M4MAX 48G 1TBSSD 16 2 SILVER",
-        "category": "Notebooks",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_319900_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/macbook-pro-mx2w3ll-m4max-48g-1tbssd-16-2-silver/319900.html",
-        "specs": [
-            "APPLE",
-            "Notebooks"
-        ]
-    },
-    {
         "id": 12559,
         "ref": "237348",
         "brand": "APPLE",
@@ -82124,26 +82104,6 @@ const PRODUCTS =
         "pyg_str": "Bajo Consulta",
         "sob_consulta": true,
         "orig_url": "https://www.topdekinformatica.com.br/produto/apple-macbook-air-2020-m1-octa-core-tela-retina-13-3-8gb-ram-256gb-ssd-mgn93bz-a-prata/237348.html",
-        "specs": [
-            "APPLE",
-            "Notebooks"
-        ]
-    },
-    {
-        "id": 12560,
-        "ref": "322433",
-        "brand": "APPLE",
-        "title_orig": "APPLE MACBOOK AIR 2025 A3240 M4 TELA 13 6 16GB RAM 256GB SSD MC6T4LL A AZUL",
-        "title": "APPLE MACBOOK AIR 2025 A3240 M4 Pantalla 13 6 16GB RAM 256GB SSD MC6T4LL A Azul",
-        "category": "Notebooks",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_322433_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-macbook-air-2025-a3240-m4-tela-13-6-16gb-ram-256gb-ssd-mc6t4ll-a-azul/322433.html",
         "specs": [
             "APPLE",
             "Notebooks"
@@ -82244,46 +82204,6 @@ const PRODUCTS =
         "pyg_str": "Bajo Consulta",
         "sob_consulta": true,
         "orig_url": "https://www.topdekinformatica.com.br/produto/apple-macbook-pro-2025-a3434-m5-10-core-tela-14-2-16gb-ram-512gb-ssd-mde44ll-a-silver/350906.html",
-        "specs": [
-            "APPLE",
-            "Notebooks"
-        ]
-    },
-    {
-        "id": 12566,
-        "ref": "269612",
-        "brand": "APPLE",
-        "title_orig": "APPLE MACBOOK PRO M3 MRX63LL A 512GB 18RAM 14 2 S 269612",
-        "title": "APPLE MACBOOK PRO M3 MRX63LL A 512GB 18RAM 14 2 S 269612",
-        "category": "Notebooks",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_269612_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-macbook-pro-m3-mrx63ll-a-512gb-18ram-14-2-s-269612/269612.html",
-        "specs": [
-            "APPLE",
-            "Notebooks"
-        ]
-    },
-    {
-        "id": 12567,
-        "ref": "242950",
-        "brand": "APPLE",
-        "title_orig": "APPLE MACBOOK PRO MRX53LL A 1TB M3 MAX 2023 14 2 SPACE BLACK 242950",
-        "title": "APPLE MACBOOK PRO MRX53LL A 1TB M3 MAX 2023 14 2 SPACE BLACK 242950",
-        "category": "Notebooks",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_242950_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/apple-macbook-pro-mrx53ll-a-1tb-m3-max-2023-14-2-space-black-242950/242950.html",
         "specs": [
             "APPLE",
             "Notebooks"
@@ -94107,90 +94027,6 @@ const PRODUCTS =
         "specs": [
             "GENERIC",
             "Televisores"
-        ]
-    },
-    {
-        "id": 13159,
-        "ref": "319671",
-        "brand": "SAMSUNG",
-        "title_orig": "MON 49 SAMSUNG LS49CG954SNXZA DUAL 2K QHD CURVO 240HZ 1MS",
-        "title": "Monitor Samsung Odyssey G9 LS49CG954SNXZA, Curvo 49\" Dual 2K QHD (5120x1440), 240Hz, 1Ms, FreeSync Premium",
-        "category": "Monitores",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_319671_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-49-samsung-ls49cg954snxza/319671.html",
-        "specs": [
-            "SAMSUNG",
-            "Monitores",
-            "49\""
-        ]
-    },
-    {
-        "id": 13160,
-        "ref": "285839",
-        "brand": "ASUS",
-        "title_orig": "MON 49 ASUS XG49VQ ROG STRIX ULTRA-WIDE FREESYNC DP USB 3MS",
-        "title": "Monitor Asus ROG Strix XG49VQ, Curvo 49\" UltraWide DFHD (3840x1080), 144Hz, 4Ms, DisplayPort, USB, FreeSync Premium",
-        "category": "Monitores",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_285839_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-49-asus-xg49vq-rog-strix-ultra-wide-freesync-dp-usb-3ms/285839.html",
-        "specs": [
-            "ASUS",
-            "Monitores",
-            "49\""
-        ]
-    },
-    {
-        "id": 13161,
-        "ref": "345078",
-        "brand": "SAMSUNG",
-        "title_orig": "MON 49 SAMSUNG LS49A950UINZA DQHD CURVO HDR",
-        "title": "Monitor Samsung ViewFinity S9 S95UA LS49A950UINZA, Curvo 49\" Dual QHD (5120x1440), 120Hz, 4Ms, HDR400, USB-C",
-        "category": "Monitores",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_345078_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-49-samsung-ls49a950uinza-dqhd-curvo-hdr/345078.html",
-        "specs": [
-            "SAMSUNG",
-            "Monitores",
-            "49\""
-        ]
-    },
-    {
-        "id": 13162,
-        "ref": "347264",
-        "brand": "GAMEMAX",
-        "title_orig": "MON 49 GAMEMAX GMM49DQ4K CURVO 4K FHD IPS 144HZ",
-        "title": "Monitor GameMax GMM49DQ4K, Curvo 49\" Dual QHD (5120x1440), 144Hz, 1Ms, IPS, HDMI, DisplayPort, FreeSync",
-        "category": "Monitores",
-        "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_347264_1.JPG",
-        "usd": "SOB CONSULTA",
-        "pyg_orig": 0,
-        "pyg_orig_str": "SOB CONSULTA",
-        "pyg": 0,
-        "pyg_str": "Bajo Consulta",
-        "sob_consulta": true,
-        "orig_url": "https://www.topdekinformatica.com.br/produto/mon-49-gamemax-gmm49dq4k-curvo-4k-fhd-ips-144-7/347264.html",
-        "specs": [
-            "GAMEMAX",
-            "Monitores",
-            "49\""
         ]
     }
 ];
