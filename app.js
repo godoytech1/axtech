@@ -717,8 +717,21 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function getMonitorSize(title) {
-        const match = title.match(/(\d+(?:\.\d+)?)\s*"/);
-        return match ? match[1] : null;
+        let match = title.match(/(\d{2}(?:\.\d+)?)\s*(?:"|pulgadas|polegadas|inch|inches|'|\b)/i);
+        if (!match) match = title.match(/monitor\s+(\d{2}(?:\.\d+)?)/i);
+        if (match) {
+            let val = parseFloat(match[1]);
+            if (val >= 23.0 && val <= 24.9) return "24";
+            if (val >= 26.0 && val <= 27.9) return "27";
+            if (val >= 31.0 && val <= 32.9) return "32";
+            if (val >= 21.0 && val <= 22.9) return "22";
+            if (val >= 19.0 && val <= 20.9) return "20";
+            if (val >= 33.0 && val <= 35.0) return "34";
+            if (val >= 17.0 && val <= 18.9) return "17-18";
+            if (val >= 15.0 && val <= 16.9) return "15-16";
+            return Math.round(val).toString();
+        }
+        return null;
     }
 
     function getGpuChip(title) {
