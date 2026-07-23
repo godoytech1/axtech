@@ -62,7 +62,7 @@ const BRANDS = [
     'K-MEX', 'MTEK', 'XIAOMI', 'ECOPOWER', 'SMARTFY', 'SONY', 'NINTENDO', 'INTEL', 'AMD',
     'JVC', 'SAMSUNG', 'LG', 'TCL', 'PHILIPS', 'DELL', 'HP', 'LENOVO', 'ACER', 'PATRIOT',
     'KINGSTON', 'AOC', 'VIEWSONIC', 'BENQ', 'DAHUA', 'KEEPDATA', 'NAKATOMI', 'APPLE',
-    'HYE', 'TEROS', 'KOLKE'
+    'HYE', 'TEROS', 'KOLKE', 'BIOSTAR', 'STAR', 'LOGITECH', 'HYPERX', 'RAZER', 'JBL'
 ];
 
 function detectBrand(title) {
