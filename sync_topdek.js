@@ -1,9 +1,9 @@
 /**
- * AXTECH - Motor de Sincronización Automática Nocturna con TopDek Informática (Node.js)
- * 1. Recorre las páginas maestras del catálogo en vivo de TopDek (compras-paraguai/paginaX.html)
- * 2. Descubre productos nuevos agregados por TopDek durante el día
- * 3. Actualiza precios en Guaraníes (+100.000 Gs. de margen) y cambios de stock / Bajo Consulta
- * 4. Valida imágenes desechando cualquier "PRODUTO SEM IMAGEM"
+ * AXTECH - Motor Exhaustivo de Sincronización Automática Nocturna con TopDek Informática (Node.js)
+ * 1. Recorre de forma exhaustiva TODAS las páginas del catálogo en vivo de TopDek (páginas 1 a 80)
+ * 2. Descubre cualquier producto nuevo agregado por TopDek
+ * 3. Actualiza precios en Guaraníes (+100.000 Gs. de margen) y marcas/categorías
+ * 4. Valida imágenes exhaustivamente descartando cualquier "PRODUTO SEM IMAGEM"
  */
 
 const fs = require('fs');
@@ -141,7 +141,7 @@ function formatPyg(amount) {
 }
 
 async function runSync() {
-    console.log("🚀 AXTECH Live TopDek Sync Engine (Node.js)");
+    console.log("🚀 AXTECH Exhaustive Live TopDek Sync Engine (Node.js)");
     
     const raw = fs.readFileSync('./products.js', 'utf8');
     let products = eval(raw.replace('const PRODUCTS =', ''));
@@ -150,9 +150,9 @@ async function runSync() {
 
     console.log(`📦 Catálogo local inicial: ${products.length} productos.`);
 
-    // 1. Crawl TopDek live pages to discover new items and price updates
+    // 1. Exhaustive crawl of ALL TopDek pages (1 to 80)
     let newItemsCount = 0;
-    for (let page = 1; page <= 40; page++) {
+    for (let page = 1; page <= 80; page++) {
         const url = `https://www.topdekinformatica.com.br/compras-paraguai/pagina${page}.html`;
         const html = await fetchUrl(url);
         if (!html || html.length < 3000) break;
