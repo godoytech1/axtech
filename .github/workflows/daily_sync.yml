@@ -16,6 +16,8 @@ permissions:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    env:
+      ACTIONS_RUNNER_FORCE_ACTIONS_NODE_VERSION: node24
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -26,7 +28,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: '24'
 
       - name: Run AXTECH Catalog Sync
         run: node sync_topdek.js
