@@ -6,12 +6,18 @@ on:
     - cron: '0 7 * * *'
   workflow_dispatch: # Permite ejecutar la sincronización manualmente desde GitHub en cualquier momento
 
+permissions:
+  contents: write
+
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -27,4 +33,5 @@ jobs:
           git config --global user.email "bot@axtech-py.vercel.app"
           git add products.js
           git diff-index --quiet HEAD || git commit -m "Auto-sync: Actualización nocturna de catálogo y stock TopDek"
-          git push
+          git push origin main
+
