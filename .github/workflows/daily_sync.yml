@@ -6,6 +6,10 @@ on:
     - cron: '0 7 * * *'
   workflow_dispatch: # Permite ejecutar la sincronización manualmente desde GitHub en cualquier momento
 
+concurrency:
+  group: sync
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
@@ -33,5 +37,7 @@ jobs:
           git config --global user.email "bot@axtech-py.vercel.app"
           git add products.js
           git diff-index --quiet HEAD || git commit -m "Auto-sync: Actualización nocturna de catálogo y stock TopDek"
+          git pull origin main --rebase
           git push origin main
+
 
