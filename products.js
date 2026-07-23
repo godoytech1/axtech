@@ -38213,7 +38213,11 @@ const PRODUCTS =
         "id": 10228,
         "ref": "388063",
         "brand": "XFX",
+<<<<<<< HEAD
         "title_orig": "PC GAMER MONTADO TITAN RYZEN 5 5600XT RADEON XFX RX7600 16GB RAM DDR4 SSD 1TB Fuente 550W 4X FANS RGB OPTMUS Vidrio Temperado",
+=======
+        "title_orig": "PC GAMER MONTADO TITAN RYZEN 5 5600XT RADEON XFX RX7600 16GB RAM DDR4 SSD 1TB FONTE 550W 4X FANS RGB OPTMUS Vidrio Temperado",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "PC GAMER MONTADO TITAN RYZEN 5 5600XT RADEON XFX RX7600 16GB RAM DDR4 SSD 1TB Fuente 550W 4X FANS RGB OPTMUS Vidrio Temperado",
         "category": "Memorias RAM",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_388063_1.JPG",
@@ -38353,7 +38357,11 @@ const PRODUCTS =
         "id": 10235,
         "ref": "324020",
         "brand": "HP",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK HP VICTUS 15 FB3093DX AMD RYZEN 7 7445HS 3 20GHZ 4 70GHZ 16GB RAM 512GB SSD Pantalla 15 6 FULL HD 1920 X 1080 IPS 144Hz GEFORCE RTX4050 6GB WINDOWS 11 HOME ETHERNET RJ 45 INGLES Negro",
+=======
+        "title_orig": "NOTEBOOK HP VICTUS 15 FB3093DX AMD RYZEN 7 7445HS 3 20GHZ 4 70GHZ 16GB RAM 512GB SSD TELA 15 6 FULL HD 1920 X 1080 IPS 144HZ GEFORCE RTX4050 6GB WINDOWS 11 HOME ETHERNET RJ 45 INGLES Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK HP VICTUS 15 FB3093DX AMD RYZEN 7 7445HS 3 20GHZ 4 70GHZ 16GB RAM 512GB SSD Pantalla 15 6 FULL HD 1920 X 1080 IPS 144Hz GEFORCE RTX4050 6GB WINDOWS 11 HOME ETHERNET RJ 45 INGLES Negro",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_324020_1.JPG",
@@ -38833,7 +38841,11 @@ const PRODUCTS =
         "id": 10261,
         "ref": "378220",
         "brand": "INTEL",
+<<<<<<< HEAD
         "title_orig": "PC GAMER MONTADO INTEL CORE I5 12400F RADEON RX580 16GB 16GB RAM SSD NVME 512GB AQUARIO Blanco 378220",
+=======
+        "title_orig": "PC GAMER MONTADO INTEL CORE I5 12400F RADEON RX580 16GB 16GB RAM SSD NVME 512GB AQUARIO Blanco  378220",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "PC GAMER MONTADO INTEL CORE I5 12400F RADEON RX580 16GB 16GB RAM SSD NVME 512GB AQUARIO Blanco 378220",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_378220_1.JPG",
@@ -38873,7 +38885,11 @@ const PRODUCTS =
         "id": 10263,
         "ref": "376486",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "PC OFFICE MONTADO RYZEN 5 2600 GEFORCE GT740 2GB DDR5 8GB RAM DDR3 SSD 256GB NVME AQUARIO Negro 376486",
+=======
+        "title_orig": "PC OFFICE MONTADO RYZEN 5 2600 GEFORCE GT740 2GB DDR5 8GB RAM DDR3 SSD 256GB NVME AQUARIO Negro  376486",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "PC OFFICE MONTADO RYZEN 5 2600 GEFORCE GT740 2GB DDR5 8GB RAM DDR3 SSD 256GB NVME AQUARIO Negro 376486",
         "category": "Memorias RAM",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_376486_1.JPG",
@@ -38913,7 +38929,11 @@ const PRODUCTS =
         "id": 10267,
         "ref": "378185",
         "brand": "INTEL",
+<<<<<<< HEAD
         "title_orig": "PC GAMER MONTADO INTEL CORE I5 4590 RADEON RX580 16GB 16GB RAM SSD NVME 512GB Negro 378185",
+=======
+        "title_orig": "PC GAMER MONTADO INTEL CORE I5 4590 RADEON RX580 16GB 16GB RAM SSD NVME 512GB Negro  378185",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "PC GAMER MONTADO INTEL CORE I5 4590 RADEON RX580 16GB 16GB RAM SSD NVME 512GB Negro 378185",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_378185_1.JPG",
@@ -39073,7 +39093,11 @@ const PRODUCTS =
         "id": 10277,
         "ref": "316649",
         "brand": "INTEL",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK AUDISAT X99 INTEL N95 1 7GHZ 3 40GHZ 8GB RAM 512GB SSD Pantalla 15 6 FULL HD 1920 X 1080 IPS WINDOWS 11 INGLES Negro",
+=======
+        "title_orig": "NOTEBOOK AUDISAT X99 INTEL N95 1 7GHZ 3 40GHZ 8GB RAM 512GB SSD TELA 15 6 FULL HD 1920 X 1080 IPS WINDOWS 11 INGLES Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK AUDISAT X99 INTEL N95 1 7GHZ 3 40GHZ 8GB RAM 512GB SSD Pantalla 15 6 FULL HD 1920 X 1080 IPS WINDOWS 11 INGLES Negro",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_316649_1.JPG",
@@ -39093,7 +39117,11 @@ const PRODUCTS =
         "id": 10278,
         "ref": "348408",
         "brand": "LENOVO",
+<<<<<<< HEAD
         "title_orig": "DESKTOP ALL IN ONE LENOVO F0HN005CUS INTEL CORE I5 13420H 3 40Hz 4 60GHZ 8GB RAM 512GB SSD Pantalla 23 8 TOUCH FULL HD 1920 X 1080 IPS WINDOWS 11 HOME INGLES LUNA Gris 348408",
+=======
+        "title_orig": "DESKTOP ALL IN ONE LENOVO F0HN005CUS INTEL CORE I5 13420H 3 40HZ 4 60GHZ 8GB RAM 512GB SSD TELA 23 8 TOUCH FULL HD 1920 X 1080 IPS WINDOWS 11 HOME INGLES LUNA Gris  348408",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "DESKTOP ALL IN ONE LENOVO F0HN005CUS INTEL CORE I5 13420H 3 40Hz 4 60GHZ 8GB RAM 512GB SSD Pantalla 23 8 TOUCH FULL HD 1920 X 1080 IPS WINDOWS 11 HOME INGLES LUNA Gris 348408",
         "category": "Procesadores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_348408_1.JPG",
@@ -39113,7 +39141,11 @@ const PRODUCTS =
         "id": 10279,
         "ref": "365407",
         "brand": "MSI",
+<<<<<<< HEAD
         "title_orig": "DESKTOP ALL IN ONE MSI AMP242P INTEL CORE 7 150U 1 80Hz 5 40GHZ 16GB RAM 2TB SSD Pantalla 23 8 TOUCH FULL HD 1920 X 1080 IPS WINDOWS 11 HOME INGLES Negro",
+=======
+        "title_orig": "DESKTOP ALL IN ONE MSI AMP242P INTEL CORE 7 150U 1 80HZ 5 40GHZ 16GB RAM 2TB SSD TELA 23 8 TOUCH FULL HD 1920 X 1080 IPS WINDOWS 11 HOME INGLES Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "DESKTOP ALL IN ONE MSI AMP242P INTEL CORE 7 150U 1 80Hz 5 40GHZ 16GB RAM 2TB SSD Pantalla 23 8 TOUCH FULL HD 1920 X 1080 IPS WINDOWS 11 HOME INGLES Negro",
         "category": "Almacenamiento (SSD)",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_365407_1.JPG",
@@ -39133,7 +39165,11 @@ const PRODUCTS =
         "id": 10280,
         "ref": "302802",
         "brand": "APPLE",
+<<<<<<< HEAD
         "title_orig": "APPLE IMAC 2024 A3247 M4 Pantalla 24 IPS 4 5K 16GB RAM 256GB SSD MWUF3LL A Azul",
+=======
+        "title_orig": "APPLE IMAC 2024 A3247 M4 TELA 24 IPS 4 5K 16GB RAM 256GB SSD MWUF3LL A Azul",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "APPLE IMAC 2024 A3247 M4 Pantalla 24 IPS 4 5K 16GB RAM 256GB SSD MWUF3LL A Azul",
         "category": "Almacenamiento (SSD)",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_302802_1.JPG",
@@ -39193,7 +39229,11 @@ const PRODUCTS =
         "id": 10283,
         "ref": "335246",
         "brand": "MSI",
+<<<<<<< HEAD
         "title_orig": "DESKTOP ALL IN ONE MSI AP242P 14M 643 INTEL CORE I7 14700 2 10GHZ 5 40GHZ 16GB RAM 1TB SSD Pantalla 23 8 FULL HD 1920 X 1080 IPS WINDOWS 11 HOME INGLES Negro",
+=======
+        "title_orig": "DESKTOP ALL IN ONE MSI AP242P 14M 643 INTEL CORE I7 14700 2 10GHZ 5 40GHZ 16GB RAM 1TB SSD TELA 23 8 FULL HD 1920 X 1080 IPS WINDOWS 11 HOME INGLES Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "DESKTOP ALL IN ONE MSI AP242P 14M 643 INTEL CORE I7 14700 2 10GHZ 5 40GHZ 16GB RAM 1TB SSD Pantalla 23 8 FULL HD 1920 X 1080 IPS WINDOWS 11 HOME INGLES Negro",
         "category": "Procesadores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_335246_1.JPG",
@@ -39233,7 +39273,11 @@ const PRODUCTS =
         "id": 10285,
         "ref": "275126",
         "brand": "HP",
+<<<<<<< HEAD
         "title_orig": "DESKTOP ALL IN ONE HP 27 CR0000 INTEL CORE I7 1355U 1 7GHZ 5 00GHZ 8GB RAM 1TB SSD Pantalla 27 FULL HD IPS WINDOWS 11 HOME INGLES Negro",
+=======
+        "title_orig": "DESKTOP ALL IN ONE HP 27 CR0000 INTEL CORE I7 1355U 1 7GHZ 5 00GHZ 8GB RAM 1TB SSD TELA 27 FULL HD IPS WINDOWS 11 HOME INGLES Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "DESKTOP ALL IN ONE HP 27 CR0000 INTEL CORE I7 1355U 1 7GHZ 5 00GHZ 8GB RAM 1TB SSD Pantalla 27 FULL HD IPS WINDOWS 11 HOME INGLES Negro",
         "category": "Procesadores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_275126_1.JPG",
@@ -39373,7 +39417,11 @@ const PRODUCTS =
         "id": 10292,
         "ref": "310384",
         "brand": "MSI",
+<<<<<<< HEAD
         "title_orig": "DESKTOP ALL IN ONE MSI PRO AP242P 14M 641US INTEL CORE I7 14700 2 1GHZ 5 40GHZ 32GB RAM 1TB SSD Pantalla 23 8 FULL HD IPS WINDOWS 11 HOME INGLES Negro",
+=======
+        "title_orig": "DESKTOP ALL IN ONE MSI PRO AP242P 14M 641US INTEL CORE I7 14700 2 1GHZ 5 40GHZ 32GB RAM 1TB SSD TELA 23 8 FULL HD IPS WINDOWS 11 HOME INGLES Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "DESKTOP ALL IN ONE MSI PRO AP242P 14M 641US INTEL CORE I7 14700 2 1GHZ 5 40GHZ 32GB RAM 1TB SSD Pantalla 23 8 FULL HD IPS WINDOWS 11 HOME INGLES Negro",
         "category": "Procesadores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_310384_1.JPG",
@@ -39393,7 +39441,11 @@ const PRODUCTS =
         "id": 10293,
         "ref": "307245",
         "brand": "MSI",
+<<<<<<< HEAD
         "title_orig": "DESKTOP ALL IN ONE MSI MODERN AM242TP 1M 1096US INTEL CORE 120U 1 4GHZ 5 00GHZ 16GB RAM 512GB SSD Pantalla 23 8 TOUCH FULL HD IPS WINDOWS 11 HOME INGLES Negro 307245",
+=======
+        "title_orig": "DESKTOP ALL IN ONE MSI MODERN AM242TP 1M 1096US INTEL CORE 120U 1 4GHZ 5 00GHZ 16GB RAM 512GB SSD TELA 23 8 TOUCH FULL HD IPS WINDOWS 11 HOME INGLES Negro  307245",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "DESKTOP ALL IN ONE MSI MODERN AM242TP 1M 1096US INTEL CORE 120U 1 4GHZ 5 00GHZ 16GB RAM 512GB SSD Pantalla 23 8 TOUCH FULL HD IPS WINDOWS 11 HOME INGLES Negro 307245",
         "category": "Almacenamiento (SSD)",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_307245_1.JPG",
@@ -39513,7 +39565,11 @@ const PRODUCTS =
         "id": 10299,
         "ref": "375206",
         "brand": "ACER",
+<<<<<<< HEAD
         "title_orig": "DESKTOP ALL IN ONE ACER C27 2G UR17 R7 5825U 16GB 1TB 27 TECLADO MOUSE Negro 375206",
+=======
+        "title_orig": "DESKTOP ALL IN ONE ACER C27 2G UR17 R7 5825U 16GB 1TB 27 TECLADO MOUSE Negro  375206",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "DESKTOP ALL IN ONE ACER C27 2G UR17 R7 5825U 16GB 1TB 27 TECLADO MOUSE Negro 375206",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_375206_1.JPG",
@@ -39553,7 +39609,11 @@ const PRODUCTS =
         "id": 10301,
         "ref": "348373",
         "brand": "HP",
+<<<<<<< HEAD
         "title_orig": "DESKTOP ALL IN ONE HP 24 CB1210 INTEL CORE I5 1235U 1 30GHZ 4 40GHZ 8GB RAM 256GB SSD Pantalla 23 8 FULL HD 1920 X 1080 IPS WINDOWS 11 HOME INGLES Blanco",
+=======
+        "title_orig": "DESKTOP ALL IN ONE HP 24 CB1210 INTEL CORE I5 1235U 1 30GHZ 4 40GHZ 8GB RAM 256GB SSD TELA 23 8 FULL HD 1920 X 1080 IPS WINDOWS 11 HOME INGLES Blanco",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "DESKTOP ALL IN ONE HP 24 CB1210 INTEL CORE I5 1235U 1 30GHZ 4 40GHZ 8GB RAM 256GB SSD Pantalla 23 8 FULL HD 1920 X 1080 IPS WINDOWS 11 HOME INGLES Blanco",
         "category": "Procesadores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_348373_1.JPG",
@@ -39573,7 +39633,11 @@ const PRODUCTS =
         "id": 10302,
         "ref": "344314",
         "brand": "HP",
+<<<<<<< HEAD
         "title_orig": "DESKTOP ALL IN ONE HP 24 CR0337C AMD RYZEN 5 7520U 2 80Hz 4 30GHZ 16GB RAM 1TB SSD Pantalla 23 8 TOUCH FULL HD 1920 X 1080 IPS WINDOWS 11 HOME INGLES Blanco",
+=======
+        "title_orig": "DESKTOP ALL IN ONE HP 24 CR0337C AMD RYZEN 5 7520U 2 80HZ 4 30GHZ 16GB RAM 1TB SSD TELA 23 8 TOUCH FULL HD 1920 X 1080 IPS WINDOWS 11 HOME INGLES Blanco",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "DESKTOP ALL IN ONE HP 24 CR0337C AMD RYZEN 5 7520U 2 80Hz 4 30GHZ 16GB RAM 1TB SSD Pantalla 23 8 TOUCH FULL HD 1920 X 1080 IPS WINDOWS 11 HOME INGLES Blanco",
         "category": "Procesadores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_344314_1.JPG",
@@ -39613,7 +39677,11 @@ const PRODUCTS =
         "id": 10304,
         "ref": "349510",
         "brand": "MSI",
+<<<<<<< HEAD
         "title_orig": "DESKTOP ALL IN ONE MSI MODERN AM273QP 1UM 067 INTEL CORE ULTRA 7 155H 1 40Hz 4 80GHZ 16GB RAM 1TB SSD Pantalla 27 WQHD 2560 X 1440 IPS WINDOWS 11 HOME INGLES Negro",
+=======
+        "title_orig": "DESKTOP ALL IN ONE MSI MODERN AM273QP 1UM 067 INTEL CORE ULTRA 7 155H 1 40HZ 4 80GHZ 16GB RAM 1TB SSD TELA 27 WQHD 2560 X 1440 IPS WINDOWS 11 HOME INGLES Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "DESKTOP ALL IN ONE MSI MODERN AM273QP 1UM 067 INTEL CORE ULTRA 7 155H 1 40Hz 4 80GHZ 16GB RAM 1TB SSD Pantalla 27 WQHD 2560 X 1440 IPS WINDOWS 11 HOME INGLES Negro",
         "category": "Almacenamiento (SSD)",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_349510_1.JPG",
@@ -40453,7 +40521,11 @@ const PRODUCTS =
         "id": 10347,
         "ref": "296151",
         "brand": "REDRAGON",
+<<<<<<< HEAD
         "title_orig": "MOCHILA REDRAGON TRAVELER GB93 Negro Rojo 296151",
+=======
+        "title_orig": "MOCHILA REDRAGON TRAVELER GB93 Negro Rojo  296151",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MOCHILA REDRAGON TRAVELER GB93 Negro Rojo 296151",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_296151_1.JPG",
@@ -40673,7 +40745,11 @@ const PRODUCTS =
         "id": 10358,
         "ref": "367284",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MOCHILA NB SATE A KP9111 15 6 Negro 367284",
+=======
+        "title_orig": "MOCHILA NB SATE A KP9111 15 6 Negro  367284",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MOCHILA NB SATE A KP9111 15 6 Negro 367284",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_367284_1.JPG",
@@ -40733,7 +40809,11 @@ const PRODUCTS =
         "id": 10361,
         "ref": "100943",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "CAPA NOTE SATE A KP12 15 6 Negro Azul 100943",
+=======
+        "title_orig": "CAPA NOTE SATE A KP12 15 6 Negro Azul  100943",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "CAPA NOTE SATE A KP12 15 6 Negro Azul 100943",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_100943_1.JPG",
@@ -41033,7 +41113,11 @@ const PRODUCTS =
         "id": 10376,
         "ref": "228045",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "HD EXT 5TB LACIE MOBILE DRIVE STLP5000400 USB C Plata 3 0 228045",
+=======
+        "title_orig": "HD EXT 5TB LACIE MOBILE DRIVE STLP5000400 USB C Plata 3 0  228045",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "HD EXT 5TB LACIE MOBILE DRIVE STLP5000400 USB C Plata 3 0 228045",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_228045_1.JPG",
@@ -42633,7 +42717,11 @@ const PRODUCTS =
         "id": 10465,
         "ref": "205275",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "CABO USB P HD EXTERNO 3 0 Blanco 205275",
+=======
+        "title_orig": "CABO USB P HD EXTERNO 3 0 Blanco  205275",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "CABO USB P HD EXTERNO 3 0 Blanco 205275",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_205275_1.JPG",
@@ -42853,7 +42941,11 @@ const PRODUCTS =
         "id": 10477,
         "ref": "250376",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "CABO USB P HD EXTERNO 3 0 Negro 250376",
+=======
+        "title_orig": "CABO USB P HD EXTERNO 3 0 Negro  250376",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "CABO USB P HD EXTERNO 3 0 Negro 250376",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_250376_1.JPG",
@@ -42953,7 +43045,11 @@ const PRODUCTS =
         "id": 10483,
         "ref": "152590",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "IMPRESSORA BROTHER HL 1212W LASER MONOCROMATICA WI FI 220V Negro 152590",
+=======
+        "title_orig": "IMPRESSORA BROTHER HL 1212W LASER MONOCROMATICA WI FI 220V Negro  152590",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "IMPRESSORA BROTHER HL 1212W LASER MONOCROMATICA WI FI 220V Negro 152590",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_152590_1.JPG",
@@ -43593,7 +43689,11 @@ const PRODUCTS =
         "id": 10518,
         "ref": "295284",
         "brand": "STAR",
+<<<<<<< HEAD
         "title_orig": "IMP TERMICA 3NSTAR LTT422 1D 2D RED USB Blanco 295284",
+=======
+        "title_orig": "IMP TERMICA 3NSTAR LTT422 1D 2D RED USB Blanco  295284",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "IMP TERMICA 3NSTAR LTT422 1D 2D RED USB Blanco 295284",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_295284_1.JPG",
@@ -43713,7 +43813,11 @@ const PRODUCTS =
         "id": 10524,
         "ref": "394554",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "IMP NIIMBOT TERMICA PORTATITL B1 DE ETIQUETA Gris 394554",
+=======
+        "title_orig": "IMP NIIMBOT TERMICA PORTATITL B1 DE ETIQUETA Gris  394554",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "IMP NIIMBOT TERMICA PORTATITL B1 DE ETIQUETA Gris 394554",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_394554_1.JPG",
@@ -43793,7 +43897,11 @@ const PRODUCTS =
         "id": 10528,
         "ref": "264124",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MINI IMPRESORA TERMICA SATE A DV905 Azul 264124",
+=======
+        "title_orig": "MINI IMPRESORA TERMICA SATE A DV905 Azul  264124",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MINI IMPRESORA TERMICA SATE A DV905 Azul 264124",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_264124_1.JPG",
@@ -43913,7 +44021,11 @@ const PRODUCTS =
         "id": 10534,
         "ref": "185170",
         "brand": "STAR",
+<<<<<<< HEAD
         "title_orig": "IMP TERMICA 3NSTAR RPT006W USB WIFI BIVOLT Negro 185170",
+=======
+        "title_orig": "IMP TERMICA 3NSTAR RPT006W USB WIFI BIVOLT Negro  185170",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "IMP TERMICA 3NSTAR RPT006W USB WIFI BIVOLT Negro 185170",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_185170_1.JPG",
@@ -43953,7 +44065,11 @@ const PRODUCTS =
         "id": 10536,
         "ref": "275697",
         "brand": "STAR",
+<<<<<<< HEAD
         "title_orig": "IMP TERMICA 3NSTAR RPT004 USB RED BIVOLT Negro 275697",
+=======
+        "title_orig": "IMP TERMICA 3NSTAR RPT004 USB RED BIVOLT Negro  275697",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "IMP TERMICA 3NSTAR RPT004 USB RED BIVOLT Negro 275697",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_275697_1.JPG",
@@ -44053,7 +44169,11 @@ const PRODUCTS =
         "id": 10541,
         "ref": "168823",
         "brand": "STAR",
+<<<<<<< HEAD
         "title_orig": "IMP 3NSTAR LTT214 USB RED Negro C SOFTWARE 168823",
+=======
+        "title_orig": "IMP 3NSTAR LTT214 USB RED Negro C SOFTWARE  168823",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "IMP 3NSTAR LTT214 USB RED Negro C SOFTWARE 168823",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_168823_1.JPG",
@@ -44153,7 +44273,11 @@ const PRODUCTS =
         "id": 10547,
         "ref": "263885",
         "brand": "HP",
+<<<<<<< HEAD
         "title_orig": "IMP HP LASERJET PRO 4003DW WIFI BT 110V Blanco 263885",
+=======
+        "title_orig": "IMP HP LASERJET PRO 4003DW WIFI BT 110V Blanco  263885",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "IMP HP LASERJET PRO 4003DW WIFI BT 110V Blanco 263885",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_263885_1.JPG",
@@ -44853,7 +44977,11 @@ const PRODUCTS =
         "id": 10582,
         "ref": "283900",
         "brand": "HP",
+<<<<<<< HEAD
         "title_orig": "IMP HP SMART TANK 581 MULFUNCIONAL WIFI USB Negro 283900",
+=======
+        "title_orig": "IMP HP SMART TANK 581 MULFUNCIONAL WIFI USB Negro  283900",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "IMP HP SMART TANK 581 MULFUNCIONAL WIFI USB Negro 283900",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_283900_1.JPG",
@@ -45473,7 +45601,11 @@ const PRODUCTS =
         "id": 10615,
         "ref": "276600",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "IMP EPSON L3256 ECOTANK WIFI BIVOLT Blanco 276600",
+=======
+        "title_orig": "IMP EPSON L3256 ECOTANK WIFI BIVOLT Blanco  276600",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "IMP EPSON L3256 ECOTANK WIFI BIVOLT Blanco 276600",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_276600_1.JPG",
@@ -45633,7 +45765,11 @@ const PRODUCTS =
         "id": 10624,
         "ref": "116568",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "IMP DE CORTE SILHOUETTE CAMEO 4 PLUS 38CM BIVOL Blanco 116568",
+=======
+        "title_orig": "IMP DE CORTE SILHOUETTE CAMEO 4 PLUS 38CM BIVOL Blanco  116568",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "IMP DE CORTE SILHOUETTE CAMEO 4 PLUS 38CM BIVOL Blanco 116568",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_116568_1.JPG",
@@ -45973,7 +46109,11 @@ const PRODUCTS =
         "id": 10641,
         "ref": "52400",
         "brand": "HP",
+<<<<<<< HEAD
         "title_orig": "TONER HP 105A W1105A Negro 52400",
+=======
+        "title_orig": "TONER HP 105A W1105A Negro  52400",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "TONER HP 105A W1105A Negro 52400",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_52400_1.JPG",
@@ -46033,7 +46173,11 @@ const PRODUCTS =
         "id": 10644,
         "ref": "55908",
         "brand": "HP",
+<<<<<<< HEAD
         "title_orig": "TONER HP 30A CF230A Negro 55908",
+=======
+        "title_orig": "TONER HP 30A CF230A Negro  55908",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "TONER HP 30A CF230A Negro 55908",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_55908_1.JPG",
@@ -46233,7 +46377,11 @@ const PRODUCTS =
         "id": 10654,
         "ref": "37302",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "IMP EPSON T3170 WIRELESS SURECOLOR Blanco BIVOLT 37302",
+=======
+        "title_orig": "IMP EPSON T3170 WIRELESS SURECOLOR Blanco BIVOLT  37302",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "IMP EPSON T3170 WIRELESS SURECOLOR Blanco BIVOLT 37302",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_37302_1.JPG",
@@ -46333,7 +46481,11 @@ const PRODUCTS =
         "id": 10659,
         "ref": "185159",
         "brand": "STAR",
+<<<<<<< HEAD
         "title_orig": "IMP 3NSTAR MATRICIAL RPI007E USB RED RJ45 BIVOLT Negro 185159",
+=======
+        "title_orig": "IMP 3NSTAR MATRICIAL RPI007E USB RED RJ45 BIVOLT Negro  185159",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "IMP 3NSTAR MATRICIAL RPI007E USB RED RJ45 BIVOLT Negro 185159",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_185159_1.JPG",
@@ -46353,7 +46505,11 @@ const PRODUCTS =
         "id": 10660,
         "ref": "185148",
         "brand": "STAR",
+<<<<<<< HEAD
         "title_orig": "IMP 3NSTAR MATRICIAL RPI007 USB BIVOLT Negro 185148",
+=======
+        "title_orig": "IMP 3NSTAR MATRICIAL RPI007 USB BIVOLT Negro  185148",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "IMP 3NSTAR MATRICIAL RPI007 USB BIVOLT Negro 185148",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_185148_1.JPG",
@@ -46373,7 +46529,11 @@ const PRODUCTS =
         "id": 10661,
         "ref": "254808",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "IMP EPSON FX 890II MATRICIAL 220V Negro 254808",
+=======
+        "title_orig": "IMP EPSON FX 890II MATRICIAL 220V Negro  254808",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "IMP EPSON FX 890II MATRICIAL 220V Negro 254808",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_254808_1.JPG",
@@ -46413,7 +46573,11 @@ const PRODUCTS =
         "id": 10663,
         "ref": "275855",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "IMP EPSON TMU220A 163 MATRICIAL USB BIVOLT Gris 275855",
+=======
+        "title_orig": "IMP EPSON TMU220A 163 MATRICIAL USB BIVOLT Gris  275855",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "IMP EPSON TMU220A 163 MATRICIAL USB BIVOLT Gris 275855",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_275855_1.JPG",
@@ -48653,7 +48817,11 @@ const PRODUCTS =
         "id": 10777,
         "ref": "290617",
         "brand": "STAR",
+<<<<<<< HEAD
         "title_orig": "ROTEADOR WIRELESS STARLINK MINI KIT DUAL BAND WI FI 5 UTA 231 LATAM Blanco 290617",
+=======
+        "title_orig": "ROTEADOR WIRELESS STARLINK MINI KIT DUAL BAND WI FI 5 UTA 231 LATAM Blanco  290617",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "ROTEADOR WIRELESS STARLINK MINI KIT DUAL BAND WI FI 5 UTA 231 LATAM Blanco 290617",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_290617_1.JPG",
@@ -49593,7 +49761,11 @@ const PRODUCTS =
         "id": 10830,
         "ref": "300170",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MONITOR FTX FTX M19VHDBZL 19 HD 1440 X 900 5Ms 75Hz 1XVGA D SUB 1XHDMI Negro",
+=======
+        "title_orig": "MONITOR FTX FTX M19VHDBZL 19 HD 1440 X 900 5MS 75HZ 1XVGA D SUB 1XHDMI Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR FTX FTX M19VHDBZL 19 HD 1440 X 900 5Ms 75Hz 1XVGA D SUB 1XHDMI Negro",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_300170_1.JPG",
@@ -49613,7 +49785,11 @@ const PRODUCTS =
         "id": 10831,
         "ref": "276621",
         "brand": "LG",
+<<<<<<< HEAD
         "title_orig": "MON 32 LG 32GS75Q B ULTRAGEAR IPS 180Hz 1Ms Negro",
+=======
+        "title_orig": "MON 32 LG 32GS75Q B ULTRAGEAR IPS 180HZ 1MS Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 32 LG 32GS75Q B ULTRAGEAR IPS 180Hz 1Ms Negro",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_276621_1.JPG",
@@ -49753,7 +49929,11 @@ const PRODUCTS =
         "id": 10840,
         "ref": "314377",
         "brand": "STAR",
+<<<<<<< HEAD
         "title_orig": "MONITOR TOUCHSCREEN CAPACITIVO 3NSTAR TCM010VH 15 HD 1024 X 768 1XHDMI 1XVGA D SUB Negro 314377",
+=======
+        "title_orig": "MONITOR TOUCHSCREEN CAPACITIVO 3NSTAR TCM010VH 15 HD 1024 X 768 1XHDMI 1XVGA D SUB Negro  314377",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR TOUCHSCREEN CAPACITIVO 3NSTAR TCM010VH 15 HD 1024 X 768 1XHDMI 1XVGA D SUB Negro 314377",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_314377_1.JPG",
@@ -49793,7 +49973,11 @@ const PRODUCTS =
         "id": 10842,
         "ref": "289153",
         "brand": "UP GAMER",
+<<<<<<< HEAD
         "title_orig": "MONITOR UP GAMER G SERIES ESSENTIALS 17 HD Pantalla Plana 60Hz 5Ms HDMI VGA UPG17VA60 Negro",
+=======
+        "title_orig": "MONITOR UP GAMER G SERIES ESSENTIALS 17 HD Pantalla Plana 60HZ 5MS HDMI VGA UPG17VA60 Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR UP GAMER G SERIES ESSENTIALS 17 HD Pantalla Plana 60Hz 5Ms HDMI VGA UPG17VA60 Negro",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_289153_1.JPG",
@@ -49813,7 +49997,11 @@ const PRODUCTS =
         "id": 10843,
         "ref": "275866",
         "brand": "HP",
+<<<<<<< HEAD
         "title_orig": "MON 17 HP A17A 60Hz 5Ms Negro HSTND 4011 F",
+=======
+        "title_orig": "MON 17 HP A17A 60HZ 5MS Negro HSTND 4011 F",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 17 HP A17A 60Hz 5Ms Negro HSTND 4011 F",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_275866_1.JPG",
@@ -49853,7 +50041,11 @@ const PRODUCTS =
         "id": 10846,
         "ref": "239754",
         "brand": "DELL",
+<<<<<<< HEAD
         "title_orig": "MONITOR DELL E1920H 18 5 HD 1366 X 768 5Ms 60Hz 1XDISPLAYPORT 1XVGA D SUB Negro 239754",
+=======
+        "title_orig": "MONITOR DELL E1920H 18 5 HD 1366 X 768 5MS 60HZ 1XDISPLAYPORT 1XVGA D SUB Negro  239754",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR DELL E1920H 18 5 HD 1366 X 768 5Ms 60Hz 1XDISPLAYPORT 1XVGA D SUB Negro 239754",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_239754_1.JPG",
@@ -49873,7 +50065,11 @@ const PRODUCTS =
         "id": 10847,
         "ref": "218986",
         "brand": "DELL",
+<<<<<<< HEAD
         "title_orig": "MONITOR DELL E2016HV 19 5 HD 1600 X 900 5Ms 75Hz 1XVGA D SUB Negro",
+=======
+        "title_orig": "MONITOR DELL E2016HV 19 5 HD 1600 X 900 5MS 75HZ 1XVGA D SUB Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR DELL E2016HV 19 5 HD 1600 X 900 5Ms 75Hz 1XVGA D SUB Negro",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_218986_1.JPG",
@@ -49893,7 +50089,11 @@ const PRODUCTS =
         "id": 10848,
         "ref": "36468",
         "brand": "DELL",
+<<<<<<< HEAD
         "title_orig": "MON 19 DELL E1916HV LED VGA Negro 36468",
+=======
+        "title_orig": "MON 19 DELL E1916HV LED VGA Negro  36468",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 19 DELL E1916HV LED VGA Negro 36468",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_36468_1.JPG",
@@ -49973,7 +50173,11 @@ const PRODUCTS =
         "id": 10853,
         "ref": "314333",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MONITOR HIKVISION DS D5019S0 1P0 18 5 HD 1366 768 14Ms 75Hz 1XVGA D SUB 1XHDMI Negro 314333",
+=======
+        "title_orig": "MONITOR HIKVISION DS D5019S0 1P0 18 5 HD 1366 768 14MS 75HZ 1XVGA D SUB 1XHDMI Negro  314333",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR HIKVISION DS D5019S0 1P0 18 5 HD 1366 768 14Ms 75Hz 1XVGA D SUB 1XHDMI Negro 314333",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_314333_1.JPG",
@@ -50033,7 +50237,11 @@ const PRODUCTS =
         "id": 10856,
         "ref": "99040",
         "brand": "DELL",
+<<<<<<< HEAD
         "title_orig": "MONITOR DELL PRO 20 E2020H 20 HD 1600 X 900 5Ms 60Hz 1XDISPLAYPORT 1XVGA D SUB Negro 99040",
+=======
+        "title_orig": "MONITOR DELL PRO 20 E2020H 20 HD 1600 X 900 5MS 60HZ 1XDISPLAYPORT 1XVGA D SUB Negro  99040",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR DELL PRO 20 E2020H 20 HD 1600 X 900 5Ms 60Hz 1XDISPLAYPORT 1XVGA D SUB Negro 99040",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_99040_1.JPG",
@@ -50073,7 +50281,11 @@ const PRODUCTS =
         "id": 10858,
         "ref": "340286",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "ZZMON 19 5 DAHUA LM19 A200 HD 5Ms 75Hz HDMI VGA E Negro",
+=======
+        "title_orig": "ZZMON 19 5 DAHUA LM19 A200 HD 5MS 75HZ HDMI VGA E Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "ZZMON 19 5 DAHUA LM19 A200 HD 5Ms 75Hz HDMI VGA E Negro",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_340286_1.JPG",
@@ -50133,7 +50345,11 @@ const PRODUCTS =
         "id": 10861,
         "ref": "101024",
         "brand": "HP",
+<<<<<<< HEAD
         "title_orig": "MON 20 HP P204V LED HDMI VGA 5Ms Negro BIVOLT 101024",
+=======
+        "title_orig": "MON 20 HP P204V LED HDMI VGA 5MS Negro BIVOLT 101024",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 20 HP P204V LED HDMI VGA 5Ms Negro BIVOLT 101024",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_101024_1.JPG",
@@ -50173,7 +50389,11 @@ const PRODUCTS =
         "id": 10863,
         "ref": "198297",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MON 20 TCB TCB20 LED 60Hz 8Ms Negro",
+=======
+        "title_orig": "MON 20 TCB TCB20 LED 60HZ 8MS Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 20 TCB TCB20 LED 60Hz 8Ms Negro",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_198297_1.JPG",
@@ -50193,7 +50413,11 @@ const PRODUCTS =
         "id": 10864,
         "ref": "237618",
         "brand": "XIAOMI",
+<<<<<<< HEAD
         "title_orig": "MONITOR XIAOMI A22I A22FAB RAGL ELA5232GL21 45 FULL HD 1920 X 1080 75Hz 1XHDMI 1XVGA D SUB Negro",
+=======
+        "title_orig": "MONITOR XIAOMI A22I A22FAB RAGL ELA5232GL21 45 FULL HD 1920 X 1080 75HZ 1XHDMI 1XVGA D SUB Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR XIAOMI A22I A22FAB RAGL ELA5232GL21 45 FULL HD 1920 X 1080 75Hz 1XHDMI 1XVGA D SUB Negro",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_237618_1.JPG",
@@ -50213,7 +50437,11 @@ const PRODUCTS =
         "id": 10865,
         "ref": "282427",
         "brand": "MSI",
+<<<<<<< HEAD
         "title_orig": "MONITOR MSI G255F 25 FULL HD 1920 X 1080 1Ms 180Hz IPS 2XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC Negro",
+=======
+        "title_orig": "MONITOR MSI G255F 25 FULL HD 1920 X 1080 1MS 180HZ IPS 2XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR MSI G255F 25 FULL HD 1920 X 1080 1Ms 180Hz IPS 2XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_282427_1.JPG",
@@ -50233,7 +50461,11 @@ const PRODUCTS =
         "id": 10866,
         "ref": "282416",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MONITOR AOC Q32V3S 31 5 2K QHD 2560X1440 4Ms 75Hz IPS 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO Negro",
+=======
+        "title_orig": "MONITOR AOC Q32V3S 31 5 2K QHD 2560X1440 4MS 75HZ IPS 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR AOC Q32V3S 31 5 2K QHD 2560X1440 4Ms 75Hz IPS 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_282416_1.JPG",
@@ -50253,7 +50485,11 @@ const PRODUCTS =
         "id": 10867,
         "ref": "282370",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MON 21 45 AOC 22B2HM2 FHD 100Hz 1Ms Negro 282370",
+=======
+        "title_orig": "MON 21 45 AOC 22B2HM2 FHD 100HZ 1MS Negro  282370",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 21 45 AOC 22B2HM2 FHD 100Hz 1Ms Negro 282370",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_282370_1.JPG",
@@ -50273,7 +50509,11 @@ const PRODUCTS =
         "id": 10868,
         "ref": "285711",
         "brand": "MSI",
+<<<<<<< HEAD
         "title_orig": "MON 21 5 MSI PRO MP225 FLAT 100Hz 1Ms IPS Negro 285711",
+=======
+        "title_orig": "MON 21 5 MSI PRO MP225 FLAT 100HZ 1MS IPS Negro  285711",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 21 5 MSI PRO MP225 FLAT 100Hz 1Ms IPS Negro 285711",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_285711_1.JPG",
@@ -50293,7 +50533,11 @@ const PRODUCTS =
         "id": 10869,
         "ref": "280267",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MON 27 AOC C27G2Z FHD CURVO 240Hz 0 5Ms Negro",
+=======
+        "title_orig": "MON 27 AOC C27G2Z FHD CURVO 240HZ 0 5MS Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 27 AOC C27G2Z FHD CURVO 240Hz 0 5Ms Negro",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_280267_1.JPG",
@@ -50333,7 +50577,11 @@ const PRODUCTS =
         "id": 10871,
         "ref": "218178",
         "brand": "DELL",
+<<<<<<< HEAD
         "title_orig": "MONITOR DELL P2222H 21 5 FULL HD 1920 X 1080 IPS 8Ms 60Hz 1XHDMI 1XDISPLAYPORT 1XVGA D SUB AJUSTE DE ALTURA E PIVO ROTACAO Negro 218178",
+=======
+        "title_orig": "MONITOR DELL P2222H 21 5 FULL HD 1920 X 1080 IPS 8MS 60HZ 1XHDMI 1XDISPLAYPORT 1XVGA D SUB AJUSTE DE ALTURA E PIVO ROTACAO Negro  218178",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR DELL P2222H 21 5 FULL HD 1920 X 1080 IPS 8Ms 60Hz 1XHDMI 1XDISPLAYPORT 1XVGA D SUB AJUSTE DE ALTURA E PIVO ROTACAO Negro 218178",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_218178_1.JPG",
@@ -50373,7 +50621,11 @@ const PRODUCTS =
         "id": 10873,
         "ref": "285700",
         "brand": "MSI",
+<<<<<<< HEAD
         "title_orig": "MON 21 45 MSI PRO MP223 FLAT 100Hz FHD 1Ms Negro 285700",
+=======
+        "title_orig": "MON 21 45 MSI PRO MP223 FLAT 100HZ FHD 1MS Negro  285700",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 21 45 MSI PRO MP223 FLAT 100Hz FHD 1Ms Negro 285700",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_285700_1.JPG",
@@ -50393,7 +50645,11 @@ const PRODUCTS =
         "id": 10874,
         "ref": "280234",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MON 21 5 AOC 22E1H FHD 60Hz 2Ms Negro",
+=======
+        "title_orig": "MON 21 5 AOC 22E1H FHD 60HZ 2MS Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 21 5 AOC 22E1H FHD 60Hz 2Ms Negro",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_280234_1.JPG",
@@ -50413,7 +50669,11 @@ const PRODUCTS =
         "id": 10875,
         "ref": "300519",
         "brand": "DELL",
+<<<<<<< HEAD
         "title_orig": "MONITOR DELL E2223HV 21 45 FULL HD 1920 X 1080 12Ms 60Hz 1XVGA D SUB Negro 300519",
+=======
+        "title_orig": "MONITOR DELL E2223HV 21 45 FULL HD 1920 X 1080 12MS 60HZ 1XVGA D SUB Negro  300519",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR DELL E2223HV 21 45 FULL HD 1920 X 1080 12Ms 60Hz 1XVGA D SUB Negro 300519",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_300519_1.JPG",
@@ -50453,7 +50713,11 @@ const PRODUCTS =
         "id": 10877,
         "ref": "282438",
         "brand": "ACER",
+<<<<<<< HEAD
         "title_orig": "MON 21 5 ACER VG220Q FHD 100Hz 1Ms Negro 282438",
+=======
+        "title_orig": "MON 21 5 ACER VG220Q FHD 100HZ 1MS Negro  282438",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 21 5 ACER VG220Q FHD 100Hz 1Ms Negro 282438",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_282438_1.JPG",
@@ -50473,7 +50737,11 @@ const PRODUCTS =
         "id": 10878,
         "ref": "289175",
         "brand": "UP GAMER",
+<<<<<<< HEAD
         "title_orig": "MONITOR UP GAMER G SERIES ESSENTIALS 22 FULL HD Pantalla Plana 60Hz 5Ms HDMI VGA UPG22VA60 Negro",
+=======
+        "title_orig": "MONITOR UP GAMER G SERIES ESSENTIALS 22 FULL HD Pantalla Plana 60HZ 5MS HDMI VGA UPG22VA60 Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR UP GAMER G SERIES ESSENTIALS 22 FULL HD Pantalla Plana 60Hz 5Ms HDMI VGA UPG22VA60 Negro",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_289175_1.JPG",
@@ -50513,7 +50781,11 @@ const PRODUCTS =
         "id": 10880,
         "ref": "178005",
         "brand": "LG",
+<<<<<<< HEAD
         "title_orig": "MONITOR GAMER LG 22MP410 B 21 5 FULL HD 75Hz 5Ms HDMI VGA D SUB AMD FREESYNC Negro",
+=======
+        "title_orig": "MONITOR GAMER LG 22MP410 B 21 5 FULL HD 75HZ 5MS HDMI VGA D SUB AMD FREESYNC Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR GAMER LG 22MP410 B 21 5 FULL HD 75Hz 5Ms HDMI VGA D SUB AMD FREESYNC Negro",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_178005_1.JPG",
@@ -50553,7 +50825,11 @@ const PRODUCTS =
         "id": 10882,
         "ref": "304321",
         "brand": "MSI",
+<<<<<<< HEAD
         "title_orig": "MONITOR MSI PRO MP225V 21 45 FULL HD 1920 X 1080 1Ms 100Hz IPS 1XHDMI 1 4 1XVGA D SUB 1XCONECTOR DE AUDIO Negro",
+=======
+        "title_orig": "MONITOR MSI PRO MP225V 21 45 FULL HD 1920 X 1080 1MS 100HZ IPS 1XHDMI 1 4 1XVGA D SUB 1XCONECTOR DE AUDIO Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR MSI PRO MP225V 21 45 FULL HD 1920 X 1080 1Ms 100Hz IPS 1XHDMI 1 4 1XVGA D SUB 1XCONECTOR DE AUDIO Negro",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_304321_1.JPG",
@@ -50573,7 +50849,11 @@ const PRODUCTS =
         "id": 10883,
         "ref": "229114",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MONITOR TEK PTK215NTF 22 FULL HD 1920 X 1080 5Ms 60Hz 1XHDMI 1XVGA D SUB Negro",
+=======
+        "title_orig": "MONITOR TEK PTK215NTF 22 FULL HD 1920 X 1080 5MS 60HZ 1XHDMI 1XVGA D SUB Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR TEK PTK215NTF 22 FULL HD 1920 X 1080 5Ms 60Hz 1XHDMI 1XVGA D SUB Negro",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_229114_1.JPG",
@@ -50593,7 +50873,11 @@ const PRODUCTS =
         "id": 10884,
         "ref": "179880",
         "brand": "HP",
+<<<<<<< HEAD
         "title_orig": "MON 22 HP M22F FHD IPS 5Ms HDMI VGA BIVOLT Gris 179880",
+=======
+        "title_orig": "MON 22 HP M22F FHD IPS 5MS HDMI VGA BIVOLT Gris  179880",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 22 HP M22F FHD IPS 5Ms HDMI VGA BIVOLT Gris 179880",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_179880_1.JPG",
@@ -50633,7 +50917,11 @@ const PRODUCTS =
         "id": 10886,
         "ref": "257159",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MON 22 XION XI MNT22 FHD 75Hz VGA HDMI Negro",
+=======
+        "title_orig": "MON 22 XION XI MNT22 FHD 75HZ VGA HDMI Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 22 XION XI MNT22 FHD 75Hz VGA HDMI Negro",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_257159_1.JPG",
@@ -50653,7 +50941,11 @@ const PRODUCTS =
         "id": 10887,
         "ref": "218683",
         "brand": "ACER",
+<<<<<<< HEAD
         "title_orig": "MONITOR ACER VERO V7 V227Q 21 5 FULL HD 1920 X 1080 IPS 4Ms 75Hz 1XHDMI 1XVGA D SUB Negro",
+=======
+        "title_orig": "MONITOR ACER VERO V7 V227Q 21 5 FULL HD 1920 X 1080 IPS 4MS 75HZ 1XHDMI 1XVGA D SUB Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR ACER VERO V7 V227Q 21 5 FULL HD 1920 X 1080 IPS 4Ms 75Hz 1XHDMI 1XVGA D SUB Negro",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_218683_1.JPG",
@@ -50673,7 +50965,11 @@ const PRODUCTS =
         "id": 10888,
         "ref": "251792",
         "brand": "ACER",
+<<<<<<< HEAD
         "title_orig": "MON 22 ACER VG220Q FLAT IPS 100HZS VGA HDMI Negro 251792",
+=======
+        "title_orig": "MON 22 ACER VG220Q FLAT IPS 100HZS VGA HDMI Negro  251792",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 22 ACER VG220Q FLAT IPS 100HZS VGA HDMI Negro 251792",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_251792_1.JPG",
@@ -50693,7 +50989,11 @@ const PRODUCTS =
         "id": 10889,
         "ref": "268341",
         "brand": "AMD",
+<<<<<<< HEAD
         "title_orig": "MONITOR VIEWSONIC VA2233 H 22 FULL HD 1920 X 1080 60Hz 4Ms 1XHDMI 1XVGA D SUB AMD FREESYNC Negro 268341",
+=======
+        "title_orig": "MONITOR VIEWSONIC VA2233 H 22 FULL HD 1920 X 1080 60HZ 4MS 1XHDMI 1XVGA D SUB AMD FREESYNC Negro  268341",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR VIEWSONIC VA2233 H 22 FULL HD 1920 X 1080 60Hz 4Ms 1XHDMI 1XVGA D SUB AMD FREESYNC Negro 268341",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_268341_1.JPG",
@@ -50713,7 +51013,11 @@ const PRODUCTS =
         "id": 10890,
         "ref": "271560",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MON 22 CENTRONET CTR MN22 FHD 60Hz HDMI Negro",
+=======
+        "title_orig": "MON 22 CENTRONET CTR MN22 FHD 60HZ HDMI Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 22 CENTRONET CTR MN22 FHD 60Hz HDMI Negro",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_271560_1.JPG",
@@ -50733,7 +51037,11 @@ const PRODUCTS =
         "id": 10891,
         "ref": "268330",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MONITOR VIEWSONIC TD2210 22 60Hz 5Ms TOUCH SCREEN FULL HD LED Negro",
+=======
+        "title_orig": "MONITOR VIEWSONIC TD2210 22 60HZ 5MS TOUCH SCREEN FULL HD LED Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR VIEWSONIC TD2210 22 60Hz 5Ms TOUCH SCREEN FULL HD LED Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_268330_1.JPG",
@@ -50793,7 +51101,11 @@ const PRODUCTS =
         "id": 10894,
         "ref": "309820",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MONITOR FTX M22VHDFML 22 FULL HD 1920 X 1080 1Ms 75Hz 1XHDMI 1XVGA D SUB Negro FTXZ2201",
+=======
+        "title_orig": "MONITOR FTX M22VHDFML 22 FULL HD 1920 X 1080 1MS 75HZ 1XHDMI 1XVGA D SUB Negro FTXZ2201",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR FTX M22VHDFML 22 FULL HD 1920 X 1080 1Ms 75Hz 1XHDMI 1XVGA D SUB Negro FTXZ2201",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_309820_1.JPG",
@@ -50813,7 +51125,11 @@ const PRODUCTS =
         "id": 10895,
         "ref": "308560",
         "brand": "SAMSUNG",
+<<<<<<< HEAD
         "title_orig": "MONITOR SAMSUNG ESSENTIAL MONITOR S3 S30GD LS22D300GANXZA 22 FULL HD 1920 X 1080 5Ms 100Hz IPS 1XHDMI 1XVGA D SUB Negro",
+=======
+        "title_orig": "MONITOR SAMSUNG ESSENTIAL MONITOR S3 S30GD LS22D300GANXZA 22 FULL HD 1920 X 1080 5MS 100HZ IPS 1XHDMI 1XVGA D SUB Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR SAMSUNG ESSENTIAL MONITOR S3 S30GD LS22D300GANXZA 22 FULL HD 1920 X 1080 5Ms 100Hz IPS 1XHDMI 1XVGA D SUB Negro",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_308560_1.JPG",
@@ -50833,7 +51149,11 @@ const PRODUCTS =
         "id": 10896,
         "ref": "247382",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MON 22 TCB TCB22 LED 75Hz 8Ms Negro 247382",
+=======
+        "title_orig": "MON 22 TCB TCB22 LED 75HZ 8MS Negro 247382",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 22 TCB TCB22 LED 75Hz 8Ms Negro 247382",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_247382_1.JPG",
@@ -50893,7 +51213,11 @@ const PRODUCTS =
         "id": 10899,
         "ref": "314355",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MONITOR HIKVISION DS D5022F2 1P2 21 5 FULL HD 1920 X 1080 IPS 6 5Ms 100Hz 1XHDMI 1XVGA D SUB Negro",
+=======
+        "title_orig": "MONITOR HIKVISION DS D5022F2 1P2 21 5 FULL HD 1920 X 1080 IPS 6 5MS 100HZ 1XHDMI 1XVGA D SUB Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR HIKVISION DS D5022F2 1P2 21 5 FULL HD 1920 X 1080 IPS 6 5Ms 100Hz 1XHDMI 1XVGA D SUB Negro",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_314355_1.JPG",
@@ -50933,7 +51257,11 @@ const PRODUCTS =
         "id": 10901,
         "ref": "20316",
         "brand": "ACER",
+<<<<<<< HEAD
         "title_orig": "MONITOR ACER V226HQL 21 5 FULL HD 1920 X 1080 5Ms 80Hz 1XHDMI 1XVGA D SUB Negro 20316",
+=======
+        "title_orig": "MONITOR ACER V226HQL 21 5 FULL HD 1920 X 1080 5MS 80HZ 1XHDMI 1XVGA D SUB Negro  20316",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR ACER V226HQL 21 5 FULL HD 1920 X 1080 5Ms 80Hz 1XHDMI 1XVGA D SUB Negro 20316",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_20316_1.JPG",
@@ -50973,7 +51301,11 @@ const PRODUCTS =
         "id": 10903,
         "ref": "340310",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MON 22 VIEWSONIC VA2214 H FHD 4Ms 100Hz HDMI VGA Negro",
+=======
+        "title_orig": "MON 22 VIEWSONIC VA2214 H FHD 4MS 100HZ HDMI VGA Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 22 VIEWSONIC VA2214 H FHD 4Ms 100Hz HDMI VGA Negro",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_340310_1.JPG",
@@ -51013,7 +51345,11 @@ const PRODUCTS =
         "id": 10905,
         "ref": "239945",
         "brand": "ACER",
+<<<<<<< HEAD
         "title_orig": "MON 23 6 ACER EI242QR CURVO FHD 165Hz 1Ms Negro",
+=======
+        "title_orig": "MON 23 6 ACER EI242QR CURVO FHD 165HZ 1MS Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 23 6 ACER EI242QR CURVO FHD 165Hz 1Ms Negro",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_239945_1.JPG",
@@ -51033,7 +51369,11 @@ const PRODUCTS =
         "id": 10906,
         "ref": "93012",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MONITOR KOLKE CURVO KES 461 23 6 FULL HD 1920 X 1080 60Hz 5Ms 1XHDMI 1XVGA D SUB Blanco 93012",
+=======
+        "title_orig": "MONITOR KOLKE CURVO KES 461 23 6 FULL HD 1920 X 1080 60HZ 5MS 1XHDMI 1XVGA D SUB Blanco  93012",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR KOLKE CURVO KES 461 23 6 FULL HD 1920 X 1080 60Hz 5Ms 1XHDMI 1XVGA D SUB Blanco 93012",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_93012_1.JPG",
@@ -51053,7 +51393,11 @@ const PRODUCTS =
         "id": 10907,
         "ref": "275025",
         "brand": "MSI",
+<<<<<<< HEAD
         "title_orig": "MONITOR MSI CURVO G2422C 24 FULL HD 1920 X 1080 180Hz 1Ms 2XHDMI 2 0 1XDISPLAYPORT 1 2 1XSAIDA PARA FONE DE OUVIDO Negro",
+=======
+        "title_orig": "MONITOR MSI CURVO G2422C 24 FULL HD 1920 X 1080 180HZ 1MS 2XHDMI 2 0 1XDISPLAYPORT 1 2 1XSAIDA PARA FONE DE OUVIDO Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR MSI CURVO G2422C 24 FULL HD 1920 X 1080 180Hz 1Ms 2XHDMI 2 0 1XDISPLAYPORT 1 2 1XSAIDA PARA FONE DE OUVIDO Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_275025_1.JPG",
@@ -51093,7 +51437,11 @@ const PRODUCTS =
         "id": 10909,
         "ref": "230880",
         "brand": "DELL",
+<<<<<<< HEAD
         "title_orig": "MONITOR DELL GAMING CURVO S2422HG 24 FULL HD 1920 X 1080 165Hz 4Ms 2XHDMI 1XDISPLAYPORT 1 2 1XSAIDA PARA FONE DE OUVIDO AMD FREESYNC PREMIUM Negro 230880",
+=======
+        "title_orig": "MONITOR DELL GAMING CURVO S2422HG 24 FULL HD 1920 X 1080 165HZ 4MS 2XHDMI 1XDISPLAYPORT 1 2 1XSAIDA PARA FONE DE OUVIDO AMD FREESYNC PREMIUM Negro  230880",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR DELL GAMING CURVO S2422HG 24 FULL HD 1920 X 1080 165Hz 4Ms 2XHDMI 1XDISPLAYPORT 1 2 1XSAIDA PARA FONE DE OUVIDO AMD FREESYNC PREMIUM Negro 230880",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_230880_1.JPG",
@@ -51153,7 +51501,11 @@ const PRODUCTS =
         "id": 10912,
         "ref": "289200",
         "brand": "UP GAMER",
+<<<<<<< HEAD
         "title_orig": "MONITOR UP GAMER PRIME 23 8 FULL HD 100Hz 3Ms HDMI VGA PM23VA100BK Negro 289200",
+=======
+        "title_orig": "MONITOR UP GAMER PRIME 23 8 FULL HD 100HZ 3MS HDMI VGA PM23VA100BK Negro  289200",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR UP GAMER PRIME 23 8 FULL HD 100Hz 3Ms HDMI VGA PM23VA100BK Negro 289200",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_289200_1.JPG",
@@ -51213,7 +51565,11 @@ const PRODUCTS =
         "id": 10915,
         "ref": "234097",
         "brand": "COOLER MASTER",
+<<<<<<< HEAD
         "title_orig": "MONITOR COOLER MASTER GAMING GA241 23 8 FULL HD 1920 X 1080 100Hz 1Ms 1XHDMI 1 4 1XVGA D SUB 1XSAIDA PARA FONE DE OUVIDO ADAPTIVE SYNC Negro",
+=======
+        "title_orig": "MONITOR COOLER MASTER GAMING GA241 23 8 FULL HD 1920 X 1080 100HZ 1MS 1XHDMI 1 4 1XVGA D SUB 1XSAIDA PARA FONE DE OUVIDO ADAPTIVE SYNC Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR COOLER MASTER GAMING GA241 23 8 FULL HD 1920 X 1080 100Hz 1Ms 1XHDMI 1 4 1XVGA D SUB 1XSAIDA PARA FONE DE OUVIDO ADAPTIVE SYNC Negro",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_234097_1.JPG",
@@ -51233,7 +51589,11 @@ const PRODUCTS =
         "id": 10916,
         "ref": "277778",
         "brand": "MSI",
+<<<<<<< HEAD
         "title_orig": "MONITOR MSI MAG 244F 23 8 FULL HD 1920 X 1080 0 5Ms 200Hz IPS 1XHDMI 2 0 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM Negro",
+=======
+        "title_orig": "MONITOR MSI MAG 244F 23 8 FULL HD 1920 X 1080 0 5MS 200HZ IPS 1XHDMI 2 0 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR MSI MAG 244F 23 8 FULL HD 1920 X 1080 0 5Ms 200Hz IPS 1XHDMI 2 0 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_277778_1.JPG",
@@ -51273,7 +51633,11 @@ const PRODUCTS =
         "id": 10918,
         "ref": "288062",
         "brand": "ACER",
+<<<<<<< HEAD
         "title_orig": "MONITOR ACER SB240Y GOBI 23 8 FULL HD 1920 X 1080 120Hz 1Ms IPS 1XHDMI 1XVGA D SUB Negro 288062",
+=======
+        "title_orig": "MONITOR ACER SB240Y GOBI 23 8 FULL HD 1920 X 1080 120HZ 1MS IPS 1XHDMI 1XVGA D SUB Negro  288062",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR ACER SB240Y GOBI 23 8 FULL HD 1920 X 1080 120Hz 1Ms IPS 1XHDMI 1XVGA D SUB Negro 288062",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_288062_1.JPG",
@@ -51293,7 +51657,11 @@ const PRODUCTS =
         "id": 10919,
         "ref": "280256",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MON 23 8 AOC 24G15N FHD 180Hz 1Ms Negro",
+=======
+        "title_orig": "MON 23 8 AOC 24G15N FHD 180HZ 1MS Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 23 8 AOC 24G15N FHD 180Hz 1Ms Negro",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_280256_1.JPG",
@@ -51313,7 +51681,11 @@ const PRODUCTS =
         "id": 10920,
         "ref": "307122",
         "brand": "MSI",
+<<<<<<< HEAD
         "title_orig": "MONITOR MSI PRO MP242L 23 8 FULL HD 1920 X 1080 1Ms 100Hz IPS 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO Negro 307122",
+=======
+        "title_orig": "MONITOR MSI PRO MP242L 23 8 FULL HD 1920 X 1080 1MS 100HZ IPS 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO Negro  307122",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR MSI PRO MP242L 23 8 FULL HD 1920 X 1080 1Ms 100Hz IPS 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO Negro 307122",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_307122_1.JPG",
@@ -51333,7 +51705,11 @@ const PRODUCTS =
         "id": 10921,
         "ref": "280245",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MONITOR AOC 24B2H2 23 8 FULL HD 1920 X 1080 100Hz 4Ms IPS 2XHDMI 1 4 1XSAIDA PARA FONE DE OUVIDO ADAPTIVE SYNC Negro",
+=======
+        "title_orig": "MONITOR AOC 24B2H2 23 8 FULL HD 1920 X 1080 100HZ 4MS IPS 2XHDMI 1 4 1XSAIDA PARA FONE DE OUVIDO ADAPTIVE SYNC Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR AOC 24B2H2 23 8 FULL HD 1920 X 1080 100Hz 4Ms IPS 2XHDMI 1 4 1XSAIDA PARA FONE DE OUVIDO ADAPTIVE SYNC Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_280245_1.JPG",
@@ -51473,7 +51849,11 @@ const PRODUCTS =
         "id": 10928,
         "ref": "333760",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MONITOR TEROS TE 2415S 23 8 FULL HD 1920 X 1080 1Ms 120Hz IPS 1XHDMI 1 4 1XDISPLAYPORT 1 2 Negro",
+=======
+        "title_orig": "MONITOR TEROS TE 2415S 23 8 FULL HD 1920 X 1080 1MS 120HZ IPS 1XHDMI 1 4 1XDISPLAYPORT 1 2 Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR TEROS TE 2415S 23 8 FULL HD 1920 X 1080 1Ms 120Hz IPS 1XHDMI 1 4 1XDISPLAYPORT 1 2 Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_333760_1.JPG",
@@ -51493,7 +51873,11 @@ const PRODUCTS =
         "id": 10929,
         "ref": "341871",
         "brand": "HP",
+<<<<<<< HEAD
         "title_orig": "ZZMON 23 8 HP V24V G5 FHD 5Ms 75Hz HDMI VGA Negro 341871",
+=======
+        "title_orig": "ZZMON 23 8 HP V24V G5 FHD 5MS 75HZ HDMI VGA Negro  341871",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "ZZMON 23 8 HP V24V G5 FHD 5Ms 75Hz HDMI VGA Negro 341871",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_341871_1.JPG",
@@ -51513,7 +51897,11 @@ const PRODUCTS =
         "id": 10930,
         "ref": "341893",
         "brand": "MSI",
+<<<<<<< HEAD
         "title_orig": "ZZMON 23 8 MSI PRO MP243XW FHD 1Ms 100Hz IPS HDMIP Blanco",
+=======
+        "title_orig": "ZZMON 23 8 MSI PRO MP243XW FHD 1MS 100HZ IPS HDMIP Blanco",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "ZZMON 23 8 MSI PRO MP243XW FHD 1Ms 100Hz IPS HDMIP Blanco",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_341893_1.JPG",
@@ -51533,7 +51921,11 @@ const PRODUCTS =
         "id": 10931,
         "ref": "373371",
         "brand": "ASUS",
+<<<<<<< HEAD
         "title_orig": "MON 23 8 ASUS VG249QE5A FHD 146Hz IPS Negro",
+=======
+        "title_orig": "MON 23 8 ASUS VG249QE5A FHD 146HZ IPS Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 23 8 ASUS VG249QE5A FHD 146Hz IPS Negro",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_373371_1.JPG",
@@ -51913,7 +52305,11 @@ const PRODUCTS =
         "id": 10950,
         "ref": "296825",
         "brand": "AMD",
+<<<<<<< HEAD
         "title_orig": "Fuente 1300W GAMDIAS HELIOS P2 1300G 80 GOLD Negro 1300W 296825",
+=======
+        "title_orig": "FONTE 1300W GAMDIAS HELIOS P2 1300G 80 GOLD Negro 1300W  296825",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Fuente 1300W GAMDIAS HELIOS P2 1300G 80 GOLD Negro 1300W 296825",
         "category": "Fuentes de Poder",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_296825_1.JPG",
@@ -52973,7 +53369,11 @@ const PRODUCTS =
         "id": 11006,
         "ref": "222151",
         "brand": "COOLER MASTER",
+<<<<<<< HEAD
         "title_orig": "Fuente COOLER MASTER MWE GOLD 850 V2 850W 80 PLUS GOLD C CABO Negro MPE 8501 ACAAG U2",
+=======
+        "title_orig": "FONTE COOLER MASTER MWE GOLD 850 V2 850W 80 PLUS GOLD C CABO Negro MPE 8501 ACAAG U2",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Fuente COOLER MASTER MWE GOLD 850 V2 850W 80 PLUS GOLD C CABO Negro MPE 8501 ACAAG U2",
         "category": "Fuentes de Poder",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_222151_1.JPG",
@@ -53313,7 +53713,11 @@ const PRODUCTS =
         "id": 11023,
         "ref": "184999",
         "brand": "COOLER MASTER",
+<<<<<<< HEAD
         "title_orig": "Fuente COOLER MASTER G800 800W 80 PLUS GOLD C CABO Negro MPW 8001 ACAAG U2",
+=======
+        "title_orig": "FONTE COOLER MASTER G800 800W 80 PLUS GOLD C CABO Negro MPW 8001 ACAAG U2",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Fuente COOLER MASTER G800 800W 80 PLUS GOLD C CABO Negro MPW 8001 ACAAG U2",
         "category": "Fuentes de Poder",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_184999_1.JPG",
@@ -53453,7 +53857,11 @@ const PRODUCTS =
         "id": 11030,
         "ref": "53524",
         "brand": "GAMEMAX",
+<<<<<<< HEAD
         "title_orig": "Fuente 800W GAMEMAX GM 800 80 BRONZE SEMI MOD Negro 53524",
+=======
+        "title_orig": "FONTE 800W GAMEMAX GM 800 80 BRONZE SEMI MOD Negro 53524",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Fuente 800W GAMEMAX GM 800 80 BRONZE SEMI MOD Negro 53524",
         "category": "Fuentes de Poder",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_53524_1.JPG",
@@ -54073,7 +54481,11 @@ const PRODUCTS =
         "id": 11062,
         "ref": "107715",
         "brand": "REDRAGON",
+<<<<<<< HEAD
         "title_orig": "FONE USB REDRAGON PANDORA 2 H350RGB 1 Negro H350RGB 1 107715",
+=======
+        "title_orig": "FONE USB REDRAGON PANDORA 2 H350RGB 1 Negro H350RGB 1  107715",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "FONE USB REDRAGON PANDORA 2 H350RGB 1 Negro H350RGB 1 107715",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_107715_1.JPG",
@@ -54433,7 +54845,11 @@ const PRODUCTS =
         "id": 11080,
         "ref": "114880",
         "brand": "LOGITECH",
+<<<<<<< HEAD
         "title_orig": "WEBCAM LOGITECH C920E BUSINESS Negro 960 001360 114880",
+=======
+        "title_orig": "WEBCAM LOGITECH C920E BUSINESS Negro 960 001360  114880",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "WEBCAM LOGITECH C920E BUSINESS Negro 960 001360 114880",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_114880_1.JPG",
@@ -55193,7 +55609,11 @@ const PRODUCTS =
         "id": 11119,
         "ref": "250927",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "TECLADO FTX FTXK22 PORTUGUES USB Blanco 250927",
+=======
+        "title_orig": "TECLADO FTX FTXK22 PORTUGUES USB Blanco  250927",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "TECLADO FTX FTXK22 PORTUGUES USB Blanco 250927",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_250927_1.JPG",
@@ -55253,7 +55673,11 @@ const PRODUCTS =
         "id": 11122,
         "ref": "251232",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "TECLADO FTXB105 ESPANHOL WIRELESS BT Blanco 251232",
+=======
+        "title_orig": "TECLADO FTXB105 ESPANHOL WIRELESS BT Blanco  251232",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "TECLADO FTXB105 ESPANHOL WIRELESS BT Blanco 251232",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_251232_1.JPG",
@@ -56573,7 +56997,11 @@ const PRODUCTS =
         "id": 11190,
         "ref": "379950",
         "brand": "REDRAGON",
+<<<<<<< HEAD
         "title_orig": "MICROFONE REDRAGON GM212 ADNE Negro 379950",
+=======
+        "title_orig": "MICROFONE REDRAGON GM212 ADNE Negro  379950",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MICROFONE REDRAGON GM212 ADNE Negro 379950",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_379950_1.JPG",
@@ -56593,7 +57021,11 @@ const PRODUCTS =
         "id": 11191,
         "ref": "379366",
         "brand": "REDRAGON",
+<<<<<<< HEAD
         "title_orig": "MICROFONE REDRAGON GM301 FENRIS RGB Negro 379366",
+=======
+        "title_orig": "MICROFONE REDRAGON GM301 FENRIS RGB Negro  379366",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MICROFONE REDRAGON GM301 FENRIS RGB Negro 379366",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_379366_1.JPG",
@@ -56833,7 +57265,11 @@ const PRODUCTS =
         "id": 11205,
         "ref": "63097",
         "brand": "RAZER",
+<<<<<<< HEAD
         "title_orig": "MICROFONE RAZER SEIREN X RZ19 02290100 R3U1 Negro 63097",
+=======
+        "title_orig": "MICROFONE RAZER SEIREN X RZ19 02290100 R3U1 Negro  63097",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MICROFONE RAZER SEIREN X RZ19 02290100 R3U1 Negro 63097",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_63097_1.JPG",
@@ -56853,7 +57289,11 @@ const PRODUCTS =
         "id": 11206,
         "ref": "219954",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MICROFONE SEM FIO ULANZI J12 ANDROID TYPE C DOIS CANAIS Negro 219954",
+=======
+        "title_orig": "MICROFONE SEM FIO ULANZI J12 ANDROID TYPE C DOIS CANAIS Negro  219954",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MICROFONE SEM FIO ULANZI J12 ANDROID TYPE C DOIS CANAIS Negro 219954",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_219954_1.JPG",
@@ -57233,7 +57673,11 @@ const PRODUCTS =
         "id": 11226,
         "ref": "390763",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "CADEIRA DE ESCRITORIO SATE A GC8610 Negro G 390763",
+=======
+        "title_orig": "CADEIRA DE ESCRITORIO SATE A GC8610 Negro G  390763",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "CADEIRA DE ESCRITORIO SATE A GC8610 Negro G 390763",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_390763_1.JPG",
@@ -57313,7 +57757,11 @@ const PRODUCTS =
         "id": 11230,
         "ref": "407571",
         "brand": "LG",
+<<<<<<< HEAD
         "title_orig": "CADEIRA GAMER UP GAMER LT SERIES BKGY01 PU ALGODAO BASE EM NYLON RECLINAVEL ATE 100KG Negro E Gris 407571",
+=======
+        "title_orig": "CADEIRA GAMER UP GAMER LT SERIES BKGY01 PU ALGODAO BASE EM NYLON RECLINAVEL ATE 100KG Negro E Gris  407571",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "CADEIRA GAMER UP GAMER LT SERIES BKGY01 PU ALGODAO BASE EM NYLON RECLINAVEL ATE 100KG Negro E Gris 407571",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_407571_1.JPG",
@@ -57373,7 +57821,11 @@ const PRODUCTS =
         "id": 11233,
         "ref": "407582",
         "brand": "LG",
+<<<<<<< HEAD
         "title_orig": "CADEIRA GAMER UP GAMER LT SERIES PKWT01 PU ALGODAO BASE EM NYLON RECLINAVEL ATE 100KG ROSA E Blanco 407582",
+=======
+        "title_orig": "CADEIRA GAMER UP GAMER LT SERIES PKWT01 PU ALGODAO BASE EM NYLON RECLINAVEL ATE 100KG ROSA E Blanco  407582",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "CADEIRA GAMER UP GAMER LT SERIES PKWT01 PU ALGODAO BASE EM NYLON RECLINAVEL ATE 100KG ROSA E Blanco 407582",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_407582_1.JPG",
@@ -57433,7 +57885,11 @@ const PRODUCTS =
         "id": 11236,
         "ref": "407527",
         "brand": "LG",
+<<<<<<< HEAD
         "title_orig": "CADEIRA GAMER UP GAMER D2534BKBL PVC ALGODAO BASE EM METAL RECLINAVEL ATE 120KG Negro E Azul 407527",
+=======
+        "title_orig": "CADEIRA GAMER UP GAMER D2534BKBL PVC ALGODAO BASE EM METAL RECLINAVEL ATE 120KG Negro E Azul  407527",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "CADEIRA GAMER UP GAMER D2534BKBL PVC ALGODAO BASE EM METAL RECLINAVEL ATE 120KG Negro E Azul 407527",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_407527_1.JPG",
@@ -57473,7 +57929,11 @@ const PRODUCTS =
         "id": 11238,
         "ref": "407549",
         "brand": "LG",
+<<<<<<< HEAD
         "title_orig": "CADEIRA GAMER UP GAMER D2534PKWT PVC ALGODAO BASE EM METAL RECLINAVEL ATE 120KG ROSA E Blanco 407549",
+=======
+        "title_orig": "CADEIRA GAMER UP GAMER D2534PKWT PVC ALGODAO BASE EM METAL RECLINAVEL ATE 120KG ROSA E Blanco  407549",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "CADEIRA GAMER UP GAMER D2534PKWT PVC ALGODAO BASE EM METAL RECLINAVEL ATE 120KG ROSA E Blanco 407549",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_407549_1.JPG",
@@ -57513,7 +57973,11 @@ const PRODUCTS =
         "id": 11240,
         "ref": "407560",
         "brand": "LG",
+<<<<<<< HEAD
         "title_orig": "CADEIRA GAMER UP GAMER LT SERIES BKBL01 PU ALGODAO BASE EM NYLON RECLINAVEL ATE 100KG Negro E Azul 407560",
+=======
+        "title_orig": "CADEIRA GAMER UP GAMER LT SERIES BKBL01 PU ALGODAO BASE EM NYLON RECLINAVEL ATE 100KG Negro E Azul  407560",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "CADEIRA GAMER UP GAMER LT SERIES BKBL01 PU ALGODAO BASE EM NYLON RECLINAVEL ATE 100KG Negro E Azul 407560",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_407560_1.JPG",
@@ -57593,7 +58057,11 @@ const PRODUCTS =
         "id": 11244,
         "ref": "247933",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "CADEIRA DE ESCRITORIO OFICINA LEVEL LVS 004 Negro 247933",
+=======
+        "title_orig": "CADEIRA DE ESCRITORIO OFICINA LEVEL LVS 004 Negro  247933",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "CADEIRA DE ESCRITORIO OFICINA LEVEL LVS 004 Negro 247933",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_247933_1.JPG",
@@ -57833,7 +58301,11 @@ const PRODUCTS =
         "id": 11259,
         "ref": "62478",
         "brand": "INTEL",
+<<<<<<< HEAD
         "title_orig": "WATER COOLER MTEK MWC 240 LIQUID ARGB Negro 240MM INTEL 115X 1200 1700 2011 V3 2066 AMD AM3 AM4 AM5 FM2 62478",
+=======
+        "title_orig": "WATER COOLER MTEK MWC 240 LIQUID ARGB Negro 240MM INTEL 115X 1200 1700 2011 V3 2066 AMD AM3 AM4 AM5 FM2   62478",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "WATER COOLER MTEK MWC 240 LIQUID ARGB Negro 240MM INTEL 115X 1200 1700 2011 V3 2066 AMD AM3 AM4 AM5 FM2 62478",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_62478_1.JPG",
@@ -58033,7 +58505,11 @@ const PRODUCTS =
         "id": 11269,
         "ref": "267777",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MOCHILA NB SATE A KP71 15 4 Negro 267777",
+=======
+        "title_orig": "MOCHILA NB SATE A KP71 15 4 Negro  267777",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MOCHILA NB SATE A KP71 15 4 Negro 267777",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_267777_1.JPG",
@@ -58153,7 +58629,11 @@ const PRODUCTS =
         "id": 11275,
         "ref": "357408",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MOCHILA SATE KINGSONS A K3037EW Rojo 357408",
+=======
+        "title_orig": "MOCHILA SATE KINGSONS A K3037EW Rojo  357408",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MOCHILA SATE KINGSONS A K3037EW Rojo 357408",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_357408_1.JPG",
@@ -58553,7 +59033,11 @@ const PRODUCTS =
         "id": 11297,
         "ref": "50701",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MOCHILA KOLKE KVM 339 C CADEADO Gris CLARO PRE 50701",
+=======
+        "title_orig": "MOCHILA KOLKE KVM 339 C CADEADO Gris CLARO PRE  50701",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MOCHILA KOLKE KVM 339 C CADEADO Gris CLARO PRE 50701",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_50701_1.JPG",
@@ -58773,7 +59257,11 @@ const PRODUCTS =
         "id": 11309,
         "ref": "231342",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MESA GAMER SATE GT 500Z RGB 140X160CM Negro 231342",
+=======
+        "title_orig": "MESA GAMER SATE GT 500Z RGB 140X160CM Negro  231342",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MESA GAMER SATE GT 500Z RGB 140X160CM Negro 231342",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_231342_1.JPG",
@@ -59513,7 +60001,11 @@ const PRODUCTS =
         "id": 11349,
         "ref": "288209",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "AR CONDICIONADO PORTATIL TPK SMART 12000BTU QUENTE FRIO 220V 60Hz TPK12K PTB WIND Blanco",
+=======
+        "title_orig": "AR CONDICIONADO PORTATIL TPK SMART 12000BTU QUENTE FRIO 220V 60HZ TPK12K PTB WIND Blanco",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "AR CONDICIONADO PORTATIL TPK SMART 12000BTU QUENTE FRIO 220V 60Hz TPK12K PTB WIND Blanco",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_288209_1.JPG",
@@ -60133,7 +60625,11 @@ const PRODUCTS =
         "id": 11382,
         "ref": "361470",
         "brand": "XIAOMI",
+<<<<<<< HEAD
         "title_orig": "TABLET XIAOMI REDMI PAD 2 8GB RAM 256GB Pantalla 11 WIFI Verde MENTA 361470",
+=======
+        "title_orig": "TABLET XIAOMI REDMI PAD 2 8GB RAM 256GB TELA 11 WIFI Verde MENTA  361470",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "TABLET XIAOMI REDMI PAD 2 8GB RAM 256GB Pantalla 11 WIFI Verde MENTA 361470",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_361470_1.JPG",
@@ -60173,7 +60669,11 @@ const PRODUCTS =
         "id": 11384,
         "ref": "365811",
         "brand": "XIAOMI",
+<<<<<<< HEAD
         "title_orig": "TABLET XIAOMI POCO M1 8 256GB 12 1 Gris WIFI 365811",
+=======
+        "title_orig": "TABLET XIAOMI POCO M1 8 256GB 12 1 Gris WIFI  365811",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "TABLET XIAOMI POCO M1 8 256GB 12 1 Gris WIFI 365811",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_365811_1.JPG",
@@ -60293,7 +60793,11 @@ const PRODUCTS =
         "id": 11390,
         "ref": "367802",
         "brand": "SAMSUNG",
+<<<<<<< HEAD
         "title_orig": "TABLET SAMSUNG S10 FE SM X520 10 9 128 8GB Gris PEN 367802",
+=======
+        "title_orig": "TABLET SAMSUNG S10 FE SM X520 10 9 128 8GB Gris PEN  367802",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "TABLET SAMSUNG S10 FE SM X520 10 9 128 8GB Gris PEN 367802",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_367802_1.JPG",
@@ -60493,7 +60997,11 @@ const PRODUCTS =
         "id": 11401,
         "ref": "383700",
         "brand": "SAMSUNG",
+<<<<<<< HEAD
         "title_orig": "TABLET SAMSUNG GALAXY TAB A11 X133 4GB 64GB 8 7 SM X133 Gris 383700",
+=======
+        "title_orig": "TABLET SAMSUNG GALAXY TAB A11 X133 4GB 64GB 8 7 SM X133 Gris  383700",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "TABLET SAMSUNG GALAXY TAB A11 X133 4GB 64GB 8 7 SM X133 Gris 383700",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_383700_1.JPG",
@@ -60513,7 +61021,11 @@ const PRODUCTS =
         "id": 11402,
         "ref": "392888",
         "brand": "SAMSUNG",
+<<<<<<< HEAD
         "title_orig": "TABLET SAMSUNG GALAXY TAB S10 LITE SM X400 128 6GB WIFI Gris CAPA 392888",
+=======
+        "title_orig": "TABLET SAMSUNG GALAXY TAB S10 LITE SM X400 128 6GB WIFI Gris CAPA  392888",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "TABLET SAMSUNG GALAXY TAB S10 LITE SM X400 128 6GB WIFI Gris CAPA 392888",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_392888_1.JPG",
@@ -60573,7 +61085,11 @@ const PRODUCTS =
         "id": 11405,
         "ref": "239126",
         "brand": "XIAOMI",
+<<<<<<< HEAD
         "title_orig": "TABLET XIAOMI REDMI PAD SE 4GB RAM 128GB Pantalla DE 11 WI FI Gris GRAFITE",
+=======
+        "title_orig": "TABLET XIAOMI REDMI PAD SE 4GB RAM 128GB TELA DE 11 WI FI Gris GRAFITE",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "TABLET XIAOMI REDMI PAD SE 4GB RAM 128GB Pantalla DE 11 WI FI Gris GRAFITE",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_239126_1.JPG",
@@ -60613,7 +61129,11 @@ const PRODUCTS =
         "id": 11407,
         "ref": "271313",
         "brand": "LENOVO",
+<<<<<<< HEAD
         "title_orig": "TABLET LENOVO TAB P11 TB350XU Pantalla 11 5 120Hz 6GB RAM 128GB STORM Gris 271313",
+=======
+        "title_orig": "TABLET LENOVO TAB P11 TB350XU TELA 11 5 120HZ 6GB RAM 128GB STORM Gris  271313",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "TABLET LENOVO TAB P11 TB350XU Pantalla 11 5 120Hz 6GB RAM 128GB STORM Gris 271313",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_271313_1.JPG",
@@ -61073,7 +61593,11 @@ const PRODUCTS =
         "id": 11432,
         "ref": "312375",
         "brand": "APPLE",
+<<<<<<< HEAD
         "title_orig": "APPLE CABO LIGHTNING A USB MXLY2ZM A 1M Blanco 312375",
+=======
+        "title_orig": "APPLE CABO LIGHTNING A USB MXLY2ZM A 1M Blanco  312375",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "APPLE CABO LIGHTNING A USB MXLY2ZM A 1M Blanco 312375",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_312375_1.JPG",
@@ -61313,7 +61837,11 @@ const PRODUCTS =
         "id": 11444,
         "ref": "143816",
         "brand": "SONY",
+<<<<<<< HEAD
         "title_orig": "CONTROLE SONY DUALSHOCK 4 PS4 USA ORIGINAL SEM FIO RECARREGAVEL JET Negro CUH ZCT2U 143816",
+=======
+        "title_orig": "CONTROLE SONY DUALSHOCK 4 PS4 USA ORIGINAL SEM FIO RECARREGAVEL JET Negro CUH ZCT2U  143816",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "CONTROLE SONY DUALSHOCK 4 PS4 USA ORIGINAL SEM FIO RECARREGAVEL JET Negro CUH ZCT2U 143816",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_143816_1.JPG",
@@ -61333,7 +61861,11 @@ const PRODUCTS =
         "id": 11445,
         "ref": "338610",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "CONTROLE GAMESIR NOVA LITE T4N LITE Gris 338610",
+=======
+        "title_orig": "CONTROLE GAMESIR NOVA LITE T4N LITE Gris  338610",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "CONTROLE GAMESIR NOVA LITE T4N LITE Gris 338610",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_338610_1.JPG",
@@ -61393,7 +61925,11 @@ const PRODUCTS =
         "id": 11448,
         "ref": "220060",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MICROFONE SEM FIO ULANZI J12 IPHONE LIGHTNING DOIS CANAIS Negro 220060",
+=======
+        "title_orig": "MICROFONE SEM FIO ULANZI J12 IPHONE LIGHTNING DOIS CANAIS Negro  220060",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MICROFONE SEM FIO ULANZI J12 IPHONE LIGHTNING DOIS CANAIS Negro 220060",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_220060_1.JPG",
@@ -61613,7 +62149,11 @@ const PRODUCTS =
         "id": 11459,
         "ref": "351861",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MICROFONE SATE A MK102 LIGHTNING USB C Negro 351861",
+=======
+        "title_orig": "MICROFONE SATE A MK102 LIGHTNING USB C Negro  351861",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MICROFONE SATE A MK102 LIGHTNING USB C Negro 351861",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_351861_1.JPG",
@@ -61633,7 +62173,11 @@ const PRODUCTS =
         "id": 11460,
         "ref": "347844",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MICROFONE XION XI MICW WIRELESS Negro 347844",
+=======
+        "title_orig": "MICROFONE XION XI MICW WIRELESS Negro  347844",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MICROFONE XION XI MICW WIRELESS Negro 347844",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_347844_1.JPG",
@@ -61673,7 +62217,11 @@ const PRODUCTS =
         "id": 11462,
         "ref": "256292",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MICROFONE FIFINE LAPELLA K031B WIRELESS USB Negro 256292",
+=======
+        "title_orig": "MICROFONE FIFINE LAPELLA K031B WIRELESS USB Negro  256292",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MICROFONE FIFINE LAPELLA K031B WIRELESS USB Negro 256292",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_256292_1.JPG",
@@ -62613,7 +63161,11 @@ const PRODUCTS =
         "id": 11519,
         "ref": "351872",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MICROFONE SATE A MK202 LIGHTNING USB C Negro 351872",
+=======
+        "title_orig": "MICROFONE SATE A MK202 LIGHTNING USB C Negro  351872",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MICROFONE SATE A MK202 LIGHTNING USB C Negro 351872",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_351872_1.JPG",
@@ -64233,7 +64785,11 @@ const PRODUCTS =
         "id": 11608,
         "ref": "207514",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "BARBEADOR ELETRICO QUANTA QTCBA9200 BIVOLT Negro 207514",
+=======
+        "title_orig": "BARBEADOR ELETRICO QUANTA QTCBA9200 BIVOLT Negro  207514",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "BARBEADOR ELETRICO QUANTA QTCBA9200 BIVOLT Negro 207514",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_207514_1.JPG",
@@ -64833,7 +65389,11 @@ const PRODUCTS =
         "id": 11640,
         "ref": "207424",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "RECEPTOR R90 PLUS SMART TV 64GB 512GB 8K Negro 207424",
+=======
+        "title_orig": "RECEPTOR R90 PLUS SMART TV 64GB 512GB 8K Negro  207424",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "RECEPTOR R90 PLUS SMART TV 64GB 512GB 8K Negro 207424",
         "category": "Televisores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_207424_1.JPG",
@@ -64913,7 +65473,11 @@ const PRODUCTS =
         "id": 11644,
         "ref": "271390",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "SANDUICHEIRA SATE SANDWICH MAKER A KJ22001 220V Negro Gris 50 60Hz",
+=======
+        "title_orig": "SANDUICHEIRA SATE SANDWICH MAKER A KJ22001 220V Negro Gris 50 60HZ",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "SANDUICHEIRA SATE SANDWICH MAKER A KJ22001 220V Negro Gris 50 60Hz",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_271390_1.JPG",
@@ -64953,7 +65517,11 @@ const PRODUCTS =
         "id": 11646,
         "ref": "334515",
         "brand": "GALAX",
+<<<<<<< HEAD
         "title_orig": "Tarjeta de Video GALAX GEFORCE RTX5080 GALAX HOF GAMING EDITION 16GB GDDR7 256BITS 1X HDMI 3X DISPLAYPORT 58NZN6MDCXHO Negro",
+=======
+        "title_orig": "PLACA DE VIDEO GALAX GEFORCE RTX5080 GALAX HOF GAMING EDITION 16GB GDDR7 256BITS 1X HDMI 3X DISPLAYPORT 58NZN6MDCXHO Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Tarjeta de Video GALAX GEFORCE RTX5080 GALAX HOF GAMING EDITION 16GB GDDR7 256BITS 1X HDMI 3X DISPLAYPORT 58NZN6MDCXHO Negro",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_334515_1.JPG",
@@ -65093,7 +65661,11 @@ const PRODUCTS =
         "id": 11653,
         "ref": "341489",
         "brand": "GIGABYTE",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK GIGABYTE AERO X16 EG61H AMD RYZEN AL 7 350 2 00GHZ 5 00GHZ 32GB RAM 1TB SSD Pantalla 16 2 5K WQXGA 2560 X 1600 165Hz IPS GEFORCE RTX5070 8GB WINDOWS 11 HOME COPILOT PC ETHERNET RJ45 INGLES Gris",
+=======
+        "title_orig": "NOTEBOOK GIGABYTE AERO X16 EG61H AMD RYZEN AL 7 350 2 00GHZ 5 00GHZ 32GB RAM 1TB SSD TELA 16 2 5K WQXGA 2560 X 1600 165HZ IPS GEFORCE RTX5070 8GB WINDOWS 11 HOME COPILOT PC ETHERNET RJ45 INGLES Gris",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK GIGABYTE AERO X16 EG61H AMD RYZEN AL 7 350 2 00GHZ 5 00GHZ 32GB RAM 1TB SSD Pantalla 16 2 5K WQXGA 2560 X 1600 165Hz IPS GEFORCE RTX5070 8GB WINDOWS 11 HOME COPILOT PC ETHERNET RJ45 INGLES Gris",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_341489_1.JPG",
@@ -65433,7 +66005,11 @@ const PRODUCTS =
         "id": 11670,
         "ref": "302778",
         "brand": "APPLE",
+<<<<<<< HEAD
         "title_orig": "APPLE MAC MINI M4 16 256GB MU9D3LL A Plata MU9D3LL A 2024 302778",
+=======
+        "title_orig": "APPLE MAC MINI M4 16 256GB MU9D3LL A Plata MU9D3LL A 2024  302778",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "APPLE MAC MINI M4 16 256GB MU9D3LL A Plata MU9D3LL A 2024 302778",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_302778_1.JPG",
@@ -65833,7 +66409,11 @@ const PRODUCTS =
         "id": 11691,
         "ref": "289186",
         "brand": "UP GAMER",
+<<<<<<< HEAD
         "title_orig": "MONITOR UP GAMER G SERIES ESSENTIALS 24 FULL HD Pantalla Plana 75Hz 5Ms HDMI VGA UPG24VA75 Negro",
+=======
+        "title_orig": "MONITOR UP GAMER G SERIES ESSENTIALS 24 FULL HD Pantalla Plana 75HZ 5MS HDMI VGA UPG24VA75 Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR UP GAMER G SERIES ESSENTIALS 24 FULL HD Pantalla Plana 75Hz 5Ms HDMI VGA UPG24VA75 Negro",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_289186_1.JPG",
@@ -65893,7 +66473,11 @@ const PRODUCTS =
         "id": 11694,
         "ref": "83415",
         "brand": "STAR",
+<<<<<<< HEAD
         "title_orig": "LEITOR 3NSTAR SC050 1D LASER USB C BASE Negro 83415",
+=======
+        "title_orig": "LEITOR 3NSTAR SC050 1D LASER USB C BASE Negro  83415",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "LEITOR 3NSTAR SC050 1D LASER USB C BASE Negro 83415",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_83415_1.JPG",
@@ -66013,7 +66597,11 @@ const PRODUCTS =
         "id": 11700,
         "ref": "254415",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "PARAFUSADEIRA SATE BATERIA A KS22 KIT 22PC Negro 254415",
+=======
+        "title_orig": "PARAFUSADEIRA SATE BATERIA A KS22 KIT 22PC Negro  254415",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "PARAFUSADEIRA SATE BATERIA A KS22 KIT 22PC Negro 254415",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_254415_1.JPG",
@@ -66273,7 +66861,11 @@ const PRODUCTS =
         "id": 11714,
         "ref": "270750",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "LANTERNA SMILING SHARK DY 3039 Negro Rojo CABO USB C 270750",
+=======
+        "title_orig": "LANTERNA SMILING SHARK DY 3039 Negro Rojo CABO USB C  270750",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "LANTERNA SMILING SHARK DY 3039 Negro Rojo CABO USB C 270750",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_270750_1.JPG",
@@ -66293,7 +66885,11 @@ const PRODUCTS =
         "id": 11715,
         "ref": "280054",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "FRITADEIRA ELET QUANTA QTAF401 127V 3 5L Negro 280054",
+=======
+        "title_orig": "FRITADEIRA ELET QUANTA QTAF401 127V 3 5L Negro  280054",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "FRITADEIRA ELET QUANTA QTAF401 127V 3 5L Negro 280054",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_280054_1.JPG",
@@ -66573,7 +67169,11 @@ const PRODUCTS =
         "id": 11730,
         "ref": "293080",
         "brand": "XIAOMI",
+<<<<<<< HEAD
         "title_orig": "MONITOR XIAOMI G24I P24FCA RGGL 24 FULL HD 1920X1080 180Hz 1Ms IPS 1XHDMI 1 4 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC Negro",
+=======
+        "title_orig": "MONITOR XIAOMI G24I P24FCA RGGL 24 FULL HD 1920X1080 180HZ 1MS IPS 1XHDMI 1 4 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR XIAOMI G24I P24FCA RGGL 24 FULL HD 1920X1080 180Hz 1Ms IPS 1XHDMI 1 4 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_293080_1.JPG",
@@ -66593,7 +67193,11 @@ const PRODUCTS =
         "id": 11731,
         "ref": "276687",
         "brand": "XIAOMI",
+<<<<<<< HEAD
         "title_orig": "MONITOR XIAOMI A24I P24FBA RAGL 24 FULL HD 1920X1080 100Hz 6Ms IPS 1XHDMI 1 4 1XDISPLAYPORT 1 4 Negro",
+=======
+        "title_orig": "MONITOR XIAOMI A24I P24FBA RAGL 24 FULL HD 1920X1080 100HZ 6MS IPS 1XHDMI 1 4 1XDISPLAYPORT 1 4 Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR XIAOMI A24I P24FBA RAGL 24 FULL HD 1920X1080 100Hz 6Ms IPS 1XHDMI 1 4 1XDISPLAYPORT 1 4 Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_276687_1.JPG",
@@ -66633,7 +67237,11 @@ const PRODUCTS =
         "id": 11733,
         "ref": "273932",
         "brand": "AMD",
+<<<<<<< HEAD
         "title_orig": "MONITOR VIEWSONIC VX2418C 24 CURVO FULL HD 1920X1080 180Hz 1Ms IPS 2XHDMI 1 4 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM SPEAKER 2WX2 Negro",
+=======
+        "title_orig": "MONITOR VIEWSONIC VX2418C 24 CURVO FULL HD 1920X1080 180HZ 1MS IPS 2XHDMI 1 4 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM SPEAKER 2WX2 Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR VIEWSONIC VX2418C 24 CURVO FULL HD 1920X1080 180Hz 1Ms IPS 2XHDMI 1 4 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM SPEAKER 2WX2 Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_273932_1.JPG",
@@ -66653,7 +67261,11 @@ const PRODUCTS =
         "id": 11734,
         "ref": "277330",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MONITOR HYE HY24VIEW165 CURVO 24 FULL HD 1920 X 1080 165Hz 5Ms 1XHDMI 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO Negro 277330",
+=======
+        "title_orig": "MONITOR HYE HY24VIEW165 CURVO 24 FULL HD 1920 X 1080 165HZ 5MS 1XHDMI 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO Negro  277330",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR HYE HY24VIEW165 CURVO 24 FULL HD 1920 X 1080 165Hz 5Ms 1XHDMI 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO Negro 277330",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_277330_1.JPG",
@@ -66693,7 +67305,11 @@ const PRODUCTS =
         "id": 11736,
         "ref": "293181",
         "brand": "ASUS",
+<<<<<<< HEAD
         "title_orig": "MONITOR ASUS TUF GAMING ASUS VG249Q3A 23 8 FULL HD 1920X1080 180Hz 1Ms IPS 2XHDMI 2 0 1XDISPLAYPORT 1 2 SPEAKER 2WX2 AMD FREESYNC PREMIUM RGB Negro",
+=======
+        "title_orig": "MONITOR ASUS TUF GAMING ASUS VG249Q3A 23 8 FULL HD 1920X1080 180HZ 1MS IPS 2XHDMI 2 0 1XDISPLAYPORT 1 2 SPEAKER 2WX2 AMD FREESYNC PREMIUM RGB Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR ASUS TUF GAMING ASUS VG249Q3A 23 8 FULL HD 1920X1080 180Hz 1Ms IPS 2XHDMI 2 0 1XDISPLAYPORT 1 2 SPEAKER 2WX2 AMD FREESYNC PREMIUM RGB Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_293181_1.JPG",
@@ -66713,7 +67329,11 @@ const PRODUCTS =
         "id": 11737,
         "ref": "267384",
         "brand": "AMD",
+<<<<<<< HEAD
         "title_orig": "MONITOR MTEK M32SFV240C CURVO 32 FULL HD 1920 X 1080 1Ms 240Hz 2XHDMI 1 4 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO AMD FREESYNC NVIDIA G SYNC SPEAKER 2WX2 Negro",
+=======
+        "title_orig": "MONITOR MTEK M32SFV240C CURVO 32 FULL HD 1920 X 1080 1MS 240HZ 2XHDMI 1 4 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO AMD FREESYNC NVIDIA G SYNC SPEAKER 2WX2 Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR MTEK M32SFV240C CURVO 32 FULL HD 1920 X 1080 1Ms 240Hz 2XHDMI 1 4 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO AMD FREESYNC NVIDIA G SYNC SPEAKER 2WX2 Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_267384_1.JPG",
@@ -66733,7 +67353,11 @@ const PRODUCTS =
         "id": 11738,
         "ref": "273943",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MON 24 VIEWSONIC XG2431 FHD 240Hz IPS Negro",
+=======
+        "title_orig": "MON 24 VIEWSONIC XG2431 FHD 240HZ IPS Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 24 VIEWSONIC XG2431 FHD 240Hz IPS Negro",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_273943_1.JPG",
@@ -66753,7 +67377,11 @@ const PRODUCTS =
         "id": 11739,
         "ref": "112474",
         "brand": "SAMSUNG",
+<<<<<<< HEAD
         "title_orig": "MONITOR SAMSUNG LC24RG50FQLXZP CURVO 24 FULL HD 1920 X 1080 144Hz 4Ms 2XHDMI 1 4 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM Negro",
+=======
+        "title_orig": "MONITOR SAMSUNG LC24RG50FQLXZP CURVO 24 FULL HD 1920 X 1080 144HZ 4MS 2XHDMI 1 4 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR SAMSUNG LC24RG50FQLXZP CURVO 24 FULL HD 1920 X 1080 144Hz 4Ms 2XHDMI 1 4 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_112474_1.JPG",
@@ -66773,7 +67401,11 @@ const PRODUCTS =
         "id": 11740,
         "ref": "268320",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MON 24 VIEWSONIC VX2416 FHD IPS 100Hz Negro",
+=======
+        "title_orig": "MON 24 VIEWSONIC VX2416 FHD IPS 100HZ Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 24 VIEWSONIC VX2416 FHD IPS 100Hz Negro",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_268320_1.JPG",
@@ -66813,7 +67445,11 @@ const PRODUCTS =
         "id": 11742,
         "ref": "217873",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MONITOR NAPOLI NPL 24RS400 PRO FHD 24 FULL HD 1920X1080 75Hz 1Ms 1XHDMI 1 4 1XVGA D SUB Negro",
+=======
+        "title_orig": "MONITOR NAPOLI NPL 24RS400 PRO FHD 24 FULL HD 1920X1080 75HZ 1MS 1XHDMI 1 4 1XVGA D SUB Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR NAPOLI NPL 24RS400 PRO FHD 24 FULL HD 1920X1080 75Hz 1Ms 1XHDMI 1 4 1XVGA D SUB Negro",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_217873_1.JPG",
@@ -66833,7 +67469,11 @@ const PRODUCTS =
         "id": 11743,
         "ref": "257160",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MONITOR XION XI MNT24 24 FULL HD 1920 X 1080 7Ms 75Hz 1XHDMI 1XVGA D SUB Negro",
+=======
+        "title_orig": "MONITOR XION XI MNT24 24 FULL HD 1920 X 1080 7MS 75HZ 1XHDMI 1XVGA D SUB Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR XION XI MNT24 24 FULL HD 1920 X 1080 7Ms 75Hz 1XHDMI 1XVGA D SUB Negro",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_257160_1.JPG",
@@ -66853,7 +67493,11 @@ const PRODUCTS =
         "id": 11744,
         "ref": "210620",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MON 24 VIEWSONIC VX2418 P MHD FHD 165Hz Negro 210620",
+=======
+        "title_orig": "MON 24 VIEWSONIC VX2418 P MHD FHD 165HZ Negro  210620",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 24 VIEWSONIC VX2418 P MHD FHD 165Hz Negro 210620",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_210620_1.JPG",
@@ -66873,7 +67517,11 @@ const PRODUCTS =
         "id": 11745,
         "ref": "233131",
         "brand": "SAMSUNG",
+<<<<<<< HEAD
         "title_orig": "MONITOR SAMSUNG LC24F390FHNXZA CURVO 24 FULL HD 1920 X 1080 60Hz 4Ms 1XHDMI 2 0 1XVGA D SUB 1XCONECTOR DE AUDIO Negro",
+=======
+        "title_orig": "MONITOR SAMSUNG LC24F390FHNXZA CURVO 24 FULL HD 1920 X 1080 60HZ 4MS 1XHDMI 2 0 1XVGA D SUB 1XCONECTOR DE AUDIO Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR SAMSUNG LC24F390FHNXZA CURVO 24 FULL HD 1920 X 1080 60Hz 4Ms 1XHDMI 2 0 1XVGA D SUB 1XCONECTOR DE AUDIO Negro",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_233131_1.JPG",
@@ -66893,7 +67541,11 @@ const PRODUCTS =
         "id": 11746,
         "ref": "121092",
         "brand": "AMD",
+<<<<<<< HEAD
         "title_orig": "MONITOR VIEWSONIC VA2447 MHU 24 FULL HD 1920X1080 60Hz 5Ms 1XUSB C 1XHDMI 1 4 1XVGA D SUB 1XCONECTOR DE AUDIO AMD FREESYNC SPEAKER 2WX2 Negro",
+=======
+        "title_orig": "MONITOR VIEWSONIC VA2447 MHU 24 FULL HD 1920X1080 60HZ 5MS 1XUSB C 1XHDMI 1 4 1XVGA D SUB 1XCONECTOR DE AUDIO AMD FREESYNC SPEAKER 2WX2 Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR VIEWSONIC VA2447 MHU 24 FULL HD 1920X1080 60Hz 5Ms 1XUSB C 1XHDMI 1 4 1XVGA D SUB 1XCONECTOR DE AUDIO AMD FREESYNC SPEAKER 2WX2 Negro",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_121092_1.JPG",
@@ -66933,7 +67585,11 @@ const PRODUCTS =
         "id": 11749,
         "ref": "306277",
         "brand": "DELL",
+<<<<<<< HEAD
         "title_orig": "MONITOR DELL ALIENWARE AW2523HF 25 FULL HD 1920 X 1080 360Hz 1Ms IPS 2XHDMI 2 0 1XDISPLAYPORT 1 4 3X USB A 3 2 1XUSB B 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM AJUSTE ALTURA PIVO ROTACAO Negro",
+=======
+        "title_orig": "MONITOR DELL ALIENWARE AW2523HF 25 FULL HD 1920 X 1080 360HZ 1MS IPS 2XHDMI 2 0 1XDISPLAYPORT 1 4 3X USB A 3 2 1XUSB B 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM AJUSTE ALTURA PIVO ROTACAO Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR DELL ALIENWARE AW2523HF 25 FULL HD 1920 X 1080 360Hz 1Ms IPS 2XHDMI 2 0 1XDISPLAYPORT 1 4 3X USB A 3 2 1XUSB B 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM AJUSTE ALTURA PIVO ROTACAO Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_306277_1.JPG",
@@ -66953,7 +67609,11 @@ const PRODUCTS =
         "id": 11750,
         "ref": "274988",
         "brand": "MSI",
+<<<<<<< HEAD
         "title_orig": "MON 25 MSI G255PF E2 FHD IPS FREE SYNC 1Ms Negro",
+=======
+        "title_orig": "MON 25 MSI G255PF E2 FHD IPS FREE SYNC 1MS Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 25 MSI G255PF E2 FHD IPS FREE SYNC 1Ms Negro",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_274988_1.JPG",
@@ -66973,7 +67633,11 @@ const PRODUCTS =
         "id": 11751,
         "ref": "240465",
         "brand": "SAMSUNG",
+<<<<<<< HEAD
         "title_orig": "MON 25 SAMSUNG LS25BG400ELXZX FHD HDMI 240Hz Negro",
+=======
+        "title_orig": "MON 25 SAMSUNG LS25BG400ELXZX FHD HDMI 240HZ Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 25 SAMSUNG LS25BG400ELXZX FHD HDMI 240Hz Negro",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_240465_1.JPG",
@@ -67013,7 +67677,11 @@ const PRODUCTS =
         "id": 11753,
         "ref": "315233",
         "brand": "MSI",
+<<<<<<< HEAD
         "title_orig": "MONITOR MSI PRO MP251L E2 25 FULL HD 1920 X 1080 1Ms 120Hz IPS 1XHDMI 1 4 1XVGA D SUB Negro",
+=======
+        "title_orig": "MONITOR MSI PRO MP251L E2 25 FULL HD 1920 X 1080 1MS 120HZ IPS 1XHDMI 1 4 1XVGA D SUB Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR MSI PRO MP251L E2 25 FULL HD 1920 X 1080 1Ms 120Hz IPS 1XHDMI 1 4 1XVGA D SUB Negro",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_315233_1.JPG",
@@ -67033,7 +67701,11 @@ const PRODUCTS =
         "id": 11754,
         "ref": "340668",
         "brand": "DELL",
+<<<<<<< HEAD
         "title_orig": "MON 25 DELL ALIENWARE AW2723DF 2K QHD 1Ms 280Hz DP 2HDMI Negro BRA Negro Blanco",
+=======
+        "title_orig": "MON 25 DELL ALIENWARE AW2723DF 2K QHD 1MS 280HZ DP 2HDMI Negro BRA Negro Blanco",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 25 DELL ALIENWARE AW2723DF 2K QHD 1Ms 280Hz DP 2HDMI Negro BRA Negro Blanco",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_340668_1.JPG",
@@ -67073,7 +67745,11 @@ const PRODUCTS =
         "id": 11756,
         "ref": "295734",
         "brand": "MSI",
+<<<<<<< HEAD
         "title_orig": "MON 25 MSI PRO MP252 HDMI DP 100Hz Negro 295734",
+=======
+        "title_orig": "MON 25 MSI PRO MP252 HDMI DP 100HZ Negro  295734",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 25 MSI PRO MP252 HDMI DP 100Hz Negro 295734",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_295734_1.JPG",
@@ -67133,7 +67809,11 @@ const PRODUCTS =
         "id": 11759,
         "ref": "395500",
         "brand": "GIGABYTE",
+<<<<<<< HEAD
         "title_orig": "MONITOR GAMER GIGABYTE GS25F2A 24 5 FULL HD IPS 240Hz 1Ms HDMI DISPLAYPORT Negro",
+=======
+        "title_orig": "MONITOR GAMER GIGABYTE GS25F2A 24 5 FULL HD IPS 240HZ 1MS HDMI DISPLAYPORT Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR GAMER GIGABYTE GS25F2A 24 5 FULL HD IPS 240Hz 1Ms HDMI DISPLAYPORT Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_395500_1.JPG",
@@ -67153,7 +67833,11 @@ const PRODUCTS =
         "id": 11760,
         "ref": "190873",
         "brand": "LG",
+<<<<<<< HEAD
         "title_orig": "MONITOR ULTRAWIDE LG 26WQ500 B 26 IPS FULL HD 75Hz 1Ms 2XHDMI AMD FREESYNC Negro",
+=======
+        "title_orig": "MONITOR ULTRAWIDE LG 26WQ500 B 26 IPS FULL HD 75HZ 1MS 2XHDMI AMD FREESYNC Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR ULTRAWIDE LG 26WQ500 B 26 IPS FULL HD 75Hz 1Ms 2XHDMI AMD FREESYNC Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_190873_1.JPG",
@@ -67173,7 +67857,11 @@ const PRODUCTS =
         "id": 11761,
         "ref": "277420",
         "brand": "SAMSUNG",
+<<<<<<< HEAD
         "title_orig": "MONITOR SAMSUNG VIEWFINITY S7 S70D LS27D702EANXGO 27 4K UHD 3840 X 2160 5Ms 60Hz IPS 1XHDMI 2 2 1XDISPLAYPORT 1 2 1XUSB A 1XCONECTOR DE AUDIO Negro 277420",
+=======
+        "title_orig": "MONITOR SAMSUNG VIEWFINITY S7 S70D LS27D702EANXGO 27 4K UHD 3840 X 2160 5MS 60HZ IPS 1XHDMI 2 2 1XDISPLAYPORT 1 2 1XUSB A 1XCONECTOR DE AUDIO Negro  277420",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR SAMSUNG VIEWFINITY S7 S70D LS27D702EANXGO 27 4K UHD 3840 X 2160 5Ms 60Hz IPS 1XHDMI 2 2 1XDISPLAYPORT 1 2 1XUSB A 1XCONECTOR DE AUDIO Negro 277420",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_277420_1.JPG",
@@ -67193,7 +67881,11 @@ const PRODUCTS =
         "id": 11762,
         "ref": "357182",
         "brand": "MSI",
+<<<<<<< HEAD
         "title_orig": "MON 27 MSI PRO MP273L E14 FLAT 144Z 1Ms Negro",
+=======
+        "title_orig": "MON 27 MSI PRO MP273L E14 FLAT 144Z 1MS Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 27 MSI PRO MP273L E14 FLAT 144Z 1Ms Negro",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_357182_1.JPG",
@@ -67213,7 +67905,11 @@ const PRODUCTS =
         "id": 11763,
         "ref": "289131",
         "brand": "UP GAMER",
+<<<<<<< HEAD
         "title_orig": "MONITOR GAMER UP GAMER HORIZON 27 FULL HD Pantalla CURVO RGB 240Hz 1Ms HDMI DP FREESYNC HZ27VA240BK AJUSTE ALTURA PIVO ROTACAO Negro",
+=======
+        "title_orig": "MONITOR GAMER UP GAMER HORIZON 27 FULL HD TELA CURVO RGB 240HZ 1MS HDMI DP FREESYNC HZ27VA240BK AJUSTE ALTURA PIVO ROTACAO Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR GAMER UP GAMER HORIZON 27 FULL HD Pantalla CURVO RGB 240Hz 1Ms HDMI DP FREESYNC HZ27VA240BK AJUSTE ALTURA PIVO ROTACAO Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_289131_1.JPG",
@@ -67233,7 +67929,11 @@ const PRODUCTS =
         "id": 11764,
         "ref": "250725",
         "brand": "XIAOMI",
+<<<<<<< HEAD
         "title_orig": "MONITOR XIAOMI GAMING G27I P27FBB RGGL 27 FULL HD 1920X1080 1Ms 165Hz IPS 1XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM Negro",
+=======
+        "title_orig": "MONITOR XIAOMI GAMING G27I P27FBB RGGL 27 FULL HD 1920X1080 1MS 165HZ IPS 1XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR XIAOMI GAMING G27I P27FBB RGGL 27 FULL HD 1920X1080 1Ms 165Hz IPS 1XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_250725_1.JPG",
@@ -67253,7 +67953,11 @@ const PRODUCTS =
         "id": 11765,
         "ref": "252973",
         "brand": "XIAOMI",
+<<<<<<< HEAD
         "title_orig": "MONITOR XIAOMI A27I P27FBA RAGL 27 FULL HD 1920 X 1080 6Ms 100Hz 1XHDMI 2 0 1XDISPLAYPORT 1 4 Negro 252973",
+=======
+        "title_orig": "MONITOR XIAOMI A27I P27FBA RAGL 27 FULL HD 1920 X 1080 6MS 100HZ 1XHDMI 2 0 1XDISPLAYPORT 1 4 Negro  252973",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR XIAOMI A27I P27FBA RAGL 27 FULL HD 1920 X 1080 6Ms 100Hz 1XHDMI 2 0 1XDISPLAYPORT 1 4 Negro 252973",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_252973_1.JPG",
@@ -67273,7 +67977,11 @@ const PRODUCTS =
         "id": 11767,
         "ref": "289110",
         "brand": "UP GAMER",
+<<<<<<< HEAD
         "title_orig": "MONITOR GAMER UP GAMER HORIZON 27 FULL HD Pantalla CURVO RGB 165Hz 1Ms HDMI DP FREESYNC HZ27VA165BK AJUSTE ALTURA PIVO ROTACAO Negro",
+=======
+        "title_orig": "MONITOR GAMER UP GAMER HORIZON 27 FULL HD TELA CURVO RGB 165HZ 1MS HDMI DP FREESYNC HZ27VA165BK AJUSTE ALTURA PIVO ROTACAO Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR GAMER UP GAMER HORIZON 27 FULL HD Pantalla CURVO RGB 165Hz 1Ms HDMI DP FREESYNC HZ27VA165BK AJUSTE ALTURA PIVO ROTACAO Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_289110_1.JPG",
@@ -67293,7 +68001,11 @@ const PRODUCTS =
         "id": 11768,
         "ref": "292696",
         "brand": "XIAOMI",
+<<<<<<< HEAD
         "title_orig": "MONITOR XIAOMI GAMING G27QI P27QCA RGGL 27 2K QHD 2560X1440 1Ms 180Hz IPS 2XHDMI 2 0 2XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC Negro",
+=======
+        "title_orig": "MONITOR XIAOMI GAMING G27QI P27QCA RGGL 27 2K QHD 2560X1440 1MS 180HZ IPS 2XHDMI 2 0 2XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR XIAOMI GAMING G27QI P27QCA RGGL 27 2K QHD 2560X1440 1Ms 180Hz IPS 2XHDMI 2 0 2XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_292696_1.JPG",
@@ -67313,7 +68025,11 @@ const PRODUCTS =
         "id": 11769,
         "ref": "289120",
         "brand": "UP GAMER",
+<<<<<<< HEAD
         "title_orig": "MONITOR GAMER UP GAMER HORIZON 27 FULL HD Pantalla CURVO RGB 165Hz 1Ms HDMI DP FREESYNC HZ27VA165WHT AJUSTE ALTURA PIVO ROTACAO Blanco",
+=======
+        "title_orig": "MONITOR GAMER UP GAMER HORIZON 27 FULL HD TELA CURVO RGB 165HZ 1MS HDMI DP FREESYNC HZ27VA165WHT AJUSTE ALTURA PIVO ROTACAO Blanco",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR GAMER UP GAMER HORIZON 27 FULL HD Pantalla CURVO RGB 165Hz 1Ms HDMI DP FREESYNC HZ27VA165WHT AJUSTE ALTURA PIVO ROTACAO Blanco",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_289120_1.JPG",
@@ -67333,7 +68049,11 @@ const PRODUCTS =
         "id": 11770,
         "ref": "111934",
         "brand": "AMD",
+<<<<<<< HEAD
         "title_orig": "MONITOR MTEK M27SFV240C CURVO 27 FULL HD 1920X1080 1Ms 240Hz 1XHDMI 2 0 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO AMD FREESYNC NVIDIA G SYNC SPEAKER 2WX2 Negro",
+=======
+        "title_orig": "MONITOR MTEK M27SFV240C CURVO 27 FULL HD 1920X1080 1MS 240HZ 1XHDMI 2 0 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO AMD FREESYNC NVIDIA G SYNC SPEAKER 2WX2 Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR MTEK M27SFV240C CURVO 27 FULL HD 1920X1080 1Ms 240Hz 1XHDMI 2 0 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO AMD FREESYNC NVIDIA G SYNC SPEAKER 2WX2 Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_111934_1.JPG",
@@ -67353,7 +68073,11 @@ const PRODUCTS =
         "id": 11771,
         "ref": "290997",
         "brand": "XIAOMI",
+<<<<<<< HEAD
         "title_orig": "MONITOR XIAOMI GAMING G PRO 27I P27QBA RGP 27 2K QHD 2560 X 1440 1Ms 180Hz IPS 2XHDMI 2 0 2XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC AJUSTE ALTURA PIVO ROTACAO Negro 290997",
+=======
+        "title_orig": "MONITOR XIAOMI GAMING G PRO 27I P27QBA RGP 27 2K QHD 2560 X 1440 1MS 180HZ IPS 2XHDMI 2 0 2XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC AJUSTE ALTURA PIVO ROTACAO Negro  290997",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR XIAOMI GAMING G PRO 27I P27QBA RGP 27 2K QHD 2560 X 1440 1Ms 180Hz IPS 2XHDMI 2 0 2XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC AJUSTE ALTURA PIVO ROTACAO Negro 290997",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_290997_1.JPG",
@@ -67413,7 +68137,11 @@ const PRODUCTS =
         "id": 11774,
         "ref": "312320",
         "brand": "XIAOMI",
+<<<<<<< HEAD
         "title_orig": "MONITOR XIAOMI A27QI ELA5812EU 27 2K QHD 2560 X 1440 6Ms 100Hz IPS 1XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO Negro",
+=======
+        "title_orig": "MONITOR XIAOMI A27QI ELA5812EU 27 2K QHD 2560 X 1440 6MS 100HZ IPS 1XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR XIAOMI A27QI ELA5812EU 27 2K QHD 2560 X 1440 6Ms 100Hz IPS 1XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_312320_1.JPG",
@@ -67553,7 +68281,11 @@ const PRODUCTS =
         "id": 11782,
         "ref": "190627",
         "brand": "MSI",
+<<<<<<< HEAD
         "title_orig": "MONITOR MSI G323CV CURVO 31 5 FULL HD 1920X1080 1Ms 75Hz VA 1XHDMI 1 4 1XDISPLAYPORT 1 2 1X Conector de Audio Negro 190627",
+=======
+        "title_orig": "MONITOR MSI G323CV CURVO 31 5 FULL HD 1920X1080 1MS 75HZ VA 1XHDMI 1 4 1XDISPLAYPORT 1 2 1X CONECTOR DE AUDIO Negro  190627",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR MSI G323CV CURVO 31 5 FULL HD 1920X1080 1Ms 75Hz VA 1XHDMI 1 4 1XDISPLAYPORT 1 2 1X Conector de Audio Negro 190627",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_190627_1.JPG",
@@ -67573,7 +68305,11 @@ const PRODUCTS =
         "id": 11783,
         "ref": "248710",
         "brand": "MSI",
+<<<<<<< HEAD
         "title_orig": "MON 31 5 MSI G32C4X CURVO GAMING 250Hz 1Ms Negro",
+=======
+        "title_orig": "MON 31 5 MSI G32C4X CURVO GAMING 250HZ 1MS Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 31 5 MSI G32C4X CURVO GAMING 250Hz 1Ms Negro",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_248710_1.JPG",
@@ -67593,7 +68329,11 @@ const PRODUCTS =
         "id": 11784,
         "ref": "333738",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MONITOR TEROS TE 3251S CURVO 31 5 2K QHD 2560 X 1440 1Ms 75Hz IPS 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO Negro",
+=======
+        "title_orig": "MONITOR TEROS TE 3251S CURVO 31 5 2K QHD 2560 X 1440 1MS 75HZ IPS 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR TEROS TE 3251S CURVO 31 5 2K QHD 2560 X 1440 1Ms 75Hz IPS 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_333738_1.JPG",
@@ -67613,7 +68353,11 @@ const PRODUCTS =
         "id": 11785,
         "ref": "97734",
         "brand": "MSI",
+<<<<<<< HEAD
         "title_orig": "MON 31 5 MSI OPTIX G32CQ4 165Hz 1Ms Negro 97734",
+=======
+        "title_orig": "MON 31 5 MSI OPTIX G32CQ4 165HZ 1MS Negro  97734",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 31 5 MSI OPTIX G32CQ4 165Hz 1Ms Negro 97734",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_97734_1.JPG",
@@ -67633,7 +68377,11 @@ const PRODUCTS =
         "id": 11786,
         "ref": "333727",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MON 31 5 TEROS TE 3252S 4K UHD 1Ms 60Hz HDMI DP PR Negro",
+=======
+        "title_orig": "MON 31 5 TEROS TE 3252S 4K UHD 1MS 60HZ HDMI DP PR Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 31 5 TEROS TE 3252S 4K UHD 1Ms 60Hz HDMI DP PR Negro",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_333727_1.JPG",
@@ -67653,7 +68401,11 @@ const PRODUCTS =
         "id": 11788,
         "ref": "295947",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MON 32 AOC C32G2ZE CURVO FHD 240Hz 5Ms Negro",
+=======
+        "title_orig": "MON 32 AOC C32G2ZE CURVO FHD 240HZ 5MS Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 32 AOC C32G2ZE CURVO FHD 240Hz 5Ms Negro",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_295947_1.JPG",
@@ -67673,7 +68425,11 @@ const PRODUCTS =
         "id": 11789,
         "ref": "273954",
         "brand": "AMD",
+<<<<<<< HEAD
         "title_orig": "MONITOR VIEWSONIC VX3218C 2K CURVO 32 2K QHD 2560 X 1440 1Ms 180Hz 2XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM SPEAKER 2WX2 Negro 273954",
+=======
+        "title_orig": "MONITOR VIEWSONIC VX3218C 2K CURVO 32 2K QHD 2560 X 1440 1MS 180HZ 2XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM SPEAKER 2WX2 Negro  273954",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR VIEWSONIC VX3218C 2K CURVO 32 2K QHD 2560 X 1440 1Ms 180Hz 2XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM SPEAKER 2WX2 Negro 273954",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_273954_1.JPG",
@@ -67713,7 +68469,11 @@ const PRODUCTS =
         "id": 11791,
         "ref": "285733",
         "brand": "SAMSUNG",
+<<<<<<< HEAD
         "title_orig": "MON 32 SAMSUNG SMART LS32BG652ENXGO CURVO 2K WQHD 240Hz 2HDMI DP Negro 285733",
+=======
+        "title_orig": "MON 32 SAMSUNG SMART LS32BG652ENXGO CURVO 2K WQHD 240HZ 2HDMI DP Negro  285733",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 32 SAMSUNG SMART LS32BG652ENXGO CURVO 2K WQHD 240Hz 2HDMI DP Negro 285733",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_285733_1.JPG",
@@ -67753,7 +68513,11 @@ const PRODUCTS =
         "id": 11793,
         "ref": "304398",
         "brand": "MSI",
+<<<<<<< HEAD
         "title_orig": "MONITOR MSI MAG 32C6X CURVO 32 FULL HD 1920 X 1080 1Ms 250Hz IPS 2XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO Negro",
+=======
+        "title_orig": "MONITOR MSI MAG 32C6X CURVO 32 FULL HD 1920 X 1080 1MS 250HZ IPS 2XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR MSI MAG 32C6X CURVO 32 FULL HD 1920 X 1080 1Ms 250Hz IPS 2XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_304398_1.JPG",
@@ -67773,7 +68537,11 @@ const PRODUCTS =
         "id": 11794,
         "ref": "121150",
         "brand": "AMD",
+<<<<<<< HEAD
         "title_orig": "MONITOR VIEWSONIC VX3218 PC MHD CURVO 32 FULL HD 1920 X 1080 1Ms 180Hz 2XHDMI 1 4 1XDISPLAYPORT 1 2 1XUSB A 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM SPEAKER 2WX2 Negro 121150",
+=======
+        "title_orig": "MONITOR VIEWSONIC VX3218 PC MHD CURVO 32 FULL HD 1920 X 1080 1MS 180HZ 2XHDMI 1 4 1XDISPLAYPORT 1 2 1XUSB A 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM SPEAKER 2WX2 Negro  121150",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR VIEWSONIC VX3218 PC MHD CURVO 32 FULL HD 1920 X 1080 1Ms 180Hz 2XHDMI 1 4 1XDISPLAYPORT 1 2 1XUSB A 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM SPEAKER 2WX2 Negro 121150",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_121150_1.JPG",
@@ -67793,7 +68561,11 @@ const PRODUCTS =
         "id": 11795,
         "ref": "187140",
         "brand": "SAMSUNG",
+<<<<<<< HEAD
         "title_orig": "MONITOR SAMSUNG GAMING ODYSSEY G3 LS32AG320NLXZX 32 FULL HD 1920 X 1080 1Ms 165Hz 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM Negro",
+=======
+        "title_orig": "MONITOR SAMSUNG GAMING ODYSSEY G3 LS32AG320NLXZX 32 FULL HD 1920 X 1080 1MS 165HZ 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR SAMSUNG GAMING ODYSSEY G3 LS32AG320NLXZX 32 FULL HD 1920 X 1080 1Ms 165Hz 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_187140_1.JPG",
@@ -67813,7 +68585,11 @@ const PRODUCTS =
         "id": 11796,
         "ref": "252749",
         "brand": "GIGABYTE",
+<<<<<<< HEAD
         "title_orig": "MON 32 GIGABYTE GS32QC CURVO 165Hz 1Ms Negro 252749",
+=======
+        "title_orig": "MON 32 GIGABYTE GS32QC CURVO 165HZ 1MS Negro  252749",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 32 GIGABYTE GS32QC CURVO 165Hz 1Ms Negro 252749",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_252749_1.JPG",
@@ -67833,7 +68609,11 @@ const PRODUCTS =
         "id": 11797,
         "ref": "293205",
         "brand": "ASUS",
+<<<<<<< HEAD
         "title_orig": "MONITOR ASUS TUF GAMING VG32VQ1B CURVO 31 5 2K WQHD 2560 X 1440 1Ms 165Hz IPS 2XHDMI 2 0 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM SPEAKER 2WX2 Negro",
+=======
+        "title_orig": "MONITOR ASUS TUF GAMING VG32VQ1B CURVO 31 5 2K WQHD 2560 X 1440 1MS 165HZ IPS 2XHDMI 2 0 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM SPEAKER 2WX2 Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR ASUS TUF GAMING VG32VQ1B CURVO 31 5 2K WQHD 2560 X 1440 1Ms 165Hz IPS 2XHDMI 2 0 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM SPEAKER 2WX2 Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_293205_1.JPG",
@@ -67853,7 +68633,11 @@ const PRODUCTS =
         "id": 11799,
         "ref": "308628",
         "brand": "SAMSUNG",
+<<<<<<< HEAD
         "title_orig": "MONITOR SAMSUNG VIEWFINITY S7 S70D LS32D701EANXZA 32 4K UHD 3840 X 2160 5Ms 60Hz 1XHDMI 2 2 1XDISPLAYPORT 1 2 1XUSB A 2 0 1XCONECTOR DE AUDIO Blanco",
+=======
+        "title_orig": "MONITOR SAMSUNG VIEWFINITY S7 S70D LS32D701EANXZA 32 4K UHD 3840 X 2160 5MS 60HZ 1XHDMI 2 2 1XDISPLAYPORT 1 2 1XUSB A 2 0 1XCONECTOR DE AUDIO Blanco",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR SAMSUNG VIEWFINITY S7 S70D LS32D701EANXZA 32 4K UHD 3840 X 2160 5Ms 60Hz 1XHDMI 2 2 1XDISPLAYPORT 1 2 1XUSB A 2 0 1XCONECTOR DE AUDIO Blanco",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_308628_1.JPG",
@@ -67873,7 +68657,11 @@ const PRODUCTS =
         "id": 11800,
         "ref": "282247",
         "brand": "ACER",
+<<<<<<< HEAD
         "title_orig": "MONITOR ACER KB272 27 FULL HD 1920X1080 100Hz 1Ms IPS 1XHDMI 1 4 1XVGA D SUB AMD FREESYNC SPEAKER 2WX2 Negro",
+=======
+        "title_orig": "MONITOR ACER KB272 27 FULL HD 1920X1080 100HZ 1MS IPS 1XHDMI 1 4 1XVGA D SUB AMD FREESYNC SPEAKER 2WX2 Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR ACER KB272 27 FULL HD 1920X1080 100Hz 1Ms IPS 1XHDMI 1 4 1XVGA D SUB AMD FREESYNC SPEAKER 2WX2 Negro",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_282247_1.JPG",
@@ -67913,7 +68701,11 @@ const PRODUCTS =
         "id": 11803,
         "ref": "295756",
         "brand": "MSI",
+<<<<<<< HEAD
         "title_orig": "MONITOR MSI MAG 32CQ6F CURVO 32 2K WQHD 2560 X 1440 0 5Ms 180Hz 2XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC Negro",
+=======
+        "title_orig": "MONITOR MSI MAG 32CQ6F CURVO 32 2K WQHD 2560 X 1440 0 5MS 180HZ 2XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR MSI MAG 32CQ6F CURVO 32 2K WQHD 2560 X 1440 0 5Ms 180Hz 2XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_295756_1.JPG",
@@ -67973,7 +68765,11 @@ const PRODUCTS =
         "id": 11806,
         "ref": "277835",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MON 32 AOC C32G2 FHD CURVO 165Hz 1Ms Negro",
+=======
+        "title_orig": "MON 32 AOC C32G2 FHD CURVO 165HZ 1MS Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 32 AOC C32G2 FHD CURVO 165Hz 1Ms Negro",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_277835_1.JPG",
@@ -68013,7 +68809,11 @@ const PRODUCTS =
         "id": 11808,
         "ref": "218694",
         "brand": "ACER",
+<<<<<<< HEAD
         "title_orig": "MONITOR ACER NITRO EDO ED320QR UM JE0AA 303 CURVO 31 5 FULL HD 1920 X 1080 1Ms 165Hz IPS 2XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM SPEAKER 2WX2 Negro",
+=======
+        "title_orig": "MONITOR ACER NITRO EDO ED320QR UM JE0AA 303 CURVO 31 5 FULL HD 1920 X 1080 1MS 165HZ IPS 2XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM SPEAKER 2WX2 Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR ACER NITRO EDO ED320QR UM JE0AA 303 CURVO 31 5 FULL HD 1920 X 1080 1Ms 165Hz IPS 2XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM SPEAKER 2WX2 Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_218694_1.JPG",
@@ -68093,7 +68893,11 @@ const PRODUCTS =
         "id": 11812,
         "ref": "268903",
         "brand": "SAMSUNG",
+<<<<<<< HEAD
         "title_orig": "MONITOR SAMSUNG ODYSSEY G5 LC34G55TWWNXZA CURVO 34 ULTRAWIDE UWQHD 3440 X 1440 1Ms 165Hz 1XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM PRO Negro",
+=======
+        "title_orig": "MONITOR SAMSUNG ODYSSEY G5 LC34G55TWWNXZA CURVO 34 ULTRAWIDE UWQHD 3440 X 1440 1MS 165HZ 1XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM PRO Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR SAMSUNG ODYSSEY G5 LC34G55TWWNXZA CURVO 34 ULTRAWIDE UWQHD 3440 X 1440 1Ms 165Hz 1XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM PRO Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_268903_1.JPG",
@@ -68113,7 +68917,11 @@ const PRODUCTS =
         "id": 11813,
         "ref": "295767",
         "brand": "MSI",
+<<<<<<< HEAD
         "title_orig": "MONITOR MSI OPTIX MP241X CURVO 34 UWQHD 3440 X 1440 144Hz 1Ms 2XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO Negro",
+=======
+        "title_orig": "MONITOR MSI OPTIX MP241X CURVO 34 UWQHD 3440 X 1440 144HZ 1MS 2XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR MSI OPTIX MP241X CURVO 34 UWQHD 3440 X 1440 144Hz 1Ms 2XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_295767_1.JPG",
@@ -68153,7 +68961,11 @@ const PRODUCTS =
         "id": 11815,
         "ref": "277410",
         "brand": "SAMSUNG",
+<<<<<<< HEAD
         "title_orig": "MONITOR SAMSUNG VIEWFINITY S5 S50GC LS34C502GANXZA 34 ULTRAWIDE UWQHD 3440 X 1440 5Ms 100Hz 2XHDMI 2 0 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO AMD FREESYNC Negro",
+=======
+        "title_orig": "MONITOR SAMSUNG VIEWFINITY S5 S50GC LS34C502GANXZA 34 ULTRAWIDE UWQHD 3440 X 1440 5MS 100HZ 2XHDMI 2 0 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO AMD FREESYNC Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR SAMSUNG VIEWFINITY S5 S50GC LS34C502GANXZA 34 ULTRAWIDE UWQHD 3440 X 1440 5Ms 100Hz 2XHDMI 2 0 1XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO AMD FREESYNC Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_277410_1.JPG",
@@ -68213,7 +69025,11 @@ const PRODUCTS =
         "id": 11818,
         "ref": "211799",
         "brand": "LG",
+<<<<<<< HEAD
         "title_orig": "MONITOR LG ULTRAWIDE CURVO 34WP65C B 34 QHD 160Hz 1Ms 2XHDMI 1XDISPLAYPORT SPEAKER MAXXAUDIO 7WX2 AMD FREESYNC PREMIUM Negro 211799",
+=======
+        "title_orig": "MONITOR LG ULTRAWIDE CURVO 34WP65C B 34 QHD 160HZ 1MS 2XHDMI 1XDISPLAYPORT SPEAKER MAXXAUDIO 7WX2 AMD FREESYNC PREMIUM Negro  211799",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR LG ULTRAWIDE CURVO 34WP65C B 34 QHD 160Hz 1Ms 2XHDMI 1XDISPLAYPORT SPEAKER MAXXAUDIO 7WX2 AMD FREESYNC PREMIUM Negro 211799",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_211799_1.JPG",
@@ -68253,7 +69069,11 @@ const PRODUCTS =
         "id": 11820,
         "ref": "317303",
         "brand": "MSI",
+<<<<<<< HEAD
         "title_orig": "MONITOR MSI MAG 346CQ CURVO 32 ULTRAWIDE UWQHD 3440 X 1440 1Ms 180Hz 2XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM SPEAKER 2WX2 Negro",
+=======
+        "title_orig": "MONITOR MSI MAG 346CQ CURVO 32 ULTRAWIDE UWQHD 3440 X 1440 1MS 180HZ 2XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM SPEAKER 2WX2 Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR MSI MAG 346CQ CURVO 32 ULTRAWIDE UWQHD 3440 X 1440 1Ms 180Hz 2XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM SPEAKER 2WX2 Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_317303_1.JPG",
@@ -68273,7 +69093,11 @@ const PRODUCTS =
         "id": 11821,
         "ref": "307144",
         "brand": "MSI",
+<<<<<<< HEAD
         "title_orig": "MON 34 MSI PRO MP341CQ CURVO UWQHD 1Ms HDMI Negro 307144",
+=======
+        "title_orig": "MON 34 MSI PRO MP341CQ CURVO UWQHD 1MS HDMI Negro  307144",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 34 MSI PRO MP341CQ CURVO UWQHD 1Ms HDMI Negro 307144",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_307144_1.JPG",
@@ -68433,7 +69257,11 @@ const PRODUCTS =
         "id": 11829,
         "ref": "333716",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MONITOR TEROS TE 3411G CURVO 34 UWQHD 3440 X 1440 1Ms 180Hz IPS 2XHDMI 1 4 2XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO FREESYNC PREMIUM Negro",
+=======
+        "title_orig": "MONITOR TEROS TE 3411G CURVO 34 UWQHD 3440 X 1440 1MS 180HZ IPS 2XHDMI 1 4 2XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO FREESYNC PREMIUM Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR TEROS TE 3411G CURVO 34 UWQHD 3440 X 1440 1Ms 180Hz IPS 2XHDMI 1 4 2XDISPLAYPORT 1 2 1XCONECTOR DE AUDIO FREESYNC PREMIUM Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_333716_1.JPG",
@@ -68493,7 +69321,11 @@ const PRODUCTS =
         "id": 11832,
         "ref": "304949",
         "brand": "XIAOMI",
+<<<<<<< HEAD
         "title_orig": "MON 34 XIAOMI G34WQI CURVED WQHD 185Hz 1Ms Negro G34WQI ME3L",
+=======
+        "title_orig": "MON 34 XIAOMI G34WQI CURVED WQHD 185HZ 1MS Negro G34WQI ME3L",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 34 XIAOMI G34WQI CURVED WQHD 185Hz 1Ms Negro G34WQI ME3L",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_304949_1.JPG",
@@ -68553,7 +69385,11 @@ const PRODUCTS =
         "id": 11837,
         "ref": "200753",
         "brand": "SAMSUNG",
+<<<<<<< HEAD
         "title_orig": "MON 43 SAMSUNG SMART LS43BM700ULXZB 4K UHD 4Ms 60H 2HDMI USB C PRE Negro",
+=======
+        "title_orig": "MON 43 SAMSUNG SMART LS43BM700ULXZB 4K UHD 4MS 60H 2HDMI USB C PRE Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 43 SAMSUNG SMART LS43BM700ULXZB 4K UHD 4Ms 60H 2HDMI USB C PRE Negro",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_200753_1.JPG",
@@ -68573,7 +69409,11 @@ const PRODUCTS =
         "id": 11838,
         "ref": "270064",
         "brand": "MSI",
+<<<<<<< HEAD
         "title_orig": "MONITOR MSI MAG MAG401QR 40 ULTRAWIDE 2K UWQHD 3440 X 1440 1Ms 155Hz IPS 2XHDMI 2 0 1X DISPLAYPORT 1 4 1XUSB C 2 0 2XUSB A 2 0 1XUSB B 1XCONECTOR DE AUDIO Negro",
+=======
+        "title_orig": "MONITOR MSI MAG MAG401QR 40 ULTRAWIDE 2K UWQHD 3440 X 1440 1MS 155HZ IPS 2XHDMI 2 0 1X DISPLAYPORT 1 4 1XUSB C 2 0 2XUSB A 2 0 1XUSB B 1XCONECTOR DE AUDIO Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR MSI MAG MAG401QR 40 ULTRAWIDE 2K UWQHD 3440 X 1440 1Ms 155Hz IPS 2XHDMI 2 0 1X DISPLAYPORT 1 4 1XUSB C 2 0 2XUSB A 2 0 1XUSB B 1XCONECTOR DE AUDIO Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_270064_1.JPG",
@@ -68593,7 +69433,11 @@ const PRODUCTS =
         "id": 11839,
         "ref": "380492",
         "brand": "SAMSUNG",
+<<<<<<< HEAD
         "title_orig": "MON 40 SAMSUNG ODYSSEY G7 LS40FG756ENXZA WUHD 4K 1Ms 180Hz CURVO Negro",
+=======
+        "title_orig": "MON 40 SAMSUNG ODYSSEY G7 LS40FG756ENXZA WUHD 4K 1MS 180HZ CURVO Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 40 SAMSUNG ODYSSEY G7 LS40FG756ENXZA WUHD 4K 1Ms 180Hz CURVO Negro",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_380492_1.JPG",
@@ -69113,7 +69957,11 @@ const PRODUCTS =
         "id": 11867,
         "ref": "148024",
         "brand": "COOLER MASTER",
+<<<<<<< HEAD
         "title_orig": "Fuente COOLER MASTER MWE GOLD 750 V2 750W 80 PLUS GOLD FULL MODULAR Negro MPE 7501 AFAAG U2",
+=======
+        "title_orig": "FONTE COOLER MASTER MWE GOLD 750 V2 750W 80 PLUS GOLD FULL MODULAR Negro MPE 7501 AFAAG U2",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Fuente COOLER MASTER MWE GOLD 750 V2 750W 80 PLUS GOLD FULL MODULAR Negro MPE 7501 AFAAG U2",
         "category": "Fuentes de Poder",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_148024_1.JPG",
@@ -69133,7 +69981,11 @@ const PRODUCTS =
         "id": 11868,
         "ref": "261681",
         "brand": "CORSAIR",
+<<<<<<< HEAD
         "title_orig": "Fuente CORSAIR RM SERIES RM750X 750W 80 PLUS GOLD MODULAR C CABO Negro CP 9020251 BR",
+=======
+        "title_orig": "FONTE CORSAIR RM SERIES RM750X 750W 80 PLUS GOLD MODULAR C CABO Negro CP 9020251 BR",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Fuente CORSAIR RM SERIES RM750X 750W 80 PLUS GOLD MODULAR C CABO Negro CP 9020251 BR",
         "category": "Fuentes de Poder",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_261681_1.JPG",
@@ -69293,7 +70145,11 @@ const PRODUCTS =
         "id": 11877,
         "ref": "16747",
         "brand": "CORSAIR",
+<<<<<<< HEAD
         "title_orig": "Fuente CORSAIR CX SERIES CX750 750W 80 PLUS BRONZE C CABO Negro CP 9020279 BR",
+=======
+        "title_orig": "FONTE CORSAIR CX SERIES CX750 750W 80 PLUS BRONZE C CABO Negro CP 9020279 BR",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Fuente CORSAIR CX SERIES CX750 750W 80 PLUS BRONZE C CABO Negro CP 9020279 BR",
         "category": "Fuentes de Poder",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_16747_1.JPG",
@@ -69533,7 +70389,11 @@ const PRODUCTS =
         "id": 11889,
         "ref": "184955",
         "brand": "COOLER MASTER",
+<<<<<<< HEAD
         "title_orig": "Fuente COOLER MASTER G700 700W 80 PLUS GOLD C CABO Negro MPW 7001 ACAAG U2",
+=======
+        "title_orig": "FONTE COOLER MASTER G700 700W 80 PLUS GOLD C CABO Negro MPW 7001 ACAAG U2",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Fuente COOLER MASTER G700 700W 80 PLUS GOLD C CABO Negro MPW 7001 ACAAG U2",
         "category": "Fuentes de Poder",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_184955_1.JPG",
@@ -69693,7 +70553,11 @@ const PRODUCTS =
         "id": 11897,
         "ref": "261670",
         "brand": "CORSAIR",
+<<<<<<< HEAD
         "title_orig": "Fuente CORSAIR CX SERIES CX650 650W 80 PLUS BRONZE C CABO Negro CP 9020278 BR",
+=======
+        "title_orig": "FONTE CORSAIR CX SERIES CX650 650W 80 PLUS BRONZE C CABO Negro CP 9020278 BR",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Fuente CORSAIR CX SERIES CX650 650W 80 PLUS BRONZE C CABO Negro CP 9020278 BR",
         "category": "Fuentes de Poder",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_261670_1.JPG",
@@ -70033,7 +70897,11 @@ const PRODUCTS =
         "id": 11916,
         "ref": "296790",
         "brand": "AMD",
+<<<<<<< HEAD
         "title_orig": "Fuente 650W GAMDIAS HELIOS P1A 650G 80 GOLD Negro 650W",
+=======
+        "title_orig": "FONTE 650W GAMDIAS HELIOS P1A 650G 80 GOLD Negro 650W",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Fuente 650W GAMDIAS HELIOS P1A 650G 80 GOLD Negro 650W",
         "category": "Fuentes de Poder",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_296790_1.JPG",
@@ -70153,7 +71021,11 @@ const PRODUCTS =
         "id": 11922,
         "ref": "296768",
         "brand": "AMD",
+<<<<<<< HEAD
         "title_orig": "Fuente 550W GAMDIAS HELIOS M1 550B 80 BRONZE Negro 550W 296768",
+=======
+        "title_orig": "FONTE 550W GAMDIAS HELIOS M1 550B 80 BRONZE Negro 550W  296768",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Fuente 550W GAMDIAS HELIOS M1 550B 80 BRONZE Negro 550W 296768",
         "category": "Fuentes de Poder",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_296768_1.JPG",
@@ -70253,7 +71125,11 @@ const PRODUCTS =
         "id": 11927,
         "ref": "250657",
         "brand": "UP GAMER",
+<<<<<<< HEAD
         "title_orig": "Fuente UP GAMER MW600 600W 80 PLUS BRONZE PFC ATIVO C CABO Negro",
+=======
+        "title_orig": "FONTE UP GAMER MW600 600W 80 PLUS BRONZE PFC ATIVO C CABO Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Fuente UP GAMER MW600 600W 80 PLUS BRONZE PFC ATIVO C CABO Negro",
         "category": "Fuentes de Poder",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_250657_1.JPG",
@@ -70433,7 +71309,11 @@ const PRODUCTS =
         "id": 11937,
         "ref": "249610",
         "brand": "COOLER MASTER",
+<<<<<<< HEAD
         "title_orig": "Fuente COOLER MASTER G600 GOLD 600W 80 PLUS GOLD C CABO Negro MPW 6001 ACAAG U2",
+=======
+        "title_orig": "FONTE COOLER MASTER G600 GOLD 600W 80 PLUS GOLD C CABO Negro MPW 6001 ACAAG U2",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Fuente COOLER MASTER G600 GOLD 600W 80 PLUS GOLD C CABO Negro MPW 6001 ACAAG U2",
         "category": "Fuentes de Poder",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_249610_1.JPG",
@@ -70633,7 +71513,11 @@ const PRODUCTS =
         "id": 11951,
         "ref": "237326",
         "brand": "AIGO",
+<<<<<<< HEAD
         "title_orig": "Fuente 500W AIGO BR500 110V 220V Negro 237326",
+=======
+        "title_orig": "FONTE 500W AIGO BR500 110V 220V Negro 237326",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Fuente 500W AIGO BR500 110V 220V Negro 237326",
         "category": "Fuentes de Poder",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_237326_1.JPG",
@@ -70893,7 +71777,11 @@ const PRODUCTS =
         "id": 11967,
         "ref": "237315",
         "brand": "AIGO",
+<<<<<<< HEAD
         "title_orig": "Fuente 450W AIGO BR450 110V 220V Negro G",
+=======
+        "title_orig": "FONTE 450W AIGO BR450 110V 220V Negro G",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Fuente 450W AIGO BR450 110V 220V Negro G",
         "category": "Fuentes de Poder",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_237315_1.JPG",
@@ -70913,7 +71801,11 @@ const PRODUCTS =
         "id": 11968,
         "ref": "359858",
         "brand": "AIGO",
+<<<<<<< HEAD
         "title_orig": "Fuente 450W AIGO BR450 BIVOLT Negro",
+=======
+        "title_orig": "FONTE 450W AIGO BR450 BIVOLT Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Fuente 450W AIGO BR450 BIVOLT Negro",
         "category": "Fuentes de Poder",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_359858_1.JPG",
@@ -70973,7 +71865,11 @@ const PRODUCTS =
         "id": 11971,
         "ref": "211980",
         "brand": "AIGO",
+<<<<<<< HEAD
         "title_orig": "Fuente 350W AIGO VK350 ATX 220V Negro G",
+=======
+        "title_orig": "FONTE 350W AIGO VK350 ATX 220V Negro G",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Fuente 350W AIGO VK350 ATX 220V Negro G",
         "category": "Fuentes de Poder",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_211980_1.JPG",
@@ -70993,7 +71889,11 @@ const PRODUCTS =
         "id": 11972,
         "ref": "237291",
         "brand": "AIGO",
+<<<<<<< HEAD
         "title_orig": "Fuente 350W AIGO BR350 110V 220V Negro G",
+=======
+        "title_orig": "FONTE 350W AIGO BR350 110V 220V Negro G",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Fuente 350W AIGO BR350 110V 220V Negro G",
         "category": "Fuentes de Poder",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_237291_1.JPG",
@@ -71033,7 +71933,11 @@ const PRODUCTS =
         "id": 11974,
         "ref": "368780",
         "brand": "AIGO",
+<<<<<<< HEAD
         "title_orig": "Fuente 350W AIGO VK350 220V Negro",
+=======
+        "title_orig": "FONTE 350W AIGO VK350 220V Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Fuente 350W AIGO VK350 220V Negro",
         "category": "Fuentes de Poder",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_368780_1.JPG",
@@ -71053,7 +71957,11 @@ const PRODUCTS =
         "id": 11975,
         "ref": "359847",
         "brand": "AIGO",
+<<<<<<< HEAD
         "title_orig": "Fuente 350W AIGO BR350 110V 220V Negro",
+=======
+        "title_orig": "FONTE 350W AIGO BR350 110V 220V Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Fuente 350W AIGO BR350 110V 220V Negro",
         "category": "Fuentes de Poder",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_359847_1.JPG",
@@ -71333,7 +72241,11 @@ const PRODUCTS =
         "id": 11995,
         "ref": "252457",
         "brand": "HP",
+<<<<<<< HEAD
         "title_orig": "CARREGADOR P NB HP PONTA Azul 3 33A 65W BIVOLT SIN CABO 252457",
+=======
+        "title_orig": "CARREGADOR P NB HP PONTA Azul 3 33A 65W BIVOLT SIN CABO  252457",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "CARREGADOR P NB HP PONTA Azul 3 33A 65W BIVOLT SIN CABO 252457",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_252457_1.JPG",
@@ -71373,7 +72285,11 @@ const PRODUCTS =
         "id": 11998,
         "ref": "100976",
         "brand": "ASUS",
+<<<<<<< HEAD
         "title_orig": "Fuente P NB ASUS 19V 3 42A PONTA Azul SEM CABO",
+=======
+        "title_orig": "FONTE P NB ASUS 19V 3 42A PONTA Azul SEM CABO",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Fuente P NB ASUS 19V 3 42A PONTA Azul SEM CABO",
         "category": "Fuentes de Poder",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_100976_1.JPG",
@@ -71393,7 +72309,11 @@ const PRODUCTS =
         "id": 12000,
         "ref": "130193",
         "brand": "HP",
+<<<<<<< HEAD
         "title_orig": "Fuente P NB HP AC19 5V 3 33A PONTA Azul S CABO",
+=======
+        "title_orig": "FONTE P NB HP AC19 5V 3 33A PONTA Azul S CABO",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Fuente P NB HP AC19 5V 3 33A PONTA Azul S CABO",
         "category": "Fuentes de Poder",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_130193_1.JPG",
@@ -71413,7 +72333,11 @@ const PRODUCTS =
         "id": 12002,
         "ref": "286991",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "Fuente 9 0V 0 2A BIVOLT Negro 286991",
+=======
+        "title_orig": "FONTE 9 0V 0 2A BIVOLT Negro  286991",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Fuente 9 0V 0 2A BIVOLT Negro 286991",
         "category": "Fuentes de Poder",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_286991_1.JPG",
@@ -71473,7 +72397,11 @@ const PRODUCTS =
         "id": 12009,
         "ref": "103700",
         "brand": "HP",
+<<<<<<< HEAD
         "title_orig": "Fuente P NB HP 45W Azul 103700",
+=======
+        "title_orig": "FONTE P NB HP 45W Azul  103700",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Fuente P NB HP 45W Azul 103700",
         "category": "Fuentes de Poder",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_103700_1.JPG",
@@ -71733,7 +72661,11 @@ const PRODUCTS =
         "id": 12022,
         "ref": "271638",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "ADAPTADOR USB C P HDMI SATE AL 90 4K 30Hz Gris OSCURO",
+=======
+        "title_orig": "ADAPTADOR USB C P HDMI SATE AL 90 4K 30HZ Gris OSCURO",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "ADAPTADOR USB C P HDMI SATE AL 90 4K 30Hz Gris OSCURO",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_271638_1.JPG",
@@ -72113,7 +73045,11 @@ const PRODUCTS =
         "id": 12044,
         "ref": "174471",
         "brand": "MTEK",
+<<<<<<< HEAD
         "title_orig": "CAIXA DE SOM MTEK SP U04 Negro 5W USB JACK 3 5 174471",
+=======
+        "title_orig": "CAIXA DE SOM MTEK SP U04 Negro 5W USB JACK 3 5  174471",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Altavoz MTEK SP U04 Negro 5W USB JACK 3 5 174471",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_174471_1.JPG",
@@ -72253,7 +73189,11 @@ const PRODUCTS =
         "id": 12051,
         "ref": "322174",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "CAIXA DE SOM SATE AS 92007 RGB BT USB Negro 322174",
+=======
+        "title_orig": "CAIXA DE SOM SATE AS 92007 RGB BT USB Negro  322174",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Altavoz SATE AS 92007 RGB BT USB Negro 322174",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_322174_1.JPG",
@@ -72273,7 +73213,11 @@ const PRODUCTS =
         "id": 12052,
         "ref": "322210",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "CAIXA DE SOM SATE AS 92005 RGB BT USB Negro 322210",
+=======
+        "title_orig": "CAIXA DE SOM SATE AS 92005 RGB BT USB Negro  322210",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Altavoz SATE AS 92005 RGB BT USB Negro 322210",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_322210_1.JPG",
@@ -72333,7 +73277,11 @@ const PRODUCTS =
         "id": 12055,
         "ref": "335560",
         "brand": "MTEK",
+<<<<<<< HEAD
         "title_orig": "CAIXA DE SOM MTEK SP U2036 5W USB JACK 3 5 Negro 335560",
+=======
+        "title_orig": "CAIXA DE SOM MTEK SP U2036 5W USB JACK 3 5 Negro  335560",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Altavoz MTEK SP U2036 5W USB JACK 3 5 Negro 335560",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_335560_1.JPG",
@@ -72373,7 +73321,11 @@ const PRODUCTS =
         "id": 12057,
         "ref": "388467",
         "brand": "REDRAGON",
+<<<<<<< HEAD
         "title_orig": "CAIXA DE SOM REDRAGON GS590 KAIDAS BT USB Negro 388467",
+=======
+        "title_orig": "CAIXA DE SOM REDRAGON GS590 KAIDAS BT USB Negro  388467",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Altavoz REDRAGON GS590 KAIDAS BT USB Negro 388467",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_388467_1.JPG",
@@ -73213,7 +74165,11 @@ const PRODUCTS =
         "id": 12103,
         "ref": "309763",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "TEC MOUSE FTX FTXGK02 WIRELESS ESPANHOL Verde 106159 309763",
+=======
+        "title_orig": "TEC MOUSE FTX FTXGK02 WIRELESS ESPANHOL Verde 106159  309763",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "TEC MOUSE FTX FTXGK02 WIRELESS ESPANHOL Verde 106159 309763",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_309763_1.JPG",
@@ -73253,7 +74209,11 @@ const PRODUCTS =
         "id": 12105,
         "ref": "309708",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "TEC MOUSE FTX FTXGK01 WIRELESS ESPANHOL POP Verde 106098 309708",
+=======
+        "title_orig": "TEC MOUSE FTX FTXGK01 WIRELESS ESPANHOL POP Verde 106098  309708",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "TEC MOUSE FTX FTXGK01 WIRELESS ESPANHOL POP Verde 106098 309708",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_309708_1.JPG",
@@ -73553,7 +74513,11 @@ const PRODUCTS =
         "id": 12120,
         "ref": "288210",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "AR CONDICIONADO PORTATIL TPK SMART WIND 12000BTU QUENTE FRIO 110V 60Hz TPK12K PTB WIND Blanco 288210",
+=======
+        "title_orig": "AR CONDICIONADO PORTATIL TPK SMART WIND 12000BTU QUENTE FRIO 110V 60HZ TPK12K PTB WIND Blanco  288210",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "AR CONDICIONADO PORTATIL TPK SMART WIND 12000BTU QUENTE FRIO 110V 60Hz TPK12K PTB WIND Blanco 288210",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_288210_1.JPG",
@@ -74413,7 +75377,11 @@ const PRODUCTS =
         "id": 12163,
         "ref": "284912",
         "brand": "PHILIPS",
+<<<<<<< HEAD
         "title_orig": "CAIXA DE SOM PHILIPS TAX2208 00 DE 8 30W BT 7HS LED TWS Negro 284912",
+=======
+        "title_orig": "CAIXA DE SOM PHILIPS TAX2208 00 DE 8 30W BT 7HS LED TWS Negro  284912",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Altavoz PHILIPS TAX2208 00 DE 8 30W BT 7HS LED TWS Negro 284912",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_284912_1.JPG",
@@ -74713,7 +75681,11 @@ const PRODUCTS =
         "id": 12178,
         "ref": "273001",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "CAMERA P CARRO SATE A DVR006 FHD 2 CAMERAS Negro 273001",
+=======
+        "title_orig": "CAMERA P CARRO SATE A DVR006 FHD 2 CAMERAS Negro  273001",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "CAMERA P CARRO SATE A DVR006 FHD 2 CAMERAS Negro 273001",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_273001_1.JPG",
@@ -75413,7 +76385,11 @@ const PRODUCTS =
         "id": 12216,
         "ref": "386522",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MOTO ELETRICA NEOM MS BBT 1000W Plata LARANJA 386522",
+=======
+        "title_orig": "MOTO ELETRICA NEOM MS BBT 1000W Plata LARANJA  386522",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MOTO ELETRICA NEOM MS BBT 1000W Plata LARANJA 386522",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_386522_1.JPG",
@@ -75553,7 +76529,11 @@ const PRODUCTS =
         "id": 12224,
         "ref": "394699",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MOTO ELETRICA FOSTON X14 MAX Negro 394699",
+=======
+        "title_orig": "MOTO ELETRICA FOSTON X14 MAX Negro  394699",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MOTO ELETRICA FOSTON X14 MAX Negro 394699",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_394699_1.JPG",
@@ -75573,7 +76553,11 @@ const PRODUCTS =
         "id": 12225,
         "ref": "386577",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "MOTO ELETRICA NEOM MX LX 800W Verde 386577",
+=======
+        "title_orig": "MOTO ELETRICA NEOM MX LX 800W Verde  386577",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MOTO ELETRICA NEOM MX LX 800W Verde 386577",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_386577_1.JPG",
@@ -75733,7 +76717,11 @@ const PRODUCTS =
         "id": 12233,
         "ref": "388781",
         "brand": "SMARTFY",
+<<<<<<< HEAD
         "title_orig": "MOTO ELETRICA SMARTFY BE07R 500W Rojo 388781",
+=======
+        "title_orig": "MOTO ELETRICA SMARTFY BE07R 500W Rojo  388781",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MOTO ELETRICA SMARTFY BE07R 500W Rojo 388781",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_388781_1.JPG",
@@ -76613,7 +77601,11 @@ const PRODUCTS =
         "id": 12277,
         "ref": "48987",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "Pantalla PARA PROJETOR KLIP KPS 380W 60X60 Blanco",
+=======
+        "title_orig": "TELA PARA PROJETOR KLIP KPS 380W 60X60 Blanco",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Pantalla PARA PROJETOR KLIP KPS 380W 60X60 Blanco",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_48987_1.JPG",
@@ -76973,7 +77965,11 @@ const PRODUCTS =
         "id": 12295,
         "ref": "348059",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "VENTILADOR FTX BRISA 3 VEL FS 40MF D PIE FS 40MF 60W 220V Negro 348059",
+=======
+        "title_orig": "VENTILADOR FTX BRISA 3 VEL FS 40MF D PIE FS 40MF 60W 220V Negro  348059",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "VENTILADOR FTX BRISA 3 VEL FS 40MF D PIE FS 40MF 60W 220V Negro 348059",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_348059_1.JPG",
@@ -77013,7 +78009,11 @@ const PRODUCTS =
         "id": 12297,
         "ref": "348048",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "VENTILADOR FTX AURA 3 VEL HB TF 15 02 D MESA 220V 45W 220V Negro 348048",
+=======
+        "title_orig": "VENTILADOR FTX AURA 3 VEL HB TF 15 02 D MESA 220V 45W 220V Negro  348048",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "VENTILADOR FTX AURA 3 VEL HB TF 15 02 D MESA 220V 45W 220V Negro 348048",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_348048_1.JPG",
@@ -77953,7 +78953,11 @@ const PRODUCTS =
         "id": 12345,
         "ref": "305748",
         "brand": "STAR",
+<<<<<<< HEAD
         "title_orig": "LEITOR 3NSTAR SC100 1 1D LASER USB C BASE Negro 305748",
+=======
+        "title_orig": "LEITOR 3NSTAR SC100 1 1D LASER USB C BASE Negro  305748",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "LEITOR 3NSTAR SC100 1 1D LASER USB C BASE Negro 305748",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_305748_1.JPG",
@@ -78193,7 +79197,11 @@ const PRODUCTS =
         "id": 12357,
         "ref": "25040",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "CALCULADORA TRULY 806 10 10 DIGITOS Gris 25040",
+=======
+        "title_orig": "CALCULADORA TRULY 806 10 10 DIGITOS Gris  25040",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "CALCULADORA TRULY 806 10 10 DIGITOS Gris 25040",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_25040_1.JPG",
@@ -79533,7 +80541,11 @@ const PRODUCTS =
         "id": 12429,
         "ref": "327741",
         "brand": "XIAOMI",
+<<<<<<< HEAD
         "title_orig": "FONE DE OUVIDO XIAOMI REDMI BUDS 6 M2429E1 BLUETOOTH Verde 327741",
+=======
+        "title_orig": "FONE DE OUVIDO XIAOMI REDMI BUDS 6 M2429E1 BLUETOOTH Verde  327741",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "FONE DE OUVIDO XIAOMI REDMI BUDS 6 M2429E1 BLUETOOTH Verde 327741",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_327741_1.JPG",
@@ -80473,7 +81485,11 @@ const PRODUCTS =
         "id": 12476,
         "ref": "393171",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "AQUECEDOR ELECTRICO MAGEFESA MGF1649 1200W 220V 50 60Hz Gris GIRATORIO 393171",
+=======
+        "title_orig": "AQUECEDOR ELECTRICO MAGEFESA MGF1649 1200W 220V 50 60HZ Gris GIRATORIO  393171",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "AQUECEDOR ELECTRICO MAGEFESA MGF1649 1200W 220V 50 60Hz Gris GIRATORIO 393171",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_393171_1.JPG",
@@ -80493,7 +81509,11 @@ const PRODUCTS =
         "id": 12477,
         "ref": "393182",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "AQUECEDOR ELECTRICO MAGEFESA MGF1662 SELENE 800W 220V 50 60Hz Gris 393182",
+=======
+        "title_orig": "AQUECEDOR ELECTRICO MAGEFESA MGF1662 SELENE 800W 220V 50 60HZ Gris  393182",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "AQUECEDOR ELECTRICO MAGEFESA MGF1662 SELENE 800W 220V 50 60Hz Gris 393182",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_393182_1.JPG",
@@ -80773,7 +81793,11 @@ const PRODUCTS =
         "id": 12491,
         "ref": "382281",
         "brand": "SMARTFY",
+<<<<<<< HEAD
         "title_orig": "AQUECEDOR ELECTRICO SMARTFY AE02B 3TEMP 1200W 220V 50 60Hz Negro",
+=======
+        "title_orig": "AQUECEDOR ELECTRICO SMARTFY AE02B 3TEMP 1200W 220V 50 60HZ Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "AQUECEDOR ELECTRICO SMARTFY AE02B 3TEMP 1200W 220V 50 60Hz Negro",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_382281_1.JPG",
@@ -80793,7 +81817,11 @@ const PRODUCTS =
         "id": 12492,
         "ref": "382305",
         "brand": "SMARTFY",
+<<<<<<< HEAD
         "title_orig": "AQUECEDOR ELECTRICO SMARTFY AQ01W 2TEM 800W 220V 50 60Hz Blanco",
+=======
+        "title_orig": "AQUECEDOR ELECTRICO SMARTFY AQ01W 2TEM 800W 220V 50 60HZ Blanco",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "AQUECEDOR ELECTRICO SMARTFY AQ01W 2TEM 800W 220V 50 60Hz Blanco",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_382305_1.JPG",
@@ -80813,7 +81841,11 @@ const PRODUCTS =
         "id": 12493,
         "ref": "382292",
         "brand": "SMARTFY",
+<<<<<<< HEAD
         "title_orig": "AQUECEDOR ELECTRICO SMARTFY AQ01W 2TEM 800W 110V 60Hz Blanco",
+=======
+        "title_orig": "AQUECEDOR ELECTRICO SMARTFY AQ01W 2TEM 800W 110V 60HZ Blanco",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "AQUECEDOR ELECTRICO SMARTFY AQ01W 2TEM 800W 110V 60Hz Blanco",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_382292_1.JPG",
@@ -80873,7 +81905,11 @@ const PRODUCTS =
         "id": 12496,
         "ref": "382270",
         "brand": "SMARTFY",
+<<<<<<< HEAD
         "title_orig": "AQUECEDOR ELECTRICO SMARTFY AE02B 3TEMP 1200W 110V 60Hz Negro",
+=======
+        "title_orig": "AQUECEDOR ELECTRICO SMARTFY AE02B 3TEMP 1200W 110V 60HZ Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "AQUECEDOR ELECTRICO SMARTFY AE02B 3TEMP 1200W 110V 60Hz Negro",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_382270_1.JPG",
@@ -80993,7 +82029,11 @@ const PRODUCTS =
         "id": 12502,
         "ref": "321803",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "RASTREADOR TILE STICKER T1901A BLUETOOTH Negro 321803",
+=======
+        "title_orig": "RASTREADOR TILE STICKER T1901A BLUETOOTH Negro  321803",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "RASTREADOR TILE STICKER T1901A BLUETOOTH Negro 321803",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_321803_1.JPG",
@@ -81013,7 +82053,11 @@ const PRODUCTS =
         "id": 12503,
         "ref": "282630",
         "brand": "APPLE",
+<<<<<<< HEAD
         "title_orig": "APPLE LOCALIZADOR SATE MF01 BLUETOOTH Blanco 282630",
+=======
+        "title_orig": "APPLE LOCALIZADOR SATE MF01 BLUETOOTH Blanco  282630",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "APPLE LOCALIZADOR SATE MF01 BLUETOOTH Blanco 282630",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_282630_1.JPG",
@@ -81093,7 +82137,11 @@ const PRODUCTS =
         "id": 12507,
         "ref": "301924",
         "brand": "SAMSUNG",
+<<<<<<< HEAD
         "title_orig": "LOCALIZADOR SAMSUNG GALAXY SMART TAG2 1PACK Blanco 301924",
+=======
+        "title_orig": "LOCALIZADOR SAMSUNG GALAXY SMART TAG2 1PACK Blanco  301924",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "LOCALIZADOR SAMSUNG GALAXY SMART TAG2 1PACK Blanco 301924",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_301924_1.JPG",
@@ -81473,7 +82521,11 @@ const PRODUCTS =
         "id": 12527,
         "ref": "388355",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "ASPIRADOR ROBO MIDEA VACUUM F4 BIVOLT 50 60Hz Negro 388355",
+=======
+        "title_orig": "ASPIRADOR ROBO MIDEA VACUUM F4 BIVOLT 50 60HZ Negro  388355",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "ASPIRADOR ROBO MIDEA VACUUM F4 BIVOLT 50 60Hz Negro 388355",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_388355_1.JPG",
@@ -81713,7 +82765,11 @@ const PRODUCTS =
         "id": 12539,
         "ref": "268374",
         "brand": "XIAOMI",
+<<<<<<< HEAD
         "title_orig": "ROBO ASPIRADOR XIAOMI ROBOT VACUUM X20 ASPIRA E ESFREGA 4L C102 BHR8124EU 220V Blanco 268374",
+=======
+        "title_orig": "ROBO ASPIRADOR XIAOMI ROBOT VACUUM X20 ASPIRA E ESFREGA 4L C102 BHR8124EU 220V Blanco  268374",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "ROBO ASPIRADOR XIAOMI ROBOT VACUUM X20 ASPIRA E ESFREGA 4L C102 BHR8124EU 220V Blanco 268374",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_268374_1.JPG",
@@ -81873,7 +82929,11 @@ const PRODUCTS =
         "id": 12547,
         "ref": "210833",
         "brand": "XIAOMI",
+<<<<<<< HEAD
         "title_orig": "ROBO ASPIRADOR XIAOMI MI ROBOT VACUUM S10 B106GL BIVOLT Blanco 210833",
+=======
+        "title_orig": "ROBO ASPIRADOR XIAOMI MI ROBOT VACUUM S10 B106GL BIVOLT Blanco  210833",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "ROBO ASPIRADOR XIAOMI MI ROBOT VACUUM S10 B106GL BIVOLT Blanco 210833",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_210833_1.JPG",
@@ -82093,7 +83153,11 @@ const PRODUCTS =
         "id": 12559,
         "ref": "237348",
         "brand": "APPLE",
+<<<<<<< HEAD
         "title_orig": "APPLE MACBOOK AIR 2020 M1 OCTA CORE Pantalla RETINA 13 3 8GB RAM 256GB SSD MGN93BZ A Plata",
+=======
+        "title_orig": "APPLE MACBOOK AIR 2020 M1 OCTA CORE TELA RETINA 13 3 8GB RAM 256GB SSD MGN93BZ A Plata",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "APPLE MACBOOK AIR 2020 M1 OCTA CORE Pantalla RETINA 13 3 8GB RAM 256GB SSD MGN93BZ A Plata",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_237348_1.JPG",
@@ -82113,7 +83177,11 @@ const PRODUCTS =
         "id": 12561,
         "ref": "127390",
         "brand": "APPLE",
+<<<<<<< HEAD
         "title_orig": "APPLE MACBOOK AIR 2020 MGN93LL A A2337 M1 OCTA CORE 8GB RAM 256GB SSD Pantalla RETINA 13 3 MACOS INGLES Plata",
+=======
+        "title_orig": "APPLE MACBOOK AIR 2020 MGN93LL A A2337 M1 OCTA CORE 8GB RAM 256GB SSD TELA RETINA 13 3 MACOS INGLES Plata",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "APPLE MACBOOK AIR 2020 MGN93LL A A2337 M1 OCTA CORE 8GB RAM 256GB SSD Pantalla RETINA 13 3 MACOS INGLES Plata",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_127390_1.JPG",
@@ -82153,7 +83221,11 @@ const PRODUCTS =
         "id": 12563,
         "ref": "246023",
         "brand": "APPLE",
+<<<<<<< HEAD
         "title_orig": "APPLE MACBOOK AIR MLXW3LL A A2681 M2 OCTA CORE 8GB RAM 256GB SSD Pantalla RETINA 13 6 MACOS INGLES Gris ESPACIAL",
+=======
+        "title_orig": "APPLE MACBOOK AIR MLXW3LL A A2681 M2 OCTA CORE 8GB RAM 256GB SSD TELA RETINA 13 6 MACOS INGLES Gris ESPACIAL",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "APPLE MACBOOK AIR MLXW3LL A A2681 M2 OCTA CORE 8GB RAM 256GB SSD Pantalla RETINA 13 6 MACOS INGLES Gris ESPACIAL",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_246023_1.JPG",
@@ -82633,7 +83705,11 @@ const PRODUCTS =
         "id": 12589,
         "ref": "336280",
         "brand": "APPLE",
+<<<<<<< HEAD
         "title_orig": "APPLE IMAC 2024 A3247 M4 Pantalla 24 IPS 4 5K 16GB RAM 256GB SSD MWUE3LL A Verde",
+=======
+        "title_orig": "APPLE IMAC 2024 A3247 M4 TELA 24 IPS 4 5K 16GB RAM 256GB SSD MWUE3LL A Verde",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "APPLE IMAC 2024 A3247 M4 Pantalla 24 IPS 4 5K 16GB RAM 256GB SSD MWUE3LL A Verde",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_336280_1.JPG",
@@ -82653,7 +83729,11 @@ const PRODUCTS =
         "id": 12590,
         "ref": "357766",
         "brand": "APPLE",
+<<<<<<< HEAD
         "title_orig": "APPLE IMAC 2024 A3247 M4 Pantalla 24 IPS 4 5K 16GB RAM 256GB SSD MWUC3LL A Plata 357766",
+=======
+        "title_orig": "APPLE IMAC 2024 A3247 M4 TELA 24 IPS 4 5K 16GB RAM 256GB SSD MWUC3LL A Plata  357766",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "APPLE IMAC 2024 A3247 M4 Pantalla 24 IPS 4 5K 16GB RAM 256GB SSD MWUC3LL A Plata 357766",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_357766_1.JPG",
@@ -82713,7 +83793,11 @@ const PRODUCTS =
         "id": 12593,
         "ref": "398738",
         "brand": "LENOVO",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK LENOVO V15 G4 IRU 83A100PBUS INTEL CORE I3 1315U 1 20GHZ 4 50GHZ 16GB RAM 512GB SSD Pantalla 15 6 FULL HD 1920 X 1080 WINDOWS 11 HOME ETHERNET RJ45 INGLES BUSINESS Negro",
+=======
+        "title_orig": "NOTEBOOK LENOVO V15 G4 IRU 83A100PBUS INTEL CORE I3 1315U 1 20GHZ 4 50GHZ 16GB RAM 512GB SSD TELA 15 6 FULL HD 1920 X 1080 WINDOWS 11 HOME ETHERNET RJ45 INGLES BUSINESS Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK LENOVO V15 G4 IRU 83A100PBUS INTEL CORE I3 1315U 1 20GHZ 4 50GHZ 16GB RAM 512GB SSD Pantalla 15 6 FULL HD 1920 X 1080 WINDOWS 11 HOME ETHERNET RJ45 INGLES BUSINESS Negro",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_398738_1.JPG",
@@ -82753,7 +83837,11 @@ const PRODUCTS =
         "id": 12595,
         "ref": "402870",
         "brand": "LENOVO",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK LENOVO IDEAPAD 5 2 IN 1 16IRU9 83DU004VUS INTEL CORE 5 120U 1 40GHZ 5 00GHZ 16GB RAM 512GB SSD Pantalla 16 TOUCH 360 WUXGA 1920X1200 IPS WINDOWS 11 HOME INGLES LUNA Gris",
+=======
+        "title_orig": "NOTEBOOK LENOVO IDEAPAD 5 2 IN 1 16IRU9 83DU004VUS INTEL CORE 5 120U 1 40GHZ 5 00GHZ 16GB RAM 512GB SSD TELA 16 TOUCH 360 WUXGA 1920X1200 IPS WINDOWS 11 HOME INGLES LUNA Gris",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK LENOVO IDEAPAD 5 2 IN 1 16IRU9 83DU004VUS INTEL CORE 5 120U 1 40GHZ 5 00GHZ 16GB RAM 512GB SSD Pantalla 16 TOUCH 360 WUXGA 1920X1200 IPS WINDOWS 11 HOME INGLES LUNA Gris",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_402870_1.JPG",
@@ -82773,7 +83861,11 @@ const PRODUCTS =
         "id": 12596,
         "ref": "403938",
         "brand": "HP",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK LENOVO IDEAPAD 5 2 IN 1 16AHP9 83DS0056US AMD RYZEN 7 8845HS 3 8GHZ 5 10GHZ 16GB RAM 1TB SSD Pantalla 16 TOUCH 360 WUXGA 1920X1200 IPS WINDOWS 11 HOME INGLES LUNA Gris",
+=======
+        "title_orig": "NOTEBOOK LENOVO IDEAPAD 5 2 IN 1 16AHP9 83DS0056US AMD RYZEN 7 8845HS 3 8GHZ 5 10GHZ 16GB RAM 1TB SSD TELA 16 TOUCH 360 WUXGA 1920X1200 IPS WINDOWS 11 HOME INGLES LUNA Gris",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK LENOVO IDEAPAD 5 2 IN 1 16AHP9 83DS0056US AMD RYZEN 7 8845HS 3 8GHZ 5 10GHZ 16GB RAM 1TB SSD Pantalla 16 TOUCH 360 WUXGA 1920X1200 IPS WINDOWS 11 HOME INGLES LUNA Gris",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_403938_1.JPG",
@@ -82793,7 +83885,11 @@ const PRODUCTS =
         "id": 12597,
         "ref": "404737",
         "brand": "LENOVO",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK LENOVO THINKPAD L14 GEN 4 21H1008DUS INTEL CORE I7 1365U 3 90Hz 5 20GHZ 16GB3 RAM 512GB SSD Pantalla 14 TOUCH FULL HD 1920 X 1080 WINDOWS 11 HOME INGLES Negro",
+=======
+        "title_orig": "NOTEBOOK LENOVO THINKPAD L14 GEN 4 21H1008DUS INTEL CORE I7 1365U 3 90HZ 5 20GHZ 16GB3 RAM 512GB SSD TELA 14 TOUCH FULL HD 1920 X 1080 WINDOWS 11 HOME INGLES Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK LENOVO THINKPAD L14 GEN 4 21H1008DUS INTEL CORE I7 1365U 3 90Hz 5 20GHZ 16GB3 RAM 512GB SSD Pantalla 14 TOUCH FULL HD 1920 X 1080 WINDOWS 11 HOME INGLES Negro",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_404737_1.JPG",
@@ -82873,7 +83969,11 @@ const PRODUCTS =
         "id": 12601,
         "ref": "407448",
         "brand": "LENOVO",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK LENOVO THINKPAD E16 GEN 2 21M5000HUS AMD RYZEN 5 7535U 2 90Hz 4 55GHZ 8GB RAM 256GB SSD Pantalla 16 WUXGA 2K 1920 X 1200 IPS WINDOWS 11 PRO INGLES Negro",
+=======
+        "title_orig": "NOTEBOOK LENOVO THINKPAD E16 GEN 2 21M5000HUS AMD RYZEN 5 7535U 2 90HZ 4 55GHZ 8GB RAM 256GB SSD TELA 16 WUXGA 2K 1920 X 1200 IPS WINDOWS 11 PRO INGLES Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK LENOVO THINKPAD E16 GEN 2 21M5000HUS AMD RYZEN 5 7535U 2 90Hz 4 55GHZ 8GB RAM 256GB SSD Pantalla 16 WUXGA 2K 1920 X 1200 IPS WINDOWS 11 PRO INGLES Negro",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_407448_1.JPG",
@@ -82893,7 +83993,11 @@ const PRODUCTS =
         "id": 12602,
         "ref": "406920",
         "brand": "LENOVO",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK LENOVO IDEAPAD PRO 5 16IAH10 83JM0019US INTEL CORE ULTRA 9 285H 2 90GHZ 5 40GHZ 32GB RAM 1TB SSD Pantalla 16 TOUCH 2 8K 2880 X 1800 OLED GEFORCE RTX5050 8GB WINDOWS 11 HOME INGLES LUNA Gris CODI",
+=======
+        "title_orig": "NOTEBOOK LENOVO IDEAPAD PRO 5 16IAH10 83JM0019US INTEL CORE ULTRA 9 285H 2 90GHZ 5 40GHZ 32GB RAM 1TB SSD TELA 16 TOUCH 2 8K 2880 X 1800 OLED GEFORCE RTX5050 8GB WINDOWS 11 HOME INGLES LUNA Gris CODI",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK LENOVO IDEAPAD PRO 5 16IAH10 83JM0019US INTEL CORE ULTRA 9 285H 2 90GHZ 5 40GHZ 32GB RAM 1TB SSD Pantalla 16 TOUCH 2 8K 2880 X 1800 OLED GEFORCE RTX5050 8GB WINDOWS 11 HOME INGLES LUNA Gris CODI",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_406920_1.JPG",
@@ -82913,7 +84017,11 @@ const PRODUCTS =
         "id": 12603,
         "ref": "407437",
         "brand": "LENOVO",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK LENOVO V14 G5 IRL 83HDA06JUS INTEL CORE 7 240H 2 50GHZ 5 20GHZ 16GB RAM 1TB SSD Pantalla 14 FULL HD 1920 X 1080 WINDOWS 11 HOME ETHERNET RJ45 INGLES BUSINESS Negro 407437",
+=======
+        "title_orig": "NOTEBOOK LENOVO V14 G5 IRL 83HDA06JUS INTEL CORE 7 240H 2 50GHZ 5 20GHZ 16GB RAM 1TB SSD TELA 14 FULL HD 1920 X 1080 WINDOWS 11 HOME ETHERNET RJ45 INGLES BUSINESS Negro  407437",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK LENOVO V14 G5 IRL 83HDA06JUS INTEL CORE 7 240H 2 50GHZ 5 20GHZ 16GB RAM 1TB SSD Pantalla 14 FULL HD 1920 X 1080 WINDOWS 11 HOME ETHERNET RJ45 INGLES BUSINESS Negro 407437",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_407437_1.JPG",
@@ -82953,7 +84061,11 @@ const PRODUCTS =
         "id": 12605,
         "ref": "388827",
         "brand": "DELL",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK DELL 16 LDC16251 7537 PUS INTEL CORE 7 150U 1 80Hz 5 40GHZ 16GB RAM 1TB SSD Pantalla 16 TOUCH FULL HD 1920 X 1080 WINDOWS 11 HOME INGLES ICE Azul",
+=======
+        "title_orig": "NOTEBOOK DELL 16 LDC16251 7537 PUS INTEL CORE 7 150U 1 80HZ 5 40GHZ 16GB RAM 1TB SSD TELA 16 TOUCH FULL HD 1920 X 1080 WINDOWS 11 HOME INGLES ICE Azul",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK DELL 16 LDC16251 7537 PUS INTEL CORE 7 150U 1 80Hz 5 40GHZ 16GB RAM 1TB SSD Pantalla 16 TOUCH FULL HD 1920 X 1080 WINDOWS 11 HOME INGLES ICE Azul",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_388827_1.JPG",
@@ -82993,7 +84105,11 @@ const PRODUCTS =
         "id": 12607,
         "ref": "396040",
         "brand": "DELL",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK DELL INSPIRON 14 I5441 SX8685GRY PUS SNAPDRAGON X PLUS 8 CORE X1P 42 100 3 40GHZ NPU 45 TOPS 16GB RAM 1TB SSD Pantalla 14 FULL HD WUXGA 1920 X 1200 WINDOWS 11 HOME COPILOT PC INGLES TITAN Gris C",
+=======
+        "title_orig": "NOTEBOOK DELL INSPIRON 14 I5441 SX8685GRY PUS SNAPDRAGON X PLUS 8 CORE X1P 42 100 3 40GHZ NPU 45 TOPS 16GB RAM 1TB SSD TELA 14 FULL HD WUXGA 1920 X 1200 WINDOWS 11 HOME COPILOT PC INGLES TITAN Gris C",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK DELL INSPIRON 14 I5441 SX8685GRY PUS SNAPDRAGON X PLUS 8 CORE X1P 42 100 3 40GHZ NPU 45 TOPS 16GB RAM 1TB SSD Pantalla 14 FULL HD WUXGA 1920 X 1200 WINDOWS 11 HOME COPILOT PC INGLES TITAN Gris C",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_396040_1.JPG",
@@ -83013,7 +84129,11 @@ const PRODUCTS =
         "id": 12608,
         "ref": "256551",
         "brand": "DELL",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK DELL INSPIRON 15 3000 3520 INTEL CORE I5 1235U 3 30GHZ 4 40GHZ 8GB RAM 512GB SSD Pantalla 15 6 FULL HD WINDOWS 11 HOME INGLES CARBON Negro",
+=======
+        "title_orig": "NOTEBOOK DELL INSPIRON 15 3000 3520 INTEL CORE I5 1235U 3 30GHZ 4 40GHZ 8GB RAM 512GB SSD TELA 15 6 FULL HD WINDOWS 11 HOME INGLES CARBON Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK DELL INSPIRON 15 3000 3520 INTEL CORE I5 1235U 3 30GHZ 4 40GHZ 8GB RAM 512GB SSD Pantalla 15 6 FULL HD WINDOWS 11 HOME INGLES CARBON Negro",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_256551_1.JPG",
@@ -83033,7 +84153,11 @@ const PRODUCTS =
         "id": 12609,
         "ref": "276329",
         "brand": "DELL",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK DELL INSPIRON 15 I3535 A813BLK PUS AMD RYZEN 7 7730U 2 00Hz 4 50GHZ 16GB RAM 512GB SSD Pantalla 15 6 TOUCH FULL HD WINDOWS 11 HOME INGLES CARBON Negro",
+=======
+        "title_orig": "NOTEBOOK DELL INSPIRON 15 I3535 A813BLK PUS AMD RYZEN 7 7730U 2 00HZ 4 50GHZ 16GB RAM 512GB SSD TELA 15 6 TOUCH FULL HD WINDOWS 11 HOME INGLES CARBON Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK DELL INSPIRON 15 I3535 A813BLK PUS AMD RYZEN 7 7730U 2 00Hz 4 50GHZ 16GB RAM 512GB SSD Pantalla 15 6 TOUCH FULL HD WINDOWS 11 HOME INGLES CARBON Negro",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_276329_1.JPG",
@@ -83053,7 +84177,11 @@ const PRODUCTS =
         "id": 12610,
         "ref": "267408",
         "brand": "DELL",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK DELL G15 G5530 7388GRY PUS INTEL CORE I7 13650HX 2 60Hz 4 90GHZ 16GB RAM 1TB SSD Pantalla 15 6 FULL HD 120Hz GEFORCE RTX4060 8GB WINDOWS 11 HOME INGLES DARK SHADOW Gris 267408",
+=======
+        "title_orig": "NOTEBOOK DELL G15 G5530 7388GRY PUS INTEL CORE I7 13650HX 2 60HZ 4 90GHZ 16GB RAM 1TB SSD TELA 15 6 FULL HD 120HZ GEFORCE RTX4060 8GB WINDOWS 11 HOME INGLES DARK SHADOW Gris  267408",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK DELL G15 G5530 7388GRY PUS INTEL CORE I7 13650HX 2 60Hz 4 90GHZ 16GB RAM 1TB SSD Pantalla 15 6 FULL HD 120Hz GEFORCE RTX4060 8GB WINDOWS 11 HOME INGLES DARK SHADOW Gris 267408",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_267408_1.JPG",
@@ -83073,7 +84201,11 @@ const PRODUCTS =
         "id": 12611,
         "ref": "293631",
         "brand": "DELL",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK DELL INSPIRON 15 3000 3535 AMD RYZEN 5 7520U 2 80Hz 4 30GHZ 8GB RAM 512GB SSD Pantalla 15 6 FULL HD WINDOWS 11 HOME INGLES CARBON Negro",
+=======
+        "title_orig": "NOTEBOOK DELL INSPIRON 15 3000 3535 AMD RYZEN 5 7520U 2 80HZ 4 30GHZ 8GB RAM 512GB SSD TELA 15 6 FULL HD WINDOWS 11 HOME INGLES CARBON Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK DELL INSPIRON 15 3000 3535 AMD RYZEN 5 7520U 2 80Hz 4 30GHZ 8GB RAM 512GB SSD Pantalla 15 6 FULL HD WINDOWS 11 HOME INGLES CARBON Negro",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_293631_1.JPG",
@@ -83113,7 +84245,11 @@ const PRODUCTS =
         "id": 12613,
         "ref": "304938",
         "brand": "DELL",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK DELL LATITUDE 7455 SNAPDRAGON X PLUS X1P 64 100 3 4GHZ 16GB RAM 512G SSD Pantalla 14 TOUCH WQXGA QHD IPS WINDOWS 11 PRO INGLES Gris",
+=======
+        "title_orig": "NOTEBOOK DELL LATITUDE 7455 SNAPDRAGON X PLUS X1P 64 100 3 4GHZ 16GB RAM 512G SSD TELA 14 TOUCH WQXGA QHD IPS WINDOWS 11 PRO INGLES Gris",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK DELL LATITUDE 7455 SNAPDRAGON X PLUS X1P 64 100 3 4GHZ 16GB RAM 512G SSD Pantalla 14 TOUCH WQXGA QHD IPS WINDOWS 11 PRO INGLES Gris",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_304938_1.JPG",
@@ -83173,7 +84309,11 @@ const PRODUCTS =
         "id": 12616,
         "ref": "298490",
         "brand": "DELL",
+<<<<<<< HEAD
         "title_orig": "MONITOR DELL ALIENWARE AW2524HF 25 FULL HD 1920 X 1080 0 5Ms 500Hz IPS 1XHDMI 2 1 2XDISPLAYPORT 1 4 4XUSB A 3 2 1XUSB B AMD FREESYNC PREMIUM AJUSTE ALTURA PIVO ROTACAO Negro",
+=======
+        "title_orig": "MONITOR DELL ALIENWARE AW2524HF 25 FULL HD 1920 X 1080 0 5MS 500HZ IPS 1XHDMI 2 1 2XDISPLAYPORT 1 4 4XUSB A 3 2 1XUSB B AMD FREESYNC PREMIUM AJUSTE ALTURA PIVO ROTACAO Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR DELL ALIENWARE AW2524HF 25 FULL HD 1920 X 1080 0 5Ms 500Hz IPS 1XHDMI 2 1 2XDISPLAYPORT 1 4 4XUSB A 3 2 1XUSB B AMD FREESYNC PREMIUM AJUSTE ALTURA PIVO ROTACAO Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_298490_1.JPG",
@@ -83293,7 +84433,11 @@ const PRODUCTS =
         "id": 12622,
         "ref": "385218",
         "brand": "ACER",
+<<<<<<< HEAD
         "title_orig": "DESKTOP ALL IN ONE ACER C24 2G UR14 R5 7430U 8GB 512 23 8 W11 INGLES Negro 385218",
+=======
+        "title_orig": "DESKTOP ALL IN ONE ACER C24 2G UR14 R5 7430U 8GB 512 23 8 W11 INGLES Negro  385218",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "DESKTOP ALL IN ONE ACER C24 2G UR14 R5 7430U 8GB 512 23 8 W11 INGLES Negro 385218",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_385218_1.JPG",
@@ -83333,7 +84477,11 @@ const PRODUCTS =
         "id": 12624,
         "ref": "402915",
         "brand": "ACER",
+<<<<<<< HEAD
         "title_orig": "MONITOR GAMER ACER NITRO XVM270M3 27 FULL HD IPS 180Hz 0 5Ms FREESYNC PREMIUM M3WIIPR UM HX0AA 306 Blanco",
+=======
+        "title_orig": "MONITOR GAMER ACER NITRO XVM270M3 27 FULL HD IPS 180HZ 0 5MS FREESYNC PREMIUM M3WIIPR UM HX0AA 306 Blanco",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR GAMER ACER NITRO XVM270M3 27 FULL HD IPS 180Hz 0 5Ms FREESYNC PREMIUM M3WIIPR UM HX0AA 306 Blanco",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_402915_1.JPG",
@@ -83453,7 +84601,11 @@ const PRODUCTS =
         "id": 12630,
         "ref": "386040",
         "brand": "TCL",
+<<<<<<< HEAD
         "title_orig": "TV 40 TCL 40Q3K QLED ANDROID 2K Negro 386040",
+=======
+        "title_orig": "TV 40 TCL 40Q3K QLED ANDROID 2K Negro  386040",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "TV 40 TCL 40Q3K QLED ANDROID 2K Negro 386040",
         "category": "Televisores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_386040_1.JPG",
@@ -84113,7 +85265,11 @@ const PRODUCTS =
         "id": 12663,
         "ref": "389973",
         "brand": "SONY",
+<<<<<<< HEAD
         "title_orig": "CONSOLE SONY PLAYSTATION 5 PS5 SLIM CFI 2015 4K 120Hz 1TB BIVOLT COM DISCO Blanco",
+=======
+        "title_orig": "CONSOLE SONY PLAYSTATION 5 PS5 SLIM CFI 2015 4K 120HZ 1TB BIVOLT COM DISCO Blanco",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "CONSOLE SONY PLAYSTATION 5 PS5 SLIM CFI 2015 4K 120Hz 1TB BIVOLT COM DISCO Blanco",
         "category": "Consolas y Videojuegos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_389973_1.JPG",
@@ -84313,7 +85469,11 @@ const PRODUCTS =
         "id": 12673,
         "ref": "222847",
         "brand": "SONY",
+<<<<<<< HEAD
         "title_orig": "CONTROLE SONY DUALSHOCK 4 PLAYSTATION 4 PS4 SEM FIO MICRO USB ORIGINAL Rojo 222847",
+=======
+        "title_orig": "CONTROLE SONY DUALSHOCK 4 PLAYSTATION 4 PS4 SEM FIO MICRO USB ORIGINAL Rojo  222847",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "CONTROLE SONY DUALSHOCK 4 PLAYSTATION 4 PS4 SEM FIO MICRO USB ORIGINAL Rojo 222847",
         "category": "Consolas y Videojuegos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_222847_1.JPG",
@@ -84353,7 +85513,11 @@ const PRODUCTS =
         "id": 12675,
         "ref": "398591",
         "brand": "NINTENDO",
+<<<<<<< HEAD
         "title_orig": "CONTROLE SUPER NINTENDO PLAY GAME PADRAO USB Gris 398591",
+=======
+        "title_orig": "CONTROLE SUPER NINTENDO PLAY GAME PADRAO USB Gris  398591",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "CONTROLE SUPER NINTENDO PLAY GAME PADRAO USB Gris 398591",
         "category": "Consolas y Videojuegos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_398591_1.JPG",
@@ -84673,7 +85837,11 @@ const PRODUCTS =
         "id": 12691,
         "ref": "232343",
         "brand": "NINTENDO",
+<<<<<<< HEAD
         "title_orig": "CONSOLE NINTENDO SWITCH LITE Gris JP HDH S GAZAA 232343",
+=======
+        "title_orig": "CONSOLE NINTENDO SWITCH LITE Gris JP HDH S GAZAA  232343",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "CONSOLE NINTENDO SWITCH LITE Gris JP HDH S GAZAA 232343",
         "category": "Consolas y Videojuegos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_232343_1.JPG",
@@ -84753,7 +85921,11 @@ const PRODUCTS =
         "id": 12695,
         "ref": "365710",
         "brand": "NINTENDO",
+<<<<<<< HEAD
         "title_orig": "CONSOLE NINTENDO SWITCH OLED 64GB 7 Blanco HEG 001 365710",
+=======
+        "title_orig": "CONSOLE NINTENDO SWITCH OLED 64GB 7 Blanco HEG 001  365710",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "CONSOLE NINTENDO SWITCH OLED 64GB 7 Blanco HEG 001 365710",
         "category": "Consolas y Videojuegos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_365710_1.JPG",
@@ -84893,7 +86065,11 @@ const PRODUCTS =
         "id": 12702,
         "ref": "92538",
         "brand": "CORSAIR",
+<<<<<<< HEAD
         "title_orig": "MOUSE CORSAIR KATAR PRO RGB CH 930C011 NA Negro CH 930C011 NA 92538",
+=======
+        "title_orig": "MOUSE CORSAIR KATAR PRO RGB CH 930C011 NA Negro CH 930C011 NA  92538",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MOUSE CORSAIR KATAR PRO RGB CH 930C011 NA Negro CH 930C011 NA 92538",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_92538_1.JPG",
@@ -84993,7 +86169,11 @@ const PRODUCTS =
         "id": 12707,
         "ref": "101428",
         "brand": "REDRAGON",
+<<<<<<< HEAD
         "title_orig": "TECLADO GAMER MECANICO REDRAGON KUMARA K552W RGB 80 USB SWITCH OUTEMU BLUE INGLES Blanco 101428",
+=======
+        "title_orig": "TECLADO GAMER MECANICO REDRAGON KUMARA K552W RGB 80 USB SWITCH OUTEMU BLUE INGLES Blanco  101428",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "TECLADO GAMER MECANICO REDRAGON KUMARA K552W RGB 80 USB SWITCH OUTEMU BLUE INGLES Blanco 101428",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_101428_1.JPG",
@@ -85393,7 +86573,11 @@ const PRODUCTS =
         "id": 12727,
         "ref": "256652",
         "brand": "INTEL",
+<<<<<<< HEAD
         "title_orig": "WATER COOLER CPU AIGO DARKFLASH RADIANT DCS 240 LIQUID ARGB Negro 240MM INTEL 115X 1200 1700 2011 V3 AMD AM3 AM4 AM5 FM2 256652",
+=======
+        "title_orig": "WATER COOLER CPU AIGO DARKFLASH RADIANT DCS 240 LIQUID ARGB Negro 240MM INTEL 115X 1200 1700 2011 V3 AMD AM3 AM4 AM5 FM2   256652",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "WATER COOLER CPU AIGO DARKFLASH RADIANT DCS 240 LIQUID ARGB Negro 240MM INTEL 115X 1200 1700 2011 V3 AMD AM3 AM4 AM5 FM2 256652",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_256652_1.JPG",
@@ -85513,7 +86697,11 @@ const PRODUCTS =
         "id": 12733,
         "ref": "297444",
         "brand": "INTEL",
+<<<<<<< HEAD
         "title_orig": "WATER COOLER CPU AIGO DARKFLASH NEBULA DN240S 2 1 IPS DISPLAY LIQUID ARGB Negro 240MM INTEL 115X 1200 1700 AMD AM3 AM4 AM5 297444",
+=======
+        "title_orig": "WATER COOLER CPU AIGO DARKFLASH NEBULA DN240S 2 1 IPS DISPLAY LIQUID ARGB Negro 240MM INTEL 115X 1200 1700 AMD AM3 AM4 AM5  297444",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "WATER COOLER CPU AIGO DARKFLASH NEBULA DN240S 2 1 IPS DISPLAY LIQUID ARGB Negro 240MM INTEL 115X 1200 1700 AMD AM3 AM4 AM5 297444",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_297444_1.JPG",
@@ -85793,7 +86981,11 @@ const PRODUCTS =
         "id": 12747,
         "ref": "402667",
         "brand": "COUGAR",
+<<<<<<< HEAD
         "title_orig": "SOFA GAMER COUGAR FIDOM COMFORT Negro G 402667",
+=======
+        "title_orig": "SOFA GAMER COUGAR FIDOM COMFORT Negro G  402667",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "SOFA GAMER COUGAR FIDOM COMFORT Negro G 402667",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_402667_1.JPG",
@@ -87273,7 +88465,11 @@ const PRODUCTS =
         "id": 12821,
         "ref": "301935",
         "brand": "ZOTAC",
+<<<<<<< HEAD
         "title_orig": "Tarjeta de Video ZOTAC AMP EXTREME INFINITY 16GB NVIDIA GEFORCE RTX5080 GDDR7 ZT B50800B 10P P288 1N762 100Z 256BITS 2670MHZ 1XHDMI 3XDISPLAYPORT Negro 301935",
+=======
+        "title_orig": "PLACA DE VIDEO ZOTAC AMP EXTREME INFINITY 16GB NVIDIA GEFORCE RTX5080 GDDR7 ZT B50800B 10P P288 1N762 100Z 256BITS 2670MHZ 1XHDMI 3XDISPLAYPORT Negro  301935",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Tarjeta de Video ZOTAC AMP EXTREME INFINITY 16GB NVIDIA GEFORCE RTX5080 GDDR7 ZT B50800B 10P P288 1N762 100Z 256BITS 2670MHZ 1XHDMI 3XDISPLAYPORT Negro 301935",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_301935_1.JPG",
@@ -87893,7 +89089,11 @@ const PRODUCTS =
         "id": 12852,
         "ref": "387905",
         "brand": "SAMSUNG",
+<<<<<<< HEAD
         "title_orig": "LOCALIZADOR SAMSUNG GALAXY SMART TAG2 1PACK Negro EI T5600BWEGWW 387905",
+=======
+        "title_orig": "LOCALIZADOR SAMSUNG GALAXY SMART TAG2 1PACK Negro EI T5600BWEGWW  387905",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "LOCALIZADOR SAMSUNG GALAXY SMART TAG2 1PACK Negro EI T5600BWEGWW 387905",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_387905_1.JPG",
@@ -88033,7 +89233,11 @@ const PRODUCTS =
         "id": 12859,
         "ref": "334526",
         "brand": "GALAX",
+<<<<<<< HEAD
         "title_orig": "Tarjeta de Video GALAX GEFORCE RTX5080 GALAX HOF GAMING EDITION 16GB GDDR7 256BITS 1X HDMI 3X DISPLAYPORT 58NZN6MDDPFG Blanco",
+=======
+        "title_orig": "PLACA DE VIDEO GALAX GEFORCE RTX5080 GALAX HOF GAMING EDITION 16GB GDDR7 256BITS 1X HDMI 3X DISPLAYPORT 58NZN6MDDPFG Blanco",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Tarjeta de Video GALAX GEFORCE RTX5080 GALAX HOF GAMING EDITION 16GB GDDR7 256BITS 1X HDMI 3X DISPLAYPORT 58NZN6MDDPFG Blanco",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_334526_1.JPG",
@@ -88093,7 +89297,11 @@ const PRODUCTS =
         "id": 12862,
         "ref": "334313",
         "brand": "GALAX",
+<<<<<<< HEAD
         "title_orig": "Tarjeta de Video GALAX GEFORCE RTX5070TI HALL OF FAME GAMING 16GB GDDR7 256BITS 1X HDMI 3X DISPLAYPORT 57IZN6MDCXHS Negro",
+=======
+        "title_orig": "PLACA DE VIDEO GALAX GEFORCE RTX5070TI HALL OF FAME GAMING 16GB GDDR7 256BITS 1X HDMI 3X DISPLAYPORT 57IZN6MDCXHS Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Tarjeta de Video GALAX GEFORCE RTX5070TI HALL OF FAME GAMING 16GB GDDR7 256BITS 1X HDMI 3X DISPLAYPORT 57IZN6MDCXHS Negro",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_334313_1.JPG",
@@ -88633,7 +89841,11 @@ const PRODUCTS =
         "id": 12889,
         "ref": "363561",
         "brand": "RAZER",
+<<<<<<< HEAD
         "title_orig": "TECLADO GAMER MECANICO RAZER BLACKWIDOW V4 RGB 75 USB C SWITCH RAZER ORANGE INGLES Blanco 363561",
+=======
+        "title_orig": "TECLADO GAMER MECANICO RAZER BLACKWIDOW V4 RGB 75 USB C SWITCH RAZER ORANGE INGLES Blanco  363561",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "TECLADO GAMER MECANICO RAZER BLACKWIDOW V4 RGB 75 USB C SWITCH RAZER ORANGE INGLES Blanco 363561",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_363561_1.JPG",
@@ -88693,7 +89905,11 @@ const PRODUCTS =
         "id": 12892,
         "ref": "364260",
         "brand": "RAZER",
+<<<<<<< HEAD
         "title_orig": "TECLADO GAMER MECANICO RAZER HUNTSMAN MINI RGB 60 USB C SWITCH RAZER CLICKY ROXO INGLES Blanco MERCURY 364260",
+=======
+        "title_orig": "TECLADO GAMER MECANICO RAZER HUNTSMAN MINI RGB 60 USB C SWITCH RAZER CLICKY ROXO INGLES Blanco MERCURY  364260",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "TECLADO GAMER MECANICO RAZER HUNTSMAN MINI RGB 60 USB C SWITCH RAZER CLICKY ROXO INGLES Blanco MERCURY 364260",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_364260_1.JPG",
@@ -88773,7 +89989,11 @@ const PRODUCTS =
         "id": 12896,
         "ref": "363831",
         "brand": "RAZER",
+<<<<<<< HEAD
         "title_orig": "TECLADO GAMER MECANICO RAZER HUNTSMAN MINI RGB 60 USB C SWITCH RAZER CLICKY ROXO INGLES Blanco MERCURY 363831",
+=======
+        "title_orig": "TECLADO GAMER MECANICO RAZER HUNTSMAN MINI RGB 60 USB C SWITCH RAZER CLICKY ROXO INGLES Blanco MERCURY  363831",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "TECLADO GAMER MECANICO RAZER HUNTSMAN MINI RGB 60 USB C SWITCH RAZER CLICKY ROXO INGLES Blanco MERCURY 363831",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_363831_1.JPG",
@@ -89013,7 +90233,11 @@ const PRODUCTS =
         "id": 12908,
         "ref": "117457",
         "brand": "HYPERX",
+<<<<<<< HEAD
         "title_orig": "FONE GAMER HYPERX CLOUD REVOLVER 7 1 XBOX ONE E XBOX SERIES X S COM FIO P3 3 5MM DRIVERS 50MM HHSR1 AH GM G Negro 117457",
+=======
+        "title_orig": "FONE GAMER HYPERX CLOUD REVOLVER 7 1 XBOX ONE E XBOX SERIES X S COM FIO P3 3 5MM DRIVERS 50MM HHSR1 AH GM G Negro  117457",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "FONE GAMER HYPERX CLOUD REVOLVER 7 1 XBOX ONE E XBOX SERIES X S COM FIO P3 3 5MM DRIVERS 50MM HHSR1 AH GM G Negro 117457",
         "category": "Consolas y Videojuegos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_117457_1.JPG",
@@ -89213,7 +90437,11 @@ const PRODUCTS =
         "id": 12918,
         "ref": "117536",
         "brand": "HYPERX",
+<<<<<<< HEAD
         "title_orig": "FONE HYPERX CLOUD CHAT HX HSCCHX BK WW Verde 117536",
+=======
+        "title_orig": "FONE HYPERX CLOUD CHAT HX HSCCHX BK WW Verde  117536",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "FONE HYPERX CLOUD CHAT HX HSCCHX BK WW Verde 117536",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_117536_1.JPG",
@@ -89473,7 +90701,11 @@ const PRODUCTS =
         "id": 12931,
         "ref": "244807",
         "brand": "ASUS",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK ASUS ROG ZEPHYRUS G14 GA401IHR HZ045T AMD RYZEN 7 4800HS 2 90GHZ 4 20GHZ 8GB RAM 512GB SSD Pantalla 14 FHD IPS 144Hz GEFORCE GTX1650 4GB WINDOWS 11 HOME INGLES Negro",
+=======
+        "title_orig": "NOTEBOOK ASUS ROG ZEPHYRUS G14 GA401IHR HZ045T AMD RYZEN 7 4800HS 2 90GHZ 4 20GHZ 8GB RAM 512GB SSD TELA 14 FHD IPS 144HZ GEFORCE GTX1650 4GB WINDOWS 11 HOME INGLES Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK ASUS ROG ZEPHYRUS G14 GA401IHR HZ045T AMD RYZEN 7 4800HS 2 90GHZ 4 20GHZ 8GB RAM 512GB SSD Pantalla 14 FHD IPS 144Hz GEFORCE GTX1650 4GB WINDOWS 11 HOME INGLES Negro",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_244807_1.JPG",
@@ -89553,7 +90785,11 @@ const PRODUCTS =
         "id": 12935,
         "ref": "313927",
         "brand": "ACER",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK ACER NITRO 5 ACER AN515 55 56VR INTEL CORE I5 10300H 2 50Hz 4 50GHZ 8GB RAM 1TB HDD Pantalla 15 6 FULL HD IPS GEFORCE GTX1650 4GB WINDOWS 10 HOME ESPANHOL OBSIDIAN Negro",
+=======
+        "title_orig": "NOTEBOOK ACER NITRO 5 ACER AN515 55 56VR INTEL CORE I5 10300H 2 50HZ 4 50GHZ 8GB RAM 1TB HDD TELA 15 6 FULL HD IPS GEFORCE GTX1650 4GB WINDOWS 10 HOME ESPANHOL OBSIDIAN Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK ACER NITRO 5 ACER AN515 55 56VR INTEL CORE I5 10300H 2 50Hz 4 50GHZ 8GB RAM 1TB HDD Pantalla 15 6 FULL HD IPS GEFORCE GTX1650 4GB WINDOWS 10 HOME ESPANHOL OBSIDIAN Negro",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_313927_1.JPG",
@@ -89613,7 +90849,11 @@ const PRODUCTS =
         "id": 12938,
         "ref": "182896",
         "brand": "MSI",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK MSI GF63 11SC 693US INTEL CORE I5 11400H 2 70GHZ 4 50GHZ 8GB RAM 256GB SSD Pantalla 15 6 FULL HD IPS 144Hz GEFORCE GTX1650 4GB WINDOWS 11 INGLES Negro",
+=======
+        "title_orig": "NOTEBOOK MSI GF63 11SC 693US INTEL CORE I5 11400H 2 70GHZ 4 50GHZ 8GB RAM 256GB SSD TELA 15 6 FULL HD IPS 144HZ GEFORCE GTX1650 4GB WINDOWS 11 INGLES Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK MSI GF63 11SC 693US INTEL CORE I5 11400H 2 70GHZ 4 50GHZ 8GB RAM 256GB SSD Pantalla 15 6 FULL HD IPS 144Hz GEFORCE GTX1650 4GB WINDOWS 11 INGLES Negro",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_182896_1.JPG",
@@ -89813,7 +91053,11 @@ const PRODUCTS =
         "id": 12948,
         "ref": "202777",
         "brand": "AMD",
+<<<<<<< HEAD
         "title_orig": "Tarjeta de Video UP GAMER 8GB AMD RADEON RX5700XT GDDR6 UPG RX5700 XT 8GB 256BITS 2560MHZ 1XHDMI 3XDISPLAYPORT Negro",
+=======
+        "title_orig": "PLACA DE VIDEO UP GAMER 8GB AMD RADEON RX5700XT GDDR6 UPG RX5700 XT 8GB 256BITS 2560MHZ 1XHDMI 3XDISPLAYPORT Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "Tarjeta de Video UP GAMER 8GB AMD RADEON RX5700XT GDDR6 UPG RX5700 XT 8GB 256BITS 2560MHZ 1XHDMI 3XDISPLAYPORT Negro",
         "category": "Tarjetas de Video",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_202777_1.JPG",
@@ -89833,7 +91077,11 @@ const PRODUCTS =
         "id": 12949,
         "ref": "261940",
         "brand": "ASUS",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK GAMER ASUS TUF GAMING A16 ADVANTAGE EDITION AMD RYZEN 7 7735HS Pantalla 16 FHD 165Hz 16GB RAM 512GB SSD RADEON RX 7700S 8GB FA617NT A16 R77700 Negro INGLES",
+=======
+        "title_orig": "NOTEBOOK GAMER ASUS TUF GAMING A16 ADVANTAGE EDITION AMD RYZEN 7 7735HS TELA 16 FHD 165HZ 16GB RAM 512GB SSD RADEON RX 7700S 8GB FA617NT A16 R77700 Negro INGLES",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK GAMER ASUS TUF GAMING A16 ADVANTAGE EDITION AMD RYZEN 7 7735HS Pantalla 16 FHD 165Hz 16GB RAM 512GB SSD RADEON RX 7700S 8GB FA617NT A16 R77700 Negro INGLES",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_261940_1.JPG",
@@ -89893,7 +91141,11 @@ const PRODUCTS =
         "id": 12952,
         "ref": "402364",
         "brand": "MTEK",
+<<<<<<< HEAD
         "title_orig": "MONITOR GAMER MTEK MSY32FV240C 32 FULL HD 240Hz 1Ms CURVO HDR RGB Negro",
+=======
+        "title_orig": "MONITOR GAMER MTEK MSY32FV240C 32 FULL HD 240HZ 1MS CURVO HDR RGB Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR GAMER MTEK MSY32FV240C 32 FULL HD 240Hz 1Ms CURVO HDR RGB Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_402364_1.JPG",
@@ -89913,7 +91165,11 @@ const PRODUCTS =
         "id": 12953,
         "ref": "402353",
         "brand": "MTEK",
+<<<<<<< HEAD
         "title_orig": "MONITOR GAMER MTEK MSY27FV280C 27 FULL HD 280Hz 1Ms CURVO RGB Negro",
+=======
+        "title_orig": "MONITOR GAMER MTEK MSY27FV280C 27 FULL HD 280HZ 1MS CURVO RGB Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR GAMER MTEK MSY27FV280C 27 FULL HD 280Hz 1Ms CURVO RGB Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_402353_1.JPG",
@@ -89933,7 +91189,11 @@ const PRODUCTS =
         "id": 12954,
         "ref": "373382",
         "brand": "MSI",
+<<<<<<< HEAD
         "title_orig": "MONITOR GAMER MSI MAG 276CXF 27 FULL HD 280Hz 0 5Ms CURVO Negro",
+=======
+        "title_orig": "MONITOR GAMER MSI MAG 276CXF 27 FULL HD 280HZ 0 5MS CURVO Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR GAMER MSI MAG 276CXF 27 FULL HD 280Hz 0 5Ms CURVO Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_373382_1.JPG",
@@ -89973,7 +91233,11 @@ const PRODUCTS =
         "id": 12956,
         "ref": "400600",
         "brand": "HP",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK HP OMNIBOOK X 16 BG0013DX INTEL CORE ULTRA X7 358H 1 90Hz 4 80GHZ 32GB RAM 1TB SSD Pantalla 16 TOUCH 2K WUXGA 1920 X 1200 OLED 120Hz WINDOWS 11 HOME INGLES Plata",
+=======
+        "title_orig": "NOTEBOOK HP OMNIBOOK X 16 BG0013DX INTEL CORE ULTRA X7 358H 1 90HZ 4 80GHZ 32GB RAM 1TB SSD TELA 16 TOUCH 2K WUXGA 1920 X 1200 OLED 120HZ WINDOWS 11 HOME INGLES Plata",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK HP OMNIBOOK X 16 BG0013DX INTEL CORE ULTRA X7 358H 1 90Hz 4 80GHZ 32GB RAM 1TB SSD Pantalla 16 TOUCH 2K WUXGA 1920 X 1200 OLED 120Hz WINDOWS 11 HOME INGLES Plata",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_400600_1.JPG",
@@ -89993,7 +91257,11 @@ const PRODUCTS =
         "id": 12957,
         "ref": "406873",
         "brand": "HP",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK HP OMNIBOOK X 14 14 KR0013DX SNAPDRAGON X PLUS X1P 42 100 3 20GHZ 3 40GHZ 16GB RAM 512GB SSD Pantalla 14 TOUCH WUXGA 2K 1920 X 1200 OLED CORNING GORILLA WINDOWS 11 HOME INGLES Plata 406873",
+=======
+        "title_orig": "NOTEBOOK HP OMNIBOOK X 14 14 KR0013DX SNAPDRAGON X PLUS X1P 42 100 3 20GHZ 3 40GHZ 16GB RAM 512GB SSD TELA 14 TOUCH WUXGA 2K 1920 X 1200 OLED CORNING GORILLA WINDOWS 11 HOME INGLES Plata  406873",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK HP OMNIBOOK X 14 14 KR0013DX SNAPDRAGON X PLUS X1P 42 100 3 20GHZ 3 40GHZ 16GB RAM 512GB SSD Pantalla 14 TOUCH WUXGA 2K 1920 X 1200 OLED CORNING GORILLA WINDOWS 11 HOME INGLES Plata 406873",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_406873_1.JPG",
@@ -90013,7 +91281,11 @@ const PRODUCTS =
         "id": 12958,
         "ref": "400441",
         "brand": "ASUS",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK ASUS VIVOBOOK S16 M5606KA PB77 AMD RYZEN AI 7 350 2 00Hz 5 00GHZ AMD NPU 50TOPS 24GB RAM 1TB SSD Pantalla 16 WUXGA 1920 X 1200 OLED WINDOWS 11 HOME COPILOT PC INGLES NEUTRAL Negro 400441",
+=======
+        "title_orig": "NOTEBOOK ASUS VIVOBOOK S16 M5606KA PB77 AMD RYZEN AI 7 350 2 00HZ 5 00GHZ AMD NPU 50TOPS 24GB RAM 1TB SSD TELA 16 WUXGA 1920 X 1200 OLED WINDOWS 11 HOME COPILOT PC INGLES NEUTRAL Negro  400441",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK ASUS VIVOBOOK S16 M5606KA PB77 AMD RYZEN AI 7 350 2 00Hz 5 00GHZ AMD NPU 50TOPS 24GB RAM 1TB SSD Pantalla 16 WUXGA 1920 X 1200 OLED WINDOWS 11 HOME COPILOT PC INGLES NEUTRAL Negro 400441",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_400441_1.JPG",
@@ -90033,7 +91305,11 @@ const PRODUCTS =
         "id": 12959,
         "ref": "407380",
         "brand": "ACER",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK ACER SWIFT GO 16 AI SFG16 I71T 79Q6 INTEL CORE ULTRA 7 355 2 30Hz 4 70GHZ INTEL AI 49 TOPS 32GB RAM 1TB SSD Pantalla 16 TOUCH WUXGA 1920 X 1200 OLED WINDOWS 11 HOME COPILOT PC INGLES Plata",
+=======
+        "title_orig": "NOTEBOOK ACER SWIFT GO 16 AI SFG16 I71T 79Q6 INTEL CORE ULTRA 7 355 2 30HZ 4 70GHZ INTEL AI 49 TOPS 32GB RAM 1TB SSD TELA 16 TOUCH WUXGA 1920 X 1200 OLED WINDOWS 11 HOME COPILOT PC INGLES Plata",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK ACER SWIFT GO 16 AI SFG16 I71T 79Q6 INTEL CORE ULTRA 7 355 2 30Hz 4 70GHZ INTEL AI 49 TOPS 32GB RAM 1TB SSD Pantalla 16 TOUCH WUXGA 1920 X 1200 OLED WINDOWS 11 HOME COPILOT PC INGLES Plata",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_407380_1.JPG",
@@ -90053,7 +91329,11 @@ const PRODUCTS =
         "id": 12960,
         "ref": "400430",
         "brand": "ASUS",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK ASUS VIVOBOOK S14 M5406WA DS76 AMD RYZEN AI 9 365 2 00Hz 5 00GHZ AI BOOST 50 TOPS 24GB RAM 512GB SSD Pantalla 14 3K 2880 X 1800 OLED WINDOWS 11 HOME COPILOT PC INGLES NEUTRAL Negro 400430",
+=======
+        "title_orig": "NOTEBOOK ASUS VIVOBOOK S14 M5406WA DS76 AMD RYZEN AI 9 365 2 00HZ 5 00GHZ AI BOOST 50 TOPS 24GB RAM 512GB SSD TELA 14 3K 2880 X 1800 OLED WINDOWS 11 HOME COPILOT PC INGLES NEUTRAL Negro  400430",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK ASUS VIVOBOOK S14 M5406WA DS76 AMD RYZEN AI 9 365 2 00Hz 5 00GHZ AI BOOST 50 TOPS 24GB RAM 512GB SSD Pantalla 14 3K 2880 X 1800 OLED WINDOWS 11 HOME COPILOT PC INGLES NEUTRAL Negro 400430",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_400430_1.JPG",
@@ -90093,7 +91373,11 @@ const PRODUCTS =
         "id": 12962,
         "ref": "406840",
         "brand": "HP",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK HP OMEN BY HP TRANSCEND 14 14 FB1013DX INTEL CORE ULTRA 7 255H 2 00GHZ 5 10GHZ 32GB RAM 1TB SSD Pantalla 14 3K 2880 X 1800 OLED GEFORCE RTX5060 8GB WINDOWS 11 HOME INGLES Negro",
+=======
+        "title_orig": "NOTEBOOK HP OMEN BY HP TRANSCEND 14 14 FB1013DX INTEL CORE ULTRA 7 255H 2 00GHZ 5 10GHZ 32GB RAM 1TB SSD TELA 14 3K 2880 X 1800 OLED GEFORCE RTX5060 8GB WINDOWS 11 HOME INGLES Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK HP OMEN BY HP TRANSCEND 14 14 FB1013DX INTEL CORE ULTRA 7 255H 2 00GHZ 5 10GHZ 32GB RAM 1TB SSD Pantalla 14 3K 2880 X 1800 OLED GEFORCE RTX5060 8GB WINDOWS 11 HOME INGLES Negro",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_406840_1.JPG",
@@ -90173,7 +91457,11 @@ const PRODUCTS =
         "id": 12966,
         "ref": "265439",
         "brand": "ASUS",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK ASUS ROG ZEPHYRUS G16 GU605MI G16 U94070 INTEL ULTRA 9 185H 2 30GHZ 5 10GHZ 16GB RAM 1TB SSD Pantalla 16 OLED WQXGA 2 5K IPS 240Hz GEFORCE RTX4070 8GB ECLIPSE Gris WINDOWS 11 HOME INGLES",
+=======
+        "title_orig": "NOTEBOOK ASUS ROG ZEPHYRUS G16 GU605MI G16 U94070 INTEL ULTRA 9 185H 2 30GHZ 5 10GHZ 16GB RAM 1TB SSD TELA 16 OLED WQXGA 2 5K IPS 240HZ GEFORCE RTX4070 8GB ECLIPSE Gris WINDOWS 11 HOME INGLES",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK ASUS ROG ZEPHYRUS G16 GU605MI G16 U94070 INTEL ULTRA 9 185H 2 30GHZ 5 10GHZ 16GB RAM 1TB SSD Pantalla 16 OLED WQXGA 2 5K IPS 240Hz GEFORCE RTX4070 8GB ECLIPSE Gris WINDOWS 11 HOME INGLES",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_265439_1.JPG",
@@ -90193,7 +91481,11 @@ const PRODUCTS =
         "id": 12967,
         "ref": "310092",
         "brand": "ASUS",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK ASUS VIVOBOOK GO 15 OLED E1504GA WB31 INTEL CORE I3 N305 1 80Hz 3 80GHZ 8GB RAM 128GB UFS Pantalla 15 6 FULL HD WINDOWS 11 HOME INGLES MIXED Negro",
+=======
+        "title_orig": "NOTEBOOK ASUS VIVOBOOK GO 15 OLED E1504GA WB31 INTEL CORE I3 N305 1 80HZ 3 80GHZ 8GB RAM 128GB UFS TELA 15 6 FULL HD WINDOWS 11 HOME INGLES MIXED Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK ASUS VIVOBOOK GO 15 OLED E1504GA WB31 INTEL CORE I3 N305 1 80Hz 3 80GHZ 8GB RAM 128GB UFS Pantalla 15 6 FULL HD WINDOWS 11 HOME INGLES MIXED Negro",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_310092_1.JPG",
@@ -90213,7 +91505,11 @@ const PRODUCTS =
         "id": 12968,
         "ref": "325098",
         "brand": "ASUS",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK ASUS VIVOBOOK S16 M5606WA IS99 AMD RYZEN AI 9 365 2 00Hz 5 00GHZ AMD XDNA NPU 32GB RAM 1TB SSD Pantalla 16 3 2K 3200 X 2000 OLED 120Hz WINDOWS 11 HOME COPILOT PC INGLES COOL Plata",
+=======
+        "title_orig": "NOTEBOOK ASUS VIVOBOOK S16 M5606WA IS99 AMD RYZEN AI 9 365 2 00HZ 5 00GHZ AMD XDNA NPU 32GB RAM 1TB SSD TELA 16 3 2K 3200 X 2000 OLED 120HZ WINDOWS 11 HOME COPILOT PC INGLES COOL Plata",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK ASUS VIVOBOOK S16 M5606WA IS99 AMD RYZEN AI 9 365 2 00Hz 5 00GHZ AMD XDNA NPU 32GB RAM 1TB SSD Pantalla 16 3 2K 3200 X 2000 OLED 120Hz WINDOWS 11 HOME COPILOT PC INGLES COOL Plata",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_325098_1.JPG",
@@ -90233,7 +91529,11 @@ const PRODUCTS =
         "id": 12969,
         "ref": "269040",
         "brand": "HP",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK HP ENVY X360 16 AC0023DX INTEL ULTRA 7 155U 1 20GZ 4 80GHZ 16GB RAM 1TB SSD Pantalla 16 WUXGA OLED TOUCH 360 IPS WINDOWS 11 HOME INGLES Plata",
+=======
+        "title_orig": "NOTEBOOK HP ENVY X360 16 AC0023DX INTEL ULTRA 7 155U 1 20GZ 4 80GHZ 16GB RAM 1TB SSD TELA 16 WUXGA OLED TOUCH 360 IPS WINDOWS 11 HOME INGLES Plata",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK HP ENVY X360 16 AC0023DX INTEL ULTRA 7 155U 1 20GZ 4 80GHZ 16GB RAM 1TB SSD Pantalla 16 WUXGA OLED TOUCH 360 IPS WINDOWS 11 HOME INGLES Plata",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_269040_1.JPG",
@@ -90253,7 +91553,11 @@ const PRODUCTS =
         "id": 12970,
         "ref": "244717",
         "brand": "ASUS",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK ASUS VIVOBOOK 14X OLED K3405VF KM012W INTEL CORE I5 13500H 2 60GHZ 8GB RAM 512GB SSD Pantalla 14 WQ 2 8K OLED GEFORCE RTX2050 4GB INDIE Negro WINDOWS 11 HOME ESPANHOL 244717",
+=======
+        "title_orig": "NOTEBOOK ASUS VIVOBOOK 14X OLED K3405VF KM012W INTEL CORE I5 13500H 2 60GHZ 8GB RAM 512GB SSD TELA 14 WQ 2 8K OLED GEFORCE RTX2050 4GB INDIE Negro WINDOWS 11 HOME ESPANHOL  244717",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK ASUS VIVOBOOK 14X OLED K3405VF KM012W INTEL CORE I5 13500H 2 60GHZ 8GB RAM 512GB SSD Pantalla 14 WQ 2 8K OLED GEFORCE RTX2050 4GB INDIE Negro WINDOWS 11 HOME ESPANHOL 244717",
         "category": "Notebooks",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_244717_1.JPG",
@@ -90573,7 +91877,11 @@ const PRODUCTS =
         "id": 12986,
         "ref": "400239",
         "brand": "INTEL",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK ACER SWIFT GO 16 SFG16 I71T 51LC INTEL CORE ULTRA 5 322 2 50Hz 4 40GHZ 16GB RAM 512GB SSD Pantalla 16 TOUCH WUXGA 1920 X 1200 WINDOWS 11 HOME INGLES Plata",
+=======
+        "title_orig": "NOTEBOOK ACER SWIFT GO 16 SFG16 I71T 51LC INTEL CORE ULTRA 5 322 2 50HZ 4 40GHZ 16GB RAM 512GB SSD TELA 16 TOUCH WUXGA 1920 X 1200 WINDOWS 11 HOME INGLES Plata",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK ACER SWIFT GO 16 SFG16 I71T 51LC INTEL CORE ULTRA 5 322 2 50Hz 4 40GHZ 16GB RAM 512GB SSD Pantalla 16 TOUCH WUXGA 1920 X 1200 WINDOWS 11 HOME INGLES Plata",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_400239_1.JPG",
@@ -90593,7 +91901,11 @@ const PRODUCTS =
         "id": 12987,
         "ref": "383104",
         "brand": "AMD",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK LENOVO V15 G4 ABP 83CQ0025US AMD RYZEN 3 7320U 2 40Hz 4 10GHZ 16GB RAM 512GB SSD Pantalla 15 6 FULL HD 1920 X 1080 WINDOWS 11 HOME ETHERNET RJ45 INGLES BUSINESS Negro 383104",
+=======
+        "title_orig": "NOTEBOOK LENOVO V15 G4 ABP 83CQ0025US AMD RYZEN 3 7320U 2 40HZ 4 10GHZ 16GB RAM 512GB SSD TELA 15 6 FULL HD 1920 X 1080 WINDOWS 11 HOME ETHERNET RJ45 INGLES BUSINESS Negro  383104",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK LENOVO V15 G4 ABP 83CQ0025US AMD RYZEN 3 7320U 2 40Hz 4 10GHZ 16GB RAM 512GB SSD Pantalla 15 6 FULL HD 1920 X 1080 WINDOWS 11 HOME ETHERNET RJ45 INGLES BUSINESS Negro 383104",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_383104_1.JPG",
@@ -90773,7 +92085,11 @@ const PRODUCTS =
         "id": 12996,
         "ref": "121127",
         "brand": "VIEWSONIC",
+<<<<<<< HEAD
         "title_orig": "MON 27 VIEWSONIC VX2718 P MHD FHD 165Hz 1Ms Negro 121127",
+=======
+        "title_orig": "MON 27 VIEWSONIC VX2718 P MHD FHD 165HZ 1MS Negro  121127",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 27 VIEWSONIC VX2718 P MHD FHD 165Hz 1Ms Negro 121127",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_121127_1.JPG",
@@ -90793,7 +92109,11 @@ const PRODUCTS =
         "id": 12997,
         "ref": "268352",
         "brand": "AMD",
+<<<<<<< HEAD
         "title_orig": "MONITOR VIEWSONIC VA2447 MHU 24 FULL HD 1920X1080 100Hz 5Ms 1XHDMI 1 4 1XVGA D SUB 1XCONECTOR DE AUDIO AMD FREESYNC SPEAKER 2WX2 Negro",
+=======
+        "title_orig": "MONITOR VIEWSONIC VA2447 MHU 24 FULL HD 1920X1080 100HZ 5MS 1XHDMI 1 4 1XVGA D SUB 1XCONECTOR DE AUDIO AMD FREESYNC SPEAKER 2WX2 Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR VIEWSONIC VA2447 MHU 24 FULL HD 1920X1080 100Hz 5Ms 1XHDMI 1 4 1XVGA D SUB 1XCONECTOR DE AUDIO AMD FREESYNC SPEAKER 2WX2 Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_268352_1.JPG",
@@ -90813,7 +92133,11 @@ const PRODUCTS =
         "id": 12998,
         "ref": "121116",
         "brand": "AMD",
+<<<<<<< HEAD
         "title_orig": "MONITOR VIEWSONIC VX2718 PC MHD CURVO 27 FULL HD 1920X1080 1Ms 180Hz 2XHDMI 1 4 1XDISPLAYPORT 1 2 1XUSB A 1XCONECTOR DE AUDIO AMD FREESYNC SPEAKER 2WX2 Negro",
+=======
+        "title_orig": "MONITOR VIEWSONIC VX2718 PC MHD CURVO 27 FULL HD 1920X1080 1MS 180HZ 2XHDMI 1 4 1XDISPLAYPORT 1 2 1XUSB A 1XCONECTOR DE AUDIO AMD FREESYNC SPEAKER 2WX2 Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR VIEWSONIC VX2718 PC MHD CURVO 27 FULL HD 1920X1080 1Ms 180Hz 2XHDMI 1 4 1XDISPLAYPORT 1 2 1XUSB A 1XCONECTOR DE AUDIO AMD FREESYNC SPEAKER 2WX2 Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_121116_1.JPG",
@@ -90833,7 +92157,11 @@ const PRODUCTS =
         "id": 12999,
         "ref": "273910",
         "brand": "AMD",
+<<<<<<< HEAD
         "title_orig": "MONITOR VIEWSONIC VP2458 24 FULL HD 1920X1080 60Hz 5Ms IPS 1XHDMI 1 4 1XVGA D SUB 1XDISPLAYPORT 1 4 1XUSB B 2XUSB A AMD FREESYNC SPEAKER 2WX2 AJUSTE ALTURA PIVO ROTACAO Negro",
+=======
+        "title_orig": "MONITOR VIEWSONIC VP2458 24 FULL HD 1920X1080 60HZ 5MS IPS 1XHDMI 1 4 1XVGA D SUB 1XDISPLAYPORT 1 4 1XUSB B 2XUSB A AMD FREESYNC SPEAKER 2WX2 AJUSTE ALTURA PIVO ROTACAO Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR VIEWSONIC VP2458 24 FULL HD 1920X1080 60Hz 5Ms IPS 1XHDMI 1 4 1XVGA D SUB 1XDISPLAYPORT 1 4 1XUSB B 2XUSB A AMD FREESYNC SPEAKER 2WX2 AJUSTE ALTURA PIVO ROTACAO Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_273910_1.JPG",
@@ -90853,7 +92181,11 @@ const PRODUCTS =
         "id": 13000,
         "ref": "95552",
         "brand": "VIEWSONIC",
+<<<<<<< HEAD
         "title_orig": "MON 27 VIEWSONIC XG270 IPS 240Hz 1Ms Negro",
+=======
+        "title_orig": "MON 27 VIEWSONIC XG270 IPS 240HZ 1MS Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 27 VIEWSONIC XG270 IPS 240Hz 1Ms Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_95552_1.JPG",
@@ -90873,7 +92205,11 @@ const PRODUCTS =
         "id": 13001,
         "ref": "289513",
         "brand": "AMD",
+<<<<<<< HEAD
         "title_orig": "MONITOR VIEWSONIC VX2716 27 FULL HD 1920X1080 1Ms 100Hz IPS 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XUSB A 1XCONECTOR DE AUDIO AMD FREESYNC SPEAKER 2WX2 Negro",
+=======
+        "title_orig": "MONITOR VIEWSONIC VX2716 27 FULL HD 1920X1080 1MS 100HZ IPS 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XUSB A 1XCONECTOR DE AUDIO AMD FREESYNC SPEAKER 2WX2 Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR VIEWSONIC VX2716 27 FULL HD 1920X1080 1Ms 100Hz IPS 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XUSB A 1XCONECTOR DE AUDIO AMD FREESYNC SPEAKER 2WX2 Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_289513_1.JPG",
@@ -90893,7 +92229,11 @@ const PRODUCTS =
         "id": 13002,
         "ref": "289502",
         "brand": "AMD",
+<<<<<<< HEAD
         "title_orig": "MONITOR VIEWSONIC VX2468 PC MHD 24 CURVO FULL HD 1920X1080 165Hz 1Ms IPS 2XHDMI 1 4 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM SPEAKER 2WX2 Negro",
+=======
+        "title_orig": "MONITOR VIEWSONIC VX2468 PC MHD 24 CURVO FULL HD 1920X1080 165HZ 1MS IPS 2XHDMI 1 4 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM SPEAKER 2WX2 Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR VIEWSONIC VX2468 PC MHD 24 CURVO FULL HD 1920X1080 165Hz 1Ms IPS 2XHDMI 1 4 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC PREMIUM SPEAKER 2WX2 Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_289502_1.JPG",
@@ -90913,7 +92253,11 @@ const PRODUCTS =
         "id": 13003,
         "ref": "268363",
         "brand": "VIEWSONIC",
+<<<<<<< HEAD
         "title_orig": "MONITOR VIEWSONIC VA2415 H 2 24 75Hz 4Ms FULL HD Negro 268363",
+=======
+        "title_orig": "MONITOR VIEWSONIC VA2415 H 2 24 75HZ 4MS FULL HD Negro  268363",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR VIEWSONIC VA2415 H 2 24 75Hz 4Ms FULL HD Negro 268363",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_268363_1.JPG",
@@ -90933,7 +92277,11 @@ const PRODUCTS =
         "id": 13004,
         "ref": "268319",
         "brand": "VIEWSONIC",
+<<<<<<< HEAD
         "title_orig": "MON 24 VIEWSONIC VG2456A IPS ERG FHD Negro 268319",
+=======
+        "title_orig": "MON 24 VIEWSONIC VG2456A IPS ERG FHD Negro  268319",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 24 VIEWSONIC VG2456A IPS ERG FHD Negro 268319",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_268319_1.JPG",
@@ -90953,7 +92301,11 @@ const PRODUCTS =
         "id": 13005,
         "ref": "300563",
         "brand": "VIEWSONIC",
+<<<<<<< HEAD
         "title_orig": "MON 16 VIEWSONIC VA1655 FHD IPS Negro 300563",
+=======
+        "title_orig": "MON 16 VIEWSONIC VA1655 FHD IPS Negro  300563",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 16 VIEWSONIC VA1655 FHD IPS Negro 300563",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_300563_1.JPG",
@@ -90973,7 +92325,11 @@ const PRODUCTS =
         "id": 13006,
         "ref": "175641",
         "brand": "VIEWSONIC",
+<<<<<<< HEAD
         "title_orig": "MON 24 VIEWSONIC TD2423D TOUCHSCREEN FHD Negro 175641",
+=======
+        "title_orig": "MON 24 VIEWSONIC TD2423D TOUCHSCREEN FHD Negro  175641",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 24 VIEWSONIC TD2423D TOUCHSCREEN FHD Negro 175641",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_175641_1.JPG",
@@ -91013,7 +92369,11 @@ const PRODUCTS =
         "id": 13008,
         "ref": "340343",
         "brand": "VIEWSONIC",
+<<<<<<< HEAD
         "title_orig": "MONITOR VIEWSONIC VA2714 H 27 FULL HD 1920 X 1080 4Ms 100Hz IPS 1XHDMI 1 4 1XVGA D SUB 1XCONECTOR DE AUDIO Negro",
+=======
+        "title_orig": "MONITOR VIEWSONIC VA2714 H 27 FULL HD 1920 X 1080 4MS 100HZ IPS 1XHDMI 1 4 1XVGA D SUB 1XCONECTOR DE AUDIO Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR VIEWSONIC VA2714 H 27 FULL HD 1920 X 1080 4Ms 100Hz IPS 1XHDMI 1 4 1XVGA D SUB 1XCONECTOR DE AUDIO Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_340343_1.JPG",
@@ -91033,7 +92393,11 @@ const PRODUCTS =
         "id": 13009,
         "ref": "340300",
         "brand": "VIEWSONIC",
+<<<<<<< HEAD
         "title_orig": "MON 22 VIEWSONIC VA220 H FHD 1Ms 100Hz HDMI VGA PR Negro",
+=======
+        "title_orig": "MON 22 VIEWSONIC VA220 H FHD 1MS 100HZ HDMI VGA PR Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 22 VIEWSONIC VA220 H FHD 1Ms 100Hz HDMI VGA PR Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_340300_1.JPG",
@@ -91053,7 +92417,11 @@ const PRODUCTS =
         "id": 13010,
         "ref": "340332",
         "brand": "VIEWSONIC",
+<<<<<<< HEAD
         "title_orig": "MONITOR VIEWSONIC VA2414 H 24 FULL HD 1920 X 1080 4Ms 100Hz IPS 1XHDMI 1 4 1XVGA D SUB 1XCONECTOR DE AUDIO Negro",
+=======
+        "title_orig": "MONITOR VIEWSONIC VA2414 H 24 FULL HD 1920 X 1080 4MS 100HZ IPS 1XHDMI 1 4 1XVGA D SUB 1XCONECTOR DE AUDIO Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR VIEWSONIC VA2414 H 24 FULL HD 1920 X 1080 4Ms 100Hz IPS 1XHDMI 1 4 1XVGA D SUB 1XCONECTOR DE AUDIO Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_340332_1.JPG",
@@ -91073,7 +92441,11 @@ const PRODUCTS =
         "id": 13011,
         "ref": "282405",
         "brand": "AOC",
+<<<<<<< HEAD
         "title_orig": "MONITOR AOC 27G15 27 4K UHD 3840X2160 60Hz 5Ms IPS 1XHDMI 2 0 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XVGA D SUB 1XCONECTOR DE AUDIO Negro",
+=======
+        "title_orig": "MONITOR AOC 27G15 27 4K UHD 3840X2160 60HZ 5MS IPS 1XHDMI 2 0 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XVGA D SUB 1XCONECTOR DE AUDIO Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR AOC 27G15 27 4K UHD 3840X2160 60Hz 5Ms IPS 1XHDMI 2 0 1XHDMI 1 4 1XDISPLAYPORT 1 2 1XVGA D SUB 1XCONECTOR DE AUDIO Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_282405_1.JPG",
@@ -91093,7 +92465,11 @@ const PRODUCTS =
         "id": 13012,
         "ref": "277789",
         "brand": "AOC",
+<<<<<<< HEAD
         "title_orig": "MONITOR 27 AOC 27B2H2 27 FULL HD 1920X1080 100Hz 4Ms IPS 2XHDMI 1 4 1XCONECTOR DE AUDIO Negro",
+=======
+        "title_orig": "MONITOR 27 AOC 27B2H2 27 FULL HD 1920X1080 100HZ 4MS IPS 2XHDMI 1 4 1XCONECTOR DE AUDIO Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR 27 AOC 27B2H2 27 FULL HD 1920X1080 100Hz 4Ms IPS 2XHDMI 1 4 1XCONECTOR DE AUDIO Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_277789_1.JPG",
@@ -91113,7 +92489,11 @@ const PRODUCTS =
         "id": 13013,
         "ref": "282381",
         "brand": "AMD",
+<<<<<<< HEAD
         "title_orig": "MONITOR AOC 27G15 27 FULL HD 1920X1080 180Hz 1Ms IPS 2XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC Negro",
+=======
+        "title_orig": "MONITOR AOC 27G15 27 FULL HD 1920X1080 180HZ 1MS IPS 2XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MONITOR AOC 27G15 27 FULL HD 1920X1080 180Hz 1Ms IPS 2XHDMI 2 0 1XDISPLAYPORT 1 4 1XCONECTOR DE AUDIO AMD FREESYNC Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_282381_1.JPG",
@@ -91133,7 +92513,11 @@ const PRODUCTS =
         "id": 13014,
         "ref": "282392",
         "brand": "AOC",
+<<<<<<< HEAD
         "title_orig": "MON 27 AOC C27G4H CURVO FHD 180Hz Negro",
+=======
+        "title_orig": "MON 27 AOC C27G4H CURVO FHD 180HZ Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 27 AOC C27G4H CURVO FHD 180Hz Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_282392_1.JPG",
@@ -91153,7 +92537,11 @@ const PRODUCTS =
         "id": 13015,
         "ref": "277712",
         "brand": "AOC",
+<<<<<<< HEAD
         "title_orig": "MON 21 5 AOC 22B3HM FHD 75Hz 4Ms Negro 277712",
+=======
+        "title_orig": "MON 21 5 AOC 22B3HM FHD 75HZ 4MS Negro  277712",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 21 5 AOC 22B3HM FHD 75Hz 4Ms Negro 277712",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_277712_1.JPG",
@@ -91633,7 +93021,11 @@ const PRODUCTS =
         "id": 13039,
         "ref": "242142",
         "brand": "HYE",
+<<<<<<< HEAD
         "title_orig": "PATINETE ELETRICO HYE HY S09 PRO APP RECARREGAVEL 8 5 350W 10400MAH Negro 242142",
+=======
+        "title_orig": "PATINETE ELETRICO HYE HY S09 PRO APP RECARREGAVEL 8 5 350W 10400MAH Negro  242142",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "PATINETE ELETRICO HYE HY S09 PRO APP RECARREGAVEL 8 5 350W 10400MAH Negro 242142",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_242142_1.JPG",
@@ -91673,7 +93065,11 @@ const PRODUCTS =
         "id": 13041,
         "ref": "333749",
         "brand": "TEROS",
+<<<<<<< HEAD
         "title_orig": "MON 27 TEROS TE 2769G LED FLAT QHD 180Hz Negro 333749",
+=======
+        "title_orig": "MON 27 TEROS TE 2769G LED FLAT QHD 180HZ Negro  333749",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 27 TEROS TE 2769G LED FLAT QHD 180Hz Negro 333749",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_333749_1.JPG",
@@ -91693,7 +93089,11 @@ const PRODUCTS =
         "id": 13042,
         "ref": "362370",
         "brand": "TEROS",
+<<<<<<< HEAD
         "title_orig": "MON 24 TEROS TE 2417S FHD 1Ms 144Hz Negro 362370",
+=======
+        "title_orig": "MON 24 TEROS TE 2417S FHD 1MS 144HZ Negro  362370",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 24 TEROS TE 2417S FHD 1Ms 144Hz Negro 362370",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_362370_1.JPG",
@@ -91713,7 +93113,11 @@ const PRODUCTS =
         "id": 13043,
         "ref": "388200",
         "brand": "TEROS",
+<<<<<<< HEAD
         "title_orig": "MON 27 TEROS TE 2754G 200Hz QHD IPS Negro",
+=======
+        "title_orig": "MON 27 TEROS TE 2754G 200HZ QHD IPS Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 27 TEROS TE 2754G 200Hz QHD IPS Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_388200_1.JPG",
@@ -91893,7 +93297,11 @@ const PRODUCTS =
         "id": 13052,
         "ref": "274966",
         "brand": "KOLKE",
+<<<<<<< HEAD
         "title_orig": "MON 27 KOLKE KES 651 240Hz 1Ms LED CURVO FHD Negro",
+=======
+        "title_orig": "MON 27 KOLKE KES 651 240HZ 1MS LED CURVO FHD Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 27 KOLKE KES 651 240Hz 1Ms LED CURVO FHD Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_274966_1.JPG",
@@ -91933,7 +93341,11 @@ const PRODUCTS =
         "id": 13054,
         "ref": "198747",
         "brand": "KOLKE",
+<<<<<<< HEAD
         "title_orig": "MOCHILA NB KOLKE KVM 603 C CADEADO Negro 15 6 198747",
+=======
+        "title_orig": "MOCHILA NB KOLKE KVM 603 C CADEADO Negro 15 6   198747",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MOCHILA NB KOLKE KVM 603 C CADEADO Negro 15 6 198747",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_198747_1.JPG",
@@ -92053,7 +93465,11 @@ const PRODUCTS =
         "id": 13060,
         "ref": "152265",
         "brand": "PHILIPS",
+<<<<<<< HEAD
         "title_orig": "MOUSE PHILIPS G212 MOMENTUM WIRED RGB Negro 152265",
+=======
+        "title_orig": "MOUSE PHILIPS G212 MOMENTUM WIRED RGB Negro  152265",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MOUSE PHILIPS G212 MOMENTUM WIRED RGB Negro 152265",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_152265_1.JPG",
@@ -92133,7 +93549,11 @@ const PRODUCTS =
         "id": 13064,
         "ref": "152366",
         "brand": "PHILIPS",
+<<<<<<< HEAD
         "title_orig": "TEC MOUSE PHILIPS C602 WIRELESS 1000DPI Negro 152366",
+=======
+        "title_orig": "TEC MOUSE PHILIPS C602 WIRELESS 1000DPI Negro  152366",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "TEC MOUSE PHILIPS C602 WIRELESS 1000DPI Negro 152366",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_152366_1.JPG",
@@ -92453,7 +93873,11 @@ const PRODUCTS =
         "id": 13080,
         "ref": "365271",
         "brand": "REDRAGON",
+<<<<<<< HEAD
         "title_orig": "TEC MOUSE MOUSEPAD FONE REDRAGON S149 RGB Negro 365271",
+=======
+        "title_orig": "TEC MOUSE MOUSEPAD FONE REDRAGON S149 RGB Negro  365271",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "TEC MOUSE MOUSEPAD FONE REDRAGON S149 RGB Negro 365271",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_365271_1.JPG",
@@ -92473,7 +93897,11 @@ const PRODUCTS =
         "id": 13081,
         "ref": "348015",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "FONE RAZER BLACKSHARK V2 X BT HYPERSPEED RZ04 04960100 R3U1 Negro 348015",
+=======
+        "title_orig": "FONE RAZER BLACKSHARK V2 X BT HYPERSPEED RZ04 04960100 R3U1 Negro  348015",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "FONE RAZER BLACKSHARK V2 X BT HYPERSPEED RZ04 04960100 R3U1 Negro 348015",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_348015_1.JPG",
@@ -92693,7 +94121,11 @@ const PRODUCTS =
         "id": 13092,
         "ref": "392271",
         "brand": "XIAOMI",
+<<<<<<< HEAD
         "title_orig": "MON 27 XIAOMI A27QI ELA6568EU 2K QHD 120Hz IPSMONITOR XIAOMI A27QI 27 QHD IPS 120Hz 6Ms HDMI DISPLAYPORT ELA6568EU Negro",
+=======
+        "title_orig": "MON 27 XIAOMI A27QI ELA6568EU 2K QHD 120HZ IPSMONITOR XIAOMI A27QI 27 QHD IPS 120HZ 6MS HDMI DISPLAYPORT ELA6568EU Negro",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "MON 27 XIAOMI A27QI ELA6568EU 2K QHD 120Hz IPSMONITOR XIAOMI A27QI 27 QHD IPS 120Hz 6Ms HDMI DISPLAYPORT ELA6568EU Negro",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_392271_1.JPG",
@@ -93553,7 +94985,11 @@ const PRODUCTS =
         "id": 13135,
         "ref": "357485",
         "brand": "REDRAGON",
+<<<<<<< HEAD
         "title_orig": "FONE REDRAGON H610 VIBECORE BT Negro 357485",
+=======
+        "title_orig": "FONE REDRAGON H610 VIBECORE BT Negro  357485",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "FONE REDRAGON H610 VIBECORE BT Negro 357485",
         "category": "Periféricos",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_357485_1.JPG",
@@ -93753,7 +95189,11 @@ const PRODUCTS =
         "id": 13145,
         "ref": "319518",
         "brand": "INTEL",
+<<<<<<< HEAD
         "title_orig": "NOTEBOOK LENOVO V15 G4 IRU 83A100PSUS INTEL CORE I5 13420H 2 10Hz 4 60GHZ 16GB RAM 512GB SSD Pantalla 15 6 FULL HD 1920 X 1080 WINDOWS 11 HOME INGLES BUSINESS Negro 319518",
+=======
+        "title_orig": "NOTEBOOK LENOVO V15 G4 IRU 83A100PSUS INTEL CORE I5 13420H 2 10HZ 4 60GHZ 16GB RAM 512GB SSD TELA 15 6 FULL HD 1920 X 1080 WINDOWS 11 HOME INGLES BUSINESS Negro  319518",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "NOTEBOOK LENOVO V15 G4 IRU 83A100PSUS INTEL CORE I5 13420H 2 10Hz 4 60GHZ 16GB RAM 512GB SSD Pantalla 15 6 FULL HD 1920 X 1080 WINDOWS 11 HOME INGLES BUSINESS Negro 319518",
         "category": "Monitores",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_319518_1.JPG",
@@ -93773,7 +95213,11 @@ const PRODUCTS =
         "id": 13146,
         "ref": "374530",
         "brand": "GENERIC",
+<<<<<<< HEAD
         "title_orig": "CAFETEIRA FTX C2 15 MULTICAPSULA 1050W 220V Negro Plata Negro 2TA ZAS 374530",
+=======
+        "title_orig": "CAFETEIRA FTX C2 15 MULTICAPSULA 1050W 220V Negro Plata Negro 2TA ZAS  374530",
+>>>>>>> e11592c5a687d8b77566a497132328d829d54965
         "title": "CAFETEIRA FTX C2 15 MULTICAPSULA 1050W 220V Negro Plata Negro 2TA ZAS 374530",
         "category": "Fuentes de Poder",
         "image": "https://www.topdekinformatica.com.br/produtos_img/v/IMG_374530_1.JPG",
