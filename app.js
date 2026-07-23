@@ -539,9 +539,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 return 0;
             });
         } else if (sortOrder === 'price-asc') {
-            filtered.sort((a, b) => a.pyg - b.pyg);
+            filtered.sort((a, b) => {
+                if (a.sob_consulta && !b.sob_consulta) return 1;
+                if (!a.sob_consulta && b.sob_consulta) return -1;
+                if (a.sob_consulta && b.sob_consulta) return a.title.localeCompare(b.title);
+                return a.pyg - b.pyg;
+            });
         } else if (sortOrder === 'price-desc') {
-            filtered.sort((a, b) => b.pyg - a.pyg);
+            filtered.sort((a, b) => {
+                if (a.sob_consulta && !b.sob_consulta) return 1;
+                if (!a.sob_consulta && b.sob_consulta) return -1;
+                if (a.sob_consulta && b.sob_consulta) return a.title.localeCompare(b.title);
+                return b.pyg - a.pyg;
+            });
         } else if (sortOrder === 'name-asc') {
             filtered.sort((a, b) => a.title.localeCompare(b.title));
         }
