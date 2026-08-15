@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { precioFinal, costoDesdePrecioLegado } from '../../src/lib/pricing.js';
+import { precioFinal, costoDesdePrecioLegado, cargarConfig } from '../../src/lib/pricing.js';
 
 const CFG = {
     umbralBarato: 200000,
@@ -92,4 +92,13 @@ test('devuelve null en el rango imposible', () => {
 test('devuelve null ante precios invalidos', () => {
     assert.equal(costoDesdePrecioLegado(0, 'Monitores'), null);
     assert.equal(costoDesdePrecioLegado(null, 'Monitores'), null);
+});
+
+test('la config trae un tipo de cambio dentro de un rango plausible', () => {
+    // Vivia clavado en el codigo (6164). Con un sync diario, un tipo de cambio
+    // congelado en la fuente aleja los precios de la realidad sin que nadie
+    // lo note: pertenece a la config, que es donde el duenio la toca.
+    const c = cargarConfig();
+    assert.equal(typeof c.tipoDeCambio, 'number');
+    assert.ok(c.tipoDeCambio > 3000 && c.tipoDeCambio < 15000, `tipoDeCambio fuera de rango: ${c.tipoDeCambio}`);
 });
