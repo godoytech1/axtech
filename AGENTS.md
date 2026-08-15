@@ -71,6 +71,14 @@ categorías. Lo que no se puede duplicar no se puede desincronizar.
 ## Arquitectura
 
 ```
+La fuente de precios es la LISTA OFICIAL del proveedor, que se descarga desde
+su web y se guarda en `.local-legacy/listas-proveedor/` (ignorado por git:
+contiene costos y su nombre). Es mejor fuente que raspar: completa (5.994
+productos contra los 2.511 que alcanzaba el scraper), autoritativa, y no se
+rompe cuando cambia su plantilla HTML. Figurar en la lista es lo que define si
+un producto se publica.
+
+```
 data/catalog.json   fuente de verdad (sin costos, sin proveedor)
 public/img/*.webp   imagenes propias (el proveedor no interviene)
        ↓ src/build
@@ -88,6 +96,8 @@ dist/               lo único que se despliega
 npm test                                   # Tests
 node --env-file=.env src/build/index.js     # Build a dist/
 node --env-file=.env src/images/ejecutar.js # Descargar imagenes faltantes
+node src/migrate/importar-lista.js          # Simular la importacion de la lista
+node src/migrate/importar-lista.js --aplicar # Aplicarla
 npm run migrate                            # Migración única del catálogo legado
 ```
 
