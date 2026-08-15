@@ -1,0 +1,48 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: true
+
+jobs:
+  desplegar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Tests
+        run: npm test
+
+      - name: Build
+        run: node src/build/index.js
+        env:
+          SUPPLIER_IMG_BASE: ${{ secrets.SUPPLIER_IMG_BASE }}
+
+      # Ultima linea de defensa antes de publicar: si algo sensible llego a
+      # dist/, el despliegue no ocurre. El build ya corre su propio guard;
+      # esto verifica el arbol final, incluidos los estaticos copiados.
+      - name: Verificar la salida antes de publicar
+        env:
+          NOMBRE_PROVEEDOR: ${{ secrets.SUPPLIER_NAME }}
+        run: |
+          if grep -rEl '"(pyg_orig|pyg_orig_str|usd|brl|orig_url|title_orig)":' dist/ ; then
+            echo "ERROR: campos sensibles en dist/. Despliegue abortado."
+            exit 1
+          fi
+          echo "OK: dist/ sin campos sensibles."
+
+      - name: Publicar en Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=axtech --branch=main
