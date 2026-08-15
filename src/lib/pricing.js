@@ -14,8 +14,49 @@ const ESPECIALES_LEGADO = new Set(['Tarjetas de Video', 'Procesadores', 'Memoria
  * secreto PRICING_CONFIG.
  */
 export function cargarConfig() {
-    if (process.env.PRICING_CONFIG) return JSON.parse(process.env.PRICING_CONFIG);
-    return JSON.parse(readFileSync(RUTA_CONFIG, 'utf8'));
+    const config = process.env.PRICING_CONFIG
+        ? JSON.parse(process.env.PRICING_CONFIG)
+        : JSON.parse(readFileSync(RUTA_CONFIG, 'utf8'));
+
+    const problemas = validarConfig(config);
+    if (problemas.length) {
+        throw new Error(`configuracion de precios invalida:\n  - ${problemas.join('\n  - ')}`);
+    }
+    return config;
+}
+
+/**
+ * Verifica que la configuracion sea utilizable ANTES de calcular un precio.
+ *
+ * Se valida al cargar, no en un test: el archivo real es un secreto que no
+ * existe en CI, asi que ningun test puede mirarlo. Y una config a medias no
+ * rompe nada de forma visible — simplemente publica precios equivocados, que
+ * es la peor forma de fallar en una tienda.
+ *
+ * @param {object} config
+ * @returns {string[]} problemas; vacio si esta bien
+ */
+export function validarConfig(config) {
+    const problemas = [];
+    if (!config || typeof config !== 'object') return ['no es un objeto'];
+
+    const tc = config.tipoDeCambio;
+    if (typeof tc !== 'number' || !Number.isFinite(tc) || tc < 3000 || tc > 15000) {
+        problemas.push(`tipoDeCambio fuera de rango (3000-15000 Gs/USD): ${tc}`);
+    }
+    for (const campo of ['umbralBarato', 'minimoBarato', 'minimoBase']) {
+        const v = config[campo];
+        if (typeof v !== 'number' || !Number.isFinite(v) || v <= 0) {
+            problemas.push(`${campo} debe ser un numero positivo: ${v}`);
+        }
+    }
+    if (!config.pct || typeof config.pct !== 'object') {
+        problemas.push('falta el mapa pct de porcentajes por categoria');
+    } else if (typeof config.pct.default !== 'number') {
+        // Sin default, una categoria nueva daria precio NaN y se publicaria.
+        problemas.push('pct.default es obligatorio: sin el, una categoria nueva da precio NaN');
+    }
+    return problemas;
 }
 
 /**

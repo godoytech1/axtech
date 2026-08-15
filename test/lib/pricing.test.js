@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { precioFinal, costoDesdePrecioLegado, cargarConfig } from '../../src/lib/pricing.js';
+import { precioFinal, costoDesdePrecioLegado, cargarConfig, validarConfig } from '../../src/lib/pricing.js';
 
 const CFG = {
     umbralBarato: 200000,
@@ -94,11 +94,53 @@ test('devuelve null ante precios invalidos', () => {
     assert.equal(costoDesdePrecioLegado(null, 'Monitores'), null);
 });
 
-test('la config trae un tipo de cambio dentro de un rango plausible', () => {
-    // Vivia clavado en el codigo (6164). Con un sync diario, un tipo de cambio
-    // congelado en la fuente aleja los precios de la realidad sin que nadie
-    // lo note: pertenece a la config, que es donde el duenio la toca.
-    const c = cargarConfig();
-    assert.equal(typeof c.tipoDeCambio, 'number');
-    assert.ok(c.tipoDeCambio > 3000 && c.tipoDeCambio < 15000, `tipoDeCambio fuera de rango: ${c.tipoDeCambio}`);
+// --- validarConfig ---------------------------------------------------------
+//
+// El archivo real es un secreto y en CI no existe, asi que ningun test puede
+// mirarlo. Lo que se prueba es la validacion, que corre cada vez que se carga
+// la config: en el build, en el sync y en cada corrida local.
+
+const CFG_VALIDA = {
+    tipoDeCambio: 6164, umbralBarato: 200000, minimoBarato: 20000,
+    minimoBase: 60000, pct: { default: 0.13 }
+};
+
+test('una config completa no reporta problemas', () => {
+    assert.deepEqual(validarConfig(CFG_VALIDA), []);
+});
+
+test('rechaza un tipo de cambio fuera de rango o ausente', () => {
+    // Un tipo de cambio equivocado no rompe nada de forma visible: publica
+    // precios equivocados, que en una tienda es peor que caerse.
+    assert.ok(validarConfig({ ...CFG_VALIDA, tipoDeCambio: 1 }).length);
+    assert.ok(validarConfig({ ...CFG_VALIDA, tipoDeCambio: 90000 }).length);
+    assert.ok(validarConfig({ ...CFG_VALIDA, tipoDeCambio: undefined }).length);
+    assert.ok(validarConfig({ ...CFG_VALIDA, tipoDeCambio: '6164' }).length);
+});
+
+test('exige pct.default: sin el, una categoria nueva daria NaN', () => {
+    assert.ok(validarConfig({ ...CFG_VALIDA, pct: {} }).length);
+    assert.ok(validarConfig({ ...CFG_VALIDA, pct: undefined }).length);
+});
+
+test('exige los tres umbrales como numeros positivos', () => {
+    assert.ok(validarConfig({ ...CFG_VALIDA, minimoBase: 0 }).length);
+    assert.ok(validarConfig({ ...CFG_VALIDA, umbralBarato: -1 }).length);
+    assert.ok(validarConfig({ ...CFG_VALIDA, minimoBarato: null }).length);
+});
+
+test('acumula todos los problemas de una config vacia', () => {
+    assert.ok(validarConfig({}).length >= 5);
+    assert.deepEqual(validarConfig(null), ['no es un objeto']);
+});
+
+test('cargarConfig falla ruidosamente ante una config invalida', () => {
+    const previo = process.env.PRICING_CONFIG;
+    process.env.PRICING_CONFIG = JSON.stringify({ ...CFG_VALIDA, tipoDeCambio: 5 });
+    try {
+        assert.throws(() => cargarConfig(), /tipoDeCambio/);
+    } finally {
+        if (previo === undefined) delete process.env.PRICING_CONFIG;
+        else process.env.PRICING_CONFIG = previo;
+    }
 });
