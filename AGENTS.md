@@ -108,11 +108,23 @@ vez de descargar; `--sin-purga` no borra nada; `--forzar` ignora los frenos.
 
 - Se trabaja en ramas, nunca directo en `main`.
 - Cada PR debe pasar CI: tests + build + guard de fugas.
-- El sync nocturno está **pausado** durante las Fases 0–3. El scraper legado
-  quedó fuera de este repositorio a propósito: su nombre y su contenido
-  identifican al distribuidor, y este repositorio es público. Está resguardado
-  en el repositorio privado `axtech-legacy` y en `.local-legacy/` (ignorado por
-  git). La Fase 4 lo reescribe desde cero, leyendo el origen desde un secreto.
+- El **sync nocturno** corre solo (`.github/workflows/sync.yml`) y commitea
+  sobre `main`. El scraper legado quedó fuera de este repositorio a propósito:
+  su nombre y su contenido identifican al distribuidor, y este repositorio es
+  público. Fue reemplazado por `src/sync/`, que lee la lista oficial desde el
+  secreto `SUPPLIER_LIST_URL`.
+
+### Skills del proyecto
+
+En `.claude/skills/`. Describen **procedimientos**; las reglas viven acá y no
+se duplican.
+
+| Skill | Para qué |
+|---|---|
+| `axtech-sync` | el sync falló, forzar una corrida, cambió el formato de la lista |
+| `axtech-catalog` | taxonomía, marcas, productos mal clasificados |
+| `axtech-pricing` | márgenes, tipo de cambio, un precio que se ve raro |
+| `axtech-release` | publicar, el guard bloqueó el build, CI en rojo |
 
 ## Documentos de diseño
 
@@ -197,36 +209,38 @@ ajustar `LINEA` en `src/lib/lista-precios.js` y la fixtura.
 | F1C — Catálogo completo desde la lista | ✅ |
 | F2 — SEO: página por producto y categoría | ✅ |
 | F3 — Accesibilidad, movimiento y táctil | ✅ |
-| **F4 — Sync robusto, tests y CI** | **pendiente** |
+| F4 — Sync automático, frenos, tests y CI | ✅ |
 
-### Qué falta (Fase 4)
+El proyecto ya no depende de que nadie haga nada: el catálogo se actualiza
+solo todas las noches y se despliega solo.
 
-1. Reescribir el sync usando la **lista de precios** como fuente, en vez de
-   raspar la web. Medido: la lista tiene 5.994 productos contra los 2.511 que
-   alcanzaba el scraper, y sus precios son idénticos a los de la web.
-2. Tests del parser con fixtures guardados, para que no se rompa en silencio.
-3. Purga automática de productos que llevan 30 días sin figurar en la lista.
-4. Reactivar el cron en `.github/workflows/daily_sync.yml`.
-5. Las 4 skills del proyecto (`axtech-catalog`, `axtech-sync`,
-   `axtech-release`, `axtech-pricing`).
+### Qué queda abierto
 
-### Deuda técnica anotada
-
-- `dist/products.js` está en ~157 KB gzip contra un presupuesto de 150. Afecta
-  solo a la home y a las categorías; las páginas de producto no lo descargan.
-  Se resuelve con chunking del catálogo.
-- `app.js` sigue en un solo archivo de ~2.000 líneas. Partirlo en módulos ES
-  obliga a cambiar la entrega de datos (los módulos no ven las globales
-  `PRODUCTS`/`CATEGORIES`), así que va junto con el chunking.
-- 721 productos de la lista quedan sin publicar: son líneas de negocio
-  distintas (electrodomésticos, movilidad eléctrica, cuidado personal,
-  muebles, proyectores, drones). Incorporarlos es una decisión comercial, no
-  técnica.
+- **Chunking del catálogo.** `dist/products.js` supera el presupuesto de
+  150 KB gzip, y `app.js` sigue en un solo archivo de ~2.000 líneas. Las dos
+  cosas se resuelven juntas: partir `app.js` en módulos ES obliga a cambiar la
+  entrega de datos, porque los módulos no ven las globales `PRODUCTS` y
+  `CATEGORIES`.
+- **721 productos de la lista sin publicar.** Son líneas de negocio distintas
+  (electrodomésticos, movilidad eléctrica, cuidado personal, muebles,
+  proyectores, drones). Incorporarlas es una decisión comercial, no técnica.
+- **243 productos activos sin imagen real.** El proveedor sirve un placeholder
+  para ellos. No se publican: regla 3.
 
 ### Pendientes fuera del código
 
 - **Google Search Console**: dar de alta `https://axtech.pages.dev` y enviar
-  `sitemap.xml`. Sin esto, las 4.197 URLs pueden tardar meses en indexarse.
-- **Proveedor**: el costo está ~4,3 % por encima del precio minorista de
-  Ciudad del Este para los mismos modelos. No hay descuento mayorista.
+  `sitemap.xml`. Sin esto, las URLs pueden tardar meses en indexarse. El
+  archivo de verificación va en `public/static/`.
 - **Token de GitHub**: revocar cualquier token viejo que haya quedado activo.
+- **Vigilar la primera purga.** Ningún producto se purgó todavía: la migración
+  dejó a todo el catálogo con `lastSeen` del 2026-08-15, así que los primeros
+  borrados caen alrededor del 2026-09-14 y serán muchos (unos 9.700 registros
+  heredados del scraper viejo). El freno del 5% va a saltar y hay que
+  revisarlos antes de forzar.
+
+### Dato de negocio a tener presente
+
+El costo está ~4,3 % **por encima** del precio minorista de Ciudad del Este
+para los mismos modelos: no hay descuento mayorista. Es lo que define lo
+angosto del margen y por qué los precios se calibran midiendo, no a ojo.

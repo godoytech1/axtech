@@ -39,16 +39,7 @@
     "title": "NB HP 15-FA2013DX I5-13420H/8GB/512/RTX3050/15/W11 RTX3050 - 6GB INGLES",
     "brand": "HP",
     "category": "notebooks",
-    "specs": [
-      "Pantalla 15.6\" Full HD (1920 x 1080) IPS 144HZ",
-      "GeForce 6GB",
-      "Windows 11 Home",
-      "Ethernet (RJ45)",
-      "Inglés",
-      "Negro"
-    ],
-    "price": 4474000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -99,14 +90,7 @@
     "title": "NB LENOVO 82XM00LMUS R7-5825U/16GB/512/15.6/TCH W11/GREY/INGLES",
     "brand": "LENOVO",
     "category": "notebooks",
-    "specs": [
-      "Pantalla 15.6\" Full HD (1920 x 1080) IPS",
-      "Windows 11 Home",
-      "Inglés",
-      "Arctic Gris"
-    ],
-    "price": 3862000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -340,14 +324,7 @@
     "title": "NB DELL 15 DC15255 R3-7320/8GB/512SSD/15.6/W11",
     "brand": "DELL",
     "category": "notebooks",
-    "specs": [
-      "Pantalla 15.6\" Full HD (1920 x 120HZ",
-      "Windows 11 Home",
-      "Inglés",
-      "Cablen Negro"
-    ],
-    "price": 2677000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -559,14 +536,7 @@
     "title": "NB DELL 15 DC15250 I5-1334U/8GB/512SSD/15.6/W11 CARBON BLACK",
     "brand": "DELL",
     "category": "notebooks",
-    "specs": [
-      "Pantalla 15.6\" Full HD (1920 x 1080)",
-      "Windows 11 Home",
-      "Inglés",
-      "Cablen Negro"
-    ],
-    "price": 3322000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -689,14 +659,7 @@
     "title": "NB HP 15-FC0025WM R5-7520U/8GB/1TB/15.6/TCH/W11 Plata/INGLES",
     "brand": "HP",
     "category": "notebooks",
-    "specs": [
-      "Pantalla 15.6\" Touch Full HD (1920 x 1080) IPS",
-      "Windows 11 Home",
-      "Inglés",
-      "Plata"
-    ],
-    "price": 3096000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -2360,13 +2323,15 @@
   {
     "id": 169,
     "ref": "322040",
-    "slug": "vga-rx9070xt-16gb-gigabyte-gaming-oc-3fan-gta-br-p-gv-r9070x-169",
-    "title": "VGA RX9070XT 16GB GIGABYTE GAMING OC 3FAN GTA.BR.P GV-R9070XTGAMING OC-16GD",
+    "slug": "vga-rx9070xt-16gb-gigabyte-gaming-oc-3fan-gta-bp-gv-r9070xtg-169",
+    "title": "VGA RX9070XT 16GB GIGABYTE GAMING OC 3FAN GTA.BP GV-R9070XTGAMIN G OC-16GD",
     "brand": "GIGABYTE",
     "category": "tarjetas-de-video",
-    "status": "hidden",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 5399000
   },
   {
     "id": 170,
@@ -2462,13 +2427,15 @@
   {
     "id": 177,
     "ref": "337125",
-    "slug": "vga-rtx5070-12gb-gigabyte-eagle-oc-sff-negro-gv-n5070eagle-o-177",
-    "title": "VGA RTX5070 12GB GIGABYTE EAGLE OC SFF Negro GV-N5070EAGLE OC-12GD",
+    "slug": "vga-rtx5070-12gb-gigabyte-eagle-oc-sff-black-gv-n5070eagle-o-177",
+    "title": "VGA RTX5070 12GB GIGABYTE EAGLE OC SFF BLACK GV-N5070EAGLE OC-12GD",
     "brand": "GIGABYTE",
     "category": "tarjetas-de-video",
-    "status": "hidden",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 4700000
   },
   {
     "id": 178,
@@ -2815,7 +2782,7 @@
     "brand": "KINGSTON",
     "category": "memorias-ram",
     "specs": [],
-    "price": 1689000,
+    "price": 1784000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
@@ -3317,13 +3284,7 @@
     "title": "MEM DDR5 16GB 5600 ADATA XPG LANCER BLADE INTEL AX5U5600C4616G- SLABBK/AMD EXPO",
     "brand": "ADATA",
     "category": "memorias-ram",
-    "specs": [
-      "DDR5 16GB (1x16GB)",
-      "5600MHz",
-      "Negro"
-    ],
-    "price": 1411000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -4478,9 +4439,7 @@
     "title": "Fuente 850W REDRAGON GC-PS010 80+GOLD F-MOD *G",
     "brand": "REDRAGON",
     "category": "fuentes-de-poder",
-    "specs": [],
-    "price": 637000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -5179,12 +5138,7 @@
     "title": "CPU INTEL 1700 I9 14900K 6.0GHZ 36MB S/COOLER 14TH GEN",
     "brand": "LG",
     "category": "procesadores",
-    "specs": [
-      "3.2GHz (6.0GHz Max Turbo)",
-      "Socket LGA 1700"
-    ],
-    "price": 3342000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -6692,9 +6646,7 @@
     "title": "MB AM5 ASUS TUF GAMING X870-PLUS WIFI DDR5 HDMI 2USB-C/4M.2",
     "brand": "ASUS",
     "category": "placas-madre",
-    "specs": [],
-    "price": 1926000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -8128,10 +8080,10 @@
   {
     "id": 570,
     "ref": "149003",
-    "slug": "controlador-argb-sate-acb-5-negro-9xpwm-9x-conectores-argb-3-570",
-    "title": "CONTROLADOR ARGB SATE ACB-5 Negro, 9XPWM, 9X CONECTORES ARGB 3 PINES 5V, SATA POWER IMPUT, COM CONTROLE *G",
+    "slug": "controlador-sate-argb-acb-5-black-9x3pin-9xpwm-570",
+    "title": "CONTROLADOR SATE ARGB ACB-5 BLACK 9X3PIN 9XPWM",
     "brand": "SATE",
-    "category": "consolas-y-videojuegos",
+    "category": "refrigeracion",
     "specs": [
       "9xPWM",
       "9x Conectores ARGB 3 pines 5V",
@@ -8179,13 +8131,15 @@
   {
     "id": 573,
     "ref": "39023",
-    "slug": "pasta-termica-corsair-tm30-performance-ct-9010001-ww-2g-gris-573",
-    "title": "PASTA TERMICA CORSAIR TM30 PERFORMANCE CT-9010001-WW, 2G, Gris",
+    "slug": "pasta-termica-corsair-tm30-performance-ct-9010001-ct-9010001-573",
+    "title": "PASTA TERMICA CORSAIR TM30 PERFORMANCE CT-9010001- CT-9010001-WW",
     "brand": "CORSAIR",
     "category": "refrigeracion",
-    "status": "hidden",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 87000
   },
   {
     "id": 574,
@@ -8624,10 +8578,10 @@
   {
     "id": 605,
     "ref": "78700",
-    "slug": "controlador-rgb-sate-acb-4-negro-2xpwm-10x-conectores-rgb-6-605",
-    "title": "CONTROLADOR RGB SATE ACB-4 Negro, 2XPWM, 10X CONECTORES RGB 6 PINES 5V, MOLEX POWER IMPUT, COM CONTROLE",
+    "slug": "controlador-sate-argb-acb-4-black-10x6pin-2xpwm-g-605",
+    "title": "CONTROLADOR SATE ARGB ACB-4 BLACK 10X6PIN 2XPWM *G",
     "brand": "SATE",
-    "category": "consolas-y-videojuegos",
+    "category": "refrigeracion",
     "specs": [
       "2xPWM",
       "10x Conectores RGB 6 pines 5V",
@@ -8842,11 +8796,9 @@
     "title": "TEC/MOUSE LOGITECH MK235 ESPANHOL WILERESS Negro 920-007901",
     "brand": "LOGITECH",
     "category": "mouses-y-mousepads",
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15",
-    "specs": [],
-    "price": 161000
+    "lastSeen": "2026-08-15"
   },
   {
     "id": 621,
@@ -9362,12 +9314,7 @@
     "title": "SSD M.2 256GB STAR 2280 NVME 2100/1300 MB/S GE",
     "brand": "STAR",
     "category": "almacenamiento-ssd",
-    "specs": [
-      "M.2 NVMe PCIe 3.0",
-      "Lectura hasta Grabación"
-    ],
-    "price": 359000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -9908,9 +9855,7 @@
     "title": "SSD M.2 256GB ADATA 2280 NVME ALEG-710-256GCS LEGEND 710 GEN4 2400/1800 MB/S",
     "brand": "ADATA",
     "category": "almacenamiento-ssd",
-    "specs": [],
-    "price": 469000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -9934,9 +9879,7 @@
     "title": "SSD M.2 128GB PATRIOT P320 2280 NVME P320P128GM2 P320P128GM28 PCIE GEN3 X4",
     "brand": "PATRIOT",
     "category": "almacenamiento-ssd",
-    "specs": [],
-    "price": 350000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -10559,12 +10502,7 @@
     "title": "GABINETE COUGAR PURITY RGB 1FAN BLACK MINI TOWER PURITY RGB",
     "brand": "COUGAR",
     "category": "gabinetes",
-    "specs": [
-      "Mini Tower",
-      "RGB"
-    ],
-    "price": 366000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -12088,9 +12026,7 @@
     "title": "GABINETE AIGO DARKFLASH DS900 WHITE",
     "brand": "AIGO",
     "category": "gabinetes",
-    "specs": [],
-    "price": 378000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -12340,13 +12276,7 @@
     "title": "NB ACER AG15-42P-R917 R7-7730U/16GB/512GB/15.6/W11 Plata/INGLES",
     "brand": "ACER",
     "category": "notebooks",
-    "specs": [
-      "AMD",
-      "Ryzen",
-      "SSD"
-    ],
-    "price": 3589000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -13149,9 +13079,7 @@
     "title": "APPLE MACBOOK AIR M5 16/512GB 13\" MDHH4LL/A BLUE SKY BLUE",
     "brand": "APPLE",
     "category": "notebooks",
-    "specs": [],
-    "price": 8542000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -13280,9 +13208,7 @@
     "title": "VGA RTX5060TI 16GB PALIT INFINITY 3 NE7506T019T1 NE7506T019T1-GB 2061S/GDDR7",
     "brand": "PALIT",
     "category": "tarjetas-de-video",
-    "specs": [],
-    "price": 4188000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -13380,9 +13306,11 @@
     "title": "VGA RTX3050 6GB MSI LOW PROFILE OC 912-V812-223",
     "brand": "MSI",
     "category": "tarjetas-de-video",
-    "status": "hidden",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 1518000
   },
   {
     "id": 9252,
@@ -20038,11 +19966,7 @@
     "title": "SSD 2.5 1TB WD GREEN WDS100T3G0A 545/480 MB/S WDS100T3G0A-00B JG0",
     "brand": "WESTERN DIGITAL",
     "category": "almacenamiento-ssd",
-    "specs": [
-      "SSD"
-    ],
-    "price": 705000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -20300,11 +20224,9 @@
     "title": "HD 2TB SEAGATE SKYHAWK ST2000VX017 SURV 5400RPM 3.5\"",
     "brand": "SEAGATE",
     "category": "almacenamiento-ssd",
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15",
-    "specs": [],
-    "price": 849000
+    "lastSeen": "2026-08-15"
   },
   {
     "id": 9753,
@@ -20588,11 +20510,9 @@
     "title": "CARTAO MICRO SD 32GB SANDISK ULTRA 100M QUNR-032G- QUNR-032G-GN3MA GN3MA",
     "brand": "GENERIC",
     "category": "almacenamiento-ssd",
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15",
-    "specs": [],
-    "price": 109000
+    "lastSeen": "2026-08-15"
   },
   {
     "id": 9776,
@@ -21515,11 +21435,9 @@
     "title": "SSD 2.5 480GB ADATA ASU650SS-480GT-R 520/450 MB/ S SU650 R",
     "brand": "ADATA",
     "category": "almacenamiento-ssd",
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15",
-    "specs": [],
-    "price": 504000
+    "lastSeen": "2026-08-15"
   },
   {
     "id": 9847,
@@ -21919,7 +21837,7 @@
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
     "specs": [],
-    "price": 1472000
+    "price": 1479000
   },
   {
     "id": 9879,
@@ -22558,11 +22476,9 @@
     "title": "HD 12TB TOSHIBA N300 PRO NAS HDWG51CXZSTB 7200RPM 3.5\"",
     "brand": "GENERIC",
     "category": "almacenamiento-ssd",
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15",
-    "specs": [],
-    "price": 3377000
+    "lastSeen": "2026-08-15"
   },
   {
     "id": 9928,
@@ -23180,11 +23096,7 @@
     "title": "SSD 2.5 480GB PATRIOT PBE480GS25SSDR 450/320 MBS",
     "brand": "PATRIOT",
     "category": "almacenamiento-ssd",
-    "specs": [
-      "SSD"
-    ],
-    "price": 470000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -24718,9 +24630,11 @@
     "title": "TV 32 COBY CY3359-32ISDBT HD/USB/HDMI/ANDROID14 2 CONTROLES",
     "brand": "GENERIC",
     "category": "televisores",
-    "status": "hidden",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 692000
   },
   {
     "id": 10096,
@@ -25269,9 +25183,11 @@
     "title": "TV 65 SAMSUNG QN65QN70FAGXPR 4K/NEO/Q-LED/SMART",
     "brand": "SAMSUNG",
     "category": "televisores",
-    "status": "hidden",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 6291000
   },
   {
     "id": 10135,
@@ -26451,13 +26367,15 @@
   {
     "id": 10227,
     "ref": "308134",
-    "slug": "pc-montado-up-gamer-light-intel-core-i3-3220-3-3ghz-8gb-ddr3-10227",
-    "title": "PC MONTADO UP GAMER LIGHT, INTEL CORE I3 3220 3.3GHZ, 8GB DDR3 1600MHZ, SSD 240GB, PLACA MADRE H61M, Fuente 230W, COOLER Procesador",
+    "slug": "pc-up-gamer-light-i3-3220-8gb-240ssd-230w-10227",
+    "title": "PC UP GAMER LIGHT I3 3220/8GB/240SSD/230W",
     "brand": "INTEL",
     "category": "procesadores",
-    "status": "hidden",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 963000
   },
   {
     "id": 10228,
@@ -26475,13 +26393,15 @@
   {
     "id": 10229,
     "ref": "376005",
-    "slug": "pc-gamer-montado-intel-core-i5-4430-geforce-gt740-4gb-gddr5-10229",
-    "title": "PC GAMER MONTADO INTEL CORE I5 4430, GEFORCE GT740 4GB GDDR5, 16GB RAM DDR3, SSD 2.5",
+    "slug": "pc-up-montado-i5-4a-16gb-gt740-4gb-480gb-400w-aquario-3fan-10229",
+    "title": "PC UP MONTADO I5 4A/16GB/GT740 4GB/480GB/400W AQUARIO-3FAN",
     "brand": "INTEL",
     "category": "pcs-de-escritorio",
-    "status": "hidden",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 1858000
   },
   {
     "id": 10230,
@@ -26525,13 +26445,15 @@
   {
     "id": 10233,
     "ref": "398547",
-    "slug": "pc-montado-ryzen-r5-5600gt-16gb-ram-ssd-512gb-fuente-600w-4x-10233",
-    "title": "PC MONTADO RYZEN R5 5600GT 16GB RAM SSD 512GB Fuente 600W 4X FANS RGB OPTMUS ARGB",
-    "brand": "GENERIC",
+    "slug": "pc-up-gamer-r5-5600gt-16gb-512gb-600w-4fan-rgb-10233",
+    "title": "PC UP GAMER R5 5600GT/16GB/512GB/600W 4FAN RGB",
+    "brand": "UP GAMER",
     "category": "procesadores",
-    "status": "hidden",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 3655000
   },
   {
     "id": 10234,
@@ -26748,11 +26670,9 @@
     "title": "PC UP GAMER OFFICE PRIME I5-2400/8GB/240 SSD/200W",
     "brand": "INTEL",
     "category": "almacenamiento-ssd",
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15",
-    "specs": [],
-    "price": 1024000
+    "lastSeen": "2026-08-15"
   },
   {
     "id": 10252,
@@ -28731,13 +28651,15 @@
   {
     "id": 10432,
     "ref": "305917",
-    "slug": "servidor-nas-storage-synology-diskstation-ds223j-white-1-7gh-10432",
-    "title": "SERVIDOR NAS STORAGE SYNOLOGY DISKSTATION DS223J WHITE 1 7GHZ 2BAY 1GB LAN",
+    "slug": "servidor-nas-storage-synology-diskstation-ds223j-white-10432",
+    "title": "SERVIDOR NAS STORAGE SYNOLOGY DISKSTATION DS223J WHITE",
     "brand": "GENERIC",
     "category": "pcs-de-escritorio",
-    "status": "hidden",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 1665000
   },
   {
     "id": 10434,
@@ -29589,11 +29511,9 @@
     "title": "IMP TERMICA ZEBRA ZD220T 203DPI/USB/BIVOLT/Negro T01G00EZ",
     "brand": "GENERIC",
     "category": "impresoras",
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15",
-    "specs": [],
-    "price": 1930000
+    "lastSeen": "2026-08-15"
   },
   {
     "id": 10517,
@@ -31969,13 +31889,15 @@
   {
     "id": 10718,
     "ref": "219034",
-    "slug": "router-tp-link-archer-ax53-ax3000-dual-band-gigab-10718",
-    "title": "ROUTER TP-LINK ARCHER AX53 AX3000 DUAL BAND GIGAB",
+    "slug": "router-tp-link-archer-ax53-ax3000-dual-band-gigab-gigabit-10718",
+    "title": "ROUTER TP-LINK ARCHER AX53 AX3000 DUAL BAND GIGAB GIGABIT",
     "brand": "TP-LINK",
     "category": "redes-y-conectividad",
-    "status": "hidden",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 349000
   },
   {
     "id": 10719,
@@ -32144,12 +32066,7 @@
     "title": "ROUTER TP-LINK EC220-G5 AC1200 DUAL BAND GIGABIT",
     "brand": "TP-LINK",
     "category": "redes-y-conectividad",
-    "specs": [
-      "GENERIC",
-      "Periféricos"
-    ],
-    "price": 164000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -32891,12 +32808,7 @@
     "title": "Router WIRELESS STARLINK MINI KIT UTA-231 DUAL WIFI5 LATAM",
     "brand": "STAR",
     "category": "redes-y-conectividad",
-    "specs": [
-      "STAR",
-      "Periféricos"
-    ],
-    "price": 1538000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -35786,12 +35698,7 @@
     "title": "FONE P2 SATE AE-263 Negro/Rojo",
     "brand": "SATE",
     "category": "auriculares-y-headsets",
-    "specs": [
-      "GENERIC",
-      "Periféricos"
-    ],
-    "price": 84000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -36201,12 +36108,7 @@
     "title": "FONE P2 ONIKUMA K8 C/MIC USB GREEN CAMUFLADO 40MM",
     "brand": "GENERIC",
     "category": "auriculares-y-headsets",
-    "specs": [
-      "GENERIC",
-      "Periféricos"
-    ],
-    "price": 146000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -41924,13 +41826,15 @@
   {
     "id": 11552,
     "ref": "206726",
-    "slug": "camera-hikvision-bullet-ds-2cd1027g2-l-2mp-2-8mm-11552",
-    "title": "CAMERA HIKVISION BULLET DS 2CD1027G2 L 2MP 2 8MM",
+    "slug": "camera-hikvision-bullet-ds-2cd1027g2-l-2mp-2-8mm-externo-bla-11552",
+    "title": "CAMERA HIKVISION BULLET DS-2CD1027G2-L 2MP 2.8MM EXTERNO Blanco/Negro",
     "brand": "HIKVISION",
-    "category": null,
-    "status": "hidden",
+    "category": "smart-home",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 319000
   },
   {
     "id": 11553,
@@ -42642,24 +42546,28 @@
   {
     "id": 11623,
     "ref": "272156",
-    "slug": "alexa-amazon-fire-tv-stick-4k-2nd-gen-144719-11623",
-    "title": "ALEXA AMAZON FIRE TV STICK 4K 2ND GEN 144719",
+    "slug": "amazon-fire-tv-stick-2-ger-4k-935092-11623",
+    "title": "AMAZON FIRE TV STICK 2? GER. 4K 935092",
     "brand": "GENERIC",
     "category": "smart-home",
-    "status": "hidden",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 321000
   },
   {
     "id": 11624,
     "ref": "280830",
-    "slug": "receptor-tv-box-mxq-pro-go-8k-32gb-128gb-and-10-280830-11624",
-    "title": "RECEPTOR TV BOX MXQ PRO GO 8K 32GB 128GB AND 10 280830",
+    "slug": "receptor-tv-box-mxq-pro-go-5g-8k-32gb-128gb-and-15-11624",
+    "title": "RECEPTOR TV BOX MXQ PRO GO 5G 8K 32GB/128GB/AND.15",
     "brand": "GENERIC",
-    "category": null,
-    "status": "hidden",
+    "category": "televisores",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 168000
   },
   {
     "id": 11625,
@@ -42805,13 +42713,15 @@
   {
     "id": 11637,
     "ref": "352414",
-    "slug": "alexa-amazon-fire-tv-stick-hd-2024-wiffi-negro-352414-11637",
-    "title": "ALEXA AMAZON FIRE TV STICK HD 2024 WIFFI Negro 352414",
+    "slug": "amazon-fire-tv-stick-hd-2024-4697713-11637",
+    "title": "AMAZON FIRE TV STICK HD 2024 4697713",
     "brand": "GENERIC",
     "category": "smart-home",
-    "status": "hidden",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 325000
   },
   {
     "id": 11638,
@@ -43641,13 +43551,15 @@
   {
     "id": 11709,
     "ref": "163693",
-    "slug": "zigbee-zemismart-motor-p-cortina-de-rolo-zm25el-1000094-c-co-11709",
-    "title": "ZIGBEE ZEMISMART MOTOR P CORTINA DE ROLO ZM25EL 1000094 C CONTR",
+    "slug": "igbee-zemismart-motor-p-cortina-de-rolo-zm25el-1000094-s-con-11709",
+    "title": "IGBEE ZEMISMART MOTOR P/CORTINA DE ROLO ZM25EL 1000094 S/CONTR",
     "brand": "ZEMISMART",
     "category": "smart-home",
-    "status": "hidden",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 594000
   },
   {
     "id": 11710,
@@ -47694,7 +47606,7 @@
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
     "specs": [],
-    "price": 458000
+    "price": 440000
   },
   {
     "id": 12098,
@@ -47720,7 +47632,7 @@
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
     "specs": [],
-    "price": 458000
+    "price": 409000
   },
   {
     "id": 12100,
@@ -48468,13 +48380,15 @@
   {
     "id": 12163,
     "ref": "284912",
-    "slug": "altavoz-philips-tax2208-00-de-8-30w-bt-7hs-led-tws-negro-284-12163",
-    "title": "Altavoz PHILIPS TAX2208 00 DE 8 30W BT 7HS LED TWS Negro 284912",
+    "slug": "parlante-philips-tax2208-00-de-8-30w-bt-7hs-black-12163",
+    "title": "Parlante PHILIPS TAX2208/00 DE 8\" 30W BT/7HS BLACK",
     "brand": "PHILIPS",
     "category": "parlantes",
-    "status": "hidden",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 409000
   },
   {
     "id": 12164,
@@ -49453,11 +49367,9 @@
     "title": "Soporte P/ PROJETOR SATE A-43652P Blanco *G",
     "brand": "SATE",
     "category": "soportes-y-bases",
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15",
-    "specs": [],
-    "price": 131000
+    "lastSeen": "2026-08-15"
   },
   {
     "id": 12252,
@@ -57558,7 +57470,7 @@
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
     "specs": [],
-    "price": 3522000
+    "price": 3515000
   },
   {
     "id": 12946,
@@ -57657,13 +57569,15 @@
   {
     "id": 12954,
     "ref": "373382",
-    "slug": "monitor-gamer-msi-mag-276cxf-27-full-hd-280hz-0-5ms-curvo-ne-12954",
-    "title": "MONITOR GAMER MSI MAG 276CXF 27 FULL HD 280Hz 0 5Ms CURVO Negro",
+    "slug": "mon-27-msi-mag-276cxf-fhd-curvo-280hz-negro-12954",
+    "title": "MON 27 MSI MAG 276CXF FHD/CURVO/280Hz/Negro",
     "brand": "MSI",
     "category": "monitores",
-    "status": "hidden",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 963000
   },
   {
     "id": 12955,
@@ -57975,12 +57889,7 @@
     "title": "VGA R5-230 1GB AFOX DDR3 64BIT AFR5230-1024D3L9- AFR5230-1024D3L 9-V2",
     "brand": "AFOX",
     "category": "tarjetas-de-video",
-    "specs": [
-      "GENERIC",
-      "Tarjetas de Video"
-    ],
-    "price": 198000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -60006,12 +59915,7 @@
     "title": "SSD 2.5 1TB ADATA SU650 ASU650SS-1TT-R 520/450",
     "brand": "ADATA",
     "category": "almacenamiento-ssd",
-    "specs": [
-      "GENERIC",
-      "Placas Madre"
-    ],
-    "price": 711000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -60270,12 +60174,7 @@
     "title": "NB ASUS G614PP-WH94 R9-8940HX/16GB/1TB/RTX5070 8GB 16/W11/GREY/ INGLES",
     "brand": "ASUS",
     "category": "notebooks",
-    "specs": [
-      "ASUS",
-      "Monitores"
-    ],
-    "price": 11351000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -61714,13 +61613,15 @@
   {
     "id": 13291,
     "ref": "331108",
-    "slug": "notebook-dell-15-dc15250-intel-core-3-100u-1-20hz-4-70ghz-8g-13291",
-    "title": "NOTEBOOK DELL 15 DC15250, INTEL CORE 3-100U 1.20Hz (4.70GHZ), 8GB RAM, 512GB SSD, Pantalla 15.6",
+    "slug": "nb-dell-15-dc15250-core-3-100u-8gb-512ssd-15-w11h-15-6-blk-b-13291",
+    "title": "NB DELL 15 DC15250 CORE 3-100U/8GB/512SSD/15/W11H 15.6\" BLK BLACK",
     "brand": "INTEL",
     "category": "notebooks",
-    "status": "hidden",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 2943000
   },
   {
     "id": 13292,
@@ -71537,13 +71438,15 @@
   {
     "id": 14182,
     "ref": "377869",
-    "slug": "placa-de-v-deo-gigabyte-rtx5070-eagle-oc-ice-sff-12gb-gddr7-14182",
-    "title": "Tarjeta de Video GIGABYTE RTX5070 EAGLE OC ICE SFF, 12GB GDDR7, 192BITS, 1X HDMI 3X DISPLAYPORT, GV-N5070EAGLEOC ICE-12GD, Blanco",
+    "slug": "vga-rtx5070-12gb-gigabyte-eagle-oc-ice-sff-white-gv-n5070eag-14182",
+    "title": "VGA RTX5070 12GB GIGABYTE EAGLE OC ICE SFF WHITE GV-N5070EAGLEOC ICE-12GD GDDR7",
     "brand": "GIGABYTE",
     "category": "tarjetas-de-video",
-    "status": "hidden",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 5113000
   },
   {
     "id": 14183,
@@ -72463,7 +72366,7 @@
       "ASUS",
       "Tarjetas de Video"
     ],
-    "price": 5559000,
+    "price": 5553000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
@@ -82806,12 +82709,7 @@
     "title": "Fuente 1000W CORSAIR HX1000I 80+ PLATINUM FULL-MOD CP-9020265-NA ATX3.1 PCIE 5.1",
     "brand": "CORSAIR",
     "category": "fuentes-de-poder",
-    "specs": [
-      "CORSAIR",
-      "Fuentes de Poder"
-    ],
-    "price": 1675000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -87550,11 +87448,9 @@
     "title": "MB 1155 AFOX IH61-MA5-V6 DDR3 HDMI/VGA/M.2/USB2.0",
     "brand": "AFOX",
     "category": "tarjetas-de-video",
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15",
-    "specs": [],
-    "price": 149000
+    "lastSeen": "2026-08-15"
   },
   {
     "id": 15613,
@@ -87706,12 +87602,7 @@
     "title": "MB 1700 GIGABYTE B760M GAMING PLUS WIFI DDR4/HDMI",
     "brand": "GIGABYTE",
     "category": "placas-madre",
-    "specs": [
-      "GIGABYTE",
-      "Placas Madre"
-    ],
-    "price": 846000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -95262,12 +95153,7 @@
     "title": "SSD M.2 2TB WD GREEN SN3000 2280 NVME WDS200T4G0E 5000/4200 MB/S GEN4",
     "brand": "WESTERN DIGITAL",
     "category": "almacenamiento-ssd",
-    "specs": [
-      "GENERIC",
-      "Placas Madre"
-    ],
-    "price": 1458000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -95926,11 +95812,9 @@
     "title": "SSD M.2 1TB ADATA 2280 NVME ALEG-710-1TCS 2400/ 1800MB PCIE 3X4 LEGEND 710",
     "brand": "ADATA",
     "category": "almacenamiento-ssd",
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15",
-    "specs": [],
-    "price": 936000
+    "lastSeen": "2026-08-15"
   },
   {
     "id": 16351,
@@ -95961,12 +95845,7 @@
     "title": "SSD M.2 2TB SAMSUNG 9100 PRO NVME MZ-VAP2T0B/AM 14800/13400 MBS GEN5",
     "brand": "SAMSUNG",
     "category": "almacenamiento-ssd",
-    "specs": [
-      "SAMSUNG",
-      "Placas Madre"
-    ],
-    "price": 3391000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -104530,12 +104409,7 @@
     "title": "TEC LOGITECH G213 PRODIGY RGB GAMING USB 920-008084",
     "brand": "LOGITECH",
     "category": "teclados",
-    "specs": [
-      "LOGITECH",
-      "Periféricos"
-    ],
-    "price": 335000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -104754,12 +104628,7 @@
     "title": "TEC LOGITECH G PRO X TKL LIGHTSPE WIRELESS PIN 920-012154/PINK GX BROWN USA",
     "brand": "LOGITECH",
     "category": "teclados",
-    "specs": [
-      "LOGITECH",
-      "Periféricos"
-    ],
-    "price": 1080000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -112616,13 +112485,15 @@
   {
     "id": 17770,
     "ref": "376565",
-    "slug": "mouse-redragon-m616-rgb-trident-basic-17770",
-    "title": "Mouse REDRAGON M616-RGB TRIDENT BASIC",
+    "slug": "mouse-redragon-m616-rgb-trident-basic-wired-black-17770",
+    "title": "MOUSE REDRAGON M616-RGB TRIDENT BASIC WIRED BLACK",
     "brand": "REDRAGON",
     "category": "mouses-y-mousepads",
-    "status": "hidden",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 124000
   },
   {
     "id": 17771,
@@ -118297,11 +118168,9 @@
     "title": "GABINETE AIGO DARKFLASH DK353 S/FAN BLACK",
     "brand": "AIGO",
     "category": "refrigeracion",
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15",
-    "specs": [],
-    "price": 168000
+    "lastSeen": "2026-08-15"
   },
   {
     "id": 18266,
@@ -123004,10 +122873,10 @@
   {
     "id": 18689,
     "ref": "299929",
-    "slug": "controlador-argb-sate-acb-71-negro-8xpwm-10x-conectores-argb-18689",
-    "title": "CONTROLADOR ARGB SATE ACB-71 Negro, 8XPWM, 10X CONECTORES ARGB 3 PINES 5V, SATA POWER INPUT, COM CONTROLE",
+    "slug": "controlador-sate-argb-acb-71-black-10x3pin-8xpwm-sata-power-18689",
+    "title": "CONTROLADOR SATE ARGB ACB-71 BLACK 10X3PIN 8XPWM SATA POWER",
     "brand": "SATE",
-    "category": "consolas-y-videojuegos",
+    "category": "refrigeracion",
     "specs": [
       "GENERIC",
       "Periféricos"
@@ -130825,12 +130694,7 @@
     "title": "ADAPTADOR DE AUDIO USB P/ 7.1 MICROFINS",
     "brand": "GENERIC",
     "category": "adaptadores-y-cables",
-    "specs": [
-      "GENERIC",
-      "Periféricos"
-    ],
-    "price": 87000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -131833,12 +131697,7 @@
     "title": "APPLE Cable USB-C P/LIGHTNING MUQ93ZM/A 1M MUQ93ZM/A",
     "brand": "APPLE",
     "category": "adaptadores-y-cables",
-    "specs": [
-      "APPLE",
-      "Periféricos"
-    ],
-    "price": 146000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -135151,12 +135010,7 @@
     "title": "CONSOLE SONY PS5 825GB DIGITAL ASTRO+GRAN TUR7 CFI-2115B",
     "brand": "SONY",
     "category": "consolas-y-videojuegos",
-    "specs": [
-      "SONY",
-      "Consolas y Videojuegos"
-    ],
-    "price": 4627000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -146532,12 +146386,7 @@
     "title": "HUB SWITCH TP-LINK 16P TL-SG1016 RJ45 10/100/1000",
     "brand": "TP-LINK",
     "category": "redes-y-conectividad",
-    "specs": [
-      "GENERIC",
-      "Periféricos"
-    ],
-    "price": 405000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -148193,12 +148042,7 @@
     "title": "Soporte DE VENTOSA PARA STARLINK MINI Blanco MD-3657 3657 -MIDPRO",
     "brand": "STAR",
     "category": "soportes-y-bases",
-    "specs": [
-      "STAR",
-      "Periféricos"
-    ],
-    "price": 335000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -148397,8 +148241,8 @@
   {
     "id": 20852,
     "ref": "64772",
-    "slug": "ubiquiti-nanostation5-airmax-ns5-br-5ghz-14dbi-20852",
-    "title": "UBIQUITI NANOSTATION5 AIRMAX NS5-BR 5GHZ 14DBI",
+    "slug": "ui-nanostation5-airmax-ns5-br-5ghz-14dbi-20852",
+    "title": "UI. NANOSTATION5 AIRMAX NS5-BR 5GHZ 14DBI",
     "brand": "UBIQUITI",
     "category": "redes-y-conectividad",
     "specs": [
@@ -148707,8 +148551,8 @@
   {
     "id": 20872,
     "ref": "217000",
-    "slug": "ubiquiti-nhd-cover-marble-capa-tampa-para-uap-nanohd-1p-20872",
-    "title": "UBIQUITI NHD-COVER-MARBLE CAPA-TAMPA PARA UAP NANOHD 1P",
+    "slug": "ui-nhd-cover-marble-capa-tampa-para-uap-nanohd-1p-20872",
+    "title": "UI. NHD-COVER-MARBLE CAPA-TAMPA PARA UAP NANOHD 1P",
     "brand": "UBIQUITI",
     "category": "redes-y-conectividad",
     "specs": [
@@ -148848,8 +148692,8 @@
   {
     "id": 20881,
     "ref": "56729",
-    "slug": "ubiquiti-nbe-m5-16-br-5ghz-nanobeam-16dbi-20881",
-    "title": "UBIQUITI NBE-M5-16-BR 5GHZ NANOBEAM 16DBI",
+    "slug": "ui-nbe-m5-16-br-5ghz-nanobeam-16dbi-20881",
+    "title": "UI. NBE-M5-16-BR 5GHZ NANOBEAM 16DBI",
     "brand": "UBIQUITI",
     "category": "redes-y-conectividad",
     "specs": [
@@ -153995,13 +153839,15 @@
   {
     "id": 21314,
     "ref": "375474",
-    "slug": "apple-iphone-17-pro-max-256gb-mfxh4ll-a-naranja-a3257-21314",
-    "title": "APPLE IPHONE 17 PRO MAX 256GB MFXH4LL/A Naranja A3257",
+    "slug": "apple-iphone-17-pro-max-256gb-mfxh4ll-a-orange-a3257-esim-ja-21314",
+    "title": "APPLE IPHONE 17 PRO MAX 256GB MFXH4LL/A ORANGE A3257 ESIM JAPONES",
     "brand": "APPLE",
     "category": "telefonos-y-celulares",
-    "status": "hidden",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 8222000
   },
   {
     "id": 21315,
@@ -158644,9 +158490,7 @@
     "title": "CAMERA IP SATE A-CAM8104 2CAM 180 EXTERNA",
     "brand": "SATE",
     "category": "smart-home",
-    "specs": [],
-    "price": 161000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -160893,9 +160737,7 @@
     "title": "CEL XIAOMI POCO X8 PRO MAX 12GB/256GB/5G Negro GLOBAL",
     "brand": "XIAOMI",
     "category": "telefonos-y-celulares",
-    "specs": [],
-    "price": 3229000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -161296,9 +161138,7 @@
     "title": "CONSOLE SONY PS5 825GB DIGITAL CFI-2115B BIVOLT SLIM",
     "brand": "SONY",
     "category": "consolas-y-videojuegos",
-    "specs": [],
-    "price": 4194000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -161322,9 +161162,7 @@
     "title": "CONTROLE GAMESIR G7 PRO TRI-MODE WIRELESS WHITE/GR GRAY",
     "brand": "GAMESIR",
     "category": "consolas-y-videojuegos",
-    "specs": [],
-    "price": 427000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -163597,9 +163435,7 @@
     "title": "CPU INTEL 1700 I3 14100 BOX 4.7GHZ 12MB 14TH GEN",
     "brand": "INTEL",
     "category": "procesadores",
-    "specs": [],
-    "price": 1142000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -164325,9 +164161,7 @@
     "title": "FILAMENTO CAJA SECADORA COMGROW P/2 FILAM.1KG PLA* ABS/1.75-2.85M BIVOLT BLACK",
     "brand": "GENERIC",
     "category": "impresoras",
-    "specs": [],
-    "price": 563000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -165335,8 +165169,8 @@
   {
     "id": 22203,
     "ref": "420320",
-    "slug": "auricular-steelseries-arctis-nova-7p-gen-2-61745-22203",
-    "title": "Auricular STEELSERIES ARCTIS NOVA 7P GEN 2 61745",
+    "slug": "auricular-steelseries-arctis-n-7p-gen-2-white-61745-22203",
+    "title": "Auricular STEELSERIES ARCTIS N 7P GEN 2 WHITE 61745",
     "brand": "GENERIC",
     "category": "auriculares-y-headsets",
     "specs": [],
@@ -169382,9 +169216,7 @@
     "title": "GABINETE KIT FTX PCC-5W3 500W/MOUSE+TEC/ESP BLACK 132172",
     "brand": "FTX",
     "category": "gabinetes",
-    "specs": [],
-    "price": 310000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -170591,9 +170423,7 @@
     "title": "IMP 3D FLASHFORGE ADVENTURER 5X (AD5X) 220V",
     "brand": "GENERIC",
     "category": "impresoras",
-    "specs": [],
-    "price": 3553000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -170604,9 +170434,7 @@
     "title": "IMP BROTHER DCP-T430W MULTIFUNCIONAL WIFI 220V",
     "brand": "GENERIC",
     "category": "impresoras",
-    "specs": [],
-    "price": 1352000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -174214,12 +174042,12 @@
   {
     "id": 22886,
     "ref": "420443",
-    "slug": "mouse-redragon-m618-lit-wirelles-azzmach-lite-pre-22886",
-    "title": "MOUSE REDRAGON M618-LIT WIRELLES AZZMACH LITE PRE",
+    "slug": "mouse-redragon-m618-lit-wirelles-azzmach-lite-blk-22886",
+    "title": "MOUSE REDRAGON M618-LIT WIRELLES AZZMACH LITE BLK",
     "brand": "REDRAGON",
     "category": "mouses-y-mousepads",
     "specs": [],
-    "price": 131000,
+    "price": 130000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
@@ -176311,9 +176139,7 @@
     "title": "Reloj HAYLOU SMART VIBE LS30 BLACK",
     "brand": "GENERIC",
     "category": "relojes-smart",
-    "specs": [],
-    "price": 229000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -176545,9 +176371,7 @@
     "title": "Reloj SMART XIAOMI WATCH 4 M2315W1 SILVER BHR7848GL",
     "brand": "XIAOMI",
     "category": "relojes-smart",
-    "specs": [],
-    "price": 467000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -176753,9 +176577,7 @@
     "title": "ROUTER HUAWEI EG8041X6-10 SC-APC 7DBI OPTIXTAR GPON WIFI6",
     "brand": "GENERIC",
     "category": "redes-y-conectividad",
-    "specs": [],
-    "price": 174000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -177117,9 +176939,7 @@
     "title": "SSD 2.5 120GB STAR ST-400 530/430 MB/S",
     "brand": "GENERIC",
     "category": "almacenamiento-ssd",
-    "specs": [],
-    "price": 183000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -177403,9 +177223,7 @@
     "title": "SSD M.2 256GB STAR 2280 NVME 2100/1300 MB/S",
     "brand": "GENERIC",
     "category": "almacenamiento-ssd",
-    "specs": [],
-    "price": 372000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -177871,9 +177689,7 @@
     "title": "SWITCH HUAWEI S110-8P2ST-AC 8PORTAS POE+124W",
     "brand": "GENERIC",
     "category": "redes-y-conectividad",
-    "specs": [],
-    "price": 923000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -178079,9 +177895,7 @@
     "title": "TABLET DE ESCRITA LUO LU-A86 PINK 20\"",
     "brand": "GENERIC",
     "category": "tablets",
-    "specs": [],
-    "price": 87000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -178196,9 +178010,7 @@
     "title": "TABLET SAMSUNG GALAXY TAB S10 LITE 128GB/6G SILVER SM-X400 +PENCIL",
     "brand": "SAMSUNG",
     "category": "tablets",
-    "specs": [],
-    "price": 1998000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -179353,9 +179165,7 @@
     "title": "TEC/MOUSE FTX KM250 PORTUGES WIRELESS Negro 128779",
     "brand": "FTX",
     "category": "mouses-y-mousepads",
-    "specs": [],
-    "price": 115000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -181708,6 +181518,201 @@
     "category": "ups-y-energia",
     "specs": [],
     "price": 403000,
+    "status": "active",
+    "firstSeen": "2026-08-15",
+    "lastSeen": "2026-08-15"
+  },
+  {
+    "id": 23463,
+    "ref": "360345",
+    "slug": "apple-iphone-17-pro-256gb-mg7k4ll-a-silver-mg7k4ll-a-23463",
+    "title": "APPLE IPHONE 17 PRO 256GB MG7K4LL/A SILVER MG7K4LL/A",
+    "brand": "APPLE",
+    "category": "telefonos-y-celulares",
+    "specs": [],
+    "price": 7709000,
+    "status": "active",
+    "firstSeen": "2026-08-15",
+    "lastSeen": "2026-08-15"
+  },
+  {
+    "id": 23464,
+    "ref": "420612",
+    "slug": "parlante-jbl-partybox-330-black-bluetooth-280w-110-220v-50-6-23464",
+    "title": "Parlante JBL PARTYBOX 330 BLACK BLUETOOTH 280W 110/220V 50/60H BATERIA 9.444MA",
+    "brand": "JBL",
+    "category": "parlantes",
+    "specs": [],
+    "price": 3290000,
+    "status": "active",
+    "firstSeen": "2026-08-15",
+    "lastSeen": "2026-08-15"
+  },
+  {
+    "id": 23465,
+    "ref": "376701",
+    "slug": "camera-hikvision-bullet-ds-2cv1023g2-lidwf-light-wifi-2mp-mi-23465",
+    "title": "CAMERA HIKVISION BULLET DS-2CV1023G2-LIDWF LIGHT WIFI/2MP/MIC",
+    "brand": "HIKVISION",
+    "category": "microfonos",
+    "specs": [],
+    "price": 304000,
+    "status": "active",
+    "firstSeen": "2026-08-15",
+    "lastSeen": "2026-08-15"
+  },
+  {
+    "id": 23466,
+    "ref": "386847",
+    "slug": "camera-ip-xiaomi-mi-home-security-c201-mbc27-wifi-bhr08nbgl-23466",
+    "title": "CAMERA IP XIAOMI MI HOME SECURITY C201 MBC27 WIFI BHR08NBGL",
+    "brand": "XIAOMI",
+    "category": "smart-home",
+    "specs": [],
+    "price": 174000,
+    "status": "active",
+    "firstSeen": "2026-08-15",
+    "lastSeen": "2026-08-15"
+  },
+  {
+    "id": 23467,
+    "ref": "379265",
+    "slug": "controlador-aigo-apc1-6-portas-argb-negro-23467",
+    "title": "CONTROLADOR AIGO APC1 6 PORTAS ARGB Negro",
+    "brand": "AIGO",
+    "category": "refrigeracion",
+    "specs": [],
+    "price": 105000,
+    "status": "active",
+    "firstSeen": "2026-08-15",
+    "lastSeen": "2026-08-15"
+  },
+  {
+    "id": 23468,
+    "ref": "420432",
+    "slug": "controle-sin-cable-gamesir-g7-pro-8k-pc-aimlabs-black-green-23468",
+    "title": "CONTROLE Sin Cable GAMESIR G7 PRO 8K PC AIMLABS BLACK/GREEN",
+    "brand": "GAMESIR",
+    "category": "adaptadores-y-cables",
+    "specs": [],
+    "price": 624000,
+    "status": "active",
+    "firstSeen": "2026-08-15",
+    "lastSeen": "2026-08-15"
+  },
+  {
+    "id": 23469,
+    "ref": "391933",
+    "slug": "fone-ear-smartfy-fs06-blueth-black-true-wireless-caja-negro-23469",
+    "title": "FONE EAR SMARTFY FS06 BLUETH BLACK TRUE WIRELESS CAJA NEGRO",
+    "brand": "SMARTFY",
+    "category": "auriculares-y-headsets",
+    "specs": [],
+    "price": 152000,
+    "status": "active",
+    "firstSeen": "2026-08-15",
+    "lastSeen": "2026-08-15"
+  },
+  {
+    "id": 23470,
+    "ref": "416358",
+    "slug": "mini-pc-gmktec-nucbox-g3-pro-i3-10110u-16-512g-w11-pro-23470",
+    "title": "MINI PC GMKTEC NUCBOX G3 PRO I3-10110U/16/512G/W11 PRO",
+    "brand": "GENERIC",
+    "category": "pcs-de-escritorio",
+    "specs": [],
+    "price": 2497000,
+    "status": "active",
+    "firstSeen": "2026-08-15",
+    "lastSeen": "2026-08-15"
+  },
+  {
+    "id": 23471,
+    "ref": "110710",
+    "slug": "receptor-tv-box-mxq-pro-4k-8gb-128gb-wifi-negro-android-11-1-23471",
+    "title": "RECEPTOR TV BOX MXQ PRO 4K 8GB/128GB WIFI Negro ANDROID 11.1 5G",
+    "brand": "GENERIC",
+    "category": "televisores",
+    "specs": [],
+    "price": 124000,
+    "status": "active",
+    "firstSeen": "2026-08-15",
+    "lastSeen": "2026-08-15"
+  },
+  {
+    "id": 23472,
+    "ref": "398782",
+    "slug": "receptor-tv-box-mxq-pro-8k-5g-32gb-128gb-c-magis-23472",
+    "title": "RECEPTOR TV BOX MXQ PRO 8K 5G 32GB/128GB C/MAGIS",
+    "brand": "GENERIC",
+    "category": "televisores",
+    "specs": [],
+    "price": 124000,
+    "status": "active",
+    "firstSeen": "2026-08-15",
+    "lastSeen": "2026-08-15"
+  },
+  {
+    "id": 23473,
+    "ref": "420533",
+    "slug": "teclado-aula-hero99-mec-wireless-rgb-black-pink-504586-23473",
+    "title": "TECLADO AULA HERO99 MEC WIRELESS RGB BLACK/PINK 504586",
+    "brand": "AULA",
+    "category": "teclados",
+    "specs": [],
+    "price": 409000,
+    "status": "active",
+    "firstSeen": "2026-08-15",
+    "lastSeen": "2026-08-15"
+  },
+  {
+    "id": 23474,
+    "ref": "420544",
+    "slug": "teclado-aula-hero99-mec-wireless-rgb-sw-white-blue-504562-23474",
+    "title": "TECLADO AULA HERO99 MEC WIRELESS RGB SW/WHITE BLUE 504562",
+    "brand": "AULA",
+    "category": "teclados",
+    "specs": [],
+    "price": 440000,
+    "status": "active",
+    "firstSeen": "2026-08-15",
+    "lastSeen": "2026-08-15"
+  },
+  {
+    "id": 23475,
+    "ref": "420555",
+    "slug": "teclado-aula-hero99-mec-wireless-rgb-white-purple-504579-23475",
+    "title": "TECLADO AULA HERO99 MEC WIRELESS RGB WHITE PURPLE 504579",
+    "brand": "AULA",
+    "category": "teclados",
+    "specs": [],
+    "price": 440000,
+    "status": "active",
+    "firstSeen": "2026-08-15",
+    "lastSeen": "2026-08-15"
+  },
+  {
+    "id": 23476,
+    "ref": "367510",
+    "slug": "ui-u7-lr-unifi-ap-ac-wifi-7-longo-alcan-nce-2-5gbe-300-clie-23476",
+    "title": "UI. U7-LR UNIFI AP AC WIFI 7 LONGO ALCAN NCE 2.5GBE 300 CLIE",
+    "brand": "GENERIC",
+    "category": "redes-y-conectividad",
+    "specs": [],
+    "price": 1159000,
+    "status": "active",
+    "firstSeen": "2026-08-15",
+    "lastSeen": "2026-08-15"
+  },
+  {
+    "id": 23477,
+    "ref": "420577",
+    "slug": "vga-rtx5060-8gb-gigabyte-eagle-oc-ice-white-gddr7-gv-n5060ea-23477",
+    "title": "VGA RTX5060 8GB GIGABYTE EAGLE OC ICE WHITE GDDR7 GV-N5060EAGLEOC ICE-8GD",
+    "brand": "GIGABYTE",
+    "category": "tarjetas-de-video",
+    "specs": [],
+    "price": 2583000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
