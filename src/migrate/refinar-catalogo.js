@@ -11,6 +11,21 @@ const config = cargarConfig();
 const catalogo = JSON.parse(readFileSync(RUTA, 'utf8'));
 const nombrePorId = new Map(CATEGORIAS.map((c) => [c.id, c.nombre]));
 
+// Este script NO es idempotente: costoDesdePrecioLegado asume la formula
+// vieja, asi que correrlo sobre un catalogo ya refinado reconstruiria un
+// "costo" equivocado y corromperia todos los precios. El guard detecta que ya
+// se aplico mirando si las categorias estan en formato slug.
+const idsValidos = new Set(CATEGORIAS.map((c) => c.id));
+const yaRefinado = catalogo.some((p) => idsValidos.has(p.category));
+if (yaRefinado) {
+    console.error('ERROR: el catalogo ya fue refinado (tiene categorias en formato slug).');
+    console.error('       Volver a correrlo corromperia los precios: la inversion de la');
+    console.error('       formula legada solo es valida sobre precios del modelo viejo.');
+    console.error('       Si necesitas rehacerlo, restaura data/catalog.json desde git primero:');
+    console.error('         git checkout <commit-anterior> -- data/catalog.json');
+    process.exit(1);
+}
+
 const rep = {
     titulosCambiados: 0, mojibakeReparado: 0, marcasRecuperadas: 0,
     reclasificados: 0, sinClasificarActivos: 0, sinClasificarOcultos: 0,
@@ -47,6 +62,9 @@ for (const p of catalogo) {
         if (p.status === 'active') rep.sinClasificarActivos++;
         else rep.sinClasificarOcultos++;
         p.status = 'hidden';
+        // La categoria vieja no se conserva: dejarla haria creer que el
+        // producto esta clasificado cuando en realidad no se pudo decidir.
+        p.category = null;
         delete p.price;
         delete p.specs;
         continue;
