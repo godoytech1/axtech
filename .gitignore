@@ -1,0 +1,13 @@
+.vercel
+.env*
+!.env.example
+node_modules/
+dist/
+config/pricing.config.json
+.claude/worktrees/
+
+# wrangler
+.wrangler/
+
+# scraper legado: nombra al proveedor, no se publica (respaldo en axtech-legacy)
+.local-legacy/

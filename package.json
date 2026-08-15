@@ -1,0 +1,14 @@
+{
+  "name": "axtech",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test \"test/**/*.test.js\"",
+    "build": "node src/build/index.js",
+    "migrate": "node src/migrate/ejecutar.js"
+  }
+}
