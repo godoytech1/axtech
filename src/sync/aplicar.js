@@ -43,6 +43,7 @@ export function aplicarLista({ catalogo, lista, hoy, config, ultimoId }) {
         sinCambio: 0,
         ocultados: 0,
         sinClasificar: 0,
+        categoriaHeredada: 0,
         precioSubio: 0,
         precioBajo: 0,
         saltos: []
@@ -52,7 +53,17 @@ export function aplicarLista({ catalogo, lista, hoy, config, ultimoId }) {
 
     for (const [ref, item] of lista) {
         const titulo = normalizarTitulo(item.titulo);
-        const categoria = clasificar({ titulo });
+        const existente = porRef.get(String(ref));
+
+        // Si el titulo deja de clasificar pero el producto YA esta catalogado,
+        // se conserva la categoria que tenia. Descartarlo sin mas lo dejaba
+        // publicado con el precio congelado para siempre y sin que nada lo
+        // reportara: la lista lo tiene, asi que tampoco se ocultaba.
+        let categoria = clasificar({ titulo });
+        if (!categoria && existente?.category) {
+            categoria = existente.category;
+            reporte.categoriaHeredada++;
+        }
         if (!categoria) {
             reporte.sinClasificar++;
             continue;
@@ -61,8 +72,6 @@ export function aplicarLista({ catalogo, lista, hoy, config, ultimoId }) {
         const costo = Math.round(item.usd * tipoDeCambio);
         const precio = precioFinal(costo, categoria, config);
         if (precio === null) continue;
-
-        const existente = porRef.get(String(ref));
 
         if (!existente) {
             idSiguiente++;

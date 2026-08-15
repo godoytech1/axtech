@@ -100,3 +100,26 @@ test('devuelve null si no reconoce la marca', () => {
     assert.equal(detectarMarca('PRODUCTO SIN MARCA CONOCIDA'), null);
     assert.equal(detectarMarca(null), null);
 });
+
+// Casos encontrados al preparar el sync automatico: 6 productos activos cuyo
+// titulo en la lista ya no clasificaba. Tres de ellos ademas estaban
+// publicados en la categoria equivocada.
+
+test('un controlador ARGB es refrigeracion, no una consola', () => {
+    // "CONTROLADOR" es un hub de ventiladores y RGB. Estaba publicado en
+    // "Consolas y Videojuegos", donde ningun comprador lo buscaria.
+    assert.equal(clasificar({ titulo: 'CONTROLADOR SATE ARGB ACB-5 BLACK 9X3PIN 9XPWM' }), 'refrigeracion');
+    assert.equal(clasificar({ titulo: 'CONTROLADOR SATE ARGB ACB-71 BLACK 10X3PIN 8XPWM SATA POWER' }), 'refrigeracion');
+});
+
+test('un control de consola sigue siendo consola', () => {
+    // El arreglo de arriba no puede llevarse por delante los mandos de verdad.
+    assert.equal(clasificar({ titulo: 'CONTROLE XBOX SERIES X WIRELESS BLACK' }), 'consolas-y-videojuegos');
+    assert.equal(clasificar({ titulo: 'JOYSTICK DUALSENSE PS5 WHITE' }), 'consolas-y-videojuegos');
+});
+
+test('los equipos Ubiquiti de exterior son redes', () => {
+    assert.equal(clasificar({ titulo: 'UI. NANOSTATION5 AIRMAX NS5-BR 5GHZ 14DBI' }), 'redes-y-conectividad');
+    assert.equal(clasificar({ titulo: 'UI. NBE-M5-16-BR 5GHZ NANOBEAM 16DBI' }), 'redes-y-conectividad');
+    assert.equal(clasificar({ titulo: 'UI. NHD-COVER-MARBLE CAPA-TAMPA PARA UAP NANOHD 1P' }), 'redes-y-conectividad');
+});

@@ -123,7 +123,11 @@ const REGLAS = [
     // "HD ..." y "CARTAO ..." son abreviaturas del proveedor.
     ['almacenamiento-ssd',     /(\b(ssd|nvme|m\.?2|hd externo|\bhdd\b|disco duro|disco rigido|pendrive|pen drive|micro ?sd|cartao de mem|gaveta|case para hd)\b|^hd |^cartao )/i],
     ['fuentes-de-poder',       /\b(fuente|fonte|\bpsu\b)\b/i],
-    ['refrigeracion',          /\b(cooler|ventilador|ventoinha|\bfans?\b|dissipador|pasta termica)\b/i],
+    // Un "CONTROLADOR ... ARGB/PWM" es un hub de ventiladores y luces, no un
+    // mando de consola. Se exige ARGB, RGB o PWM en el mismo titulo para no
+    // llevarse por delante los controles de verdad, que caen antes en
+    // consolas-y-videojuegos.
+    ['refrigeracion',          /(\b(cooler|ventilador|ventoinha|\bfans?\b|dissipador|pasta termica)\b|\bcontroladora?\b.*\b(argb|rgb|pwm)\b)/i],
     ['gabinetes',              /\b(gabinete|chassi)\b/i],
 
     // 4. Perifericos concretos. Ya no existe la bolsa "Perifericos".
@@ -135,7 +139,10 @@ const REGLAS = [
     ['parlantes',              /\b(parlante|altavoz|caixa de som|speaker|sound ?bar|radio reloj)\b/i],
 
     // 5. Resto.
-    ['redes-y-conectividad',   /\b(router|roteador|repetidor|access point|\bhub\b|antena|placa de rede|wi-?fi usb|powerline|rj45|cat[56]e?\b|patch cord|mikrotik|routerboard|unifi|ubiquiti|switch \d+p|poe\b)\b/i],
+    // "UI. " es la abreviatura del proveedor para Ubiquiti: antenas, enlaces
+    // punto a punto y sus accesorios. Sus modelos (NanoStation, NanoBeam,
+    // NanoHD) no contienen ninguna palabra generica de red.
+    ['redes-y-conectividad',   /(\b(router|roteador|repetidor|access point|\bhub\b|antena|placa de rede|wi-?fi usb|powerline|rj45|cat[56]e?\b|patch cord|mikrotik|routerboard|unifi|ubiquiti|switch \d+p|poe\b)\b|^ui\. )/i],
     ['ups-y-energia',          /(\b(ups|nobreak|no-?break|estabilizador|filtro de linha|power ?bank|cargador|carregador|pila|pilha|bateria|luz de emergencia)\b|^estab)/i],
     // "CAMERA ..." son camaras WiFi de seguridad; las cerraduras inteligentes
     // tambien son domotica.

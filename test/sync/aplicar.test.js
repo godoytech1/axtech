@@ -105,6 +105,32 @@ test('un titulo que no clasifica se descarta y se cuenta', () => {
     assert.equal(reporte.sinClasificar, 1);
 });
 
+test('un producto ya catalogado cuyo titulo deja de clasificar conserva su categoria y ACTUALIZA el precio', () => {
+    // Sin esto, un cambio de titulo del proveedor congela el precio para
+    // siempre y en silencio: el producto sigue publicado, sigue figurando en
+    // la lista, y su precio nunca se vuelve a tocar. Medido sobre el catalogo
+    // real: le pasaba a 6 productos activos.
+    const rara = new Map([['700001', { titulo: 'ZZZ OBJETO SIN CATEGORIA POSIBLE QQQ', usd: 5 }]]);
+    const previo = [{
+        id: 1, ref: '700001', title: 'viejo', status: 'active',
+        category: 'refrigeracion', price: 999, specs: [], lastSeen: '2025-12-01'
+    }];
+    const { catalogo, reporte } = aplicarLista({ catalogo: previo, lista: rara, hoy: '2026-01-01', config, ultimoId: 1 });
+    assert.equal(catalogo[0].category, 'refrigeracion');
+    assert.notEqual(catalogo[0].price, 999);
+    assert.equal(catalogo[0].status, 'active');
+    assert.equal(reporte.sinClasificar, 0);
+    assert.equal(reporte.categoriaHeredada, 1);
+});
+
+test('un producto sin categoria previa y que no clasifica sigue descartandose', () => {
+    const rara = new Map([['700001', { titulo: 'ZZZ OBJETO SIN CATEGORIA POSIBLE QQQ', usd: 5 }]]);
+    const previo = [{ id: 1, ref: '700001', title: 'v', status: 'hidden', category: null, lastSeen: '2025-12-01' }];
+    const { catalogo, reporte } = aplicarLista({ catalogo: previo, lista: rara, hoy: '2026-01-01', config, ultimoId: 1 });
+    assert.equal(catalogo[0].status, 'hidden');
+    assert.equal(reporte.sinClasificar, 1);
+});
+
 test('el precio sale del dolar de la lista, no del precio anterior (idempotente)', () => {
     const uno = aplicarLista({ catalogo: [], lista: lista(), hoy: '2026-01-01', config, ultimoId: 0 });
     const dos = aplicarLista({ catalogo: uno.catalogo, lista: lista(), hoy: '2026-01-01', config, ultimoId: uno.ultimoId });

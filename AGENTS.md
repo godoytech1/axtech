@@ -93,13 +93,16 @@ dist/               lo único que se despliega
 ## Comandos
 
 ```bash
-npm test                                   # Tests
-node --env-file=.env src/build/index.js     # Build a dist/
-node --env-file=.env src/images/ejecutar.js # Descargar imagenes faltantes
-node src/migrate/importar-lista.js          # Simular la importacion de la lista
-node src/migrate/importar-lista.js --aplicar # Aplicarla
-npm run migrate                            # Migración única del catálogo legado
+npm test                                          # Tests
+node --env-file=.env src/build/index.js           # Build a dist/
+node --env-file=.env src/sync/ejecutar.js         # Sync: simula, no escribe
+node --env-file=.env src/sync/ejecutar.js --aplicar
+node --env-file=.env src/images/ejecutar.js       # Descargar imagenes faltantes
+npm run migrate                                   # Migración única del catálogo legado
 ```
+
+Banderas del sync: `--aplicar` escribe; `--archivo RUTA` usa un `.txt` local en
+vez de descargar; `--sin-purga` no borra nada; `--forzar` ignora los frenos.
 
 ## Flujo de trabajo
 
@@ -136,28 +139,53 @@ finas perjudica al dominio entero.
 Las especificaciones se extraen del título (`src/lib/specs.js`): el proveedor
 no las entrega estructuradas, pero sus títulos son densos.
 
-## Actualizar precios a mano (el sync automático está pausado)
+## Sincronización del catálogo
 
-El cron nocturno está pausado desde la Fase 0 y se reactiva en la Fase 4.
-Mientras tanto, para actualizar precios y productos:
+**El sync corre solo todas las noches** (`.github/workflows/sync.yml`, 04:00 de
+Paraguay). Descarga la lista oficial, recalcula precios, publica lo nuevo,
+oculta lo que desapareció y purga lo que lleva 30 días ausente. Si algo no
+cierra, **aborta sin escribir**: el catálogo queda como estaba y el workflow
+sale en rojo.
 
-1. Entrar a la web del proveedor y usar su botón de **bajar precios**.
-2. Guardar el archivo en `.local-legacy/listas-proveedor/` (ignorado por git).
-3. Correr, desde `C:\Page`:
+No hace falta hacer nada a mano. Para forzar una corrida:
 
 ```bash
-node src/migrate/importar-lista.js             # simula: muestra qué cambiaría
-node src/migrate/importar-lista.js --aplicar   # aplica
-node --env-file=.env src/images/ejecutar.js    # baja imágenes de lo nuevo
-git add -A && git commit -m "chore: actualizar precios" && git push
+node --env-file=.env src/sync/ejecutar.js              # simula: muestra qué cambiaría
+node --env-file=.env src/sync/ejecutar.js --aplicar    # aplica
+node --env-file=.env src/images/ejecutar.js            # baja imágenes de lo nuevo
+git add -A && git commit -m "chore: actualizar catalogo" && git push
 ```
 
 El push dispara el despliegue solo.
 
-**Es seguro repetirlo.** `importar-lista` calcula el precio desde el dólar de
-la lista, no desde el precio anterior, así que correrlo dos veces da el mismo
-resultado. No confundir con `refinar-catalogo.js`, que **no** es idempotente y
-por eso aborta si detecta que ya se aplicó.
+**Es seguro repetirlo.** El precio sale del dólar de la lista, no del precio
+anterior, así que correrlo dos veces da el mismo resultado. No confundir con
+`refinar-catalogo.js`, que **no** es idempotente y por eso aborta si detecta
+que ya se aplicó.
+
+### Los frenos
+
+Viven en `src/sync/verificar.js` y se verifican **dos veces**: la lista
+descargada antes de tocar el catálogo, y los cambios ya calculados antes de
+escribirlos. Abortan si la lista trae menos de 4.000 productos, si cae más del
+15% contra la corrida anterior, si el tipo de cambio está fuera de 3.000–15.000,
+si se ocultaría más del 10% de los activos, si saltaría de precio más del 5%, o
+si la purga borraría más del 5% del catálogo.
+
+Existen por un escenario concreto: el proveedor devuelve un 503, el parser lee
+cero productos, ningún producto figura en la lista, y los 5.286 activos se
+ocultan. Sin frenos, el sitio amanece vacío.
+
+Si un freno salta y el resultado igual es correcto, se repite con `--forzar`
+**a mano**. Nunca en CI.
+
+### Si el proveedor cambia el formato de la lista
+
+Los tests del parser corren contra fixtures sintéticas
+(`test/fixtures/lista-*.txt`, se regeneran con `node test/fixtures/generar.js`).
+Si el formato real cambia, el parser deja de reconocer líneas, la lista queda
+por debajo del mínimo y el sync aborta **antes** de tocar nada. Ahí hay que
+ajustar `LINEA` en `src/lib/lista-precios.js` y la fixtura.
 
 ## Estado del proyecto
 

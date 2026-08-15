@@ -18,8 +18,9 @@
  */
 const LINEA = /^(\d{4,7})\.+(.+?)\.+U\$\s*([\d.,]+)\s*$/;
 
-/** Tipo de cambio de respaldo si no se puede deducir de los datos. */
-export const TIPO_DE_CAMBIO_POR_DEFECTO = 6164;
+// El tipo de cambio vivia aca como constante. Se mudo a pricing.config.json:
+// con un sync diario, un valor clavado en la fuente aleja los precios de la
+// realidad sin que nadie lo note, y cambiarlo no deberia requerir tocar codigo.
 
 /**
  * @param {string} texto contenido completo del archivo

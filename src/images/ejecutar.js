@@ -3,6 +3,7 @@ import { aWebp, esPlaceholder } from './procesar.js';
 import { nombreDeArchivo } from '../lib/imagenes.js';
 
 const DESTINO = 'public/img';
+const RUTA_SIN_IMAGEN = 'data/sin-imagen.json';
 const CONCURRENCIA = 6;
 
 const base = process.env.SUPPLIER_IMG_BASE;
@@ -57,8 +58,25 @@ console.log(`  ya existian:        ${rep.saltados}`);
 console.log(`  placeholder:        ${rep.placeholder}`);
 console.log(`  con error:          ${rep.error}`);
 
-if (sinImagen.length) {
-    writeFileSync('data/sin-imagen.json', JSON.stringify(sinImagen, null, 2) + '\n', 'utf8');
-    console.log(`\n  ${sinImagen.length} productos quedaron sin imagen. Ids en data/sin-imagen.json`);
-    console.log('  No se publican: la regla 3 prohibe mostrar productos sin imagen real.');
-}
+// La lista se FUSIONA con la que ya estaba, no la reemplaza.
+//
+// Reemplazarla era un error silencioso y peligroso: los productos que ya
+// tenian archivo se saltan y nunca vuelven a entrar en `sinImagen`, asi que
+// una corrida interrumpida (o una que no encontrara nada nuevo) truncaba el
+// archivo y publicaba productos sin foto, contra la regla 3.
+//
+// Del archivo previo solo se conservan los ids que siguen sin imagen en disco:
+// asi un producto que consiguio su foto sale de la lista por si solo.
+const previos = existsSync(RUTA_SIN_IMAGEN)
+    ? JSON.parse(readFileSync(RUTA_SIN_IMAGEN, 'utf8'))
+    : [];
+const idsActuales = new Set(catalogo.map((p) => p.id));
+const fusionados = [...new Set([...previos, ...sinImagen])]
+    .filter((id) => idsActuales.has(id))
+    .filter((id) => !existsSync(`${DESTINO}/${nombreDeArchivo(id)}`))
+    .sort((a, b) => a - b);
+
+writeFileSync(RUTA_SIN_IMAGEN, JSON.stringify(fusionados, null, 2) + '\n', 'utf8');
+console.log(`\n  ${fusionados.length} productos siguen sin imagen. Ids en ${RUTA_SIN_IMAGEN}`);
+console.log(`  (${previos.length} antes de esta corrida)`);
+console.log('  No se publican: la regla 3 prohibe mostrar productos sin imagen real.');
