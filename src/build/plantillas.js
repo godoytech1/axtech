@@ -18,6 +18,7 @@ function cabecera({ titulo, descripcion, canonical, imagen, indexable, jsonLd })
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#060b18">
     <title>${escaparHtml(titulo)}</title>
     <meta name="description" content="${escaparHtml(descripcion)}">
     <link rel="canonical" href="${canonical}">
@@ -41,7 +42,8 @@ function cabecera({ titulo, descripcion, canonical, imagen, indexable, jsonLd })
 }
 
 function encabezadoDelSitio() {
-    return `<header class="header">
+    return `<a href="#contenido" class="saltar-al-contenido">Saltar al contenido</a>
+<header class="header">
     <div class="container header-content">
         <a href="/" class="logo">
             <div class="logo-icon"><img src="/assets/logo.jpg" alt="AXTECH" class="logo-icon-img" width="48" height="48"></div>
@@ -51,7 +53,7 @@ function encabezadoDelSitio() {
             </div>
         </a>
         <a href="https://wa.me/${WHATSAPP}" target="_blank" rel="noopener" class="contact-btn">
-            <i class="lab la-whatsapp"></i>
+            <i class="lab la-whatsapp" aria-hidden="true"></i>
             <div class="contact-btn-text"><span class="label">Consultas</span><span class="number">WhatsApp</span></div>
         </a>
     </div>
@@ -105,7 +107,7 @@ export function paginaDeProducto({ producto: p, categoria, relacionados, urlBase
     })}
 <body>
 ${encabezadoDelSitio()}
-<main class="container ficha">
+<main id="contenido" class="container ficha">
     <nav class="migas" aria-label="Ruta de navegación">
         <a href="/">Inicio</a> › <a href="/c/${categoria.id}/">${escaparHtml(categoria.nombre)}</a> › <span>${escaparHtml(p.title)}</span>
     </nav>
@@ -118,7 +120,7 @@ ${encabezadoDelSitio()}
             <h1 class="ficha-titulo">${escaparHtml(p.title)}</h1>
             <p class="ficha-precio">${formatearGs(p.price)}</p>
             <a class="btn btn-success ficha-cta" href="https://wa.me/${WHATSAPP}?text=${mensaje}" target="_blank" rel="noopener">
-                <i class="lab la-whatsapp"></i> Consultar por WhatsApp
+                <i class="lab la-whatsapp" aria-hidden="true"></i> Consultar por WhatsApp
             </a>
             <p class="ficha-nota">Garantía de 3 meses. Envío con costo adicional a coordinar.</p>
             ${filasDeSpecs}
@@ -173,7 +175,7 @@ export function paginaDeCategoria({ categoria, productos, pagina, totalPaginas, 
     })}
 <body>
 ${encabezadoDelSitio()}
-<main class="container listado">
+<main id="contenido" class="container listado">
     <nav class="migas" aria-label="Ruta de navegación">
         <a href="/">Inicio</a> › <span>${escaparHtml(categoria.nombre)}</span>
     </nav>
