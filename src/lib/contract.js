@@ -1,4 +1,5 @@
 import { formatearGs } from './formato.js';
+import { rutaPublica } from './imagenes.js';
 
 /**
  * Campos que jamas pueden aparecer ni en data/catalog.json ni en dist/.
@@ -28,16 +29,18 @@ export const CAMPOS_PROHIBIDOS = [
  *
  * @returns el objeto publico, o null si el registro no debe publicarse.
  */
-export function aPublicoLegado(registro, baseImagenes) {
+export function aPublicoLegado(registro, { idsSinImagen = new Set() } = {}) {
     if (!registro || registro.status !== 'active') return null;
     if (typeof registro.price !== 'number' || registro.price <= 0) return null;
+    // Regla 3 de AGENTS.md: nunca publicar un producto sin imagen real.
+    if (idsSinImagen.has(registro.id)) return null;
 
     return {
         id: registro.id,
         title: registro.title,
         brand: registro.brand,
         category: registro.category,
-        image: `${baseImagenes}/IMG_${registro.ref}_1.JPG`,
+        image: rutaPublica(registro.id),
         pyg: registro.price,
         pyg_str: formatearGs(registro.price),
         specs: Array.isArray(registro.specs) ? registro.specs : [],

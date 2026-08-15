@@ -583,20 +583,29 @@ if (!nombreProveedor) {
 
 - [ ] **Step 7: Construir y verificar que no queda rastro del proveedor**
 
+Agregar `SUPPLIER_NAME` al `.env` local (el CI ya lo tiene como secreto desde
+la Fase 0), y construir:
+
 ```bash
-SUPPLIER_NAME=$(grep -o 'SUPPLIER_IMG_BASE=https://\([^/]*\)' .env | sed 's|.*//||' | cut -d. -f2) \
-  node --env-file=.env src/build/index.js
-grep -ric "topdek" dist/ | grep -v ":0" || echo "OK: cero menciones al proveedor en dist/"
+node --env-file=.env src/build/index.js
+n=$(grep -ril "$SUPPLIER_NAME" dist/ | wc -l)
+echo "archivos de dist/ que mencionan al proveedor: $n"   # debe ser 0
 ```
-Expected: el build completa y el grep no encuentra nada.
+Expected: el build completa y el conteo es 0.
 
 - [ ] **Step 8: Verificar que el guard bloquea de verdad**
 
 Un guard que nunca se vio fallar no es un guard.
 
-1. En `src/lib/contract.js`, cambiar temporalmente la línea de `image` por
-   `image: 'https://www.topdekinformatica.com.br/x.jpg',`
-2. Run: `SUPPLIER_NAME=topdek node --env-file=.env src/build/index.js`
+1. En `src/lib/contract.js`, cambiar temporalmente la línea de `image` por una
+   que use la variable de entorno — nunca el nombre literal del proveedor, que
+   este documento se versiona:
+
+   ```javascript
+   image: `https://${process.env.SUPPLIER_NAME}.ejemplo/x.jpg`,
+   ```
+
+2. Run: `node --env-file=.env src/build/index.js`
    Expected: **FALLA** con `cadena prohibida en la salida` y exit code 1.
 3. Revertir el cambio y reconstruir.
 

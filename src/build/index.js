@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, mkdirSync, cpSync, rmSync, statSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, cpSync, rmSync, statSync, existsSync } from 'node:fs';
 import { aPublicoLegado } from '../lib/contract.js';
 import { CATEGORIAS } from '../lib/taxonomy.js';
 import { buscarFugas } from './guard.js';
@@ -6,16 +6,18 @@ import { buscarFugas } from './guard.js';
 const SALIDA = 'dist';
 const ESTATICOS = ['index.html', 'index.css', 'app.js', 'robots.txt', 'sitemap.xml'];
 
-const baseImagenes = process.env.SUPPLIER_IMG_BASE;
-if (!baseImagenes) {
-    console.error('ERROR: falta la variable de entorno SUPPLIER_IMG_BASE.');
-    console.error('       Definila en tu archivo .env local o como secreto del CI.');
-    process.exit(1);
-}
+// El proveedor ya no interviene en el build: las imagenes son propias y viven
+// en public/img/. Los productos cuya imagen era el placeholder del proveedor
+// no se publican.
+const idsSinImagen = new Set(
+    existsSync('data/sin-imagen.json')
+        ? JSON.parse(readFileSync('data/sin-imagen.json', 'utf8'))
+        : []
+);
 
 const catalogo = JSON.parse(readFileSync('data/catalog.json', 'utf8'));
 const publicos = catalogo
-    .map((registro) => aPublicoLegado(registro, baseImagenes))
+    .map((registro) => aPublicoLegado(registro, { idsSinImagen }))
     .filter((registro) => registro !== null);
 
 rmSync(SALIDA, { recursive: true, force: true });
@@ -25,6 +27,7 @@ for (const archivo of ESTATICOS) {
     cpSync(archivo, `${SALIDA}/${archivo}`);
 }
 cpSync('assets', `${SALIDA}/assets`, { recursive: true });
+cpSync('public/img', `${SALIDA}/img`, { recursive: true });
 
 // CATEGORIES viaja junto al catalogo: el front construye la navegacion desde
 // la taxonomia en vez de tener la lista escrita a mano en el HTML, que era
@@ -37,14 +40,19 @@ writeFileSync(`${SALIDA}/products.js`, contenido, 'utf8');
 
 // El guard corre sobre la salida real.
 //
-// En esta fase NO se verifica el dominio del proveedor: las imagenes todavia
-// se sirven desde su sitio, asi que su host aparece necesariamente en
-// dist/products.js. Esa verificacion se activa en la Fase 1, cuando las
-// imagenes pasen a Cloudflare R2.
+// Desde la Fase 1B las imagenes son propias, asi que el dominio del proveedor
+// no debe aparecer en NINGUNA parte de lo servido. Si aparece, el build falla
+// y el despliegue no ocurre.
+const nombreProveedor = process.env.SUPPLIER_NAME;
+if (!nombreProveedor) {
+    console.warn('AVISO: sin SUPPLIER_NAME no se verifica el dominio del proveedor.');
+}
 const aRevisar = [`${SALIDA}/products.js`, `${SALIDA}/index.html`, `${SALIDA}/app.js`];
 const fugas = [];
 for (const archivo of aRevisar) {
-    const encontradas = buscarFugas(readFileSync(archivo, 'utf8'));
+    const encontradas = buscarFugas(readFileSync(archivo, 'utf8'), {
+        cadenasProhibidas: nombreProveedor ? [nombreProveedor] : []
+    });
     fugas.push(...encontradas.map((f) => `${archivo}: ${f}`));
 }
 

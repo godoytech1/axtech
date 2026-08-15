@@ -18,6 +18,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
+          cache: npm
+
+      - name: Instalar dependencias
+        run: npm ci
 
       - name: Tests
         run: npm test
@@ -25,7 +29,9 @@ jobs:
       - name: Build
         run: node src/build/index.js
         env:
-          SUPPLIER_IMG_BASE: ${{ secrets.SUPPLIER_IMG_BASE }}
+          # El build ya no descarga nada del proveedor. SUPPLIER_NAME se usa
+          # solo para VERIFICAR que su dominio no aparezca en la salida.
+          SUPPLIER_NAME: ${{ secrets.SUPPLIER_NAME }}
 
       # Ultima linea de defensa antes de publicar: si algo sensible llego a
       # dist/, el despliegue no ocurre. El build ya corre su propio guard;

@@ -9,6 +9,10 @@
   "scripts": {
     "test": "node --test \"test/**/*.test.js\"",
     "build": "node src/build/index.js",
-    "migrate": "node src/migrate/ejecutar.js"
+    "migrate": "node src/migrate/ejecutar.js",
+    "images": "node src/images/ejecutar.js"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.3"
   }
 }
