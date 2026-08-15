@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Reparar la calidad del catálogo — texto corrupto, clasificación rota y precios incoherentes — dejando 24 categorías reales en lugar de un cajón de sastre con el 41% de los productos, y precios con margen sano.
+**Goal:** Reparar la calidad del catálogo — texto corrupto, clasificación rota y precios incoherentes — dejando 26 categorías reales en lugar de un cajón de sastre con el 41% de los productos, y precios con margen sano.
 
 **Architecture:** Tres módulos puros y testeables (`normalize`, `taxonomy`, `pricing`) que se aplican al catálogo mediante un script de refinamiento. El script **no escribe nada** sin el flag `--aplicar`: primero emite un reporte para revisión humana. El orden importa y está validado empíricamente: normalizar → clasificar → tasar.
 
@@ -63,13 +63,13 @@ produce un catálogo peor que el actual:
 | Archivo | Responsabilidad |
 |---|---|
 | `src/lib/normalize.js` | **Crear.** Reparar mojibake, traducir PT→ES, limpiar títulos |
-| `src/lib/taxonomy.js` | **Crear.** 24 categorías, reglas de clasificación, marcas |
+| `src/lib/taxonomy.js` | **Crear.** 26 categorías, reglas de clasificación, marcas |
 | `src/lib/pricing.js` | **Crear.** Motor de precios híbrido |
 | `config/pricing.config.example.json` | **Crear.** Plantilla versionada |
 | `config/pricing.config.json` | **Crear.** Real, ignorado por git |
 | `src/migrate/refinar-catalogo.js` | **Crear.** Aplica los tres módulos + reporte |
 | `src/build/index.js` | **Modificar.** Exportar también `CATEGORIES` |
-| `index.html` | **Modificar.** Navegación con las 24 categorías nuevas |
+| `index.html` | **Modificar.** Navegación generada desde la taxonomía |
 | `app.js` | **Modificar.** Resolver nombres desde `CATEGORIES` |
 | `test/lib/normalize.test.js` | **Crear.** |
 | `test/lib/taxonomy.test.js` | **Crear.** |
