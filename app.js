@@ -227,11 +227,63 @@ document.addEventListener('DOMContentLoaded', () => {
     const productModalBody = document.getElementById('product-modal-body');
 
     // ----------------------------------------------------------------------
+    // ESTADO EN LA URL
+    // ----------------------------------------------------------------------
+    // Sin esto no se puede compartir una busqueda ni usar el boton atras, y
+    // recargar la pagina pierde el filtro. Ademas es requisito para que la
+    // Fase 2 genere paginas coherentes con esta navegacion.
+    const ORDENES_VALIDOS = ['default', 'price-asc', 'price-desc'];
+
+    function leerEstadoDeURL() {
+        const q = new URLSearchParams(location.search);
+        const cat = q.get('c');
+        if (cat && (cat === 'all' || CATS.some(c => c.id === cat))) currentCategory = cat;
+        const texto = q.get('q');
+        if (texto) {
+            searchQuery = texto;
+            if (searchInput) searchInput.value = texto;
+        }
+        const pagina = parseInt(q.get('p'), 10);
+        if (Number.isInteger(pagina) && pagina > 0) currentPage = pagina;
+        const orden = q.get('sort');
+        if (orden && ORDENES_VALIDOS.includes(orden)) {
+            sortOrder = orden;
+            if (sortSelect) sortSelect.value = orden;
+        }
+    }
+
+    function escribirEstadoEnURL() {
+        const q = new URLSearchParams();
+        if (currentCategory !== 'all') q.set('c', currentCategory);
+        if (searchQuery) q.set('q', searchQuery);
+        if (currentPage > 1) q.set('p', String(currentPage));
+        if (sortOrder !== 'default') q.set('sort', sortOrder);
+        const cadena = q.toString();
+        const url = cadena ? `${location.pathname}?${cadena}` : location.pathname;
+        if (url === location.pathname + location.search) return;
+        history.pushState({}, '', url);
+    }
+
+    window.addEventListener('popstate', () => {
+        currentCategory = 'all';
+        searchQuery = '';
+        currentPage = 1;
+        sortOrder = 'default';
+        if (searchInput) searchInput.value = '';
+        if (sortSelect) sortSelect.value = 'default';
+        leerEstadoDeURL();
+        syncCategoryLinks(currentCategory);
+        renderProducts();
+    });
+
+    // ----------------------------------------------------------------------
     // INITIALIZATION & SETUP
     // ----------------------------------------------------------------------
     initSlider();
     updateCategoryBadges();
     renderSidebarFilters('all');
+    leerEstadoDeURL();
+    syncCategoryLinks(currentCategory);
     renderProducts();
     updateCartUI();
 
@@ -711,6 +763,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 card.dataset.productId = p.id;
                 productsGrid.appendChild(card);
             });
+
+            escribirEstadoEnURL();
 
             // Render Pagination Controls
             renderPaginationControls(totalPages);

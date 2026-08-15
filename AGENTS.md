@@ -39,6 +39,10 @@ categorías. Lo que no se puede duplicar no se puede desincronizar.
 5. **Los modelos de hardware se conservan íntegros** en los títulos:
    `RTX 4070`, `RX 7600`, `Ryzen 7 7800X3D`, `i7-14700K`.
 6. **Nunca mencionar públicamente al proveedor** ni enlazar a su sitio.
+   Las imágenes se descargan **una sola vez**, se convierten a WebP (máx.
+   800 px) y se versionan en `public/img/`. El sitio no depende de que el
+   proveedor esté en línea. El build lo verifica contra el secreto
+   `SUPPLIER_NAME` y **falla si aparece en la salida**.
 7. **Los secretos no se pegan en chats, issues ni logs.** Van en `.env` local
    (ignorado por git) y en GitHub Secrets.
 8. **Los porcentajes de margen son secretos.** `config/pricing.config.json` no
@@ -68,6 +72,7 @@ categorías. Lo que no se puede duplicar no se puede desincronizar.
 
 ```
 data/catalog.json   fuente de verdad (sin costos, sin proveedor)
+public/img/*.webp   imagenes propias (el proveedor no interviene)
        ↓ src/build
 dist/               lo único que se despliega
 ```
@@ -81,7 +86,8 @@ dist/               lo único que se despliega
 
 ```bash
 npm test                                   # Tests
-node --env-file=.env src/build/index.js    # Build a dist/
+node --env-file=.env src/build/index.js     # Build a dist/
+node --env-file=.env src/images/ejecutar.js # Descargar imagenes faltantes
 npm run migrate                            # Migración única del catálogo legado
 ```
 
