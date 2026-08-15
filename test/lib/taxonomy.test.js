@@ -123,3 +123,75 @@ test('los equipos Ubiquiti de exterior son redes', () => {
     assert.equal(clasificar({ titulo: 'UI. NBE-M5-16-BR 5GHZ NANOBEAM 16DBI' }), 'redes-y-conectividad');
     assert.equal(clasificar({ titulo: 'UI. NHD-COVER-MARBLE CAPA-TAMPA PARA UAP NANOHD 1P' }), 'redes-y-conectividad');
 });
+
+// --- Cuatro grupos mal clasificados, encontrados comparando que reglas
+// compiten por cada titulo. En todos, una palabra que era una CARACTERISTICA
+// del producto le ganaba a la palabra que decia QUE ERA el producto.
+
+test('un teclado con cable es un teclado, no un cable', () => {
+    // "C/Cable" es "con cable": una caracteristica, no el producto.
+    // Afectaba a 57 productos, entre ellos fuentes y cargadores.
+    assert.equal(clasificar({ titulo: 'TEC REDRAGON K530RGB-PRO DRACONIC MEC.USA C/Cable BLACK BROWN' }), 'teclados');
+    assert.equal(clasificar({ titulo: 'Cargador XIAOMI 120W C/Cable CHARGING COMBO WHITE USB-A' }), 'ups-y-energia');
+});
+
+test('un cable de verdad sigue siendo un cable', () => {
+    assert.equal(clasificar({ titulo: 'Cable DE FORCA P/ Fuente 1.5M PADRAO USA' }), 'adaptadores-y-cables');
+    assert.equal(clasificar({ titulo: 'ADAPTADOR USB P/ RJ45 TP-LINK UE300 USB 3.0' }), 'adaptadores-y-cables');
+});
+
+test('un gabinete Cooler Master es un gabinete, no refrigeracion', () => {
+    // La marca del fabricante le ganaba al tipo de producto. 61 gabinetes.
+    assert.equal(clasificar({ titulo: 'GABINETE COOLER MASTER SNEAKER-X CPT KIT RED/WHITE' }), 'gabinetes');
+    assert.equal(clasificar({ titulo: 'GABINETE COOLER MASTER MASTERBOX Q300L V2 ARGB BLK' }), 'gabinetes');
+    assert.equal(clasificar({ titulo: 'GABINETE GAMEMAX T20 BLACK S/FAN BTF SFX USA Fuente ITX' }), 'gabinetes');
+});
+
+test('un ventilador PARA gabinete sigue siendo refrigeracion', () => {
+    // El arreglo de arriba no puede llevarse por delante los coolers de caja.
+    assert.equal(clasificar({ titulo: 'COOLER FAN P/ GABINETE 8X8 Negro' }), 'refrigeracion');
+    assert.equal(clasificar({ titulo: 'COOLER FAN MTEK MF-120 RGB 120MM P/ GABINETE' }), 'refrigeracion');
+});
+
+test('VGA como PUERTO no convierte a una placa madre en placa de video', () => {
+    // "HDMI/VGA" es la lista de salidas de video de la placa. 120 productos,
+    // casi todos placas madre, estaban en Tarjetas de Video.
+    assert.equal(clasificar({ titulo: 'MB AM4 UP GAMER A520M HDMI/VGA/M.2/DDR4' }), 'placas-madre');
+    assert.equal(clasificar({ titulo: 'MB 1700 ASUS PRIME H610M-A D4 DDR4 HDMI/DP/VGA/2M' }), 'placas-madre');
+});
+
+test('una placa de video de verdad sigue siendo placa de video', () => {
+    assert.equal(clasificar({ titulo: 'VGA RX7600 8GB XFX SPEEDSTER SWFT210' }), 'tarjetas-de-video');
+    assert.equal(clasificar({ titulo: 'VGA GT730 4GB STAR DDR3 128BITS DVI/HDMI' }), 'tarjetas-de-video');
+    assert.equal(clasificar({ titulo: 'PLACA DE VIDEO ASUS RTX 4070 12GB' }), 'tarjetas-de-video');
+});
+
+test('unos auriculares Redmi son auriculares, no un telefono', () => {
+    // La marca de celulares le ganaba al tipo de producto. 22 auriculares.
+    assert.equal(clasificar({ titulo: 'FONE XIAOMI REDMI BUDS 5 Blanco M2316E1 BHR7626CN' }), 'auriculares-y-headsets');
+    assert.equal(clasificar({ titulo: 'FONE XIAOMI REDMI BUDS 6 PLAY Negro M2420E1' }), 'auriculares-y-headsets');
+});
+
+test('un celular Redmi sigue siendo un celular', () => {
+    assert.equal(clasificar({ titulo: 'CEL XIAOMI REDMI NOTE 14 256GB 8GB Negro' }), 'telefonos-y-celulares');
+});
+
+// Productos que nunca clasificaron por titulo y arrastraban una categoria
+// vieja de la migracion: quedaban publicados en el lugar equivocado sin que
+// nada lo reportara.
+
+test('una PC armada es una PC de escritorio, no un procesador', () => {
+    assert.equal(clasificar({ titulo: 'PC UP GAMER LIGHT I3 3220/8GB/240SSD/230W' }), 'pcs-de-escritorio');
+    assert.equal(clasificar({ titulo: 'PC UP GAMER R5 5600GT/16GB/512GB/600W 4FAN RGB' }), 'pcs-de-escritorio');
+    assert.equal(clasificar({ titulo: 'PC UP MONTADO I5 4A/16GB/GT740 4GB/480GB/400W' }), 'pcs-de-escritorio');
+});
+
+test('una caja de streaming va con los televisores', () => {
+    assert.equal(clasificar({ titulo: 'AMAZON FIRE TV STICK HD 2024 4697713' }), 'televisores');
+});
+
+test('un proyector no es una placa de video', () => {
+    // Estaban en Tarjetas de Video por el puerto VGA de su ficha.
+    assert.equal(clasificar({ titulo: 'PROJETOR OPTOMA ZX300 3500 LUMENS VGA/USB/WHITE' }), 'televisores');
+    assert.equal(clasificar({ titulo: 'PROJETOR ACER X1128I 4800 LUMENS HDMI VGA BIVOLT' }), 'televisores');
+});

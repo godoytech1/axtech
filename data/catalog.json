@@ -324,9 +324,11 @@
     "title": "NB DELL 15 DC15255 R3-7320/8GB/512SSD/15.6/W11",
     "brand": "DELL",
     "category": "notebooks",
-    "status": "hidden",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 2677000
   },
   {
     "id": 25,
@@ -1713,7 +1715,7 @@
       "1x HDMI 3x DisplayPort",
       "Negro"
     ],
-    "price": 4714000,
+    "price": 4820000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
@@ -1781,9 +1783,7 @@
     "title": "VGA RX9060XT 16GB SAPPHIRE GAMING PULSE OC 2FAN 11350-03-20G",
     "brand": "SAPPHIRE",
     "category": "tarjetas-de-video",
-    "specs": [],
-    "price": 3422000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -3709,7 +3709,7 @@
     "slug": "fuente-230w-up-gamer-atx24p-atx-bivolt-c-cable-br-264",
     "title": "Fuente 230W UP GAMER ATX24P ATX BIVOLT C/Cable BR",
     "brand": "UP GAMER",
-    "category": "adaptadores-y-cables",
+    "category": "fuentes-de-poder",
     "specs": [
       "c/ Cable",
       "Bivolt Chaveada",
@@ -4747,9 +4747,7 @@
     "title": "AMAZON ALEXA ECHO DOT 5? GER. Azul C2N6L4",
     "brand": "GENERIC",
     "category": "smart-home",
-    "specs": [],
-    "price": 458000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -5734,7 +5732,7 @@
     "slug": "mb-am4-up-gamer-a520m-hdmi-vga-m-2-ddr4-418",
     "title": "MB AM4 UP GAMER A520M HDMI/VGA/M.2/DDR4",
     "brand": "AMD",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "AMD AM4",
       "DDR4",
@@ -5764,7 +5762,7 @@
     "slug": "mb-1155-up-gamer-h61mdr3-ddr3-hdmi-vga-m-2-usb3-0-420",
     "title": "MB 1155 UP GAMER H61MDR3 DDR3 HDMI/VGA/M.2/USB3.0",
     "brand": "LG",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "Intel LGA 1155",
       "DDR3",
@@ -5805,7 +5803,7 @@
     "slug": "mb-1700-asus-prime-h610m-a-d4-ddr4-hdmi-dp-vga-2m-423",
     "title": "MB 1700 ASUS PRIME H610M-A D4 DDR4 HDMI/DP/VGA/2M",
     "brand": "ASUS",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [],
     "price": 557000,
     "status": "active",
@@ -5818,7 +5816,7 @@
     "slug": "mb-1150-up-gamer-h81mdr3-ddr3-hdmi-vga-m-2-glan-424",
     "title": "MB 1150 UP GAMER H81MDR3 DDR3 HDMI/VGA/M.2/GLAN",
     "brand": "LG",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "Intel LGA 1150",
       "DDR3",
@@ -5835,7 +5833,7 @@
     "slug": "mb-1151-up-gamer-h110mdr4-ddr4-hdmi-vga-m-2-usb3-0-425",
     "title": "MB 1151 UP GAMER H110MDR4 DDR4 HDMI/VGA/M.2/USB3.0",
     "brand": "LG",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "Intel LGA 1151",
       "DDR4",
@@ -5854,7 +5852,7 @@
     "slug": "mb-am4-biostar-b450mhp-ddr4-hdmi-vga-426",
     "title": "MB AM4 BIOSTAR B450MHP DDR4/HDMI/VGA",
     "brand": "BIOSTAR",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [],
     "price": 372000,
     "status": "active",
@@ -5880,7 +5878,7 @@
     "slug": "mb-am4-asus-prime-a520m-a-ii-ddr4-hdmi-dp-vga-m-2-428",
     "title": "MB AM4 ASUS PRIME A520M-A II DDR4 HDMI/DP/VGA/M.2",
     "brand": "ASUS",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [],
     "price": 477000,
     "status": "active",
@@ -5945,7 +5943,7 @@
     "slug": "mb-1700-asus-prime-h610m-k-d4-ddr4-hdmi-vga-2m-2-433",
     "title": "MB 1700 ASUS PRIME H610M-K D4 DDR4 HDMI/VGA/2M.2",
     "brand": "ASUS",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [],
     "price": 526000,
     "status": "active",
@@ -6004,7 +6002,7 @@
     "slug": "mb-am4-asus-prime-b550m-k-ddr4-hdmi-dvi-vga-2m-2-438",
     "title": "MB AM4 ASUS PRIME B550M-K DDR4 HDMI/DVI/VGA/2M.2",
     "brand": "ASUS",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [],
     "price": 600000,
     "status": "active",
@@ -6017,7 +6015,7 @@
     "slug": "mb-1700-biostar-b760mx2-e-d4-ddr4-hdmi-dvi-vga-m-2-usb3-0-439",
     "title": "MB 1700 BIOSTAR B760MX2-E D4 DDR4 HDMI/DVI/VGA/M.2 USB3.0",
     "brand": "BIOSTAR",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [],
     "price": 569000,
     "status": "active",
@@ -6030,7 +6028,7 @@
     "slug": "mb-1151-star-h310-h310g398-ddr4-hdmi-vga-m-2-440",
     "title": "MB 1151 STAR H310 H310G398 DDR4 HDMI/VGA/M.2",
     "brand": "STAR",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [],
     "price": 396000,
     "status": "active",
@@ -6043,7 +6041,7 @@
     "slug": "mb-1155-biostar-h61mhv3-ddr3-hdmi-vga-usb2-0-441",
     "title": "MB 1155 BIOSTAR H61MHV3 DDR3 HDMI/VGA/USB2.0",
     "brand": "BIOSTAR",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "1xVGA",
       "1xHDMI",
@@ -6101,7 +6099,7 @@
     "slug": "mb-1155-arktek-ak-h61m-el-ddr3-hdmi-vga-usb2-0-445",
     "title": "MB 1155 ARKTEK AK-H61M EL DDR3 HDMI/VGA/USB2.0",
     "brand": "GENERIC",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "1xVGA",
       "1xHDMI",
@@ -6133,7 +6131,7 @@
     "slug": "mb-am4-asus-prime-a520m-k-ddr4-hdmi-vga-m-2-447",
     "title": "MB AM4 ASUS PRIME A520M-K DDR4 HDMI/VGA/M.2",
     "brand": "ASUS",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [],
     "price": 440000,
     "status": "active",
@@ -6146,7 +6144,7 @@
     "slug": "mb-am5-msi-b650m-p-pro-ddr5-hdmi-dp-vga-448",
     "title": "MB AM5 MSI B650M-P PRO DDR5/HDMI/DP/VGA",
     "brand": "MSI",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [],
     "price": 846000,
     "status": "active",
@@ -6159,7 +6157,7 @@
     "slug": "mb-1155-keepdata-h61-kdgnv-ddr3-hdmi-vga-m-2-usb2-449",
     "title": "MB 1155 KEEPDATA H61-KDGNV DDR3 HDMI/VGA/M.2/USB2",
     "brand": "KEEPDATA",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [],
     "price": 142000,
     "status": "active",
@@ -6183,7 +6181,7 @@
     "slug": "mb-1700-asrock-h610m-hvs-hdmi-vga-ddr4-451",
     "title": "MB 1700 ASROCK H610M-HVS HDMI/VGA/DDR4",
     "brand": "ASROCK",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [],
     "price": 529000,
     "status": "active",
@@ -6209,7 +6207,7 @@
     "slug": "mb-cpu-biostar-a68n-2100k-2-0-itx-ddr3-hdmi-vga-453",
     "title": "MB+CPU BIOSTAR A68N-2100K 2.0 ITX DDR3/HDMI/VGA",
     "brand": "AMD",
-    "category": "tarjetas-de-video",
+    "category": "memorias-ram",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
@@ -6235,7 +6233,7 @@
     "slug": "mb-1151-up-gamer-h310mdr4-ddr4-hdmi-vga-m-2-usb3-0-455",
     "title": "MB 1151 UP GAMER H310MDR4 DDR4 HDMI/VGA/M.2/USB3.0",
     "brand": "LG",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "Intel LGA 1151",
       "DDR4",
@@ -6252,7 +6250,7 @@
     "slug": "mb-am5-asus-prime-b650m-a-ii-ddr5-hdmi-dp-vga-m-2-456",
     "title": "MB AM5 ASUS PRIME B650M-A II DDR5 HDMI/DP/VGA/M.2",
     "brand": "ASUS",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [],
     "price": 809000,
     "status": "active",
@@ -6265,7 +6263,7 @@
     "slug": "mb-am4-up-gamer-b450m-vdh-ddr4-vga-hdmi-dp-m-2-usb-3-0-457",
     "title": "MB AM4 UP GAMER B450M-VDH DDR4 VGA/HDMI/DP/M.2/USB 3.0",
     "brand": "AMD",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "AMD AM4",
       "DDR4",
@@ -6282,7 +6280,7 @@
     "slug": "mb-1700-asus-prime-h610m-e-ddr5-hdmi-vga-usb3-2-458",
     "title": "MB 1700 ASUS PRIME H610M-E DDR5 HDMI/VGA/USB3.2",
     "brand": "ASUS",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [],
     "price": 646000,
     "status": "active",
@@ -6295,7 +6293,7 @@
     "slug": "mb-am5-asus-prime-a620m-k-ddr5-hdmi-vga-m-2-459",
     "title": "MB AM5 ASUS PRIME A620M-K DDR5 HDMI/VGA/M.2",
     "brand": "ASUS",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [],
     "price": 520000,
     "status": "active",
@@ -6308,7 +6306,7 @@
     "slug": "mb-1700-asus-prime-b760m-k-d4-ddr4-hdmi-vga-2m-2-460",
     "title": "MB 1700 ASUS PRIME B760M-K D4 DDR4 HDMI/VGA/2M.2",
     "brand": "ASUS",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
@@ -6398,7 +6396,7 @@
     "slug": "mb-1155-keepdata-b75-kdgnv-ddr3-hdmi-vga-m-2-usb3-466",
     "title": "MB 1155 KEEPDATA B75-KDGNV DDR3 HDMI/VGA/M.2/USB3",
     "brand": "KEEPDATA",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [],
     "price": 142000,
     "status": "active",
@@ -6411,7 +6409,7 @@
     "slug": "mb-1151-keepdata-h110-kdgnv-ddr4-hdmi-vga-m-2-usb3-467",
     "title": "MB 1151 KEEPDATA H110-KDGNV DDR4 HDMI/VGA/M.2/USB3",
     "brand": "KEEPDATA",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [],
     "price": 327000,
     "status": "active",
@@ -6580,7 +6578,7 @@
     "slug": "mb-am4-asus-prime-b550m-a-ddr4-hdmi-dvi-vga-2m-2-480",
     "title": "MB AM4 ASUS PRIME B550M-A DDR4 HDMI/DVI/VGA/2M.2",
     "brand": "ASUS",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [],
     "price": 711000,
     "status": "active",
@@ -6669,7 +6667,7 @@
     "slug": "mb-1700-biostar-h610mhc-2-0-ddr4-hdmi-vga-m-2-usb3-487",
     "title": "MB 1700 BIOSTAR H610MHC 2.0 DDR4 HDMI/VGA/M.2/USB3",
     "brand": "BIOSTAR",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [],
     "price": 424000,
     "status": "active",
@@ -6695,7 +6693,7 @@
     "slug": "mb-1700-msi-b760m-e-pro-ddr4-hdmi-vga-usb2-0-489",
     "title": "MB 1700 MSI B760M-E PRO DDR4/HDMI/VGA/USB2.0",
     "brand": "MSI",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [],
     "price": 587000,
     "status": "active",
@@ -7943,13 +7941,13 @@
     "slug": "gabinete-cooler-master-sneaker-x-cpt-kit-red-white-abk-sxnn-562",
     "title": "GABINETE COOLER MASTER SNEAKER-X CPT KIT RED/WHITE ABK-SXNN-S38L3- R1",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [
       "Mini ITX",
       "1x Cooler",
       "ARGB"
     ],
-    "price": 6936000,
+    "price": 6757000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
@@ -7996,7 +7994,7 @@
     "slug": "gabinete-up-gamer-prime-matx-c-fuente-230w-blk-red-230w-bivo-565",
     "title": "GABINETE UP GAMER PRIME MATX C/ Fuente 230W BLK/RED 230W BIVOLT",
     "brand": "UP GAMER",
-    "category": "fuentes-de-poder",
+    "category": "gabinetes",
     "specs": [
       "Mini Tower; e ITX",
       "c-F 230W Negro"
@@ -10131,7 +10129,7 @@
     "slug": "gabinete-cooler-master-masterbox-q300l-v2-argb-blk-q300lv2-k-9031",
     "title": "GABINETE COOLER MASTER MASTERBOX Q300L V2 ARGB BLK Q300LV2-KGNN-S0 1/BLACK",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [
       "ARGB"
     ],
@@ -10146,7 +10144,7 @@
     "slug": "gabinete-sate-8103k-c-fuente-200w-negro-itx-9032",
     "title": "GABINETE SATE 8103K C/Fuente 200W Negro ITX",
     "brand": "SATE",
-    "category": "fuentes-de-poder",
+    "category": "gabinetes",
     "specs": [
       "Negro",
       "Fuente"
@@ -10162,7 +10160,7 @@
     "slug": "gabinete-gamemax-t20-black-s-fan-btf-sfx-usa-fuente-itx-9033",
     "title": "GABINETE GAMEMAX T20 BLACK S/FAN BTF SFX USA Fuente ITX",
     "brand": "GAMEMAX",
-    "category": "fuentes-de-poder",
+    "category": "gabinetes",
     "specs": [
       "MID Tower",
       "M-ATX",
@@ -10198,7 +10196,7 @@
     "slug": "gabinete-mtek-mk309-c-fuente-200w-itx-negro-9035",
     "title": "GABINETE MTEK MK309 C/Fuente 200W ITX Negro",
     "brand": "MTEK",
-    "category": "fuentes-de-poder",
+    "category": "gabinetes",
     "specs": [
       "Negro",
       "Fuente"
@@ -10214,9 +10212,9 @@
     "slug": "gabinete-cooler-master-haf-700-evo-titanium-gray-h700e-ignn-9036",
     "title": "GABINETE COOLER MASTER HAF 700 EVO TITANIUM GRAY H700E-IGNN-S00",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [],
-    "price": 3254000,
+    "price": 3170000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
@@ -10349,9 +10347,9 @@
     "slug": "gabinete-cooler-master-masterbox-nr200p-pink-itx-mcb-nr200p-9045",
     "title": "GABINETE COOLER MASTER MASTERBOX NR200P PINK ITX MCB-NR200P-QCNN S00",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [],
-    "price": 959000,
+    "price": 934000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
@@ -10389,7 +10387,7 @@
     "slug": "gabinete-sate-k8871-4-fan-negro-9048",
     "title": "GABINETE SATE K8871 4 FAN Negro",
     "brand": "SATE",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [
       "Fan",
       "Negro"
@@ -10432,7 +10430,7 @@
     "slug": "gabinete-sate-k52-8-fan-e-atx-blanco-9051",
     "title": "GABINETE SATE K52 8 FAN E-ATX Blanco",
     "brand": "SATE",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [
       "E-ATX",
       "ATX",
@@ -10450,7 +10448,7 @@
     "slug": "gabinete-sate-k31-8-fan-e-atx-negro-9052",
     "title": "GABINETE SATE K31 8 FAN E-ATX Negro",
     "brand": "SATE",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [
       "E-ATX",
       "ATX",
@@ -10483,7 +10481,7 @@
     "slug": "gabinete-sate-k51-8-fan-e-atx-negro-9054",
     "title": "GABINETE SATE K51 8 FAN E-ATX Negro",
     "brand": "SATE",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [
       "E-ATX",
       "ATX",
@@ -10512,7 +10510,7 @@
     "slug": "gabinete-sate-k8872-4-fan-blanco-9056",
     "title": "GABINETE SATE K8872 4 FAN Blanco",
     "brand": "SATE",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [
       "Fan",
       "Blanco"
@@ -10570,7 +10568,7 @@
     "slug": "gabinete-cooler-master-haf-500-homecoming-white-h500-wgnn-s0-9060",
     "title": "GABINETE COOLER MASTER HAF 500 HOMECOMING WHITE H500-WGNN-S00 HOMEC - CLASSIC",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [],
     "price": 686000,
     "status": "active",
@@ -10612,9 +10610,9 @@
     "slug": "gabinete-cooler-master-haf-700-evo-white-h700e-wgnn-s00-9063",
     "title": "GABINETE COOLER MASTER HAF 700 EVO WHITE H700E-WGNN-S00",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [],
-    "price": 3325000,
+    "price": 3239000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
@@ -10707,7 +10705,7 @@
     "slug": "gabinete-cooler-master-masterbox-nr200-blanco-itx-mcb-nr200-9069",
     "title": "GABINETE COOLER MASTER MASTERBOX NR200 Blanco ITX MCB-NR200-WNNN S00",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [
       "Blanco"
     ],
@@ -10735,11 +10733,11 @@
     "slug": "gabinete-cooler-master-haf-700-titanium-gray-atx-h700-ignn-s-9071",
     "title": "GABINETE COOLER MASTER HAF 700 TITANIUM GRAY ATX H700-IGNN-S00",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [
       "ATX"
     ],
-    "price": 2038000,
+    "price": 1986000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
@@ -10776,7 +10774,7 @@
     "slug": "gabinete-be-quiet-pure-base-500dx-bgw38-argb-white-3-fan-9074",
     "title": "GABINETE BE QUIET PURE BASE 500DX BGW38 ARGB WHITE 3 FAN",
     "brand": "GENERIC",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [
       "ARGB",
       "Fan"
@@ -10792,7 +10790,7 @@
     "slug": "gabinete-cooler-master-masterbox-td300-mesh-white-9075",
     "title": "GABINETE COOLER MASTER MASTERBOX TD300 MESH WHITE",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [],
     "price": 612000,
     "status": "active",
@@ -10905,11 +10903,11 @@
     "slug": "gabinete-cooler-master-masterbox-nr200p-blanco-itx-mcb-nr200-9083",
     "title": "GABINETE COOLER MASTER MASTERBOX NR200P Blanco ITX MCB-NR200P-WGNN S00",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [
       "Blanco"
     ],
-    "price": 894000,
+    "price": 871000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
@@ -10989,7 +10987,7 @@
     "slug": "gabinete-aigo-darkflash-ds900g-white-s-fan-9089",
     "title": "GABINETE AIGO DARKFLASH DS900G WHITE S/FAN",
     "brand": "AIGO",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
@@ -11145,7 +11143,7 @@
     "slug": "gabinete-sate-k32-8-fan-e-atx-blanco-9099",
     "title": "GABINETE SATE K32 8 FAN E-ATX Blanco",
     "brand": "SATE",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [
       "E-ATX",
       "ATX",
@@ -11179,7 +11177,7 @@
     "slug": "gabinete-cooler-master-elite-502-black-lite-e502l-kgnn-s00-9101",
     "title": "GABINETE COOLER MASTER ELITE 502 BLACK LITE E502L-KGNN-S00",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [],
     "price": 520000,
     "status": "active",
@@ -11192,7 +11190,7 @@
     "slug": "gabinete-cooler-master-masterbox-q300l-retro-white-mcb-q300l-9102",
     "title": "GABINETE COOLER MASTER MASTERBOX Q300L RETRO WHITE MCB-Q300L-WANN- SRE",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [],
     "price": 563000,
     "status": "active",
@@ -11280,7 +11278,7 @@
     "slug": "gabinete-sate-gamer-k2802-atx-8-cooler-blanco-9109",
     "title": "GABINETE SATE GAMER K2802 ATX 8 COOLER Blanco",
     "brand": "SATELLITE",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [
       "E-ATX",
       "ATX",
@@ -11297,7 +11295,7 @@
     "slug": "gabinete-aigo-darkflash-ds900wd-white-s-fan-9110",
     "title": "GABINETE AIGO DARKFLASH DS900WD WHITE S/FAN",
     "brand": "AIGO",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [],
     "price": 359000,
     "status": "active",
@@ -11310,7 +11308,7 @@
     "slug": "gabinete-aigo-darkflash-wd200-white-s-fan-9111",
     "title": "GABINETE AIGO DARKFLASH WD200 WHITE S/FAN",
     "brand": "AIGO",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [
       "Fan"
     ],
@@ -11326,9 +11324,7 @@
     "title": "GABINETE COOLER MASTER ELITE 302 BLACK LITE E302L-KGNN-S00",
     "brand": "COOLER MASTER",
     "category": "refrigeracion",
-    "specs": [],
-    "price": 427000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -11354,7 +11350,7 @@
     "slug": "gabinete-sate-8202k-mini-itx-negro-c-fuente-230w-9114",
     "title": "GABINETE SATE 8202K MINI ITX Negro C/Fuente 230W",
     "brand": "SATE",
-    "category": "fuentes-de-poder",
+    "category": "gabinetes",
     "specs": [
       "Mini ITX",
       "Negro",
@@ -11371,7 +11367,7 @@
     "slug": "gabinete-sate-k2402-gamer-e-atx-4-cooler-blanco-9115",
     "title": "GABINETE SATE K2402 GAMER E-ATX 4 COOLER Blanco",
     "brand": "SATE",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [
       "E-ATX",
       "ATX",
@@ -11478,7 +11474,7 @@
     "slug": "gabinete-cooler-master-elite-490-black-e490-khnn-s00-9122",
     "title": "GABINETE COOLER MASTER ELITE 490 BLACK E490-KHNN-S00",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [
       "Micro ATX",
       "M-ATX",
@@ -11498,7 +11494,7 @@
     "slug": "gabinete-cooler-master-elite-301-lite-steel-side-e301l-knnn-9123",
     "title": "GABINETE COOLER MASTER ELITE 301 LITE STEEL SIDE E301L-KNNN-S01 BLACK",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [],
     "price": 415000,
     "status": "active",
@@ -11556,7 +11552,7 @@
     "slug": "gabinete-cooler-master-elite-600-white-e600-wgnn-s00-9127",
     "title": "GABINETE COOLER MASTER ELITE 600 WHITE E600-WGNN-S00",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [
       "MID Tower",
       "ATX",
@@ -11711,7 +11707,7 @@
     "slug": "gabinete-cougar-mx600-air-rgb-4-fan-black-9137",
     "title": "GABINETE COUGAR MX600 AIR RGB 4 FAN BLACK",
     "brand": "COUGAR",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [
       "RGB",
       "Fan"
@@ -11745,7 +11741,7 @@
     "slug": "gabinete-cooler-master-elite-301-lite-steel-left-e301l-knnn-9139",
     "title": "GABINETE COOLER MASTER ELITE 301 LITE STEEL LEFT E301L-KNNN-S00 BLACK",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [],
     "price": 427000,
     "status": "active",
@@ -11816,7 +11812,7 @@
     "slug": "gabinete-cooler-master-elite-690-wood-white-e690-whnn-s00-9144",
     "title": "GABINETE COOLER MASTER ELITE 690 WOOD WHITE E690-WHNN-S00",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [
       "MID Tower",
       "ATX",
@@ -11835,7 +11831,7 @@
     "slug": "gabinete-cooler-master-masterbox-mb600l-v2-black-mb600l2-knn-9145",
     "title": "GABINETE COOLER MASTER MASTERBOX MB600L V2 BLACK MB600L2-KNNN-S0 0 - ATX",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [
       "ATX"
     ],
@@ -11865,7 +11861,7 @@
     "slug": "gabinete-cooler-master-elite-502-white-e502-wgnn-s00-9147",
     "title": "GABINETE COOLER MASTER ELITE 502 WHITE E502-WGNN-S00",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [],
     "price": 600000,
     "status": "active",
@@ -11904,7 +11900,7 @@
     "slug": "gabinete-aigo-darkflash-dk260-mesh-air-white-s-fan-9150",
     "title": "GABINETE AIGO DARKFLASH DK260 MESH AIR WHITE S/FAN",
     "brand": "AIGO",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [
       "Fan"
     ],
@@ -11932,7 +11928,7 @@
     "slug": "gabinete-cooler-master-elite-302-white-e302-wgnn-s00-9152",
     "title": "GABINETE COOLER MASTER ELITE 302 WHITE E302-WGNN-S00",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [],
     "price": 513000,
     "status": "active",
@@ -11988,7 +11984,7 @@
     "slug": "gabinete-cooler-master-elite-302-black-e302-kgnn-s00-9156",
     "title": "GABINETE COOLER MASTER ELITE 302 BLACK E302-KGNN-S00",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [],
     "price": 544000,
     "status": "active",
@@ -12036,7 +12032,7 @@
     "slug": "gabinete-cooler-master-flatpack-qube-500-macaron-q500-dgnn-s-9160",
     "title": "GABINETE COOLER MASTER FLATPACK QUBE 500 MACARON Q500-DGNN-S00",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [],
     "price": 668000,
     "status": "active",
@@ -12064,9 +12060,9 @@
     "slug": "gabinete-cooler-master-masterframe-360-stage-lcd-mf360-khnn-9162",
     "title": "GABINETE COOLER MASTER MASTERFRAME 360 STAGE LCD MF360-KHNN-S02 BLACK GLASS",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [],
-    "price": 1910000,
+    "price": 1860000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
@@ -12077,7 +12073,7 @@
     "slug": "gabinete-cooler-master-qube-540-stardust-iron-q540-mgnn-s00-9163",
     "title": "GABINETE COOLER MASTER QUBE 540 STARDUST IRON Q540-MGNN-S00",
     "brand": "STAR",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [],
     "price": 526000,
     "status": "active",
@@ -12090,11 +12086,11 @@
     "slug": "gabinete-cooler-master-elite-600-black-argb-e600-kgnn-s02-9164",
     "title": "GABINETE COOLER MASTER ELITE 600 BLACK ARGB E600-KGNN-S02",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [
       "ARGB"
     ],
-    "price": 744000,
+    "price": 742000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
@@ -12121,9 +12117,9 @@
     "slug": "gabinete-cooler-master-masterframe-400-mesh-black-mf400m-khn-9166",
     "title": "GABINETE COOLER MASTER MASTERFRAME 400 MESH BLACK MF400M-KHNN-S00 BLACK GLASS",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [],
-    "price": 980000,
+    "price": 955000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
@@ -12134,11 +12130,11 @@
     "slug": "gabinete-cooler-master-elite-600-white-argb-e600-wgnn-s02-9167",
     "title": "GABINETE COOLER MASTER ELITE 600 WHITE ARGB E600-WGNN-S02",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [
       "ARGB"
     ],
-    "price": 744000,
+    "price": 742000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
@@ -12160,9 +12156,9 @@
     "slug": "gabinete-cooler-master-masterframe-400-mesh-silver-mf400m-sh-9169",
     "title": "GABINETE COOLER MASTER MASTERFRAME 400 MESH SILVER MF400M-SHNN-S00",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [],
-    "price": 980000,
+    "price": 955000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
@@ -12203,9 +12199,9 @@
     "slug": "gabinete-cooler-master-masterframe-360-stagemirror-mf360-khn-9172",
     "title": "GABINETE COOLER MASTER MASTERFRAME 360 STAGEMIRROR MF360-KHNN-S01 BLACK GLASS",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [],
-    "price": 1624000,
+    "price": 1582000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
@@ -12216,9 +12212,9 @@
     "slug": "gabinete-cooler-master-masterbox-cm695-tg-black-cm695-kg5n-s-9173",
     "title": "GABINETE COOLER MASTER MASTERBOX CM695 TG BLACK CM695-KG5N-S00 GLASS",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [],
-    "price": 808000,
+    "price": 797000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
@@ -12229,9 +12225,9 @@
     "slug": "gabinete-cooler-master-masterframe-360-panorama-mf360-kinn-s-9174",
     "title": "GABINETE COOLER MASTER MASTERFRAME 360 PANORAMA MF360-KINN-S00 BLACK GLASS",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [],
-    "price": 1509000,
+    "price": 1470000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
@@ -12276,9 +12272,11 @@
     "title": "NB ACER AG15-42P-R917 R7-7730U/16GB/512GB/15.6/W11 Plata/INGLES",
     "brand": "ACER",
     "category": "notebooks",
-    "status": "hidden",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 3589000
   },
   {
     "id": 9179,
@@ -12300,12 +12298,7 @@
     "title": "NB MSI B2RWGKG-409US CORE7-240H/16/1TB/RTX5070 8GB W11/BLACK/INGLE",
     "brand": "INTEL",
     "category": "notebooks",
-    "specs": [
-      "Intel",
-      "SSD"
-    ],
-    "price": 8608000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -12475,13 +12468,7 @@
     "title": "NB ASUS M1605YA-ES74 R7-7730U/16GB/1TB/16/W11/BLAC BLACK/INGLES",
     "brand": "ASUS",
     "category": "notebooks",
-    "specs": [
-      "AMD",
-      "Ryzen",
-      "SSD"
-    ],
-    "price": 4494000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -13252,7 +13239,7 @@
     "brand": "ASUS",
     "category": "tarjetas-de-video",
     "specs": [],
-    "price": 3183000,
+    "price": 3089000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
@@ -13440,7 +13427,7 @@
     "brand": "MSI",
     "category": "tarjetas-de-video",
     "specs": [],
-    "price": 3189000,
+    "price": 3196000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
@@ -17501,7 +17488,7 @@
     "slug": "mb-1150-star-h81-ddr3-hdmi-vga-m-2-usb3-0-9560",
     "title": "MB 1150 STAR H81 DDR3 HDMI/VGA/M.2/USB3.0",
     "brand": "STAR",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "M-ATX",
       "ATX",
@@ -17518,7 +17505,7 @@
     "slug": "mb-1150-biostar-h81mhv3-3-0-ddr3-hdmi-vga-usb3-0-9561",
     "title": "MB 1150 BIOSTAR H81MHV3 3.0 DDR3 HDMI/VGA/USB3.0",
     "brand": "BIOSTAR",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "M-ATX",
       "ATX"
@@ -17534,7 +17521,7 @@
     "slug": "mb-1150-star-b85-ddr3-hdmi-vga-m-2-usb3-0-9562",
     "title": "MB 1150 STAR B85 DDR3 HDMI/VGA/M.2/USB3.0",
     "brand": "STAR",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "M-ATX",
       "ATX",
@@ -17613,7 +17600,7 @@
     "slug": "mb-1700-asus-prime-h610m-a-ddr5-hdmi-dp-vga-2m-2-9567",
     "title": "MB 1700 ASUS PRIME H610M-A DDR5 HDMI/DP/VGA/2M.2",
     "brand": "ASUS",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "DDR5"
     ],
@@ -17699,11 +17686,11 @@
     "slug": "mb-1151-b250-pro-ddr4-hdmi-vga-dvi-s-acessorio-9573",
     "title": "MB 1151 B250 PRO DDR4 HDMI/VGA/DVI S/ACESSORIO",
     "brand": "GENERIC",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "ATX"
     ],
-    "price": 1210000,
+    "price": 1221000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
@@ -17756,7 +17743,7 @@
     "slug": "mb-1700-asus-prime-h610m-d-ddr5-hdmi-vga-serial-m-9577",
     "title": "MB 1700 ASUS PRIME H610M-D DDR5 HDMI/VGA/SERIAL/M",
     "brand": "ASUS",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "DDR5"
     ],
@@ -17787,7 +17774,7 @@
     "slug": "mb-am4-asus-prime-a520m-a-ii-csm-ddr4-hdmi-dp-vga-m-2-9579",
     "title": "MB AM4 ASUS PRIME A520M-A II/CSM DDR4 HDMI/DP/VGA M.2",
     "brand": "ASUS",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [],
     "price": 557000,
     "status": "active",
@@ -17831,7 +17818,7 @@
     "slug": "mb-1150-keepdata-b85-kdgnv-ddr3-hdmi-vga-m-2-usb30-9582",
     "title": "MB 1150 KEEPDATA B85-KDGNV DDR3 HDMI/VGA/M.2/USB30",
     "brand": "KEEPDATA",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "M-ATX",
       "ATX",
@@ -17886,7 +17873,7 @@
     "slug": "mb-1151-goline-h110m-gd3-ddr3-hdmi-vga-m-2-usb3-0-9586",
     "title": "MB 1151 GOLINE H110M-GD3 DDR3 HDMI/VGA/M.2/USB3.0",
     "brand": "GENERIC",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [],
     "price": 433000,
     "status": "active",
@@ -17899,7 +17886,7 @@
     "slug": "mb-am4-goline-a520m-g2-ddr4-hdmi-vga-m-2-9587",
     "title": "MB AM4 GOLINE A520M-G2 DDR4 HDMI/VGA/M.2",
     "brand": "GENERIC",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "DDR4",
       "M.2"
@@ -17975,7 +17962,7 @@
     "slug": "mb-1700-star-h610-ddr4-hdmi-vga-m-2-usb3-0-h610g611-9592",
     "title": "MB 1700 STAR H610 DDR4 HDMI/VGA/M.2/USB3.0 H610G611",
     "brand": "STAR",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "M.2"
     ],
@@ -17990,7 +17977,7 @@
     "slug": "mb-am5-up-gamer-b650m-vdh-ddr5-vga-hdmi-dp-m-2-usb-3-0-9593",
     "title": "MB AM5 UP GAMER B650M-VDH DDR5 VGA/HDMI/DP/M.2/USB 3.0",
     "brand": "AMD",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "M-ATX",
       "ATX",
@@ -18095,7 +18082,7 @@
     "slug": "mb-1700-asus-prime-h610m-k-ddr5-hdmi-vga-m-2-usb32-9601",
     "title": "MB 1700 ASUS PRIME H610M-K DDR5 HDMI/VGA/M.2/USB32",
     "brand": "ASUS",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "DDR5",
       "M.2"
@@ -18111,7 +18098,7 @@
     "slug": "mb-1700-gigabyte-b760m-d3hp-wifi6-ddr5-hdmi-dp-vga-usb-c-2m-9602",
     "title": "MB 1700 GIGABYTE B760M D3HP WIFI6 DDR5 HDMI/DP/VGA USB-C/2M.2",
     "brand": "GIGABYTE",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "DDR5"
     ],
@@ -18156,7 +18143,7 @@
     "slug": "mb-am4-asus-pro-a520m-c-ii-csm-ddr4-hdmi-dp-vga-dvi-serial-m-9606",
     "title": "MB AM4 ASUS PRO A520M-C II/CSM DDR4 HDMI/DP/VGA DVI/SERIAL/M.2",
     "brand": "ASUS",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "DDR4"
     ],
@@ -18308,7 +18295,7 @@
     "slug": "mb-1700-msi-b760m-p-pro-ddr5-hdmi-vga-dp-9618",
     "title": "MB 1700 MSI B760M-P PRO DDR5 HDMI/VGA/DP",
     "brand": "MSI",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "DDR5"
     ],
@@ -18364,7 +18351,7 @@
     "slug": "mb-am4-afox-a520-a520d4-ma2-v2-ddr4-hdmi-vga-9622",
     "title": "MB AM4 AFOX A520 A520D4-MA2-V2 DDR4/HDMI/VGA",
     "brand": "AFOX",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "DDR4"
     ],
@@ -18379,7 +18366,7 @@
     "slug": "mb-1700-up-gamer-b660m-vhc-ddr4-vga-hdmi-m-2-usb3-9623",
     "title": "MB 1700 UP GAMER B660M VHC DDR4 VGA/HDMI/M.2/USB3",
     "brand": "LG",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "M-ATX",
       "ATX",
@@ -18620,7 +18607,7 @@
     "slug": "mb-am4-keepdata-a520-kdgnv-ddr4-hdmi-vga-9639",
     "title": "MB AM4 KEEPDATA A520-KDGNV DDR4/HDMI/VGA",
     "brand": "KEEPDATA",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "DDR4"
     ],
@@ -18715,7 +18702,7 @@
     "slug": "mb-1200-up-gamer-b560m-pro-ddr4-hdmi-vga-m-2-usb3-9646",
     "title": "MB 1200 UP GAMER B560M PRO DDR4 HDMI/VGA/M.2/USB3",
     "brand": "LG",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "M-ATX",
       "ATX",
@@ -18735,7 +18722,7 @@
     "slug": "mb-1700-biostar-z690mx2-e-d4-ddr4-hdmi-dvi-vga-m-2-9647",
     "title": "MB 1700 BIOSTAR Z690MX2-E D4 DDR4 HDMI/DVI/VGA/M.2",
     "brand": "BIOSTAR",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "DDR4",
       "M.2"
@@ -19029,7 +19016,7 @@
     "slug": "mb-1700-star-b760m-ddr5-hdmi-dp-vga-2m-2-usb3-0-9668",
     "title": "MB 1700 STAR B760M DDR5 HDMI/DP/VGA/2M.2/USB3.0",
     "brand": "STAR",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "DDR5"
     ],
@@ -19044,7 +19031,7 @@
     "slug": "mb-1700-asus-prime-h610m-k-d4-csm-ddr4-hdmi-vga-m-9669",
     "title": "MB 1700 ASUS PRIME H610M-K D4-CSM DDR4 HDMI/VGA/M",
     "brand": "ASUS",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "DDR4",
       "M.2"
@@ -19221,7 +19208,7 @@
     "slug": "mb-am5-asus-prime-a620am-a-ddr5-hdmi-dp-vga-2m-2-9681",
     "title": "MB AM5 ASUS PRIME A620AM-A DDR5 HDMI/DP/VGA/2M.2",
     "brand": "ASUS",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "DDR5"
     ],
@@ -19360,7 +19347,7 @@
     "slug": "mb-am4-star-a520-ddr4-hdmi-vga-a520g562-1000m-9690",
     "title": "MB AM4 STAR A520 DDR4/HDMI/VGA A520G562-1000M",
     "brand": "STAR",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "DDR4"
     ],
@@ -19414,7 +19401,7 @@
     "slug": "mb-1700-asus-prime-h610m-cs-ddr5-hdmi-vga-m-2-9694",
     "title": "MB 1700 ASUS PRIME H610M-CS DDR5 HDMI/VGA/M.2",
     "brand": "ASUS",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "DDR5"
     ],
@@ -19440,7 +19427,7 @@
     "slug": "mb-1155-goline-h61m-g-ddr3-hdmi-vga-m-2-usb2-0-9696",
     "title": "MB 1155 GOLINE H61M-G DDR3 HDMI/VGA/M.2/USB2.0",
     "brand": "GENERIC",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "M.2"
     ],
@@ -19497,7 +19484,7 @@
     "slug": "mb-1700-asus-prime-h610m-r-ddr5-hdmi-dp-vga-m-2-9700",
     "title": "MB 1700 ASUS PRIME H610M-R DDR5 HDMI/DP/VGA/M.2",
     "brand": "ASUS",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "DDR5"
     ],
@@ -19588,7 +19575,7 @@
     "slug": "mb-1150-goline-h81m-g2-ddr3-vga-hdmi-m-2-usb3-0-9706",
     "title": "MB 1150 GOLINE H81M-G2 DDR3 VGA/HDMI/M.2/USB3.0",
     "brand": "LG",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "Intel",
       "M.2"
@@ -19660,7 +19647,7 @@
     "slug": "mb-1155-goline-b75m-g-ddr3-hdmi-vga-m-2-usb3-0-9711",
     "title": "MB 1155 GOLINE B75M-G DDR3 HDMI/VGA/M.2/USB3.0",
     "brand": "GENERIC",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "M.2"
     ],
@@ -19705,7 +19692,7 @@
     "slug": "mb-1150-afox-ih81-ma5-v4-ddr3-hdmi-vga-m-2-usb3-0-9714",
     "title": "MB 1150 AFOX IH81-MA5-V4 DDR3 HDMI/VGA/M.2/USB3.0",
     "brand": "LG",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "Intel",
       "M.2"
@@ -19721,7 +19708,7 @@
     "slug": "mb-1151-goline-gl-h310m-g-ddr4-hdmi-dvi-vga-usb3-0-9715",
     "title": "MB 1151 GOLINE GL-H310M-G DDR4 HDMI/DVI/VGA/USB3.0",
     "brand": "GENERIC",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "DDR4"
     ],
@@ -20510,9 +20497,11 @@
     "title": "CARTAO MICRO SD 32GB SANDISK ULTRA 100M QUNR-032G- QUNR-032G-GN3MA GN3MA",
     "brand": "GENERIC",
     "category": "almacenamiento-ssd",
-    "status": "hidden",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 109000
   },
   {
     "id": 9776,
@@ -21366,13 +21355,15 @@
   {
     "id": 9841,
     "ref": "291629",
-    "slug": "hd-western-digital-8tb-wd-red-plus-nas-sata-3-5640rpm-3-5-9841",
-    "title": "HD Western Digital 8TB WD Red Plus Nas SATA 3 5640RPM 3.5",
+    "slug": "hd-8tb-wd-red-plus-wd80efpx-nas-5640rpm-3-5-9841",
+    "title": "HD 8TB WD RED PLUS WD80EFPX NAS 5640RPM 3.5\"",
     "brand": "WESTERN DIGITAL",
-    "category": null,
-    "status": "hidden",
+    "category": "almacenamiento-ssd",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 2306000
   },
   {
     "id": 9842,
@@ -21833,11 +21824,9 @@
     "title": "SSD EXT 1TB SANDISK CREATOR SDSSDE81C-1T00-G25 CREATOR PRO",
     "brand": "GENERIC",
     "category": "almacenamiento-ssd",
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15",
-    "specs": [],
-    "price": 1479000
+    "lastSeen": "2026-08-15"
   },
   {
     "id": 9879,
@@ -22851,11 +22840,9 @@
     "title": "HD EXT 2TB WD ELEMENTS WDBU6Y0020BBK 3.0 2.5\" PRE Negro",
     "brand": "WESTERN DIGITAL",
     "category": "almacenamiento-ssd",
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15",
-    "specs": [],
-    "price": 871000
+    "lastSeen": "2026-08-15"
   },
   {
     "id": 9957,
@@ -26357,7 +26344,7 @@
     "slug": "pc-up-infinity-r7-9850x3d-64gb-ddr5-rx5080-1000w-m-2-4tb-y70-10226",
     "title": "PC UP INFINITY R7 9850X3D/64GB DDR5/RX5080/1000W M.2 4TB/Y70",
     "brand": "GENERIC",
-    "category": "tarjetas-de-video",
+    "category": "pcs-de-escritorio",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
@@ -26370,7 +26357,7 @@
     "slug": "pc-up-gamer-light-i3-3220-8gb-240ssd-230w-10227",
     "title": "PC UP GAMER LIGHT I3 3220/8GB/240SSD/230W",
     "brand": "INTEL",
-    "category": "procesadores",
+    "category": "pcs-de-escritorio",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
@@ -26383,7 +26370,7 @@
     "slug": "pc-up-gamer-titan-r5-5600xt-16gb-1tb-nvme-rx7600-550w-4fan-r-10228",
     "title": "PC UP GAMER TITAN R5 5600XT/16GB/1TB NVME/RX7600 550W -4FAN RGB",
     "brand": "XFX",
-    "category": "tarjetas-de-video",
+    "category": "pcs-de-escritorio",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
@@ -26409,12 +26396,12 @@
     "slug": "pc-up-gamer-ironwolf-r5-5500-16gb-512-nvme-rx580-650w-4fan-r-10230",
     "title": "PC UP GAMER IRONWOLF R5 5500/16GB/512 NVME/RX580 650W -4FAN RGB",
     "brand": "XFX",
-    "category": "almacenamiento-ssd",
+    "category": "pcs-de-escritorio",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
     "specs": [],
-    "price": 4062000
+    "price": 3988000
   },
   {
     "id": 10231,
@@ -26422,12 +26409,12 @@
     "slug": "pc-up-apocalypse-r7-7700-32gb-1tb-nvme-rtx5070-750w-4fan-rgb-10231",
     "title": "PC UP APOCALYPSE R7 7700/32GB/1TB NVME/RTX5070 750W -4FAN RGB",
     "brand": "GENERIC",
-    "category": "almacenamiento-ssd",
+    "category": "pcs-de-escritorio",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
     "specs": [],
-    "price": 13900000
+    "price": 13648000
   },
   {
     "id": 10232,
@@ -26435,7 +26422,7 @@
     "slug": "pc-up-gamer-a68n-2100k-8gb-ssd-120gb-230w-black-10232",
     "title": "PC UP GAMER A68N-2100K/8GB/SSD 120GB/230W BLACK",
     "brand": "AMD",
-    "category": "almacenamiento-ssd",
+    "category": "pcs-de-escritorio",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
@@ -26448,7 +26435,7 @@
     "slug": "pc-up-gamer-r5-5600gt-16gb-512gb-600w-4fan-rgb-10233",
     "title": "PC UP GAMER R5 5600GT/16GB/512GB/600W 4FAN RGB",
     "brand": "UP GAMER",
-    "category": "procesadores",
+    "category": "pcs-de-escritorio",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
@@ -26461,12 +26448,12 @@
     "slug": "pc-up-gamer-stratos-i5-4a-16gb-256-m-2-gt740-2gb-itx-rgb-10234",
     "title": "PC UP GAMER STRATOS I5 4A/16GB/256 M.2/GT740 2GB ITX RGB",
     "brand": "UP GAMER",
-    "category": "almacenamiento-ssd",
+    "category": "pcs-de-escritorio",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
     "specs": [],
-    "price": 1865000
+    "price": 1831000
   },
   {
     "id": 10235,
@@ -33272,7 +33259,7 @@
     "slug": "mb-1700-msi-h610m-g-pro-ddr5-hdmi-vga-dp-s-caixa-adap-wifi-10811",
     "title": "MB 1700 MSI H610M-G PRO DDR5/HDMI/VGA/DP S/CAIXA ADAP WIFI",
     "brand": "MSI",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "MSI",
       "Tarjetas de Video"
@@ -40291,7 +40278,7 @@
     "slug": "amazon-cargador-9-0w-c-cable-1-2m-usb-c-usa-11414",
     "title": "AMAZON Cargador 9.0W C/Cable 1.2M USB-C USA",
     "brand": "GENERIC",
-    "category": "adaptadores-y-cables",
+    "category": "ups-y-energia",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
@@ -40533,7 +40520,7 @@
     "slug": "cargador-xiaomi-120w-c-cable-charging-combo-white-usb-a-mdy-11434",
     "title": "Cargador XIAOMI 120W C/Cable CHARGING COMBO WHITE USB-A MDY-14-EE BHR9462EU",
     "brand": "XIAOMI",
-    "category": "adaptadores-y-cables",
+    "category": "ups-y-energia",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
@@ -42549,7 +42536,7 @@
     "slug": "amazon-fire-tv-stick-2-ger-4k-935092-11623",
     "title": "AMAZON FIRE TV STICK 2? GER. 4K 935092",
     "brand": "GENERIC",
-    "category": "smart-home",
+    "category": "televisores",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
@@ -42716,7 +42703,7 @@
     "slug": "amazon-fire-tv-stick-hd-2024-4697713-11637",
     "title": "AMAZON FIRE TV STICK HD 2024 4697713",
     "brand": "GENERIC",
-    "category": "smart-home",
+    "category": "televisores",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
@@ -45907,12 +45894,7 @@
     "title": "Fuente 600W COOLER MASTER ELITE NEX W600 80+ WHITE MPW-6001-ACAW-B BIVOLT",
     "brand": "COOLER MASTER",
     "category": "fuentes-de-poder",
-    "specs": [
-      "COOLER MASTER",
-      "Fuentes de Poder"
-    ],
-    "price": 427000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -49284,24 +49266,28 @@
   {
     "id": 12244,
     "ref": "272762",
-    "slug": "projetor-dub-dub3800-home-cinema-android-4k-bt5-0-3800-lumen-12244",
-    "title": "PROJETOR DUB DUB3800 HOME CINEMA ANDROID 4K BT5 0 3800 LUMEN BLK",
+    "slug": "projetor-dub-home-cinema-dub-3800-android-4k-bt5-0-db38-12244",
+    "title": "PROJETOR DUB HOME CINEMA DUB 3800 ANDROID/4K/BT5.0 DB38",
     "brand": "GENERIC",
-    "category": null,
-    "status": "hidden",
+    "category": "televisores",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 779000
   },
   {
     "id": 12245,
     "ref": "274204",
-    "slug": "projetor-laser-epson-eh-ls300b-epiqvision-ultra-3600-lumens-12245",
-    "title": "PROJETOR LASER EPSON EH LS300B EPIQVISION ULTRA 3600 LUMENS Negro",
+    "slug": "projetor-epson-laser-eh-ls300b-epiqvision-ultra-negro-3600l-12245",
+    "title": "PROJETOR EPSON LASER EH-LS300B EPIQVISION ULTRA Negro/3600L",
     "brand": "EPSON",
-    "category": null,
-    "status": "hidden",
+    "category": "televisores",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 13308000
   },
   {
     "id": 12246,
@@ -49317,13 +49303,15 @@
   {
     "id": 12247,
     "ref": "337595",
-    "slug": "projetor-dub-home-cinema-dbp4bat-4000-lumens-portatil-12247",
-    "title": "PROJETOR DUB HOME CINEMA DBP4BAT 4000 LUMENS PORTATIL",
+    "slug": "projetor-dub-4000-lumens-dbp4bat-portatil-4000l-dbp4bat-12247",
+    "title": "PROJETOR DUB 4000 LUMENS DBP4BAT PORTATIL 4000L DBP4BAT",
     "brand": "GENERIC",
-    "category": null,
-    "status": "hidden",
+    "category": "televisores",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 1241000
   },
   {
     "id": 12248,
@@ -49331,21 +49319,25 @@
     "slug": "projetor-dub-home-cinema-dub-3800-premium-kit-vers-db38kit-12248",
     "title": "PROJETOR DUB HOME CINEMA DUB 3800 PREMIUM KIT VERS DB38KIT",
     "brand": "GENERIC",
-    "category": null,
-    "status": "hidden",
+    "category": "televisores",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 963000
   },
   {
     "id": 12249,
     "ref": "298680",
     "slug": "projetor-xiaomi-wanbo-mozart-1-pro-fhd-andr-900lum-dark-blue-12249",
-    "title": "PROJETOR XIAOMI WANBO MOZART 1 PRO FHD ANDR 900LUM DARK BLUE WPB84 298680",
+    "title": "PROJETOR XIAOMI WANBO MOZART 1 PRO FHD/ANDR/900LUM DARK BLUE WPB84",
     "brand": "XIAOMI",
-    "category": null,
-    "status": "hidden",
+    "category": "televisores",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 2097000
   },
   {
     "id": 12250,
@@ -49386,23 +49378,27 @@
     "id": 12253,
     "ref": "372785",
     "slug": "projetor-g-tide-pj10-c-games-2-4g-5g-wifi-black-12253",
-    "title": "PROJETOR G TIDE PJ10 C GAMES 2 4G 5G WIFI BLACK",
+    "title": "PROJETOR G-TIDE PJ10 C/ GAMES 2.4G/5G WIFI BLACK",
     "brand": "GENERIC",
-    "category": null,
-    "status": "hidden",
+    "category": "televisores",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 507000
   },
   {
     "id": 12254,
     "ref": "372809",
     "slug": "projetor-g-tide-pj50-mini-projector-2-4g-5g-black-2-4g-5g-wi-12254",
-    "title": "PROJETOR G TIDE PJ50 MINI PROJECTOR 2 4G 5G BLACK 2 4G 5G WIFI",
+    "title": "PROJETOR G-TIDE PJ50 MINI PROJECTOR 2.4G/5G BLACK 2.4G/5G/WIFI",
     "brand": "GENERIC",
-    "category": null,
-    "status": "hidden",
+    "category": "televisores",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 735000
   },
   {
     "id": 12255,
@@ -49410,7 +49406,7 @@
     "slug": "projetor-optoma-zx300-3500-lumens-vga-usb-white-12255",
     "title": "PROJETOR OPTOMA ZX300 3500 LUMENS VGA/USB/WHITE",
     "brand": "GENERIC",
-    "category": "tarjetas-de-video",
+    "category": "televisores",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
@@ -49420,24 +49416,28 @@
   {
     "id": 12256,
     "ref": "386858",
-    "slug": "projetor-xiaomi-mi-smart-l1-pro-400l-hdmi-usb-gra-bhr9588eu-12256",
-    "title": "PROJETOR XIAOMI MI SMART L1 PRO 400L HDMI USB GRA BHR9588EU 386858",
+    "slug": "projetor-xiaomi-mi-smart-l1-pro-400l-hdmi-usb-gray-bhr9588eu-12256",
+    "title": "PROJETOR XIAOMI MI SMART L1 PRO 400L HDMI/USB/GRAY BHR9588EU",
     "brand": "XIAOMI",
-    "category": null,
-    "status": "hidden",
+    "category": "televisores",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 1765000
   },
   {
     "id": 12257,
     "ref": "395129",
-    "slug": "projetor-wanbo-cube-1-350-lumenes-white-12257",
-    "title": "PROJETOR WANBO CUBE 1 350 LUMENES WHITE",
+    "slug": "projetor-wanbo-cube-1-wpf14-350-lumenes-white-12257",
+    "title": "PROJETOR WANBO CUBE 1 WPF14 350 LUMENES WHITE",
     "brand": "GENERIC",
-    "category": null,
-    "status": "hidden",
+    "category": "televisores",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 957000
   },
   {
     "id": 12258,
@@ -49445,10 +49445,12 @@
     "slug": "projetor-wanbo-cube-1-350-lumenes-sky-blue-12258",
     "title": "PROJETOR WANBO CUBE 1 350 LUMENES SKY BLUE",
     "brand": "GENERIC",
-    "category": null,
-    "status": "hidden",
+    "category": "televisores",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 957000
   },
   {
     "id": 12259,
@@ -49541,13 +49543,15 @@
   {
     "id": 12267,
     "ref": "243424",
-    "slug": "projetor-epson-epiqvision-flex-co-fh02-3000-lumens-12267",
-    "title": "PROJETOR EPSON EPIQVISION FLEX CO FH02 3000 LUMENS",
+    "slug": "projetor-epson-epiqvision-flex-co-fh02-3000-lumens-androidtv-12267",
+    "title": "PROJETOR EPSON EPIQVISION FLEX CO-FH02 3000 LUMENS ANDROIDTV",
     "brand": "EPSON",
-    "category": null,
-    "status": "hidden",
+    "category": "televisores",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 3129000
   },
   {
     "id": 12268,
@@ -49574,13 +49578,15 @@
   {
     "id": 12270,
     "ref": "190650",
-    "slug": "projetor-epson-co-w01-3000l-wxga-hdmi-190650-12270",
-    "title": "PROJETOR EPSON CO W01 3000L WXGA HDMI 190650",
+    "slug": "projetor-epson-co-w01-3000l-wxga-hdmi-12270",
+    "title": "PROJETOR EPSON CO-W01 3000L/WXGA/HDMI",
     "brand": "EPSON",
-    "category": null,
-    "status": "hidden",
+    "category": "televisores",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 2763000
   },
   {
     "id": 12271,
@@ -51277,7 +51283,7 @@
     "slug": "fone-xiaomi-redmi-buds-5-blanco-m2316e1-bhr7626cn-12424",
     "title": "FONE XIAOMI REDMI BUDS 5 Blanco M2316E1 BHR7626CN",
     "brand": "XIAOMI",
-    "category": "telefonos-y-celulares",
+    "category": "auriculares-y-headsets",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
@@ -51340,7 +51346,7 @@
     "slug": "fone-xiaomi-redmi-buds-6-verde-m2429e1-bhr9245gl-12429",
     "title": "FONE XIAOMI REDMI BUDS 6 Verde M2429E1 BHR9245GL",
     "brand": "XIAOMI",
-    "category": "telefonos-y-celulares",
+    "category": "auriculares-y-headsets",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
@@ -51466,7 +51472,7 @@
     "slug": "fone-xiaomi-redmi-buds-6-play-negro-m2420e1-bhr8776gl-12439",
     "title": "FONE XIAOMI REDMI BUDS 6 PLAY Negro M2420E1 BHR8776GL",
     "brand": "XIAOMI",
-    "category": "telefonos-y-celulares",
+    "category": "auriculares-y-headsets",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
@@ -51581,7 +51587,7 @@
     "slug": "fone-xiaomi-redmi-buds-6-play-azul-m2420e1-bhr9283gl-12448",
     "title": "FONE XIAOMI REDMI BUDS 6 PLAY Azul M2420E1 BHR9283GL",
     "brand": "XIAOMI",
-    "category": "telefonos-y-celulares",
+    "category": "auriculares-y-headsets",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
@@ -53838,13 +53844,15 @@
   {
     "id": 12652,
     "ref": "377713",
-    "slug": "xiaomi-tv-stick-4k-2-ger-mdz-33-aa-mdz-33-aa-377713-12652",
-    "title": "XIAOMI TV STICK 4K 2 GER MDZ 33 AA MDZ 33 AA 377713",
+    "slug": "xiaomi-tv-stick-4k-2-ger-mdz-33-aa-mdz-33-aa-12652",
+    "title": "XIAOMI TV STICK 4K 2? GER. MDZ-33-AA MDZ-33-AA",
     "brand": "XIAOMI",
-    "category": null,
-    "status": "hidden",
+    "category": "televisores",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 520000
   },
   {
     "id": 12653,
@@ -54009,12 +54017,12 @@
     "slug": "fone-bt-sony-ps5-playstation-pulse-elite-blk-white-cfi-zwh2-12665",
     "title": "FONE BT SONY PS5 PLAYSTATION PULSE ELITE BLK/WHITE CFI-ZWH2 WIRELESS",
     "brand": "SONY",
-    "category": "consolas-y-videojuegos",
+    "category": "auriculares-y-headsets",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
     "specs": [],
-    "price": 963000
+    "price": 1002000
   },
   {
     "id": 12666,
@@ -54048,12 +54056,12 @@
     "slug": "fone-bt-sony-ps5-playstation-pulse-elite-black-cfi-zwh2-wire-12668",
     "title": "FONE BT SONY PS5 PLAYSTATION PULSE ELITE BLACK CFI-ZWH2 WIRELESS",
     "brand": "SONY",
-    "category": "consolas-y-videojuegos",
+    "category": "auriculares-y-headsets",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
     "specs": [],
-    "price": 963000
+    "price": 1002000
   },
   {
     "id": 12669,
@@ -54755,7 +54763,7 @@
     "slug": "tec-redragon-k530rgb-pro-draconic-mec-usa-c-cable-black-brow-12722",
     "title": "TEC REDRAGON K530RGB-PRO DRACONIC MEC.USA C/Cable BLACK BROWN",
     "brand": "REDRAGON",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [
       "REDRAGON",
       "Periféricos"
@@ -54879,12 +54887,7 @@
     "title": "COOLER WATER AIGO DARKFLASH DX120 V2 1700 PINK",
     "brand": "INTEL",
     "category": "refrigeracion",
-    "specs": [
-      "INTEL",
-      "Periféricos"
-    ],
-    "price": 205000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -55142,12 +55145,12 @@
     "slug": "gabinete-cougar-omnyx-argb-mid-tower-4-fan-black-12749",
     "title": "GABINETE COUGAR OMNYX ARGB MID-TOWER 4 FAN BLACK",
     "brand": "COUGAR",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
     "specs": [],
-    "price": 1002000
+    "price": 976000
   },
   {
     "id": 12750,
@@ -55192,7 +55195,7 @@
     "slug": "gabinete-cougar-purity-1-fan-black-mini-tower-12753",
     "title": "GABINETE COUGAR PURITY 1 FAN BLACK (MINI TOWER)",
     "brand": "COUGAR",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
@@ -55270,12 +55273,12 @@
     "slug": "gabinete-cougar-mx600-rgb-4-fan-mesh-full-tower-black-12759",
     "title": "GABINETE COUGAR MX600 RGB 4 FAN MESH FULL-TOWER BLACK",
     "brand": "COUGAR",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
     "specs": [],
-    "price": 851000
+    "price": 834000
   },
   {
     "id": 12760,
@@ -55296,12 +55299,12 @@
     "slug": "gabinete-cougar-omnyx-argb-mid-tower-4-fan-white-12761",
     "title": "GABINETE COUGAR OMNYX ARGB MID-TOWER 4 FAN WHITE",
     "brand": "COUGAR",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
     "specs": [],
-    "price": 1002000
+    "price": 976000
   },
   {
     "id": 12762,
@@ -55361,7 +55364,7 @@
     "slug": "gabinete-cougar-mx600-air-rgb-4-fan-white-mx600-12766",
     "title": "GABINETE COUGAR MX600 AIR RGB 4 FAN WHITE MX600",
     "brand": "COUGAR",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
@@ -57263,7 +57266,7 @@
     "slug": "fone-jbl-tune-500-pure-bass-c-cable-black-3-5mm-12927",
     "title": "FONE JBL TUNE 500 PURE BASS C/Cable BLACK 3.5MM",
     "brand": "JBL",
-    "category": "adaptadores-y-cables",
+    "category": "auriculares-y-headsets",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15",
@@ -57899,7 +57902,7 @@
     "slug": "mb-1700-msi-pro-h610m-g-ddr4-hdmi-dp-vga-m-2-usb32-12980",
     "title": "MB 1700 MSI PRO H610M-G DDR4 HDMI/DP/VGA/M.2/USB32",
     "brand": "MSI",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "MSI",
       "Tarjetas de Video"
@@ -59633,7 +59636,7 @@
     "slug": "mb-am4-asrock-b550m-hdv-vga-dvi-hdmi-13118",
     "title": "MB AM4 ASROCK B550M-HDV VGA/DVI/HDMI",
     "brand": "ASROCK",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "ASROCK",
       "Tarjetas de Video"
@@ -82692,7 +82695,7 @@
     "slug": "cargador-acefast-a90-usb-a-18w-1-2m-blk-c-cable-15189",
     "title": "Cargador ACEFAST A90 USB-A 18W 1.2M BLK C/Cable",
     "brand": "GENERIC",
-    "category": "adaptadores-y-cables",
+    "category": "ups-y-energia",
     "specs": [
       "GENERIC",
       "Periféricos"
@@ -86992,7 +86995,7 @@
     "slug": "mb-1700-asus-prime-b760m-k-ddr5-hdmi-vga-15572",
     "title": "MB 1700 ASUS PRIME B760M-K DDR5 HDMI/VGA",
     "brand": "ASUS",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "ASUS",
       "Tarjetas de Video"
@@ -87744,7 +87747,7 @@
     "slug": "mb-1155-goline-gl-b75-ma-ddr3-hdmi-vga-15639",
     "title": "MB 1155 GOLINE GL-B75-MA DDR3 HDMI/VGA",
     "brand": "GENERIC",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "GENERIC",
       "Tarjetas de Video"
@@ -90965,7 +90968,7 @@
     "slug": "mb-am4-up-gamer-a320m-hdmi-vga-m-2-ddr4-15924",
     "title": "MB AM4 UP GAMER A320M HDMI/VGA/M.2/DDR4",
     "brand": "UP GAMER",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "UP GAMER",
       "Tarjetas de Video"
@@ -91201,7 +91204,7 @@
     "slug": "mb-am4-asrock-a520m-hdv-hdmi-dvi-vga-15945",
     "title": "MB AM4 ASROCK A520M-HDV HDMI/DVI/VGA",
     "brand": "ASROCK",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [
       "ASROCK",
       "Tarjetas de Video"
@@ -94947,12 +94950,7 @@
     "title": "SSD 2.5 256GB PATRIOT P220 P220S256G25 550/490 MB/S",
     "brand": "PATRIOT",
     "category": "almacenamiento-ssd",
-    "specs": [
-      "PATRIOT",
-      "Placas Madre"
-    ],
-    "price": 335000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -95153,9 +95151,11 @@
     "title": "SSD M.2 2TB WD GREEN SN3000 2280 NVME WDS200T4G0E 5000/4200 MB/S GEN4",
     "brand": "WESTERN DIGITAL",
     "category": "almacenamiento-ssd",
-    "status": "hidden",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 1485000
   },
   {
     "id": 16292,
@@ -101084,7 +101084,7 @@
     "slug": "fone-usb-redragon-h320rgb-1-lamia2-c-soporte-h320-rgb-1-16816",
     "title": "FONE USB REDRAGON H320RGB-1 LAMIA2 C/Soporte H320-RGB-1",
     "brand": "REDRAGON",
-    "category": "soportes-y-bases",
+    "category": "auriculares-y-headsets",
     "specs": [
       "REDRAGON",
       "Periféricos"
@@ -104547,7 +104547,7 @@
     "slug": "tec-onikuma-mt706-mecanico-c-cable-us-c-rgb-blk-17124",
     "title": "TEC ONIKUMA MT706 MECANICO C/Cable US-C RGB BLK",
     "brand": "GENERIC",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [
       "GENERIC",
       "Periféricos"
@@ -104932,7 +104932,7 @@
     "slug": "tec-onikuma-g69-c-cable-usb-c-rgb-pink-17149",
     "title": "TEC ONIKUMA G69 C/Cable USB-C RGB PINK",
     "brand": "GENERIC",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [
       "GENERIC",
       "Periféricos"
@@ -105247,7 +105247,7 @@
     "slug": "tec-onikuma-mt706-mecanico-c-cable-us-c-rgb-whi-white-17169",
     "title": "TEC ONIKUMA MT706 MECANICO C/Cable US-C RGB WHI WHITE",
     "brand": "GENERIC",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [
       "GENERIC",
       "Periféricos"
@@ -108840,7 +108840,7 @@
     "slug": "tec-attack-magnetico-x68he-c-cable-usb-c-blk-co-usa-black-co-17482",
     "title": "TEC ATTACK MAGNETICO X68HE C/Cable USB-C BLK/CO USA BLACK CONTOUR-LINE",
     "brand": "GENERIC",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [
       "GENERIC",
       "Periféricos"
@@ -109719,7 +109719,7 @@
     "slug": "teclado-aula-win60he-max-rgb-mec-c-cable-dark-grey-dark-grey-17561",
     "title": "TECLADO AULA WIN60HE MAX RGB MEC. C/Cable DARK GREY DARK GREY+LIGHT GREY",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [
       "GENERIC",
       "Periféricos"
@@ -109735,7 +109735,7 @@
     "slug": "teclado-aula-f75-max-mec-rgb-wireless-c-cable-grey-gradient-17562",
     "title": "TECLADO AULA F75 MAX MEC. RGB WIRELESS C/Cable GREY GRADIENT GREY USA 501165",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [
       "GENERIC",
       "Periféricos"
@@ -110410,7 +110410,7 @@
     "slug": "teclado-aula-win68he-max-rgb-mec-c-cable-black-pbt-usa-17622",
     "title": "TECLADO AULA WIN68HE MAX RGB MEC. C/Cable BLACK+PBT USA",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [
       "GENERIC",
       "Periféricos"
@@ -110525,7 +110525,7 @@
     "slug": "teclado-aula-win68he-max-rgb-mec-c-cable-dark-grey-light-gre-17632",
     "title": "TECLADO AULA WIN68HE MAX RGB MEC. C/Cable DARK GREY LIGHT GREY+YELL OW USA",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [
       "GENERIC",
       "Periféricos"
@@ -110717,7 +110717,7 @@
     "slug": "tec-attack-magnetico-x68he-c-cable-usb-c-black-black-usa-17649",
     "title": "TEC ATTACK MAGNETICO X68HE C/Cable USB-C BLACK BLACK USA",
     "brand": "GENERIC",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [
       "GENERIC",
       "Periféricos"
@@ -117505,7 +117505,7 @@
     "slug": "gabinete-aigo-darkflash-ds900wd-black-s-fan-18208",
     "title": "GABINETE AIGO DARKFLASH DS900WD BLACK S/FAN",
     "brand": "AIGO",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [
       "AIGO",
       "Gabinetes"
@@ -117548,7 +117548,7 @@
     "slug": "gabinete-aigo-darkflash-aquarius-s-fan-negro-atx-18211",
     "title": "GABINETE AIGO DARKFLASH AQUARIUS S/ FAN Negro ATX",
     "brand": "AIGO",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [
       "AIGO",
       "Gabinetes"
@@ -117564,7 +117564,7 @@
     "slug": "gabinete-cooler-master-elite-302-white-lite-e302l-wgnn-s00-18212",
     "title": "GABINETE COOLER MASTER ELITE 302 WHITE LITE E302L-WGNN-S00",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [
       "COOLER MASTER",
       "Gabinetes"
@@ -117580,7 +117580,7 @@
     "slug": "gabinete-cooler-master-elite-502-white-lite-e502l-wgnn-s00-18213",
     "title": "GABINETE COOLER MASTER ELITE 502 WHITE LITE E502L-WGNN-S00",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [
       "COOLER MASTER",
       "Gabinetes"
@@ -117596,7 +117596,7 @@
     "slug": "gabinete-cooler-master-qube-540-moonstone-q540-lgnn-s00-18214",
     "title": "GABINETE COOLER MASTER QUBE 540 MOONSTONE Q540-LGNN-S00",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [
       "COOLER MASTER",
       "Gabinetes"
@@ -117612,7 +117612,7 @@
     "slug": "gabinete-aigo-darkflash-ds900-air-white-s-fan-18215",
     "title": "GABINETE AIGO DARKFLASH DS900 AIR WHITE S/FAN",
     "brand": "AIGO",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [
       "AIGO",
       "Gabinetes"
@@ -120977,12 +120977,12 @@
     "slug": "gabinete-asus-rog-hyperion-gr701-s-fuente-negro-18520",
     "title": "GABINETE ASUS ROG HYPERION GR701 S/Fuente Negro",
     "brand": "ASUS",
-    "category": "fuentes-de-poder",
+    "category": "gabinetes",
     "specs": [
       "ASUS",
       "Fuentes de Poder"
     ],
-    "price": 2014000,
+    "price": 2069000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
@@ -148894,12 +148894,7 @@
     "title": "ROUTER XIAOMI MESH SYSTEM AX3000 RD28 DVB4459GL 1P MESH SYSTEM DUAL BAND/2.4/5",
     "brand": "XIAOMI",
     "category": "redes-y-conectividad",
-    "specs": [
-      "XIAOMI",
-      "Periféricos"
-    ],
-    "price": 322000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -155197,7 +155192,7 @@
     "slug": "teclado-aula-f75-rgb-meca-wired-c-cable-black-blue-dark-blue-21435",
     "title": "TECLADO AULA F75 RGB MECA. WIRED/C/Cable BLACK+BLUE DARK/BLUE+ORANG SWITCHV3 208626",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [
       "GENERIC",
       "Adaptadores y Cables"
@@ -157814,9 +157809,7 @@
     "title": "CAMERA DE IMPRESSAO INSTANTANEA SMARTFY KIDS02W INSTA KIDS WHIT E",
     "brand": "SMARTFY",
     "category": "smart-home",
-    "specs": [],
-    "price": 306000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -160451,9 +160444,7 @@
     "title": "CEL XIAOMI POCO C85 8/256GB 4G Negro GLOBAL",
     "brand": "XIAOMI",
     "category": "telefonos-y-celulares",
-    "specs": [],
-    "price": 1074000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -163498,9 +163489,7 @@
     "title": "CPU OEM INTEL 1150 I3 4150 3.5GHZ S/CX S/FAN S/G",
     "brand": "INTEL",
     "category": "procesadores",
-    "specs": [],
-    "price": 81000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -166940,7 +166929,7 @@
     "slug": "fone-jbl-tune-t530-c-cable-3-5mm-black-22339",
     "title": "FONE JBL TUNE T530 C/Cable 3.5MM BLACK",
     "brand": "JBL",
-    "category": "adaptadores-y-cables",
+    "category": "auriculares-y-headsets",
     "specs": [],
     "price": 189000,
     "status": "active",
@@ -167070,7 +167059,7 @@
     "slug": "fone-p2-jbl-t110-c-cable-p2-blue-22349",
     "title": "FONE P2 JBL T110 C/Cable P2 BLUE",
     "brand": "JBL",
-    "category": "adaptadores-y-cables",
+    "category": "auriculares-y-headsets",
     "specs": [],
     "price": 99000,
     "status": "active",
@@ -167083,7 +167072,7 @@
     "slug": "fone-p2-jbl-t110-c-cable-p2-blanco-22350",
     "title": "FONE P2 JBL T110 C/Cable P2 Blanco",
     "brand": "JBL",
-    "category": "adaptadores-y-cables",
+    "category": "auriculares-y-headsets",
     "specs": [],
     "price": 99000,
     "status": "active",
@@ -167096,7 +167085,7 @@
     "slug": "fone-p2-jbl-t110-c-cable-p2-negro-22351",
     "title": "FONE P2 JBL T110 C/Cable P2 Negro",
     "brand": "JBL",
-    "category": "adaptadores-y-cables",
+    "category": "auriculares-y-headsets",
     "specs": [],
     "price": 99000,
     "status": "active",
@@ -167200,9 +167189,9 @@
     "slug": "fone-razer-blackshark-v3-pro-rz04-05400500-r3ua-ps-playstati-22359",
     "title": "FONE RAZER BLACKSHARK V3 PRO RZ04-05400500-R3UA PS PLAYSTATION WIR",
     "brand": "RAZER",
-    "category": "consolas-y-videojuegos",
+    "category": "auriculares-y-headsets",
     "specs": [],
-    "price": 1498000,
+    "price": 1609000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
@@ -167213,7 +167202,7 @@
     "slug": "fone-razer-blackshark-v3-x-hyperspeed-playstation-rz04-05420-22360",
     "title": "FONE RAZER BLACKSHARK V3 X HYPERSPEED PLAYSTATION RZ04-05420400R3 R3UA BLACK/BLUE",
     "brand": "RAZER",
-    "category": "consolas-y-videojuegos",
+    "category": "auriculares-y-headsets",
     "specs": [],
     "price": 674000,
     "status": "active",
@@ -167291,7 +167280,7 @@
     "slug": "fone-usb-redragon-h320w-rgb-lamia2-c-soporte-white-22366",
     "title": "FONE USB REDRAGON H320W-RGB LAMIA2 C/Soporte WHITE",
     "brand": "REDRAGON",
-    "category": "soportes-y-bases",
+    "category": "auriculares-y-headsets",
     "specs": [],
     "price": 309000,
     "status": "active",
@@ -167356,7 +167345,7 @@
     "slug": "fone-xiaomi-redmi-buds-5-pro-m2317e1-black-midnight-black-bh-22371",
     "title": "FONE XIAOMI REDMI BUDS 5 PRO M2317E1 BLACK MIDNIGHT BLACK BHR7660GL",
     "brand": "XIAOMI",
-    "category": "telefonos-y-celulares",
+    "category": "auriculares-y-headsets",
     "specs": [],
     "price": 378000,
     "status": "active",
@@ -167369,7 +167358,7 @@
     "slug": "fone-xiaomi-redmi-buds-5-pro-m2317e1-purple-bhr7799gl-22372",
     "title": "FONE XIAOMI REDMI BUDS 5 PRO M2317E1 PURPLE BHR7799GL",
     "brand": "XIAOMI",
-    "category": "telefonos-y-celulares",
+    "category": "auriculares-y-headsets",
     "specs": [],
     "price": 378000,
     "status": "active",
@@ -167382,7 +167371,7 @@
     "slug": "fone-xiaomi-redmi-buds-5-pro-m2317e1-white-moonlight-white-b-22373",
     "title": "FONE XIAOMI REDMI BUDS 5 PRO M2317E1 WHITE MOONLIGHT WHITE BHR7662GL",
     "brand": "XIAOMI",
-    "category": "telefonos-y-celulares",
+    "category": "auriculares-y-headsets",
     "specs": [],
     "price": 378000,
     "status": "active",
@@ -167395,7 +167384,7 @@
     "slug": "fone-xiaomi-redmi-buds-6-play-blanco-m2420e1-bhr8773gl-22374",
     "title": "FONE XIAOMI REDMI BUDS 6 PLAY Blanco M2420E1 BHR8773GL",
     "brand": "XIAOMI",
-    "category": "telefonos-y-celulares",
+    "category": "auriculares-y-headsets",
     "specs": [],
     "price": 106000,
     "status": "active",
@@ -167408,7 +167397,7 @@
     "slug": "fone-xiaomi-redmi-buds-6-play-rosa-m2420e1-bhr8775gl-22375",
     "title": "FONE XIAOMI REDMI BUDS 6 PLAY ROSA M2420E1 BHR8775GL",
     "brand": "XIAOMI",
-    "category": "telefonos-y-celulares",
+    "category": "auriculares-y-headsets",
     "specs": [],
     "price": 106000,
     "status": "active",
@@ -167421,7 +167410,7 @@
     "slug": "fone-xiaomi-redmi-buds-6-pro-blanco-m2430e1-bhr9310gl-22376",
     "title": "FONE XIAOMI REDMI BUDS 6 PRO Blanco M2430E1 BHR9310GL",
     "brand": "XIAOMI",
-    "category": "telefonos-y-celulares",
+    "category": "auriculares-y-headsets",
     "specs": [],
     "price": 427000,
     "status": "active",
@@ -167434,7 +167423,7 @@
     "slug": "fone-xiaomi-redmi-buds-7s-blanco-bhr9952cn-bhr9952cn-22377",
     "title": "FONE XIAOMI REDMI BUDS 7S Blanco BHR9952CN BHR9952CN",
     "brand": "XIAOMI",
-    "category": "telefonos-y-celulares",
+    "category": "auriculares-y-headsets",
     "specs": [],
     "price": 313000,
     "status": "active",
@@ -167447,7 +167436,7 @@
     "slug": "fone-xiaomi-redmi-buds-7s-verde-bhr9954cn-bhr9954cn-22378",
     "title": "FONE XIAOMI REDMI BUDS 7S Verde BHR9954CN BHR9954CN",
     "brand": "XIAOMI",
-    "category": "telefonos-y-celulares",
+    "category": "auriculares-y-headsets",
     "specs": [],
     "price": 229000,
     "status": "active",
@@ -167460,7 +167449,7 @@
     "slug": "fone-xiaomi-redmi-buds-8-active-m2537e1-black-bhr08jtgl-22379",
     "title": "FONE XIAOMI REDMI BUDS 8 ACTIVE M2537E1 BLACK BHR08JTGL",
     "brand": "XIAOMI",
-    "category": "telefonos-y-celulares",
+    "category": "auriculares-y-headsets",
     "specs": [],
     "price": 149000,
     "status": "active",
@@ -167473,7 +167462,7 @@
     "slug": "fone-xiaomi-redmi-buds-8-active-m2537e1-blue-bhr08jpgl-22380",
     "title": "FONE XIAOMI REDMI BUDS 8 ACTIVE M2537E1 BLUE BHR08JPGL",
     "brand": "XIAOMI",
-    "category": "telefonos-y-celulares",
+    "category": "auriculares-y-headsets",
     "specs": [],
     "price": 149000,
     "status": "active",
@@ -167486,7 +167475,7 @@
     "slug": "fone-xiaomi-redmi-buds-8-active-white-bhr08jugl-white-22381",
     "title": "FONE XIAOMI REDMI BUDS 8 ACTIVE WHITE BHR08JUGL WHITE",
     "brand": "XIAOMI",
-    "category": "telefonos-y-celulares",
+    "category": "auriculares-y-headsets",
     "specs": [],
     "price": 149000,
     "status": "active",
@@ -167499,7 +167488,7 @@
     "slug": "fone-xiaomi-redmi-buds-8-lite-azul-bhr08ojgl-m2539e1-22382",
     "title": "FONE XIAOMI REDMI BUDS 8 LITE Azul BHR08OJGL M2539E1",
     "brand": "XIAOMI",
-    "category": "telefonos-y-celulares",
+    "category": "auriculares-y-headsets",
     "specs": [],
     "price": 155000,
     "status": "active",
@@ -167512,7 +167501,7 @@
     "slug": "fone-xiaomi-redmi-buds-8-lite-negro-bhr08omgl-m2539e1-22383",
     "title": "FONE XIAOMI REDMI BUDS 8 LITE Negro BHR08OMGL M2539E1",
     "brand": "XIAOMI",
-    "category": "telefonos-y-celulares",
+    "category": "auriculares-y-headsets",
     "specs": [],
     "price": 155000,
     "status": "active",
@@ -167525,7 +167514,7 @@
     "slug": "fone-xiaomi-redmi-buds-8-pro-m2535e1-black-22384",
     "title": "FONE XIAOMI REDMI BUDS 8 PRO M2535E1 BLACK",
     "brand": "XIAOMI",
-    "category": "telefonos-y-celulares",
+    "category": "auriculares-y-headsets",
     "specs": [],
     "price": 421000,
     "status": "active",
@@ -167538,7 +167527,7 @@
     "slug": "fone-xiaomi-redmi-buds-8-pro-m2535e1-black-22385",
     "title": "FONE XIAOMI REDMI BUDS 8 PRO M2535E1 BLACK",
     "brand": "XIAOMI",
-    "category": "telefonos-y-celulares",
+    "category": "auriculares-y-headsets",
     "specs": [],
     "price": 421000,
     "status": "active",
@@ -167551,7 +167540,7 @@
     "slug": "fone-xiaomi-redmi-buds-8-pro-m2535e1-blue-bhr08gm-bhr08gmgl-22386",
     "title": "FONE XIAOMI REDMI BUDS 8 PRO M2535E1 BLUE BHR08GM BHR08GMGL",
     "brand": "XIAOMI",
-    "category": "telefonos-y-celulares",
+    "category": "auriculares-y-headsets",
     "specs": [],
     "price": 421000,
     "status": "active",
@@ -167564,7 +167553,7 @@
     "slug": "fone-xiaomi-redmi-buds-8-pro-m2535e1-white-22387",
     "title": "FONE XIAOMI REDMI BUDS 8 PRO M2535E1 WHITE",
     "brand": "XIAOMI",
-    "category": "telefonos-y-celulares",
+    "category": "auriculares-y-headsets",
     "specs": [],
     "price": 421000,
     "status": "active",
@@ -167577,7 +167566,7 @@
     "slug": "fone-xiaomi-redmi-headphones-neo-wireles-obs-black-bhr08w5gl-22388",
     "title": "FONE XIAOMI REDMI HEADPHONES NEO WIRELES OBS BLACK BHR08W5GL OBSIDIAN BLACK",
     "brand": "XIAOMI",
-    "category": "telefonos-y-celulares",
+    "category": "auriculares-y-headsets",
     "specs": [],
     "price": 378000,
     "status": "active",
@@ -168292,9 +168281,9 @@
     "slug": "gabinete-cooler-master-cosmos-alpha-silver-c700-kgnn-s00-22443",
     "title": "GABINETE COOLER MASTER COSMOS ALPHA SILVER C700-KGNN-S00",
     "brand": "COOLER MASTER",
-    "category": "refrigeracion",
+    "category": "gabinetes",
     "specs": [],
-    "price": 2760000,
+    "price": 2689000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
@@ -170434,9 +170423,11 @@
     "title": "IMP BROTHER DCP-T430W MULTIFUNCIONAL WIFI 220V",
     "brand": "GENERIC",
     "category": "impresoras",
-    "status": "hidden",
+    "status": "active",
     "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-15"
+    "lastSeen": "2026-08-15",
+    "specs": [],
+    "price": 1352000
   },
   {
     "id": 22609,
@@ -171549,7 +171540,7 @@
     "slug": "mb-1155-star-h61-ddr3-hdmi-vga-m-2-usb2-0-h61g578-1000m-22694",
     "title": "MB 1155 STAR H61 DDR3 HDMI/VGA/M.2/USB2.0 H61G578-1000M",
     "brand": "GENERIC",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [],
     "price": 161000,
     "status": "active",
@@ -171692,7 +171683,7 @@
     "slug": "mb-775-goline-gl-g41m-g-ddr3-vga-2-0-micro-atx-22705",
     "title": "MB 775 GOLINE GL-G41M-G DDR3/VGA/2.0 MICRO ATX",
     "brand": "GENERIC",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [],
     "price": 171000,
     "status": "active",
@@ -171705,7 +171696,7 @@
     "slug": "mb-am4-asrock-b450m-hdv-r4-0-dvi-d-hdmi-vga-22706",
     "title": "MB AM4 ASROCK B450M-HDV R4.0 DVI-D/HDMI/VGA",
     "brand": "ASROCK",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [],
     "price": 415000,
     "status": "active",
@@ -171757,7 +171748,7 @@
     "slug": "mb-am5-asrock-a620am-hvs-ddr5-hdmi-vga-22710",
     "title": "MB AM5 ASROCK A620AM-HVS DDR5/HDMI/VGA",
     "brand": "ASROCK",
-    "category": "tarjetas-de-video",
+    "category": "placas-madre",
     "specs": [],
     "price": 600000,
     "status": "active",
@@ -172161,9 +172152,7 @@
     "title": "MEM DDR4 4GB 2666 GOLINE GLD4D2666/4",
     "brand": "GENERIC",
     "category": "memorias-ram",
-    "specs": [],
-    "price": 204000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
   },
@@ -175202,9 +175191,9 @@
     "slug": "pc-up-gamer-i7-3770-16gb-512gb-m2-500w-gt730-4gb-rgb-22975",
     "title": "PC UP GAMER I7 3770/16GB/512GB M2/500W/GT730 4GB RGB",
     "brand": "UP GAMER",
-    "category": "almacenamiento-ssd",
+    "category": "pcs-de-escritorio",
     "specs": [],
-    "price": 2367000,
+    "price": 2324000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
@@ -175215,9 +175204,9 @@
     "slug": "pc-up-gamer-venon-i7-7a-16gb-m-2-512-rx580-400w-5an-rgb-22976",
     "title": "PC UP GAMER VENON I7 7A/16GB/M.2 512/RX580/400W 5AN RGB",
     "brand": "UP GAMER",
-    "category": "almacenamiento-ssd",
+    "category": "pcs-de-escritorio",
     "specs": [],
-    "price": 3384000,
+    "price": 3322000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
@@ -175683,7 +175672,7 @@
     "slug": "projetor-acer-x1128i-4800-lumens-hdmi-vga-bivolt-23012",
     "title": "PROJETOR ACER X1128I 4800 LUMENS HDMI VGA BIVOLT",
     "brand": "ACER",
-    "category": "tarjetas-de-video",
+    "category": "televisores",
     "specs": [],
     "price": 2364000,
     "status": "active",
@@ -178449,7 +178438,7 @@
     "slug": "tec-atk-hex80-rgb-mecanico-c-cable-sandgold-magnetic-owlab-7-23226",
     "title": "TEC ATK HEX80 RGB MECANICO C/Cable SANDGOLD MAGNETIC OWLAB 75989",
     "brand": "GENERIC",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 1566000,
     "status": "active",
@@ -178501,7 +178490,7 @@
     "slug": "tec-atk-rs6-ultra-rgb-meca-c-cable-purple-gold-73845-sw-purp-23230",
     "title": "TEC ATK RS6 ULTRA RGB MECA. C/Cable PURPLE GOLD 73845 SW/ PURPLE",
     "brand": "GENERIC",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 1423000,
     "status": "active",
@@ -178514,7 +178503,7 @@
     "slug": "tec-atk-rs6-ultra-rgb-wired-c-cable-pink-black-blazeblade-sw-23231",
     "title": "TEC ATK RS6 ULTRA RGB WIRED C/Cable PINK/BLACK BLAZEBLADE/SW ATK GEAR 74590",
     "brand": "GENERIC",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 780000,
     "status": "active",
@@ -178527,7 +178516,7 @@
     "slug": "tec-atk-rs6-ultra-rgb-wired-c-cable-sakura-warrior-frost-bla-23232",
     "title": "TEC ATK RS6 ULTRA RGB WIRED C/Cable SAKURA WARRIOR FROST BLADE SWI 70714",
     "brand": "GENERIC",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 780000,
     "status": "active",
@@ -178540,7 +178529,7 @@
     "slug": "tec-atk-rs6-ultra-rgb-wired-c-cable-spectral-ranger-ice-blad-23233",
     "title": "TEC ATK RS6 ULTRA RGB WIRED C/Cable SPECTRAL RANGER ICE BLADE/SW 077126",
     "brand": "GENERIC",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 780000,
     "status": "active",
@@ -178566,7 +178555,7 @@
     "slug": "tec-atk-rs7-v2-ultra-rgb-meca-c-cable-shadow-gleam-77812-sha-23235",
     "title": "TEC ATK RS7 V2 ULTRA RGB MECA. C/Cable SHADOW GLEAM 77812 SHADOW GLEAM",
     "brand": "GENERIC",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 1209000,
     "status": "active",
@@ -178579,7 +178568,7 @@
     "slug": "tec-atk-rs7-v2-ultra-rgb-meca-c-cable-silver-edge-77829-silv-23236",
     "title": "TEC ATK RS7 V2 ULTRA RGB MECA. C/Cable SILVER EDGE 77829 SILVER EDGE",
     "brand": "GENERIC",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 1209000,
     "status": "active",
@@ -178592,7 +178581,7 @@
     "slug": "tec-atk-rs7-v2-ultra-rgb-meca-c-cable-stelar-pink-76457-stel-23237",
     "title": "TEC ATK RS7 V2 ULTRA RGB MECA. C/Cable STELAR PINK 76457 STELLAR PINK",
     "brand": "GENERIC",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 1209000,
     "status": "active",
@@ -178631,7 +178620,7 @@
     "slug": "tec-attack-magnetico-x68he-c-cable-usb-moonlit-nigth-usa-23240",
     "title": "TEC ATTACK MAGNETICO X68HE C/Cable USB MOONLIT NIGTH-USA",
     "brand": "GENERIC",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 367000,
     "status": "active",
@@ -178761,7 +178750,7 @@
     "slug": "tec-hex80-rgb-mecanico-c-cable-anodized-grey-75900-23250",
     "title": "TEC HEX80 RGB MECANICO C/Cable ANODIZED GREY 75900",
     "brand": "GENERIC",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 1566000,
     "status": "active",
@@ -178878,7 +178867,7 @@
     "slug": "tec-onikuma-g52-c-cable-usb-c-rgb-white-23259",
     "title": "TEC ONIKUMA G52 C/Cable USB-C RGB WHITE",
     "brand": "GENERIC",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 193000,
     "status": "active",
@@ -179448,7 +179437,7 @@
     "slug": "teclado-aula-f75-max-mec-rgb-wireless-c-cable-grey-blue-whit-23303",
     "title": "TECLADO AULA F75 MAX MEC. RGB WIRELESS C/Cable GREY BLUE WHITE + DARK PURPLE USA",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 415000,
     "status": "active",
@@ -179461,7 +179450,7 @@
     "slug": "teclado-aula-f75-max-mec-rgb-wireless-c-cable-ligh-light-blu-23304",
     "title": "TECLADO AULA F75 MAX MEC. RGB WIRELESS C/Cable LIGH LIGHT BLUE+WHIT +PURPLE 501851",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 415000,
     "status": "active",
@@ -179474,7 +179463,7 @@
     "slug": "teclado-aula-f75-pro-rgb-meca-wireles-c-cable-starv-290645-u-23305",
     "title": "TECLADO AULA F75 PRO RGB MECA WIRELES C/Cable STARV 290645 USA WHIT GRADIENT BLUE/W",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 371000,
     "status": "active",
@@ -179487,7 +179476,7 @@
     "slug": "teclado-aula-f75-pro-rgb-meca-wireles-c-cable-starv-290652-u-23306",
     "title": "TECLADO AULA F75 PRO RGB MECA WIRELES C/Cable STARV 290652 USA WHIT GRADIENT PURPLE",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 371000,
     "status": "active",
@@ -179500,7 +179489,7 @@
     "slug": "teclado-aula-f75-rgb-meca-wireles-c-cable-blue-wht-dark-blue-23307",
     "title": "TECLADO AULA F75 RGB MECA WIRELES C/Cable BLUE+WHT +DARK BLUE/K V3 208633",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 379000,
     "status": "active",
@@ -179513,7 +179502,7 @@
     "slug": "teclado-aula-f75-rgb-meca-wireles-c-cable-pink-grad-dream-sa-23308",
     "title": "TECLADO AULA F75 RGB MECA WIRELES C/Cable PINK GRAD +DREAM SAKURA 502049 USA",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 387000,
     "status": "active",
@@ -179526,7 +179515,7 @@
     "slug": "teclado-aula-f75-rgb-meca-wireless-c-cable-bla-blue-black-ke-23309",
     "title": "TECLADO AULA F75 RGB MECA WIRELESS C/Cable BLA+BLUE BLACK KEYBOARD+ BLUE SWIT 2846",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 201000,
     "status": "active",
@@ -179539,7 +179528,7 @@
     "slug": "teclado-aula-f75-rgb-meca-wireless-c-cable-black-501424-usa-23310",
     "title": "TECLADO AULA F75 RGB MECA WIRELESS C/Cable BLACK 501424 USA CONT +SEIYA SWITCH",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 397000,
     "status": "active",
@@ -179552,7 +179541,7 @@
     "slug": "teclado-aula-f75-rgb-meca-wireless-c-cable-graywood-208640-u-23311",
     "title": "TECLADO AULA F75 RGB MECA WIRELESS C/Cable GRAYWOOD 208640 USA PURP +BEIGE+GREEN",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 379000,
     "status": "active",
@@ -179565,7 +179554,7 @@
     "slug": "teclado-aula-f75-rgb-meca-wireless-c-cable-ice-vein-209807us-23312",
     "title": "TECLADO AULA F75 RGB MECA WIRELESS C/Cable ICE VEIN 209807USA BLUE+ WHITE+PURPLE",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 397000,
     "status": "active",
@@ -179578,7 +179567,7 @@
     "slug": "teclado-aula-f75-rgb-meca-wireless-c-cable-ice-vein-209821-u-23313",
     "title": "TECLADO AULA F75 RGB MECA WIRELESS C/Cable ICE VEIN 209821 USA PURP +BEIGE+GREEN",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 398000,
     "status": "active",
@@ -179591,7 +179580,7 @@
     "slug": "teclado-aula-f75-rgb-meca-wireless-c-cable-reaper-203164usa-23314",
     "title": "TECLADO AULA F75 RGB MECA WIRELESS C/Cable REAPER 203164USA GRADI ENT BLAK+PINK",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 412000,
     "status": "active",
@@ -179604,7 +179593,7 @@
     "slug": "teclado-aula-f75-rgb-meca-wireless-c-cable-reaper-209258usa-23315",
     "title": "TECLADO AULA F75 RGB MECA WIRELESS C/Cable REAPER 209258USA PURPL +BEIGE+GREEN",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 387000,
     "status": "active",
@@ -179617,7 +179606,7 @@
     "slug": "teclado-aula-f75-rgb-meca-wireless-c-cable-reaper-296913-usa-23316",
     "title": "TECLADO AULA F75 RGB MECA WIRELESS C/Cable REAPER 296913 USA BLAK DARKBLUE+ORANGE",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 387000,
     "status": "active",
@@ -179630,7 +179619,7 @@
     "slug": "teclado-aula-f75-rgb-meca-wireless-c-cable-white-501431-usa-23317",
     "title": "TECLADO AULA F75 RGB MECA WIRELESS C/Cable WHITE 501431 USA CONT +SEIYA SWITCH",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 397000,
     "status": "active",
@@ -179643,7 +179632,7 @@
     "slug": "teclado-aula-f75-rgb-meca-wireless-c-cable-white-ke-blue-swi-23318",
     "title": "TECLADO AULA F75 RGB MECA WIRELESS C/Cable WHITE KE +BLUE SWITCH 202839",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 201000,
     "status": "active",
@@ -179656,7 +179645,7 @@
     "slug": "teclado-aula-f75-rgb-meca-wireless-c-cable-blu-whi-blue-whit-23319",
     "title": "TECLADO AULA F75 RGB MECA. WIRELESS C/Cable BLU+WHI BLUE+WHIT+PURPL E 9241",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 387000,
     "status": "active",
@@ -179669,7 +179658,7 @@
     "slug": "teclado-aula-f87-pro-meca-wireless-c-cable-blue-da-blue-dark-23320",
     "title": "TECLADO AULA F87 PRO MECA. WIRELESS C/Cable BLUE+DA BLUE+DARK+GREEN 208510",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 378000,
     "status": "active",
@@ -179682,7 +179671,7 @@
     "slug": "teclado-aula-f87-pro-meca-wireless-c-cable-blue-wh-blue-whit-23321",
     "title": "TECLADO AULA F87 PRO MECA. WIRELESS C/Cable BLUE+WH BLUE+WHITE+DBLU GRAY WOD208787",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 363000,
     "status": "active",
@@ -179708,7 +179697,7 @@
     "slug": "teclado-aula-f87-pro-rgb-meca-wireless-c-cable-blu-white-blu-23323",
     "title": "TECLADO AULA F87 PRO RGB MECA WIRELESS C/Cable BLU+ WHITE+BLUE+PURP 208794",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 378000,
     "status": "active",
@@ -179721,7 +179710,7 @@
     "slug": "teclado-aula-f87-pro-rgb-meca-wireless-c-cable-80-gradient-g-23324",
     "title": "TECLADO AULA F87 PRO RGB MECA. WIRELESS C/Cable 80% GRADIENT GREY 208909",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 408000,
     "status": "active",
@@ -179734,7 +179723,7 @@
     "slug": "teclado-aula-f87-pro-rgb-meca-wireless-c-cable-blk-black-tra-23325",
     "title": "TECLADO AULA F87 PRO RGB MECA. WIRELESS C/Cable BLK BLACK/TRANSPARE 209715",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 387000,
     "status": "active",
@@ -179747,7 +179736,7 @@
     "slug": "teclado-aula-f87-pro-rgb-meca-wireless-c-cable-dar-black-dar-23326",
     "title": "TECLADO AULA F87 PRO RGB MECA. WIRELESS C/Cable DAR BLACK+DARK/BLUE ORANGE/208770",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 363000,
     "status": "active",
@@ -179760,7 +179749,7 @@
     "slug": "teclado-aula-f87-pro-rgb-meca-wireless-c-cable-whi-white-blu-23327",
     "title": "TECLADO AULA F87 PRO RGB MECA. WIRELESS C/Cable WHI WHITE+BLUE+DARK 209449",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 363000,
     "status": "active",
@@ -179773,7 +179762,7 @@
     "slug": "teclado-aula-f87-pro-rgb-meca-wireless-c-cable-whi-white-blu-23328",
     "title": "TECLADO AULA F87 PRO RGB MECA. WIRELESS C/Cable WHI WHITE+BLUE+ORAN 209418",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 371000,
     "status": "active",
@@ -179786,7 +179775,7 @@
     "slug": "teclado-aula-f87-pro-rgb-meca-wireless-c-cable-whi-white-bla-23329",
     "title": "TECLADO AULA F87 PRO RGB MECA. WIRELESS C/Cable WHI WHITE/BLACK/GRE GREEN 208619",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 363000,
     "status": "active",
@@ -179799,7 +179788,7 @@
     "slug": "teclado-aula-f98-pro-v3-rgb-wired-c-cable-95-gradi-gradient-23330",
     "title": "TECLADO AULA F98 PRO V3 RGB WIRED C/Cable 95% GRADI GRADIENT GREY CARAMEL LATTE",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 467000,
     "status": "active",
@@ -179812,7 +179801,7 @@
     "slug": "teclado-aula-f98-pro-v3-rgb-wired-c-cable-white-cri-switch-t-23331",
     "title": "TECLADO AULA F98 PRO V3 RGB WIRED C/Cable WHITE+CRI SWITCH/TRASPARN 503329",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 462000,
     "status": "active",
@@ -179825,7 +179814,7 @@
     "slug": "teclado-aula-f98-pro-v3-rgb-wireless-c-cable-black-black-cry-23332",
     "title": "TECLADO AULA F98 PRO V3 RGB WIRELESS C/Cable BLACK BLACK+CRYSTAL SWITCH 503336",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 462000,
     "status": "active",
@@ -179877,7 +179866,7 @@
     "slug": "teclado-aula-hero-68he-rgb-mec-wireless-c-cable-pk-gradient-23336",
     "title": "TECLADO AULA HERO 68HE RGB MEC.WIRELESS C/Cable PK+ GRADIENT PINK 504135",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 378000,
     "status": "active",
@@ -179890,7 +179879,7 @@
     "slug": "teclado-aula-hero-68he-rgb-mec-wireless-c-cable-w-w-meteor-m-23337",
     "title": "TECLADO AULA HERO 68HE RGB MEC.WIRELESS C/Cable W+W METEOR MAGNETIC 504173",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 332000,
     "status": "active",
@@ -179942,7 +179931,7 @@
     "slug": "teclado-aula-s98-rgb-mec-wireless-c-cable-white-295268-23341",
     "title": "TECLADO AULA S98 RGB MEC. WIRELESS C/Cable WHITE 295268",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 229000,
     "status": "active",
@@ -179981,7 +179970,7 @@
     "slug": "teclado-aula-win60he-max-rgb-mec-c-cable-grey-whit-blue-wing-23344",
     "title": "TECLADO AULA WIN60HE MAX RGB MEC. C/Cable GREY+WHIT +BLUE WING CHUN",
     "brand": "AULA",
-    "category": "adaptadores-y-cables",
+    "category": "teclados",
     "specs": [],
     "price": 384000,
     "status": "active",
@@ -181296,7 +181285,7 @@
     "brand": "MSI",
     "category": "tarjetas-de-video",
     "specs": [],
-    "price": 2650000,
+    "price": 2690000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
@@ -181348,7 +181337,7 @@
     "brand": "MSI",
     "category": "tarjetas-de-video",
     "specs": [],
-    "price": 4660000,
+    "price": 4647000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"
@@ -181713,6 +181702,175 @@
     "category": "tarjetas-de-video",
     "specs": [],
     "price": 2583000,
+    "status": "active",
+    "firstSeen": "2026-08-15",
+    "lastSeen": "2026-08-15"
+  },
+  {
+    "id": 23478,
+    "ref": "111811",
+    "slug": "amazon-fire-tv-stick-4k-2ra-geracao-840268935092-23478",
+    "title": "AMAZON FIRE TV STICK 4K 2RA GERACAO 840268935092",
+    "brand": "GENERIC",
+    "category": "televisores",
+    "specs": [],
+    "price": 321000,
+    "status": "active",
+    "firstSeen": "2026-08-15",
+    "lastSeen": "2026-08-15"
+  },
+  {
+    "id": 23479,
+    "ref": "393600",
+    "slug": "amazon-fire-tv-stick-4k-select-8958794-23479",
+    "title": "AMAZON FIRE TV STICK 4K SELECT 8958794",
+    "brand": "GENERIC",
+    "category": "televisores",
+    "specs": [],
+    "price": 223000,
+    "status": "active",
+    "firstSeen": "2026-08-15",
+    "lastSeen": "2026-08-15"
+  },
+  {
+    "id": 23480,
+    "ref": "412477",
+    "slug": "amazon-fire-tv-stick-hd-2025-8gb-wifi6-840414612631-23480",
+    "title": "AMAZON FIRE TV STICK HD (2025) 8GB/WIFI6 840414612631",
+    "brand": "GENERIC",
+    "category": "televisores",
+    "specs": [],
+    "price": 248000,
+    "status": "active",
+    "firstSeen": "2026-08-15",
+    "lastSeen": "2026-08-15"
+  },
+  {
+    "id": 23481,
+    "ref": "383776",
+    "slug": "amazon-fire-tv-stick-max-2-ger-4k-wifi-6e-907969-23481",
+    "title": "AMAZON FIRE TV STICK MAX 2? GER. 4K WIFI 6E 907969",
+    "brand": "GENERIC",
+    "category": "televisores",
+    "specs": [],
+    "price": 440000,
+    "status": "active",
+    "firstSeen": "2026-08-15",
+    "lastSeen": "2026-08-15"
+  },
+  {
+    "id": 23482,
+    "ref": "420588",
+    "slug": "imp-3d-anycubic-kobra-x-multicolor-23482",
+    "title": "IMP 3D ANYCUBIC KOBRA X MULTICOLOR",
+    "brand": "GENERIC",
+    "category": "impresoras",
+    "specs": [],
+    "price": 3936000,
+    "status": "active",
+    "firstSeen": "2026-08-15",
+    "lastSeen": "2026-08-15"
+  },
+  {
+    "id": 23483,
+    "ref": "420151",
+    "slug": "imp-3d-snapmaker-u1-3d-printer-g-bivolt-23483",
+    "title": "IMP 3D SNAPMAKER U1 3D PRINTER *G BIVOLT",
+    "brand": "GENERIC",
+    "category": "impresoras",
+    "specs": [],
+    "price": 11145000,
+    "status": "active",
+    "firstSeen": "2026-08-15",
+    "lastSeen": "2026-08-15"
+  },
+  {
+    "id": 23484,
+    "ref": "386151",
+    "slug": "projetor-blulory-t6-max-270-4k-bt-wifi-white-23484",
+    "title": "PROJETOR BLULORY T6 MAX 270/4K/BT/WIFI WHITE",
+    "brand": "BLULORY",
+    "category": "televisores",
+    "specs": [],
+    "price": 686000,
+    "status": "active",
+    "firstSeen": "2026-08-15",
+    "lastSeen": "2026-08-15"
+  },
+  {
+    "id": 23485,
+    "ref": "351839",
+    "slug": "projetor-epson-e24-powerlite-3600l-3lcd-bivolt-23485",
+    "title": "PROJETOR EPSON E24 POWERLITE 3600L 3LCD/BIVOLT",
+    "brand": "EPSON",
+    "category": "televisores",
+    "specs": [],
+    "price": 3129000,
+    "status": "active",
+    "firstSeen": "2026-08-15",
+    "lastSeen": "2026-08-15"
+  },
+  {
+    "id": 23486,
+    "ref": "394644",
+    "slug": "projetor-epson-powerlite-fh54-4100-lumens-white-23486",
+    "title": "PROJETOR EPSON POWERLITE FH54+ 4100 LUMENS WHITE",
+    "brand": "EPSON",
+    "category": "televisores",
+    "specs": [],
+    "price": 7290000,
+    "status": "active",
+    "firstSeen": "2026-08-15",
+    "lastSeen": "2026-08-15"
+  },
+  {
+    "id": 23487,
+    "ref": "203723",
+    "slug": "projetor-epson-powerlite-x49-3600-lumens-white-h982a-23487",
+    "title": "PROJETOR EPSON POWERLITE X49 3600 LUMENS WHITE H982A",
+    "brand": "EPSON",
+    "category": "televisores",
+    "specs": [],
+    "price": 3396000,
+    "status": "active",
+    "firstSeen": "2026-08-15",
+    "lastSeen": "2026-08-15"
+  },
+  {
+    "id": 23488,
+    "ref": "415380",
+    "slug": "projetor-smartfy-pg02b-game-2control-android-4k-hd-pg02b-23488",
+    "title": "PROJETOR SMARTFY PG02B GAME/2CONTROL ANDROID/4K/HD PG02B",
+    "brand": "SMARTFY",
+    "category": "televisores",
+    "specs": [],
+    "price": 504000,
+    "status": "active",
+    "firstSeen": "2026-08-15",
+    "lastSeen": "2026-08-15"
+  },
+  {
+    "id": 23489,
+    "ref": "345886",
+    "slug": "projetor-smartfy-pj01w-android-game-3d-4k-white-23489",
+    "title": "PROJETOR SMARTFY PJ01W ANDROID GAME 3D/4K/WHITE",
+    "brand": "SMARTFY",
+    "category": "televisores",
+    "specs": [],
+    "price": 353000,
+    "status": "active",
+    "firstSeen": "2026-08-15",
+    "lastSeen": "2026-08-15"
+  },
+  {
+    "id": 23490,
+    "ref": "415256",
+    "slug": "projetor-wanbo-togo-pro-wpd34-500-lumenes-fhd-dark-blue-23490",
+    "title": "PROJETOR WANBO TOGO PRO WPD34 500 LUMENES FHD DARK BLUE",
+    "brand": "GENERIC",
+    "category": "televisores",
+    "specs": [],
+    "price": 2244000,
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-15"

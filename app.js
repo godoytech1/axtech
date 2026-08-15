@@ -381,11 +381,16 @@ document.addEventListener('DOMContentLoaded', () => {
         // 1. FILTER products based on current category, search query and sub-filters
         let filtered = PRODUCTS.filter(p => {
             const rawQuery = searchQuery.toLowerCase().trim();
-            const isTvExplicitQuery = rawQuery && ['tv', 'televisor', 'televisores', 'smart'].some(w => rawQuery.includes(w));
 
-            // Category match
-            const categoryMatch = currentCategory === 'all' 
-                ? (p.category !== 'televisores' || isTvExplicitQuery) 
+            // "Todo" incluye TODO, televisores incluidos.
+            //
+            // Antes se los escondia salvo que la busqueda dijera "tv" o
+            // "televisor". El resultado era que 121 productos existian en el
+            // menu y en su categoria, pero un cliente que navegaba el catalogo
+            // completo no los veia nunca: una categoria a la vista cuyos
+            // productos no estaban donde deberian.
+            const categoryMatch = currentCategory === 'all'
+                ? true
                 : p.category === currentCategory;
             
             // Search match (intelligent multi-word search, matching all words in any order, ignoring stop words)

@@ -88,7 +88,13 @@ export const SLUG_PROVEEDOR_A_CATEGORIA = {
 const REGLAS = [
     // 1. Accesorios: mencionan dispositivos, tienen que resolverse primero.
     ['peliculas-y-fundas',     /(\b(pelicula|capa para|case para|funda|protetor de tela|protector de pantalla)\b|^capa )/i],
-    ['adaptadores-y-cables',   /(\b(cable|cabo|adaptador|adapter|conversor|extensor|docking|dock station|lector de tarj|card reader|splitter|spliter)\b|^leitor )/i],
+    // "C/Cable" y "S/Cable" son "con cable" y "sin cable": una caracteristica
+    // del producto, no el producto. Sin la exclusion, un teclado mecanico, una
+    // fuente y un cargador terminaban en la categoria de cables (57 productos).
+    ['adaptadores-y-cables',   /(\b(?<![cs]\/)(cable|cabo|adaptador|adapter|conversor|extensor|docking|dock station|lector de tarj|card reader|splitter|spliter)\b|^leitor )/i],
+    // Un "FONE ... REDMI" es un auricular de Xiaomi, no un celular. La marca
+    // le ganaba al tipo de producto en 22 auriculares.
+    ['auriculares-y-headsets', /(^fones? |\b(earbud|earbuds|airpods)\b|\bbuds\b)/i],
     // Un soporte PARA TV no es un TV: va antes que las reglas de dispositivo.
     ['soportes-y-bases',       /\b(soporte|suporte|base para|bracket|pedestal|brazo articulado|braco articulado)\b/i],
 
@@ -96,11 +102,17 @@ const REGLAS = [
     // "NB ..." es la abreviatura del proveedor para notebook: 150 productos,
     // y son los de mayor valor del catalogo (hasta US$ 3.300).
     ['notebooks',              /(\b(notebook|laptop|macbook|mac ?air|ultrabook)\b|^nb )/i],
-    ['pcs-de-escritorio',      /\b(desktop|pc gamer|computador completo|all in one|mac ?pro|mac ?mini|mac ?studio|mini ?pc|nuc|servidor|barebone)\b/i],
+    // "PC ..." es la abreviatura del proveedor para equipo armado. Sin ella,
+    // una PC se clasificaba por el primer componente que nombraba su titulo:
+    // dos terminaron publicadas en Procesadores.
+    ['pcs-de-escritorio',      /(\b(desktop|pc gamer|computador completo|all in one|mac ?pro|mac ?mini|mac ?studio|mini ?pc|nuc|servidor|barebone)\b|^pc )/i],
     ['tablets',                /\b(tablet|ipad)\b/i],
     ['telefonos-y-celulares',  /(\b(smartphone|celular|iphone|galaxy [asz]\d|redmi|poco |moto ?[ge])\b|^cel )/i],
     // Receptores IPTV y cajas de streaming se agrupan con televisores.
-    ['televisores',            /(\bsmart ?tv\b|\btelevisor\b|^tv[ ,]|\btv \d{2,3}\b|^receptor |tv ?box|iptv)/i],
+    // Cajas de streaming y proyectores se agrupan aca: son dispositivos de
+    // imagen y no hay categoria propia para ellos. Los proyectores estaban
+    // publicados en Tarjetas de Video por el puerto VGA de su ficha.
+    ['televisores',            /(\bsmart ?tv\b|\btelevisor\b|^tv[ ,]|\btv \d{2,3}\b|^receptor |tv ?box|iptv|fire tv|tv stick|\bprojetor\b|\bproyector\b)/i],
     // "MON 24 SAMSUNG..." es la abreviatura del proveedor. Se ancla al inicio
     // para no confundirla con otras palabras que empiecen con "mon".
     ['monitores',              /(\bmonitor\b|^mon \d{2})/i],
@@ -114,8 +126,20 @@ const REGLAS = [
     //    "Radeon Graphics" en el titulo y caian mal clasificados.
     // "^CPU " es la abreviatura del proveedor. Se ancla al inicio: un cooler
     // titulado "... PARA CPU" no es un procesador.
+    // Un titulo que EMPIEZA con "GABINETE" es una caja, y va antes que todas
+    // las reglas de componente porque una caja se describe por lo que trae
+    // adentro: su fabricante ("COOLER MASTER"), el formato de fuente que
+    // acepta ("Fuente ITX") o sus ventiladores ("S/FAN"). Cualquiera de esas
+    // palabras le ganaba al tipo de producto en 61 gabinetes.
+    // Se ancla al inicio a proposito: "COOLER FAN P/ GABINETE" es un
+    // ventilador de caja y tiene que seguir cayendo en refrigeracion.
+    ['gabinetes',              /^(gabinete|chassi)\b/i],
     ['procesadores',           /(\b(procesador|processador|ryzen|core i[3579]|core ultra|pentium|celeron|athlon|threadripper)\b|^cpu\b)/i],
-    ['tarjetas-de-video',      /\b(tarjeta de video|placa de video|\bvga\b|rtx ?\d|gtx ?\d|\brx ?[5-9]\d{3}\b|geforce)\b/i],
+    // "VGA" se ancla al inicio: es la abreviatura del proveedor para placa de
+    // video. Suelto matcheaba el PUERTO VGA que las placas madre y los
+    // monitores listan entre sus salidas ("HDMI/VGA/M.2"), y mandaba 120
+    // productos --casi todos placas madre-- a Tarjetas de Video.
+    ['tarjetas-de-video',      /(\b(tarjeta de video|placa de video|rtx ?\d|gtx ?\d|\brx ?[5-9]\d{3}\b|geforce)\b|^vga )/i],
     // "MB 1700 ..." es la abreviatura del proveedor, seguida del socket.
     // Se exige el numero para no confundirla con megabytes.
     ['placas-madre',           /(\b(placa madre|placa mae|motherboard|mobo)\b|^mb (am\d|\d{3,4})\b)/i],
