@@ -1,0 +1,116 @@
+name: Sync del catalogo
+
+# Todas las noches: baja la lista oficial, recalcula precios, publica lo nuevo,
+# oculta lo que desaparecio y purga lo que lleva 30 dias ausente.
+#
+# Si algo no cierra, src/sync/verificar.js aborta ANTES de escribir y este
+# workflow sale en rojo con el catalogo intacto. Un sync que corre solo y
+# commitea sobre main sin frenos es una forma elaborada de vaciar la tienda.
+
+on:
+  schedule:
+    - cron: '0 7 * * *'   # 04:00 de Paraguay (07:00 UTC)
+  workflow_dispatch:
+    inputs:
+      simular:
+        description: 'Solo simular: calcula e informa, no escribe ni commitea'
+        type: boolean
+        default: false
+
+concurrency:
+  group: sync
+  cancel-in-progress: false   # nunca cortar un sync a medio escribir
+
+permissions:
+  contents: write
+
+jobs:
+  sincronizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      # Si la suite esta rota, el sync no corre. Escribir el catalogo con
+      # codigo que no pasa sus propios tests es exactamente lo que no queremos
+      # que pase de madrugada y sin nadie mirando.
+      - name: Tests
+        run: npm test
+
+      - name: Materializar la configuracion de precios
+        # Los porcentajes y el tipo de cambio son secretos: la formula es
+        # invertible, asi que publicarlos equivale a publicar los costos.
+        run: |
+          mkdir -p config
+          printf '%s' "$PRICING_CONFIG" > config/pricing.config.json
+          node -e "const c=require('./config/pricing.config.json'); if(!c.pct||!c.tipoDeCambio) { console.error('ERROR: PRICING_CONFIG incompleto.'); process.exit(1); } console.log('OK: config cargada.')"
+        env:
+          PRICING_CONFIG: ${{ secrets.PRICING_CONFIG }}
+
+      - name: Sincronizar
+        run: node src/sync/ejecutar.js ${{ inputs.simular && '' || '--aplicar' }}
+        env:
+          SUPPLIER_LIST_URL: ${{ secrets.SUPPLIER_LIST_URL }}
+
+      - name: Bajar imagenes de los productos nuevos
+        if: ${{ !inputs.simular }}
+        run: node src/images/ejecutar.js
+        env:
+          SUPPLIER_IMG_BASE: ${{ secrets.SUPPLIER_IMG_BASE }}
+
+      # La config lleva los margenes: no puede terminar en un commit. Se borra
+      # antes de que git vea nada, no despues.
+      - name: Borrar la configuracion de precios
+        if: always()
+        run: rm -f config/pricing.config.json
+
+      # Ultima defensa antes de commitear. El guard del build revisa dist/;
+      # esto revisa lo que realmente se va a versionar.
+      - name: Verificar que no se cuela nada sensible
+        if: ${{ !inputs.simular }}
+        env:
+          NOMBRE_PROVEEDOR: ${{ secrets.SUPPLIER_NAME }}
+        run: |
+          if [ -z "$NOMBRE_PROVEEDOR" ]; then
+            echo "ERROR: falta el secreto SUPPLIER_NAME; no se puede verificar."
+            exit 1
+          fi
+
+          # 1. Nada que no deba versionarse quedo en el arbol.
+          if git status --porcelain | grep -qE 'pricing\.config\.json|\.txt$'; then
+            echo "ERROR: el sync dejo archivos que no deben versionarse:"
+            git status --porcelain
+            exit 1
+          fi
+
+          # 2. Ni el proveedor ni ningun campo de costo entraron a los datos.
+          if grep -lEi "$NOMBRE_PROVEEDOR" data/*.json; then
+            echo "ERROR: el proveedor aparece en los datos."
+            exit 1
+          fi
+          if grep -lE '"(pyg_orig|pyg_orig_str|usd|brl|orig_url|title_orig|cost|costo)":' data/*.json; then
+            echo "ERROR: campos de costo en los datos."
+            exit 1
+          fi
+          echo "OK: nada sensible en los cambios."
+
+      - name: Commitear si hubo cambios
+        if: ${{ !inputs.simular }}
+        run: |
+          git config user.name  'AXTECH Sync'
+          git config user.email 'sync@axtech.local'
+          git add data/catalog.json data/meta.json data/sin-imagen.json public/img
+          if git diff --cached --quiet; then
+            echo "Sin cambios: no se commitea nada."
+            exit 0
+          fi
+          git commit -m "chore: sync nocturno del catalogo"
+          git pull --rebase origin main
+          git push origin HEAD:main
