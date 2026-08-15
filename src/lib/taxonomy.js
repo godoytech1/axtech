@@ -168,6 +168,14 @@ export function clasificar({ titulo, slugProveedor } = {}) {
 export const IDS_EN_REGLAS = REGLAS.map(([id]) => id);
 
 export const MARCAS = [
+    // Se agregan de a poco a partir del reporte de productos que quedan como
+    // GENERIC. Solo fabricantes reales: agregar palabras genericas ("CABLE",
+    // "SMART", "GAMER") agruparia productos de distintas marcas bajo una
+    // etiqueta falsa.
+    'ATTACK SHARK', 'THERMALRIGHT', 'ZEMISMART', 'HIKVISION', 'PLAYGAME',
+    'MIKROTIK', 'UBIQUITI', 'GAMESIR', 'BLULORY', 'SUNKING', 'TIANQIU',
+    'JONSBO', 'EPSON', 'TROVE', 'HOMIE', 'AULA', 'AFOX', 'SATE', 'FTX',
+    'PXN', 'HTC', 'TAPO',
     'COOLER MASTER', 'WESTERN DIGITAL', 'THERMALTAKE', 'LIAN LI', 'UP GAMER',
     'VIEWSONIC', 'MARKVISION', 'ALIENWARE', 'ZEMISMART', 'SAPPHIRE',
     'POWERCOLOR', 'SATELLITE', 'DARKFLASH', 'GIGABYTE', 'REDRAGON',
