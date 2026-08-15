@@ -1741,13 +1741,66 @@ document.addEventListener('DOMContentLoaded', () => {
     if (mobileNavClose) mobileNavClose.addEventListener('click', closeMobileMenu);
     if (mobileNavOverlay) mobileNavOverlay.addEventListener('click', closeMobileMenu);
 
+    // ----------------------------------------------------------------------
+    // FOCO EN DIALOGOS
+    // ----------------------------------------------------------------------
+    // Sin esto se puede tabular "por detras" de un dialogo abierto, y al
+    // cerrarlo el foco vuelve al principio de la pagina en vez de al boton
+    // que lo abrio. Para quien navega con teclado, eso hace el sitio
+    // practicamente inusable.
+    const SELECTOR_ENFOCABLE =
+        'a[href], button:not([disabled]), input, select, textarea, [tabindex]:not([tabindex="-1"])';
+
+    let soltarFocoModal = null;
+    let soltarFocoCarrito = null;
+    let soltarFocoMenu = null;
+
+    function atraparFoco(contenedor) {
+        const previo = document.activeElement;
+        const enfocables = () => [...contenedor.querySelectorAll(SELECTOR_ENFOCABLE)]
+            .filter((el) => el.offsetParent !== null);
+
+        const alTeclear = (e) => {
+            if (e.key !== 'Tab') return;
+            const lista = enfocables();
+            if (lista.length === 0) return;
+            const primero = lista[0];
+            const ultimo = lista[lista.length - 1];
+            if (e.shiftKey && document.activeElement === primero) {
+                e.preventDefault();
+                ultimo.focus();
+            } else if (!e.shiftKey && document.activeElement === ultimo) {
+                e.preventDefault();
+                primero.focus();
+            }
+        };
+
+        document.addEventListener('keydown', alTeclear);
+        enfocables()[0]?.focus();
+
+        return function soltarFoco() {
+            document.removeEventListener('keydown', alTeclear);
+            if (previo && document.contains(previo)) previo.focus();
+        };
+    }
+
+    // Escape cierra el dialogo que este abierto.
+    document.addEventListener('keydown', (e) => {
+        if (e.key !== 'Escape') return;
+        if (soltarFocoModal) closeProductModal();
+        else if (soltarFocoCarrito) closeCartDrawer();
+        else if (soltarFocoMenu) closeMobileMenu();
+    });
+
     function openMobileMenu() {
         mobileNav.classList.add('active');
         mobileNavOverlay.classList.add('active');
         document.body.style.overflow = 'hidden';
+        soltarFocoMenu = atraparFoco(mobileNav);
     }
 
     function closeMobileMenu() {
+        if (soltarFocoMenu) { soltarFocoMenu(); soltarFocoMenu = null; }
         mobileNav.classList.remove('active');
         mobileNavOverlay.classList.remove('active');
         document.body.style.overflow = 'auto';
@@ -1789,7 +1842,7 @@ document.addEventListener('DOMContentLoaded', () => {
         productModalBody.innerHTML = `
             <div class="modal-details-grid">
                 <div class="modal-image-col">
-                    <img src="${p.image}" alt="${p.title}">
+                    <img src="${p.image}" alt="" width="400" height="400">
                 </div>
                 <div class="modal-info-col">
                     <span class="modal-brand">${p.brand}</span>
@@ -1843,9 +1896,11 @@ document.addEventListener('DOMContentLoaded', () => {
         productModal.classList.add('active');
         productModalOverlay.classList.add('active');
         document.body.style.overflow = 'hidden';
+        soltarFocoModal = atraparFoco(productModal);
     }
 
     function closeProductModal() {
+        if (soltarFocoModal) { soltarFocoModal(); soltarFocoModal = null; }
         productModal.classList.remove('active');
         productModalOverlay.classList.remove('active');
         if (!cartDrawer.classList.contains('active')) {
@@ -1988,9 +2043,11 @@ document.addEventListener('DOMContentLoaded', () => {
         cartDrawer.classList.add('active');
         cartDrawerOverlay.classList.add('active');
         document.body.style.overflow = 'hidden';
+        soltarFocoCarrito = atraparFoco(cartDrawer);
     }
 
     function closeCartDrawer() {
+        if (soltarFocoCarrito) { soltarFocoCarrito(); soltarFocoCarrito = null; }
         cartDrawer.classList.remove('active');
         cartDrawerOverlay.classList.remove('active');
         if (!productModal.classList.contains('active')) {
@@ -2098,7 +2155,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         searchSuggestions.innerHTML = matches.map(p => `
             <div class="suggestion-item" data-suggestion-id="${p.id}">
-                <img src="${p.image}" alt="${p.title}" class="suggestion-img">
+                <img src="${p.image}" alt="" width="48" height="48" class="suggestion-img" loading="lazy">
                 <div class="suggestion-info">
                     <span class="suggestion-brand">${p.brand}</span>
                     <span class="suggestion-title">${p.title}</span>
