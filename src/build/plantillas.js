@@ -6,6 +6,15 @@ import { extraerSpecs } from '../lib/specs.js';
 
 const WHATSAPP = '595976914662';
 
+/**
+ * GENERIC no es una marca: es la etiqueta interna para "no se pudo detectar".
+ * Mostrarsela al cliente en 1.193 productos hacia parecer que existe un
+ * fabricante llamado asi. Cuando no hay marca, no se muestra nada.
+ */
+function marcaVisible(marca) {
+    return marca && marca !== 'GENERIC' ? escaparHtml(marca) : '';
+}
+
 const formatearGs = (n) => 'Gs. ' + String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, '.');
 
 function cabecera({ titulo, descripcion, canonical, imagen, indexable, jsonLd }) {
@@ -116,7 +125,7 @@ ${encabezadoDelSitio()}
             <img src="${p.image}" alt="${escaparHtml(p.title)}" width="400" height="400">
         </div>
         <div class="ficha-datos">
-            <p class="ficha-marca">${escaparHtml(p.brand)}</p>
+            <p class="ficha-marca">${marcaVisible(p.brand)}</p>
             <h1 class="ficha-titulo">${escaparHtml(p.title)}</h1>
             <p class="ficha-precio">${formatearGs(p.price)}</p>
             <a class="btn btn-success ficha-cta" href="https://wa.me/${WHATSAPP}?text=${mensaje}" target="_blank" rel="noopener">
@@ -154,7 +163,7 @@ export function paginaDeCategoria({ categoria, productos, pagina, totalPaginas, 
         <article class="producto">
             <a href="/p/${p.slug}/">
                 <img src="${p.image}" alt="${escaparHtml(p.title)}" loading="lazy" width="220" height="220">
-                <span class="producto-marca">${escaparHtml(p.brand)}</span>
+                <span class="producto-marca">${marcaVisible(p.brand)}</span>
                 <h2 class="producto-titulo">${escaparHtml(p.title)}</h2>
                 <span class="producto-precio">${formatearGs(p.price)}</span>
             </a>

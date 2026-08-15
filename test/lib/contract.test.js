@@ -86,7 +86,40 @@ test('el ref no viaja al navegador aunque se use para la imagen', () => {
     assert.equal(publico.ref, undefined);
 });
 
-test('specs ausente se normaliza a arreglo vacio', () => {
+test('specs ausente siempre da un arreglo, nunca undefined', () => {
+    // Lo que importa es que el front nunca reciba undefined. El contenido
+    // puede venir del registro o derivarse del titulo; lo cubren los tests
+    // de mas abajo.
     const publico = aPublicoLegado(registroValido({ specs: undefined }), OPCIONES);
-    assert.deepEqual(publico.specs, []);
+    assert.ok(Array.isArray(publico.specs));
+});
+
+test('cuando el registro no trae specs, se derivan del titulo', () => {
+    // Antes, 963 productos mostraban ficha completa en su pagina estatica y
+    // ficha VACIA en el modal de la portada: el mismo producto con dos fichas
+    // distintas segun por donde se llegara.
+    const p = aPublicoLegado({
+        id: 1, status: 'active', price: 1000,
+        title: 'NB HP 14-EM0002WM ATHLON-7120U/4GB/128GB/14/W11 BLUE/INGLES',
+        brand: 'HP', category: 'notebooks'
+    });
+    assert.ok(p.specs.length >= 3, `esperaba specs derivadas, hubo ${p.specs.length}`);
+    assert.ok(p.specs.some((s) => s.startsWith('Procesador: ')));
+});
+
+test('las specs propias del registro tienen prioridad sobre las derivadas', () => {
+    const p = aPublicoLegado({
+        id: 1, status: 'active', price: 1000,
+        title: 'NB HP 14-EM0002WM ATHLON-7120U/4GB/128GB/14/W11',
+        brand: 'HP', category: 'notebooks', specs: ['Color negro']
+    });
+    assert.deepEqual(p.specs, ['Color negro']);
+});
+
+test('un titulo del que no se puede extraer nada da specs vacias, no null', () => {
+    const p = aPublicoLegado({
+        id: 1, status: 'active', price: 1000,
+        title: 'CABLE HDMI 1M', brand: 'GENERIC', category: 'adaptadores-y-cables'
+    });
+    assert.ok(Array.isArray(p.specs));
 });

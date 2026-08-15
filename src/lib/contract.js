@@ -1,5 +1,6 @@
 import { formatearGs } from './formato.js';
 import { rutaPublica } from './imagenes.js';
+import { extraerSpecs } from './specs.js';
 
 /**
  * Campos que jamas pueden aparecer ni en data/catalog.json ni en dist/.
@@ -43,7 +44,23 @@ export function aPublicoLegado(registro, { idsSinImagen = new Set() } = {}) {
         image: rutaPublica(registro.id),
         pyg: registro.price,
         pyg_str: formatearGs(registro.price),
-        specs: Array.isArray(registro.specs) ? registro.specs : [],
+        specs: especificaciones(registro),
         sob_consulta: false
     };
+}
+
+/**
+ * Especificaciones para la ficha rapida del catalogo.
+ *
+ * Cuando el registro no las trae, se derivan del titulo con el mismo extractor
+ * que usan las paginas estaticas. Sin esto, 963 productos mostraban su ficha
+ * completa al abrir su pagina y una ficha VACIA al abrir el modal desde la
+ * portada: el mismo producto con dos fichas distintas segun por donde se
+ * llegara.
+ *
+ * El titulo es publico, asi que derivar de el no puede filtrar nada.
+ */
+function especificaciones(registro) {
+    if (Array.isArray(registro.specs) && registro.specs.length > 0) return registro.specs;
+    return extraerSpecs(registro.title).map(({ etiqueta, valor }) => `${etiqueta}: ${valor}`);
 }

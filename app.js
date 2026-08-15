@@ -280,7 +280,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // INITIALIZATION & SETUP
     // ----------------------------------------------------------------------
     initSlider();
-    updateCategoryBadges();
     renderSidebarFilters('all');
     leerEstadoDeURL();
     syncCategoryLinks(currentCategory);
@@ -350,41 +349,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // ----------------------------------------------------------------------
     // CATEGORY BADGES COUNT GENERATOR
     // ----------------------------------------------------------------------
-    function updateCategoryBadges() {
-        const counts = {
-            'all': PRODUCTS.filter(p => p.category !== 'televisores').length,
-            'Notebooks': 0,
-            'Consolas y Videojuegos': 0,
-            'Tarjetas de Video': 0,
-            'Almacenamiento (SSD)': 0,
-            'Memorias RAM': 0,
-            'Fuentes de Poder': 0,
-            'Procesadores': 0,
-            'Placas Madre': 0,
-            'Monitores': 0,
-            'Periféricos': 0,
-            'Relojes Mi Band': 0,
-            'Smart Home / Domótica': 0,
-            'televisores': 0,
-            'Gabinetes': 0
-        };
-
-        PRODUCTS.forEach(p => {
-            if (counts[p.category] !== undefined) {
-                counts[p.category]++;
-            }
-        });
-
-        // Update DOM elements with count badges
-        const badges = document.querySelectorAll('[data-count-cat]');
-        badges.forEach(b => {
-            const cat = b.getAttribute('data-count-cat');
-            if (counts[cat] !== undefined) {
-                b.textContent = counts[cat];
-            }
-        });
-    }
-
     function isMonitorTitleSizeMatch(title, targetSizeNum) {
         const t = title.toLowerCase();
         if (targetSizeNum === '24') {
@@ -441,7 +405,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
 
                 // Strict Monitor Size Filter when searching for size numbers (e.g. "24", "27", "32")
-                const isMonitorQuery = p.category === 'Monitores' || queryWords.includes('monitor') || queryWords.includes('monitores');
+                const isMonitorQuery = p.category === 'monitores' || queryWords.includes('monitor') || queryWords.includes('monitores');
                 const sizeNumberWord = queryWords.find(w => /^\d{2}$/.test(w) && ['24', '27', '32', '20', '22', '34'].includes(w));
 
                 if (isMonitorQuery && sizeNumberWord) {
@@ -484,7 +448,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
                 // Smart search logic: if query is for parts but category is Notebooks
-                if (searchMatch && p.category === 'Notebooks') {
+                if (searchMatch && p.category === 'notebooks') {
                     const isPartQuery = queryWords.some(w => ['ssd', 'rtx', 'gtx', 'ram', 'intel', 'ryzen', 'ddr4', 'ddr5', '1tb', '512gb', 'm.2', 'monitor'].includes(w));
                     const isNotebookQuery = queryWords.some(w => ['notebook', 'laptop', 'acer', 'asus', 'lenovo', 'hp', 'macbook'].includes(w));
                     if (isPartQuery && !isNotebookQuery) {
@@ -496,17 +460,17 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!categoryMatch || !searchMatch) return false;
 
             // Sub-filters
-            if (currentCategory === 'Monitores') {
+            if (currentCategory === 'monitores') {
                 if (activeSubfilters.monitorSizes.length > 0) {
                     const size = getMonitorSize(p.title);
                     if (!size || !activeSubfilters.monitorSizes.includes(size)) return false;
                 }
-            } else if (currentCategory === 'Procesadores') {
+            } else if (currentCategory === 'procesadores') {
                 if (activeSubfilters.procBrands.length > 0) {
                     const brand = p.brand.toUpperCase();
                     if (!activeSubfilters.procBrands.includes(brand)) return false;
                 }
-            } else if (currentCategory === 'Notebooks') {
+            } else if (currentCategory === 'notebooks') {
                 const type = getNotebookType(p.title);
                 const hasGamerBrandFilters = activeSubfilters.notebookGamerBrands && activeSubfilters.notebookGamerBrands.length > 0;
                 const hasOfficeBrandFilters = activeSubfilters.notebookOfficeBrands && activeSubfilters.notebookOfficeBrands.length > 0;
@@ -523,17 +487,17 @@ document.addEventListener('DOMContentLoaded', () => {
                         if (hasOfficeBrandFilters && !activeSubfilters.notebookOfficeBrands.includes(p.brand)) return false;
                     }
                 }
-            } else if (currentCategory === 'Tarjetas de Video') {
+            } else if (currentCategory === 'tarjetas-de-video') {
                 if (activeSubfilters.gpuBrands.length > 0) {
                     const chip = getGpuChip(p.title);
                     if (!chip || !activeSubfilters.gpuBrands.includes(chip)) return false;
                 }
-            } else if (currentCategory === 'Placas Madre') {
+            } else if (currentCategory === 'placas-madre') {
                 if (activeSubfilters.mbBrands.length > 0) {
                     const platform = getMbPlatform(p.title);
                     if (!platform || !activeSubfilters.mbBrands.includes(platform)) return false;
                 }
-            } else if (currentCategory === 'Memorias RAM') {
+            } else if (currentCategory === 'memorias-ram') {
                 if (activeSubfilters.ramTypes && activeSubfilters.ramTypes.length > 0) {
                     const type = getRamType(p.title);
                     if (!type || !activeSubfilters.ramTypes.includes(type)) return false;
@@ -551,7 +515,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     const size = getTvSize(p.title);
                     if (!size || !activeSubfilters.tvSizes.includes(size)) return false;
                 }
-            } else if (currentCategory === 'Fuentes de Poder') {
+            } else if (currentCategory === 'fuentes-de-poder') {
                 if (activeSubfilters.psuBrands.length > 0) {
                     if (!activeSubfilters.psuBrands.includes(p.brand)) return false;
                 }
@@ -559,12 +523,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     const watts = getPsuWattage(p.title);
                     if (!watts || !activeSubfilters.psuWatts.includes(watts)) return false;
                 }
-            } else if (currentCategory === 'Almacenamiento (SSD)') {
+            } else if (currentCategory === 'almacenamiento-ssd') {
                 if (activeSubfilters.storageSizes && activeSubfilters.storageSizes.length > 0) {
                     const capacity = getStorageCapacity(p.title);
                     if (!capacity || !activeSubfilters.storageSizes.includes(capacity)) return false;
                 }
-            } else if (currentCategory === 'Consolas y Videojuegos') {
+            } else if (currentCategory === 'consolas-y-videojuegos') {
                 if (activeSubfilters.consoleTypes && activeSubfilters.consoleTypes.length > 0) {
                     const type = getConsoleProductType(p.title);
                     if (!type || !activeSubfilters.consoleTypes.includes(type)) return false;
@@ -611,8 +575,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
 
                 if (queryWords.includes('monitor') || queryWords.includes('monitores')) {
-                    if (a.category === 'Monitores') scoreA += 50;
-                    if (b.category === 'Monitores') scoreB += 50;
+                    if (a.category === 'monitores') scoreA += 50;
+                    if (b.category === 'monitores') scoreB += 50;
                     if (titleA.includes('soporte') || titleA.includes('brazo')) scoreA -= 40;
                     if (titleB.includes('soporte') || titleB.includes('brazo')) scoreB -= 40;
                 }
@@ -621,31 +585,31 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         } else if (currentCategory === 'all' && sortOrder === 'default' && searchQuery === '') {
             // Group filtered products by category
-            const monitors = filtered.filter(p => p.category === 'Monitores');
-            const mibands = filtered.filter(p => p.category === 'Relojes Mi Band');
-            const processors = filtered.filter(p => p.category === 'Procesadores');
-            const notebooks = filtered.filter(p => p.category === 'Notebooks');
-            const others = filtered.filter(p => 
-                p.category !== 'Monitores' && 
-                p.category !== 'Relojes Mi Band' && 
-                p.category !== 'Procesadores' && 
-                p.category !== 'Notebooks'
-            );
-
-            // Mix them round-robin
-            const mixed = [];
-            const maxLength = Math.max(monitors.length, mibands.length, processors.length, notebooks.length, others.length);
-            
-            for (let i = 0; i < maxLength; i++) {
-                if (i < monitors.length) mixed.push(monitors[i]);
-                if (i < mibands.length) mixed.push(mibands[i]);
-                if (i < processors.length) mixed.push(processors[i]);
-                if (i < notebooks.length) mixed.push(notebooks[i]);
-                if (i < others.length) mixed.push(others[i]);
+            // Se intercalan TODAS las categorias, una por vuelta, para que la
+            // primera pantalla muestre variedad.
+            //
+            // Antes se mezclaban solo cuatro categorias elegidas a mano y todo
+            // lo demas caia en un mismo saco "otros", que aportaba un producto
+            // por vuelta entre las 24 categorias restantes. En la practica la
+            // portada abria con una pared de notebooks, porque son los ids mas
+            // bajos del catalogo y el saco los servia en orden.
+            const porCategoria = new Map();
+            for (const p of filtered) {
+                if (!porCategoria.has(p.category)) porCategoria.set(p.category, []);
+                porCategoria.get(p.category).push(p);
             }
-            
+
+            const grupos = [...porCategoria.values()];
+            const maxLength = Math.max(0, ...grupos.map((g) => g.length));
+            const mixed = [];
+            for (let i = 0; i < maxLength; i++) {
+                for (const grupo of grupos) {
+                    if (i < grupo.length) mixed.push(grupo[i]);
+                }
+            }
+
             filtered = mixed;
-        } else if (currentCategory === 'Consolas y Videojuegos' && sortOrder === 'default') {
+        } else if (currentCategory === 'consolas-y-videojuegos' && sortOrder === 'default') {
             filtered.sort((a, b) => {
                 const typeA = getConsoleProductType(a.title);
                 const typeB = getConsoleProductType(b.title);
@@ -753,7 +717,11 @@ document.addEventListener('DOMContentLoaded', () => {
                         </button>
                     </div>
                 `;
-                card.querySelector('.product-brand').textContent = p.brand;
+                // GENERIC no es una marca: es la etiqueta interna para "no se
+                // pudo detectar". Mostrarsela al cliente en 1.193 productos
+                // hacia parecer que existe un fabricante llamado asi.
+                card.querySelector('.product-brand').textContent =
+                    p.brand && p.brand !== 'GENERIC' ? p.brand : '';
                 card.querySelector('.product-name').textContent = p.title;
                 card.querySelector('img').alt = p.title;
 
@@ -1074,10 +1042,10 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `;
 
-        if (category === 'Monitores') {
+        if (category === 'monitores') {
             let sizes = {};
             PRODUCTS.forEach(p => {
-                if (p.category === 'Monitores') {
+                if (p.category === 'monitores') {
                     const size = getMonitorSize(p.title);
                     if (size) sizes[size] = (sizes[size] || 0) + 1;
                 }
@@ -1106,10 +1074,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 </div>
             `;
-        } else if (category === 'Procesadores') {
+        } else if (category === 'procesadores') {
             let brands = { 'AMD': 0, 'INTEL': 0 };
             PRODUCTS.forEach(p => {
-                if (p.category === 'Procesadores') {
+                if (p.category === 'procesadores') {
                     const b = p.brand.toUpperCase();
                     if (brands[b] !== undefined) brands[b]++;
                 }
@@ -1137,11 +1105,11 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 </div>
             `;
-        } else if (category === 'Notebooks') {
+        } else if (category === 'notebooks') {
             let gamerBrands = {};
             let officeBrands = {};
             PRODUCTS.forEach(p => {
-                if (p.category === 'Notebooks') {
+                if (p.category === 'notebooks') {
                     const type = getNotebookType(p.title);
                     const brand = p.brand;
                     if (type === 'Gamer') {
@@ -1212,10 +1180,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 </div>
             `;
-        } else if (category === 'Tarjetas de Video') {
+        } else if (category === 'tarjetas-de-video') {
             let chips = { 'NVIDIA': 0, 'AMD': 0 };
             PRODUCTS.forEach(p => {
-                if (p.category === 'Tarjetas de Video') {
+                if (p.category === 'tarjetas-de-video') {
                     const chip = getGpuChip(p.title);
                     if (chip) chips[chip] = (chips[chip] || 0) + 1;
                 }
@@ -1243,10 +1211,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 </div>
             `;
-        } else if (category === 'Placas Madre') {
+        } else if (category === 'placas-madre') {
             let platforms = { 'INTEL': 0, 'AMD': 0 };
             PRODUCTS.forEach(p => {
-                if (p.category === 'Placas Madre') {
+                if (p.category === 'placas-madre') {
                     const platform = getMbPlatform(p.title);
                     if (platform) platforms[platform] = (platforms[platform] || 0) + 1;
                 }
@@ -1306,12 +1274,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 </div>
             `;
-        } else if (category === 'Memorias RAM') {
+        } else if (category === 'memorias-ram') {
             let types = {};
             let gens = {};
             let freqs = {};
             PRODUCTS.forEach(p => {
-                if (p.category === 'Memorias RAM') {
+                if (p.category === 'memorias-ram') {
                     const type = getRamType(p.title);
                     if (type) types[type] = (types[type] || 0) + 1;
                     
@@ -1390,10 +1358,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 </div>
             `;
-        } else if (category === 'Fuentes de Poder') {
+        } else if (category === 'fuentes-de-poder') {
             let watts = {};
             PRODUCTS.forEach(p => {
-                if (p.category === 'Fuentes de Poder') {
+                if (p.category === 'fuentes-de-poder') {
                     const watt = getPsuWattage(p.title);
                     if (watt) watts[watt] = (watts[watt] || 0) + 1;
                 }
@@ -1422,10 +1390,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 </div>
             `;
-        } else if (category === 'Almacenamiento (SSD)') {
+        } else if (category === 'almacenamiento-ssd') {
             let capacities = {};
             PRODUCTS.forEach(p => {
-                if (p.category === 'Almacenamiento (SSD)') {
+                if (p.category === 'almacenamiento-ssd') {
                     const cap = getStorageCapacity(p.title);
                     if (cap) capacities[cap] = (capacities[cap] || 0) + 1;
                 }
@@ -1461,10 +1429,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 </div>
             `;
-        } else if (category === 'Consolas y Videojuegos') {
+        } else if (category === 'consolas-y-videojuegos') {
             let types = {};
             PRODUCTS.forEach(p => {
-                if (p.category === 'Consolas y Videojuegos') {
+                if (p.category === 'consolas-y-videojuegos') {
                     const type = getConsoleProductType(p.title);
                     if (type) types[type] = (types[type] || 0) + 1;
                 }
@@ -1496,7 +1464,10 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             let brands = {};
             PRODUCTS.forEach(p => {
-                if (p.category === category) {
+                // GENERIC es la etiqueta interna de "marca no detectada". Como
+                // opcion de filtro no le sirve a nadie: agrupa productos de
+                // fabricantes distintos bajo un nombre que no existe.
+                if (p.category === category && p.brand && p.brand !== 'GENERIC') {
                     brands[p.brand] = (brands[p.brand] || 0) + 1;
                 }
             });
@@ -1845,7 +1816,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <img src="${p.image}" alt="" width="400" height="400">
                 </div>
                 <div class="modal-info-col">
-                    <span class="modal-brand">${p.brand}</span>
+                    <span class="modal-brand">${p.brand && p.brand !== 'GENERIC' ? p.brand : ''}</span>
                     <h2 class="modal-title">${p.title}</h2>
                     <div class="modal-meta-row">
                         ${stockBadgeHTML}
@@ -2137,7 +2108,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const matches = PRODUCTS.filter(p => {
             const textToSearch = `${p.title} ${p.brand} ${p.category}`.toLowerCase();
             let isMatch = queryWords.every(word => textToSearch.includes(word));
-            if (isMatch && p.category === 'Notebooks') {
+            if (isMatch && p.category === 'notebooks') {
                 const isPartQuery = queryWords.some(w => ['ssd', 'rtx', 'gtx', 'ram', 'intel', 'ryzen', 'ddr4', 'ddr5', '1tb', '512gb', 'm.2', 'monitor'].includes(w));
                 const isNotebookQuery = queryWords.some(w => ['notebook', 'laptop', 'acer', 'asus', 'lenovo', 'hp', 'macbook'].includes(w));
                 if (isPartQuery && !isNotebookQuery) {
@@ -2157,7 +2128,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="suggestion-item" data-suggestion-id="${p.id}">
                 <img src="${p.image}" alt="" width="48" height="48" class="suggestion-img" loading="lazy">
                 <div class="suggestion-info">
-                    <span class="suggestion-brand">${p.brand}</span>
+                    <span class="suggestion-brand">${p.brand && p.brand !== 'GENERIC' ? p.brand : ''}</span>
                     <span class="suggestion-title">${p.title}</span>
                     <span class="suggestion-price">${p.pyg_str}</span>
                 </div>

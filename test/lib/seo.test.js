@@ -102,3 +102,23 @@ test('la descripcion menciona marca y precio y cabe en un meta description', () 
 test('la descripcion incluye las especificaciones cuando existen', () => {
     assert.match(descripcionDe(producto()), /I5-13420H/);
 });
+
+test('el JSON-LD no declara GENERIC como fabricante', () => {
+    // GENERIC es la etiqueta interna de "no se pudo detectar la marca".
+    // Publicarla le declaraba a Google un fabricante inexistente en 1.193
+    // productos.
+    const ld = jsonLdProducto(
+        { id: 1, slug: 'x', title: 'CABLE HDMI DE PRUEBA 1 METRO NEGRO', brand: 'GENERIC', category: 'adaptadores-y-cables', price: 50000, image: '/img/1.webp' },
+        'https://ejemplo.test'
+    );
+    assert.notEqual(ld.brand.name, 'GENERIC');
+    assert.ok(ld.brand.name.length > 0);
+});
+
+test('el JSON-LD conserva una marca real', () => {
+    const ld = jsonLdProducto(
+        { id: 1, slug: 'x', title: 'NB LENOVO 82XB00C2US I3-N305/8GB/128', brand: 'LENOVO', category: 'notebooks', price: 2257000, image: '/img/1.webp' },
+        'https://ejemplo.test'
+    );
+    assert.equal(ld.brand.name, 'LENOVO');
+});

@@ -1584,10 +1584,19 @@ img {
     visibility: visible;
 }
 
+/* El panel se esconde con translateX(100%), que siempre equivale a su propio
+   ancho, no a un numero escrito a mano.
+   Antes se escondia con `right: -450px` contra un ancho de 420px. En moviles
+   la regla responsive sube el panel a `max-width: 100%`, asi que en cualquier
+   pantalla de mas de 450px de ancho CSS el panel quedaba mas ancho que su
+   propio desplazamiento y una franja del carrito CERRADO se veia encima del
+   catalogo. Medido en un viewport de 536px: 78px de carrito a la vista.
+   Ademas `transform` se anima en el compositor; `right` recalcula el layout
+   en cada cuadro de la animacion. */
 .cart-drawer {
     position: fixed;
     top: 0;
-    right: -450px;
+    right: 0;
     width: 100%;
     max-width: 420px;
     height: 100vh;
@@ -1597,11 +1606,12 @@ img {
     display: flex;
     flex-direction: column;
     box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5);
-    transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateX(100%);
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .cart-drawer.active {
-    right: 0;
+    transform: translateX(0);
 }
 
 .cart-drawer-header {

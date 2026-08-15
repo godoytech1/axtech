@@ -49,7 +49,10 @@ export function jsonLdProducto(p, urlBase) {
         description: descripcionDe(p),
         image: `${urlBase}${p.image}`,
         sku: String(p.id),
-        brand: { '@type': 'Brand', name: p.brand || NOMBRE_TIENDA },
+        // GENERIC es la etiqueta interna de "marca no detectada". Publicarla
+        // en los datos estructurados le declaraba a Google un fabricante
+        // llamado GENERIC en 1.193 productos.
+        brand: { '@type': 'Brand', name: p.brand && p.brand !== 'GENERIC' ? p.brand : NOMBRE_TIENDA },
         ...(specs.length
             ? { additionalProperty: specs.map((s) => ({ '@type': 'PropertyValue', name: s.etiqueta, value: s.valor })) }
             : {}),
