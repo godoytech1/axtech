@@ -1,0 +1,11 @@
+Todo lo que pongas en esta carpeta se publica en la RAIZ del sitio.
+
+  public/static/google123abc.html  ->  https://axtech.pages.dev/google123abc.html
+
+Sirve para archivos de verificacion (Google Search Console, Bing) y para
+cualquier archivo suelto que tenga que estar en la raiz.
+
+Despues de agregar un archivo:
+    git add -A && git commit -m "chore: archivo de verificacion" && git push
+
+El push despliega solo.

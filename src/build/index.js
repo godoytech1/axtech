@@ -33,6 +33,13 @@ for (const archivo of ESTATICOS) {
 cpSync('assets', `${SALIDA}/assets`, { recursive: true });
 cpSync('public/img', `${SALIDA}/img`, { recursive: true });
 
+// Todo lo que este en public/static/ se publica en la RAIZ del sitio. Sirve
+// para archivos de verificacion de buscadores (Google Search Console, Bing)
+// sin tener que tocar el build cada vez.
+if (existsSync('public/static')) {
+    cpSync('public/static', SALIDA, { recursive: true });
+}
+
 // CATEGORIES viaja junto al catalogo: el front construye la navegacion desde
 // la taxonomia en vez de tener la lista escrita a mano en el HTML, que era
 // como se desincronizaba (13 categorias en el menu, 18 en los datos).
