@@ -135,3 +135,70 @@ finas perjudica al dominio entero.
 
 Las especificaciones se extraen del título (`src/lib/specs.js`): el proveedor
 no las entrega estructuradas, pero sus títulos son densos.
+
+## Actualizar precios a mano (el sync automático está pausado)
+
+El cron nocturno está pausado desde la Fase 0 y se reactiva en la Fase 4.
+Mientras tanto, para actualizar precios y productos:
+
+1. Entrar a la web del proveedor y usar su botón de **bajar precios**.
+2. Guardar el archivo en `.local-legacy/listas-proveedor/` (ignorado por git).
+3. Correr, desde `C:\Page`:
+
+```bash
+node src/migrate/importar-lista.js             # simula: muestra qué cambiaría
+node src/migrate/importar-lista.js --aplicar   # aplica
+node --env-file=.env src/images/ejecutar.js    # baja imágenes de lo nuevo
+git add -A && git commit -m "chore: actualizar precios" && git push
+```
+
+El push dispara el despliegue solo.
+
+**Es seguro repetirlo.** `importar-lista` calcula el precio desde el dólar de
+la lista, no desde el precio anterior, así que correrlo dos veces da el mismo
+resultado. No confundir con `refinar-catalogo.js`, que **no** es idempotente y
+por eso aborta si detecta que ya se aplicó.
+
+## Estado del proyecto
+
+| Fase | Estado |
+|---|---|
+| F0 — Seguridad de datos, hosting y limpieza | ✅ |
+| F1A — Taxonomía, normalización y precios | ✅ |
+| F1B — Imágenes propias y correcciones del front | ✅ |
+| F1C — Catálogo completo desde la lista | ✅ |
+| F2 — SEO: página por producto y categoría | ✅ |
+| F3 — Accesibilidad, movimiento y táctil | ✅ |
+| **F4 — Sync robusto, tests y CI** | **pendiente** |
+
+### Qué falta (Fase 4)
+
+1. Reescribir el sync usando la **lista de precios** como fuente, en vez de
+   raspar la web. Medido: la lista tiene 5.994 productos contra los 2.511 que
+   alcanzaba el scraper, y sus precios son idénticos a los de la web.
+2. Tests del parser con fixtures guardados, para que no se rompa en silencio.
+3. Purga automática de productos que llevan 30 días sin figurar en la lista.
+4. Reactivar el cron en `.github/workflows/daily_sync.yml`.
+5. Las 4 skills del proyecto (`axtech-catalog`, `axtech-sync`,
+   `axtech-release`, `axtech-pricing`).
+
+### Deuda técnica anotada
+
+- `dist/products.js` está en ~157 KB gzip contra un presupuesto de 150. Afecta
+  solo a la home y a las categorías; las páginas de producto no lo descargan.
+  Se resuelve con chunking del catálogo.
+- `app.js` sigue en un solo archivo de ~2.000 líneas. Partirlo en módulos ES
+  obliga a cambiar la entrega de datos (los módulos no ven las globales
+  `PRODUCTS`/`CATEGORIES`), así que va junto con el chunking.
+- 721 productos de la lista quedan sin publicar: son líneas de negocio
+  distintas (electrodomésticos, movilidad eléctrica, cuidado personal,
+  muebles, proyectores, drones). Incorporarlos es una decisión comercial, no
+  técnica.
+
+### Pendientes fuera del código
+
+- **Google Search Console**: dar de alta `https://axtech.pages.dev` y enviar
+  `sitemap.xml`. Sin esto, las 4.197 URLs pueden tardar meses en indexarse.
+- **Proveedor**: el costo está ~4,3 % por encima del precio minorista de
+  Ciudad del Este para los mismos modelos. No hay descuento mayorista.
+- **Token de GitHub**: revocar cualquier token viejo que haya quedado activo.
