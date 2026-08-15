@@ -11,3 +11,9 @@ config/pricing.config.json
 
 # scraper legado: nombra al proveedor, no se publica (respaldo en axtech-legacy)
 .local-legacy/
+
+# Listas de precios del proveedor: contienen costos y su nombre.
+# NUNCA se versionan.
+*_Topdek*
+*topdek*
+listas-proveedor/
