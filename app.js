@@ -88,12 +88,33 @@ document.addEventListener('DOMContentLoaded', () => {
         activeSubfilters.consoleTypes = [];
     }
 
-    // Load cart from localStorage if exists
+    // Carga del carrito guardado.
+    //
+    // Antes se guardaba el objeto entero del producto. Eso tenia dos defectos
+    // serios: el carrito quedaba congelado (mostraba precios viejos para
+    // siempre) y conservaba en el navegador del cliente datos que ya no
+    // publicamos. Ahora solo se guarda { id, quantity } y el producto se
+    // resuelve contra PRODUCTS en cada render.
     if (localStorage.getItem('axtech_cart')) {
         try {
-            cart = JSON.parse(localStorage.getItem('axtech_cart'));
+            const guardado = JSON.parse(localStorage.getItem('axtech_cart'));
+            cart = (Array.isArray(guardado) ? guardado : [])
+                .map(item => ({
+                    // Tolera el formato viejo: extrae el id del producto anidado.
+                    id: Number(item?.id ?? item?.product?.id),
+                    quantity: Number(item?.quantity) || 1
+                }))
+                // Descarta lo que ya no existe en el catalogo (discontinuado,
+                // sin stock, o guardado con el formato viejo y sin id).
+                .filter(item => Number.isInteger(item.id) && PRODUCTS.some(p => p.id === item.id));
+
+            // Reescribe de inmediato en el formato nuevo. Sin esto, el blob
+            // viejo -con datos que ya no publicamos- seguiria en el navegador
+            // del cliente hasta que tocara el carrito, quiza nunca.
+            localStorage.setItem('axtech_cart', JSON.stringify(cart));
         } catch (e) {
             cart = [];
+            localStorage.removeItem('axtech_cart');
         }
     }
 
@@ -612,9 +633,17 @@ document.addEventListener('DOMContentLoaded', () => {
         const endIndex = startIndex + currentPerPage;
         const paginatedProducts = filtered.slice(startIndex, endIndex);
 
-        // Simulate rendering delay for a premium transition feel
-        setTimeout(() => {
+        // Antes habia aqui un setTimeout de 300ms "para dar sensacion premium".
+        // El efecto real era 300ms de espera en cada filtro, cada busqueda y
+        // cada cambio de pagina. Se rendiriza de inmediato.
+        {
             loader.style.display = 'none';
+
+            // "Destacado" = entre los 12 productos mas nuevos. Antes se decidia
+            // con ids escritos a mano (id <= 3 || id === 25 || ...).
+            const productosDestacados = new Set(
+                [...PRODUCTS].sort((a, b) => b.id - a.id).slice(0, 12).map((p) => p.id)
+            );
             
             if (totalFilteredProducts === 0) {
                 noResultsBanner.style.display = 'flex';
@@ -630,7 +659,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 card.setAttribute('data-id', p.id);
                 
                 // Badges
-                const isNew = (p.id <= 3 || p.id === 25 || p.id === 37 || p.id === 49) && !p.sob_consulta;
+                const isNew = productosDestacados.has(p.id);
                 let badgeHTML = '';
                 if (p.sob_consulta) {
                     badgeHTML = `<span class="product-badge badge-sob-consulta">Bajo Consulta</span>`;
@@ -651,13 +680,17 @@ document.addEventListener('DOMContentLoaded', () => {
                         <i class="las la-cart-plus"></i> Agregar
                        </button>`;
 
+                // El titulo y la marca vienen de raspar el HTML de un tercero:
+                // interpolarlos en innerHTML permitiria inyectar marcado. Se
+                // dejan vacios aca y se llenan con textContent, que no
+                // interpreta HTML. width/height evitan el salto de layout.
                 card.innerHTML = `
                     ${badgeHTML}
                     <div class="product-image-container">
-                        <img src="${p.image}" alt="${p.title}" loading="lazy">
+                        <img src="${p.image}" alt="" loading="lazy" width="310" height="310">
                     </div>
-                    <div class="product-brand">${p.brand}</div>
-                    <h4 class="product-name">${p.title}</h4>
+                    <div class="product-brand"></div>
+                    <h4 class="product-name"></h4>
                     <div class="product-price-block">
                         ${priceHTML}
                     </div>
@@ -668,35 +701,14 @@ document.addEventListener('DOMContentLoaded', () => {
                         </button>
                     </div>
                 `;
+                card.querySelector('.product-brand').textContent = p.brand;
+                card.querySelector('.product-name').textContent = p.title;
+                card.querySelector('img').alt = p.title;
 
-                // Add Event Listeners to actions in this card
-                if (!p.sob_consulta) {
-                    card.querySelector('.btn-add-cart').addEventListener('click', (e) => {
-                        e.stopPropagation();
-                        addToCart(p.id);
-                    });
-                }
-                
-                card.querySelector('.btn-view').addEventListener('click', (e) => {
-                    e.stopPropagation();
-                    openProductModal(p.id);
-                });
-                
-                card.querySelector('.product-image-container').addEventListener('click', () => {
-                    openProductModal(p.id);
-                });
-
-                const cardImg = card.querySelector('img');
-                if (cardImg) {
-                    cardImg.addEventListener('error', () => {
-                        card.style.display = 'none';
-                    });
-                }
-
-                card.querySelector('.product-name').addEventListener('click', () => {
-                    openProductModal(p.id);
-                });
-
+                // Sin listeners por tarjeta: los maneja la delegacion definida
+                // debajo de renderProducts. Antes eran 4 listeners x 36
+                // tarjetas = 144, recreados en cada render.
+                card.dataset.productId = p.id;
                 productsGrid.appendChild(card);
             });
 
@@ -709,8 +721,42 @@ document.addEventListener('DOMContentLoaded', () => {
                 : (NOMBRE_DE_CATEGORIA[currentCategory] || 'Catálogo');
             resultsCount.textContent = `Mostrando ${startIndex + 1} - ${Math.min(endIndex, totalFilteredProducts)} de ${totalFilteredProducts} productos`;
 
-        }, 300);
+        }
     }
+
+    // ----------------------------------------------------------------------
+    // DELEGACION DE EVENTOS DE LAS TARJETAS
+    // ----------------------------------------------------------------------
+    // Un listener en el contenedor en vez de cuatro por tarjeta. Con 36
+    // tarjetas por pagina eran 144 listeners recreados en cada render.
+    productsGrid.addEventListener('click', (e) => {
+        const agregar = e.target.closest('.btn-add-cart');
+        if (agregar) {
+            e.stopPropagation();
+            addToCart(Number(agregar.dataset.addId));
+            return;
+        }
+        const ver = e.target.closest('.btn-view');
+        if (ver) {
+            e.stopPropagation();
+            openProductModal(Number(ver.dataset.viewId));
+            return;
+        }
+        const tarjeta = e.target.closest('[data-product-id]');
+        if (tarjeta && (e.target.closest('.product-image-container') || e.target.closest('.product-name'))) {
+            openProductModal(Number(tarjeta.dataset.productId));
+        }
+    });
+
+    // Imagen rota: se oculta solo la imagen, no la tarjeta. Ocultar la tarjeta
+    // dejaba huecos en la grilla y hacia mentir al contador de resultados.
+    // El evento 'error' de <img> no burbujea: hay que capturarlo (tercer
+    // argumento en true).
+    productsGrid.addEventListener('error', (e) => {
+        if (e.target.tagName !== 'IMG') return;
+        e.target.style.visibility = 'hidden';
+        e.target.closest('.product-image-container')?.classList.add('sin-imagen');
+    }, true);
 
     // ----------------------------------------------------------------------
     // PAGINATION CONTROLS GENERATOR
@@ -1759,22 +1805,24 @@ document.addEventListener('DOMContentLoaded', () => {
     // ----------------------------------------------------------------------
     // SHOPPING CART DRAWER SYSTEM
     // ----------------------------------------------------------------------
+    /** Resuelve el producto de una linea del carrito contra el catalogo actual. */
+    function productoDeItem(item) {
+        return PRODUCTS.find(p => p.id === item.id);
+    }
+
     function addToCart(id) {
         const p = PRODUCTS.find(prod => prod.id === id);
         if (!p) return;
 
-        // Check if item already in cart
-        const cartItem = cart.find(item => item.product.id === id);
+        const cartItem = cart.find(item => item.id === id);
         if (cartItem) {
             cartItem.quantity++;
         } else {
-            cart.push({
-                product: p,
-                quantity: 1
-            });
+            // Solo el id: el producto se resuelve al renderizar, asi el
+            // carrito nunca muestra un precio desactualizado.
+            cart.push({ id, quantity: 1 });
         }
 
-        // Save to localStorage & update
         saveCartToStorage();
         updateCartUI();
         animateCartBadge();
@@ -1782,13 +1830,13 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function removeFromCart(id) {
-        cart = cart.filter(item => item.product.id !== id);
+        cart = cart.filter(item => item.id !== id);
         saveCartToStorage();
         updateCartUI();
     }
 
     function adjustQuantity(id, change) {
-        const cartItem = cart.find(item => item.product.id === id);
+        const cartItem = cart.find(item => item.id === id);
         if (!cartItem) return;
 
         cartItem.quantity += change;
@@ -1818,10 +1866,12 @@ document.addEventListener('DOMContentLoaded', () => {
             cartEmptyState.style.display = 'none';
             cartDrawerFooter.style.display = 'block';
 
-            // Calculate Subtotal in pyg (Guaranies)
-            const subtotal = cart.reduce((sum, item) => sum + (item.product.pyg * item.quantity), 0);
-            
-            // Format Guaraní Price
+            // Los precios se leen del catalogo actual, no de lo guardado.
+            const subtotal = cart.reduce((sum, item) => {
+                const p = productoDeItem(item);
+                return sum + (p ? p.pyg * item.quantity : 0);
+            }, 0);
+
             const subtotalFormatted = `Gs. ${subtotal.toLocaleString('es-PY')}`.replace(/,/g, '.');
             cartSubtotalPrice.textContent = subtotalFormatted;
             cartTotalPrice.textContent = subtotalFormatted;
@@ -1829,34 +1879,43 @@ document.addEventListener('DOMContentLoaded', () => {
             // Render list items
             cartItemsContainer.innerHTML = '';
             cart.forEach(item => {
+                const producto = productoDeItem(item);
+                if (!producto) return;
+
                 const itemEl = document.createElement('div');
                 itemEl.className = 'cart-item';
-                
-                const itemTotalPyg = item.product.pyg * item.quantity;
+
+                const itemTotalPyg = producto.pyg * item.quantity;
                 const formattedItemPyg = `Gs. ${itemTotalPyg.toLocaleString('es-PY')}`.replace(/,/g, '.');
 
+                // El titulo se inserta con textContent, no interpolado: viene
+                // de raspar el HTML de un tercero.
                 itemEl.innerHTML = `
                     <div class="cart-item-img">
-                        <img src="${item.product.image}" alt="${item.product.title}">
+                        <img src="${producto.image}" alt="" width="60" height="60">
                     </div>
                     <div class="cart-item-info">
-                        <span class="cart-item-title" title="${item.product.title}">${item.product.title}</span>
+                        <span class="cart-item-title"></span>
                         <span class="cart-item-price">${formattedItemPyg}</span>
                         <div class="cart-item-controls">
                             <div class="quantity-adjuster">
-                                <button class="qty-btn btn-minus" data-id="${item.product.id}"><i class="las la-minus"></i></button>
+                                <button class="qty-btn btn-minus" data-id="${producto.id}"><i class="las la-minus"></i></button>
                                 <span class="qty-val">${item.quantity}</span>
-                                <button class="qty-btn btn-plus" data-id="${item.product.id}"><i class="las la-plus"></i></button>
+                                <button class="qty-btn btn-plus" data-id="${producto.id}"><i class="las la-plus"></i></button>
                             </div>
-                            <button class="btn-remove-item" data-remove-id="${item.product.id}" title="Quitar item"><i class="las la-trash"></i></button>
+                            <button class="btn-remove-item" data-remove-id="${producto.id}" title="Quitar item"><i class="las la-trash"></i></button>
                         </div>
                     </div>
                 `;
+                const titulo = itemEl.querySelector('.cart-item-title');
+                titulo.textContent = producto.title;
+                titulo.title = producto.title;
+                itemEl.querySelector('img').alt = producto.title;
 
                 // Quantity change listeners
-                itemEl.querySelector('.btn-minus').addEventListener('click', () => adjustQuantity(item.product.id, -1));
-                itemEl.querySelector('.btn-plus').addEventListener('click', () => adjustQuantity(item.product.id, 1));
-                itemEl.querySelector('.btn-remove-item').addEventListener('click', () => removeFromCart(item.product.id));
+                itemEl.querySelector('.btn-minus').addEventListener('click', () => adjustQuantity(producto.id, -1));
+                itemEl.querySelector('.btn-plus').addEventListener('click', () => adjustQuantity(producto.id, 1));
+                itemEl.querySelector('.btn-remove-item').addEventListener('click', () => removeFromCart(producto.id));
 
                 cartItemsContainer.appendChild(itemEl);
             });
@@ -1897,15 +1956,22 @@ document.addEventListener('DOMContentLoaded', () => {
         cartCheckoutBtn.addEventListener('click', () => {
             if (cart.length === 0) return;
 
-            const subtotal = cart.reduce((sum, item) => sum + (item.product.pyg * item.quantity), 0);
+            // El pedido se arma con los precios del catalogo actual, no con lo
+            // que estaba guardado: nunca se le manda al cliente un precio viejo.
+            const lineas = cart
+                .map(item => ({ producto: productoDeItem(item), cantidad: item.quantity }))
+                .filter(l => l.producto);
+            if (lineas.length === 0) return;
+
+            const subtotal = lineas.reduce((sum, l) => sum + (l.producto.pyg * l.cantidad), 0);
             const totalFormatted = `Gs. ${subtotal.toLocaleString('es-PY')}`.replace(/,/g, '.');
 
-            const intro = cart.length > 1 ? 'Estoy interesado en los siguientes productos:' : 'Estoy interesado en el siguiente producto:';
+            const intro = lineas.length > 1 ? 'Estoy interesado en los siguientes productos:' : 'Estoy interesado en el siguiente producto:';
             let orderText = `Hola *AXTECH*!\n${intro}\n\n`;
-            
-            cart.forEach((item, index) => {
-                orderText += `*${index + 1}.* ${item.product.title}\n`;
-                orderText += `   _Cant:_ ${item.quantity} x ${item.product.pyg_str}\n\n`;
+
+            lineas.forEach((l, index) => {
+                orderText += `*${index + 1}.* ${l.producto.title}\n`;
+                orderText += `   _Cant:_ ${l.cantidad} x ${l.producto.pyg_str}\n\n`;
             });
 
             orderText += `*TOTAL ESTIMADO:* ${totalFormatted}`;
