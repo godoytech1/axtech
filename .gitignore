@@ -11,3 +11,12 @@ config/pricing.config.json
 
 # scraper legado: nombra al proveedor, no se publica (respaldo en axtech-legacy)
 .local-legacy/
+
+# Listas de precios del proveedor: contienen costos y su nombre.
+# Van SIEMPRE en .local-legacy/listas-proveedor/, ya ignorado arriba.
+# El patron de abajo es una red de seguridad por si alguna cae en la raiz:
+# los archivos del proveedor vienen con fecha por delante (DD_MM_AAAA_*.txt).
+# Se escribe generico A PROPOSITO: .gitignore SI se versiona, asi que nombrar
+# al proveedor aca lo publicaria. El CI lo detecto.
+listas-proveedor/
+/[0-9][0-9]_[0-9][0-9]_[0-9][0-9][0-9][0-9]_*.txt

@@ -87,23 +87,26 @@ export const SLUG_PROVEEDOR_A_CATEGORIA = {
  */
 const REGLAS = [
     // 1. Accesorios: mencionan dispositivos, tienen que resolverse primero.
-    ['peliculas-y-fundas',     /\b(pelicula|capa para|case para|funda|protetor de tela|protector de pantalla)\b/i],
-    ['adaptadores-y-cables',   /\b(cable|cabo|adaptador|adapter|conversor|extensor|docking|dock station|leitor de cart|lector de tarj|card reader)\b/i],
+    ['peliculas-y-fundas',     /(\b(pelicula|capa para|case para|funda|protetor de tela|protector de pantalla)\b|^capa )/i],
+    ['adaptadores-y-cables',   /(\b(cable|cabo|adaptador|adapter|conversor|extensor|docking|dock station|lector de tarj|card reader|splitter|spliter)\b|^leitor )/i],
     // Un soporte PARA TV no es un TV: va antes que las reglas de dispositivo.
     ['soportes-y-bases',       /\b(soporte|suporte|base para|bracket|pedestal|brazo articulado|braco articulado)\b/i],
 
     // 2. Dispositivos completos: le ganan a los componentes que mencionan.
-    ['notebooks',              /\b(notebook|laptop|macbook|mac ?air|ultrabook)\b/i],
+    // "NB ..." es la abreviatura del proveedor para notebook: 150 productos,
+    // y son los de mayor valor del catalogo (hasta US$ 3.300).
+    ['notebooks',              /(\b(notebook|laptop|macbook|mac ?air|ultrabook)\b|^nb )/i],
     ['pcs-de-escritorio',      /\b(desktop|pc gamer|computador completo|all in one|mac ?pro|mac ?mini|mac ?studio|mini ?pc|nuc|servidor|barebone)\b/i],
     ['tablets',                /\b(tablet|ipad)\b/i],
-    ['telefonos-y-celulares',  /\b(smartphone|celular|iphone|galaxy [asz]\d|redmi|poco |moto ?[ge])\b/i],
-    ['televisores',            /(\bsmart ?tv\b|\btelevisor\b|^tv[ ,]|\btv \d{2,3}\b)/i],
+    ['telefonos-y-celulares',  /(\b(smartphone|celular|iphone|galaxy [asz]\d|redmi|poco |moto ?[ge])\b|^cel )/i],
+    // Receptores IPTV y cajas de streaming se agrupan con televisores.
+    ['televisores',            /(\bsmart ?tv\b|\btelevisor\b|^tv[ ,]|\btv \d{2,3}\b|^receptor |tv ?box|iptv)/i],
     // "MON 24 SAMSUNG..." es la abreviatura del proveedor. Se ancla al inicio
     // para no confundirla con otras palabras que empiecen con "mon".
     ['monitores',              /(\bmonitor\b|^mon \d{2})/i],
     ['relojes-smart',          /\b(smartwatch|smart ?watch|reloj|relogio|mi ?band|apple watch|galaxy watch)\b/i],
     // "IMP " es la abreviatura del proveedor para impresora.
-    ['impresoras',             /(\b(impresora|impressora|multifuncion|toner|cartucho|tinta para)\b|^imp )/i],
+    ['impresoras',             /(\b(impresora|impressora|multifuncion|toner|cartucho|filamento)\b|^imp |^tinta )/i],
     ['consolas-y-videojuegos', /\b(console|consola|playstation|ps[345]|xbox|nintendo|joystick|dualsense|dualshock|controle|volante|flight simulator|painel de instrumentos|shifter)\b/i],
 
     // 3. Componentes.
@@ -116,8 +119,9 @@ const REGLAS = [
     // "MB 1700 ..." es la abreviatura del proveedor, seguida del socket.
     // Se exige el numero para no confundirla con megabytes.
     ['placas-madre',           /(\b(placa madre|placa mae|motherboard|mobo)\b|^mb (am\d|\d{3,4})\b)/i],
-    ['memorias-ram',           /\b(memoria|ddr[2345]|sodimm|udimm)\b/i],
-    ['almacenamiento-ssd',     /\b(ssd|nvme|m\.?2|hd externo|\bhdd\b|disco duro|disco rigido|pendrive|pen drive|micro ?sd|cartao de mem|gaveta|case para hd)\b/i],
+    ['memorias-ram',           /(\b(memoria|ddr[2345]|sodimm|udimm)\b|^mem )/i],
+    // "HD ..." y "CARTAO ..." son abreviaturas del proveedor.
+    ['almacenamiento-ssd',     /(\b(ssd|nvme|m\.?2|hd externo|\bhdd\b|disco duro|disco rigido|pendrive|pen drive|micro ?sd|cartao de mem|gaveta|case para hd)\b|^hd |^cartao )/i],
     ['fuentes-de-poder',       /\b(fuente|fonte|\bpsu\b)\b/i],
     ['refrigeracion',          /\b(cooler|ventilador|ventoinha|\bfans?\b|dissipador|pasta termica)\b/i],
     ['gabinetes',              /\b(gabinete|chassi)\b/i],
@@ -125,14 +129,17 @@ const REGLAS = [
     // 4. Perifericos concretos. Ya no existe la bolsa "Perifericos".
     ['auriculares-y-headsets', /\b(headset|auricular|auriculares|\bfones?\b|earbud|airpods|audifono)\b/i],
     ['microfonos',             /\b(microfono|microfone|\bmic\b)\b/i],
-    ['teclados',               /\b(teclado|keyboard)\b/i],
+    // "TEC ..." es la abreviatura del proveedor para teclado: 155 productos.
+    ['teclados',               /(\b(teclado|keyboard)\b|^tec )/i],
     ['mouses-y-mousepads',     /\b(mouse|mousepad|mouse ?pad)\b/i],
     ['parlantes',              /\b(parlante|altavoz|caixa de som|speaker|sound ?bar|radio reloj)\b/i],
 
     // 5. Resto.
     ['redes-y-conectividad',   /\b(router|roteador|repetidor|access point|\bhub\b|antena|placa de rede|wi-?fi usb|powerline|rj45|cat[56]e?\b|patch cord|mikrotik|routerboard|unifi|ubiquiti|switch \d+p|poe\b)\b/i],
-    ['ups-y-energia',          /\b(ups|nobreak|no-?break|estabilizador|filtro de linha|power ?bank|cargador|carregador|pila|pilha|bateria)\b/i],
-    ['smart-home',             /\b(alexa|echo dot|smart home|zigbee|sonoff|tomada smart|interruptor smart|lampada inteligente|tomada inteligente|camera ip|automacao)\b/i]
+    ['ups-y-energia',          /(\b(ups|nobreak|no-?break|estabilizador|filtro de linha|power ?bank|cargador|carregador|pila|pilha|bateria|luz de emergencia)\b|^estab)/i],
+    // "CAMERA ..." son camaras WiFi de seguridad; las cerraduras inteligentes
+    // tambien son domotica.
+    ['smart-home',             /(\b(alexa|echo dot|smart home|zigbee|sonoff|tomada smart|interruptor smart|lampada inteligente|tomada inteligente|camera ip|automacao|fechadura)\b|^camera )/i]
 ];
 
 /**
