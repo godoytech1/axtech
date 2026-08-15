@@ -115,3 +115,23 @@ npm run migrate                            # Migración única del catálogo leg
 
 - Diseño general: `docs/superpowers/specs/2026-08-14-axtech-overhaul-design.md`
 - Plan de la Fase 0: `docs/superpowers/plans/2026-08-15-axtech-fase-0.md`
+
+## Estructura de URLs
+
+```
+/                     home (SPA)
+/c/{categoria}/       28 categorias
+/c/{categoria}/{n}/   paginacion
+/p/{slug}/            una por producto
+/sitemap.xml          indice de sitemaps
+```
+
+Las páginas de producto son **autónomas**: no descargan el catálogo completo.
+
+**Compuerta de calidad**: una página se indexa solo si tiene precio, título de
+25 caracteres o más, y marca conocida o al menos una especificación. Las demás
+se generan con `noindex` y quedan fuera del sitemap. Publicar miles de páginas
+finas perjudica al dominio entero.
+
+Las especificaciones se extraen del título (`src/lib/specs.js`): el proveedor
+no las entrega estructuradas, pero sus títulos son densos.
