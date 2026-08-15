@@ -119,6 +119,51 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchSuggestions = document.getElementById('search-suggestions');
     const notificationContainer = document.getElementById('notification-container');
     
+    // ----------------------------------------------------------------------
+    // NAVEGACION GENERADA DESDE LA TAXONOMIA
+    // ----------------------------------------------------------------------
+    // Antes las categorias estaban escritas a mano en index.html y en un mapa
+    // dentro de este archivo. Se desincronizaron: el menu mostraba 13 y los
+    // datos tenian 18, asi que 5 categorias eran inalcanzables. Ahora la unica
+    // fuente es CATEGORIES, que llega junto al catalogo.
+    const CATS = typeof CATEGORIES !== 'undefined' ? CATEGORIES : [];
+    const NOMBRE_DE_CATEGORIA = Object.fromEntries(CATS.map(c => [c.id, c.nombre]));
+
+    function agregarEnlace(contenedor, tag, clase, cat, texto, icono) {
+        if (!contenedor) return;
+        const li = document.createElement('li');
+        const el = document.createElement(tag);
+        el.className = clase;
+        el.dataset.category = cat.id;
+        if (tag === 'a') el.href = '#';
+        if (icono) {
+            const i = document.createElement('i');
+            i.className = 'las ' + icono;
+            el.appendChild(i);
+            el.appendChild(document.createTextNode(' '));
+        }
+        el.appendChild(document.createTextNode(texto));
+        li.appendChild(el);
+        contenedor.appendChild(li);
+    }
+
+    function construirNavegacion() {
+        // Solo se muestran las categorias que tienen productos publicados.
+        const conProductos = CATS.filter(c => PRODUCTS.some(p => p.category === c.id));
+        const navUl = document.getElementById('nav-links');
+        const mobileUl = document.getElementById('mobile-nav-links');
+        const sidebarUl = document.getElementById('sidebar-links');
+        for (const c of conProductos) {
+            agregarEnlace(navUl, 'a', 'nav-link', c, c.nombre, c.icono);
+            agregarEnlace(mobileUl, 'a', 'mobile-nav-link', c, c.nombre, c.icono);
+            agregarEnlace(sidebarUl, 'button', 'sidebar-link', c, c.nombre, null);
+        }
+    }
+
+    // Debe correr ANTES de los querySelectorAll de abajo: si no, las listas
+    // quedan vacias y ningun filtro responde.
+    construirNavegacion();
+
     // Navigation / Filtering
     const navLinks = document.querySelectorAll('.nav-link');
     const sidebarLinks = document.querySelectorAll('.sidebar-link');
@@ -234,7 +279,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // ----------------------------------------------------------------------
     function updateCategoryBadges() {
         const counts = {
-            'all': PRODUCTS.filter(p => p.category !== 'Televisores').length,
+            'all': PRODUCTS.filter(p => p.category !== 'televisores').length,
             'Notebooks': 0,
             'Consolas y Videojuegos': 0,
             'Tarjetas de Video': 0,
@@ -247,7 +292,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'Periféricos': 0,
             'Relojes Mi Band': 0,
             'Smart Home / Domótica': 0,
-            'Televisores': 0,
+            'televisores': 0,
             'Gabinetes': 0
         };
 
@@ -303,7 +348,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Category match
             const categoryMatch = currentCategory === 'all' 
-                ? (p.category !== 'Televisores' || isTvExplicitQuery) 
+                ? (p.category !== 'televisores' || isTvExplicitQuery) 
                 : p.category === currentCategory;
             
             // Search match (intelligent multi-word search, matching all words in any order, ignoring stop words)
@@ -428,7 +473,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     const freq = getRamFrequency(p.title);
                     if (!freq || !activeSubfilters.ramFreqs.includes(freq)) return false;
                 }
-            } else if (currentCategory === 'Televisores') {
+            } else if (currentCategory === 'televisores') {
                 if (activeSubfilters.tvSizes && activeSubfilters.tvSizes.length > 0) {
                     const size = getTvSize(p.title);
                     if (!size || !activeSubfilters.tvSizes.includes(size)) return false;
@@ -658,25 +703,10 @@ document.addEventListener('DOMContentLoaded', () => {
             // Render Pagination Controls
             renderPaginationControls(totalPages);
 
-            // Update title and results count
-            const categoryNames = {
-                'all': 'Todos los Productos',
-                'Notebooks': 'Notebooks y Portátiles',
-                'Consolas y Videojuegos': 'Consolas',
-                'Televisores': 'Televisores y Smart TVs',
-                'Tarjetas de Video': 'Tarjetas de Video y GPU',
-                'Almacenamiento (SSD)': 'Discos M.2 y Almacenamiento SSD',
-                'Memorias RAM': 'Memorias RAM para PC y Notebook',
-                'Fuentes de Poder': 'Fuentes de Poder',
-                'Procesadores': 'Procesadores Intel y AMD Ryzen',
-                'Placas Madre': 'Placas Madre Intel y AMD',
-                'Monitores': 'Monitores Gamer y de Oficina',
-                'Periféricos': 'Teclados, Mouses y Auriculares',
-                'Relojes Mi Band': 'Relojes Inteligentes Xiaomi',
-                'Smart Home / Domótica': 'Domótica y Dispositivos Smart',
-                'Gabinetes': 'Gabinetes y Chasis para PC'
-            };
-            catalogTitle.textContent = categoryNames[currentCategory] || 'Catálogo';
+            // El nombre sale de la taxonomia, no de un mapa escrito a mano.
+            catalogTitle.textContent = currentCategory === 'all'
+                ? 'Todos los Productos'
+                : (NOMBRE_DE_CATEGORIA[currentCategory] || 'Catálogo');
             resultsCount.textContent = `Mostrando ${startIndex + 1} - ${Math.min(endIndex, totalFilteredProducts)} de ${totalFilteredProducts} productos`;
 
         }, 300);
@@ -1144,10 +1174,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 </div>
             `;
-                } else if (category === 'Televisores') {
+                } else if (category === 'televisores') {
             let sizes = {};
             PRODUCTS.forEach(p => {
-                if (p.category === 'Televisores') {
+                if (p.category === 'televisores') {
                     const size = getTvSize(p.title);
                     if (size) sizes[size] = (sizes[size] || 0) + 1;
                 }
