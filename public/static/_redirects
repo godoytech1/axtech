@@ -1,0 +1,15 @@
+# Reglas de rutas de Cloudflare Pages. Se publica en la raiz del sitio.
+#
+# Cloudflare Pages, por su cuenta, redirige /archivo.html -> /archivo con un
+# 308. Para casi todo el sitio eso esta bien, pero rompe la verificacion de
+# los buscadores: Google pide su archivo en la URL EXACTA que te dio, con el
+# .html puesto, y una verificacion que llega por redireccion puede fallar.
+#
+# El codigo 200 es una reescritura, no una redireccion: el navegador (y el
+# verificador de Google) reciben el contenido directamente en la URL pedida,
+# sin ningun salto. Las reglas de este archivo tienen prioridad sobre el
+# comportamiento automatico de Pages.
+#
+# Al agregar otro archivo de verificacion (Bing, Yandex), agregar su linea aca.
+
+/googleafd28ca5d06ee10c.html  /googleafd28ca5d06ee10c  200
