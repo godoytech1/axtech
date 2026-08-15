@@ -1,0 +1,9 @@
+{
+  "_comentario": "Plantilla. Copiar a pricing.config.json y ajustar los porcentajes reales. El archivo real NO se versiona: la formula de precios es invertible, asi que publicar los porcentajes equivale a publicar los costos.",
+  "umbralBarato": 200000,
+  "minimoBarato": 50000,
+  "minimoBase": 100000,
+  "pct": {
+    "default": 0.15
+  }
+}

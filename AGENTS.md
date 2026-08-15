@@ -13,9 +13,9 @@ Las reglas numéricas no viven en prosa. Viven en código, con tests:
 | Detección de fugas | `src/build/guard.js` | `test/build/guard.test.js` |
 | Formato de precios | `src/lib/formato.js` | `test/lib/formato.test.js` |
 | Slugs de URL | `src/lib/slug.js` | `test/lib/slug.test.js` |
-| Precios y márgenes | `src/lib/pricing.js` *(Fase 1)* | *(Fase 1)* |
-| Categorías y marcas | `src/lib/taxonomy.js` *(Fase 1)* | *(Fase 1)* |
-| Traducciones PT→ES | `src/lib/normalize.js` *(Fase 1)* | *(Fase 1)* |
+| Precios y márgenes | `src/lib/pricing.js` + `config/pricing.config.json` | `test/lib/pricing.test.js` |
+| Categorías y marcas | `src/lib/taxonomy.js` | `test/lib/taxonomy.test.js` |
+| Traducciones PT→ES y mojibake | `src/lib/normalize.js` | `test/lib/normalize.test.js` |
 
 Este documento explica el *porqué*. Nunca duplica los valores.
 
@@ -41,6 +41,15 @@ categorías. Lo que no se puede duplicar no se puede desincronizar.
 6. **Nunca mencionar públicamente al proveedor** ni enlazar a su sitio.
 7. **Los secretos no se pegan en chats, issues ni logs.** Van en `.env` local
    (ignorado por git) y en GitHub Secrets.
+8. **Los porcentajes de margen son secretos.** `config/pricing.config.json` no
+   se versiona: la fórmula de precios es invertible, así que publicar los
+   porcentajes equivale a publicar los costos.
+9. **No existe categoría de descarte.** Un producto que no se puede clasificar
+   se marca `hidden` y se reporta. Nunca se lo mete en un cajón de sastre: así
+   fue como el 41,3% del catálogo terminó en "Periféricos".
+10. **Los precios se calibran contra el mercado, no a ojo.** El objetivo es
+    quedar 15-17% por debajo del minorista de Asunción. Referencias usadas:
+    Master Tech, Nissei, Compras Paraguai.
 
 ## Negocio
 

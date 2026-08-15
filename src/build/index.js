@@ -1,5 +1,6 @@
 import { readFileSync, writeFileSync, mkdirSync, cpSync, rmSync, statSync } from 'node:fs';
 import { aPublicoLegado } from '../lib/contract.js';
+import { CATEGORIAS } from '../lib/taxonomy.js';
 import { buscarFugas } from './guard.js';
 
 const SALIDA = 'dist';
@@ -25,11 +26,13 @@ for (const archivo of ESTATICOS) {
 }
 cpSync('assets', `${SALIDA}/assets`, { recursive: true });
 
+// CATEGORIES viaja junto al catalogo: el front construye la navegacion desde
+// la taxonomia en vez de tener la lista escrita a mano en el HTML, que era
+// como se desincronizaba (13 categorias en el menu, 18 en los datos).
 const contenido =
     '// Catalogo publico de AXTECH. Generado por src/build/index.js - no editar a mano.\n' +
-    'const PRODUCTS =\n' +
-    JSON.stringify(publicos) +
-    ';\n';
+    'const CATEGORIES =\n' + JSON.stringify(CATEGORIAS) + ';\n' +
+    'const PRODUCTS =\n' + JSON.stringify(publicos) + ';\n';
 writeFileSync(`${SALIDA}/products.js`, contenido, 'utf8');
 
 // El guard corre sobre la salida real.
