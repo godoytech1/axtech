@@ -30,8 +30,25 @@ document.addEventListener('DOMContentLoaded', () => {
         generalBrands: [],
         storageSizes: [],
         tvSizes: [],
-        consoleTypes: []
+        consoleTypes: [],
+        projectorBrightness: [],
+        projectorResolutions: []
     };
+
+    // Tramos de brillo de los proyectores. Describen el uso, que es lo que el
+    // comprador esta decidiendo: por debajo de 1.000 lm hace falta oscuridad;
+    // de 3.000 para arriba se ve en una sala con luz.
+    //
+    // Vive aca arriba y no junto a su funcion porque `renderSidebarFilters`
+    // corre durante la inicializacion, antes de que el cuerpo del archivo
+    // termine de ejecutarse. Un `const` declarado mas abajo estaria en zona
+    // muerta temporal y la barra de filtros entera reventaria.
+    const TRAMOS_BRILLO = [
+        { hasta: 1000, nombre: 'Hasta 999 lm' },
+        { hasta: 3000, nombre: '1.000 - 2.999 lm' },
+        { hasta: 4000, nombre: '3.000 - 3.999 lm' },
+        { hasta: Infinity, nombre: '4.000 lm o más' }
+    ];
 
     const SEARCH_STOP_WORDS = new Set([
         'de', 'del', 'el', 'la', 'los', 'las', 'un', 'una', 'unos', 'unas',
@@ -86,6 +103,8 @@ document.addEventListener('DOMContentLoaded', () => {
         activeSubfilters.storageSizes = [];
         activeSubfilters.tvSizes = [];
         activeSubfilters.consoleTypes = [];
+        activeSubfilters.projectorBrightness = [];
+        activeSubfilters.projectorResolutions = [];
     }
 
     // Carga del carrito guardado.
@@ -272,6 +291,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (searchInput) searchInput.value = '';
         if (sortSelect) sortSelect.value = 'default';
         leerEstadoDeURL();
+        // Igual que en el arranque: la barra tiene que seguir a la categoria
+        // que trae la URL, tambien al volver con el boton de atras.
+        renderSidebarFilters(currentCategory);
         syncCategoryLinks(currentCategory);
         renderProducts();
     });
@@ -280,8 +302,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // INITIALIZATION & SETUP
     // ----------------------------------------------------------------------
     initSlider();
-    renderSidebarFilters('all');
     leerEstadoDeURL();
+    // La barra de filtros se dibuja DESPUES de leer la URL, con la categoria
+    // que salio de ella. Antes se la dibujaba antes, y siempre con 'all', que
+    // es el unico valor para el que se esconde: quien entraba directo a
+    // /?c=monitores --desde Google, desde un link compartido o recargando la
+    // pagina-- veia el catalogo filtrado pero sin un solo filtro al costado.
+    renderSidebarFilters(currentCategory);
     syncCategoryLinks(currentCategory);
     renderProducts();
     updateCartUI();
@@ -519,6 +546,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (activeSubfilters.tvSizes && activeSubfilters.tvSizes.length > 0) {
                     const size = getTvSize(p.title);
                     if (!size || !activeSubfilters.tvSizes.includes(size)) return false;
+                }
+            } else if (currentCategory === 'proyectores') {
+                if (activeSubfilters.projectorBrightness.length > 0) {
+                    const brillo = getProjectorBrightness(p.title);
+                    if (!brillo || !activeSubfilters.projectorBrightness.includes(brillo)) return false;
+                }
+                if (activeSubfilters.projectorResolutions.length > 0) {
+                    const res = getProjectorResolution(p.title);
+                    if (!res || !activeSubfilters.projectorResolutions.includes(res)) return false;
                 }
             } else if (currentCategory === 'fuentes-de-poder') {
                 if (activeSubfilters.psuBrands.length > 0) {
@@ -869,6 +905,39 @@ document.addEventListener('DOMContentLoaded', () => {
         return null;
     }
 
+    // ----------------------------------------------------------------------
+    // PROYECTORES
+    // ----------------------------------------------------------------------
+    //
+    // Lo que decide una compra de proyector es el brillo, no la marca. El
+    // catalogo lo escribe de seis formas distintas:
+    //
+    //   "4800 LUMENS"  "350 LUMENES"  "900LUM"  "3600L"  "3000L/WXGA"  "400L HDMI"
+    //
+    // Se exige la unidad. Sin ella, los numeros de modelo se colarian como
+    // brillo: "DUB 3800" y "EH-LS300B" llevan cifras de tres y cuatro digitos
+    // que no tienen nada que ver. Verificado contra los 21 titulos reales:
+    // 14 con brillo, cero falsos positivos.
+    function getProjectorLumens(title) {
+        const m = title.match(/(\d{3,5})\s*(?:lumens|lumenes|lum\b|l\b)/i);
+        return m ? parseInt(m[1], 10) : null;
+    }
+
+    function getProjectorBrightness(title) {
+        const lm = getProjectorLumens(title);
+        if (lm === null) return null;
+        return TRAMOS_BRILLO.find((t) => lm < t.hasta).nombre;
+    }
+
+    function getProjectorResolution(title) {
+        const t = title.toUpperCase();
+        if (/\b4K\b/.test(t)) return '4K';
+        if (/\bFHD\b|\bFULL ?HD\b|\b1080P?\b/.test(t)) return 'Full HD';
+        if (/\bWXGA\b/.test(t)) return 'WXGA';
+        if (/\bHD\b/.test(t)) return 'HD';
+        return null;
+    }
+
     function getMonitorSize(title) {
         const t = title.toLowerCase();
 
@@ -1043,7 +1112,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </button>
             </div>
             <div class="active-category-banner">
-                <span class="active-cat-name">${category}</span>
+                <span class="active-cat-name">${NOMBRE_DE_CATEGORIA[category] || category}</span>
             </div>
         `;
 
@@ -1279,6 +1348,70 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 </div>
             `;
+        } else if (category === 'proyectores') {
+            // Los tramos se muestran en orden de brillo, no por cantidad: la
+            // lista se lee como una escala.
+            let brillos = {};
+            let resoluciones = {};
+            PRODUCTS.forEach(p => {
+                if (p.category !== 'proyectores') return;
+                const b = getProjectorBrightness(p.title);
+                if (b) brillos[b] = (brillos[b] || 0) + 1;
+                const r = getProjectorResolution(p.title);
+                if (r) resoluciones[r] = (resoluciones[r] || 0) + 1;
+            });
+            const ordenBrillo = TRAMOS_BRILLO.map(t => t.nombre).filter(n => brillos[n]);
+            const ordenResolucion = ['4K', 'Full HD', 'WXGA', 'HD'].filter(r => resoluciones[r]);
+
+            if (ordenBrillo.length) {
+                html += `
+                <div class="filter-group">
+                    <button class="filter-group-header active">
+                        <span>Brillo</span>
+                        <i class="las la-angle-down"></i>
+                    </button>
+                    <div class="filter-group-content show">
+                        <ul class="filter-options">
+                            ${ordenBrillo.map(b => `
+                                <li>
+                                    <label class="filter-checkbox-label">
+                                        <input type="checkbox" class="filter-checkbox" data-filter-type="projectorBrightness" value="${b}" ${activeSubfilters.projectorBrightness.includes(b) ? 'checked' : ''}>
+                                        <span class="checkbox-custom"></span>
+                                        <span class="option-name">${b}</span>
+                                        <span class="option-count">(${brillos[b]})</span>
+                                    </label>
+                                </li>
+                            `).join('')}
+                        </ul>
+                    </div>
+                </div>
+            `;
+            }
+
+            if (ordenResolucion.length) {
+                html += `
+                <div class="filter-group">
+                    <button class="filter-group-header active">
+                        <span>Resolución</span>
+                        <i class="las la-angle-down"></i>
+                    </button>
+                    <div class="filter-group-content show">
+                        <ul class="filter-options">
+                            ${ordenResolucion.map(r => `
+                                <li>
+                                    <label class="filter-checkbox-label">
+                                        <input type="checkbox" class="filter-checkbox" data-filter-type="projectorResolutions" value="${r}" ${activeSubfilters.projectorResolutions.includes(r) ? 'checked' : ''}>
+                                        <span class="checkbox-custom"></span>
+                                        <span class="option-name">${r}</span>
+                                        <span class="option-count">(${resoluciones[r]})</span>
+                                    </label>
+                                </li>
+                            `).join('')}
+                        </ul>
+                    </div>
+                </div>
+            `;
+            }
         } else if (category === 'memorias-ram') {
             let types = {};
             let gens = {};
