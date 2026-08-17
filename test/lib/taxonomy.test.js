@@ -191,7 +191,41 @@ test('una caja de streaming va con los televisores', () => {
 });
 
 test('un proyector no es una placa de video', () => {
-    // Estaban en Tarjetas de Video por el puerto VGA de su ficha.
-    assert.equal(clasificar({ titulo: 'PROJETOR OPTOMA ZX300 3500 LUMENS VGA/USB/WHITE' }), 'televisores');
-    assert.equal(clasificar({ titulo: 'PROJETOR ACER X1128I 4800 LUMENS HDMI VGA BIVOLT' }), 'televisores');
+    // Estaban en Tarjetas de Video por el puerto VGA de su ficha. Pasaron por
+    // Televisores mientras no habia categoria propia; hoy tienen la suya.
+    assert.equal(clasificar({ titulo: 'PROJETOR OPTOMA ZX300 3500 LUMENS VGA/USB/WHITE' }), 'proyectores');
+    assert.equal(clasificar({ titulo: 'PROJETOR ACER X1128I 4800 LUMENS HDMI VGA BIVOLT' }), 'proyectores');
+});
+
+// --- Proyectores -----------------------------------------------------------
+//
+// La regla no necesita ninguna exclusion. De los 28 productos del proveedor
+// que dicen "PROJETOR", 21 son proyectores y 7 son accesorios PARA uno: 5
+// cables VGA y 2 soportes. Los accesorios ya se resuelven antes que los
+// dispositivos (regla 1 del orden), asi que se quedan donde estan solos.
+
+test('un proyector es un proyector', () => {
+    assert.equal(clasificar({ titulo: 'PROJETOR EPSON CO-W01 3000L/WXGA/HDMI' }), 'proyectores');
+    assert.equal(clasificar({ titulo: 'PROJETOR ACER X1128I 4800 LUMENS HDMI VGA BIVOLT' }), 'proyectores');
+    assert.equal(clasificar({ titulo: 'PROJETOR DUB HOME CINEMA DUB 3800 ANDROID/4K/BT5.0' }), 'proyectores');
+    assert.equal(clasificar({ titulo: 'PROYECTOR PORTATIL 1080P HDMI' }), 'proyectores');
+});
+
+test('un cable PARA proyector sigue siendo un cable', () => {
+    assert.equal(clasificar({ titulo: 'Cable VGA 10M MICROFINS P/ MON E PROJETOR 15 PINS' }), 'adaptadores-y-cables');
+    assert.equal(clasificar({ titulo: 'Cable VGA 40M C/ FILTRO PROJETOR/MONITOR 15 PINOS' }), 'adaptadores-y-cables');
+});
+
+test('un soporte PARA proyector sigue siendo un soporte', () => {
+    assert.equal(clasificar({ titulo: 'Soporte P/ PROJETOR FTX FTX-18F 13,5KG Negro' }), 'soportes-y-bases');
+});
+
+test('un proyector ya no cae en televisores', () => {
+    // Se agruparon ahi mientras no habia categoria propia.
+    assert.notEqual(clasificar({ titulo: 'PROJETOR OPTOMA ZX300 3500 LUMENS VGA/USB/WHITE' }), 'televisores');
+});
+
+test('las cajas de streaming siguen en televisores', () => {
+    assert.equal(clasificar({ titulo: 'AMAZON FIRE TV STICK HD 2024 4697713' }), 'televisores');
+    assert.equal(clasificar({ titulo: 'SMART TV 50 SAMSUNG 4K UHD' }), 'televisores');
 });

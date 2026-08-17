@@ -5,7 +5,7 @@ description: Usar cuando el sync nocturno del catalogo falla, cuando hay que for
 
 # Sincronizacion del catalogo
 
-El sync corre solo a las 04:00 de Paraguay (`.github/workflows/sync.yml`).
+El sync corre solo a las 23:00 de Paraguay (`.github/workflows/sync.yml`).
 Nadie tiene que hacer nada. Esta skill es para cuando algo se sale de eso.
 
 ## Como esta armado

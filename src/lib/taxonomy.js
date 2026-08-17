@@ -16,6 +16,7 @@ export const CATEGORIAS = [
     { id: 'microfonos',             nombre: 'Micrófonos',             icono: 'la-microphone' },
     { id: 'parlantes',              nombre: 'Parlantes',              icono: 'la-volume-up' },
     { id: 'televisores',            nombre: 'Televisores',            icono: 'la-tv' },
+    { id: 'proyectores',            nombre: 'Proyectores',            icono: 'la-film' },
     { id: 'consolas-y-videojuegos', nombre: 'Consolas y Videojuegos', icono: 'la-gamepad' },
     { id: 'tablets',                nombre: 'Tablets',                icono: 'la-tablet' },
     { id: 'telefonos-y-celulares',  nombre: 'Teléfonos y Celulares',  icono: 'la-mobile' },
@@ -109,10 +110,14 @@ const REGLAS = [
     ['tablets',                /\b(tablet|ipad)\b/i],
     ['telefonos-y-celulares',  /(\b(smartphone|celular|iphone|galaxy [asz]\d|redmi|poco |moto ?[ge])\b|^cel )/i],
     // Receptores IPTV y cajas de streaming se agrupan con televisores.
-    // Cajas de streaming y proyectores se agrupan aca: son dispositivos de
-    // imagen y no hay categoria propia para ellos. Los proyectores estaban
-    // publicados en Tarjetas de Video por el puerto VGA de su ficha.
-    ['televisores',            /(\bsmart ?tv\b|\btelevisor\b|^tv[ ,]|\btv \d{2,3}\b|^receptor |tv ?box|iptv|fire tv|tv stick|\bprojetor\b|\bproyector\b)/i],
+    // Las cajas de streaming se agrupan con los televisores: son el aparato
+    // que se enchufa a uno y no tienen categoria propia.
+    ['televisores',            /(\bsmart ?tv\b|\btelevisor\b|^tv[ ,]|\btv \d{2,3}\b|^receptor |tv ?box|iptv|fire tv|tv stick)/i],
+    // Los proyectores no necesitan ninguna exclusion: de los 28 productos que
+    // dicen "PROJETOR", 21 son proyectores y 7 son accesorios PARA uno (cinco
+    // cables VGA y dos soportes). Los accesorios se resuelven arriba, en la
+    // seccion 1, asi que aca solo llegan los aparatos.
+    ['proyectores',            /\b(projetor|proyector|projector|videoproyector)\b/i],
     // "MON 24 SAMSUNG..." es la abreviatura del proveedor. Se ancla al inicio
     // para no confundirla con otras palabras que empiecen con "mon".
     ['monitores',              /(\bmonitor\b|^mon \d{2})/i],

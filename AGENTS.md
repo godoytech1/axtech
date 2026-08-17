@@ -135,7 +135,7 @@ se duplican.
 
 ```
 /                     home (SPA)
-/c/{categoria}/       28 categorias
+/c/{categoria}/       29 categorias
 /c/{categoria}/{n}/   paginacion
 /p/{slug}/            una por producto
 /sitemap.xml          indice de sitemaps
@@ -153,7 +153,7 @@ no las entrega estructuradas, pero sus títulos son densos.
 
 ## Sincronización del catálogo
 
-**El sync corre solo todas las noches** (`.github/workflows/sync.yml`, 04:00 de
+**El sync corre solo todas las noches** (`.github/workflows/sync.yml`, 23:00 de
 Paraguay). Descarga la lista oficial, recalcula precios, publica lo nuevo,
 oculta lo que desapareció y purga lo que lleva 30 días ausente. Si algo no
 cierra, **aborta sin escribir**: el catálogo queda como estaba y el workflow
@@ -174,6 +174,12 @@ El push dispara el despliegue solo.
 anterior, así que correrlo dos veces da el mismo resultado. No confundir con
 `refinar-catalogo.js`, que **no** es idempotente y por eso aborta si detecta
 que ya se aplicó.
+
+**La hora importa.** El proveedor regenera su lista **durante el día hábil**.
+Con el cron a las 04:00 el sync bajaba la lista del día anterior y la tienda
+quedaba siempre un día hábil atrasada: medido el lunes 17/08, a las 04:00 traía
+la lista del sábado (5.949 productos) y esa misma tarde la lista en vivo ya
+tenía 5.971. A las 23:00 el proveedor ya cerró y publicó los precios del día.
 
 ### Los frenos
 

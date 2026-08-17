@@ -9,7 +9,17 @@ name: Sync del catalogo
 
 on:
   schedule:
-    - cron: '0 7 * * *'   # 04:00 de Paraguay (07:00 UTC)
+    # 23:00 de Paraguay (02:00 UTC del dia siguiente).
+    #
+    # Corria a las 04:00 de Paraguay y era demasiado temprano: el proveedor
+    # regenera su lista DURANTE el dia habil. Medido el lunes 17/08: a las
+    # 04:00 el sync bajo la lista del sabado (5.949 productos) y a las 19:37
+    # de ese mismo dia la lista en vivo ya tenia 5.971 y un sello nuevo. El
+    # sync corria bien, pero la tienda quedaba siempre un dia habil atrasada.
+    #
+    # A las 23:00 el proveedor ya cerro y publico los precios del dia, asi que
+    # el sitio amanece con la lista de ayer, no la de anteayer.
+    - cron: '0 2 * * *'
   workflow_dispatch:
     inputs:
       simular:
