@@ -45,6 +45,12 @@
  */
 const REGLAS = [
     // Articulos para mascotas: collares, comederos y dispensadores.
+    //
+    // Hoy saca ocho productos de la lista del proveedor: un collar de
+    // adiestramiento, dos perros robot de juguete y cinco dispensadores de
+    // alimento SATE. Los dispensadores se consultaron aparte porque son
+    // dispositivos conectados ("SMART") de una marca que la tienda ya vende:
+    // la decision del dueño fue que no se venden. No reponerlos sin preguntar.
     /\b(colar de treinamento|coleira|cachorros?|mascotas?|comedero|bebedero|arranhador|racao)\b/i
 ];
 
