@@ -17,7 +17,11 @@ function marcaVisible(marca) {
 
 const formatearGs = (n) => 'Gs. ' + String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, '.');
 
-function cabecera({ titulo, descripcion, canonical, imagen, indexable, jsonLd }) {
+// `canonical` es opcional a proposito. La pagina de error no lleva ninguno:
+// un canonical hacia si misma le dice a Google que la pagina existe, y uno
+// hacia la portada le dice que es la portada. Las dos cosas son exactamente
+// el soft 404 que la pagina viene a evitar.
+function cabecera({ titulo, descripcion, canonical, imagen, indexable, jsonLd, tipoOg = 'product' }) {
     // El \u003c evita que un "</script>" dentro de un titulo cierre el bloque.
     const bloques = jsonLd
         .map((o) => `<script type="application/ld+json">${JSON.stringify(o).replace(/</g, '\\u003c')}</script>`)
@@ -30,13 +34,13 @@ function cabecera({ titulo, descripcion, canonical, imagen, indexable, jsonLd })
     <meta name="theme-color" content="#060b18">
     <title>${escaparHtml(titulo)}</title>
     <meta name="description" content="${escaparHtml(descripcion)}">
-    <link rel="canonical" href="${canonical}">
+    ${canonical ? `<link rel="canonical" href="${canonical}">` : ''}
     ${indexable ? '' : '<meta name="robots" content="noindex,follow">'}
-    <meta property="og:type" content="product">
+    <meta property="og:type" content="${tipoOg}">
     <meta property="og:title" content="${escaparHtml(titulo)}">
     <meta property="og:description" content="${escaparHtml(descripcion)}">
     <meta property="og:image" content="${imagen}">
-    <meta property="og:url" content="${canonical}">
+    ${canonical ? `<meta property="og:url" content="${canonical}">` : ''}
     <meta property="og:site_name" content="AXTECH">
     <meta property="og:locale" content="es_PY">
     <meta name="twitter:card" content="summary_large_image">
@@ -140,6 +144,56 @@ ${encabezadoDelSitio()}
         <div class="relacionados-grilla">${tarjetasRelacionadas}
         </div>
     </section>` : ''}
+</main>
+${pieDelSitio()}
+</body>
+</html>`;
+}
+
+/**
+ * Pagina de error, servida por Cloudflare Pages con codigo 404 real.
+ *
+ * Sin este archivo, Pages responde a cualquier URL que no existe con un 200 y
+ * el contenido de la portada. Para Google eso es un soft 404: cree que la
+ * pagina existe, la deja en el indice y le gasta presupuesto de rastreo al
+ * resto del sitio. En una tienda es constante -- el proveedor da de baja
+ * productos todos los dias y cada uno deja su URL atras.
+ *
+ * Nada de esta pagina se indexa (`noindex,follow`) y no lleva canonical.
+ * Los enlaces a las categorias si se siguen: es lo que convierte un callejon
+ * sin salida en una desviacion.
+ */
+export function paginaDeError({ categorias, urlBase }) {
+    const destacadas = categorias.slice(0, 12).map((c) => `
+            <li><a href="/c/${c.id}/"><i class="las ${c.icono}" aria-hidden="true"></i> ${escaparHtml(c.nombre)}</a></li>`).join('');
+
+    return `${cabecera({
+        titulo: 'Página no encontrada | AXTECH',
+        descripcion: 'La página que buscás no existe o el producto ya no está disponible. Mirá el catálogo completo de AXTECH.',
+        canonical: null,
+        imagen: `${urlBase}/assets/logo.jpg`,
+        indexable: false,
+        jsonLd: [],
+        tipoOg: 'website'
+    })}
+<body>
+${encabezadoDelSitio()}
+<main id="contenido" class="container error-404">
+    <p class="error-codigo">404</p>
+    <h1>Esta página no existe</h1>
+    <p class="error-texto">
+        Puede que el producto ya no esté disponible, o que el enlace esté mal escrito.
+        Probá buscándolo de nuevo:
+    </p>
+    <form class="error-busqueda" action="/" method="get" role="search">
+        <label for="q-404" class="visually-hidden">Buscar en el catálogo</label>
+        <input type="search" id="q-404" name="q" placeholder="Ej: RTX 5070, notebook, SSD 1TB" autocomplete="off">
+        <button type="submit"><i class="las la-search" aria-hidden="true"></i> Buscar</button>
+    </form>
+    <h2 class="error-subtitulo">O mirá una categoría</h2>
+    <ul class="error-categorias">${destacadas}
+    </ul>
+    <p class="listado-volver"><a href="/">← Ver todo el catálogo</a></p>
 </main>
 ${pieDelSitio()}
 </body>

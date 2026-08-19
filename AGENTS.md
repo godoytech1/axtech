@@ -36,6 +36,14 @@ categorías. Lo que no se puede duplicar no se puede desincronizar.
    proveedor (MD5 `709f820266febfe1c9c5fe7456a7499e`).
 4. **Título del sitio**, exacto: `AXTECH | Tu Tienda de Tecnología y Hardware`.
    Sin sufijos de país.
+   **`dist/404.html` tiene que existir siempre.** Cloudflare Pages lo sirve
+   con código 404 real para toda URL que no existe; sin él cae en modo
+   aplicación de una sola página y responde **200 con la portada**, que es lo
+   que Google llama *soft 404*. En una tienda es constante: el proveedor da de
+   baja productos todos los días y cada uno deja atrás su URL ya rastreada.
+   Lo genera `src/build/paginas.js` y lo protege `test/build/pagina-error.test.js`.
+   La página va `noindex` y **sin canonical** — un canonical hacia sí misma le
+   dice a Google que existe, y uno hacia la portada, que es la portada.
 5. **Los modelos de hardware se conservan íntegros** en los títulos:
    `RTX 4070`, `RX 7600`, `Ryzen 7 7800X3D`, `i7-14700K`.
 6. **Nunca mencionar públicamente al proveedor** ni enlazar a su sitio.

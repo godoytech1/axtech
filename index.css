@@ -3278,11 +3278,110 @@ img {
 .listado-volver { text-align: center; margin-bottom: 2.5rem; }
 .listado-volver a { color: var(--color-primary); text-decoration: none; }
 
+/* ----------------------------------------------------------------------
+   PAGINA 404
+   ----------------------------------------------------------------------
+   Una pagina de error es un callejon sin salida: el visitante llego por un
+   enlace viejo o un producto dado de baja. Por eso lleva buscador y accesos
+   a las categorias, y no solo una disculpa. */
+/* padding-top/bottom por separado, NO el atajo `padding: 3.5rem 0 4rem`: ese
+   pone el padding lateral en cero y pisa el del .container, con lo que en el
+   celular el texto y la grilla se salian de la pantalla. */
+.error-404 { text-align: center; padding-top: 3.5rem; padding-bottom: 4rem; }
+.error-codigo {
+    font-family: var(--font-heading);
+    font-size: clamp(4rem, 14vw, 7rem);
+    font-weight: 800;
+    line-height: 1;
+    margin: 0;
+    color: var(--color-primary);
+    opacity: 0.25;
+}
+.error-404 h1 { font-size: clamp(1.5rem, 4vw, 2.25rem); margin: 0.5rem 0 1rem; }
+.error-texto {
+    color: var(--color-gray);
+    max-width: 34rem;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
+}
+.error-busqueda {
+    display: flex;
+    gap: 0.5rem;
+    max-width: 32rem;
+    margin: 0 auto 3rem;
+}
+.error-busqueda input {
+    flex: 1;
+    min-width: 0;
+    padding: 0.85rem 1.1rem;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.04);
+    color: inherit;
+    font: inherit;
+}
+.error-busqueda input:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+.error-busqueda button {
+    padding: 0.85rem 1.4rem;
+    border: none;
+    border-radius: 10px;
+    background: var(--color-primary);
+    color: #04121f;
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.error-subtitulo { font-size: 1.05rem; color: var(--color-gray); margin-bottom: 1.25rem; }
+.error-categorias {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    gap: 0.6rem;
+    max-width: 52rem;
+}
+.error-categorias a {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.03);
+    color: inherit;
+    text-decoration: none;
+}
+.error-categorias a:hover { border-color: var(--color-primary); }
+.error-categorias i { color: var(--color-primary); font-size: 1.15rem; }
+
+/* Visible para un lector de pantalla, invisible en la pantalla. Se usa en la
+   etiqueta del buscador del 404, que no lleva texto a la vista. */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
 @media (max-width: 768px) {
     .ficha-cuerpo { grid-template-columns: 1fr; gap: 1.5rem; }
     .ficha-cta { width: 100%; justify-content: center; }
     .relacionados-grilla { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
     .listado-grilla { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+    .error-busqueda { flex-direction: column; }
+    /* Con 190px no entraban dos columnas una vez descontado el padding. */
+    .error-categorias { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+    .error-categorias a { padding: 0.7rem 0.8rem; font-size: 0.92rem; }
 }
 
 /* ======================================================================

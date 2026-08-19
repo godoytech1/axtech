@@ -1,5 +1,5 @@
 import { writeFileSync, mkdirSync } from 'node:fs';
-import { paginaDeProducto, paginaDeCategoria } from './plantillas.js';
+import { paginaDeProducto, paginaDeCategoria, paginaDeError } from './plantillas.js';
 import { esIndexable } from '../lib/seo.js';
 import { CATEGORIAS } from '../lib/taxonomy.js';
 
@@ -56,6 +56,16 @@ export function generarPaginas({ publicos, salida, urlBase }) {
             if (n === 1) indexables.push(`/c/${categoria.id}/`);
         }
     }
+
+    // Cloudflare Pages sirve /404.html con codigo 404 real para toda URL que
+    // no existe, PERO solo si el archivo esta. Sin el cae en modo aplicacion
+    // de una sola pagina y responde 200 con la portada, que es lo que Google
+    // llama soft 404. No va al sitemap ni a `indexables`.
+    //
+    // Solo se ofrecen categorias que tienen productos: mandar a alguien desde
+    // un error a una categoria vacia es dos callejones sin salida seguidos.
+    const conStock = CATEGORIAS.filter((c) => (porCategoria.get(c.id) || []).length > 0);
+    escribir(`${salida}/404.html`, paginaDeError({ categorias: conStock, urlBase }));
 
     return { productos: paginasDeProducto, categorias: paginasDeCategoria, conNoindex, indexables };
 }
