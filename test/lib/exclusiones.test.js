@@ -32,6 +32,17 @@ test('la tecnologia de verdad no se excluye', () => {
     for (const titulo of deben) assert.equal(excluido(titulo), false, titulo);
 });
 
+test('ELGATO es una marca de hardware, no un animal', () => {
+    // El proveedor la escribe con espacio. La primera version de la regla
+    // llevaba la palabra "gato" y sacaba de la tienda un panel de luz para
+    // streamers. Los dos errores no cuestan lo mismo: excluir de mas pierde
+    // una venta, excluir de menos deja un producto raro en una categoria.
+    assert.equal(excluido('PAINEL LED EL GATO NEO KEY LIGHTS 10LAJ9901'), false);
+    assert.equal(excluido('ELGATO STREAM DECK MK.2 15 TECLAS 10GBA9901'), false);
+    // "Gato" tambien es una herramienta.
+    assert.equal(excluido('GATO HIDRAULICO 2 TONELADAS'), false);
+});
+
 test('no rompe con entradas vacias', () => {
     assert.equal(excluido(''), false);
     assert.equal(excluido(undefined), false);

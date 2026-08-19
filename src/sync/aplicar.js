@@ -171,20 +171,54 @@ export function aplicarLista({ catalogo, lista, hoy, config, ultimoId }) {
  * proveedor da de baja productos temporalmente (sin stock) y los repone: sin
  * el periodo de gracia perderiamos su historial, su id y su imagen cada vez.
  *
- * @returns {{catalogo: object[], purgados: number[]}}
+ * `maximo` es cuantos se pueden borrar en ESTA corrida. Sin el, la purga
+ * proponia borrados que el freno de verificar.js rechazaba, y como el freno
+ * aborta el sync entero, el catalogo se quedaba sin actualizar precios hasta
+ * que una persona interviniera. El caso concreto: la migracion del 15/08/2026
+ * dejo 9.654 registros que la lista del proveedor no volvio a mencionar, y a
+ * los 30 dias la purga iba a querer borrar el 63,7% del catalogo de una vez.
+ *
+ * Con el tope, ese atraso se drena solo, unas cientos por noche, sin que nadie
+ * haga nada y sin que el freno tenga que decidir nada.
+ *
+ * Poner un tope no debilita el freno: para que un producto llegue a la purga
+ * tiene que haber estado oculto 30 dias, y ocultar en masa ya tiene su propio
+ * freno (`ocultadosMaximo`) que salta mucho antes. Lo unico que el tope deja
+ * pasar es un atraso acumulado, que es exactamente lo que hay.
+ *
+ * @param {object} args
+ * @param {object[]} args.catalogo
+ * @param {string} args.hoy            fecha ISO corta, 'AAAA-MM-DD'
+ * @param {number} [args.diasGracia]
+ * @param {number} [args.maximo]       cuantos borrar como mucho en esta corrida
+ * @returns {{catalogo: object[], purgados: number[], pendientes: number}}
  */
-export function purgar({ catalogo, hoy, diasGracia = 30 }) {
+export function purgar({ catalogo, hoy, diasGracia = 30, maximo = Infinity }) {
     const limite = Date.parse(hoy) - diasGracia * DIA_MS;
-    const purgados = [];
 
-    const salida = structuredClone(catalogo).filter((p) => {
-        if (p.status === 'active') return true;
-        if (!p.lastSeen) return true; // sin fecha no se puede decidir: se conserva
+    const elegibles = [];
+    for (const p of catalogo) {
+        if (p.status === 'active') continue;
+        if (!p.lastSeen) continue; // sin fecha no se puede decidir: se conserva
         const visto = Date.parse(p.lastSeen);
-        if (!Number.isFinite(visto) || visto >= limite) return true;
-        purgados.push(p.id);
-        return false;
-    });
+        if (!Number.isFinite(visto) || visto >= limite) continue;
+        elegibles.push(p);
+    }
 
-    return { catalogo: salida, purgados };
+    // El que lleva mas tiempo ausente se va primero. El id desempata para que
+    // dos corridas con los mismos datos borren exactamente lo mismo: sin un
+    // criterio estable, cual de los 9.654 se borra hoy dependeria del orden
+    // en que quedaron en el archivo.
+    elegibles.sort((a, b) =>
+        a.lastSeen < b.lastSeen ? -1 : a.lastSeen > b.lastSeen ? 1 : a.id - b.id
+    );
+
+    const aBorrar = new Set(elegibles.slice(0, maximo).map((p) => p.id));
+    const salida = structuredClone(catalogo).filter((p) => !aBorrar.has(p.id));
+
+    return {
+        catalogo: salida,
+        purgados: [...aBorrar],
+        pendientes: elegibles.length - aBorrar.size
+    };
 }

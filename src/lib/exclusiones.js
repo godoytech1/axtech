@@ -27,12 +27,25 @@
  * lo haria saltar por el motivo equivocado.
  */
 
+/**
+ * Los dos errores posibles NO cuestan lo mismo.
+ *
+ * Excluir de mas saca de la tienda algo que se podia vender. Excluir de menos
+ * deja un producto raro en una categoria, que se ve feo y se arregla despues.
+ * Por eso las palabras son especificas y no genericas.
+ *
+ * Ejemplo real, encontrado corriendo la regla contra la lista del proveedor
+ * antes de publicarla: "gato" parecia inofensivo hasta que aparecio
+ * "PAINEL LED EL GATO NEO KEY LIGHTS", que es un panel de luz de la marca
+ * ELGATO, escrita con espacio. Tecnologia pura, y la regla la sacaba de la
+ * tienda. "gato" y "perro" salieron de la lista: no atrapaban nada que las
+ * otras palabras no atraparan, y si un producto que si se vende.
+ *
+ * Antes de agregar un patron, correrlo contra la lista real y mirar QUE saca.
+ */
 const REGLAS = [
-    // Articulos para mascotas. Hoy atrapa exactamente un producto (un collar
-    // de adiestramiento). Esta escrito para la clase, no para ese producto:
-    // el proveedor puede traer mañana el comedero y el bebedero del mismo
-    // fabricante y ninguno de los dos es tecnologia.
-    /\b(colar de treinamento|coleira|cachorros?|perros?|gatos?|mascotas?|comedero|bebedero|arranhador|racao)\b/i
+    // Articulos para mascotas: collares, comederos y dispensadores.
+    /\b(colar de treinamento|coleira|cachorros?|mascotas?|comedero|bebedero|arranhador|racao)\b/i
 ];
 
 /**

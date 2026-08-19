@@ -121,9 +121,17 @@ if (problemasLista.length) {
 // --- 4. Calcular (sin escribir) --------------------------------------------
 
 const fusion = aplicarLista({ catalogo, lista, hoy, config, ultimoId: meta.ultimoId });
-const { catalogo: purgado, purgados } = SIN_PURGA
-    ? { catalogo: fusion.catalogo, purgados: [] }
-    : purgar({ catalogo: fusion.catalogo, hoy, diasGracia: DIAS_GRACIA });
+
+// La purga se limita a lo que el freno acepta, en vez de proponer un borrado
+// que el freno rechazaria. Un freno que salta aborta el sync ENTERO -- ni
+// precios, ni productos nuevos, ni imagenes -- y vuelve a saltar cada noche
+// hasta que alguien intervenga. Un atraso acumulado no es una emergencia:
+// se drena de a poco y no hay ninguna noche en que la tienda deje de
+// actualizarse.
+const MAXIMO_PURGA = Math.floor(totalPrevio * LIMITES.purgaMaxima);
+const { catalogo: purgado, purgados, pendientes } = SIN_PURGA
+    ? { catalogo: fusion.catalogo, purgados: [], pendientes: 0 }
+    : purgar({ catalogo: fusion.catalogo, hoy, diasGracia: DIAS_GRACIA, maximo: MAXIMO_PURGA });
 
 const rep = fusion.reporte;
 
@@ -148,7 +156,8 @@ console.log(`  sin cambio:                    ${rep.sinCambio}`);
 console.log(`  ocultados por no figurar:      ${rep.ocultados}`);
 console.log(`  sin clasificar (descartados):  ${rep.sinClasificar}`);
 console.log(`  fuera del rubro (excluidos):   ${rep.excluidos}  (${rep.excluidosOcultados} se ocultaron ahora)`);
-console.log(`  purgados (${DIAS_GRACIA}+ dias ausentes):  ${purgados.length}`);
+console.log(`  purgados (${DIAS_GRACIA}+ dias ausentes):  ${purgados.length}` +
+    (pendientes ? `  (tope ${MAXIMO_PURGA}/noche; quedan ${pendientes} para las proximas)` : ''));
 console.log(`\n  ACTIVOS: ${activos.length}   (antes ${activosPrevios})`);
 console.log(`  REGISTROS: ${purgado.length}   (antes ${totalPrevio})`);
 

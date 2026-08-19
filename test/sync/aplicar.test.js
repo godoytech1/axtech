@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { aplicarLista, purgar } from '../../src/sync/aplicar.js';
+import { verificarCambios, LIMITES } from '../../src/sync/verificar.js';
 
 const config = {
     umbralBarato: 200000,
@@ -219,4 +220,76 @@ test('purgar no muta el catalogo recibido', () => {
     const cat = [{ id: 1, status: 'hidden', lastSeen: '2020-01-01' }];
     purgar({ catalogo: cat, hoy: '2026-01-01', diasGracia: 30 });
     assert.equal(cat.length, 1);
+});
+
+// --- El tope por corrida.
+//
+// La migracion del 15/08/2026 dejo 9.654 registros que la lista del proveedor
+// no volvio a mencionar. A los 30 dias la purga iba a querer borrar el 63,7%
+// del catalogo de una sola vez, el freno de verificar.js lo iba a rechazar, y
+// como el freno aborta el sync ENTERO, la tienda se quedaba sin actualizar
+// precios todas las noches hasta que alguien corriera --forzar a mano.
+//
+// Un atraso acumulado no es una emergencia. Se drena de a poco.
+
+const atrasado = (n) => Array.from({ length: n }, (_, i) => ({
+    id: i + 1, status: 'hidden', lastSeen: '2025-01-01'
+}));
+
+test('purgar respeta el tope de la corrida e informa lo que queda', () => {
+    const { catalogo, purgados, pendientes } = purgar({
+        catalogo: atrasado(100), hoy: '2026-01-01', diasGracia: 30, maximo: 30
+    });
+    assert.equal(purgados.length, 30);
+    assert.equal(pendientes, 70);
+    assert.equal(catalogo.length, 70);
+});
+
+test('sin tope, purgar se lleva todo lo elegible (comportamiento de siempre)', () => {
+    const { purgados, pendientes } = purgar({
+        catalogo: atrasado(100), hoy: '2026-01-01', diasGracia: 30
+    });
+    assert.equal(purgados.length, 100);
+    assert.equal(pendientes, 0);
+});
+
+test('con tope se va primero el que lleva mas tiempo ausente', () => {
+    const cat = [
+        { id: 1, status: 'hidden', lastSeen: '2025-06-01' },
+        { id: 2, status: 'hidden', lastSeen: '2025-01-01' }, // el mas viejo
+        { id: 3, status: 'hidden', lastSeen: '2025-03-01' }
+    ];
+    const { purgados } = purgar({ catalogo: cat, hoy: '2026-01-01', diasGracia: 30, maximo: 2 });
+    assert.deepEqual(purgados, [2, 3]);
+});
+
+test('con fechas iguales el desempate es estable', () => {
+    // Los 9.654 del atraso comparten lastSeen. Sin un criterio estable, cual
+    // se borra hoy dependeria del orden en que quedaron en el archivo, y dos
+    // corridas con los mismos datos darian resultados distintos.
+    const desordenado = [3, 1, 2].map((id) => ({ id, status: 'hidden', lastSeen: '2025-01-01' }));
+    const a = purgar({ catalogo: desordenado, hoy: '2026-01-01', diasGracia: 30, maximo: 2 });
+    const b = purgar({ catalogo: [...desordenado].reverse(), hoy: '2026-01-01', diasGracia: 30, maximo: 2 });
+    assert.deepEqual(a.purgados, [1, 2]);
+    assert.deepEqual(b.purgados, [1, 2]);
+});
+
+test('una purga topeada al limite nunca hace saltar el freno', () => {
+    // Es la propiedad que importa: con el tope puesto, verificarCambios no
+    // tiene nada que rechazar, por grande que sea el atraso.
+    const catalogo = [
+        ...atrasado(9654),
+        ...Array.from({ length: 5388 }, (_, i) => ({ id: 100000 + i, status: 'active', lastSeen: '2026-01-01' }))
+    ];
+    const maximo = Math.floor(catalogo.length * LIMITES.purgaMaxima);
+    const { purgados, pendientes } = purgar({ catalogo, hoy: '2026-01-01', diasGracia: 30, maximo });
+
+    assert.ok(pendientes > 0, 'el caso de prueba tiene que dejar atraso pendiente');
+    const problemas = verificarCambios({
+        reporte: { ocultados: 0, saltos: [] },
+        activosPrevios: 5388,
+        purgados,
+        totalPrevio: catalogo.length
+    });
+    assert.deepEqual(problemas, []);
 });

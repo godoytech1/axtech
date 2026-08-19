@@ -231,6 +231,23 @@ ocultan. Sin frenos, el sitio amanece vacío.
 Si un freno salta y el resultado igual es correcto, se repite con `--forzar`
 **a mano**. Nunca en CI.
 
+**Un freno que salta aborta el sync entero**, no solo la parte que lo hizo
+saltar: ni precios, ni productos nuevos, ni imágenes. Y vuelve a saltar cada
+noche hasta que alguien intervenga. Por eso la purga **se limita sola** al 5%
+del catálogo por corrida (`maximo` en `purgar()`) en vez de proponer un borrado
+que el freno rechazaría.
+
+El caso que lo motivó: la migración del 15/08/2026 dejó 9.654 registros que la
+lista del proveedor nunca volvió a mencionar. A los 30 días —el 15/09/2026— la
+purga iba a querer borrar el **63,7%** del catálogo de una vez. Con el tope, ese
+atraso se drena en unas 21 noches sin que nadie haga nada y sin que la tienda
+deje de actualizarse un solo día.
+
+El tope no debilita el freno: para llegar a la purga un producto tiene que
+haber estado oculto 30 días, y ocultar en masa ya tiene su propio freno
+(`ocultadosMaximo`, 10%) que salta mucho antes. Lo único que el tope deja pasar
+es un atraso acumulado.
+
 ### Si el proveedor cambia el formato de la lista
 
 Los tests del parser corren contra fixtures sintéticas
@@ -273,11 +290,13 @@ solo todas las noches y se despliega solo.
   `sitemap.xml`. Sin esto, las URLs pueden tardar meses en indexarse. El
   archivo de verificación va en `public/static/`.
 - **Token de GitHub**: revocar cualquier token viejo que haya quedado activo.
-- **Vigilar la primera purga.** Ningún producto se purgó todavía: la migración
-  dejó a todo el catálogo con `lastSeen` del 2026-08-15, así que los primeros
-  borrados caen alrededor del 2026-09-14 y serán muchos (unos 9.700 registros
-  heredados del scraper viejo). El freno del 5% va a saltar y hay que
-  revisarlos antes de forzar.
+- **La primera purga ya no necesita a nadie.** Arranca el **2026-09-15** y son
+  9.774 registros heredados de la migración: entraron el 15/08, la lista del
+  proveedor no los volvió a mencionar ni una vez, no tienen precio y sólo 88 de
+  ellos tienen imagen. El tope del 5% por corrida los drena en unas 21 noches,
+  hasta dejar el catálogo en ~5.400 registros, todos activos. Vale mirar el log
+  del sync la mañana del 16/09 para confirmar que la primera tanda salió como
+  se espera (758 borrados, 8.896 pendientes).
 
 ### Dato de negocio a tener presente
 
