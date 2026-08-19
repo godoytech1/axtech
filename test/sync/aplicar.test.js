@@ -140,6 +140,54 @@ test('el precio sale del dolar de la lista, no del precio anterior (idempotente)
 
 // --- purgar ---------------------------------------------------------------
 
+// --- Exclusiones: lo que el proveedor vende y AXTECH no.
+//
+// El collar de adiestramiento para perros seguia publicado despues de sacarlo
+// de "Consolas y Videojuegos": como no clasificaba en ninguna categoria, el
+// sync le conservaba la que ya tenia. Estos tests prueban el camino completo,
+// que es lo que importa: que el sync de esta noche no lo vuelva a publicar.
+
+const COLLAR = 'COLAR DE TREINAMENTO P/ CACHORROS A-MT688 BLACK *G C/CONTROLE REMOTE DOG TRAI';
+
+test('un producto fuera del rubro no entra al catalogo aunque este en la lista', () => {
+    const { catalogo, reporte } = aplicarLista({
+        catalogo: [],
+        lista: new Map([['900001', { titulo: COLLAR, usd: 30 }]]),
+        hoy: '2026-01-01', config, ultimoId: 0
+    });
+    assert.deepEqual(catalogo, []);
+    assert.equal(reporte.excluidos, 1);
+    assert.equal(reporte.nuevos, 0);
+});
+
+test('un producto ya publicado que pasa a estar excluido se oculta', () => {
+    const previo = [{
+        id: 1, ref: '900001', slug: 'collar-1', title: COLLAR,
+        brand: 'GENERIC', category: 'consolas-y-videojuegos', specs: [],
+        price: 250000, status: 'active', firstSeen: '2025-12-01', lastSeen: '2025-12-31'
+    }];
+    const { catalogo, reporte } = aplicarLista({
+        catalogo: previo,
+        lista: new Map([['900001', { titulo: COLLAR, usd: 30 }]]),
+        hoy: '2026-01-01', config, ultimoId: 1
+    });
+    assert.equal(catalogo[0].status, 'hidden');
+    assert.equal(catalogo[0].price, undefined);
+    assert.equal(reporte.excluidosOcultados, 1);
+    // No se mezcla con el freno que vigila las bajas de stock del proveedor.
+    assert.equal(reporte.ocultados, 0);
+    // lastSeen intacto: la purga lo borra a los 30 dias como a cualquier otro.
+    assert.equal(catalogo[0].lastSeen, '2025-12-31');
+});
+
+test('la exclusion no toca los productos que si se venden', () => {
+    const { catalogo, reporte } = aplicarLista({
+        catalogo: [], lista: lista(), hoy: '2026-01-01', config, ultimoId: 0
+    });
+    assert.equal(catalogo.length, 1);
+    assert.equal(reporte.excluidos, 0);
+});
+
 test('purgar borra los ocultos con mas de 30 dias y respeta a los activos', () => {
     const cat = [
         { id: 1, status: 'hidden', lastSeen: '2025-12-01' },

@@ -147,6 +147,7 @@ console.log(`  precio actualizado:            ${rep.actualizados}  (subieron ${r
 console.log(`  sin cambio:                    ${rep.sinCambio}`);
 console.log(`  ocultados por no figurar:      ${rep.ocultados}`);
 console.log(`  sin clasificar (descartados):  ${rep.sinClasificar}`);
+console.log(`  fuera del rubro (excluidos):   ${rep.excluidos}  (${rep.excluidosOcultados} se ocultaron ahora)`);
 console.log(`  purgados (${DIAS_GRACIA}+ dias ausentes):  ${purgados.length}`);
 console.log(`\n  ACTIVOS: ${activos.length}   (antes ${activosPrevios})`);
 console.log(`  REGISTROS: ${purgado.length}   (antes ${totalPrevio})`);

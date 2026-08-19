@@ -51,6 +51,15 @@ categorías. Lo que no se puede duplicar no se puede desincronizar.
 9. **No existe categoría de descarte.** Un producto que no se puede clasificar
    se marca `hidden` y se reporta. Nunca se lo mete en un cajón de sastre: así
    fue como el 41,3% del catálogo terminó en "Periféricos".
+   **"No sé clasificarlo" y "no lo vendemos" son cosas distintas.** Lo primero
+   lo decide `src/lib/taxonomy.js` y el sync conserva la categoría que el
+   producto ya tuviera, para que un título recortado por el proveedor no borre
+   un producto de la tienda. Lo segundo se declara en
+   `src/lib/exclusiones.js`, que marca la frontera del rubro: lo excluido no
+   entra, y si ya estaba se oculta y lo purga el mismo ciclo de 30 días. Se
+   cuenta aparte de los ocultados normales, porque el freno de
+   `src/sync/verificar.js` mide bajas de stock del proveedor, no decisiones
+   nuestras.
 10. **Los precios se calibran contra el mercado, no a ojo.** El objetivo es
     quedar 15-17% por debajo del minorista de Asunción. Referencias usadas:
     Master Tech, Nissei, Compras Paraguai.

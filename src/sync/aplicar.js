@@ -13,6 +13,7 @@
  * para saber que iba a pasar habia que dejar que pasara.
  */
 import { normalizarTitulo } from '../lib/normalize.js';
+import { excluido } from '../lib/exclusiones.js';
 import { clasificar, detectarMarca } from '../lib/taxonomy.js';
 import { precioFinal } from '../lib/pricing.js';
 import { slugDeProducto } from '../lib/slug.js';
@@ -44,6 +45,8 @@ export function aplicarLista({ catalogo, lista, hoy, config, ultimoId }) {
         ocultados: 0,
         sinClasificar: 0,
         categoriaHeredada: 0,
+        excluidos: 0,
+        excluidosOcultados: 0,
         precioSubio: 0,
         precioBajo: 0,
         saltos: []
@@ -53,6 +56,15 @@ export function aplicarLista({ catalogo, lista, hoy, config, ultimoId }) {
 
     for (const [ref, item] of lista) {
         const titulo = normalizarTitulo(item.titulo);
+
+        // Lo que no pertenece al rubro no entra, aunque el proveedor lo
+        // ofrezca. Va antes de clasificar: si no se vende, no hace falta
+        // decidir en que categoria no se vende.
+        if (excluido(titulo)) {
+            reporte.excluidos++;
+            continue;
+        }
+
         const existente = porRef.get(String(ref));
 
         // Si el titulo deja de clasificar pero el producto YA esta catalogado,
@@ -120,6 +132,19 @@ export function aplicarLista({ catalogo, lista, hoy, config, ultimoId }) {
             }
         } else {
             reporte.sinCambio++;
+        }
+    }
+
+    // Lo que ya estaba publicado y ahora esta excluido se oculta aca, con su
+    // propio contador. Si se sumara a `ocultados`, una decision nuestra sobre
+    // que vender haria saltar el freno que vigila cuanto stock dio de baja el
+    // proveedor: dos cosas distintas medidas con el mismo numero.
+    for (const p of salida) {
+        if (p.status === 'active' && excluido(p.title)) {
+            p.status = 'hidden';
+            delete p.price;
+            delete p.specs;
+            reporte.excluidosOcultados++;
         }
     }
 
