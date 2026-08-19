@@ -54,6 +54,23 @@ categorías. Lo que no se puede duplicar no se puede desincronizar.
 10. **Los precios se calibran contra el mercado, no a ojo.** El objetivo es
     quedar 15-17% por debajo del minorista de Asunción. Referencias usadas:
     Master Tech, Nissei, Compras Paraguai.
+11. **Una opción de filtro solo reclama un producto si hay evidencia en el
+    título.** Sin evidencia, la función devuelve `null` y el producto queda
+    visible en la categoría pero fuera de todas las casillas. Ninguna función
+    de `app.js` puede terminar en un `return` fijo que adivine
+    (`return 'PC'`, `return 'NVIDIA'`, `return 'INTEL'`): una función que
+    adivina no falla nunca, la consola queda limpia y lo único que pasa es
+    que el filtro miente. Protegido por `test/front/filtros.test.js`.
+    La única excepción documentada es `getNotebookType`, porque "gamer" y
+    "ofimática" son un segmento de venta, no un dato físico.
+12. **Una característica del producto nunca le gana a lo que el producto es.**
+    `C/Cable`, `S/Fuente`, `Con Fuente`, `C/CONTROLE` y `FOR XBOX` describen
+    lo que el aparato trae o con qué es compatible. Es el error más repetido
+    de la taxonomía: ya se llevó cables, fuentes, ventiladores de techo,
+    tiras de LED y hasta un collar para perros a la categoría equivocada.
+    Cada caso resuelto tiene su par de tests en `test/lib/taxonomy.test.js`:
+    uno que verifica que el intruso se fue y otro que el producto legítimo
+    sigue donde estaba.
 
 ## Negocio
 

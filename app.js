@@ -888,9 +888,19 @@ document.addEventListener('DOMContentLoaded', () => {
     // ----------------------------------------------------------------------
     // SUB-FILTERS HELPER AND RENDERING LOGIC
     // ----------------------------------------------------------------------
+    // El atajo "TV 55" existe porque el proveedor no siempre pone la comilla.
+    // Le faltaba el \b inicial y se metia dentro de otras palabras: "RECEPTOR
+    // HTV H8 4K IPTV 16GB/2GB" matcheaba el "TV 16" de "IPTV 16GB" y publicaba
+    // dos receptores como televisores de 16 pulgadas, con su opcion propia en
+    // el filtro de tamanio.
     function getTvSize(title) {
         let match = title.match(/(\d{2,3})\s*(?:"|polegadas|inch|'|Pulgadas)/i);
-        if (!match) match = title.match(/TV\s+(\d{2,3})/i);
+        if (!match) {
+            const abreviado = title.match(/\bTV\s+(\d{2,3})(?!\s*(?:gb|tb|mb|hz|k\b))/i);
+            // Un televisor de menos de 24 o mas de 110 pulgadas no existe en
+            // este catalogo: si el numero cae fuera, no era una medida.
+            if (abreviado && +abreviado[1] >= 24 && +abreviado[1] <= 110) match = abreviado;
+        }
         if (match) {
             let val = parseInt(match[1], 10);
             if (val >= 30 && val <= 39) return "32\"";
@@ -960,47 +970,99 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         if (match) {
-            let val = parseFloat(match[1]);
-            if (val >= 23.0 && val <= 24.9) return "24";
-            if (val >= 25.0 && val <= 27.9) return "27";
-            if (val >= 31.0 && val <= 32.9) return "32";
-            if (val >= 20.0 && val <= 22.9) return "20-22";
-            if (val >= 17.0 && val <= 19.9) return "17-19";
-            if (val >= 14.0 && val <= 16.9) return "15-16";
-            if (val >= 33.0 && val <= 35.0) return "34";
-            if (val >= 40.0 && val <= 44.0) return "40";
-            if (val >= 48.0 && val <= 49.9) return "49";
-            return Math.round(val).toString();
+            const val = parseFloat(match[1]);
+            // Tramos contiguos. Antes quedaban huecos (28-30.9, 35-40, 44-48)
+            // y cada medida que caia en uno se convertia en su propia opcion
+            // del filtro: hoy hay un monitor de 28" y otro de 29" con una
+            // casilla para cada uno.
+            if (val < 13) return null;   // no es la medida de un monitor
+            if (val < 17) return '15-16';
+            if (val < 20) return '17-19';
+            if (val < 23) return '20-22';
+            if (val < 25) return '24';
+            if (val < 28) return '27';
+            if (val < 31) return '28-30';
+            if (val < 33) return '32';
+            if (val < 36) return '34';
+            if (val < 45) return '40';
+            return '49';
         }
         return null;
     }
 
 
+    // Se decide por el CHIP, que es lo que el comprador filtra, no por la marca
+    // que ensambla la placa. Antes esta funcion buscaba "rx " CON ESPACIO y el
+    // proveedor escribe "RX580" pegado: once placas AMD (RX 580, RX 560, RX
+    // 7600, R5 230, R5 220, R7 350, HD 7670) se mostraban como NVIDIA porque
+    // caian en el `return 'NVIDIA'` del final.
+    //
+    // "ASROCK" y "CHALLENGER" salieron de la lista de AMD: ASRock tambien
+    // fabrica placas Intel Arc, y la linea Challenger existe en las dos. Con
+    // ellas dentro, "VGA ASROCK INTEL ARC B570 CHALLENGER" quedaba como AMD.
+    // Las AMD de ASRock se reconocen igual por su propio modelo (RX 9070 XT).
+    //
+    // Si no hay evidencia de ningun chip devuelve null: el producto sigue
+    // visible en la categoria, pero ninguna opcion del filtro lo reclama.
     function getGpuChip(title) {
         const t = title.toLowerCase();
-        if (t.includes('radeon') || t.includes('amd') || t.includes('xfx') || t.includes('sapphire') || t.includes('powercolor') || t.includes('power color') || t.includes('hellhound') || t.includes('asrock') || t.includes('rx ') || t.includes('challenger') || t.includes('steel legend') || t.includes('pulse')) {
+        if (/\bintel\b|\barc\s?[ab]\d{3}\b/.test(t)) return 'INTEL';
+        if (/radeon|\brx ?\d{3,4}|\br[3579][ -]?\d{3}\b|\bhd ?\d{4}\b|\bvega\b|\bamd\b|xfx|sapphire|powercolor|power color|hellhound|steel legend|\bpulse\b/.test(t)) {
             return 'AMD';
         }
-        return 'NVIDIA';
+        if (/nvidia|geforce|\brtx ?\d|\bgtx ?\d|\bgt ?\d{3}|\bg\d{3}\b|quadro/.test(t)) return 'NVIDIA';
+        return null;
     }
+
+    // El proveedor escribe el socket pegado a la abreviatura: "MB 1851 ...",
+    // "MB AM5 ...". Ese es el dato mas confiable del titulo, asi que se lee
+    // primero y el chipset queda de respaldo.
+    //
+    // Antes terminaba en `return 'INTEL'`, o sea que cualquier placa que el
+    // codigo no reconociera se declaraba Intel. Hoy hay 19 placas de socket
+    // 1851 y 775 que ningun patron detectaba y que aparecian como Intel de
+    // pura casualidad: la casualidad se acaba el dia que el proveedor traiga
+    // un socket AMD nuevo, y entonces se venden placas AMD como Intel.
+    //
+    // Ojo con los chipsets de la serie 800: B850 y X870 son AMD, B860 y Z890
+    // son Intel. Un digito de diferencia.
+    const SOCKETS_AMD = new Set(['am3', 'am4', 'am5', 'fm2']);
+    const SOCKETS_INTEL = new Set(['775', '1150', '1151', '1155', '1200', '1700', '1851', '2011']);
 
     function getMbPlatform(title) {
         const t = title.toLowerCase();
-        if (t.includes('am4') || t.includes('am5') || t.includes('a320') || t.includes('a520') || t.includes('b350') || t.includes('b450') || t.includes('b550') || t.includes('b650') || t.includes('x370') || t.includes('x470') || t.includes('x570') || t.includes('x670') || t.includes('a620') || t.includes('x870') || t.includes('b850')) {
-            return 'AMD';
+
+        const socket = t.match(/^mb\s+(am\d|fm\d|\d{3,4})\b/);
+        if (socket) {
+            if (SOCKETS_AMD.has(socket[1])) return 'AMD';
+            if (SOCKETS_INTEL.has(socket[1])) return 'INTEL';
         }
-        if (t.includes('h110') || t.includes('h310') || t.includes('h410') || t.includes('h510') || t.includes('h610') || t.includes('h81') || t.includes('b250') || t.includes('b360') || t.includes('b365') || t.includes('b460') || t.includes('b560') || t.includes('b660') || t.includes('b760') || t.includes('z170') || t.includes('z270') || t.includes('z370') || t.includes('z390') || t.includes('z490') || t.includes('z590') || t.includes('z690') || t.includes('z790') || t.includes('lga1151') || t.includes('lga1200') || t.includes('lga1700') || t.includes('lga 1700') || t.includes('lga 1200') || t.includes('lga 1151') || t.includes('lga1851') || t.includes('h470') || t.includes('b760m') || t.includes('h610m') || t.includes('h510m') || t.includes('1700') || t.includes('1155') || t.includes('1150') || t.includes('2011') || t.includes('x99') || t.includes('1151')) {
-            return 'INTEL';
-        }
-        if (t.includes('intel')) return 'INTEL';
-        if (t.includes('amd')) return 'AMD';
-        return 'INTEL';
+        if (/\b(am[345]|fm2|a320|a520|a620|b350|b450|b550|b650|b840|b850|x370|x470|x570|x670|x870)\b/.test(t)) return 'AMD';
+        if (/\b(h81|h110|h310|h410|h470|h510|h610|h770|h810|b250|b360|b365|b460|b560|b660|b760|b860|z170|z270|z370|z390|z490|z590|z690|z790|z890|x99)\b/.test(t)) return 'INTEL';
+        if (/\blga\s?(1150|1151|1155|1200|1700|1851|2011)\b/.test(t)) return 'INTEL';
+        if (/\bryzen\b|\bamd\b/.test(t)) return 'AMD';
+        if (/\bintel\b/.test(t)) return 'INTEL';
+        return null;
     }
+
+    // Aca el `return` del final SI es legitimo, a diferencia de los otros
+    // clasificadores: "gamer" y "ofimatica" son un segmento de venta, no un
+    // dato fisico. Una notebook que no nombra ninguna GPU dedicada ni ninguna
+    // linea gamer es, efectivamente, de oficina. No hay nada que adivinar.
+    //
+    // Lo que si faltaba era la mitad de las lineas gamer del mercado. Hoy no
+    // hay stock de ninguna de ellas, asi que no cambia ningun producto: se
+    // agregan para que el dia que entre una ROG o una Legion no aparezca en
+    // "Ofimatica" sin que nadie se entere.
+    const LINEAS_GAMER = [
+        'rtx', 'gtx', 'gaming', 'gamer', 'nitro', 'predator', 'victus', 'loq', 'tuf',
+        'rog', 'legion', 'omen', 'alienware', 'katana', 'sword', 'cyborg', 'raider',
+        'stealth', 'vector', 'aorus', 'helios', 'zephyrus', 'strix', 'crosshair', 'titan'
+    ];
 
     function getNotebookType(title) {
         const titleLower = title.toLowerCase();
-        const gamerTerms = ['rtx', 'gtx', 'gaming', 'gamer', 'nitro', 'predator', 'victus', 'loq', 'tuf'];
-        for (let term of gamerTerms) {
+        for (let term of LINEAS_GAMER) {
             if (titleLower.includes(term)) {
                 return 'Gamer';
             }
@@ -1013,9 +1075,29 @@ document.addEventListener('DOMContentLoaded', () => {
         return match ? match[0].toUpperCase() : null;
     }
 
+    // El catalogo marca la memoria de notebook con "NB" justo despues de "MEM":
+    // "MEM NB DDR4 8GB 3200 KINGSTON KCP432SS8/8". Las 77 memorias que lo
+    // llevan son SODIMM sin una sola excepcion.
+    //
+    // Antes esta funcion no miraba "NB" y buscaba la palabra "SODIMM", que el
+    // proveedor solo escribe cuando se acuerda: aparece en 22 de las 77. Las
+    // otras 55 caian en el `return 'PC'` del final y se mostraban al filtrar
+    // por PC. Un modulo SODIMM no entra fisicamente en un motherboard de
+    // escritorio, asi que era una venta equivocada esperando a pasar.
+    //
+    // "LO-DIMM" no sirve como senial: el proveedor lo escribe tanto en modulos
+    // de notebook como de escritorio ("MEM DDR4 16GB 3200 MACROWAY LO-DIMM").
     function getRamType(title) {
         const t = title.toLowerCase();
-        if (t.includes('sodimm') || t.includes('notebook') || t.includes('laptop') || t.includes('macbook') || /\bmac\b/i.test(t) || t.includes('so-dimm')) {
+        if (
+            /\bnb\b/.test(t) ||
+            t.includes('sodimm') ||
+            t.includes('so-dimm') ||
+            t.includes('notebook') ||
+            t.includes('laptop') ||
+            t.includes('macbook') ||
+            /\bmac\b/.test(t)
+        ) {
             return 'Laptop';
         }
         return 'PC';
@@ -1033,24 +1115,38 @@ document.addEventListener('DOMContentLoaded', () => {
         return null;
     }
 
+    // Los tramos tenian huecos: 451-499, 601-649, 751-799 y 851-999 no entraban
+    // en ninguno y caian en el `return w + 'W'` del final, que le inventa al
+    // filtro una opcion suelta para un solo producto ("480W"). Ahora son
+    // contiguos y no hay vatiaje que quede afuera.
     function getPsuWattage(title) {
         const match = title.match(/(\d+)\s*W\b/i);
         if (!match) return null;
-        let w = parseInt(match[1], 10);
-        if (w >= 200 && w <= 450) return "200W - 450W";
-        if (w >= 500 && w <= 600) return "500W - 600W";
-        if (w >= 650 && w <= 750) return "650W - 750W";
-        if (w >= 800 && w <= 850) return "800W - 850W";
-        if (w >= 1000) return "1000W+";
-        return w + 'W';
+        const w = parseInt(match[1], 10);
+        // Menos de 150W no es una fuente de PC: son adaptadores e inyectores
+        // PoE que se colaban en la categoria.
+        if (w < 150) return null;
+        if (w < 500) return '200W - 450W';
+        if (w < 650) return '500W - 600W';
+        if (w < 800) return '650W - 750W';
+        if (w < 1000) return '800W - 999W';
+        return '1000W+';
     }
 
+    // Se pide evidencia de las dos cosas en vez de dar por perifericos todo lo
+    // que no diga "CONSOLE". Asi, si el proveedor trae algo que no es ninguna
+    // de las dos, queda sin reclamar por el filtro en lugar de anunciarse como
+    // periferico de consola.
+    const TIPOS_DE_JUEGO = [
+        [/\b(console|consola|playstation \d|xbox series|xbox one|nintendo switch)\b/i, 'Consolas'],
+        [/\b(controle|control|joystick|gamepad|dualsense|dualshock|volante|simulador|shifter|cambio|painel de instrumentos|headset|estacao de carregamento|unidade de disco)\b/i, 'Periféricos']
+    ];
+
     function getConsoleProductType(title) {
-        const t = title.toUpperCase();
-        if (t.includes('CONSOLE') || t.includes('CONSOLA')) {
-            return 'Consolas';
+        for (const [patron, tipo] of TIPOS_DE_JUEGO) {
+            if (patron.test(title)) return tipo;
         }
-        return 'Periféricos';
+        return null;
     }
 
     function getStorageCapacity(title) {
@@ -1060,12 +1156,17 @@ document.addEventListener('DOMContentLoaded', () => {
         let unit = match[2].toUpperCase();
         if (unit === 'TB') num = num * 1000;
         
-        if (num >= 100 && num <= 300) return "120GB - 256GB";
-        if (num >= 400 && num <= 600) return "480GB - 512GB";
-        if (num >= 800 && num <= 1200) return "1TB";
-        if (num >= 1800 && num <= 2400) return "2TB";
-        if (num >= 3500) return "4TB+";
-        return num + 'GB';
+        // Mismo problema que en las fuentes: los tramos dejaban huecos
+        // (301-399, 601-799, 1201-1799, 2401-3499) y cada capacidad que caia
+        // en uno se convertia en una opcion suelta del filtro. Ahora son
+        // contiguos. Los pendrives y microSD chicos se agrupan en un tramo
+        // propio en vez de aparecer como "16GB", "32GB" y "64GB" sueltos.
+        if (num < 100) return 'Hasta 64GB';
+        if (num < 400) return '120GB - 256GB';
+        if (num < 800) return '480GB - 512GB';
+        if (num < 1500) return '1TB';
+        if (num < 3000) return '2TB';
+        return '4TB+';
     }
 
 
@@ -1255,13 +1356,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `;
         } else if (category === 'tarjetas-de-video') {
-            let chips = { 'NVIDIA': 0, 'AMD': 0 };
+            // La lista de opciones sale de lo que hay en stock, no escrita a
+            // mano: antes eran NVIDIA y AMD fijas y las placas Intel Arc no
+            // tenian donde caer. Si manana entra otro chip, aparece solo.
+            let chips = {};
             PRODUCTS.forEach(p => {
                 if (p.category === 'tarjetas-de-video') {
                     const chip = getGpuChip(p.title);
                     if (chip) chips[chip] = (chips[chip] || 0) + 1;
                 }
             });
+            const chipsPresentes = ['NVIDIA', 'AMD', 'INTEL']
+                .filter((c) => chips[c])
+                .concat(Object.keys(chips).filter((c) => !['NVIDIA', 'AMD', 'INTEL'].includes(c)).sort());
 
             html += `
                 <div class="filter-group">
@@ -1271,13 +1378,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     </button>
                     <div class="filter-group-content show">
                         <ul class="filter-options">
-                            ${['NVIDIA', 'AMD'].map(chip => `
+                            ${chipsPresentes.map(chip => `
                                 <li>
                                     <label class="filter-checkbox-label">
                                         <input type="checkbox" class="filter-checkbox" data-filter-type="gpuBrands" value="${chip}" ${activeSubfilters.gpuBrands.includes(chip) ? 'checked' : ''}>
                                         <span class="checkbox-custom"></span>
                                         <span class="option-name">${chip}</span>
-                                        <span class="option-count">(${chips[chip] || 0})</span>
+                                        <span class="option-count">(${chips[chip]})</span>
                                     </label>
                                 </li>
                             `).join('')}
@@ -1286,13 +1393,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `;
         } else if (category === 'placas-madre') {
-            let platforms = { 'INTEL': 0, 'AMD': 0 };
+            let platforms = {};
             PRODUCTS.forEach(p => {
                 if (p.category === 'placas-madre') {
                     const platform = getMbPlatform(p.title);
                     if (platform) platforms[platform] = (platforms[platform] || 0) + 1;
                 }
             });
+            const plataformasPresentes = ['INTEL', 'AMD'].filter((x) => platforms[x]);
 
             html += `
                 <div class="filter-group">
@@ -1302,13 +1410,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     </button>
                     <div class="filter-group-content show">
                         <ul class="filter-options">
-                            ${['INTEL', 'AMD'].map(platform => `
+                            ${plataformasPresentes.map(platform => `
                                 <li>
                                     <label class="filter-checkbox-label">
                                         <input type="checkbox" class="filter-checkbox" data-filter-type="mbBrands" value="${platform}" ${activeSubfilters.mbBrands.includes(platform) ? 'checked' : ''}>
                                         <span class="checkbox-custom"></span>
                                         <span class="option-name">${platform}</span>
-                                        <span class="option-count">(${platforms[platform] || 0})</span>
+                                        <span class="option-count">(${platforms[platform]})</span>
                                     </label>
                                 </li>
                             `).join('')}
@@ -1339,7 +1447,9 @@ document.addEventListener('DOMContentLoaded', () => {
                                     <label class="filter-checkbox-label">
                                         <input type="checkbox" class="filter-checkbox" data-filter-type="tvSizes" value="${size}" ${activeSubfilters.tvSizes && activeSubfilters.tvSizes.includes(size) ? 'checked' : ''}>
                                         <span class="checkbox-custom"></span>
-                                        <span class="option-name">${size}"</span>
+                                        <!-- getTvSize ya devuelve la comilla ('43"', '85"+'): agregar otra
+                                             mostraba 43"" en el filtro. -->
+                                        <span class="option-name">${size}</span>
                                         <span class="option-count">(${sizes[size]})</span>
                                     </label>
                                 </li>
@@ -1536,14 +1646,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (cap) capacities[cap] = (capacities[cap] || 0) + 1;
                 }
             });
-            let sortedCapacities = Object.keys(capacities).sort((a, b) => {
-                const getVal = str => {
-                    let num = parseFloat(str);
-                    if (str.includes('TB')) return num * 1024;
-                    return num;
-                };
-                return getVal(a) - getVal(b);
-            });
+            // El orden sale de una lista explicita, no de leer un numero del
+            // texto: `parseFloat('Hasta 64GB')` es NaN, y con NaN el sort deja
+            // la opcion donde caiga (aparecia ultima, despues de 4TB+).
+            const ORDEN_CAPACIDAD = ['Hasta 64GB', '120GB - 256GB', '480GB - 512GB', '1TB', '2TB', '4TB+'];
+            let sortedCapacities = Object.keys(capacities)
+                .sort((a, b) => ORDEN_CAPACIDAD.indexOf(a) - ORDEN_CAPACIDAD.indexOf(b));
 
             html += `
                 <div class="filter-group">

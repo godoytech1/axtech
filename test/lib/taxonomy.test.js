@@ -229,3 +229,45 @@ test('las cajas de streaming siguen en televisores', () => {
     assert.equal(clasificar({ titulo: 'AMAZON FIRE TV STICK HD 2024 4697713' }), 'televisores');
     assert.equal(clasificar({ titulo: 'SMART TV 50 SAMSUNG 4K UHD' }), 'televisores');
 });
+
+// --- Tercera tanda del mismo patron: una CARACTERISTICA del producto le
+// gana a la palabra que dice QUE ES. Aparecio revisando por que el filtro de
+// "Memorias RAM" ofrecia modulos de notebook a quien buscaba para PC.
+
+test('"C/CONTROLE" es control remoto, no un mando de consola', () => {
+    // Diez productos vivian en "Consolas y Videojuegos" por esta palabra:
+    // tres ventiladores de techo, tres tiras de LED, tres coolers de PC y un
+    // collar de adiestramiento para perros.
+    assert.equal(clasificar({ titulo: 'VENTILADOR HYE FSR40ABW-R C/CONTROLE 110V/60Hz 16"' }), 'refrigeracion');
+    assert.equal(clasificar({ titulo: 'COOLER FAN UP GAMER ELITE KIT 5X1 ARGB C/CONTROLE' }), 'refrigeracion');
+    assert.equal(clasificar({ titulo: 'FITA LED RGB 20 MTS DMX CONTROLE USB' }), 'smart-home');
+    assert.equal(clasificar({ titulo: 'CONTROLE HIKIVSION DE ACCESO FACIAL 3000 FACES' }), 'smart-home');
+});
+
+test('un mando de consola de verdad sigue en consolas', () => {
+    assert.equal(clasificar({ titulo: 'CONTROLE PS5 SONY DUAL SENSE CFI-ZCT1W COSMIC RED' }), 'consolas-y-videojuegos');
+    assert.equal(clasificar({ titulo: 'CONTROLE REDRAGON G710 RIFT PARA PC' }), 'consolas-y-videojuegos');
+    assert.equal(clasificar({ titulo: 'VOLANTE LOGITECH G29 DRIV.FORCE PS4/PS5 941-000111' }), 'consolas-y-videojuegos');
+});
+
+test('nombrar una consola es compatibilidad, no identidad', () => {
+    // Un disco externo "FOR XBOX" es un disco.
+    assert.equal(clasificar({ titulo: 'HD EXT 2TB SEAGATE STKX2000400 2.5" FOR XBOX XBOX SERIES X/S' }), 'almacenamiento-ssd');
+    assert.equal(clasificar({ titulo: 'SSD EXT 2TB SANDISK EXTREME SDSSDE62P-2T00-G25 PS5' }), 'almacenamiento-ssd');
+    // Pero un accesorio que solo existe para la consola si va con ella.
+    assert.equal(clasificar({ titulo: 'UNIDADE DE DISCO PLAYSTATION 5 CFI-ZDD1 DISC DRIVER' }), 'consolas-y-videojuegos');
+});
+
+test('"S/Fuente" y "Con Fuente" dicen si el equipo TRAE fuente, no que lo sea', () => {
+    // Nueve equipos de red se publicaban en "Fuentes de Poder": una antena,
+    // una ONU y siete inyectores PoE.
+    assert.equal(clasificar({ titulo: 'UI. ANTENA NANOSTATION AC NS-5ACL LOCO5AC 10KM 13D S/Fuente AIRMAX' }), 'redes-y-conectividad');
+    assert.equal(clasificar({ titulo: 'UI. UF-LOCO-BR ONU GPON 1 PORT BRIDGE/PPPOE Con Fuente' }), 'redes-y-conectividad');
+    assert.equal(clasificar({ titulo: 'UI. POE-24-30W-G-WH POE INJECTOR 24VDC 1.25AMP GIGA Fuente' }), 'redes-y-conectividad');
+    assert.equal(clasificar({ titulo: 'MIKROTIK Fuente 24V 0.8A 18POW RB133 RB411 RB450' }), 'redes-y-conectividad');
+});
+
+test('una fuente de PC de verdad sigue siendo una fuente', () => {
+    assert.equal(clasificar({ titulo: 'FUENTE 750W CORSAIR RM750E 80 PLUS GOLD FULL MODULAR' }), 'fuentes-de-poder');
+    assert.equal(clasificar({ titulo: 'FONTE 600W GAMEMAX GM-600 80 PLUS BRONZE' }), 'fuentes-de-poder');
+});

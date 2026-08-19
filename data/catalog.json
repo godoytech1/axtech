@@ -8350,7 +8350,7 @@
     "slug": "cooler-fan-up-gamer-elite-kit-5x1-argb-c-controle-590",
     "title": "COOLER FAN UP GAMER ELITE KIT 5X1 ARGB C/CONTROLE",
     "brand": "UP GAMER",
-    "category": "consolas-y-videojuegos",
+    "category": "refrigeracion",
     "specs": [
       "ARGB 5v",
       "Black"
@@ -22611,7 +22611,7 @@
     "slug": "hd-ext-2tb-seagate-stkx2000400-2-5-for-xbox-xbox-series-x-s-9945",
     "title": "HD EXT 2TB SEAGATE STKX2000400 2.5\" FOR XBOX XBOX SERIES X/S",
     "brand": "SEAGATE",
-    "category": "consolas-y-videojuegos",
+    "category": "almacenamiento-ssd",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-19",
@@ -24032,7 +24032,7 @@
     "slug": "ui-antena-nanostation-ac-ns-5acl-loco5ac-10km-13d-s-font-s-f-10057",
     "title": "UI. ANTENA NANOSTATION AC NS-5ACL LOCO5AC 10KM 13D S/FONT S/Fuente AIRMAX",
     "brand": "GENERIC",
-    "category": "fuentes-de-poder",
+    "category": "redes-y-conectividad",
     "specs": [
       "Fuente"
     ],
@@ -38529,7 +38529,7 @@
     "slug": "cooler-master-masterliquid-ml240-illusion-rgb-blk-mlx-d24m-a-11264",
     "title": "COOLER MASTER MASTERLIQUID ML240 ILLUSION RGB BLK* MLX-D24M-A18P2 -R1 /C/CONTROLE",
     "brand": "INTEL",
-    "category": "consolas-y-videojuegos",
+    "category": "refrigeracion",
     "specs": [
       "COOLER MASTER",
       "Periféricos"
@@ -41908,7 +41908,7 @@
     "slug": "controle-hikivsion-de-acceso-facial-3000-faces-ds-k1t344mbwx-11570",
     "title": "CONTROLE HIKIVSION DE ACCESO FACIAL 3000 FACES DS-K1T344MBWX-E 1",
     "brand": "GENERIC",
-    "category": "consolas-y-videojuegos",
+    "category": "smart-home",
     "specs": [
       "GENERIC",
       "Periféricos"
@@ -49601,7 +49601,7 @@
     "slug": "ventilador-hye-fsr40abw-r-c-controle-110v-60hz-16-12280",
     "title": "VENTILADOR HYE FSR40ABW-R C/CONTROLE 110V/60Hz 16\"",
     "brand": "GENERIC",
-    "category": "consolas-y-videojuegos",
+    "category": "refrigeracion",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-19",
@@ -49638,7 +49638,7 @@
     "slug": "ventilador-hye-fsr40bbw-r-c-controle-220v-50hz-16-12283",
     "title": "VENTILADOR HYE FSR40BBW-R C/CONTROLE 220V/50Hz 16\"",
     "brand": "GENERIC",
-    "category": "consolas-y-videojuegos",
+    "category": "refrigeracion",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-19",
@@ -49690,7 +49690,7 @@
     "slug": "ventilador-level-lvc-207-100-110v-16-c-controle-8-vel-white-12287",
     "title": "VENTILADOR LEVEL LVC-207-100 110V 16\" C/CONTROLE 8 VEL. WHITE",
     "brand": "GENERIC",
-    "category": "consolas-y-videojuegos",
+    "category": "refrigeracion",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-19",
@@ -59284,7 +59284,7 @@
     "slug": "fita-led-rgb-20-mts-dmx-controle-usb-13095",
     "title": "FITA LED RGB 20 MTS DMX CONTROLE USB",
     "brand": "GENERIC",
-    "category": "consolas-y-videojuegos",
+    "category": "smart-home",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-08-19",
@@ -123334,7 +123334,7 @@
     "slug": "cooler-master-masterliquid-ml240-illusion-rgb-whi-mlx-d24m-a-18726",
     "title": "COOLER MASTER MASTERLIQUID ML240 ILLUSION RGB WHI* MLX-D24M-A18PW -R1 /C/CONTROLE",
     "brand": "COOLER MASTER",
-    "category": "consolas-y-videojuegos",
+    "category": "refrigeracion",
     "specs": [
       "COOLER MASTER",
       "Periféricos"
@@ -130950,7 +130950,7 @@
     "slug": "ui-poe-24-12w-br-injector-24vdc-12w-0-5amp-fuente-19363",
     "title": "UI. POE-24-12W-BR INJECTOR 24VDC 12W 0.5AMP Fuente",
     "brand": "GENERIC",
-    "category": "fuentes-de-poder",
+    "category": "redes-y-conectividad",
     "specs": [
       "GENERIC",
       "Fuentes de Poder"
@@ -131270,7 +131270,7 @@
     "slug": "ui-uf-loco-br-onu-gpon-1-port-bridge-pppoe-con-fuente-19383",
     "title": "UI. UF-LOCO-BR ONU GPON 1 PORT BRIDGE/PPPOE Con Fuente",
     "brand": "GENERIC",
-    "category": "fuentes-de-poder",
+    "category": "redes-y-conectividad",
     "specs": [
       "GENERIC",
       "Fuentes de Poder"
@@ -148724,7 +148724,7 @@
     "slug": "mikrotik-fuente-24v-0-8a-18pow-rb133-rb411-rb450-20890",
     "title": "MIKROTIK Fuente 24V 0.8A 18POW RB133 RB411 RB450",
     "brand": "MIKROTIK",
-    "category": "fuentes-de-poder",
+    "category": "redes-y-conectividad",
     "specs": [
       "GENERIC",
       "Fuentes de Poder"
@@ -150449,7 +150449,7 @@
     "slug": "ui-poe-24-12w-g-injector-24vdc-12w-0-5amp-fuente-21032",
     "title": "UI. POE-24-12W-G INJECTOR 24VDC 12W 0.5AMP Fuente",
     "brand": "GENERIC",
-    "category": "fuentes-de-poder",
+    "category": "redes-y-conectividad",
     "specs": [
       "GENERIC",
       "Fuentes de Poder"
@@ -164312,7 +164312,7 @@
     "slug": "fita-led-rgb-30-mts-dmx-controle-usb-22148",
     "title": "FITA LED RGB 30 MTS DMX CONTROLE USB",
     "brand": "GENERIC",
-    "category": "consolas-y-videojuegos",
+    "category": "smart-home",
     "specs": [],
     "price": 186000,
     "status": "active",
@@ -164325,7 +164325,7 @@
     "slug": "fita-led-rgb-40-mts-dmx-controle-usb-22149",
     "title": "FITA LED RGB 40 MTS DMX CONTROLE USB",
     "brand": "GENERIC",
-    "category": "consolas-y-videojuegos",
+    "category": "smart-home",
     "specs": [],
     "price": 217000,
     "status": "active",
@@ -172316,7 +172316,7 @@
     "slug": "mikrotik-fuente-24v-2-5amp-24hpow-rb411-rb433-rb450-22766",
     "title": "MIKROTIK Fuente 24V 2.5AMP 24HPOW RB411 RB433 RB450",
     "brand": "MIKROTIK",
-    "category": "fuentes-de-poder",
+    "category": "redes-y-conectividad",
     "specs": [],
     "price": 149000,
     "status": "active",
@@ -180572,7 +180572,7 @@
     "slug": "ui-poe-24-30w-poe-injector-24vdc-fuente-airfiber5x-airfiber5-23404",
     "title": "UI. POE-24-30W POE INJECTOR 24VDC Fuente AIRFIBER5X (AIRFIBER5XXX)",
     "brand": "GENERIC",
-    "category": "fuentes-de-poder",
+    "category": "redes-y-conectividad",
     "specs": [],
     "price": 140000,
     "status": "active",
@@ -180598,7 +180598,7 @@
     "slug": "ui-poe-24-30w-g-wh-poe-injector-24vdc-1-25amp-giga-fuente-23406",
     "title": "UI. POE-24-30W-G-WH POE INJECTOR 24VDC 1.25AMP GIGA Fuente",
     "brand": "GENERIC",
-    "category": "fuentes-de-poder",
+    "category": "redes-y-conectividad",
     "specs": [],
     "price": 140000,
     "status": "active",
@@ -180611,7 +180611,7 @@
     "slug": "ui-poe-24-30w-g-wh-br-poe-injector-24vdc-1-25amp-giga-fuente-23407",
     "title": "UI. POE-24-30W-G-WH-BR POE INJECTOR 24VDC 1.25AMP GIGA Fuente",
     "brand": "GENERIC",
-    "category": "fuentes-de-poder",
+    "category": "redes-y-conectividad",
     "specs": [],
     "price": 140000,
     "status": "active",
@@ -182074,7 +182074,7 @@
     "slug": "ssd-ext-2tb-sandisk-extreme-sdssde62p-2t00-g25-1000-blanco-p-23520",
     "title": "SSD EXT 2TB SANDISK EXTREME SDSSDE62P-2T00-G25 1000 Blanco PS5",
     "brand": "GENERIC",
-    "category": "consolas-y-videojuegos",
+    "category": "almacenamiento-ssd",
     "specs": [],
     "price": 2856000,
     "status": "active",

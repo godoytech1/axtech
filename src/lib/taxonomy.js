@@ -124,7 +124,25 @@ const REGLAS = [
     ['relojes-smart',          /\b(smartwatch|smart ?watch|reloj|relogio|mi ?band|apple watch|galaxy watch)\b/i],
     // "IMP " es la abreviatura del proveedor para impresora.
     ['impresoras',             /(\b(impresora|impressora|multifuncion|toner|cartucho|filamento)\b|^imp |^tinta )/i],
-    ['consolas-y-videojuegos', /\b(console|consola|playstation|ps[345]|xbox|nintendo|joystick|dualsense|dualshock|controle|volante|flight simulator|painel de instrumentos|shifter)\b/i],
+    // "UI. " (Ubiquiti) y "MIKROTIK" son identidad de marca, no una palabra
+    // generica: todo lo que las lleva es equipo de red. Estaban al final del
+    // archivo y llegaban tarde: nueve equipos de red se publicaban en Fuentes
+    // de Poder porque sus titulos nombran la fuente que traen o que les falta
+    // ("Con Fuente", "S/Fuente", "POE INJECTOR ... Fuente"). Una antena no
+    // deja de ser una antena por venir sin fuente.
+    ['redes-y-conectividad',   /(^ui\. |\b(mikrotik|routerboard|unifi|ubiquiti)\b)/i],
+    // "CONTROLE" en portugues es tanto el mando de una consola como el control
+    // remoto de cualquier aparato. Suelta, la palabra se llevaba a Consolas
+    // tres ventiladores de techo, tres tiras de LED, tres coolers de PC y un
+    // collar de adiestramiento para perros: todos dicen "C/CONTROLE", o sea
+    // "con control remoto". Se exige que el titulo EMPIECE con "CONTROLE ",
+    // que es como el proveedor nombra los mandos de verdad, y se descartan los
+    // controles de acceso, que tambien empiezan asi.
+    //
+    // Lo mismo con la plataforma: "HD EXT 2TB SEAGATE ... FOR XBOX" es un
+    // disco, no una consola. Nombrar una consola es compatibilidad, no
+    // identidad, asi que no vale si el titulo arranca con un tipo de producto.
+    ['consolas-y-videojuegos', /(\b(console|consola|joystick|dualsense|dualshock|volante|flight simulator|painel de instrumentos|shifter)\b|^controle (?!.*acce?sso|.*acceso)|^(?!(?:hd|ssd|mem|vga|mon|tec)\b).*\b(playstation|ps[345]|xbox|nintendo)\b)/i],
 
     // 3. Componentes.
     //    procesadores ANTES que tarjetas-de-video: los APU mencionan
@@ -151,7 +169,9 @@ const REGLAS = [
     ['memorias-ram',           /(\b(memoria|ddr[2345]|sodimm|udimm)\b|^mem )/i],
     // "HD ..." y "CARTAO ..." son abreviaturas del proveedor.
     ['almacenamiento-ssd',     /(\b(ssd|nvme|m\.?2|hd externo|\bhdd\b|disco duro|disco rigido|pendrive|pen drive|micro ?sd|cartao de mem|gaveta|case para hd)\b|^hd |^cartao )/i],
-    ['fuentes-de-poder',       /\b(fuente|fonte|\bpsu\b)\b/i],
+    // Misma exclusion que en los cables: "C/Fuente", "S/Fuente" y "Con Fuente"
+    // dicen si el aparato TRAE fuente, no que sea una fuente.
+    ['fuentes-de-poder',       /(?<![cs]\/|con |sin |com |sem )\b(fuente|fonte|psu)\b/i],
     // Un "CONTROLADOR ... ARGB/PWM" es un hub de ventiladores y luces, no un
     // mando de consola. Se exige ARGB, RGB o PWM en el mismo titulo para no
     // llevarse por delante los controles de verdad, que caen antes en
@@ -175,7 +195,11 @@ const REGLAS = [
     ['ups-y-energia',          /(\b(ups|nobreak|no-?break|estabilizador|filtro de linha|power ?bank|cargador|carregador|pila|pilha|bateria|luz de emergencia)\b|^estab)/i],
     // "CAMERA ..." son camaras WiFi de seguridad; las cerraduras inteligentes
     // tambien son domotica.
-    ['smart-home',             /(\b(alexa|echo dot|smart home|zigbee|sonoff|tomada smart|interruptor smart|lampada inteligente|tomada inteligente|camera ip|automacao|fechadura)\b|^camera )/i]
+    // Las tiras de LED y los terminales de control de acceso entraban a
+    // Consolas por la palabra "CONTROLE" y se quedaban sin categoria al
+    // sacarla. Van con la domotica, que es donde ya viven las lamparas
+    // inteligentes y las cerraduras.
+    ['smart-home',             /(\b(alexa|echo dot|smart home|zigbee|sonoff|tomada smart|interruptor smart|lampada inteligente|tomada inteligente|camera ip|automacao|fechadura|fita led|tira led|cinta led|acc?ess?o facial|controle? de acc?ess?o)\b|^camera )/i]
 ];
 
 /**
