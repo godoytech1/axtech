@@ -1,6 +1,6 @@
 ---
 name: axtech-catalog
-description: Usar al agregar o corregir categorias y marcas, al investigar productos mal clasificados o que quedaron como GENERIC, al revisar la distribucion del catalogo, o al tocar data/catalog.json y src/lib/taxonomy.js. Tambien cuando alguien pregunta por que un producto esta en la categoria equivocada.
+description: Usar al agregar o corregir categorias y marcas, al investigar productos mal clasificados o que quedaron como GENERIC, al revisar la distribucion del catalogo, o al tocar data/catalog.json, src/lib/taxonomy.js y src/lib/exclusiones.js. Tambien cuando alguien pregunta por que un producto esta en la categoria equivocada, o cuando aparece en la tienda algo que no es un producto de tecnologia y hay que sacarlo del rubro.
 ---
 
 # Catalogo y taxonomia
@@ -72,6 +72,36 @@ matchean cualquier cosa:
   `i7-14700K`. Normalizar no puede comerse un modelo.
 - **Solo fabricantes reales en `MARCAS`.** Agregar "CABLE", "SMART" o "GAMER"
   agrupa productos de distintas marcas bajo una etiqueta falsa.
+
+## Clasificar mal y no pertenecer al rubro son dos problemas distintos
+
+Si un producto esta en la categoria equivocada, se arregla en `taxonomy.js`.
+Si el producto **no deberia estar en la tienda**, eso se decide en
+`src/lib/exclusiones.js`, que es otra cosa.
+
+La diferencia importa porque arreglar la taxonomia no saca nada de la tienda.
+El caso real: un collar de adiestramiento para perros aparecia en Consolas y
+Videojuegos porque su titulo decia "C/CONTROLE". Corregir la regla lo saco de
+esa categoria, pero al no clasificar en ninguna otra, el sync le conservo la
+que ya tenia (`categoriaHeredada` en `aplicar.js`). Esa herencia existe a
+proposito — que el proveedor recorte un titulo no puede borrar un producto —
+asi que la decision de no vender algo hay que decirla aparte.
+
+El proveedor no es solo una tienda de tecnologia: en su lista hay articulos
+para mascotas y otras cosas del rubro equivocado. Antes de agregar un patron a
+`exclusiones.js`, la pregunta es "¿esto es un producto de tecnologia?", no
+"¿esto se vende poco?".
+
+**Los dos errores no cuestan lo mismo.** Excluir de mas saca de la tienda algo
+vendible; excluir de menos deja un producto raro en una categoria, que se ve
+feo y se arregla despues. Por eso los patrones son especificos. Ejemplo real:
+"gato" parecia inofensivo hasta que aparecio `PAINEL LED EL GATO NEO KEY
+LIGHTS`, que es un panel de luz de ELGATO. Correr siempre el patron nuevo
+contra la lista real y mirar **que** saca antes de commitear.
+
+Un producto excluido no entra si es nuevo, se marca `hidden` si ya estaba
+publicado, y lo borra la purga a los 30 dias. Se cuenta aparte de los ocultados
+normales para no disparar el freno de `verificar.js` por el motivo equivocado.
 
 ## Investigar
 
