@@ -106,9 +106,13 @@ const REGLAS = [
     // "PC ..." es la abreviatura del proveedor para equipo armado. Sin ella,
     // una PC se clasificaba por el primer componente que nombraba su titulo:
     // dos terminaron publicadas en Procesadores.
-    ['pcs-de-escritorio',      /(\b(desktop|pc gamer|computador completo|all in one|mac ?pro|mac ?mini|mac ?studio|mini ?pc|nuc|servidor|barebone)\b|^pc )/i],
+    // "Fuente P/ NUC" es una fuente, no una PC. Nombrar el equipo al que sirve
+    // un accesorio no lo convierte en ese equipo.
+    ['pcs-de-escritorio',      /(?<!p\/|para |p\/ )(\b(desktop|pc gamer|computador completo|all in one|mac ?pro|mac ?mini|mac ?studio|mini ?pc|nuc|servidor|barebone)\b|^pc )/i],
     ['tablets',                /\b(tablet|ipad)\b/i],
-    ['telefonos-y-celulares',  /(\b(smartphone|celular|iphone|galaxy [asz]\d|redmi|poco |moto ?[ge])\b|^cel )/i],
+    // "P/SMARTPHONE" describe para que sirve el accesorio, no que sea uno: el
+    // microfono DJI MIC quedaba catalogado como telefono.
+    ['telefonos-y-celulares',  /((?<!p\/|para |p\/ )\b(smartphone|celular|iphone|galaxy [asz]\d|redmi|poco |moto ?[ge])\b|^cel )/i],
     // Receptores IPTV y cajas de streaming se agrupan con televisores.
     // Las cajas de streaming se agrupan con los televisores: son el aparato
     // que se enchufa a uno y no tienen categoria propia.
@@ -142,7 +146,10 @@ const REGLAS = [
     // Lo mismo con la plataforma: "HD EXT 2TB SEAGATE ... FOR XBOX" es un
     // disco, no una consola. Nombrar una consola es compatibilidad, no
     // identidad, asi que no vale si el titulo arranca con un tipo de producto.
-    ['consolas-y-videojuegos', /(\b(console|consola|joystick|dualsense|dualshock|volante|flight simulator|painel de instrumentos|shifter)\b|^controle (?!.*acce?sso|.*acceso)|^(?!(?:hd|ssd|mem|vga|mon|tec)\b).*\b(playstation|ps[345]|xbox|nintendo)\b)/i],
+    // Nombrar la consola no convierte al producto en una: un auricular "PARA
+    // PS5 Y XBOX" sigue siendo un auricular. Se excluyen los tipos que ya
+    // tienen su propia categoria, igual que ya se hacia con HD, SSD y teclados.
+    ['consolas-y-videojuegos', /(\b(console|consola|joystick|dualsense|dualshock|volante|flight simulator|painel de instrumentos|shifter)\b|^controle (?!.*acce?sso|.*acceso)|^(?!(?:hd|ssd|mem|vga|mon|tec|fone|auricular|headset|mouse|microfone|microfono)\b).*\b(playstation|ps[345]|xbox|nintendo)\b)/i],
 
     // 3. Componentes.
     //    procesadores ANTES que tarjetas-de-video: los APU mencionan
@@ -176,7 +183,11 @@ const REGLAS = [
     ['placas-madre',           /(\b(placa madre|placa mae|motherboard|mobo)\b|^mb\b)/i],
     ['memorias-ram',           /(\b(memoria|ddr[2345]|sodimm|udimm)\b|^mem )/i],
     // "HD ..." y "CARTAO ..." son abreviaturas del proveedor.
-    ['almacenamiento-ssd',     /(\b(ssd|nvme|m\.?2|hd externo|\bhdd\b|disco duro|disco rigido|pendrive|pen drive|micro ?sd|cartao de mem|gaveta|case para hd)\b|^hd |^cartao )/i],
+    // "M.2" exige el punto. Sin el, "M2" suelto es un nombre de modelo tan
+    // comun que se llevaba productos enteros: el microfono de solapa
+    // "HOLLYLAND LARK M2" terminaba en Almacenamiento. Los SSD de verdad se
+    // atrapan igual por "SSD" o "NVME", que estan en el mismo patron.
+    ['almacenamiento-ssd',     /(\b(ssd|nvme|m\.2|hd externo|\bhdd\b|disco duro|disco rigido|pendrive|pen drive|micro ?sd|cartao de mem|gaveta|case para hd)\b|^hd |^cartao )/i],
     // Misma exclusion que en los cables: "C/Fuente", "S/Fuente" y "Con Fuente"
     // dicen si el aparato TRAE fuente, no que sea una fuente.
     ['fuentes-de-poder',       /(?<![cs]\/|con |sin |com |sem )\b(fuente|fonte|psu)\b/i],

@@ -58,8 +58,19 @@ const REPARACIONES = [
 ];
 
 const TRADUCCIONES = [
-    [/\bsem fio\b/gi, 'Sin Cable'],
-    [/\bcom fio\b/gi, 'Con Cable'],
+    // "sem fio" es INALAMBRICO, no "sin cable".
+    //
+    // Traducirlo literal metia la palabra "cable" en el titulo, y de ahi salian
+    // dos errores el 31/08: un gamepad se llamaba "Logitech F710 Gamepad Sin
+    // Cable Inalambrico" --porque el titulo tambien decia WIRELESS y se tradujo
+    // dos veces-- y los 14 productos con esa frase quedaron catalogados en
+    // Adaptadores y Cables: un mando, dos teclados, dos mouses, un lector de
+    // codigos y hasta una pulidora de auto.
+    //
+    // "Alambrico" cumple lo mismo para el caso contrario sin arrastrar la
+    // palabra que confunde a la taxonomia.
+    [/\bsem fio\b/gi, 'Inalámbrico'],
+    [/\bcom fio\b/gi, 'Alámbrico'],
     [/\bsem fonte\b/gi, 'Sin Fuente'],
     [/\bcom fonte\b/gi, 'Con Fuente'],
     [/\bsem cooler\b/gi, 'Sin Cooler'],

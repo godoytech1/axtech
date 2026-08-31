@@ -96,15 +96,42 @@ function limpiar(texto) {
         .trim();
 }
 
+/**
+ * Palabras distintas que dicen lo mismo.
+ *
+ * El proveedor repite el concepto en dos idiomas dentro del mismo titulo
+ * ("... GAMEPAD SEM FIO ... WIRELESS") y cada capa traduce el suyo. Comparar
+ * palabra por palabra no lo detecta: "Inalambrico" y "Sin Cable" no se parecen
+ * en nada. Asi salio publicado "Logitech F710 Gamepad Sin Cable Inalambrico".
+ */
+const SINONIMOS = [
+    [/^(?:INALAMBRICO|INALÁMBRICO|WIRELESS|WIRELLES|WIR|SINCABLE)$/i, 'inalambrico'],
+    [/^(?:ALAMBRICO|ALÁMBRICO|WIRED|CONCABLE)$/i, 'alambrico'],
+    [/^(?:MECANICO|MECÁNICO|MECHANICAL)$/i, 'mecanico'],
+    [/^(?:OPTICO|ÓPTICO|OPTICAL)$/i, 'optico']
+];
+
+function concepto(token) {
+    const k = token.toUpperCase().replace(/[^A-ZÁÉÍÓÚÑ0-9]/gi, '');
+    for (const [patron, nombre] of SINONIMOS) if (patron.test(k)) return nombre;
+    return null;
+}
+
 /** Quita palabras repetidas conservando la primera aparicion. */
 function sinRepetidos(texto) {
     const vistos = new Set();
+    const conceptos = new Set();
     return texto
         .split(/\s+/)
         .filter((t) => {
             const k = t.toUpperCase().replace(/[^A-Z0-9]/g, '');
             if (!k) return false;
             if (vistos.has(k)) return false;
+            const c = concepto(t);
+            if (c) {
+                if (conceptos.has(c)) return false;
+                conceptos.add(c);
+            }
             vistos.add(k);
             return true;
         })

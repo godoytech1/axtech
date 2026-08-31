@@ -57,10 +57,22 @@ test('traduce colores del portugues', () => {
     assert.equal(traducir('MOUSE BRANCO'), 'MOUSE Blanco');
 });
 
+// Cambiado el 31/08: "sem fio" se traducia literal como "Sin Cable" y eso
+// metia la palabra "cable" en el titulo. Salieron dos errores de ahi: un
+// gamepad publicado como "Logitech F710 Gamepad Sin Cable Inalambrico", y 170
+// productos --teclados, mouses, auriculares, mandos-- catalogados en
+// Adaptadores y Cables porque la taxonomia leia esa palabra.
 test('traduce terminos tecnicos del portugues', () => {
-    assert.equal(traducir('CONTROLE SEM FIO'), 'CONTROLE Sin Cable');
+    assert.equal(traducir('CONTROLE SEM FIO'), 'CONTROLE Inalámbrico');
     assert.equal(traducir('FONTE 650W'), 'Fuente 650W');
-    assert.equal(traducir('TECLADO SEM FIO'), 'TECLADO Sin Cable');
+    assert.equal(traducir('TECLADO SEM FIO'), 'TECLADO Inalámbrico');
+    assert.equal(traducir('TECLADO COM FIO'), 'TECLADO Alámbrico');
+});
+
+test('la traduccion de "sem fio" no mete la palabra cable en el titulo', () => {
+    // Es lo que confundia a la taxonomia. Vale para las dos formas.
+    assert.ok(!/cable/i.test(traducir('MOUSE LOGITECH SEM FIO')));
+    assert.ok(!/cable/i.test(traducir('MOUSE LOGITECH COM FIO')));
 });
 
 test('traduce solo palabras completas', () => {
@@ -102,7 +114,7 @@ test('traduce el portugues que llegaba a la ficha del producto', () => {
 });
 
 test('las frases con "sem" se traducen antes que la palabra suelta', () => {
-    assert.equal(traducir('MOUSE RAZER SEM FIO'), 'MOUSE RAZER Sin Cable');
+    assert.equal(traducir('MOUSE RAZER SEM FIO'), 'MOUSE RAZER Inalámbrico');
     assert.equal(traducir('GABINETE AIGO SEM FAN'), 'GABINETE AIGO Sin FAN');
 });
 
