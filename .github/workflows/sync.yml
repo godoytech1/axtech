@@ -37,6 +37,8 @@ permissions:
 jobs:
   sincronizar:
     runs-on: ubuntu-latest
+    outputs:
+      hubo_cambios: ${{ steps.commit.outputs.hubo }}
     steps:
       - uses: actions/checkout@v4
 
@@ -112,6 +114,7 @@ jobs:
           echo "OK: nada sensible en los cambios."
 
       - name: Commitear si hubo cambios
+        id: commit
         if: ${{ !inputs.simular }}
         run: |
           git config user.name  'AXTECH Sync'
@@ -119,8 +122,21 @@ jobs:
           git add data/catalog.json data/meta.json data/sin-imagen.json public/img
           if git diff --cached --quiet; then
             echo "Sin cambios: no se commitea nada."
+            echo "hubo=no" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git commit -m "chore: sync nocturno del catalogo"
           git pull --rebase origin main
           git push origin HEAD:main
+          echo "hubo=si" >> "$GITHUB_OUTPUT"
+
+  # Sin esto el sync actualiza el repositorio y nadie publica el resultado.
+  # Solo corre si el sync realmente commiteo algo: desplegar identico a lo que
+  # ya esta en linea cuesta minutos de Actions y no cambia nada.
+  publicar:
+    needs: sincronizar
+    if: ${{ !inputs.simular && needs.sincronizar.outputs.hubo_cambios == 'si' }}
+    uses: ./.github/workflows/deploy.yml
+    with:
+      ref: main
+    secrets: inherit

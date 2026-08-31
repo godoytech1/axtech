@@ -4,6 +4,18 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # El sync nocturno commitea con GITHUB_TOKEN, y GitHub no dispara workflows
+  # desde esos pushes (proteccion anti-recursion). Sin esto el catalogo se
+  # actualizaba todas las noches en el repo y el sitio quedaba congelado:
+  # entre el 20 y el 31/08 la tienda publico 445 precios viejos y 470
+  # productos dados de baja. sync.yml llama a este workflow al terminar.
+  workflow_call:
+    inputs:
+      ref:
+        description: 'Commit o rama a desplegar. Vacio = el ref del evento.'
+        type: string
+        required: false
+        default: ''
 
 concurrency:
   group: deploy
@@ -13,7 +25,12 @@ jobs:
   desplegar:
     runs-on: ubuntu-latest
     steps:
+      # Llamado desde sync.yml hay que pedir 'main' explicitamente: el ref del
+      # evento programado apunta al commit ANTERIOR al que el sync acaba de
+      # hacer, asi que el deploy publicaria justo la version sin actualizar.
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref || github.ref }}
 
       - uses: actions/setup-node@v4
         with:
