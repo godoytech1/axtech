@@ -83,7 +83,7 @@ function pieDelSitio() {
 }
 
 export function paginaDeProducto({ producto: p, categoria, relacionados, urlBase }) {
-    const specs = extraerSpecs(p.title);
+    const specs = extraerSpecs(p.tituloOriginal || p.title, p.category);
     const canonical = `${urlBase}/p/${p.slug}/`;
     const titulo = `${p.title} - ${formatearGs(p.price)} | AXTECH`;
     const mensaje = encodeURIComponent(

@@ -42,7 +42,28 @@ test('reconoce pulgadas escritas con comillas', () => {
 });
 
 test('no inventa especificaciones cuando el titulo no las tiene', () => {
-    assert.deepEqual(extraerSpecs('TEC UP GAMER MG400 PT/BR ESSENTIAL USB BLACK'), []);
+    // Un titulo sin un solo dato tecnico no puede producir specs.
+    assert.deepEqual(extraerSpecs('SOPORTE UNIVERSAL DE ESCRITORIO'), []);
+});
+
+test('lo que extrae esta escrito en el titulo, no es inventado', () => {
+    // Este teclado si tiene datos: "USB" y "PT/BR" estan ahi. Antes daba cero
+    // specs porque los extractores solo miraban datos de computadora.
+    const s = extraerSpecs('TEC UP GAMER MG400 PT/BR ESSENTIAL USB BLACK', 'teclados');
+    const etiquetas = s.map((x) => x.etiqueta);
+    assert.ok(etiquetas.includes('Conexion'));
+    assert.ok(etiquetas.includes('Idioma'));
+});
+
+test('cada rubro muestra solo los campos que le corresponden', () => {
+    // La whitelist por categoria es lo que evita que la ficha de una fuente
+    // diga "Frecuencia: 60 Hz" porque el titulo menciona 60Hz en otro contexto.
+    const teclado = extraerSpecs('TEC SATE GK51 RGB MECHANICAL USB', 'teclados').map((x) => x.etiqueta);
+    assert.ok(!teclado.includes('Socket'));
+    assert.ok(!teclado.includes('Potencia'));
+
+    const fuente = extraerSpecs('Fuente 650W AZZA 80+ BRONZE ATX', 'fuentes-de-poder').map((x) => x.etiqueta);
+    assert.deepEqual(fuente, ['Potencia', 'Certificacion', 'Formato de placa']);
 });
 
 test('no repite la misma etiqueta dos veces', () => {

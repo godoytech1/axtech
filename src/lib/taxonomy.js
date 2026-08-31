@@ -244,6 +244,14 @@ export const MARCAS = [
     'MIKROTIK', 'UBIQUITI', 'GAMESIR', 'BLULORY', 'SUNKING', 'TIANQIU',
     'JONSBO', 'EPSON', 'TROVE', 'HOMIE', 'AULA', 'AFOX', 'SATE', 'FTX',
     'PXN', 'HTC', 'TAPO',
+    // Agregadas el 31/08 a partir de los 1.324 productos que quedaban sin
+    // marca. Sin ella el nombre corto pierde lo primero que el cliente lee, y
+    // cinco memorias distintas terminaban llamandose "16GB DDR4 3200MHz".
+    // "STAR" se anota aparte: es marca real de placas madre y placas de video
+    // de gama baja, y \bSTAR\b no toca "STARTECH" ni "STARLIGHT".
+    'HOLLYLAND', 'BLACKVIEW', 'MACROWAY', 'MERCUSYS', 'CREALITY', 'GAMDIAS',
+    'FOXCONN', 'PUSKILL', 'SANDISK', 'TOSHIBA', 'ARKTEK', 'AMAZON', 'GOLINE',
+    'G-TIDE', 'BROTHER', 'BOETEC', 'UNIFI', 'LEXAR', 'DUEX', 'STAR', 'ECS',
     'COOLER MASTER', 'WESTERN DIGITAL', 'THERMALTAKE', 'LIAN LI', 'UP GAMER',
     'VIEWSONIC', 'MARKVISION', 'ALIENWARE', 'ZEMISMART', 'SAPPHIRE',
     'POWERCOLOR', 'SATELLITE', 'DARKFLASH', 'GIGABYTE', 'REDRAGON',

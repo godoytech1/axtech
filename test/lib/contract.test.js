@@ -108,13 +108,18 @@ test('cuando el registro no trae specs, se derivan del titulo', () => {
     assert.ok(p.specs.some((s) => s.startsWith('Procesador: ')));
 });
 
-test('las specs propias del registro tienen prioridad sobre las derivadas', () => {
+// Cambiado el 31/08: antes las guardadas GANABAN y las derivadas se descartaban.
+// Ahora se suman. Las guardadas son texto suelto de la migracion del 15/08 y el
+// sync no las reescribe nunca; las derivadas estan etiquetadas y filtradas por
+// rubro. Descartar las derivadas dejaba fichas con una sola linea de texto libre.
+test('las specs guardadas se suman a las derivadas, no las reemplazan', () => {
     const p = aPublicoLegado({
         id: 1, status: 'active', price: 1000,
         title: 'NB HP 14-EM0002WM ATHLON-7120U/4GB/128GB/14/W11',
         brand: 'HP', category: 'notebooks', specs: ['Color negro']
     });
-    assert.deepEqual(p.specs, ['Color negro']);
+    assert.ok(p.specs.includes('Color negro'), 'la guardada tiene que seguir estando');
+    assert.ok(p.specs.some((x) => x.startsWith('Procesador: ')), 'y las derivadas tambien');
 });
 
 test('un titulo del que no se puede extraer nada da specs vacias, no null', () => {

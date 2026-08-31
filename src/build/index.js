@@ -1,5 +1,6 @@
 import { readFileSync, writeFileSync, mkdirSync, cpSync, rmSync, statSync, existsSync, readdirSync } from 'node:fs';
 import { aPublicoLegado } from '../lib/contract.js';
+import { nombrarCatalogo } from '../lib/nombre.js';
 import { CATEGORIAS } from '../lib/taxonomy.js';
 import { rutaPublica } from '../lib/imagenes.js';
 import { buscarFugas } from './guard.js';
@@ -35,8 +36,16 @@ const noPublicar = new Set(
 );
 
 const catalogo = JSON.parse(readFileSync('data/catalog.json', 'utf8'));
+
+// Los nombres se calculan sobre el catalogo entero, no producto por producto:
+// dos titulos distintos pueden dar el mismo nombre corto --un ventilador suelto
+// y el pack de tres-- y eso solo se ve mirandolos juntos.
+const nombres = nombrarCatalogo(catalogo.filter((p) => p.status === 'active'));
+
 const publicos = catalogo
-    .map((registro) => (noPublicar.has(registro.id) ? null : aPublicoLegado(registro, { idsSinImagen })))
+    .map((registro) => (noPublicar.has(registro.id)
+        ? null
+        : aPublicoLegado(registro, { idsSinImagen, nombre: nombres.get(registro) })))
     .filter((registro) => registro !== null);
 
 rmSync(SALIDA, { recursive: true, force: true });
@@ -76,7 +85,11 @@ const paraPaginas = catalogo
     .map((p) => ({
         id: p.id,
         slug: p.slug,
-        title: p.title,
+        title: nombres.get(p) || p.title,
+        // El titulo del proveedor viaja aparte: es de donde se extraen las
+        // specs. El nombre corto se lee mejor pero justamente por eso ya no
+        // tiene adentro los datos que la ficha necesita mostrar.
+        tituloOriginal: p.title,
         brand: p.brand,
         category: p.category,
         price: p.price,

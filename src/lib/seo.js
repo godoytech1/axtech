@@ -22,16 +22,28 @@ export function escaparHtml(texto) {
  */
 export function esIndexable(p) {
     if (!p || typeof p.price !== 'number' || p.price <= 0) return false;
-    if (typeof p.title !== 'string' || p.title.trim().length < LARGO_MINIMO_TITULO) return false;
+    // El largo se mide sobre el titulo del PROVEEDOR, no sobre el nombre corto.
+    //
+    // El largo era un proxy de "cuanta informacion hay". Desde que los nombres
+    // se limpian, uno corto ya no significa un producto pobre: "AMD Ryzen 5
+    // 5500 4.2GHz AM4" tiene 27 caracteres y dice mas que el titulo de 60 del
+    // que salio. Medirlo sobre el nombre nuevo saco del sitemap 252 paginas
+    // por haberlas mejorado.
+    const paraMedir = p.tituloOriginal || p.title;
+    if (typeof paraMedir !== 'string' || paraMedir.trim().length < LARGO_MINIMO_TITULO) return false;
     const tieneMarca = Boolean(p.brand) && p.brand !== 'GENERIC';
-    return tieneMarca || extraerSpecs(p.title).length >= 1;
+    // A proposito SIN categoria: aca no se pregunta que se muestra en la ficha
+    // sino si el titulo del proveedor trae algun dato. La whitelist por rubro
+    // esconde campos que igual existen, y usarla aca mandaba a noindex 388
+    // paginas que si tenian contenido.
+    return tieneMarca || extraerSpecs(p.tituloOriginal || p.title).length >= 1;
 }
 
 const formatearGs = (n) => 'Gs. ' + String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, '.');
 
 /** Meta description: marca, especificaciones si hay, y precio. Max 160 caracteres. */
 export function descripcionDe(p) {
-    const specs = extraerSpecs(p.title).slice(0, 3).map((s) => s.valor).join(', ');
+    const specs = extraerSpecs(p.tituloOriginal || p.title, p.category).slice(0, 3).map((s) => s.valor).join(', ');
     const detalle = [p.brand && p.brand !== 'GENERIC' ? p.brand : null, specs || null]
         .filter(Boolean).join(' - ');
     const base = detalle
@@ -41,7 +53,7 @@ export function descripcionDe(p) {
 }
 
 export function jsonLdProducto(p, urlBase) {
-    const specs = extraerSpecs(p.title);
+    const specs = extraerSpecs(p.tituloOriginal || p.title, p.category);
     return {
         '@context': 'https://schema.org',
         '@type': 'Product',
