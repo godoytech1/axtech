@@ -46,6 +46,10 @@ export function aPublicoLegado(registro, { idsSinImagen = new Set() } = {}) {
         pyg: registro.price,
         pyg_str: formatearGs(registro.price),
         specs: especificaciones(registro),
+        // El titulo ya no dice si el producto viene sin garantia: se saco de ahi
+        // a pedido del dueño. La ficha lo necesita igual para no prometer 3
+        // meses sobre un OEM que no los tiene.
+        sin_garantia: registro.sinGarantia === true,
         sob_consulta: false
     };
 }

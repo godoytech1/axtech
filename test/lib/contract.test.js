@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { aPublicoLegado, CAMPOS_PROHIBIDOS } from '../../src/lib/contract.js';
+import { readFileSync } from 'node:fs';
 
 const OPCIONES = { idsSinImagen: new Set() };
 
@@ -24,7 +25,7 @@ function registroValido(extra = {}) {
 test('proyecta solo los campos que app.js consume', () => {
     const publico = aPublicoLegado(registroValido(), OPCIONES);
     assert.deepEqual(Object.keys(publico).sort(), [
-        'brand', 'category', 'id', 'image', 'pyg', 'pyg_str', 'sob_consulta', 'specs', 'title'
+        'brand', 'category', 'id', 'image', 'pyg', 'pyg_str', 'sin_garantia', 'sob_consulta', 'specs', 'title'
     ]);
 });
 
@@ -122,4 +123,13 @@ test('un titulo del que no se puede extraer nada da specs vacias, no null', () =
         title: 'CABLE HDMI 1M', brand: 'GENERIC', category: 'adaptadores-y-cables'
     });
     assert.ok(Array.isArray(p.specs));
+});
+
+test('ningun producto del catalogo lleva la garantia en el nombre', () => {
+    // Decision del dueño el 31/08: el nombre dice QUE es el producto; la
+    // garantia va en su propio renglon de la ficha, desde el campo sinGarantia.
+    const conGarantia = JSON.parse(readFileSync('data/catalog.json', 'utf8'))
+        .filter((p) => /garant/i.test(p.title))
+        .map((p) => p.title);
+    assert.deepEqual(conGarantia, []);
 });

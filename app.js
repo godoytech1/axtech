@@ -2057,8 +2057,9 @@ document.addEventListener('DOMContentLoaded', () => {
         // S/G y S/GARANTIA son la abreviatura del proveedor, igual que S/CX (sin
         // caja) y S/FAN (sin cooler). Sin la variante pegada se escapaban los
         // discos "PULL ... S/GARANTIA".
-        const sinGarantia = /\b(?:sem|sin)\s+garantia\b|\bs\/\s*garantia\b|\bs\/g\b/i.test(p.title);
-        const garantiaHTML = sinGarantia
+        // Viene como campo, no se deduce del titulo: la palabra "garantia" ya no
+        // aparece en el nombre de ningun producto.
+        const garantiaHTML = p.sin_garantia
             ? `<span class="bullet-item" style="color: #ff9209;"><i class="las la-exclamation-triangle"></i> Producto sin garantía</span>`
             : `<span class="bullet-item"><i class="las la-shield-alt"></i> Garantía de 3 meses en productos</span>`;
 

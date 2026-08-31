@@ -12,7 +12,7 @@
  * mezclaba lectura, calculo, impresion y escritura en un solo script, asi que
  * para saber que iba a pasar habia que dejar que pasara.
  */
-import { normalizarTitulo } from '../lib/normalize.js';
+import { normalizarTitulo, repararMojibake, traducir, sinGarantia } from '../lib/normalize.js';
 import { excluido } from '../lib/exclusiones.js';
 import { clasificar, detectarMarca } from '../lib/taxonomy.js';
 import { precioFinal } from '../lib/pricing.js';
@@ -55,6 +55,10 @@ export function aplicarLista({ catalogo, lista, hoy, config, ultimoId }) {
     let idSiguiente = ultimoId;
 
     for (const [ref, item] of lista) {
+        // El aviso de garantia se lee ANTES de que normalizarTitulo lo borre:
+        // el titulo publicado no la menciona, pero la ficha tiene que poder
+        // decir "producto sin garantia" igual.
+        const noTieneGarantia = sinGarantia(traducir(repararMojibake(item.titulo)));
         const titulo = normalizarTitulo(item.titulo);
 
         // Lo que no pertenece al rubro no entra, aunque el proveedor lo
@@ -96,6 +100,7 @@ export function aplicarLista({ catalogo, lista, hoy, config, ultimoId }) {
                 category: categoria,
                 specs: [],
                 price: precio,
+                sinGarantia: noTieneGarantia,
                 status: 'active',
                 firstSeen: hoy,
                 lastSeen: hoy
@@ -117,6 +122,7 @@ export function aplicarLista({ catalogo, lista, hoy, config, ultimoId }) {
         }
         if (!Array.isArray(existente.specs)) existente.specs = [];
         existente.price = precio;
+        existente.sinGarantia = noTieneGarantia;
         existente.status = 'active';
         existente.lastSeen = hoy;
 

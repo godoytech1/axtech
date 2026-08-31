@@ -96,6 +96,24 @@ En orden, es una de estas cuatro:
    nunca tuvo categoria. Cuenta en `sin clasificar` del informe.
 4. **Esta activo pero con `noindex`.** Existe y se ve en el sitio; solo esta
    fuera de Google por la compuerta de calidad (`src/lib/seo.js`).
+5. **Esta en `data/no-publicar.json`.** Alguien verifico a mano que el
+   proveedor no lo tiene, aunque lo siga cotizando. La lista trae referencia,
+   titulo y precio: NO trae stock, asi que esto no se puede deducir. Para
+   reponerlo se borra su entrada del archivo; el catalogo nunca se toca.
+
+## La garantia no va en el nombre
+
+El proveedor la mete en el titulo ("SEM GARANTIA", "GARANTIA 2 ANOS",
+"GARANTIA BR") porque su lista es una planilla de una sola columna. En la
+tienda se saca del nombre y viaja en el campo `sinGarantia` del catalogo, que
+se publica como `sin_garantia`.
+
+Se lee ANTES de limpiar el titulo (`src/sync/aplicar.js`), porque limpiar borra
+justamente la frase que hay que leer. Si algun dia se invierte ese orden, 329
+productos pasan a prometer 3 meses de garantia que no tienen.
+
+`S/CX`, `S/FAN` y `S/G` se quedan en el titulo: son la jerga con la que el
+rubro describe un OEM y no dicen la palabra.
 
 ## Cosas que ya se rompieron aca
 

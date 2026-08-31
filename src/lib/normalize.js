@@ -148,6 +148,45 @@ export function traducir(texto) {
     return res;
 }
 
+/**
+ * La garantia no va en el nombre del producto.
+ *
+ * El proveedor la mete en el titulo ("... SEM GARANTIA", "GARANTIA 2 ANOS",
+ * "GARANTIA BR") porque su lista es una planilla de una sola columna. En la
+ * tienda es ruido: el nombre tiene que decir QUE es el producto, y la garantia
+ * se muestra aparte, en su propio renglon de la ficha.
+ *
+ * Se evalua ANTES de limpiar el titulo, porque limpiar borra justamente la
+ * frase que hay que leer. El resultado viaja en el campo `sinGarantia` del
+ * catalogo: sin eso, borrar la palabra perderia el dato para siempre.
+ */
+export function sinGarantia(texto) {
+    if (typeof texto !== 'string') return false;
+    return /\b(?:sin|sem)\s+garant[ií]a\b|\bs\/\s*garant[ií]a\b|\bs\/g\b/i.test(texto);
+}
+
+const MENCIONES_DE_GARANTIA = [
+    /\b(?:sin|sem)\s+garant[ií]a\b/gi,
+    /\bs\/\s*garant[ií]a\b/gi,
+    /\bgarant[ií]a\s+\d+\s+(?:años?|anos?|a[sn])\b/gi,
+    /\bgarant[ií]a\s+br\b/gi,
+    /\bgarant[ií]a\b/gi
+];
+
+/**
+ * Quita del titulo toda mencion de garantia.
+ *
+ * No toca "S/G", "S/CX" ni "S/FAN": son la jerga con la que el rubro describe
+ * un procesador OEM y no dicen la palabra. Sacarlas seria borrar informacion
+ * util del producto, no ruido.
+ */
+export function quitarGarantia(texto) {
+    if (typeof texto !== 'string') return '';
+    let res = texto;
+    for (const patron of MENCIONES_DE_GARANTIA) res = res.replace(patron, ' ');
+    return res;
+}
+
 /** Normaliza unidades, espacios y separadores colgando al final. */
 export function limpiarTitulo(texto) {
     if (typeof texto !== 'string') return '';
@@ -159,7 +198,14 @@ export function limpiarTitulo(texto) {
         .trim();
 }
 
-/** Composicion en el orden correcto: reparar, traducir, limpiar. */
+/**
+ * Composicion en el orden correcto: reparar, traducir, quitar la garantia,
+ * limpiar.
+ *
+ * La garantia se quita despues de traducir para atrapar tambien la forma
+ * portuguesa, y antes de limpiar para que el separador que queda colgando
+ * ("... S/FAN -") se recorte en la misma pasada.
+ */
 export function normalizarTitulo(texto) {
-    return limpiarTitulo(traducir(repararMojibake(texto)));
+    return limpiarTitulo(quitarGarantia(traducir(repararMojibake(texto))));
 }

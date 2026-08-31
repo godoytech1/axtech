@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
-    repararMojibake, traducir, limpiarTitulo, normalizarTitulo
+    repararMojibake, traducir, limpiarTitulo, normalizarTitulo, sinGarantia, quitarGarantia
 } from '../../src/lib/normalize.js';
 
 // U+FFFD es el caracter de reemplazo que quedo donde habia una vocal acentuada
@@ -120,4 +120,28 @@ test('repara el titulo que el proveedor corta a la mitad', () => {
 test('traducir es idempotente: el sync reescribe el titulo cada noche', () => {
     const una = traducir('CPU OEM INTEL I5 9500 SEM GARANTIA');
     assert.equal(traducir(una), una);
+});
+
+test('sinGarantia lee el aviso del proveedor en cualquiera de sus formas', () => {
+    assert.equal(sinGarantia('CPU OEM AMD R7 5700X S/CX S/FAN SEM GARANTIA'), true);
+    assert.equal(sinGarantia('CPU OEM AMD R7 5700X S/CX S/FAN Sin Garantía'), true);
+    assert.equal(sinGarantia('RTX3060TI CPO - S/Caja, S/GARANTIA'), true);
+    assert.equal(sinGarantia('CPU OEM INTEL I5 9500 S/CX S/FAN S/G'), true);
+    // Tener garantia no es no tenerla.
+    assert.equal(sinGarantia('MEM DDR3 8GB GARANTIA 2 ANOS'), false);
+    assert.equal(sinGarantia('HD 8TB SEAGATE GARANTIA BR'), false);
+    assert.equal(sinGarantia('MOUSE LOGITECH G203'), false);
+});
+
+test('quitarGarantia saca la palabra pero deja la jerga del rubro', () => {
+    assert.equal(normalizarTitulo('CPU OEM AMD R7 5700X S/CX S/FAN SEM GARANTIA'), 'CPU OEM AMD R7 5700X S/CX S/FAN');
+    assert.equal(normalizarTitulo('MEM DDR3 8GB UP1600 GARANTIA 2 ANOS'), 'MEM DDR3 8GB UP1600');
+    assert.equal(normalizarTitulo('HD 8TB SEAGATE ST8000DM004 GARANTIA BR'), 'HD 8TB SEAGATE ST8000DM004');
+    // S/CX, S/FAN y S/G describen el producto: no dicen "garantia" y se quedan.
+    assert.equal(normalizarTitulo('CPU OEM INTEL I5 9500 S/CX S/FAN S/G'), 'CPU OEM INTEL I5 9500 S/CX S/FAN S/G');
+});
+
+test('normalizarTitulo es idempotente', () => {
+    const una = normalizarTitulo('CPU OEM AMD R7 5700X S/CX SEM GARANTIA');
+    assert.equal(normalizarTitulo(una), una);
 });

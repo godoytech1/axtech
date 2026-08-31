@@ -19,9 +19,24 @@ const idsSinImagen = new Set(
         : []
 );
 
+// Productos que el proveedor sigue cotizando pero no tiene.
+//
+// Su lista trae referencia, titulo y precio: NO trae stock. Estar en la lista
+// significa que la cotiza, no que la tenga. El 31/08 dylan verifico a mano en
+// el sitio del proveedor que una memoria RAM publicada aca ya no existia alla.
+// No hay forma de deducirlo: alguien lo mira y lo anota.
+//
+// Se saca de la vidriera sin tocar el catalogo, asi que basta con borrar la
+// entrada para que vuelva a aparecer cuando se reponga.
+const noPublicar = new Set(
+    existsSync('data/no-publicar.json')
+        ? JSON.parse(readFileSync('data/no-publicar.json', 'utf8')).map((e) => e.id)
+        : []
+);
+
 const catalogo = JSON.parse(readFileSync('data/catalog.json', 'utf8'));
 const publicos = catalogo
-    .map((registro) => aPublicoLegado(registro, { idsSinImagen }))
+    .map((registro) => (noPublicar.has(registro.id) ? null : aPublicoLegado(registro, { idsSinImagen })))
     .filter((registro) => registro !== null);
 
 rmSync(SALIDA, { recursive: true, force: true });
@@ -57,7 +72,7 @@ writeFileSync(`${SALIDA}/products.js`, contenido, 'utf8');
 // El guard verifica igual toda la salida, asi que nada sensible puede colarse.
 const urlBase = process.env.SITE_URL || 'https://axtech.pages.dev';
 const paraPaginas = catalogo
-    .filter((p) => p.status === 'active' && !idsSinImagen.has(p.id))
+    .filter((p) => p.status === 'active' && !idsSinImagen.has(p.id) && !noPublicar.has(p.id))
     .map((p) => ({
         id: p.id,
         slug: p.slug,
@@ -65,6 +80,7 @@ const paraPaginas = catalogo
         brand: p.brand,
         category: p.category,
         price: p.price,
+        sinGarantia: p.sinGarantia === true,
         image: rutaPublica(p.id)
     }));
 
