@@ -164,8 +164,16 @@ const REGLAS = [
     // productos --casi todos placas madre-- a Tarjetas de Video.
     ['tarjetas-de-video',      /(\b(tarjeta de video|placa de video|rtx ?\d|gtx ?\d|\brx ?[5-9]\d{3}\b|geforce)\b|^vga )/i],
     // "MB 1700 ..." es la abreviatura del proveedor, seguida del socket.
-    // Se exige el numero para no confundirla con megabytes.
-    ['placas-madre',           /(\b(placa madre|placa mae|motherboard|mobo)\b|^mb (am\d|\d{3,4})\b)/i],
+    //
+    // Antes se exigia el socket ("^mb (am\d|\d{3,4})") por miedo a confundir la
+    // sigla con megabytes. Medido el 31/08 contra el catalogo entero: de los 810
+    // titulos que EMPIEZAN con MB, los 810 son placas madre, y los 190 donde MB
+    // son megabytes lo llevan siempre en el medio ("6000/4000 MB/S"). El socket
+    // sobraba y dejaba afuera nueve productos: los combos "MB+CPU" y "MB CPU",
+    // los sockets viejos de AMD ("MB FM2/FM2+") y los que arrancan con la marca
+    // ("MB BIOSTAR H510MHP"). Uno de ellos, un combo con DDR3 en el titulo,
+    // estaba publicado entre las memorias RAM.
+    ['placas-madre',           /(\b(placa madre|placa mae|motherboard|mobo)\b|^mb\b)/i],
     ['memorias-ram',           /(\b(memoria|ddr[2345]|sodimm|udimm)\b|^mem )/i],
     // "HD ..." y "CARTAO ..." son abreviaturas del proveedor.
     ['almacenamiento-ssd',     /(\b(ssd|nvme|m\.?2|hd externo|\bhdd\b|disco duro|disco rigido|pendrive|pen drive|micro ?sd|cartao de mem|gaveta|case para hd)\b|^hd |^cartao )/i],

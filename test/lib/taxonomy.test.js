@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {
     CATEGORIAS, SLUG_PROVEEDOR_A_CATEGORIA, IDS_EN_REGLAS, clasificar, detectarMarca
 } from '../../src/lib/taxonomy.js';
+import { readFileSync } from 'node:fs';
 
 test('ninguna categoria es un cajon de sastre llamado Perifericos', () => {
     assert.ok(!CATEGORIAS.some((c) => /perif/i.test(c.id)));
@@ -270,4 +271,29 @@ test('"S/Fuente" y "Con Fuente" dicen si el equipo TRAE fuente, no que lo sea', 
 test('una fuente de PC de verdad sigue siendo una fuente', () => {
     assert.equal(clasificar({ titulo: 'FUENTE 750W CORSAIR RM750E 80 PLUS GOLD FULL MODULAR' }), 'fuentes-de-poder');
     assert.equal(clasificar({ titulo: 'FONTE 600W GAMEMAX GM-600 80 PLUS BRONZE' }), 'fuentes-de-poder');
+});
+
+test('las placas madre no se cuelan entre las memorias', () => {
+    // El proveedor abrevia "MB" y despues escribe el socket, la marca o "CPU"
+    // si es un combo. Todas esas formas son placa madre; el DDR3 del titulo
+    // mandaba una a Memorias RAM.
+    assert.equal(clasificar({ titulo: 'MB+CPU BIOSTAR A68N-2100K 2.0 ITX DDR3/HDMI/VGA' }), 'placas-madre');
+    assert.equal(clasificar({ titulo: 'MB CPU ASROCK QC6000M AMD E2 6110 DDR3 VGA HDMI' }), 'placas-madre');
+    assert.equal(clasificar({ titulo: 'MB FM2/FM2+ GOLINE A88M-G DDR3/HDMI/VGA' }), 'placas-madre');
+    assert.equal(clasificar({ titulo: 'MB BIOSTAR H510MHP 2.0 SOQUETE LGA 1200' }), 'placas-madre');
+    assert.equal(clasificar({ titulo: 'MB AM5 ASUS PRIME B650M-A' }), 'placas-madre');
+});
+
+test('MB como megabytes no convierte un SSD en placa madre', () => {
+    // Por esto la regla exigia el socket. La sigla solo cuenta al principio del
+    // titulo: en el medio son megabytes por segundo.
+    assert.equal(clasificar({ titulo: 'SSD M.2 1TB KINGSTON NVME NV3 6000/4000 MB/S GEN4' }), 'almacenamiento-ssd');
+    assert.equal(clasificar({ titulo: 'SSD M.2 512GB UP GAMER UP2000 2280 NVME 2000 MB GEN3' }), 'almacenamiento-ssd');
+});
+
+test('ninguna placa madre del catalogo quedo en otra categoria', () => {
+    const mal = JSON.parse(readFileSync('data/catalog.json', 'utf8'))
+        .filter((p) => p.status === 'active' && /^mb\b/i.test(p.title) && p.category !== 'placas-madre')
+        .map((p) => `${p.category}: ${p.title}`);
+    assert.deepEqual(mal, []);
 });
