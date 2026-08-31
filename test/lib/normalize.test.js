@@ -93,3 +93,31 @@ test('normalizarTitulo tolera entrada vacia o no textual', () => {
     assert.equal(normalizarTitulo(null), '');
     assert.equal(normalizarTitulo(undefined), '');
 });
+
+test('traduce el portugues que llegaba a la ficha del producto', () => {
+    assert.equal(traducir('CPU OEM AMD AM4 R7 5700X SEM GARANTIA'), 'CPU OEM AMD AM4 R7 5700X Sin Garantía');
+    assert.equal(traducir('HD 1TB SEAGATE PULL SEM GARNATIA'), 'HD 1TB SEAGATE PULL Sin Garantía');
+    assert.equal(traducir('ROUTER DECO E4 PACK-2 SEM CAIXA'), 'ROUTER DECO E4 PACK-2 Sin Caja');
+    assert.equal(traducir('Fuente 400W SATE BIVOLT NAO MODULAR'), 'Fuente 400W SATE BIVOLT No MODULAR');
+});
+
+test('las frases con "sem" se traducen antes que la palabra suelta', () => {
+    assert.equal(traducir('MOUSE RAZER SEM FIO'), 'MOUSE RAZER Sin Cable');
+    assert.equal(traducir('GABINETE AIGO SEM FAN'), 'GABINETE AIGO Sin FAN');
+});
+
+test('"anos" solo se traduce pegado a la garantia', () => {
+    assert.equal(traducir('MEM DDR3 8GB GARANTIA 2 ANOS'), 'MEM DDR3 8GB Garantía 2 Años');
+    // Suelto no se toca: el catalogo esta lleno de codigos de modelo.
+    assert.equal(traducir('TECLADO MODELO ANOS X1'), 'TECLADO MODELO ANOS X1');
+});
+
+test('repara el titulo que el proveedor corta a la mitad', () => {
+    // "GARANTIA 2 AS" es "ANOS" partido; se veia asi en la tienda el 31/08.
+    assert.equal(traducir('MEM DDR3 8GB UP1600 GARANTIA 2 AS'), 'MEM DDR3 8GB UP1600 Garantía 2 Años');
+});
+
+test('traducir es idempotente: el sync reescribe el titulo cada noche', () => {
+    const una = traducir('CPU OEM INTEL I5 9500 SEM GARANTIA');
+    assert.equal(traducir(una), una);
+});

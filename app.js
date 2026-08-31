@@ -2036,14 +2036,31 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const isSobConsulta = p.sob_consulta;
         const waMsg = encodeURIComponent(`Hola, quisiera consultar sobre el producto: ${p.title}\nPrecio: ${isSobConsulta ? 'Bajo Consulta' : p.pyg_str}\nLink / Imagen: ${p.image}`);
-        
+
+        // La lista del proveedor trae referencia, titulo y precio: NO trae stock.
+        // Que un producto figure en la lista significa que el proveedor lo cotiza
+        // hoy, no que lo tenga fisicamente. Decia "Stock Disponible" con un tilde
+        // verde en el 100% de los productos, y el 31/08 aparecio el primer caso
+        // comprobado de un producto anunciado como disponible que el proveedor ya
+        // no tenia. No prometemos lo que no sabemos.
         const stockBadgeHTML = isSobConsulta
             ? `<span class="modal-stock-badge" style="background: rgba(255, 146, 9, 0.15); color: #ff9209; border-color: rgba(255, 146, 9, 0.3);"><i class="las la-clock"></i> Bajo Consulta</span>`
-            : `<span class="modal-stock-badge"><i class="las la-check"></i> Stock Disponible</span>`;
+            : `<span class="modal-stock-badge" style="background: rgba(56, 189, 248, 0.12); color: #38bdf8; border-color: rgba(56, 189, 248, 0.3);"><i class="las la-box"></i> Bajo pedido</span>`;
 
         const priceBlockHTML = isSobConsulta
             ? `<span class="modal-price-label">Estado:</span><span class="modal-price-main" style="color: #ff9209;">Bajo Consulta</span>`
             : `<span class="modal-price-label">Precio en Gs.:</span><span class="modal-price-main">${p.pyg_str}</span>`;
+
+        // Hay 95 productos (procesadores OEM, discos pull) cuyo propio titulo dice
+        // SEM GARANTIA. Prometerles 3 meses al lado es una promesa que despues hay
+        // que sostener: el cliente muestra la captura y la discusion esta perdida.
+        // S/G y S/GARANTIA son la abreviatura del proveedor, igual que S/CX (sin
+        // caja) y S/FAN (sin cooler). Sin la variante pegada se escapaban los
+        // discos "PULL ... S/GARANTIA".
+        const sinGarantia = /\b(?:sem|sin)\s+garantia\b|\bs\/\s*garantia\b|\bs\/g\b/i.test(p.title);
+        const garantiaHTML = sinGarantia
+            ? `<span class="bullet-item" style="color: #ff9209;"><i class="las la-exclamation-triangle"></i> Producto sin garantía</span>`
+            : `<span class="bullet-item"><i class="las la-shield-alt"></i> Garantía de 3 meses en productos</span>`;
 
         const actionsRowHTML = isSobConsulta
             ? `<a href="https://wa.me/595976914662?text=${waMsg}" target="_blank" class="btn btn-sob-consulta" style="width: 100%; font-size: 1rem; padding: 12px 20px; text-decoration: none;">
@@ -2071,8 +2088,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="modal-price-block">
                         ${priceBlockHTML}
                         <div class="modal-info-bullets">
-                            <span class="bullet-item"><i class="las la-shield-alt"></i> Garantía de 3 meses en productos</span>
+                            ${garantiaHTML}
                             <span class="bullet-item"><i class="las la-truck"></i> Envío con costo adicional</span>
+                            <span class="bullet-item"><i class="las la-clock"></i> Stock sujeto a confirmación</span>
                         </div>
                     </div>
 

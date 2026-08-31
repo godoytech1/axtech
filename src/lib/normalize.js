@@ -101,7 +101,29 @@ const TRADUCCIONES = [
     [/\bcadeira\b/gi, 'Silla'],
     [/\bventoinha\b/gi, 'Ventilador'],
     [/\brelogio\b/gi, 'Reloj'],
-    [/\bpelicula\b/gi, 'Pelicula']
+    [/\bpelicula\b/gi, 'Pelicula'],
+
+    // Agregado el 31/08 a partir de lo que se veia publicado en la tienda.
+    //
+    // "GARANTIA 2 ANOS" no era una eñe perdida: es portugues, y llegaba tal
+    // cual a la ficha del producto, al lado del aviso en español.
+    //
+    // El orden importa: primero las frases completas, despues las palabras
+    // sueltas. "sem" generico va al final, cuando las combinaciones de arriba
+    // (sem fio, sem fonte, sem cooler, sem garantia) ya se resolvieron.
+    [/\bsem\s+garantia\b/gi, 'Sin Garantía'],
+    [/\bsem\s+garnatia\b/gi, 'Sin Garantía'],   // typo del proveedor, visto en el HD Seagate #24011
+    [/\bcaixa\b/gi, 'Caja'],
+    [/\bsem\b/gi, 'Sin'],
+    [/\bn[aã]o\b/gi, 'No'],
+
+    // "ANOS" solo se traduce pegado a la garantia. Suelto es demasiado
+    // generico para un catalogo lleno de codigos de modelo.
+    [/\bgarantia\s+(\d+)\s+anos?\b/gi, 'Garantía $1 Años'],
+
+    // El proveedor corta el titulo a lo ancho y deja "GARANTIA 2 AS", que no
+    // quiere decir nada: es "ANOS" partido al medio.
+    [/\bgarantia\s+(\d+)\s+a[sn]\b/gi, 'Garantía $1 Años']
 ];
 
 /**

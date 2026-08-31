@@ -51,7 +51,20 @@ const REGLAS = [
     // alimento SATE. Los dispensadores se consultaron aparte porque son
     // dispositivos conectados ("SMART") de una marca que la tienda ya vende:
     // la decision del dueño fue que no se venden. No reponerlos sin preguntar.
-    /\b(colar de treinamento|coleira|cachorros?|mascotas?|comedero|bebedero|arranhador|racao)\b/i
+    /\b(colar de treinamento|coleira|cachorros?|mascotas?|comedero|bebedero|arranhador|racao)\b/i,
+
+    // El proveedor marca en el titulo lo que tiene prohibido salir de Brasil.
+    //
+    // Encontrado el 31/08 mirando una captura de la tienda: "ROUTER TP-LINK
+    // ARCHER MR200 AC750 4G LTE BRASIL NAO VENDER P/PY" estaba publicado y a
+    // la venta por Gs. 494.000. "P/PY" es justamente Paraguay: el proveedor
+    // avisa que no se puede vender aca, probablemente por homologacion del
+    // equipo 4G. Es el unico caso hoy en 5.554 activos.
+    //
+    // Solo "nao vender" / "no vender", que no significan otra cosa. Buscar
+    // "p/py" suelto no: aparece en anotaciones de precio del proveedor que no
+    // tienen nada que ver con una prohibicion.
+    /\bn[aã]o\s+vender\b|\bno\s+vender\b/i
 ];
 
 /**

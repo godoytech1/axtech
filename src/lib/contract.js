@@ -1,6 +1,7 @@
 import { formatearGs } from './formato.js';
 import { rutaPublica } from './imagenes.js';
 import { extraerSpecs } from './specs.js';
+import { repararMojibake, traducir } from './normalize.js';
 
 /**
  * Campos que jamas pueden aparecer ni en data/catalog.json ni en dist/.
@@ -61,6 +62,14 @@ export function aPublicoLegado(registro, { idsSinImagen = new Set() } = {}) {
  * El titulo es publico, asi que derivar de el no puede filtrar nada.
  */
 function especificaciones(registro) {
-    if (Array.isArray(registro.specs) && registro.specs.length > 0) return registro.specs;
+    if (Array.isArray(registro.specs) && registro.specs.length > 0) {
+        // Las specs guardadas vienen de la migracion del 2026-08-15 y el sync
+        // NUNCA las reescribe: solo las inicializa vacias si faltan. Por eso el
+        // titulo se traducia y la spec no, y el 31/08 una memoria mostraba
+        // "Verde - GARANTIA 2 ANOS" en portugues debajo de un titulo en
+        // español. Se normalizan al publicar, no en el dato: el catalogo
+        // conserva lo que mando el proveedor.
+        return registro.specs.map((s) => traducir(repararMojibake(s)));
+    }
     return extraerSpecs(registro.title).map(({ etiqueta, valor }) => `${etiqueta}: ${valor}`);
 }

@@ -135,7 +135,9 @@ ${encabezadoDelSitio()}
             <a class="btn btn-success ficha-cta" href="https://wa.me/${WHATSAPP}?text=${mensaje}" target="_blank" rel="noopener">
                 <i class="lab la-whatsapp" aria-hidden="true"></i> Consultar por WhatsApp
             </a>
-            <p class="ficha-nota">Garantía de 3 meses. Envío con costo adicional a coordinar.</p>
+            <p class="ficha-nota">${/\b(?:sem|sin)\s+garantia\b|\bs\/\s*garantia\b|\bs\/g\b/i.test(p.title)
+                ? 'Producto sin garantía.'
+                : 'Garantía de 3 meses.'} Envío con costo adicional a coordinar. Stock sujeto a confirmación.</p>
             ${filasDeSpecs}
         </div>
     </div>

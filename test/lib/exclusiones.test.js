@@ -57,3 +57,11 @@ test('ningun producto activo del catalogo esta excluido', () => {
         .map((p) => p.title);
     assert.deepEqual(activos, []);
 });
+
+test('excluye lo que el proveedor prohibe vender en Paraguay', () => {
+    assert.equal(excluido('ROUTER TP-LINK ARCHER MR200 AC750 4G LTE BRASIL NAO VENDER P/PY'), true);
+    assert.equal(excluido('NOTEBOOK X NO VENDER'), true);
+    // No confundir con un producto que simplemente menciona a Brasil.
+    assert.equal(excluido('HD 8TB SEAGATE BARRACUDA ST8000DM004 GARANTIA BR'), false);
+    assert.equal(excluido('ROUTER TP-LINK ARCHER C6 AC1200'), false);
+});
