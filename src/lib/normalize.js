@@ -57,6 +57,36 @@ const REPARACIONES = [
     [/(\d)\uFFFD/g, '$1a']
 ];
 
+/**
+ * Errores de tipeo del proveedor.
+ *
+ * Su lista se carga a mano y arrastra palabras mal escritas. Llegaban tal cual
+ * a la vidriera: un teclado se publicaba como "para Tablet BT Universao" y un
+ * cooler Thermalright como "Peerles Assassin".
+ *
+ * SOLO lo inequivoco. Antes de agregar una linea hay que mirar los titulos
+ * reales que toca, porque lo que parece un error suele ser el nombre del
+ * producto: "WIWU TECLADO RAZOR" es el modelo Razor de WIWU, no un Razer mal
+ * escrito; "REDRAGON HORUS" es el Horus, no un AORUS; "PATCH CORD" y
+ * "DISSIPADOR DE CALOR" estan bien escritos. Los cuatro salieron de la lista
+ * de candidatos al revisarlos uno por uno.
+ *
+ * Va antes que las traducciones: "WIRELLES" tiene que ser "WIRELESS" para que
+ * despues se traduzca a "Inalambrico".
+ */
+const TYPOS = [
+    [/\bUNIVERSAO\b/gi, 'UNIVERSAL'],
+    [/\bWIREL(?:EES|LES|ESS?S)\b/gi, 'WIRELESS'],
+    [/\bTHERMALRIGH\b/gi, 'THERMALRIGHT'],
+    [/\bPEERLES\b/gi, 'PEERLESS'],
+    [/\bPHANTON\b/gi, 'PHANTOM'],
+    [/\bINJECTIOR\b/gi, 'INJECTOR'],
+    [/\bMECANIC\b/gi, 'MECANICO'],
+    [/\bMICROF\b/gi, 'MICROFONO'],
+    // "SILVE" solo cuando esta suelto: es el color cortado, no un modelo.
+    [/\bSILVE\b(?!R)/gi, 'SILVER']
+];
+
 const TRADUCCIONES = [
     // "sem fio" es INALAMBRICO, no "sin cable".
     //
@@ -159,6 +189,9 @@ export function repararMojibake(texto) {
 export function traducir(texto) {
     if (typeof texto !== 'string') return '';
     let res = texto;
+    // Los typos van primero: "WIRELLES" tiene que volver a ser "WIRELESS" para
+    // que la traduccion siguiente lo reconozca.
+    for (const [patron, reemplazo] of TYPOS) res = res.replace(patron, reemplazo);
     for (const [patron, reemplazo] of TRADUCCIONES) res = res.replace(patron, reemplazo);
     return res;
 }

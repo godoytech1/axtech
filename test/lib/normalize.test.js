@@ -167,3 +167,23 @@ test('"sem cabo" tambien es inalambrico', () => {
     assert.ok(!/cable/i.test(traducir('MOUSE RAZER SEM CABO')));
     assert.ok(!/cable/i.test(traducir('TECLADO LOGITECH COM CABO')));
 });
+
+test('corrige los errores de tipeo del proveedor', () => {
+    assert.equal(traducir('TEC P/ TABLET BT UNIVERSAO WHITE'), 'TEC P/ TABLET BT UNIVERSAL WHITE');
+    assert.equal(traducir('COOLER THERMALRIGHT PEERLES ASSASSIN'), 'COOLER THERMALRIGHT PEERLESS ASSASSIN');
+    assert.equal(traducir('COOLER WATER THERMALRIGH CORE MATRIX'), 'COOLER WATER THERMALRIGHT CORE MATRIX');
+    assert.equal(traducir('COOLER THERMALRIGHT PHANTON SPIRIT 120'), 'COOLER THERMALRIGHT PHANTOM SPIRIT 120');
+    assert.equal(traducir('TEC REDRAGON NOVA PRO MECANIC USA'), 'TEC REDRAGON NOVA PRO MECANICO USA');
+    // "WIRELLES" se corrige antes de traducirse, si no queda sin reconocer.
+    assert.equal(traducir('FONE REDRAGON H848G WIRELLES'), 'FONE REDRAGON H848G WIRELESS');
+    assert.equal(traducir('MOUSE COOLER MASTER MM712 WIRELEES RGB'), 'MOUSE COOLER MASTER MM712 WIRELESS RGB');
+});
+
+test('no toca lo que parece un typo pero es el nombre del producto', () => {
+    // Los cuatro salieron de la lista de candidatos y se descartaron al mirar
+    // los titulos reales: son modelos y terminos correctos.
+    assert.ok(/\bRAZOR\b/.test(traducir('WIWU TECLADO RAZOR IOS/ANDR/WIN')));
+    assert.ok(/\bHORUS\b/.test(traducir('TEC REDRAGON K621 HORUS TKL')));
+    assert.ok(/\bSINGLE\b/.test(traducir('COOLER FAN UP GAMER NEVASKA SINGLE ARGB')));
+    assert.ok(/PATCH CORD/.test(traducir('F. PATCH CORD LC-UPC SINGLE MODE')));
+});
