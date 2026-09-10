@@ -157,3 +157,13 @@ test('normalizarTitulo es idempotente', () => {
     const una = normalizarTitulo('CPU OEM AMD R7 5700X S/CX SEM GARANTIA');
     assert.equal(normalizarTitulo(una), una);
 });
+
+test('"sem cabo" tambien es inalambrico', () => {
+    // Se me escapo el 31/08: arregle "sem fio" y el proveedor tambien escribe
+    // "sem cabo". Dos reglas sueltas --cabo->Cable y sem->Sin-- volvian a
+    // producir "Sin Cable", y el mouse Razer #18099 revirtio esa misma noche.
+    assert.equal(traducir('MOUSE RAZER SEM CABO'), 'MOUSE RAZER Inalámbrico');
+    assert.equal(traducir('MOUSE RAZER COM CABO'), 'MOUSE RAZER Alámbrico');
+    assert.ok(!/cable/i.test(traducir('MOUSE RAZER SEM CABO')));
+    assert.ok(!/cable/i.test(traducir('TECLADO LOGITECH COM CABO')));
+});

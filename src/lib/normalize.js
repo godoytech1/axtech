@@ -69,8 +69,12 @@ const TRADUCCIONES = [
     //
     // "Alambrico" cumple lo mismo para el caso contrario sin arrastrar la
     // palabra que confunde a la taxonomia.
-    [/\bsem fio\b/gi, 'Inalámbrico'],
-    [/\bcom fio\b/gi, 'Alámbrico'],
+    // El proveedor lo escribe de las dos formas, "sem fio" y "sem cabo". La
+    // segunda se me escapo el 31/08 y volvio a producir "Sin Cable": el mouse
+    // Razer #18099 se arreglo a mano y el sync lo revirtio esa misma noche,
+    // porque reescribe el titulo desde la lista. Las dos van juntas.
+    [/\bsem\s+(?:fio|cabo)\b/gi, 'Inalámbrico'],
+    [/\bcom\s+(?:fio|cabo)\b/gi, 'Alámbrico'],
     [/\bsem fonte\b/gi, 'Sin Fuente'],
     [/\bcom fonte\b/gi, 'Con Fuente'],
     [/\bsem cooler\b/gi, 'Sin Cooler'],

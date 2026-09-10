@@ -222,6 +222,54 @@ const REGLAS = [
 ];
 
 /**
+ * El tipo que el proveedor declara al ABRIR el titulo.
+ *
+ * Su lista es una planilla de una sola columna y siempre empieza por la
+ * abreviatura del tipo: "MOUSE ...", "TEC ...", "VGA ...". Ese dato es mas
+ * confiable que cualquier palabra del cuerpo, porque el cuerpo describe al
+ * producto --con que se conecta, de que marca es, que trae adentro-- y esas
+ * palabras pertenecen a otras categorias.
+ *
+ * Hasta el 2026-09-10 competia de igual a igual con las reglas por palabra, y
+ * el mismo error volvio cuatro veces:
+ *
+ *   MOUSE COOLER MASTER MM712        -> Refrigeracion (la MARCA dice "Cooler")
+ *   TEC ATTACK ... C/ Cable USB-C    -> Adaptadores y Cables
+ *   MOUSE RAZER COBRA ... Sin Cable  -> Adaptadores y Cables
+ *   TEC P/ TABLET BT UNIVERSAL       -> Tablets
+ *
+ * Solo van los prefijos INEQUIVOCOS. Los ambiguos siguen resolviendose por
+ * REGLAS, que puede mirar el titulo entero.
+ */
+const TIPO_AL_INICIO = [
+    // El combo teclado+mouse va antes que TEC a proposito: "TEC/MOUSE" empieza
+    // igual que un teclado pero trae las dos cosas.
+    [/^TEC\s*\/\s*MOUSE\b/i, 'mouses-y-mousepads'],
+    [/^MOUSE(?:PAD)?\b/i, 'mouses-y-mousepads'],
+    [/^TEC(?:LADO)?\b/i, 'teclados'],
+    [/^(?:FONE|AURICULAR|HEADSET)\b/i, 'auriculares-y-headsets'],
+    [/^(?:MICROFONE|MICROFONO|MIC)\b/i, 'microfonos'],
+    // "CONTROLE DE ACCESO" es una cerradura, no un joystick. La excepcion ya
+    // existia en REGLAS y se respeta igual aca.
+    [/^CONTROLE\b(?!.*acce?ss?o)/i, 'consolas-y-videojuegos'],
+    [/^(?:PARLANTE|CAIXA DE SOM)\b/i, 'parlantes'],
+    [/^(?:REL|RELOGIO)\b/i, 'relojes-smart'],
+    [/^PROJETOR\b/i, 'proyectores'],
+    [/^IMP\b/i, 'impresoras'],
+    [/^GABINETE\b/i, 'gabinetes'],
+    [/^(?:MON)\b/i, 'monitores'],
+    [/^TV\b/i, 'televisores'],
+    [/^NB\b/i, 'notebooks'],
+    [/^VGA\b/i, 'tarjetas-de-video'],
+    [/^CPU\b/i, 'procesadores'],
+    [/^MB\b/i, 'placas-madre'],
+    [/^MEM\b/i, 'memorias-ram'],
+    [/^(?:SSD|HD|CARTAO|PENDRIVE)\b/i, 'almacenamiento-ssd'],
+    [/^TABLET\b/i, 'tablets'],
+    [/^CEL\b/i, 'telefonos-y-celulares']
+];
+
+/**
  * Decide la categoria de un producto.
  *
  * @param {{titulo: string, slugProveedor?: string}} entrada
@@ -237,6 +285,11 @@ export function clasificar({ titulo, slugProveedor } = {}) {
     }
     if (typeof titulo !== 'string' || !titulo.trim()) return null;
     const t = titulo.normalize('NFD').replace(/\p{M}/gu, '');
+
+    // El tipo declarado gana sobre las palabras del cuerpo.
+    for (const [patron, id] of TIPO_AL_INICIO) {
+        if (patron.test(t)) return id;
+    }
     for (const [id, patron] of REGLAS) {
         if (patron.test(t)) return id;
     }

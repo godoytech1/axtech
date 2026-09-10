@@ -297,3 +297,39 @@ test('ninguna placa madre del catalogo quedo en otra categoria', () => {
         .map((p) => `${p.category}: ${p.title}`);
     assert.deepEqual(mal, []);
 });
+
+test('el tipo que abre el titulo gana sobre las palabras del cuerpo', () => {
+    // El mismo error volvio cuatro veces: una palabra del cuerpo --la marca,
+    // con que se conecta, que trae adentro-- le ganaba al tipo declarado.
+    assert.equal(clasificar({ titulo: 'MOUSE COOLER MASTER MM712 30TH RGB BLACK' }), 'mouses-y-mousepads');
+    assert.equal(clasificar({ titulo: 'MOUSE RAZER COBRA RGB Negro Inalámbrico' }), 'mouses-y-mousepads');
+    assert.equal(clasificar({ titulo: 'TEC ATTACK MAGNETICO R82HE C/ Cable USB-C BLACK' }), 'teclados');
+    assert.equal(clasificar({ titulo: 'TEC P/ TABLET BT UNIVERSAL WHITE' }), 'teclados');
+    assert.equal(clasificar({ titulo: 'Parlante JBL PARTYBOX ON THE GO C/MICROFONE' }), 'parlantes');
+    assert.equal(clasificar({ titulo: 'CARTAO MICRO SD 256GB SANDISK NINTENDO' }), 'almacenamiento-ssd');
+});
+
+test('el prefijo no pisa las excepciones que ya existian', () => {
+    // "CONTROLE DE ACCESO" es una cerradura, no un joystick.
+    assert.equal(clasificar({ titulo: 'CONTROLE HIKVISION DE ACCESO FACIAL 3000 FACES' }), 'smart-home');
+    assert.equal(clasificar({ titulo: 'CONTROLE SONY DUALSHOCK 4 PS4 Inalámbrico' }), 'consolas-y-videojuegos');
+    // El combo teclado+mouse no es solo un teclado.
+    assert.equal(clasificar({ titulo: 'TEC/MOUSE LOGITECH MK120 USB Negro' }), 'mouses-y-mousepads');
+});
+
+test('ningun producto activo esta en una categoria que su tipo desmiente', () => {
+    const TIPOS = {
+        MOUSE: 'mouses-y-mousepads', TEC: 'teclados', FONE: 'auriculares-y-headsets',
+        MON: 'monitores', NB: 'notebooks', CPU: 'procesadores', VGA: 'tarjetas-de-video',
+        MEM: 'memorias-ram', MB: 'placas-madre', GABINETE: 'gabinetes', IMP: 'impresoras'
+    };
+    const mal = JSON.parse(readFileSync('data/catalog.json', 'utf8'))
+        .filter((p) => p.status === 'active')
+        .filter((p) => {
+            if (/^TEC\s*\/\s*MOUSE/i.test(p.title)) return false;   // el combo es su propio caso
+            const pre = p.title.split(/[\s+]/)[0].toUpperCase().replace(/[^A-Z]/g, '');
+            return TIPOS[pre] && p.category !== TIPOS[pre];
+        })
+        .map((p) => `${p.category}: ${p.title}`);
+    assert.deepEqual(mal, []);
+});
