@@ -93,6 +93,14 @@ function limpiar(texto) {
         // "con-Cooler" viaja pegado para que presentar() no lo grite como
         // "CON Cooler"; recien aca vuelve a ser dos palabras.
         .replace(/\b(con|sin)-/gi, (m, p) => p.toLowerCase() + ' ')
+        // Una preposicion colgando al final no dice nada: "Fuente para".
+        .replace(/\s+(?:para|con|sin|de|del|y|o)\s*$/i, '')
+        // Una letra suelta al final es residuo de un corte --"Fuente P"-- pero
+        // solo cuando no sigue a un modelo: el "X" de "Logitech G502 X" es
+        // parte del nombre y borrarlo lo confunde con el G502 normal, que es
+        // otro producto.
+        .replace(/(?<!\d[A-Za-z]*)\s+[A-Za-z]$/, '')
+        .replace(/\s{2,}/g, ' ')
         .trim();
 }
 
@@ -294,15 +302,30 @@ function marcaDe(titulo) {
     // specs, MARCA, modelo-- asi que la primera palabra puramente alfabetica
     // que sobrevive al prefijo es, casi siempre, la marca. Sin esto tres
     // monitores distintos se llamaban todos "MON 20 60Hz".
-    const resto = t.replace(PREFIJO_BORRABLE, '').replace(/^\d+\s+/, '');
+    // Lo que sigue a "P/" o "PARA" es con lo que el producto FUNCIONA, no lo
+    // que el producto ES. Sin cortar ahi, un teclado para tablet se llamaba
+    // "Tablet BT Universal".
+    const resto = t.replace(PREFIJO_BORRABLE, '')
+        .replace(/\b(?:P\/|PARA)\s*\S+/gi, ' ')
+        .replace(/^\d+\s+/, '');
     for (const tok of resto.split(/\s+/)) {
         if (!/^[A-Za-z][A-Za-z-]{2,}$/.test(tok)) continue;
         if (RUIDO.test(tok) || TOKEN_DE_COLOR.test(tok)) continue;
-        if (/^(?:DDR|NVME|SATA|ATX|ITX|USB|HDMI|WIFI|GAMER|MINI|KIT|PARA|CON|SIN)$/i.test(tok)) continue;
+        if (NO_ES_MARCA.test(tok)) continue;
         return tok.toUpperCase();
     }
     return null;
 }
+
+/**
+ * Palabras que nunca son la marca.
+ *
+ * Son specs, jerga del rubro o --lo importante-- nombres de OTROS productos:
+ * el respaldo agarra la primera palabra alfabetica que encuentra, y si el
+ * titulo dice para que sirve antes de decir de quien es, publica el accesorio
+ * como si fuera el fabricante.
+ */
+const NO_ES_MARCA = /^(?:DDR|NVME|SATA|ATX|ITX|USB|HDMI|WIFI|GAMER|MINI|KIT|PARA|CON|SIN|TABLET|NOTEBOOK|CELULAR|SMARTPHONE|MONITOR|IMPRESORA|CONSOLA|CAMERA|CAMARA|AUTO|CARRO|MOTO|TECLADO|MOUSE|PARLANTE|UNIVERSAL|UNIVERSAO|MULTI|SMART|PRO|PLUS|MAX|ULTRA)$/i;
 
 // ---------------------------------------------------------------- nombradores
 
@@ -554,6 +577,54 @@ export function nombrarCatalogo(productos) {
 }
 
 /**
+ * Como se llama en singular lo que vende cada categoria.
+ *
+ * Se usa como red: si el nombre quedo empezando por una palabra que no
+ * identifica al producto --el accesorio al que sirve, una palabra generica--
+ * se antepone el tipo, para que el nombre nunca diga lo que el producto NO es.
+ *
+ * Las categorias que ya conservan su tipo en el nombre (Refrigeracion, Redes,
+ * UPS y las demas de TIPO_SE_CONSERVA) no lo necesitan.
+ */
+const TIPO_DE_CATEGORIA = {
+    'teclados': 'Teclado',
+    'mouses-y-mousepads': 'Mouse',
+    'auriculares-y-headsets': 'Auricular',
+    'microfonos': 'Micrófono',
+    'monitores': 'Monitor',
+    'televisores': 'TV',
+    'notebooks': 'Notebook',
+    'tablets': 'Tablet',
+    'telefonos-y-celulares': 'Celular',
+    'parlantes': 'Parlante',
+    'gabinetes': 'Gabinete',
+    'fuentes-de-poder': 'Fuente',
+    'relojes-smart': 'Reloj',
+    'proyectores': 'Proyector',
+    'tarjetas-de-video': 'Placa de Video',
+    'procesadores': 'Procesador',
+    'placas-madre': 'Placa Madre',
+    'memorias-ram': 'Memoria',
+    'almacenamiento-ssd': 'Almacenamiento',
+    'consolas-y-videojuegos': 'Control',
+    'pcs-de-escritorio': 'PC'
+};
+
+/**
+ * Un nombre esta huerfano cuando abre con algo que no dice que es el producto.
+ *
+ * Pasa cuando el titulo no trae marca reconocible y la primera palabra util es
+ * el accesorio al que sirve. Medido el 2026-09-10: un teclado publicado como
+ * "Tablet BT Universao" y una fuente como "Fuente P".
+ */
+function huerfano(nombre) {
+    if (!nombre) return true;
+    const tokens = nombre.split(/\s+/).filter(Boolean);
+    if (tokens.length < 2) return true;
+    return NO_ES_MARCA.test(tokens[0]);
+}
+
+/**
  * @param {string} titulo titulo normalizado del catalogo
  * @param {string} categoria id de categoria
  * @returns {string} nombre para la vidriera
@@ -561,7 +632,10 @@ export function nombrarCatalogo(productos) {
 export function nombreDeProducto(titulo, categoria) {
     if (typeof titulo !== 'string' || !titulo.trim()) return '';
 
-    let texto = titulo.trim();
+    // "P/" es la abreviatura del proveedor para "para". Escrita asi no se lee
+    // como preposicion --ni la persona ni el codigo-- y quedaba colgando en el
+    // nombre: "P/ Tablet BT Universao".
+    let texto = titulo.trim().replace(/\bP\/\s*/gi, 'para ');
     let tipo = '';
 
     if (TIPO_SE_CONSERVA.has(categoria)) {
@@ -590,5 +664,13 @@ export function nombreDeProducto(titulo, categoria) {
         nombre = limpiar(texto.replace(PREFIJO_BORRABLE, ''));
     }
 
-    return presentar(nombre);
+    nombre = presentar(nombre);
+
+    // Ultima red: el nombre nunca puede abrir diciendo lo que el producto NO
+    // es. Se antepone el tipo del rubro, que a esta altura es un dato confiable
+    // --la categoria se decide por el prefijo del proveedor--.
+    if (huerfano(nombre) && TIPO_DE_CATEGORIA[categoria]) {
+        nombre = presentar(unir(TIPO_DE_CATEGORIA[categoria], nombre));
+    }
+    return nombre;
 }

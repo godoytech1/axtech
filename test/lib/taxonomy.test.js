@@ -333,3 +333,15 @@ test('ningun producto activo esta en una categoria que su tipo desmiente', () =>
         .map((p) => `${p.category}: ${p.title}`);
     assert.deepEqual(mal, []);
 });
+
+test('entre dos marcas gana la que abre el titulo, no la mas larga', () => {
+    // El proveedor escribe [TIPO] [specs] [MARCA] [modelo] [compatibilidad].
+    // "SANDISK NINTENDO" es una tarjeta SanDisk para Nintendo; elegir por
+    // longitud le daba la victoria a NINTENDO por una letra.
+    assert.equal(detectarMarca('CARTAO MICRO SD 256GB SANDISK NINTENDO 100/90MBS'), 'SANDISK');
+    // A igualdad de posicion sigue ganando la mas larga: es lo que protege a
+    // las marcas compuestas.
+    assert.equal(detectarMarca('MOUSE COOLER MASTER MM310 WHITE'), 'COOLER MASTER');
+    assert.equal(detectarMarca('HD 10TB WESTERN DIGITAL WD102KRYZ'), 'WESTERN DIGITAL');
+    assert.equal(detectarMarca('MB AM4 UP GAMER A520M HDMI'), 'UP GAMER');
+});

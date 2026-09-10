@@ -339,14 +339,39 @@ const ALIAS_DE_MARCA = {
 // resuelva como "MASTER" ni "ASROCK" quede tapada por otra mas corta.
 const MARCAS_ORDENADAS = [...MARCAS].sort((a, b) => b.length - a.length);
 
-/** Detecta la marca en el titulo. Devuelve null si no reconoce ninguna. */
+/**
+ * Detecta la marca en el titulo. Devuelve null si no reconoce ninguna.
+ *
+ * Cuando el titulo nombra dos marcas, gana la que aparece PRIMERO. El
+ * proveedor escribe [TIPO] [specs] [MARCA] [modelo] [compatibilidad], asi que
+ * la marca del producto abre y la otra es con lo que funciona:
+ *
+ *   CARTAO MICRO SD 256GB SANDISK NINTENDO 100/90MBS
+ *
+ * Es una tarjeta SanDisk para Nintendo, no una tarjeta Nintendo. Elegir por
+ * longitud --como se hacia hasta el 2026-09-10-- le daba la victoria a
+ * NINTENDO por tener una letra mas, y el producto se publicaba llamandose
+ * "Nintendo 256GB".
+ *
+ * A igualdad de posicion sigue ganando la mas larga, que es lo que protege a
+ * las marcas compuestas: "COOLER MASTER" y "MASTER" arrancan en el mismo
+ * indice y tiene que ganar la primera.
+ */
 export function detectarMarca(titulo) {
     if (typeof titulo !== 'string') return null;
     const t = titulo.toUpperCase();
+
+    let mejor = null;
     for (const marca of MARCAS_ORDENADAS) {
         const escapada = marca.replace(/[-]/g, '\\-');
-        if (new RegExp(`\\b${escapada}\\b`).test(t)) return marca;
+        const m = new RegExp(`\\b${escapada}\\b`).exec(t);
+        if (!m) continue;
+        // MARCAS_ORDENADAS ya viene de larga a corta: ante un empate de
+        // posicion, la primera en llegar es la larga y se queda.
+        if (!mejor || m.index < mejor.i) mejor = { marca, i: m.index };
     }
+    if (mejor) return mejor.marca;
+
     for (const [alias, marca] of Object.entries(ALIAS_DE_MARCA)) {
         if (new RegExp(`\\b${alias}\\b`).test(t)) return marca;
     }
