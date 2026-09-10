@@ -114,6 +114,15 @@ if (!nombreProveedor) {
 
 // El guard recorre TODO lo generado, no una lista fija: con miles de paginas
 // nuevas, revisar solo tres archivos dejaria de proteger nada.
+/** Cuenta TODOS los archivos, no solo los de texto: Pages los limita a todos. */
+function contarArchivos(dir) {
+    let n = 0;
+    for (const e of readdirSync(dir, { withFileTypes: true })) {
+        n += e.isDirectory() ? contarArchivos(`${dir}/${e.name}`) : 1;
+    }
+    return n;
+}
+
 function archivosDeTexto(dir) {
     const salida = [];
     for (const e of readdirSync(dir, { withFileTypes: true })) {
@@ -138,8 +147,28 @@ if (fugas.length > 0) {
     process.exit(1);
 }
 
+// Cloudflare Pages no acepta mas de 20.000 archivos por despliegue.
+//
+// Es un limite duro y silencioso: el dia que se cruce, el deploy falla entero
+// y la tienda queda con la version anterior. Cada noche se suman una pagina
+// por producto nuevo y una imagen, asi que llega solo.
+//
+// Se avisa desde el 80% para que haya semanas de margen, no horas. Medido el
+// 2026-09-10: 11.391 archivos, ~78 por noche, el limite cae a fines de enero.
+const LIMITE_ARCHIVOS_PAGES = 20000;
+const AVISAR_DESDE = Math.floor(LIMITE_ARCHIVOS_PAGES * 0.8);
+const archivosPublicados = contarArchivos(SALIDA);
+if (archivosPublicados >= AVISAR_DESDE) {
+    const porcentaje = ((archivosPublicados / LIMITE_ARCHIVOS_PAGES) * 100).toFixed(0);
+    console.warn(
+        `AVISO: ${archivosPublicados} archivos en dist/, el ${porcentaje}% del limite de ` +
+        `Cloudflare Pages (${LIMITE_ARCHIVOS_PAGES}). Cuando se cruce, el despliegue falla entero.`
+    );
+}
+
 const bytes = statSync(`${SALIDA}/products.js`).size;
 console.log(`OK: build completo, ${publicos.length} productos publicados.`);
+console.log(`    archivos en dist/     ${archivosPublicados}   (limite de Pages: ${LIMITE_ARCHIVOS_PAGES})`);
 console.log(`    dist/products.js      ${(bytes / 1024 / 1024).toFixed(2)} MB`);
 console.log(`    paginas de producto   ${nProd}   (${conNoindex} con noindex)`);
 console.log(`    paginas de categoria  ${nCat}`);
