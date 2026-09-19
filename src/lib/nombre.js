@@ -162,6 +162,21 @@ function chipDeVideo(t) {
 }
 const suf = (s) => (s ? ' ' + s.toUpperCase().replace(/\s+/g, ' ') : '');
 
+/**
+ * La GPU de una notebook, en la forma corta que usa el rubro: "RTX 4050", no
+ * "GeForce RTX 4050".
+ *
+ * Va en el nombre porque es lo que define si la maquina es para jugar, y
+ * porque el sitio decide con esa palabra si una notebook entra en el filtro
+ * "Gamer". Sacarla del nombre dejo ese filtro en cero: 40 notebooks gamer que
+ * no aparecian por ningun lado.
+ */
+function gpuCorta(t) {
+    const m = t.match(/\b(RTX|GTX|RX)\s?(\d{3,4})\s?(TI\s?SUPER|SUPER|TI|XT)?\b/i);
+    if (!m) return '';
+    return `${m[1].toUpperCase()} ${m[2]}${m[3] ? ' ' + m[3].toUpperCase().replace(/\s+/g, ' ') : ''}`;
+}
+
 /** "RYZEN R5 5500" es "Ryzen 5 5500"; "I5 12400F" es "Core i5-12400F". */
 function modeloDeCpu(t) {
     let m;
@@ -421,11 +436,40 @@ const NOMBRADORES = {
         const disco = (t.match(/\/(\d{3,4}|[1-4]\s?TB)\//i) || [])[1];
         const pantalla = (t.match(/\/(1[0-9](?:\.\d)?)\//) || [])[1];
         return unir(
-            marca, modelo, cpu,
+            marca, modelo, cpu, gpuCorta(t),
             ram ? `${ram}GB` : '',
             disco ? (/TB/i.test(disco) ? disco.toUpperCase().replace(/\s/g, '') : `${disco}GB`) : '',
             pantalla ? `${pantalla}"` : ''
         );
+    },
+
+    // Un televisor se elige por las pulgadas antes que por nada, y el nombre
+    // las perdia: el titulo las trae en el prefijo ("TV 32 MTEK...") y borrar
+    // el prefijo se las llevaba. Dejaba en cero el filtro de tamaño del sitio.
+    'televisores': (t, marca) => {
+        const i = marca ? t.toUpperCase().indexOf(marca.toUpperCase()) : -1;
+        const cola = i >= 0 ? t.slice(i + marca.length).trim() : t;
+        const modelo = (cola.split(/\s+/)[0] || '').replace(/[,;]$/, '');
+        const res = (t.match(/\b(4K|8K|UHD|QHD|FHD|HD)\b/i) || [])[1];
+        return unir(
+            marca, modelo, pulgadas(t),
+            res ? res.toUpperCase() : '',
+            /\bSMART\b/i.test(t) ? 'Smart' : ''
+        );
+    },
+
+    // Mismo caso: un proyector se compra por lumenes y resolucion.
+    'proyectores': (t, marca) => {
+        const i = marca ? t.toUpperCase().indexOf(marca.toUpperCase()) : -1;
+        const cola = i >= 0 ? t.slice(i + marca.length).trim() : t;
+        // Los lumenes se agregan aparte y con su unidad en español: si ademas
+        // entran en el modelo, el nombre dice "4000 Lumens Lúmenes".
+        const modelo = cola.split(/\s+/)
+            .filter((w) => !RUIDO.test(w) && !pareceCodigo(w) && !/^\d{3,5}$/.test(w) && !/^lumen(?:s|es)?$/i.test(w))
+            .slice(0, 2).join(' ');
+        const lum = (t.match(/\b(\d{3,5})\s?(?:LUMEN|LUMENS|LUMENES|L)\b/i) || [])[1];
+        const res = (t.match(/\b(4K|8K|UHD|FHD|WXGA|HD)\b/i) || [])[1];
+        return unir(marca, modelo, lum ? `${lum} Lúmenes` : '', res ? res.toUpperCase() : '');
     }
 };
 

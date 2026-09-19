@@ -89,3 +89,53 @@ test('una preposicion no puede quedarse sin su sustantivo', () => {
     assert.ok(!/\bcon\s+(?:Negro|Blanco|Gris|Plata|Rojo|Azul)\b/i.test(n), n);
     assert.ok(!/\bcon$/i.test(n), n);
 });
+
+// El nombre corto no es solo estetica: el sitio filtra leyendo esa cadena.
+// Al acortar los nombres el 31/08 se cayeron cinco filtros sin que nadie lo
+// notara --"Ver todo gamer" en Notebooks no devolvia un solo producto-- y
+// aparecio recien cuando dylan lo uso el 19/09.
+
+test('el nombre de una notebook conserva la GPU', () => {
+    // Es lo que define si es para jugar, y con esa palabra el sitio arma el
+    // filtro "Gamer". Sin ella, 40 notebooks gamer quedaban invisibles.
+    const n = nombreDeProducto('NB ACER PHN16S-71-98RF ULTRA9-275HX/32/1TB/RTX5070 TI 12GB/16/W11', 'notebooks');
+    assert.ok(/RTX 5070/.test(n), n);
+});
+
+test('el nombre de un televisor conserva las pulgadas', () => {
+    // El titulo las trae en el prefijo ("TV 32 MTEK..."), y borrar el prefijo
+    // se las llevaba: el filtro de tamaño quedaba en cero para los 83 TVs.
+    const n = nombreDeProducto('TV 32 MTEK MK32FSAH SMART ANDROID 11 WIFI/BT', 'televisores');
+    assert.ok(/32"/.test(n), n);
+});
+
+test('el nombre de un proyector no repite la unidad', () => {
+    const n = nombreDeProducto('PROJETOR DUB 4000 LUMENS DBP4BAT PORTATIL 4000L', 'proyectores');
+    assert.ok(/Lúmenes/.test(n), n);
+    assert.ok(!/Lumens\s+Lúmenes/i.test(n), n);
+});
+
+test('lo que el sitio filtra sigue estando en el nombre', () => {
+    // Recorre el catalogo con los mismos terminos que usa app.js. Si un
+    // cambio de nombres vuelve a vaciar un filtro, esto falla antes de salir.
+    const LINEAS_GAMER = ['rtx', 'gtx', 'gaming', 'gamer', 'nitro', 'predator', 'victus', 'loq', 'tuf'];
+    const cat = JSON.parse(readFileSync('data/catalog.json', 'utf8'));
+    const activos = cat.filter((p) => p.status === 'active');
+    const nombres = nombrarCatalogo(activos);
+
+    const gamerAntes = activos.filter((p) => p.category === 'notebooks'
+        && LINEAS_GAMER.some((x) => p.title.toLowerCase().includes(x))).length;
+    const gamerAhora = activos.filter((p) => p.category === 'notebooks'
+        && LINEAS_GAMER.some((x) => nombres.get(p).toLowerCase().includes(x))).length;
+    assert.ok(gamerAhora >= gamerAntes * 0.9,
+        `el filtro Gamer ve ${gamerAhora} notebooks y el titulo del proveedor declara ${gamerAntes}`);
+
+    // Solo cuentan los que el proveedor declara con medida: en esta categoria
+    // conviven televisores y receptores TV Box, y un TV Box no tiene pulgadas.
+    // Lo que se verifica es que el nombre no PIERDA la medida que el titulo
+    // traia, no que la invente.
+    const conMedida = activos.filter((p) => p.category === 'televisores' && /^TV\s+\d{2,3}\b/i.test(p.title));
+    const conservan = conMedida.filter((p) => /\d{2,3}"/.test(nombres.get(p))).length;
+    assert.ok(conservan >= conMedida.length * 0.9,
+        `solo ${conservan} de ${conMedida.length} televisores conservan las pulgadas que el titulo declaraba`);
+});
