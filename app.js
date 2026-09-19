@@ -893,6 +893,21 @@ document.addEventListener('DOMContentLoaded', () => {
     // HTV H8 4K IPTV 16GB/2GB" matcheaba el "TV 16" de "IPTV 16GB" y publicaba
     // dos receptores como televisores de 16 pulgadas, con su opcion propia en
     // el filtro de tamanio.
+    /**
+     * Escapa un valor para meterlo dentro de un atributo HTML.
+     *
+     * Sin esto, un valor que contiene una comilla doble CIERRA el atributo:
+     * getTvSize devuelve '32"' y el checkbox salia
+     *
+     *     <input data-filter-type="tvSizes" value="32" "="">
+     *
+     * El navegador leia value="32", el filtro comparaba "32" contra '32"' y
+     * no coincidian nunca. Los siete tamaños de television no filtraban NADA,
+     * y no era una regresion: nunca habian funcionado. Su hermano
+     * getMonitorSize devuelve "15-16" sin comilla y por eso ese si andaba.
+     */
+    const attrHtml = (v) => String(v).replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+
     function getTvSize(title) {
         let match = title.match(/(\d{2,3})\s*(?:"|polegadas|inch|'|Pulgadas)/i);
         if (!match) {
@@ -1238,7 +1253,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             ${sortedSizes.map(size => `
                                 <li>
                                     <label class="filter-checkbox-label">
-                                        <input type="checkbox" class="filter-checkbox" data-filter-type="monitorSizes" value="${size}" ${activeSubfilters.monitorSizes.includes(size) ? 'checked' : ''}>
+                                        <input type="checkbox" class="filter-checkbox" data-filter-type="monitorSizes" value="${attrHtml(size)}" ${activeSubfilters.monitorSizes.includes(size) ? 'checked' : ''}>
                                         <span class="checkbox-custom"></span>
                                         <span class="option-name">${size}"</span>
                                         <span class="option-count">(${sizes[size]})</span>
@@ -1269,7 +1284,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             ${['INTEL', 'AMD'].map(brand => `
                                 <li>
                                     <label class="filter-checkbox-label">
-                                        <input type="checkbox" class="filter-checkbox" data-filter-type="procBrands" value="${brand}" ${activeSubfilters.procBrands.includes(brand) ? 'checked' : ''}>
+                                        <input type="checkbox" class="filter-checkbox" data-filter-type="procBrands" value="${attrHtml(brand)}" ${activeSubfilters.procBrands.includes(brand) ? 'checked' : ''}>
                                         <span class="checkbox-custom"></span>
                                         <span class="option-name">${brand}</span>
                                         <span class="option-count">(${brands[brand]})</span>
@@ -1316,7 +1331,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             ${sortedGamerBrands.map(brand => `
                                 <li>
                                     <label class="filter-checkbox-label">
-                                        <input type="checkbox" class="filter-checkbox" data-filter-type="notebookGamerBrands" value="${brand}" ${activeSubfilters.notebookGamerBrands && activeSubfilters.notebookGamerBrands.includes(brand) ? 'checked' : ''}>
+                                        <input type="checkbox" class="filter-checkbox" data-filter-type="notebookGamerBrands" value="${attrHtml(brand)}" ${activeSubfilters.notebookGamerBrands && activeSubfilters.notebookGamerBrands.includes(brand) ? 'checked' : ''}>
                                         <span class="checkbox-custom"></span>
                                         <span class="option-name">${brand}</span>
                                         <span class="option-count">(${gamerBrands[brand]})</span>
@@ -1344,7 +1359,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             ${sortedOfficeBrands.map(brand => `
                                 <li>
                                     <label class="filter-checkbox-label">
-                                        <input type="checkbox" class="filter-checkbox" data-filter-type="notebookOfficeBrands" value="${brand}" ${activeSubfilters.notebookOfficeBrands && activeSubfilters.notebookOfficeBrands.includes(brand) ? 'checked' : ''}>
+                                        <input type="checkbox" class="filter-checkbox" data-filter-type="notebookOfficeBrands" value="${attrHtml(brand)}" ${activeSubfilters.notebookOfficeBrands && activeSubfilters.notebookOfficeBrands.includes(brand) ? 'checked' : ''}>
                                         <span class="checkbox-custom"></span>
                                         <span class="option-name">${brand}</span>
                                         <span class="option-count">(${officeBrands[brand]})</span>
@@ -1381,7 +1396,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             ${chipsPresentes.map(chip => `
                                 <li>
                                     <label class="filter-checkbox-label">
-                                        <input type="checkbox" class="filter-checkbox" data-filter-type="gpuBrands" value="${chip}" ${activeSubfilters.gpuBrands.includes(chip) ? 'checked' : ''}>
+                                        <input type="checkbox" class="filter-checkbox" data-filter-type="gpuBrands" value="${attrHtml(chip)}" ${activeSubfilters.gpuBrands.includes(chip) ? 'checked' : ''}>
                                         <span class="checkbox-custom"></span>
                                         <span class="option-name">${chip}</span>
                                         <span class="option-count">(${chips[chip]})</span>
@@ -1413,7 +1428,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             ${plataformasPresentes.map(platform => `
                                 <li>
                                     <label class="filter-checkbox-label">
-                                        <input type="checkbox" class="filter-checkbox" data-filter-type="mbBrands" value="${platform}" ${activeSubfilters.mbBrands.includes(platform) ? 'checked' : ''}>
+                                        <input type="checkbox" class="filter-checkbox" data-filter-type="mbBrands" value="${attrHtml(platform)}" ${activeSubfilters.mbBrands.includes(platform) ? 'checked' : ''}>
                                         <span class="checkbox-custom"></span>
                                         <span class="option-name">${platform}</span>
                                         <span class="option-count">(${platforms[platform]})</span>
@@ -1445,7 +1460,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             ${sortedSizes.map(size => `
                                 <li>
                                     <label class="filter-checkbox-label">
-                                        <input type="checkbox" class="filter-checkbox" data-filter-type="tvSizes" value="${size}" ${activeSubfilters.tvSizes && activeSubfilters.tvSizes.includes(size) ? 'checked' : ''}>
+                                        <input type="checkbox" class="filter-checkbox" data-filter-type="tvSizes" value="${attrHtml(size)}" ${activeSubfilters.tvSizes && activeSubfilters.tvSizes.includes(size) ? 'checked' : ''}>
                                         <span class="checkbox-custom"></span>
                                         <!-- getTvSize ya devuelve la comilla ('43"', '85"+'): agregar otra
                                              mostraba 43"" en el filtro. -->
@@ -1485,7 +1500,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             ${ordenBrillo.map(b => `
                                 <li>
                                     <label class="filter-checkbox-label">
-                                        <input type="checkbox" class="filter-checkbox" data-filter-type="projectorBrightness" value="${b}" ${activeSubfilters.projectorBrightness.includes(b) ? 'checked' : ''}>
+                                        <input type="checkbox" class="filter-checkbox" data-filter-type="projectorBrightness" value="${attrHtml(b)}" ${activeSubfilters.projectorBrightness.includes(b) ? 'checked' : ''}>
                                         <span class="checkbox-custom"></span>
                                         <span class="option-name">${b}</span>
                                         <span class="option-count">(${brillos[b]})</span>
@@ -1510,7 +1525,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             ${ordenResolucion.map(r => `
                                 <li>
                                     <label class="filter-checkbox-label">
-                                        <input type="checkbox" class="filter-checkbox" data-filter-type="projectorResolutions" value="${r}" ${activeSubfilters.projectorResolutions.includes(r) ? 'checked' : ''}>
+                                        <input type="checkbox" class="filter-checkbox" data-filter-type="projectorResolutions" value="${attrHtml(r)}" ${activeSubfilters.projectorResolutions.includes(r) ? 'checked' : ''}>
                                         <span class="checkbox-custom"></span>
                                         <span class="option-name">${r}</span>
                                         <span class="option-count">(${resoluciones[r]})</span>
@@ -1553,7 +1568,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             ${sortedTypes.map(type => `
                                 <li>
                                     <label class="filter-checkbox-label">
-                                        <input type="checkbox" class="filter-checkbox" data-filter-type="ramTypes" value="${type}" ${activeSubfilters.ramTypes && activeSubfilters.ramTypes.includes(type) ? 'checked' : ''}>
+                                        <input type="checkbox" class="filter-checkbox" data-filter-type="ramTypes" value="${attrHtml(type)}" ${activeSubfilters.ramTypes && activeSubfilters.ramTypes.includes(type) ? 'checked' : ''}>
                                         <span class="checkbox-custom"></span>
                                         <span class="option-name">${type}</span>
                                         <span class="option-count">(${types[type]})</span>
@@ -1574,7 +1589,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             ${sortedGens.map(gen => `
                                 <li>
                                     <label class="filter-checkbox-label">
-                                        <input type="checkbox" class="filter-checkbox" data-filter-type="ramGenerations" value="${gen}" ${activeSubfilters.ramGenerations && activeSubfilters.ramGenerations.includes(gen) ? 'checked' : ''}>
+                                        <input type="checkbox" class="filter-checkbox" data-filter-type="ramGenerations" value="${attrHtml(gen)}" ${activeSubfilters.ramGenerations && activeSubfilters.ramGenerations.includes(gen) ? 'checked' : ''}>
                                         <span class="checkbox-custom"></span>
                                         <span class="option-name">${gen}</span>
                                         <span class="option-count">(${gens[gen]})</span>
@@ -1595,7 +1610,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             ${sortedFreqs.map(freq => `
                                 <li>
                                     <label class="filter-checkbox-label">
-                                        <input type="checkbox" class="filter-checkbox" data-filter-type="ramFreqs" value="${freq}" ${activeSubfilters.ramFreqs.includes(freq) ? 'checked' : ''}>
+                                        <input type="checkbox" class="filter-checkbox" data-filter-type="ramFreqs" value="${attrHtml(freq)}" ${activeSubfilters.ramFreqs.includes(freq) ? 'checked' : ''}>
                                         <span class="checkbox-custom"></span>
                                         <span class="option-name">${freq}</span>
                                         <span class="option-count">(${freqs[freq]})</span>
@@ -1627,7 +1642,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             ${sortedWatts.map(watt => `
                                 <li>
                                     <label class="filter-checkbox-label">
-                                        <input type="checkbox" class="filter-checkbox" data-filter-type="psuWatts" value="${watt}" ${activeSubfilters.psuWatts.includes(watt) ? 'checked' : ''}>
+                                        <input type="checkbox" class="filter-checkbox" data-filter-type="psuWatts" value="${attrHtml(watt)}" ${activeSubfilters.psuWatts.includes(watt) ? 'checked' : ''}>
                                         <span class="checkbox-custom"></span>
                                         <span class="option-name">${watt}</span>
                                         <span class="option-count">(${watts[watt]})</span>
@@ -1664,7 +1679,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             ${sortedCapacities.map(cap => `
                                 <li>
                                     <label class="filter-checkbox-label">
-                                        <input type="checkbox" class="filter-checkbox" data-filter-type="storageSizes" value="${cap}" ${activeSubfilters.storageSizes && activeSubfilters.storageSizes.includes(cap) ? 'checked' : ''}>
+                                        <input type="checkbox" class="filter-checkbox" data-filter-type="storageSizes" value="${attrHtml(cap)}" ${activeSubfilters.storageSizes && activeSubfilters.storageSizes.includes(cap) ? 'checked' : ''}>
                                         <span class="checkbox-custom"></span>
                                         <span class="option-name">${cap}</span>
                                         <span class="option-count">(${capacities[cap]})</span>
@@ -1696,7 +1711,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             ${sortedTypes.map(type => `
                                 <li>
                                     <label class="filter-checkbox-label">
-                                        <input type="checkbox" class="filter-checkbox" data-filter-type="consoleTypes" value="${type}" ${activeSubfilters.consoleTypes && activeSubfilters.consoleTypes.includes(type) ? 'checked' : ''}>
+                                        <input type="checkbox" class="filter-checkbox" data-filter-type="consoleTypes" value="${attrHtml(type)}" ${activeSubfilters.consoleTypes && activeSubfilters.consoleTypes.includes(type) ? 'checked' : ''}>
                                         <span class="checkbox-custom"></span>
                                         <span class="option-name">${type}</span>
                                         <span class="option-count">(${types[type]})</span>
@@ -1730,7 +1745,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             ${sortedBrands.map(brand => `
                                 <li>
                                     <label class="filter-checkbox-label">
-                                        <input type="checkbox" class="filter-checkbox" data-filter-type="generalBrands" value="${brand}" ${activeSubfilters.generalBrands && activeSubfilters.generalBrands.includes(brand) ? 'checked' : ''}>
+                                        <input type="checkbox" class="filter-checkbox" data-filter-type="generalBrands" value="${attrHtml(brand)}" ${activeSubfilters.generalBrands && activeSubfilters.generalBrands.includes(brand) ? 'checked' : ''}>
                                         <span class="checkbox-custom"></span>
                                         <span class="option-name">${brand}</span>
                                         <span class="option-count">(${brands[brand]})</span>

@@ -59,9 +59,9 @@ const visto = (p) => PUBLICADO.get(p) || p.title;
 // lo lea. No usar este patron con nada que venga de afuera.
 const NOMBRES = [
     'getTvSize', 'getMonitorSize', 'getGpuChip', 'getMbPlatform', 'getNotebookType',
-    'getRamType', 'getPsuWattage', 'getConsoleProductType', 'getStorageCapacity'
+    'getRamType', 'getPsuWattage', 'getConsoleProductType', 'getStorageCapacity', 'attrHtml'
 ];
-const bloque = APP.slice(APP.indexOf('function getTvSize('), APP.indexOf('function setupAccordionListeners('));
+const bloque = APP.slice(APP.indexOf('const attrHtml ='), APP.indexOf('function setupAccordionListeners('));
 assert.ok(bloque.length > 1000, 'no se encontro el bloque de ayudantes en app.js');
 const F = new Function(`${bloque}\nreturn {${NOMBRES.join(',')}};`)();
 
@@ -279,4 +279,29 @@ test('el filtro Gamer de notebooks encuentra las notebooks gamer', () => {
     assert.ok(declaradas.length > 0, 'no hay notebooks gamer en el catalogo para verificar');
     assert.ok(encontradas.length >= declaradas.length * 0.9,
         `el filtro ve ${encontradas.length} gamer y el proveedor declara ${declaradas.length}`);
+});
+
+// --------------------------------------------------------------------------
+// El valor del checkbox tiene que sobrevivir al HTML
+// --------------------------------------------------------------------------
+
+test('ningun value de filtro se corta al escribirse en el HTML', () => {
+    // getTvSize devuelve '32"'. Interpolado sin escapar, la comilla CIERRA el
+    // atributo y el navegador termina leyendo value="32":
+    //
+    //     <input data-filter-type="tvSizes" value="32" "="">
+    //
+    // El filtro comparaba "32" contra '32"' y los siete tamaños de television
+    // no devolvian un solo producto. No era una regresion: nunca anduvieron.
+    const interpolaciones = [...APP.matchAll(/value="\$\{([^}]+)\}"/g)].map((m) => m[1]);
+    assert.ok(interpolaciones.length > 10, 'no se encontraron los checkboxes en app.js');
+    const crudos = interpolaciones.filter((expr) => !expr.startsWith('attrHtml('));
+    assert.deepEqual(crudos, [], 'hay valores puestos en un atributo sin escapar');
+});
+
+test('un valor con comillas sobrevive al ida y vuelta', () => {
+    const doc = `<input value="${F.attrHtml('32"')}">`;
+    // El atributo tiene que quedar cerrado y con el valor entero adentro.
+    assert.equal(doc, '<input value="32&quot;">');
+    assert.equal(F.attrHtml('15-16'), '15-16', 'un valor sin comillas no se toca');
 });
