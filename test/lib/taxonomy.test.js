@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {
     CATEGORIAS, SLUG_PROVEEDOR_A_CATEGORIA, IDS_EN_REGLAS, clasificar, detectarMarca
 } from '../../src/lib/taxonomy.js';
+import { excluido } from '../../src/lib/exclusiones.js';
 import { readFileSync } from 'node:fs';
 
 test('ninguna categoria es un cajon de sastre llamado Perifericos', () => {
@@ -327,6 +328,9 @@ test('ningun producto activo esta en una categoria que su tipo desmiente', () =>
         .filter((p) => p.status === 'active')
         .filter((p) => {
             if (/^TEC\s*\/\s*MOUSE/i.test(p.title)) return false;   // el combo es su propio caso
+            // Una impresora 3D abre igual que una Epson y no es lo mismo:
+            // desde el 19/09 tiene su propia categoria.
+            if (/^IMP\s*3D\b/i.test(p.title)) return false;
             const pre = p.title.split(/[\s+]/)[0].toUpperCase().replace(/[^A-Z]/g, '');
             return TIPOS[pre] && p.category !== TIPOS[pre];
         })
@@ -344,4 +348,50 @@ test('entre dos marcas gana la que abre el titulo, no la mas larga', () => {
     assert.equal(detectarMarca('MOUSE COOLER MASTER MM310 WHITE'), 'COOLER MASTER');
     assert.equal(detectarMarca('HD 10TB WESTERN DIGITAL WD102KRYZ'), 'WESTERN DIGITAL');
     assert.equal(detectarMarca('MB AM4 UP GAMER A520M HDMI'), 'UP GAMER');
+});
+
+test('las categorias nuevas reciben lo que el sync venia descartando', () => {
+    assert.equal(clasificar({ titulo: 'Silla DE ESCRITORIO EMPOLI EM-3043' }), 'sillas-y-escritorios');
+    assert.equal(clasificar({ titulo: 'MESA UP GAMER UPGD2204BK Negro' }), 'sillas-y-escritorios');
+    assert.equal(clasificar({ titulo: 'MOCHILA FTX OLIVIA-BK BLACK 15.6"' }), 'mochilas-y-maletines');
+    assert.equal(clasificar({ titulo: 'MALETA NB SATE A-KP301 15" Negro' }), 'mochilas-y-maletines');
+    assert.equal(clasificar({ titulo: 'WEBCAM ELGATO FACECAM MK.2 FHD' }), 'camaras-y-seguridad');
+    assert.equal(clasificar({ titulo: 'DVR HIKVISION 16CH DS-7116HGHI-M1 1080P' }), 'camaras-y-seguridad');
+    assert.equal(clasificar({ titulo: 'DRONE DJI AVATA 360' }), 'camaras-y-seguridad');
+    assert.equal(clasificar({ titulo: 'IMP 3D BAMBU LAB A1 MINI 500MM/S' }), 'impresion-3d');
+    assert.equal(clasificar({ titulo: 'RESINA P/IMPR 3D CREALITY BLACK 500G' }), 'impresion-3d');
+    // La fibra optica ya tenia donde ir.
+    assert.equal(clasificar({ titulo: 'F.ONU GPON/EPON HIBRIDA WIFI AC V2802DAC' }), 'redes-y-conectividad');
+});
+
+test('las categorias nuevas no le roban a las que ya existian', () => {
+    // Una impresora comun sigue en Impresoras, y una silla gamer de Cooler
+    // Master no vuelve a Refrigeracion por el nombre de su marca.
+    assert.equal(clasificar({ titulo: 'IMP EPSON L3250 ECOTANK WIFI BIVOLT' }), 'impresoras');
+    assert.equal(clasificar({ titulo: 'Silla GAMER COOLER MASTER CALIBER X2' }), 'sillas-y-escritorios');
+    // "MESA DE EFEITOS" es audio, no un escritorio.
+    assert.equal(clasificar({ titulo: 'MESA DE EFEITOS SATE A-MK37 RGB' }), 'parlantes');
+    // Las camaras IP que ya vivian en domotica se quedan ahi.
+    assert.equal(clasificar({ titulo: 'CAMERA IP XIAOMI SMART C300 2K' }), 'smart-home');
+});
+
+test('los electrodomesticos se excluyen, no se reportan como sin clasificar', () => {
+    assert.equal(excluido('AR COND 12000 BLACK+DECKER INVERTER C/KIT 220V'), true);
+    assert.equal(excluido('FRITADEIRA ELET. AIR FRYER COBY BE HOME 110V'), true);
+    assert.equal(excluido('SECADOR DE CABELO PROSPER P-7600 7000W'), true);
+    assert.equal(excluido('ASPIRADOR AIPER POOL CLEANER DE PISCINA SCUBA'), true);
+    // El \b final no sirve con "elet": "MOTO ELETRICA" no termina en "elet".
+    assert.equal(excluido('MOTO ELETRICA BLULORY FX10 BLACK 1000W'), true);
+    assert.equal(excluido('BICICLETA ELETRICA EBIKE M2'), true);
+    assert.equal(excluido('PATINETE ELETRICO FOSTON X10 48V 1200W'), true);
+});
+
+test('excluir electrodomesticos no se lleva productos del rubro', () => {
+    // "ventilador" y "camara" quedaron fuera de la lista a proposito: tambien
+    // nombran productos que si se venden.
+    assert.equal(excluido('COOLER FAN UP GAMER ELITE KIT 5X1 ARGB'), false);
+    assert.equal(excluido('VENTILADOR THERMALRIGHT TL-M12QRW-S ARGB'), false);
+    assert.equal(excluido('CAMERA IP HIKVISION DS-2CE56C0T 1MP'), false);
+    assert.equal(excluido('Fuente 650W AZZA 80+ BRONZE ATX'), false);
+    assert.equal(excluido('MON 27 UP GAMER G27 UPG27VA75 75Hz'), false);
 });

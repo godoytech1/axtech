@@ -64,7 +64,24 @@ const REGLAS = [
     // Solo "nao vender" / "no vender", que no significan otra cosa. Buscar
     // "p/py" suelto no: aparece en anotaciones de precio del proveedor que no
     // tienen nada que ver con una prohibicion.
-    /\bn[aã]o\s+vender\b|\bno\s+vender\b/i
+    /\bn[aã]o\s+vender\b|\bno\s+vender\b/i,
+
+    // Electrodomesticos y cuidado personal.
+    //
+    // El proveedor los ofrece y no son de esta tienda. Hasta el 2026-09-19 se
+    // reportaban como "sin clasificar", que suena a problema pendiente: 812 en
+    // la ultima corrida, cuando casi la mitad eran aires acondicionados,
+    // freidoras y secadores de pelo que esta BIEN no vender. El numero decia
+    // que faltaba el doble de trabajo del que faltaba.
+    //
+    // Cada palabra se corrio contra la lista real. Las que quedaron afuera
+    // porque tambien nombran productos del rubro: "ventilador" (los de
+    // gabinete), "plancha" (las termicas de laboratorio), "camara" y "cable".
+    // Ojo con el \b final: "moto elet\b" NO matchea "MOTO ELETRICA", porque
+    // entre "elet" y "rica" no hay limite de palabra. Por eso los que llevan
+    // "elet" usan \w* y quedan fuera del grupo con ancla.
+    /\b(?:moto|bicicleta|scooter|patinete|jarra|horno|olla|parrilla)\s+elet\w*/i,
+    /\b(ar cond(?:icionado)?|fritadeira|air ?fryer|liquidificador|cafeteira|cafetera|batedeira|sanduicheira|espremedor|microondas|geladeira|heladera|fogao|churrasqueira|panela|aquecedor|calefactor|secador de (?:cabelo|pelo)|escova (?:alisadora|dental)|escova de dente|alisador de (?:cabelo|pelo)|cortador de (?:cabelo|pelo)|barbeador|depilador|massageador|aspirador(?: de po| de piscina)?|pool cleaner|patinete|maquina de gelo|balanca (?:digital|de cocina)|tostadora|compressor de ar|compresor de aire)\b/i
 ];
 
 /**

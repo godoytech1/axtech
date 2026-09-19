@@ -27,7 +27,16 @@ export const CATEGORIAS = [
     { id: 'adaptadores-y-cables',   nombre: 'Adaptadores y Cables',   icono: 'la-plug' },
     { id: 'peliculas-y-fundas',     nombre: 'Películas y Fundas',     icono: 'la-mobile' },
     { id: 'impresoras',             nombre: 'Impresoras',             icono: 'la-print' },
-    { id: 'soportes-y-bases',       nombre: 'Soportes y Bases',       icono: 'la-columns' }
+    { id: 'soportes-y-bases',       nombre: 'Soportes y Bases',       icono: 'la-columns' },
+    // Agregadas el 2026-09-19. El proveedor ofrecia estos productos todas las
+    // noches y el sync los descartaba por no tener donde ponerlos: 812 en la
+    // ultima corrida. Casi la mitad de esos son electrodomesticos que no se
+    // venden aca --y ahora se excluyen a proposito-- pero el resto si es del
+    // rubro y se estaba perdiendo.
+    { id: 'sillas-y-escritorios',   nombre: 'Sillas y Escritorios',   icono: 'la-chair' },
+    { id: 'mochilas-y-maletines',   nombre: 'Mochilas y Maletines',   icono: 'la-briefcase' },
+    { id: 'camaras-y-seguridad',    nombre: 'Cámaras y Seguridad',    icono: 'la-video' },
+    { id: 'impresion-3d',           nombre: 'Impresión 3D',           icono: 'la-cube' }
 ];
 
 /**
@@ -98,6 +107,23 @@ const REGLAS = [
     ['auriculares-y-headsets', /(^fones? |\b(earbud|earbuds|airpods)\b|\bbuds\b)/i],
     // Un soporte PARA TV no es un TV: va antes que las reglas de dispositivo.
     ['soportes-y-bases',       /\b(soporte|suporte|base para|bracket|pedestal|brazo articulado|braco articulado)\b/i],
+
+    // --- agregadas el 2026-09-19, sobre lo que el sync venia descartando ---
+
+    // "MESA DE EFEITOS" es una consola de audio, no un escritorio. Va antes
+    // que la regla de escritorios, que si no se la lleva por la palabra MESA.
+    // "PLACA DE SOM" es una placa de sonido y "MESA DE EFEITOS" una consola:
+    // las dos son audio, y van antes que las reglas que reclaman "placa" y
+    // "mesa" para otras cosas.
+    ['parlantes',              /\b(?:mesa|placa) de (?:efeitos|efectos|som|sonido|audio|mezcla|mixagem)\b/i],
+    // "^MESA" a secas alcanza porque la mesa de efectos ya se resolvio arriba.
+    // El proveedor mete la marca en el medio --"MESA UP GAMER UPGD2204BK"--
+    // asi que pedir "mesa gamer" pegado dejaba ocho escritorios afuera.
+    ['sillas-y-escritorios',   /(\b(silla|cadeira|poltrona|escrivaninha)\b|^mesa\b|\bmesa (?:de )?escritorio\b)/i],
+    // "MALETA NB" y "CASE P/ NB" son fundas de transporte. La regla de
+    // almacenamiento ya reclama "case para hd", que es otra cosa.
+    ['mochilas-y-maletines',   /(\b(mochila|maleta|maletin|bolso|morral)\b|\bcase p\/?\s*nb\b)/i],
+    ['impresion-3d',           /(\b(impresora 3d|impressora 3d|filamento|resina p\/?\s*impr)\b|\bfilamento (?:pla|abs|petg)\b)/i],
 
     // 2. Dispositivos completos: le ganan a los componentes que mencionan.
     // "NB ..." es la abreviatura del proveedor para notebook: 150 productos,
@@ -210,7 +236,9 @@ const REGLAS = [
     // "UI. " es la abreviatura del proveedor para Ubiquiti: antenas, enlaces
     // punto a punto y sus accesorios. Sus modelos (NanoStation, NanoBeam,
     // NanoHD) no contienen ninguna palabra generica de red.
-    ['redes-y-conectividad',   /(\b(router|roteador|repetidor|access point|\bhub\b|antena|placa de rede|wi-?fi usb|powerline|rj45|cat[56]e?\b|patch cord|mikrotik|routerboard|unifi|ubiquiti|switch \d+p|poe\b)\b|^ui\. )/i],
+    // "F." es como el proveedor abre todo lo de fibra optica: cajas de empalme,
+    // ONU, patch cords. Es red, y ya tiene su categoria.
+    ['redes-y-conectividad',   /(\b(router|roteador|repetidor|access point|\bhub\b|antena|placa de rede|wi-?fi usb|powerline|rj45|cat[56]e?\b|patch cord|mikrotik|routerboard|unifi|ubiquiti|switch \d+p|poe\b|gpon|epon|onu\b)\b|^ui\. |^f\.\s?)/i],
     ['ups-y-energia',          /(\b(ups|nobreak|no-?break|estabilizador|filtro de linha|power ?bank|cargador|carregador|pila|pilha|bateria|luz de emergencia)\b|^estab)/i],
     // "CAMERA ..." son camaras WiFi de seguridad; las cerraduras inteligentes
     // tambien son domotica.
@@ -218,7 +246,17 @@ const REGLAS = [
     // Consolas por la palabra "CONTROLE" y se quedaban sin categoria al
     // sacarla. Van con la domotica, que es donde ya viven las lamparas
     // inteligentes y las cerraduras.
-    ['smart-home',             /(\b(alexa|echo dot|smart home|zigbee|sonoff|tomada smart|interruptor smart|lampada inteligente|tomada inteligente|camera ip|automacao|fechadura|fita led|tira led|cinta led|acc?ess?o facial|controle? de acc?ess?o)\b|^camera )/i]
+    ['smart-home',             /(\b(alexa|echo dot|smart home|zigbee|sonoff|tomada smart|interruptor smart|lampada inteligente|tomada inteligente|camera ip|automacao|fechadura|fita led|tira led|cinta led|acc?ess?o facial|controle? de acc?ess?o)\b|^camera )/i],
+
+    // Va DESPUES de smart-home a proposito. Las camaras IP que ya viven en
+    // domotica estan bien ahi y moverlas seria otro cambio; esta regla toma
+    // solo lo que hoy se descarta: webcams, grabadores y drones.
+    // Ademas de camaras: lo que se compra PARA filmar. Las placas de captura y
+    // las luces de streaming no tienen otro estante, y Elgato las vende en el
+    // mismo carrito que la webcam.
+    // El plural importa: "key ?light\b" NO matchea "KEY LIGHTS" --el mismo
+    // error del \b que ya se cometio con "moto elet"--. Por eso lights?.
+    ['camaras-y-seguridad',    /(\b(webcam|web ?cam|dvr|nvr|cftv|drone|gimbal)\b|\bcamera de seguranca\b|\bplaca de captura\b|\bkey ?lights?\b|\bp\/\s*cam(?:era)?\b|\bcam(?:era)? de acao\b)/i]
 ];
 
 /**
@@ -255,7 +293,13 @@ const TIPO_AL_INICIO = [
     [/^(?:PARLANTE|CAIXA DE SOM)\b/i, 'parlantes'],
     [/^(?:REL|RELOGIO)\b/i, 'relojes-smart'],
     [/^PROJETOR\b/i, 'proyectores'],
-    [/^IMP\b/i, 'impresoras'],
+    // Una impresora 3D no pertenece al mismo estante que una Epson: va antes
+    // que el prefijo IMP generico, que si no se la lleva.
+    [/^IMP\s*3D\b/i, 'impresion-3d'],
+    // El proveedor tambien abre con "MINI IMP", y el papel termico es insumo
+    // de impresora aunque el titulo empiece por el papel.
+    [/^(?:MINI\s+)?IMP\b/i, 'impresoras'],
+    [/^PAPEL DE IMP/i, 'impresoras'],
     [/^GABINETE\b/i, 'gabinetes'],
     [/^(?:MON)\b/i, 'monitores'],
     [/^TV\b/i, 'televisores'],
