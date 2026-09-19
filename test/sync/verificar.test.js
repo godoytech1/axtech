@@ -103,3 +103,54 @@ test('sin activos previos no se divide por cero', () => {
         []
     );
 });
+
+test('un cambio de formula puede autorizar los saltos, pero solo si se declara', () => {
+    // Subir 200.000 a todo lo que pasa de 500.000 mueve el 24% del catalogo.
+    // El limite del 5% existe para atajar un tipo de cambio mal cargado, y sin
+    // una salida explicita un cambio de precios deliberado aborta el sync
+    // entero: tampoco entrarian los productos nuevos del proveedor.
+    const reporte = { ...cambiosNormales.reporte, saltos: Array.from({ length: 1383 }, (_, i) => ({ id: i })) };
+    const args = { ...cambiosNormales, reporte };
+    const previo = process.env.CAMBIO_DE_FORMULA;
+
+    try {
+        delete process.env.CAMBIO_DE_FORMULA;
+        assert.ok(
+            verificarCambios(args).some((p) => p.includes('saltarian de precio')),
+            'sin autorizacion el salto masivo tiene que frenar el sync'
+        );
+
+        process.env.CAMBIO_DE_FORMULA = '1';
+        assert.deepEqual(
+            verificarCambios(args).filter((p) => p.includes('saltarian de precio')),
+            [],
+            'declarado como cambio de formula, el salto pasa'
+        );
+        assert.ok(
+            (reporte.avisos || []).some((a) => a.includes('CAMBIO_DE_FORMULA')),
+            'la excepcion tiene que quedar escrita en el reporte'
+        );
+    } finally {
+        if (previo === undefined) delete process.env.CAMBIO_DE_FORMULA;
+        else process.env.CAMBIO_DE_FORMULA = previo;
+    }
+});
+
+test('el resto de los guardarrailes sigue firme durante un cambio de formula', () => {
+    // CAMBIO_DE_FORMULA autoriza los saltos de precio y nada mas: si la lista
+    // ademas viene cortada o se ocultaria medio catalogo, el sync frena igual.
+    const previo = process.env.CAMBIO_DE_FORMULA;
+    process.env.CAMBIO_DE_FORMULA = '1';
+    try {
+        const p = verificarCambios({
+            ...cambiosNormales,
+            reporte: { ...cambiosNormales.reporte, ocultados: 3000, saltos: Array.from({ length: 1383 }, () => ({})) },
+            purgados: Array.from({ length: 5000 }, (_, i) => i)
+        });
+        assert.ok(p.some((x) => /ocultarian/i.test(x)), p.join(' | '));
+        assert.ok(p.some((x) => /purga/i.test(x)), p.join(' | '));
+    } finally {
+        if (previo === undefined) delete process.env.CAMBIO_DE_FORMULA;
+        else process.env.CAMBIO_DE_FORMULA = previo;
+    }
+});

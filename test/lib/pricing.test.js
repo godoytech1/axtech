@@ -6,12 +6,14 @@ const CFG = {
     umbralBarato: 200000,
     minimoBarato: 50000,
     minimoBase: 100000,
+    umbralCaro: 500000,
+    recargoCaro: 200000,
     pct: { 'tarjetas-de-video': 0.12, 'teclados': 0.25, default: 0.15 }
 };
 
 test('aplica el porcentaje cuando supera al minimo', () => {
-    // 20.000.000 * 12% = 2.400.000 > 100.000
-    assert.equal(precioFinal(20000000, 'tarjetas-de-video', CFG), 22400000);
+    // 20.000.000 * 12% = 2.400.000 > 100.000, y encima el recargo de los caros
+    assert.equal(precioFinal(20000000, 'tarjetas-de-video', CFG), 22600000);
 });
 
 test('aplica el minimo cuando el porcentaje se queda corto', () => {
@@ -25,7 +27,8 @@ test('usa el minimo reducido debajo del umbral barato', () => {
 });
 
 test('usa el porcentaje por defecto para categorias sin tarifa propia', () => {
-    assert.equal(precioFinal(1000000, 'categoria-desconocida', CFG), 1150000);
+    // 1.000.000 + 15% = 1.150.000, mas el recargo de los caros
+    assert.equal(precioFinal(1000000, 'categoria-desconocida', CFG), 1350000);
 });
 
 test('el resultado siempre es multiplo de 1000', () => {
@@ -102,7 +105,8 @@ test('devuelve null ante precios invalidos', () => {
 
 const CFG_VALIDA = {
     tipoDeCambio: 6164, umbralBarato: 200000, minimoBarato: 20000,
-    minimoBase: 60000, pct: { default: 0.13 }
+    minimoBase: 60000, umbralCaro: 500000, recargoCaro: 200000,
+    pct: { default: 0.13 }
 };
 
 test('una config completa no reporta problemas', () => {
@@ -143,4 +147,60 @@ test('cargarConfig falla ruidosamente ante una config invalida', () => {
         if (previo === undefined) delete process.env.PRICING_CONFIG;
         else process.env.PRICING_CONFIG = previo;
     }
+});
+
+// --------------------------------------------------------------------------
+// Recargo de los caros (pedido por dylan el 2026-09-19)
+// --------------------------------------------------------------------------
+
+test('un precio que pasa el umbral lleva el recargo', () => {
+    // 400.000 + max(100.000, 60.000) = 500.000 exactos: NO lo pasa.
+    assert.equal(precioFinal(400000, 'sin-categoria', CFG), 500000);
+    // 401.000 da 501.000, que si lo pasa.
+    assert.equal(precioFinal(401000, 'sin-categoria', CFG), 701000);
+});
+
+test('el umbral se mide contra el precio de venta, no contra el costo', () => {
+    // Un costo de 450.000 esta debajo del umbral, pero su precio no.
+    const costo = 450000;
+    assert.ok(costo < CFG.umbralCaro);
+    assert.equal(precioFinal(costo, 'sin-categoria', CFG), 750000);
+});
+
+test('el recargo deja un hueco de precios y eso es esperado', () => {
+    // Es un escalon, no una rampa: entre el umbral y umbral+recargo no puede
+    // caer ningun producto. Si algun dia aparece uno ahi, la formula cambio.
+    const enElHueco = [];
+    for (let costo = 1000; costo <= 3000000; costo += 1000) {
+        const p = precioFinal(costo, 'teclados', CFG);
+        if (p > CFG.umbralCaro && p <= CFG.umbralCaro + CFG.recargoCaro) {
+            enElHueco.push(`costo ${costo} -> ${p}`);
+        }
+    }
+    assert.deepEqual(enElHueco, []);
+});
+
+test('el recargo no rompe el orden de los precios', () => {
+    // Un producto mas barato nunca puede terminar costando mas que uno mas
+    // caro: el escalon sube a todos los de arriba, no a algunos.
+    let anterior = 0;
+    for (let costo = 1000; costo <= 3000000; costo += 1000) {
+        const p = precioFinal(costo, 'teclados', CFG);
+        assert.ok(p >= anterior, `costo ${costo} da ${p}, menos que el anterior ${anterior}`);
+        anterior = p;
+    }
+});
+
+test('sin el umbral configurado, la carga falla en vez de cobrar de menos', () => {
+    // El secreto PRICING_CONFIG vive fuera del repo. Si se actualiza el codigo
+    // y no el secreto, esto tiene que romper el build: una tienda que sigue
+    // cobrando los precios viejos sin avisar es peor que un build rojo.
+    const sinUmbral = { ...CFG };
+    delete sinUmbral.umbralCaro;
+    const problemas = validarConfig(sinUmbral);
+    assert.ok(problemas.some((p) => p.includes('umbralCaro')), problemas.join(' | '));
+
+    const sinRecargo = { ...CFG };
+    delete sinRecargo.recargoCaro;
+    assert.ok(validarConfig(sinRecargo).some((p) => p.includes('recargoCaro')));
 });

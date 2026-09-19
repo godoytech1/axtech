@@ -99,13 +99,29 @@ export function verificarCambios({ reporte, activosPrevios, purgados, totalPrevi
             );
         }
 
+        // Un cambio de formula mueve el precio de medio catalogo a proposito, y
+        // este limite --que existe para atajar un tipo de cambio mal cargado--
+        // lo leeria como el desastre que justamente busca. CAMBIO_DE_FORMULA=1
+        // autoriza ESA corrida y nada mas: no se apaga el guardarraíl, se
+        // declara que el salto era esperado, y queda escrito en el log de la
+        // corrida para que despues se sepa por que paso.
+        const saltoAutorizado = process.env.CAMBIO_DE_FORMULA === '1';
         const porcionSaltos = reporte.saltos.length / activosPrevios;
         if (porcionSaltos > limites.saltosMaximo) {
-            problemas.push(
-                `${reporte.saltos.length} productos saltarian de precio (${pct(porcionSaltos)} de los activos), ` +
-                `maximo tolerado ${pct(limites.saltosMaximo)}. ` +
-                'Cuando salta el precio de casi todo, el sospechoso es el tipo de cambio, no el proveedor.'
-            );
+            if (saltoAutorizado) {
+                reporte.avisos = reporte.avisos || [];
+                reporte.avisos.push(
+                    `CAMBIO_DE_FORMULA=1: se aceptaron ${reporte.saltos.length} saltos de precio ` +
+                    `(${pct(porcionSaltos)} de los activos), muy por encima del ${pct(limites.saltosMaximo)} habitual.`
+                );
+            } else {
+                problemas.push(
+                    `${reporte.saltos.length} productos saltarian de precio (${pct(porcionSaltos)} de los activos), ` +
+                    `maximo tolerado ${pct(limites.saltosMaximo)}. ` +
+                    'Cuando salta el precio de casi todo, el sospechoso es el tipo de cambio, no el proveedor. ' +
+                    'Si el salto es a proposito --cambio de formula-- correr con CAMBIO_DE_FORMULA=1.'
+                );
+            }
         }
     }
 

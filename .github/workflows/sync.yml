@@ -62,7 +62,7 @@ jobs:
         run: |
           mkdir -p config
           printf '%s' "$PRICING_CONFIG" > config/pricing.config.json
-          node -e "const c=require('./config/pricing.config.json'); if(!c.pct||!c.tipoDeCambio) { console.error('ERROR: PRICING_CONFIG incompleto.'); process.exit(1); } console.log('OK: config cargada.')"
+          node -e "const c=require('./config/pricing.config.json'); const faltan=['pct','tipoDeCambio','umbralCaro','recargoCaro'].filter(k=>c[k]===undefined); if(faltan.length) { console.error('ERROR: PRICING_CONFIG incompleto, faltan: '+faltan.join(', ')+'. Actualizar el secreto en Settings > Secrets.'); process.exit(1); } console.log('OK: config cargada.')"
         env:
           PRICING_CONFIG: ${{ secrets.PRICING_CONFIG }}
 

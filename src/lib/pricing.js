@@ -44,12 +44,16 @@ export function validarConfig(config) {
     if (typeof tc !== 'number' || !Number.isFinite(tc) || tc < 3000 || tc > 15000) {
         problemas.push(`tipoDeCambio fuera de rango (3000-15000 Gs/USD): ${tc}`);
     }
-    for (const campo of ['umbralBarato', 'minimoBarato', 'minimoBase']) {
+    for (const campo of ['umbralBarato', 'minimoBarato', 'minimoBase', 'umbralCaro', 'recargoCaro']) {
         const v = config[campo];
         if (typeof v !== 'number' || !Number.isFinite(v) || v <= 0) {
             problemas.push(`${campo} debe ser un numero positivo: ${v}`);
         }
     }
+    // Obligatorios y no opcionales a proposito. Si faltaran con un default de
+    // cero, una config vieja --el secreto PRICING_CONFIG sin actualizar--
+    // seguiria publicando los precios de antes sin decirlo. Un build que falla
+    // se arregla; una tienda que cobra de menos durante semanas, no.
     if (!config.pct || typeof config.pct !== 'object') {
         problemas.push('falta el mapa pct de porcentajes por categoria');
     } else if (typeof config.pct.default !== 'number') {
@@ -67,6 +71,14 @@ export function validarConfig(config) {
  * de recargo fijo daba 0,5% de margen en los productos caros y 1622% en los
  * mas baratos.
  *
+ * Encima de eso va el recargo de los caros: pasado `umbralCaro`, el precio
+ * suma `recargoCaro`. Es un escalon, no una rampa, y por eso deja un hueco:
+ * con umbral 500.000 y recargo 200.000, ningun producto queda entre 500.001 y
+ * 700.000. El orden de los precios se conserva --nada barato pasa a costar
+ * mas que algo caro-- pero dos productos casi iguales terminan separados por
+ * 200.000. Es lo que se pidio; si el salto molesta, la forma de suavizarlo es
+ * subir el pct de esas categorias en vez de sumar un fijo.
+ *
  * El redondeo al millar superior existe porque "Gs. 1.067.683" en una tarjeta
  * de producto se lee como un error del sistema, no como un precio.
  *
@@ -77,7 +89,13 @@ export function precioFinal(costo, categoria, config) {
     const pct = config.pct[categoria] ?? config.pct.default;
     const minimo = costo < config.umbralBarato ? config.minimoBarato : config.minimoBase;
     const bruto = costo + Math.max(minimo, costo * pct);
-    return Math.ceil(bruto / 1000) * 1000;
+    const redondeado = Math.ceil(bruto / 1000) * 1000;
+
+    // El umbral se mide contra el precio de venta, no contra el costo: es el
+    // numero que el cliente ve y el que dylan nombro.
+    return redondeado > config.umbralCaro
+        ? redondeado + config.recargoCaro
+        : redondeado;
 }
 
 /**

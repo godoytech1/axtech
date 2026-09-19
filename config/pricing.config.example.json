@@ -3,6 +3,8 @@
   "umbralBarato": 200000,
   "minimoBarato": 50000,
   "minimoBase": 100000,
+  "umbralCaro": 500000,
+  "recargoCaro": 200000,
   "pct": {
     "default": 0.15
   }
