@@ -26,6 +26,10 @@ on:
         description: 'Solo simular: calcula e informa, no escribe ni commitea'
         type: boolean
         default: false
+      cambio_de_formula:
+        description: 'Cambio de precios a proposito: acepta que salte mas del 5% del catalogo (solo esta corrida)'
+        type: boolean
+        default: false
 
 concurrency:
   group: sync
@@ -68,6 +72,11 @@ jobs:
 
       - name: Sincronizar
         run: node src/sync/ejecutar.js ${{ inputs.simular && '' || '--aplicar' }}
+        env:
+          # Solo cuando se dispara a mano tildando la casilla. El cron nocturno
+          # nunca la lleva: un salto masivo de precios sin nadie mirando es
+          # justo lo que el guardarrail tiene que frenar.
+          CAMBIO_DE_FORMULA: ${{ inputs.cambio_de_formula && '1' || '0' }}
         env:
           SUPPLIER_LIST_URL: ${{ secrets.SUPPLIER_LIST_URL }}
 
