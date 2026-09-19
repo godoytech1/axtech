@@ -395,3 +395,11 @@ test('excluir electrodomesticos no se lleva productos del rubro', () => {
     assert.equal(excluido('Fuente 650W AZZA 80+ BRONZE ATX'), false);
     assert.equal(excluido('MON 27 UP GAMER G27 UPG27VA75 75Hz'), false);
 });
+
+test('la categoria de fundas conserva su id aunque cambie el nombre', () => {
+    // El id es la URL. Renombrar la categoria no puede dejar en 404 lo que
+    // Google ya indexo, asi que el nombre cambio y el id no.
+    const c = CATEGORIAS.find((x) => x.id === 'peliculas-y-fundas');
+    assert.ok(c, 'el id tiene que seguir existiendo');
+    assert.equal(c.nombre, 'Fundas');
+});

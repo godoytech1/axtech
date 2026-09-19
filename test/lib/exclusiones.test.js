@@ -65,3 +65,12 @@ test('excluye lo que el proveedor prohibe vender en Paraguay', () => {
     assert.equal(excluido('HD 8TB SEAGATE BARRACUDA ST8000DM004 GARANTIA BR'), false);
     assert.equal(excluido('ROUTER TP-LINK ARCHER C6 AC1200'), false);
 });
+
+test('una capa de lluvia para moto no es una funda', () => {
+    // Caia en Fundas porque abre con "CAPA", igual que las de notebook.
+    assert.equal(excluido('CAPA DE CHUVA P/ MOTO LUO LU-040 XL-170 BLACK'), true);
+    // Y las fundas de verdad se quedan: buscar "capa" sola se llevaria 23.
+    assert.equal(excluido('CAPA P/ NB SATE A-KP12 15.6 Negro/Rojo'), false);
+    assert.equal(excluido('CAPA P/TABLET SAMSUNG S10 SM-X820 12.4 BLACK'), false);
+    assert.equal(excluido('CAPA P/ IPAD USAMS SMART KEYBOARD 10.2 BLK'), false);
+});

@@ -77,6 +77,14 @@ const REGLAS = [
     // Cada palabra se corrio contra la lista real. Las que quedaron afuera
     // porque tambien nombran productos del rubro: "ventilador" (los de
     // gabinete), "plancha" (las termicas de laboratorio), "camara" y "cable".
+    // Capas de lluvia para motociclista. Decision del dueño el 2026-09-19.
+    //
+    // "CAPA DE CHUVA P/ MOTO" es un piloto impermeable, no una funda: caia en
+    // Fundas porque el titulo abre con "CAPA", igual que las fundas de
+    // notebook. Se busca la frase entera a proposito: "capa" sola se llevaria
+    // las 23 fundas que si se venden.
+    /\bcapa de chuva\b/i,
+
     // Ojo con el \b final: "moto elet\b" NO matchea "MOTO ELETRICA", porque
     // entre "elet" y "rica" no hay limite de palabra. Por eso los que llevan
     // "elet" usan \w* y quedan fuera del grupo con ancla.

@@ -25,7 +25,10 @@ export const CATEGORIAS = [
     { id: 'ups-y-energia',          nombre: 'UPS y Energía',          icono: 'la-battery-full' },
     { id: 'smart-home',             nombre: 'Smart Home',             icono: 'la-home' },
     { id: 'adaptadores-y-cables',   nombre: 'Adaptadores y Cables',   icono: 'la-plug' },
-    { id: 'peliculas-y-fundas',     nombre: 'Películas y Fundas',     icono: 'la-mobile' },
+    // El id NO cambia aunque el nombre si: es la URL de la categoria
+    // (/c/peliculas-y-fundas/) y renombrarlo dejaria en 404 lo que Google ya
+    // tiene indexado. El id identifica, el nombre se lee.
+    { id: 'peliculas-y-fundas',     nombre: 'Fundas',                 icono: 'la-mobile' },
     { id: 'impresoras',             nombre: 'Impresoras',             icono: 'la-print' },
     { id: 'soportes-y-bases',       nombre: 'Soportes y Bases',       icono: 'la-columns' },
     // Agregadas el 2026-09-19. El proveedor ofrecia estos productos todas las
