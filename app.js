@@ -374,7 +374,6 @@ document.addEventListener('DOMContentLoaded', () => {
     renderSidebarFilters(currentCategory);
     syncCategoryLinks(currentCategory);
     renderProducts();
-    if (productoDeLaURL !== null) openProductModal(productoDeLaURL);
     updateCartUI();
 
     // ----------------------------------------------------------------------
@@ -2512,6 +2511,13 @@ document.addEventListener('DOMContentLoaded', () => {
             searchSuggestions.style.display = 'none';
         }
     });
+
+    // Un producto compartido por WhatsApp (/?id=N) se abre al final, no junto
+    // al primer render: el modal usa constantes que se declaran mas abajo en
+    // este mismo archivo, y llamarlo antes reventaba con "Cannot access
+    // SELECTOR_ENFOCABLE before initialization". El modal igual aparecia, pero
+    // sin trampa de foco y con un error en la consola de cada visita.
+    if (productoDeLaURL !== null) openProductModal(productoDeLaURL);
 
 
 

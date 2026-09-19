@@ -397,3 +397,18 @@ return mensajeWhatsApp;`)({ origin: 'https://axtech.pages.dev' });
     assert.ok(texto.includes('Bajo Consulta'), texto);
     assert.ok(!texto.includes('Gs. 0'), texto);
 });
+
+test('abrir un producto por URL no corre antes de lo que el modal necesita', () => {
+    // /?id=N abria el modal junto al primer render, y ahi SELECTOR_ENFOCABLE
+    // --que se declara mucho mas abajo en el mismo archivo-- todavia estaba en
+    // la zona muerta. Cada visita con un link compartido por WhatsApp abria el
+    // modal sin trampa de foco y dejaba un ReferenceError en la consola.
+    const llamada = APP.indexOf('openProductModal(productoDeLaURL)');
+    const constante = APP.indexOf('const SELECTOR_ENFOCABLE');
+    assert.ok(llamada > 0, 'no se encontro la apertura por URL');
+    assert.ok(constante > 0, 'no se encontro SELECTOR_ENFOCABLE');
+    assert.ok(
+        llamada > constante,
+        'la apertura por URL corre antes de que SELECTOR_ENFOCABLE exista'
+    );
+});
