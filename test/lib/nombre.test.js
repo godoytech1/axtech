@@ -80,3 +80,12 @@ test('ningun nombre publicado abre nombrando otro producto', () => {
         .map((p) => `${p.category}: ${nombres.get(p)}`);
     assert.deepEqual(rotos, []);
 });
+
+test('una preposicion no puede quedarse sin su sustantivo', () => {
+    // En "... HEADSET NC BLACK COM MICROFONE" el corte se comia "MICROFONE" y
+    // el nombre quedaba "Headset NC con Negro": el "con" pasaba a referirse al
+    // color, que dice algo distinto de lo que el producto trae.
+    const n = nombreDeProducto('Auricular EMEET GENIUSCALL HS50 HEADSET NC BLACK con MICROFONE', 'auriculares-y-headsets');
+    assert.ok(!/\bcon\s+(?:Negro|Blanco|Gris|Plata|Rojo|Azul)\b/i.test(n), n);
+    assert.ok(!/\bcon$/i.test(n), n);
+});

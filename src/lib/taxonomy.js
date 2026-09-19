@@ -360,6 +360,9 @@ export const MARCAS = [
     // cinco memorias distintas terminaban llamandose "16GB DDR4 3200MHz".
     // "STAR" se anota aparte: es marca real de placas madre y placas de video
     // de gama baja, y \bSTAR\b no toca "STARTECH" ni "STARLIGHT".
+    // "BLACK SHARK" va como marca compuesta: sin esto, "BLACK" se filtraba
+    // como color y el producto quedaba llamandose "Shark V2".
+    'BLACK SHARK',
     'HOLLYLAND', 'BLACKVIEW', 'MACROWAY', 'MERCUSYS', 'CREALITY', 'GAMDIAS',
     'FOXCONN', 'PUSKILL', 'SANDISK', 'TOSHIBA', 'ARKTEK', 'AMAZON', 'GOLINE',
     'G-TIDE', 'BROTHER', 'BOETEC', 'UNIFI', 'LEXAR', 'DUEX', 'STAR', 'ECS',

@@ -266,6 +266,9 @@ const RUIDO = /^(?:\*\w*|S\/CX|C\/CX|S\/FAN|C\/FAN|S\/COOLER|C\/COOLER|S\/G|S\/V
 // "WHI 7.1 WHITE/GRAY"). Se borran todas y se agrega una sola vez, en español.
 const TOKEN_DE_COLOR = /^(?:BLACK|BLK|PRETO|PRETA|NEGRO|WHITE|WHI|BRANCO|BRANCA|BLANCO|GREY|GRAY|CINZA|GRIS|SILVER|PRATA|PLATA|RED|VERMELHO|ROJO|BLUE|AZUL|PINK|ROSA|GOLD|DOURADO|DORADO|GREEN|VERDE|YELLOW|AMARELO|AMARILLO|PURPLE|ROXO|VIOLETA)$/i;
 
+/** Palabras que no pueden cerrar un nombre: piden un sustantivo detras. */
+const PREPOSICION = /^(?:con|sin|de|del|para|y|o|a)$/i;
+
 // Abreviaturas que el proveedor usa y el cliente no entiende.
 const TRADUCCION_DE_TOKEN = {
     'WIR': 'Inalámbrico', 'WIRELESS': 'Inalámbrico', 'WIRELLES': 'Inalámbrico',
@@ -458,7 +461,10 @@ const TRADUCCION_DE_TIPO = [
     [/^UPS\b/i, 'UPS']
 ];
 
-const PREFIJO_BORRABLE = /^(?:VGA|CPU|NB|MEM(?:\s+NB)?|SSD(?:\s+M\.?2)?|HD|MB(?:\s*\+\s*CPU|\s+CPU)?|MON|TV|FONE|TEC(?:\/MOUSE)?|MOUSE|TECLADO|GABINETE|CHASSI|FUENTE|FONTE|TABLET|CEL|PARLANTE|CAIXA\s+DE\s+SOM|MIC|MICROFONE|REL|RELOGIO|PROJETOR|CARTAO|PENDRIVE|CONSOLE|JOGO)\b[\s:.\-]*/i;
+// "AURICULAR" esta junto a "FONE" porque desde el 2026-09-19 la traduccion
+// convierte uno en el otro: sin agregarlo, el tipo dejaba de borrarse y el
+// nombre pasaba a repetir lo que la categoria ya dice.
+const PREFIJO_BORRABLE = /^(?:VGA|CPU|NB|MEM(?:\s+NB)?|SSD(?:\s+M\.?2)?|HD|MB(?:\s*\+\s*CPU|\s+CPU)?|MON|TV|FONE|AURICULAR|HEADSET|TEC(?:\/MOUSE)?|MOUSE|TECLADO|GABINETE|CHASSI|FUENTE|FONTE|TABLET|CEL|PARLANTE|CAIXA\s+DE\s+SOM|MIC|MICROFONE|REL|RELOGIO|PROJETOR|CARTAO|PENDRIVE|CONSOLE|JOGO)\b[\s:.\-]*/i;
 
 /**
  * Nombrador general para las categorias sin uno propio.
@@ -478,6 +484,12 @@ function generico(t, marca, tipo) {
         const clave = tok.toUpperCase().replace(/[^A-Z0-9]/g, '');
         partes.push(TRADUCCION_DE_TOKEN[clave] || tok);
     }
+    // Una preposicion sin su sustantivo cambia de significado en vez de
+    // perderse: en "... HEADSET NC BLACK con MICROFONE", el corte se comia
+    // "MICROFONE" y el nombre quedaba "Headset NC con Negro", como si el color
+    // fuera lo que el auricular trae.
+    while (partes.length && PREPOSICION.test(partes[partes.length - 1])) partes.pop();
+
     const cuerpo = partes.join(' ');
     // El color va una sola vez y al final. Si ya aparece adentro --"Negro/Rojo"
     // en un auricular de dos tonos-- agregarlo de nuevo daria "Negro/Rojo Negro".

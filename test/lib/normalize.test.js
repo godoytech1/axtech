@@ -175,7 +175,9 @@ test('corrige los errores de tipeo del proveedor', () => {
     assert.equal(traducir('COOLER THERMALRIGHT PHANTON SPIRIT 120'), 'COOLER THERMALRIGHT PHANTOM SPIRIT 120');
     assert.equal(traducir('TEC REDRAGON NOVA PRO MECANIC USA'), 'TEC REDRAGON NOVA PRO MECANICO USA');
     // "WIRELLES" se corrige antes de traducirse, si no queda sin reconocer.
-    assert.equal(traducir('FONE REDRAGON H848G WIRELLES'), 'FONE REDRAGON H848G WIRELESS');
+    // "FONE" tambien se traduce desde el 19/09, asi que el resultado lleva las
+    // dos correcciones: el typo y la palabra.
+    assert.equal(traducir('FONE REDRAGON H848G WIRELLES'), 'Auricular REDRAGON H848G WIRELESS');
     assert.equal(traducir('MOUSE COOLER MASTER MM712 WIRELEES RGB'), 'MOUSE COOLER MASTER MM712 WIRELESS RGB');
 });
 
@@ -186,4 +188,25 @@ test('no toca lo que parece un typo pero es el nombre del producto', () => {
     assert.ok(/\bHORUS\b/.test(traducir('TEC REDRAGON K621 HORUS TKL')));
     assert.ok(/\bSINGLE\b/.test(traducir('COOLER FAN UP GAMER NEVASKA SINGLE ARGB')));
     assert.ok(/PATCH CORD/.test(traducir('F. PATCH CORD LC-UPC SINGLE MODE')));
+});
+
+test('"S/FIO" es la misma frase que "SEM FIO", abreviada', () => {
+    // Se escapo a las dos pasadas anteriores: 17 productos seguian diciendo
+    // "S/fio" en la vidriera despues de arreglar "sem fio" y "sem cabo".
+    assert.equal(traducir('ZIGBEE ZEMISMART BOTAO S/FIO 4 TECLAS'), 'ZIGBEE ZEMISMART Botón Inalámbrico 4 TECLAS');
+    assert.equal(traducir('TEC LOGITECH G PRO C/ FIO CLICKY'), 'TEC LOGITECH G PRO Alámbrico CLICKY');
+});
+
+test('"COM" solo se traduce cuando es la preposicion', () => {
+    assert.equal(traducir('MOUSEPAD KOLKE COM APOIO DE PULSO'), 'MOUSEPAD KOLKE con Apoyo DE PULSO');
+    // Estos dos NO son la preposicion y romperlos empeora el nombre:
+    // "COM.DE VOZ" es comando de voz y "COM/SOUNDBAR" es una salida de audio.
+    assert.ok(/COM\.DE VOZ/.test(traducir('TV 32 MITSUO FHD/BT/WIFI/COM.DE VOZ')));
+    assert.ok(/COM\/SOUNDBAR/.test(traducir('TV 32 SMARTFY GTV32 C/SOU COM/SOUNDBAR')));
+});
+
+test('traduce las palabras sueltas que quedaban en portugues', () => {
+    assert.equal(traducir('APPLE FONE AIRPODS 4 ANC'), 'APPLE Auricular AIRPODS 4 ANC');
+    assert.equal(traducir('Silla COOLER MASTER SYNK X AJUSTAVEL'), 'Silla COOLER MASTER SYNK X Ajustable');
+    assert.equal(traducir('MON 15.6 KOLKE KES-800 PORTATIL FHD'), 'MON 15.6 KOLKE KES-800 Portátil FHD');
 });

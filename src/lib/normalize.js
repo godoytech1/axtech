@@ -105,6 +105,11 @@ const TRADUCCIONES = [
     // porque reescribe el titulo desde la lista. Las dos van juntas.
     [/\bsem\s+(?:fio|cabo)\b/gi, 'Inalámbrico'],
     [/\bcom\s+(?:fio|cabo)\b/gi, 'Alámbrico'],
+    // El proveedor tambien lo abrevia con barra: "S/FIO", "C/ FIO". Son las
+    // mismas dos frases de arriba y se le habian escapado a las dos pasadas
+    // anteriores: 17 productos seguian diciendo "S/fio" en la vidriera.
+    [/\bs\/\s?fio\b/gi, 'Inalámbrico'],
+    [/\bc\/\s?fio\b/gi, 'Alámbrico'],
     [/\bsem fonte\b/gi, 'Sin Fuente'],
     [/\bcom fonte\b/gi, 'Con Fuente'],
     [/\bsem cooler\b/gi, 'Sin Cooler'],
@@ -161,6 +166,17 @@ const TRADUCCIONES = [
     [/\bcaixa\b/gi, 'Caja'],
     [/\bsem\b/gi, 'Sin'],
     [/\bn[aã]o\b/gi, 'No'],
+
+    // "COM" exige un espacio y una palabra detras. Sin eso se lleva por
+    // delante "COM.DE VOZ" --que es comando de voz-- y "COM/SOUNDBAR", donde
+    // las tres letras no son la preposicion portuguesa.
+    [/\bcom\s+(?=[a-záéíóúñ])/gi, 'con '],
+    [/\bfone\b/gi, 'Auricular'],
+    [/\bbot[aã]o\b/gi, 'Botón'],
+    [/\bapoio\b/gi, 'Apoyo'],
+    [/\bajustavel\b/gi, 'Ajustable'],
+    [/\bregulavel\b/gi, 'Regulable'],
+    [/\bport[aá]til\b/gi, 'Portátil'],
 
     // "ANOS" solo se traduce pegado a la garantia. Suelto es demasiado
     // generico para un catalogo lleno de codigos de modelo.
