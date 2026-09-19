@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
+import { nombrarCatalogo } from '../../src/lib/nombre.js';
 
 /**
  * Estos tests existen por una familia de errores que estuvo publicada.
@@ -32,6 +33,24 @@ const APP = readFileSync('app.js', 'utf8');
 const CATALOGO = JSON.parse(readFileSync('data/catalog.json', 'utf8'))
     .filter((p) => p.status === 'active');
 
+/**
+ * El front NO ve el titulo del proveedor: ve el nombre corto que publica el
+ * build. Desde el 31/08 los dos textos son distintos, y este archivo seguia
+ * probando con el titulo --el texto que la tienda nunca recibe--.
+ *
+ * Por eso los 303 tests pasaban con cinco filtros vacios: "Ver todo gamer" en
+ * Notebooks no devolvia un solo producto, y el filtro de pulgadas de los
+ * televisores tampoco, durante diecinueve dias.
+ *
+ * La division que sigue es la que importa:
+ *   - el conjunto se ELIGE con el titulo del proveedor, que es donde esta la
+ *     evidencia de que un producto es lo que decimos que es;
+ *   - el clasificador se EVALUA con el nombre publicado, que es lo unico que
+ *     el navegador tiene para filtrar.
+ */
+const PUBLICADO = nombrarCatalogo(CATALOGO);
+const visto = (p) => PUBLICADO.get(p) || p.title;
+
 // Se evalua el bloque real de app.js en vez de copiarlo: una copia se
 // desactualiza en silencio y el test pasaria mientras la tienda falla.
 //
@@ -56,14 +75,14 @@ const titulos = (arr) => arr.map((p) => p.title);
 test('ninguna memoria de notebook se ofrece como memoria de PC', () => {
     const malas = de('memorias-ram')
         .filter((p) => /\bNB\b|SO-?DIMM/i.test(p.title))
-        .filter((p) => F.getRamType(p.title) !== 'Laptop');
+        .filter((p) => F.getRamType(visto(p)) !== 'Laptop');
     assert.deepEqual(titulos(malas), [], 'memorias SODIMM clasificadas como PC');
 });
 
 test('ninguna memoria de escritorio se esconde en el filtro Laptop', () => {
     const malas = de('memorias-ram')
         .filter((p) => /\bUDIMM\b/i.test(p.title) && !/\bNB\b|SO-?DIMM/i.test(p.title))
-        .filter((p) => F.getRamType(p.title) !== 'PC');
+        .filter((p) => F.getRamType(visto(p)) !== 'PC');
     assert.deepEqual(titulos(malas), [], 'memorias UDIMM clasificadas como Laptop');
 });
 
@@ -75,7 +94,7 @@ test('ninguna placa AMD se muestra como NVIDIA', () => {
     const malas = de('tarjetas-de-video')
         .filter((p) => /radeon|\brx ?\d{3,4}|\br[3579][ -]?\d{3}\b|\bvega\b/i.test(p.title))
         .filter((p) => !/\bintel\b|\barc\b/i.test(p.title))
-        .filter((p) => F.getGpuChip(p.title) !== 'AMD');
+        .filter((p) => F.getGpuChip(visto(p)) !== 'AMD');
     assert.deepEqual(titulos(malas), []);
 });
 
@@ -83,14 +102,14 @@ test('ninguna placa NVIDIA se muestra como AMD', () => {
     const malas = de('tarjetas-de-video')
         .filter((p) => /geforce|\brtx ?\d|\bgtx ?\d/i.test(p.title))
         .filter((p) => !/radeon|\brx ?\d{3,4}|\bamd\b/i.test(p.title))
-        .filter((p) => F.getGpuChip(p.title) !== 'NVIDIA');
+        .filter((p) => F.getGpuChip(visto(p)) !== 'NVIDIA');
     assert.deepEqual(titulos(malas), []);
 });
 
 test('las placas Intel Arc tienen su propio chipset', () => {
     const arc = de('tarjetas-de-video').filter((p) => /\barc\b/i.test(p.title));
     assert.ok(arc.length > 0, 'no hay placas Arc en el catalogo para verificar');
-    for (const p of arc) assert.equal(F.getGpuChip(p.title), 'INTEL', p.title);
+    for (const p of arc) assert.equal(F.getGpuChip(visto(p)), 'INTEL', p.title);
 });
 
 test('una placa que no se reconoce no se declara NVIDIA', () => {
@@ -111,7 +130,7 @@ test('cada placa madre cae en la plataforma de su socket', () => {
         if (!m) continue;
         const socket = m[1].toLowerCase();
         const esperado = AMD.has(socket) ? 'AMD' : INTEL.has(socket) ? 'INTEL' : null;
-        if (esperado && F.getMbPlatform(p.title) !== esperado) malas.push(`${socket}: ${p.title}`);
+        if (esperado && F.getMbPlatform(visto(p)) !== esperado) malas.push(`${socket}: ${p.title}`);
     }
     assert.deepEqual(malas, []);
 });
@@ -213,4 +232,51 @@ test('cada filtro reparte los productos de su categoria', () => {
         const valores = new Set(items.map((p) => F[fn](p.title)).filter(Boolean));
         assert.ok(valores.size >= 2, `${categoria}: ${fn} solo produce ${[...valores]}`);
     }
+});
+
+// --------------------------------------------------------------------------
+// Que ningun filtro quede VACIO
+// --------------------------------------------------------------------------
+//
+// Todo lo de arriba cuida que un filtro no MIENTA: que no reclame productos
+// que no le corresponden. Falta la simetria, y es la que fallo: que un filtro
+// no deje de encontrar los que si le corresponden.
+//
+// El 31/08 los nombres se acortaron y cinco filtros quedaron en cero sin que
+// nada fallara. "Ver todo gamer" en Notebooks no devolvio un producto durante
+// diecinueve dias; el filtro de pulgadas de los televisores tampoco.
+
+test('ningun filtro se queda sin productos en una categoria que los tiene', () => {
+    const CASOS = [
+        ['televisores',        'getTvSize',           0.5],
+        ['monitores',          'getMonitorSize',      0.8],
+        ['tarjetas-de-video',  'getGpuChip',          0.9],
+        ['placas-madre',       'getMbPlatform',       0.9],
+        ['memorias-ram',       'getRamType',          0.9],
+        ['fuentes-de-poder',   'getPsuWattage',       0.8],
+        ['almacenamiento-ssd', 'getStorageCapacity',  0.9]
+    ];
+    const flojos = [];
+    for (const [categoria, fn, minimo] of CASOS) {
+        const prods = de(categoria);
+        if (!prods.length) continue;
+        const reconocidos = prods.filter((p) => F[fn](visto(p)) != null).length;
+        const razon = reconocidos / prods.length;
+        if (razon < minimo) {
+            flojos.push(`${fn} reconoce ${reconocidos} de ${prods.length} en ${categoria}`);
+        }
+    }
+    assert.deepEqual(flojos, []);
+});
+
+test('el filtro Gamer de notebooks encuentra las notebooks gamer', () => {
+    // No alcanza con que la funcion devuelva algo: getNotebookType SIEMPRE
+    // devuelve "Gamer" u "Ofimatica", nunca null, asi que el contador de
+    // arriba no lo detecta. Hay que contar cuantas caen de cada lado.
+    const nb = de('notebooks');
+    const declaradas = nb.filter((p) => /\brtx|\bgtx|gaming|gamer|nitro|predator|victus|loq|tuf|titan/i.test(p.title));
+    const encontradas = nb.filter((p) => F.getNotebookType(visto(p)) === 'Gamer');
+    assert.ok(declaradas.length > 0, 'no hay notebooks gamer en el catalogo para verificar');
+    assert.ok(encontradas.length >= declaradas.length * 0.9,
+        `el filtro ve ${encontradas.length} gamer y el proveedor declara ${declaradas.length}`);
 });

@@ -157,6 +157,13 @@ function chipDeVideo(t) {
     if ((m = t.match(/\bGTX\s?(\d{3,4})(?:\s*(SUPER|TI))?\b/i))) return `GeForce GTX ${m[1]}${suf(m[2])}`;
     if ((m = t.match(/\bGTS?\s?(\d{3,4})\b/i))) return `GeForce GT ${m[1]}`;
     if ((m = t.match(/\bRX\s?(\d{3,4})(?:\s*(XTX|XT|GRE))?\b/i))) return `Radeon RX ${m[1]}${suf(m[2])}`;
+    // Las Radeon viejas se nombran con la serie R: "R9-370", "R5-230". Sin
+    // esto el nombre quedaba "Afox 4GB DDR5" y el filtro de chipset no las
+    // reconocia como AMD.
+    if ((m = t.match(/\bR([3579])-(\d{3})\b/i))) return `Radeon R${m[1]} ${m[2]}`;
+    // La G210 y sus contemporaneas se nombran con una G sola. Se exige que el
+    // titulo diga GEFORCE: "G210" a secas es un codigo de modelo cualquiera.
+    if (/\bGEFORCE\b/i.test(t) && (m = t.match(/\bG(\d{3})\b/i))) return `GeForce G${m[1]}`;
     if ((m = t.match(/\bARC\s?([AB]\d{3})\b/i))) return `Arc ${m[1].toUpperCase()}`;
     return '';
 }
@@ -195,7 +202,10 @@ const capacidad = (t) => {
     return m ? m[1].toUpperCase().replace(/\s+/g, '') : '';
 };
 const socket = (t) => {
-    const m = t.match(/\b(AM[2345](?:\+)?|FM2\+?|LGA\s?\d{3,4}|1[0-9]{3}|775)\b/i);
+    // Los sockets de gama alta empiezan con 2 --2011, 2066-- y el patron solo
+    // cubria los que empiezan con 1. Dos placas madre quedaban sin socket en
+    // el nombre y el filtro de plataforma no sabia si eran Intel o AMD.
+    const m = t.match(/\b(AM[2345](?:\+)?|FM2\+?|LGA\s?\d{3,4}|1[0-9]{3}|20(?:11|66)|1366|775)\b/i);
     if (!m) return '';
     const s = m[1].toUpperCase().replace(/\s+/g, ' ');
     // Intel se nombra por su zocalo: "1700" suelto no dice nada, "LGA 1700" si.
