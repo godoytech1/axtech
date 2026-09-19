@@ -305,3 +305,95 @@ test('un valor con comillas sobrevive al ida y vuelta', () => {
     assert.equal(doc, '<input value="32&quot;">');
     assert.equal(F.attrHtml('15-16'), '15-16', 'un valor sin comillas no se toca');
 });
+
+// --------------------------------------------------------------------------
+// Buscador
+// --------------------------------------------------------------------------
+
+// El buscador vive en otro bloque de app.js que el de los clasificadores.
+const bloqueBusqueda = APP.slice(
+    APP.indexOf('const SEARCH_STOP_WORDS'),
+    APP.indexOf('const SEARCH_SYNONYMS')
+);
+assert.ok(bloqueBusqueda.length > 500, 'no se encontro el bloque del buscador en app.js');
+const B = new Function(
+    `${bloqueBusqueda}
+return {palabrasDeBusqueda, esBusquedaDeComponente, esconderNotebooksDeComponente};`
+)();
+
+test('buscar un componente no esconde el unico producto que lo tiene', () => {
+    // "rtx 4060" devolvia CERO con una notebook RTX 4060 en stock: la regla
+    // "si busca componentes, no le muestres notebooks" la escondia, y no
+    // habia ninguna placa que ocupara su lugar. La tienda decia no tener algo
+    // que si tenia.
+    const soloNotebook = [{ category: 'notebooks', title: 'MSI RTX 4060' }];
+    assert.deepEqual(
+        B.esconderNotebooksDeComponente(soloNotebook, ['rtx', '4060']),
+        soloNotebook
+    );
+});
+
+test('buscar un componente sigue apartando las notebooks cuando hay componente', () => {
+    // La regla original resuelve algo real: sin ella, "rtx 5070" sepultaba la
+    // placa bajo cuarenta notebooks que la traen adentro.
+    const mezcla = [
+        { category: 'notebooks', title: 'Asus RTX 5070' },
+        { category: 'tarjetas-de-video', title: 'Zotac RTX 5070' }
+    ];
+    const r = B.esconderNotebooksDeComponente(mezcla, ['rtx', '5070']);
+    assert.deepEqual(r.map((x) => x.category), ['tarjetas-de-video']);
+});
+
+test('nombrar la notebook la deja aparecer aunque se pida un componente', () => {
+    const mezcla = [
+        { category: 'notebooks', title: 'Acer RTX 5070' },
+        { category: 'tarjetas-de-video', title: 'Zotac RTX 5070' }
+    ];
+    assert.equal(B.esconderNotebooksDeComponente(mezcla, ['notebook', 'rtx']).length, 2);
+});
+
+test('toda busqueda de un producto real del catalogo devuelve ese producto', () => {
+    // Recorre nombres publicados de verdad: si una regla del buscador vuelve a
+    // tapar un producto entero, esto falla antes de publicarse.
+    const muestra = CATALOGO.filter((_, i) => i % 97 === 0).slice(0, 120);
+    const vacios = muestra.filter((p) => {
+        const palabras = B.palabrasDeBusqueda(visto(p));
+        if (palabras.length === 0) return false;
+        const texto = `${visto(p)} ${p.brand} ${p.category}`.toLowerCase();
+        const coincide = palabras.every((w) => texto.includes(w));
+        if (!coincide) return false; // el producto no se encuentra por su propio nombre: otro problema
+        return B.esconderNotebooksDeComponente([p], palabras).length === 0;
+    }).map((p) => visto(p));
+    assert.deepEqual(vacios, []);
+});
+
+test('el mensaje de WhatsApp lleva un enlace que abre', () => {
+    // Mandaba "Link / Imagen: /img/12586.webp": en WhatsApp eso no es un
+    // enlace ni una imagen, es texto muerto. Quien recibia el pedido tenia el
+    // nombre del producto y nada mas para encontrarlo.
+    const bloqueWa = APP.slice(APP.indexOf('function mensajeWhatsApp'), APP.indexOf('function palabrasDeBusqueda'));
+    assert.ok(bloqueWa.length > 100, 'no se encontro mensajeWhatsApp en app.js');
+    const armar = new Function(
+        'location',
+        `${bloqueWa}
+return mensajeWhatsApp;`
+    )({ origin: 'https://axtech.pages.dev' });
+
+    const texto = decodeURIComponent(armar({
+        id: 1234, title: 'Acer PHN16S RTX 5070', pyg_str: 'Gs. 15.478.000',
+        sob_consulta: false, image: '/img/1234.webp'
+    }));
+    assert.ok(texto.includes('https://axtech.pages.dev/?id=1234'), texto);
+    assert.ok(!texto.includes('/img/'), 'no puede mandar una ruta relativa: ' + texto);
+    assert.ok(texto.includes('Acer PHN16S RTX 5070'), texto);
+    assert.ok(texto.includes('Gs. 15.478.000'), texto);
+});
+
+test('un producto bajo consulta no publica un precio que no tiene', () => {
+    const bloqueWa = APP.slice(APP.indexOf('function mensajeWhatsApp'), APP.indexOf('function palabrasDeBusqueda'));
+    const armar = new Function('location', `${bloqueWa}
+return mensajeWhatsApp;`)({ origin: 'https://axtech.pages.dev' });
+    const texto = decodeURIComponent(armar({ id: 9, title: 'X', pyg_str: 'Gs. 0', sob_consulta: true }));
+    assert.ok(texto.includes('Bajo Consulta'), texto);
+    assert.ok(!texto.includes('Gs. 0'), texto);
+});

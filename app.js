@@ -56,6 +56,61 @@ document.addEventListener('DOMContentLoaded', () => {
         'sem', 'em', 'da', 'do', 'dos', 'das'
     ]);
 
+    // Quien escribe "rtx 5070" busca una placa, no la notebook que la trae
+    // adentro: sin esto una sola busqueda devolvia 40 notebooks y la placa
+    // quedaba sepultada. Pero la regla solo vale si hay una placa que mostrar
+    // --ver esconderNotebooksDeComponente--: cuando el unico producto que
+    // coincide ES la notebook, esconderla deja la tienda diciendo que no tiene
+    // algo que si tiene.
+    const PALABRAS_COMPONENTE = ['ssd', 'rtx', 'gtx', 'ram', 'intel', 'ryzen',
+        'ddr4', 'ddr5', '1tb', '512gb', 'm.2', 'monitor'];
+    const PALABRAS_NOTEBOOK = ['notebook', 'laptop', 'acer', 'asus', 'lenovo', 'hp', 'macbook'];
+
+    // La misma limpieza que hacia el filtro, el orden y el autocompletado,
+    // cada uno por su cuenta.
+
+    // El mensaje que el cliente manda por WhatsApp decia
+    // "Link / Imagen: /img/12586.webp": una ruta relativa, que en WhatsApp no
+    // es un enlace ni una imagen, solo texto. Quien recibia el pedido tenia el
+    // nombre del producto y nada mas. Ahora lleva la URL que lo abre.
+    //
+    // Va el id y no el slug a proposito: el slug no se publica --son 12.500
+    // cadenas de 55 caracteres que engordarian products.js un 60% para usarse
+    // en un solo enlace-- y el id ya viaja en cada producto.
+    function mensajeWhatsApp(p) {
+        const precio = p.sob_consulta ? 'Bajo Consulta' : p.pyg_str;
+        const link = `${location.origin}/?id=${p.id}`;
+        const texto = [
+            `Hola, quisiera consultar sobre el producto: ${p.title}`,
+            `Precio: ${precio}`,
+            `Link: ${link}`
+        ].join(String.fromCharCode(10));
+        return encodeURIComponent(texto);
+    }
+
+    function palabrasDeBusqueda(raw) {
+        const limpio = String(raw).toLowerCase().trim()
+            .replace(/["'“”’]/g, ' ')
+            .replace(/(pulgadas|polegadas|inch|inches)/gi, '')
+            .trim();
+        const palabras = limpio.split(/s+/).filter((w) => w.length > 0);
+        const sinVacias = palabras.filter((w) => !SEARCH_STOP_WORDS.has(w));
+        return sinVacias.length > 0 ? sinVacias : palabras;
+    }
+
+    function esBusquedaDeComponente(queryWords) {
+        return queryWords.some((w) => PALABRAS_COMPONENTE.includes(w))
+            && !queryWords.some((w) => PALABRAS_NOTEBOOK.includes(w));
+    }
+
+    // Saca las notebooks de un resultado de busqueda de componente, pero solo
+    // si queda algo. Si todo lo que coincide son notebooks, se devuelven.
+    function esconderNotebooksDeComponente(lista, queryWords) {
+        if (!queryWords.length || !esBusquedaDeComponente(queryWords)) return lista;
+        const sinNotebooks = lista.filter((prod) => prod.category !== 'notebooks');
+        return sinNotebooks.length > 0 ? sinNotebooks : lista;
+    }
+
     const SEARCH_SYNONYMS = {
         'vga': ['placa de video', 'tarjeta de video', 'gpu', 'grafica'],
         'gpu': ['placa de video', 'tarjeta de video', 'vga', 'grafica'],
@@ -252,8 +307,10 @@ document.addEventListener('DOMContentLoaded', () => {
     // recargar la pagina pierde el filtro. Ademas es requisito para que la
     // Fase 2 genere paginas coherentes con esta navegacion.
     const ORDENES_VALIDOS = ['default', 'price-asc', 'price-desc'];
+    let productoDeLaURL = null;
 
     function leerEstadoDeURL() {
+        productoDeLaURL = null;
         const q = new URLSearchParams(location.search);
         const cat = q.get('c');
         if (cat && (cat === 'all' || CATS.some(c => c.id === cat))) currentCategory = cat;
@@ -268,6 +325,12 @@ document.addEventListener('DOMContentLoaded', () => {
         if (orden && ORDENES_VALIDOS.includes(orden)) {
             sortOrder = orden;
             if (sortSelect) sortSelect.value = orden;
+        }
+        // Un producto compartido por WhatsApp entra por aca. Si el id ya no
+        // existe --se purgo-- la tienda carga normal en vez de romperse.
+        const idPedido = parseInt(q.get('id'), 10);
+        if (Number.isInteger(idPedido) && PRODUCTS.some((prod) => prod.id === idPedido)) {
+            productoDeLaURL = idPedido;
         }
     }
 
@@ -311,6 +374,7 @@ document.addEventListener('DOMContentLoaded', () => {
     renderSidebarFilters(currentCategory);
     syncCategoryLinks(currentCategory);
     renderProducts();
+    if (productoDeLaURL !== null) openProductModal(productoDeLaURL);
     updateCartUI();
 
     // ----------------------------------------------------------------------
@@ -479,14 +543,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
 
 
-                // Smart search logic: if query is for parts but category is Notebooks
-                if (searchMatch && p.category === 'notebooks') {
-                    const isPartQuery = queryWords.some(w => ['ssd', 'rtx', 'gtx', 'ram', 'intel', 'ryzen', 'ddr4', 'ddr5', '1tb', '512gb', 'm.2', 'monitor'].includes(w));
-                    const isNotebookQuery = queryWords.some(w => ['notebook', 'laptop', 'acer', 'asus', 'lenovo', 'hp', 'macbook'].includes(w));
-                    if (isPartQuery && !isNotebookQuery) {
-                        searchMatch = false;
-                    }
-                }
+                // Las notebooks se descuentan despues de filtrar, no aca: hace
+                // falta ver el resultado entero para saber si sobra algo.
             }
             
             if (!categoryMatch || !searchMatch) return false;
@@ -582,6 +640,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
             return true;
         });
+
+        // Una busqueda de componente esconde las notebooks --pero solo si algo
+        // queda en pie. "rtx 4060" devolvia cero con una notebook RTX 4060 en
+        // stock: la regla la escondia y no habia placa que ocupara su lugar.
+        if (searchQuery.trim() !== '') {
+            filtered = esconderNotebooksDeComponente(filtered, palabrasDeBusqueda(searchQuery));
+        }
 
         // 2. SORT products based on selected sort order
         if (searchQuery.trim() !== '' && sortOrder === 'default') {
@@ -728,7 +793,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     ? `<span class="price-sob-consulta">Bajo Consulta</span>`
                     : `<span class="price-main">${p.pyg_str}</span>`;
 
-                const waMsg = encodeURIComponent(`Hola, quisiera consultar sobre el producto: ${p.title}\nPrecio: ${p.sob_consulta ? 'Bajo Consulta' : p.pyg_str}\nLink / Imagen: ${p.image}`);
+                const waMsg = mensajeWhatsApp(p);
                 const buttonHTML = p.sob_consulta
                     ? `<a href="https://wa.me/595976914662?text=${waMsg}" target="_blank" class="btn btn-sob-consulta btn-consult" style="flex: 1; text-decoration: none;" onclick="event.stopPropagation();">
                         <i class="lab la-whatsapp"></i> Consultar
@@ -2050,7 +2115,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const filteredSpecs = (p.specs || []).filter(spec => !titleLower.includes(spec.toLowerCase().trim()));
 
         const isSobConsulta = p.sob_consulta;
-        const waMsg = encodeURIComponent(`Hola, quisiera consultar sobre el producto: ${p.title}\nPrecio: ${isSobConsulta ? 'Bajo Consulta' : p.pyg_str}\nLink / Imagen: ${p.image}`);
+        const waMsg = mensajeWhatsApp(p);
 
         // La lista del proveedor trae referencia, titulo y precio: NO trae stock.
         // Que un producto figure en la lista significa que el proveedor lo cotiza
@@ -2385,18 +2450,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const queryWords = query.split(/\s+/).filter(w => w.length > 0);
-        const matches = PRODUCTS.filter(p => {
+        const crudos = PRODUCTS.filter(p => {
             const textToSearch = `${p.title} ${p.brand} ${p.category}`.toLowerCase();
-            let isMatch = queryWords.every(word => textToSearch.includes(word));
-            if (isMatch && p.category === 'notebooks') {
-                const isPartQuery = queryWords.some(w => ['ssd', 'rtx', 'gtx', 'ram', 'intel', 'ryzen', 'ddr4', 'ddr5', '1tb', '512gb', 'm.2', 'monitor'].includes(w));
-                const isNotebookQuery = queryWords.some(w => ['notebook', 'laptop', 'acer', 'asus', 'lenovo', 'hp', 'macbook'].includes(w));
-                if (isPartQuery && !isNotebookQuery) {
-                    isMatch = false;
-                }
-            }
-            return isMatch;
-        }).slice(0, 6); // Limit to top 6 results
+            return queryWords.every(word => textToSearch.includes(word));
+        });
+        const matches = esconderNotebooksDeComponente(crudos, queryWords).slice(0, 6);
 
         if (matches.length === 0) {
             searchSuggestions.innerHTML = '<div class="suggestion-no-results">No se encontraron productos</div>';
