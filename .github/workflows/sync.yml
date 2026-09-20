@@ -66,7 +66,32 @@ jobs:
         run: |
           mkdir -p config
           printf '%s' "$PRICING_CONFIG" > config/pricing.config.json
-          node -e "const c=require('./config/pricing.config.json'); const faltan=['pct','tipoDeCambio','umbralCaro','recargoCaroPct'].filter(k=>c[k]===undefined); if(faltan.length) { console.error('ERROR: PRICING_CONFIG incompleto, faltan: '+faltan.join(', ')+'. Actualizar el secreto en Settings > Secrets.'); process.exit(1); } console.log('OK: config cargada.')"
+          node --input-type=module -e "
+            import { readFileSync } from 'node:fs';
+            import { validarConfig } from './src/lib/pricing.js';
+            const crudo = readFileSync('config/pricing.config.json', 'utf8');
+            let c;
+            try {
+              c = JSON.parse(crudo);
+            } catch (e) {
+              // El error de Node dice 'position 12' y nada mas. Lo util es
+              // recordar la forma: un unico objeto, todo entre las llaves.
+              console.error('ERROR: el secreto PRICING_CONFIG no es JSON valido.');
+              console.error('  ' + e.message);
+              console.error('  Tiene que ser UN objeto y nada afuera de las llaves:');
+              console.error('  { \"tipoDeCambio\": ..., \"umbralCaro\": 500000, \"recargoCaroPct\": 0.0932, \"pct\": { ... } }');
+              console.error('  Un campo agregado arriba o abajo de las llaves rompe el archivo entero.');
+              process.exit(1);
+            }
+            const problemas = validarConfig(c);
+            if (problemas.length) {
+              console.error('ERROR: PRICING_CONFIG invalido:');
+              for (const p of problemas) console.error('  - ' + p);
+              console.error('  Corregir el secreto en Settings > Secrets.');
+              process.exit(1);
+            }
+            console.log('OK: config cargada y validada.');
+          "
         env:
           PRICING_CONFIG: ${{ secrets.PRICING_CONFIG }}
 
