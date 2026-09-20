@@ -73,12 +73,11 @@ jobs:
       - name: Sincronizar
         run: node src/sync/ejecutar.js ${{ inputs.simular && '' || '--aplicar' }}
         env:
+          SUPPLIER_LIST_URL: ${{ secrets.SUPPLIER_LIST_URL }}
           # Solo cuando se dispara a mano tildando la casilla. El cron nocturno
           # nunca la lleva: un salto masivo de precios sin nadie mirando es
           # justo lo que el guardarrail tiene que frenar.
           CAMBIO_DE_FORMULA: ${{ inputs.cambio_de_formula && '1' || '0' }}
-        env:
-          SUPPLIER_LIST_URL: ${{ secrets.SUPPLIER_LIST_URL }}
 
       - name: Bajar imagenes de los productos nuevos
         if: ${{ !inputs.simular }}
