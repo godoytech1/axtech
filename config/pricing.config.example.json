@@ -4,7 +4,7 @@
   "minimoBarato": 50000,
   "minimoBase": 100000,
   "umbralCaro": 500000,
-  "recargoCaro": 200000,
+  "recargoCaroPct": 0.0932,
   "pct": {
     "default": 0.15
   }

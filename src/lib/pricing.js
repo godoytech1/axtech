@@ -44,7 +44,7 @@ export function validarConfig(config) {
     if (typeof tc !== 'number' || !Number.isFinite(tc) || tc < 3000 || tc > 15000) {
         problemas.push(`tipoDeCambio fuera de rango (3000-15000 Gs/USD): ${tc}`);
     }
-    for (const campo of ['umbralBarato', 'minimoBarato', 'minimoBase', 'umbralCaro', 'recargoCaro']) {
+    for (const campo of ['umbralBarato', 'minimoBarato', 'minimoBase', 'umbralCaro']) {
         const v = config[campo];
         if (typeof v !== 'number' || !Number.isFinite(v) || v <= 0) {
             problemas.push(`${campo} debe ser un numero positivo: ${v}`);
@@ -54,6 +54,14 @@ export function validarConfig(config) {
     // cero, una config vieja --el secreto PRICING_CONFIG sin actualizar--
     // seguiria publicando los precios de antes sin decirlo. Un build que falla
     // se arregla; una tienda que cobra de menos durante semanas, no.
+
+    // Va como fraccion, igual que pct: 0.0932, no 9.32. El rango no es
+    // burocracia --escribir 9.32 multiplicaria cada precio por diez y la
+    // tienda publicaria una notebook de 15 millones a 156.
+    const rc = config.recargoCaroPct;
+    if (typeof rc !== 'number' || !Number.isFinite(rc) || rc <= 0 || rc >= 1) {
+        problemas.push(`recargoCaroPct debe ser una fraccion entre 0 y 1 (0.0932 = 9,32%): ${rc}`);
+    }
     if (!config.pct || typeof config.pct !== 'object') {
         problemas.push('falta el mapa pct de porcentajes por categoria');
     } else if (typeof config.pct.default !== 'number') {
@@ -72,12 +80,18 @@ export function validarConfig(config) {
  * mas baratos.
  *
  * Encima de eso va el recargo de los caros: pasado `umbralCaro`, el precio
- * suma `recargoCaro`. Es un escalon, no una rampa, y por eso deja un hueco:
- * con umbral 500.000 y recargo 200.000, ningun producto queda entre 500.001 y
- * 700.000. El orden de los precios se conserva --nada barato pasa a costar
- * mas que algo caro-- pero dos productos casi iguales terminan separados por
- * 200.000. Es lo que se pidio; si el salto molesta, la forma de suavizarlo es
- * subir el pct de esas categorias en vez de sumar un fijo.
+ * sube `recargoCaroPct`.
+ *
+ * Es porcentual y no fijo por la misma razon por la que el modelo hibrido
+ * reemplazo al recargo fijo. Un +200.000 plano --que fue lo primero que se
+ * pidio-- subia un 32,5% los 724 productos de 500 a 800 mil y un 4,2% los 506
+ * de mas de tres millones: lo caro casi no se movia y el golpe caia entero
+ * sobre periféricos que el cliente cotiza en otra tienda en treinta segundos.
+ * El 9,32% deja la misma ganancia total y la reparte al reves.
+ *
+ * Sigue siendo un escalon y sigue dejando un hueco, pero chico: con umbral
+ * 500.000 y 9,32%, nada cae entre 500.001 y ~547.000, contra los 200.000 de
+ * hueco del recargo fijo. El orden de los precios se conserva.
  *
  * El redondeo al millar superior existe porque "Gs. 1.067.683" en una tarjeta
  * de producto se lee como un error del sistema, no como un precio.
@@ -93,9 +107,17 @@ export function precioFinal(costo, categoria, config) {
 
     // El umbral se mide contra el precio de venta, no contra el costo: es el
     // numero que el cliente ve y el que dylan nombro.
-    return redondeado > config.umbralCaro
-        ? redondeado + config.recargoCaro
-        : redondeado;
+    //
+    // La guarda no es defensiva por gusto: con el recargo fijo, una config sin
+    // estos campos comparaba contra undefined, daba false y devolvia el precio
+    // sin recargo --o sea, seguia de largo sin decir nada--. Con el porcentual
+    // la misma config daria NaN y se publicaria un producto sin precio. Que
+    // explote aca es la unica de las tres opciones que se puede arreglar.
+    if (typeof config.umbralCaro !== 'number' || typeof config.recargoCaroPct !== 'number') {
+        throw new Error('configuracion de precios sin umbralCaro o recargoCaroPct: no se puede calcular el precio');
+    }
+    if (redondeado <= config.umbralCaro) return redondeado;
+    return Math.ceil((redondeado * (1 + config.recargoCaroPct)) / 1000) * 1000;
 }
 
 /**

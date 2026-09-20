@@ -8,6 +8,8 @@ const config = {
     minimoBarato: 20000,
     minimoBase: 60000,
     tipoDeCambio: 6000,
+    umbralCaro: 500000,
+    recargoCaroPct: 0.0932,
     pct: { default: 0.13 }
 };
 
