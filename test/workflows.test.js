@@ -90,3 +90,30 @@ test('el sync le pasa al script las variables que el codigo lee', () => {
     assert.match(hasta, /CAMBIO_DE_FORMULA:/, 'el sync necesita poder autorizar un cambio de formula');
     assert.equal((hasta.match(/^\s{8}env:/gm) || []).length, 1, 'el paso tiene que tener un solo bloque env');
 });
+
+for (const archivo of archivos) {
+    test(`${archivo}: ninguna expresion usa la cadena vacia como rama verdadera`, () => {
+        // En GitHub Actions '' es falsy, asi que en `cond && '' || 'x'` el
+        // `||` se come la rama verdadera y devuelve 'x' SIEMPRE. El paso de
+        // sync decia `inputs.simular && '' || '--aplicar'`: el modo simulacion
+        // jamas simulo, escribia el catalogo igual que una corrida real.
+        //
+        // La forma correcta es darle a la rama verdadera un valor no vacio,
+        // aunque el script lo ignore.
+        const texto = readFileSync(`${DIR}/${archivo}`, 'utf8').replace(/\r\n/g, '\n');
+        const malas = texto.split('\n')
+            .map((l, i) => ({ n: i + 1, l }))
+            .filter(({ l }) => !/^\s*#/.test(l))   // un comentario puede citar el error
+            .filter(({ l }) => /&&\s*(''|"")\s*\|\|/.test(l))
+            .map(({ n, l }) => `linea ${n}: ${l.trim().slice(0, 70)}`);
+        assert.deepEqual(malas, []);
+    });
+}
+
+test('el script de sync rechaza --simular y --aplicar juntos', () => {
+    // Si el YAML volviera a mandar las dos, queremos un error y no que gane
+    // una de las dos en silencio.
+    const src = readFileSync('src/sync/ejecutar.js', 'utf8');
+    assert.match(src, /--simular.*&&.*APLICAR|APLICAR.*&&.*--simular/s);
+    assert.match(src, /incompatibles/i);
+});

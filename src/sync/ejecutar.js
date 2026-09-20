@@ -47,6 +47,16 @@ const valor = (n) => {
 
 const APLICAR = bandera('--aplicar');
 const FORZAR = bandera('--forzar');
+
+// `--simular` no cambia nada por si solo --sin `--aplicar` ya se simula-- pero
+// existe para que el workflow pueda pedirlo con una palabra y no con una
+// cadena vacia. Ese fue el error: el YAML decia `simular && '' || '--aplicar'`
+// y en Actions la cadena vacia es falsy, asi que el `||` seguia de largo y
+// mandaba `--aplicar` SIEMPRE. La simulacion escribia el catalogo.
+if (bandera('--simular') && APLICAR) {
+    console.error('ERROR: --simular y --aplicar son incompatibles. Elegir una.');
+    process.exit(1);
+}
 const SIN_PURGA = bandera('--sin-purga');
 const ARCHIVO = valor('--archivo');
 

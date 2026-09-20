@@ -96,7 +96,10 @@ jobs:
           PRICING_CONFIG: ${{ secrets.PRICING_CONFIG }}
 
       - name: Sincronizar
-        run: node src/sync/ejecutar.js ${{ inputs.simular && '' || '--aplicar' }}
+        # La rama verdadera NO puede ser una cadena vacia: en Actions '' es
+        # falsy y el `||` se la come, asi que `simular && '' || '--aplicar'`
+        # mandaba --aplicar en los dos casos y la simulacion escribia.
+        run: node src/sync/ejecutar.js ${{ inputs.simular && '--simular' || '--aplicar' }}
         env:
           SUPPLIER_LIST_URL: ${{ secrets.SUPPLIER_LIST_URL }}
           # Solo cuando se dispara a mano tildando la casilla. El cron nocturno
