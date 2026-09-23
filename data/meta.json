@@ -1,8 +1,8 @@
 {
     "_nota": "Estado del sync. ultimoId NUNCA retrocede: si se reusara un id, un producto nuevo heredaria la imagen cacheada de uno borrado por la purga.",
-    "ultimoId": 24920,
-    "ultimaSync": "2026-09-22",
-    "productosEnLista": 6578,
-    "activos": 5921,
-    "total": 10453
+    "ultimoId": 24968,
+    "ultimaSync": "2026-09-23",
+    "productosEnLista": 6582,
+    "activos": 5934,
+    "total": 9979
 }
