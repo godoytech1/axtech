@@ -24726,7 +24726,7 @@
     "id": 10758,
     "ref": "98522",
     "slug": "hub-switch-tp-link-08p-tl-sg1008mp-10-100-1000-p-poe-rack-po-10758",
-    "title": "HUB SWITCH TP-LINK 08P TL-SG1008MP 10/100/1000 P POE RACK POE+RACKMOUNT",
+    "title": "HUB SWITCH TP-LINK 08P TL-SG1008MP 10/100/1000 P POE RACK PoE+RACKMOUNT",
     "brand": "TP-LINK",
     "category": "redes-y-conectividad",
     "specs": [
@@ -24842,7 +24842,7 @@
     "id": 10765,
     "ref": "132735",
     "slug": "hub-switch-tp-link-09p-tl-sf1009p-10-100-8p-poe-10765",
-    "title": "HUB SWITCH TP-LINK 09P TL-SF1009P 10/100 8P POE+",
+    "title": "HUB SWITCH TP-LINK 09P TL-SF1009P 10/100 8P PoE+",
     "brand": "TP-LINK",
     "category": "redes-y-conectividad",
     "specs": [
@@ -27938,12 +27938,10 @@
     "title": "PARAFUSADEIRA SATE BATERIA 21V A-TK885 KIT YELLO",
     "brand": "SATE",
     "category": "ups-y-energia",
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-29",
-    "sinGarantia": false,
-    "specs": [],
-    "price": 470000
+    "sinGarantia": false
   },
   {
     "id": 11369,
@@ -28434,18 +28432,6 @@
     "sinGarantia": false
   },
   {
-    "id": 11437,
-    "ref": "339150",
-    "slug": "cel-xiaomi-redmi-15c-4-128gb-laranja-global-11437",
-    "title": "CEL XIAOMI REDMI 15C 4/128GB LARANJA GLOBAL",
-    "brand": "XIAOMI",
-    "category": "telefonos-y-celulares",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
-    "sinGarantia": false
-  },
-  {
     "id": 11438,
     "ref": "368040",
     "slug": "capa-p-tablet-samsung-s10-sm-x820-12-4-black-11438",
@@ -28732,18 +28718,6 @@
     "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-05",
-    "sinGarantia": false
-  },
-  {
-    "id": 11501,
-    "ref": "102484",
-    "slug": "soporte-p-tv-kolke-kvs-536-32-a-70-pe-c-rodas-g-11501",
-    "title": "Soporte P/ TV KOLKE KVS-536 32\" A 70\" PE C/RODAS*G",
-    "brand": "KOLKE",
-    "category": "soportes-y-bases",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
     "sinGarantia": false
   },
   {
@@ -29699,11 +29673,9 @@
     "title": "PARAFUSADEIRA SATE BATERIA 12V A-TK883 KIT YELLO",
     "brand": "SATE",
     "category": "ups-y-energia",
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-29",
-    "specs": [],
-    "price": 378000,
     "sinGarantia": false
   },
   {
@@ -29713,12 +29685,10 @@
     "title": "PARAFUSADEIRA SATE BATERIA A-KS22 KIT 22PC Negro",
     "brand": "SATE",
     "category": "ups-y-energia",
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-29",
-    "sinGarantia": false,
-    "specs": [],
-    "price": 124000
+    "sinGarantia": false
   },
   {
     "id": 11703,
@@ -29727,11 +29697,9 @@
     "title": "Procesador DE ALIMENTOS SATE AP-26 C/ RECARGA USB",
     "brand": "SATE",
     "category": "procesadores",
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-29",
-    "specs": [],
-    "price": 121000,
     "sinGarantia": false
   },
   {
@@ -29741,11 +29709,9 @@
     "title": "KIT MOTOSSERRA SATE A-TK880 MINI BATERIA BLACK *G",
     "brand": "SATE",
     "category": "ups-y-energia",
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-29",
-    "specs": [],
-    "price": 205000,
     "sinGarantia": false
   },
   {
@@ -29808,7 +29774,7 @@
     "slug": "lanterna-smiling-shark-dy-3039-negro-rojo-cable-usb-c-11714",
     "title": "LANTERNA SMILING SHARK DY-3039 Negro/Rojo Cable USB-C",
     "brand": "GENERIC",
-    "category": "adaptadores-y-cables",
+    "category": "ups-y-energia",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-29",
@@ -29823,11 +29789,9 @@
     "title": "Procesador DE ALIMENTOS MINI SATE AP-25 250ML",
     "brand": "SATE",
     "category": "procesadores",
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-29",
-    "specs": [],
-    "price": 84000,
     "sinGarantia": false
   },
   {
@@ -29851,11 +29815,9 @@
     "title": "MINI Procesador DE ALIMENTOS MULTILASER CE077EUR 220V 100W BLACK",
     "brand": "GENERIC",
     "category": "procesadores",
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-29",
-    "specs": [],
-    "price": 103000,
     "sinGarantia": false
   },
   {
@@ -32569,24 +32531,12 @@
     "slug": "wiwu-bolsa-macbook-16-skin-pro-iii-azul-skin-pro-iii-pro-16-12555",
     "title": "WIWU BOLSA MACBOOK 16\" SKIN PRO III Azul SKIN PRO III PRO 16\"",
     "brand": "GENERIC",
-    "category": "notebooks",
+    "category": "mochilas-y-maletines",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-29",
     "specs": [],
     "price": 217000,
-    "sinGarantia": false
-  },
-  {
-    "id": 12572,
-    "ref": "382417",
-    "slug": "apple-macbook-neo-proa18-8-512gb-13-mhfc4ll-a-sil-a18-silver-12572",
-    "title": "APPLE MACBOOK NEO PROA18 8/512GB 13\" MHFC4LL/A SIL A18 SILVER 2026 SILVER",
-    "brand": "APPLE",
-    "category": "notebooks",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
     "sinGarantia": false
   },
   {
@@ -32682,18 +32632,6 @@
     "sinGarantia": false,
     "specs": [],
     "price": 9170000
-  },
-  {
-    "id": 12594,
-    "ref": "406469",
-    "slug": "tablet-lenovo-yoga-tab-plus-tb520fu-16-256g-teal-16g-256gte-12594",
-    "title": "TABLET LENOVO YOGA TAB PLUS TB520FU 16+256G TEAL 16G+256GTE-EC-K B+P TEC+PEN12.7",
-    "brand": "LENOVO",
-    "category": "tablets",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
-    "sinGarantia": false
   },
   {
     "id": 12595,
@@ -33834,7 +33772,7 @@
     "slug": "plataforma-giratoria-cougar-luminosa-para-gabinete-fv270-neg-12754",
     "title": "PLATAFORMA GIRATORIA COUGAR LUMINOSA PARA GABINETE FV270-Negro",
     "brand": "COUGAR",
-    "category": "gabinetes",
+    "category": "soportes-y-bases",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-29",
@@ -34913,18 +34851,6 @@
     "sinGarantia": false,
     "specs": [],
     "price": 9280000
-  },
-  {
-    "id": 12989,
-    "ref": "376824",
-    "slug": "apple-iphone-17-pro-256gb-mg7m4ll-a-deep-blue-a3256-12989",
-    "title": "APPLE IPHONE 17 PRO 256GB MG7M4LL/A DEEP BLUE A3256",
-    "brand": "APPLE",
-    "category": "telefonos-y-celulares",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
-    "sinGarantia": false
   },
   {
     "id": 12990,
@@ -36051,18 +35977,6 @@
     "sinGarantia": false
   },
   {
-    "id": 13232,
-    "ref": "347563",
-    "slug": "nb-hp-15-fc0146dx-r5-7520u-8gb-512-15-6-w11-tch-silver-ingle-13232",
-    "title": "NB HP 15-FC0146DX R5-7520U/8GB/512/15.6/W11/TCH SILVER/INGLES",
-    "brand": "AMD",
-    "category": "notebooks",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
-    "sinGarantia": false
-  },
-  {
     "id": 13247,
     "ref": "361155",
     "slug": "nb-lenovo-83jc00lyus-r5-7235-16gb-512ssd-rtx4050-w-11-15-6-g-13247",
@@ -36178,18 +36092,6 @@
     "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-03",
-    "sinGarantia": false
-  },
-  {
-    "id": 13850,
-    "ref": "353672",
-    "slug": "vga-rtx5070-12gb-pny-triple-fan-oc-gddr7-192bit-vcg507012tfx-13850",
-    "title": "VGA RTX5070 12GB PNY TRIPLE FAN OC GDDR7/192BIT VCG507012TFXPB1 -O",
-    "brand": "GENERIC",
-    "category": "tarjetas-de-video",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
     "sinGarantia": false
   },
   {
@@ -36779,18 +36681,6 @@
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-29",
-    "sinGarantia": false
-  },
-  {
-    "id": 14327,
-    "ref": "182997",
-    "slug": "mem-ddr5-8gb-5200-kingston-fury-beast-black-kf552c40bb-8-kf5-14327",
-    "title": "MEM DDR5 8GB 5200 KINGSTON FURY BEAST BLACK KF552C40BB/8 KF552C40BB-8",
-    "brand": "KINGSTON",
-    "category": "memorias-ram",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
     "sinGarantia": false
   },
   {
@@ -38077,18 +37967,6 @@
     "sinGarantia": false
   },
   {
-    "id": 15574,
-    "ref": "316313",
-    "slug": "mb-1851-asus-rog-strix-b860-f-gaming-wifi-ddr5-hdmi-dp-4m-2-15574",
-    "title": "MB 1851 ASUS ROG STRIX B860-F GAMING WIFI DDR5 HDMI/DP/4M.2",
-    "brand": "ASUS",
-    "category": "placas-madre",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
-    "sinGarantia": false
-  },
-  {
     "id": 15575,
     "ref": "308190",
     "slug": "mb-1700-gigabyte-b760m-k-v2-ddr4-hdmi-m-2-usb32-15575",
@@ -39236,18 +39114,6 @@
     "sinGarantia": false,
     "specs": [],
     "price": 2032000
-  },
-  {
-    "id": 16322,
-    "ref": "281470",
-    "slug": "ssd-m-2-4tb-wd-black-sn850x-nvme-wds400t2x0e-00bc-7300-6600-16322",
-    "title": "SSD M.2 4TB WD BLACK SN850X NVME WDS400T2X0E-00BC 7300/6600 MB/S GEN4",
-    "brand": "WESTERN DIGITAL",
-    "category": "almacenamiento-ssd",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
-    "sinGarantia": false
   },
   {
     "id": 16330,
@@ -40614,18 +40480,6 @@
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-29",
-    "sinGarantia": false
-  },
-  {
-    "id": 17142,
-    "ref": "361234",
-    "slug": "tec-onikuma-g67-magnetico-usb-c-rgb-black-17142",
-    "title": "TEC ONIKUMA G67 MAGNETICO USB-C RGB BLACK",
-    "brand": "GENERIC",
-    "category": "teclados",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
     "sinGarantia": false
   },
   {
@@ -44793,18 +44647,6 @@
     "sinGarantia": false
   },
   {
-    "id": 18687,
-    "ref": "224882",
-    "slug": "cooler-cpu-thermalright-assassin-x-120-r-se-white-tl-c12cw-1-18687",
-    "title": "COOLER CPU THERMALRIGHT ASSASSIN X 120 R SE WHITE TL-C12CW/1700 REFINED/AMD/AM4",
-    "brand": "INTEL",
-    "category": "refrigeracion",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
-    "sinGarantia": false
-  },
-  {
     "id": 18688,
     "ref": "250545",
     "slug": "cooler-fan-up-gamer-aurea-kit-3x1-argb-c-control-18688",
@@ -45537,18 +45379,6 @@
     "sinGarantia": false,
     "specs": [],
     "price": 623000
-  },
-  {
-    "id": 18739,
-    "ref": "310171",
-    "slug": "cooler-cpu-ftx-ftxcc-421p-rgb-120mm-1700-am4-am5-18739",
-    "title": "COOLER CPU FTX FTXCC-421P RGB 120MM 1700/AM4/AM5",
-    "brand": "INTEL",
-    "category": "refrigeracion",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
-    "sinGarantia": false
   },
   {
     "id": 18740,
@@ -47635,7 +47465,7 @@
     "id": 19372,
     "ref": "302991",
     "slug": "ui-u7-outdoor-unifi-ap-ac-wifi-7-2-5gbe-poe-250-19372",
-    "title": "UI. U7-OUTDOOR UNIFI AP AC WIFI 7 2.5GBE POE+250",
+    "title": "UI. U7-OUTDOOR UNIFI AP AC WIFI 7 2.5GBE PoE+250",
     "brand": "UNIFI",
     "category": "redes-y-conectividad",
     "specs": [
@@ -48867,7 +48697,7 @@
     "slug": "amazon-alexa-echo-spot-2-8-c-reloj-negro-bv84j9-20319",
     "title": "AMAZON ALEXA ECHO SPOT 2.8\" C/Reloj Negro BV84J9",
     "brand": "AMAZON",
-    "category": "relojes-smart",
+    "category": "smart-home",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-29",
@@ -49500,8 +49330,8 @@
   {
     "id": 20719,
     "ref": "210036",
-    "slug": "hub-switch-tp-link-10p-tl-sg1210mp-8p-giga-poe-desktop-20719",
-    "title": "HUB SWITCH TP-LINK 10P TL-SG1210MP 8P GIGA POE+ DESKTOP",
+    "slug": "hub-switch-tp-link-10p-tl-sg1210mp-8p-gigabit-poe-desktop-20719",
+    "title": "HUB SWITCH TP-LINK 10P TL-SG1210MP 8P Gigabit PoE+ DESKTOP",
     "brand": "TP-LINK",
     "category": "redes-y-conectividad",
     "specs": [
@@ -49845,8 +49675,8 @@
   {
     "id": 20741,
     "ref": "258171",
-    "slug": "hub-switch-tp-link-10p-tl-sg1210p-8p-giga-poe-1sf-p-escritor-20741",
-    "title": "HUB SWITCH TP-LINK 10P TL-SG1210P 8P GIGA POE+ 1SF P/ESCRITORIO",
+    "slug": "hub-switch-tp-link-10p-tl-sg1210p-8p-gigabit-poe-1sf-p-escri-20741",
+    "title": "HUB SWITCH TP-LINK 10P TL-SG1210P 8P Gigabit PoE+ 1SF P/ESCRITORIO",
     "brand": "TP-LINK",
     "category": "redes-y-conectividad",
     "specs": [
@@ -49926,7 +49756,7 @@
     "id": 20746,
     "ref": "303858",
     "slug": "hub-switch-mercusys-ms108gp-8p-7p-poe-65w-giga-20746",
-    "title": "HUB SWITCH MERCUSYS MS108GP 8P 7P POE+65W GIGA",
+    "title": "HUB SWITCH MERCUSYS MS108GP 8P 7P PoE+65W GIGA",
     "brand": "MERCUSYS",
     "category": "redes-y-conectividad",
     "specs": [
@@ -49943,7 +49773,7 @@
     "id": 20747,
     "ref": "218762",
     "slug": "hub-switch-tp-link-08p-tl-sg2210p-t1500g-10ps-poe-poe-2-sfp-20747",
-    "title": "HUB SWITCH TP-LINK 08P TL-SG2210P T1500G-10PS POE POE + 2 SFP 10/100/1000MBPS",
+    "title": "HUB SWITCH TP-LINK 08P TL-SG2210P T1500G-10PS POE PoE+ 2 SFP 10/100/1000MBPS",
     "brand": "TP-LINK",
     "category": "redes-y-conectividad",
     "status": "active",
@@ -49991,7 +49821,7 @@
     "id": 20750,
     "ref": "291326",
     "slug": "hub-switch-tp-link-28p-tl-sg1428pe-gigabit-poe-2sf-20750",
-    "title": "HUB SWITCH TP-LINK 28P TL-SG1428PE GIGABIT POE+2SF",
+    "title": "HUB SWITCH TP-LINK 28P TL-SG1428PE GIGABIT PoE+2SF",
     "brand": "TP-LINK",
     "category": "redes-y-conectividad",
     "status": "active",
@@ -50048,7 +49878,7 @@
     "id": 20754,
     "ref": "252266",
     "slug": "hub-switch-tp-link-tl-sl2428p-poe-2sfp-10-100-4p-poe-4p-giga-20754",
-    "title": "HUB SWITCH TP-LINK TL-SL2428P POE+2SFP 10/100/4P POE+4P GIGA",
+    "title": "HUB SWITCH TP-LINK TL-SL2428P PoE+2SFP 10/100/4P PoE+4P GIGA",
     "brand": "TP-LINK",
     "category": "redes-y-conectividad",
     "specs": [
@@ -50335,18 +50165,6 @@
     "sinGarantia": false,
     "specs": [],
     "price": 229000
-  },
-  {
-    "id": 20840,
-    "ref": "112283",
-    "slug": "conversor-de-midia-hl-2111s-20a-b-par-giga-20840",
-    "title": "CONVERSOR DE MIDIA HL-2111S-20A/B-PAR GIGA",
-    "brand": "GENERIC",
-    "category": "adaptadores-y-cables",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
-    "sinGarantia": false
   },
   {
     "id": 20841,
@@ -51163,7 +50981,7 @@
     "id": 20897,
     "ref": "358475",
     "slug": "ui-u7-pro-xg-unifi-ap-ac-wifi-7-6ghz-10gbe-poe-poe-300-clien-20897",
-    "title": "UI. U7-PRO-XG UNIFI AP AC WIFI 7 6GHZ 10GBE POE POE+300 CLIENT",
+    "title": "UI. U7-PRO-XG UNIFI AP AC WIFI 7 6GHZ 10GBE POE PoE+300 CLIENT",
     "brand": "UNIFI",
     "category": "redes-y-conectividad",
     "specs": [
@@ -51915,18 +51733,6 @@
     "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-12",
-    "sinGarantia": false
-  },
-  {
-    "id": 21047,
-    "ref": "317920",
-    "slug": "ui-uk-ultra-unifi-ap-ac-wifi-5-indor-outdoor-200-cliente-21047",
-    "title": "UI. UK-ULTRA UNIFI AP AC WIFI 5 INDOR/OUTDOOR 200 CLIENTE",
-    "brand": "GENERIC",
-    "category": "redes-y-conectividad",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
     "sinGarantia": false
   },
   {
@@ -52694,18 +52500,6 @@
     "price": 81000
   },
   {
-    "id": 21448,
-    "ref": "342312",
-    "slug": "adaptador-usb-p-hdmi-usb-3-0-fullhd-black-21448",
-    "title": "ADAPTADOR USB P/ HDMI USB 3.0 FULLHD BLACK",
-    "brand": "GENERIC",
-    "category": "adaptadores-y-cables",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
-    "sinGarantia": false
-  },
-  {
     "id": 21449,
     "ref": "340523",
     "slug": "adaptador-usb-p-sata3-dados-forca-usb-3-0-21449",
@@ -52835,7 +52629,7 @@
     "slug": "amazon-alexa-echo-dot-max-smart-speaker-amethyst-543702w6-21458",
     "title": "AMAZON ALEXA ECHO DOT MAX SMART SPEAKER AMETHYST 543702W6",
     "brand": "AMAZON",
-    "category": "parlantes",
+    "category": "smart-home",
     "specs": [],
     "price": 690000,
     "status": "active",
@@ -52849,7 +52643,7 @@
     "slug": "amazon-alexa-echo-dot-max-smart-speaker-white-660076-21459",
     "title": "AMAZON ALEXA ECHO DOT MAX SMART SPEAKER WHITE 660076",
     "brand": "AMAZON",
-    "category": "parlantes",
+    "category": "smart-home",
     "specs": [],
     "price": 697000,
     "status": "active",
@@ -52925,18 +52719,6 @@
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-29",
-    "sinGarantia": false
-  },
-  {
-    "id": 21467,
-    "ref": "357935",
-    "slug": "apple-iphone-17-256gb-mg684j-a-white-a3519-21467",
-    "title": "APPLE IPHONE 17 256GB MG684J/A WHITE A3519",
-    "brand": "APPLE",
-    "category": "telefonos-y-celulares",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
     "sinGarantia": false
   },
   {
@@ -57704,18 +57486,6 @@
     "sinGarantia": false
   },
   {
-    "id": 21840,
-    "ref": "375878",
-    "slug": "cel-xiaomi-poco-c85-8-256gb-4g-purple-global-21840",
-    "title": "CEL XIAOMI POCO C85 8/256GB 4G PURPLE GLOBAL",
-    "brand": "XIAOMI",
-    "category": "telefonos-y-celulares",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
-    "sinGarantia": false
-  },
-  {
     "id": 21841,
     "ref": "400755",
     "slug": "cel-xiaomi-poco-f8-pro-12-256gb-5g-blue-21841",
@@ -58100,18 +57870,6 @@
     "sinGarantia": false
   },
   {
-    "id": 21877,
-    "ref": "361559",
-    "slug": "cel-xiaomi-redmi-note-15-8-256gb-4g-azul-global-21877",
-    "title": "CEL XIAOMI REDMI NOTE 15 8/256GB 4G Azul GLOBAL",
-    "brand": "XIAOMI",
-    "category": "telefonos-y-celulares",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
-    "sinGarantia": false
-  },
-  {
     "id": 21878,
     "ref": "406313",
     "slug": "cel-xiaomi-redmi-note-15-8-256gb-4g-negro-global-21878",
@@ -58305,18 +58063,6 @@
     "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-12",
-    "sinGarantia": false
-  },
-  {
-    "id": 21895,
-    "ref": "418731",
-    "slug": "controle-gamesir-g7-pro-wireless-wuchang-fallen-pc-xbox-21895",
-    "title": "CONTROLE GAMESIR G7 PRO WIRELESS WUCHANG FALLEN PC/XBOX",
-    "brand": "GAMESIR",
-    "category": "consolas-y-videojuegos",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
     "sinGarantia": false
   },
   {
@@ -58747,18 +58493,6 @@
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-29",
-    "sinGarantia": false
-  },
-  {
-    "id": 21928,
-    "ref": "411612",
-    "slug": "cooler-cpu-abkoncore-t404b-hurricane-dual-rgb-blk-21928",
-    "title": "COOLER CPU ABKONCORE T404B HURRICANE DUAL RGB BLK",
-    "brand": "GENERIC",
-    "category": "refrigeracion",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
     "sinGarantia": false
   },
   {
@@ -60878,18 +60612,6 @@
     "sinGarantia": true
   },
   {
-    "id": 22088,
-    "ref": "398918",
-    "slug": "cpu-oem-intel-1155-i3-2120-3-3ghz-s-cx-s-fan-s-g-22088",
-    "title": "CPU OEM INTEL 1155 I3 2120 3.3GHZ S/CX S/FAN S/G",
-    "brand": "INTEL",
-    "category": "procesadores",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
-    "sinGarantia": true
-  },
-  {
     "id": 22089,
     "ref": "380885",
     "slug": "cpu-oem-intel-1155-i5-2500-3-3ghz-s-cx-s-fan-s-g-i5-2500-22089",
@@ -61013,7 +60735,7 @@
     "slug": "dissipador-p-m-2-thermalright-hr-09-2280-plata-22098",
     "title": "DISSIPADOR P/ M.2 THERMALRIGHT HR-09 2280 Plata",
     "brand": "THERMALRIGHT",
-    "category": "almacenamiento-ssd",
+    "category": "refrigeracion",
     "specs": [],
     "price": 108000,
     "status": "active",
@@ -61123,7 +60845,7 @@
     "slug": "estojo-protetor-dux-ducis-para-nintendo-switch-2-p-negro-22106",
     "title": "ESTOJO PROTETOR DUX DUCIS PARA NINTENDO SWITCH 2 P Negro",
     "brand": "NINTENDO",
-    "category": "consolas-y-videojuegos",
+    "category": "peliculas-y-fundas",
     "specs": [],
     "price": 174000,
     "status": "active",
@@ -63551,18 +63273,6 @@
     "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-07",
-    "sinGarantia": false
-  },
-  {
-    "id": 22292,
-    "ref": "402768",
-    "slug": "auricular-ear-qcy-t13-tws-anc-2-bt-earbuds-blue-22292",
-    "title": "Auricular EAR QCY T13 TWS ANC 2 BT EARBUDS BLUE",
-    "brand": "GENERIC",
-    "category": "auriculares-y-headsets",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
     "sinGarantia": false
   },
   {
@@ -68110,9 +67820,7 @@
     "title": "KIT ESMERILHADEIRA SATE A-TK8863 C/BATERIA PORTATI",
     "brand": "SATE",
     "category": "ups-y-energia",
-    "specs": [],
-    "price": 155000,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-29",
     "sinGarantia": false
@@ -68149,7 +67857,7 @@
     "slug": "lanterna-smiling-shark-e-711b-negro-c-bateria-cable-usb-c-22662",
     "title": "LANTERNA SMILING SHARK E-711B Negro C/BATERIA Cable USB-C",
     "brand": "GENERIC",
-    "category": "adaptadores-y-cables",
+    "category": "ups-y-energia",
     "specs": [],
     "price": 359000,
     "status": "active",
@@ -68191,7 +67899,7 @@
     "slug": "lanterna-smiling-shark-sd-5990-multi-funcion-negro-c-bateria-22665",
     "title": "LANTERNA SMILING SHARK SD-5990 MULTI FUNCION Negro C/BATERIA Cable USB-C",
     "brand": "GENERIC",
-    "category": "adaptadores-y-cables",
+    "category": "ups-y-energia",
     "specs": [],
     "price": 359000,
     "status": "active",
@@ -68205,7 +67913,7 @@
     "slug": "lanterna-smiling-shark-sd-5992-flashlight-negro-c-bateria-ca-22666",
     "title": "LANTERNA SMILING SHARK SD-5992 FLASHLIGHT Negro C/BATERIA Cable USB-C",
     "brand": "GENERIC",
-    "category": "adaptadores-y-cables",
+    "category": "ups-y-energia",
     "specs": [],
     "price": 433000,
     "status": "active",
@@ -68219,7 +67927,7 @@
     "slug": "lanterna-smiling-shark-sd-5995-multi-funcion-negro-c-bateria-22667",
     "title": "LANTERNA SMILING SHARK SD-5995 MULTI FUNCION Negro C/BATERIA Cable USB-C",
     "brand": "GENERIC",
-    "category": "adaptadores-y-cables",
+    "category": "ups-y-energia",
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-29",
@@ -68233,7 +67941,7 @@
     "slug": "lanterna-smiling-shark-sd-5996-multi-funcion-negro-c-bateria-22668",
     "title": "LANTERNA SMILING SHARK SD-5996 MULTI FUNCION Negro C/BATERIA Cable USB-C",
     "brand": "GENERIC",
-    "category": "adaptadores-y-cables",
+    "category": "ups-y-energia",
     "specs": [],
     "price": 464000,
     "status": "active",
@@ -68247,7 +67955,7 @@
     "slug": "lanterna-smiling-shark-sd-5998-multi-funcion-negro-c-bateria-22669",
     "title": "LANTERNA SMILING SHARK SD-5998 MULTI FUNCION Negro C/BATERIA Cable USB-C",
     "brand": "GENERIC",
-    "category": "adaptadores-y-cables",
+    "category": "ups-y-energia",
     "specs": [],
     "price": 366000,
     "status": "active",
@@ -68261,7 +67969,7 @@
     "slug": "lanterna-smiling-shark-sd-5999-multi-funcion-negro-c-bateria-22670",
     "title": "LANTERNA SMILING SHARK SD-5999 MULTI FUNCION Negro C/BATERIA Cable USB-C",
     "brand": "GENERIC",
-    "category": "adaptadores-y-cables",
+    "category": "ups-y-energia",
     "specs": [],
     "price": 458000,
     "status": "active",
@@ -69529,30 +69237,6 @@
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-29",
-    "sinGarantia": false
-  },
-  {
-    "id": 22771,
-    "ref": "375733",
-    "slug": "mikrotik-routerboard-rb960pgs-pb-800mhz-powerbox-powerbox-pr-22771",
-    "title": "MIKROTIK ROUTERBOARD RB960PGS-PB 800MHZ POWERBOX POWERBOX PRO S/CX",
-    "brand": "MIKROTIK",
-    "category": "redes-y-conectividad",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
-    "sinGarantia": false
-  },
-  {
-    "id": 22772,
-    "ref": "233120",
-    "slug": "mikrotik-sfp-s-31dlc10d-10g-smf-10km-1310nm-duple-lc-oen-22772",
-    "title": "MIKROTIK SFP+ S+31DLC10D 10G SMF 10KM 1310NM DUPLE LC OEN",
-    "brand": "MIKROTIK",
-    "category": "redes-y-conectividad",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
     "sinGarantia": false
   },
   {
@@ -71538,18 +71222,6 @@
     "sinGarantia": false
   },
   {
-    "id": 22923,
-    "ref": "400420",
-    "slug": "nb-asus-m1502ya-bs51-r5-7430u-16gb-512gb-15-6-w11-blue-ingle-22923",
-    "title": "NB ASUS M1502YA-BS51 R5-7430U/16GB/512GB/15.6/W11 BLUE/INGLES",
-    "brand": "ASUS",
-    "category": "notebooks",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
-    "sinGarantia": false
-  },
-  {
     "id": 22924,
     "ref": "419787",
     "slug": "nb-asus-um3405ga-zb-r9-465-16gb-512gb-14-tch-w11-ingles-gris-22924",
@@ -72053,7 +71725,7 @@
     "slug": "nvr-hikvision-04ch-hdd-ds-7104ni-q1-4p-1080p-22963",
     "title": "NVR HIKVISION 04CH HDD DS-7104NI-Q1/4P 1080P",
     "brand": "HIKVISION",
-    "category": "almacenamiento-ssd",
+    "category": "camaras-y-seguridad",
     "specs": [],
     "price": 495000,
     "status": "active",
@@ -72067,7 +71739,7 @@
     "slug": "nvr-hikvision-04ch-poe-hdd-ds-7104ni-q1-4p-poe-h-265-4mp-108-22964",
     "title": "NVR HIKVISION 04CH POE HDD DS-7104NI-Q1/4P POE H.265/4MP/1080",
     "brand": "HIKVISION",
-    "category": "almacenamiento-ssd",
+    "category": "camaras-y-seguridad",
     "specs": [],
     "price": 623000,
     "status": "active",
@@ -72096,12 +71768,10 @@
     "title": "PARAFUSADEIRA SATE BATERIA A-KS29 KIT 29PC Negro",
     "brand": "SATE",
     "category": "ups-y-energia",
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-29",
-    "sinGarantia": false,
-    "specs": [],
-    "price": 161000
+    "sinGarantia": false
   },
   {
     "id": 22967,
@@ -72306,18 +71976,6 @@
     "price": 76000
   },
   {
-    "id": 22982,
-    "ref": "410194",
-    "slug": "pen-drive-32gb-luo-flash-drive-mini-2-0-metal-g-22982",
-    "title": "PEN DRIVE 32GB LUO FLASH DRIVE MINI 2.0 METAL *G",
-    "brand": "GENERIC",
-    "category": "almacenamiento-ssd",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
-    "sinGarantia": false
-  },
-  {
     "id": 22983,
     "ref": "402421",
     "slug": "pen-drive-64gb-kingston-dt70-64gb-type-c-22983",
@@ -72493,18 +72151,6 @@
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-29",
-    "sinGarantia": false
-  },
-  {
-    "id": 22997,
-    "ref": "390910",
-    "slug": "pila-ag4-lr626w-377a-tmmq-alkalina-pack-10-22997",
-    "title": "Pila AG4/LR626W/377A TMMQ ALKALINA - PACK 10",
-    "brand": "GENERIC",
-    "category": "ups-y-energia",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
     "sinGarantia": false
   },
   {
@@ -75017,18 +74663,6 @@
     "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-02",
-    "sinGarantia": false
-  },
-  {
-    "id": 23197,
-    "ref": "410093",
-    "slug": "tablet-samsung-tab-s6-lite-sm-p613-64gb-4gb-pink-chif-pink-1-23197",
-    "title": "TABLET SAMSUNG TAB S6 LITE SM-P613 64GB/4GB PINK CHIF PINK 10.4\"",
-    "brand": "SAMSUNG",
-    "category": "tablets",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
     "sinGarantia": false
   },
   {
@@ -77835,7 +77469,7 @@
     "id": 23410,
     "ref": "377219",
     "slug": "ui-u-poe-unifi-adaptador-poe-gigabit-30w-48v-br-0-65a-23410",
-    "title": "UI. U-POE+ UNIFI ADAPTADOR POE GIGABIT 30W 48V BR 0.65A",
+    "title": "UI. U-PoE+ UNIFI ADAPTADOR POE GIGABIT 30W 48V BR 0.65A",
     "brand": "UNIFI",
     "category": "adaptadores-y-cables",
     "status": "active",
@@ -77849,7 +77483,7 @@
     "id": 23411,
     "ref": "414604",
     "slug": "ui-u-poe-unifi-adaptador-poe-gigabit-30w-48v-usa-0-65a-23411",
-    "title": "UI. U-POE+ UNIFI ADAPTADOR POE GIGABIT 30W 48V USA 0.65A",
+    "title": "UI. U-PoE+ UNIFI ADAPTADOR POE GIGABIT 30W 48V USA 0.65A",
     "brand": "UNIFI",
     "category": "adaptadores-y-cables",
     "specs": [],
@@ -77863,7 +77497,7 @@
     "id": 23412,
     "ref": "397737",
     "slug": "ui-u-poe-unifi-adaptador-poe-gigabit-60-48v-1-25a-23412",
-    "title": "UI. U-POE++ UNIFI ADAPTADOR POE GIGABIT (60) 48V 1.25A",
+    "title": "UI. U-PoE++ UNIFI ADAPTADOR POE GIGABIT (60) 48V 1.25A",
     "brand": "UNIFI",
     "category": "adaptadores-y-cables",
     "specs": [],
@@ -77877,7 +77511,7 @@
     "id": 23413,
     "ref": "369567",
     "slug": "ui-u-poe-br-unifi-adaptador-poe-gigabit-60w-48v-1-25a-23413",
-    "title": "UI. U-POE++-BR UNIFI ADAPTADOR POE GIGABIT 60W 48V 1.25A",
+    "title": "UI. U-PoE++-BR UNIFI ADAPTADOR POE GIGABIT 60W 48V 1.25A",
     "brand": "UNIFI",
     "category": "adaptadores-y-cables",
     "status": "active",
@@ -77891,7 +77525,7 @@
     "id": 23414,
     "ref": "373450",
     "slug": "ui-u-poe-br-unifi-adaptador-poe-gigabit-30w-4a-23414",
-    "title": "UI. U-POE+-BR UNIFI ADAPTADOR POE GIGABIT (30W) 4A",
+    "title": "UI. U-PoE+-BR UNIFI ADAPTADOR POE GIGABIT (30W) 4A",
     "brand": "UNIFI",
     "category": "adaptadores-y-cables",
     "specs": [],
@@ -78267,18 +77901,6 @@
     "status": "active",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-29",
-    "sinGarantia": false
-  },
-  {
-    "id": 23443,
-    "ref": "412916",
-    "slug": "vga-rtx5060-8gb-asus-dual-gddr7-90yvon13-mona00-90yvon13-mon-23443",
-    "title": "VGA RTX5060 8GB ASUS DUAL GDDR7 90YVON13-MONA00 90YVON13-MONA00",
-    "brand": "ASUS",
-    "category": "tarjetas-de-video",
-    "status": "hidden",
-    "firstSeen": "2026-08-15",
-    "lastSeen": "2026-08-28",
     "sinGarantia": false
   },
   {
@@ -80796,18 +80418,6 @@
     "price": 235000
   },
   {
-    "id": 23643,
-    "ref": "422153",
-    "slug": "auricular-attack-shark-l60-2-4g-bt-inalambrico-c-mic-white-23643",
-    "title": "Auricular ATTACK SHARK L60 2.4G/BT Inalámbrico C/MIC WHITE",
-    "brand": "ATTACK SHARK",
-    "category": "auriculares-y-headsets",
-    "status": "hidden",
-    "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-28",
-    "sinGarantia": false
-  },
-  {
     "id": 23644,
     "ref": "358857",
     "slug": "auricular-attack-shark-l80-pro-2-4g-bt-wired-black-23644",
@@ -81474,24 +81084,12 @@
     "sinGarantia": false
   },
   {
-    "id": 23696,
-    "ref": "386656",
-    "slug": "tv-32-xiaomi-l32m8-p2ph-smart-hd-a-2025-23696",
-    "title": "TV 32 XIAOMI L32M8-P2PH SMART/HD A 2025",
-    "brand": "XIAOMI",
-    "category": "televisores",
-    "status": "hidden",
-    "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-28",
-    "sinGarantia": false
-  },
-  {
     "id": 23697,
     "ref": "398705",
     "slug": "amazon-alexa-echo-dot-max-smart-speaker-graphite-652774-23697",
     "title": "AMAZON ALEXA ECHO DOT MAX SMART SPEAKER GRAPHITE 652774",
     "brand": "AMAZON",
-    "category": "parlantes",
+    "category": "smart-home",
     "specs": [],
     "price": 697000,
     "status": "active",
@@ -82090,18 +81688,6 @@
     "price": 717000
   },
   {
-    "id": 23745,
-    "ref": "400037",
-    "slug": "mini-pc-acemagic-m1a-pro-i9-12900h-16-1tb-rtx5060-8gb-w11pro-23745",
-    "title": "MINI PC ACEMAGIC M1A PRO I9-12900H/16/1TB/RTX5060 8GB/W11PRO",
-    "brand": "GENERIC",
-    "category": "pcs-de-escritorio",
-    "status": "hidden",
-    "firstSeen": "2026-08-22",
-    "lastSeen": "2026-08-28",
-    "sinGarantia": false
-  },
-  {
     "id": 23746,
     "ref": "400059",
     "slug": "mini-pc-acemagic-retro-x5-gaming-r9-8945hs-16-512-ddr5-w11-23746",
@@ -82329,18 +81915,6 @@
     "status": "active",
     "firstSeen": "2026-08-22",
     "lastSeen": "2026-09-29",
-    "sinGarantia": false
-  },
-  {
-    "id": 23766,
-    "ref": "423053",
-    "slug": "vga-rtx5070ti-16gb-asus-prime-oc-90yv0mf0-m0aa00-rtx5070ti-0-23766",
-    "title": "VGA RTX5070TI 16GB ASUS PRIME OC 90YV0MF0-M0AA00 RTX5070TI-016G",
-    "brand": "ASUS",
-    "category": "tarjetas-de-video",
-    "status": "hidden",
-    "firstSeen": "2026-08-22",
-    "lastSeen": "2026-08-28",
     "sinGarantia": false
   },
   {
@@ -82904,18 +82478,6 @@
     "sinGarantia": false
   },
   {
-    "id": 23809,
-    "ref": "389750",
-    "slug": "nb-asus-fx608jmr-f16-i7-14650hx-32gb-1tb-rtx5060-rtx5060-8gb-23809",
-    "title": "NB ASUS FX608JMR-F16 I7-14650HX/32GB/1TB/RTX5060 RTX5060 - 8GB 16\"/W11 Gris",
-    "brand": "ASUS",
-    "category": "notebooks",
-    "status": "hidden",
-    "firstSeen": "2026-08-25",
-    "lastSeen": "2026-08-28",
-    "sinGarantia": false
-  },
-  {
     "id": 23810,
     "ref": "423345",
     "slug": "nb-asus-gu605cp-g16-ultra9-285h-16-1tb-rtx5070-8gb-16-w11-gr-23810",
@@ -83041,7 +82603,7 @@
     "slug": "soporte-p-alexa-smartfy-sa01b-p-4-5-geracao-bk-g-23819",
     "title": "Soporte P/ ALEXA SMARTFY SA01B P/4/5 GERACAO BK G",
     "brand": "SMARTFY",
-    "category": "soportes-y-bases",
+    "category": "smart-home",
     "specs": [],
     "price": 85000,
     "status": "active",
@@ -83055,7 +82617,7 @@
     "slug": "soporte-p-alexa-smartfy-sa01w-p-4-5-geracao-whi-23820",
     "title": "Soporte P/ ALEXA SMARTFY SA01W P/4/5 GERACAO WHI",
     "brand": "SMARTFY",
-    "category": "soportes-y-bases",
+    "category": "smart-home",
     "specs": [],
     "price": 85000,
     "status": "active",
@@ -83151,7 +82713,7 @@
     "slug": "amazon-alexa-echo-spot-2-8-c-reloj-blue-23827",
     "title": "AMAZON ALEXA ECHO SPOT 2.8\" C/Reloj BLUE",
     "brand": "AMAZON",
-    "category": "relojes-smart",
+    "category": "smart-home",
     "specs": [],
     "price": 489000,
     "status": "active",
@@ -83165,7 +82727,7 @@
     "slug": "amazon-alexa-echo-spot-2-8-c-reloj-blanco-bv84j9-23828",
     "title": "AMAZON ALEXA ECHO SPOT 2.8\" C/Reloj Blanco BV84J9",
     "brand": "AMAZON",
-    "category": "relojes-smart",
+    "category": "smart-home",
     "specs": [],
     "price": 489000,
     "status": "active",
@@ -83974,18 +83536,6 @@
     "sinGarantia": false
   },
   {
-    "id": 23890,
-    "ref": "381203",
-    "slug": "cel-samsung-a07-sm-a075m-ds-128gb-4ram-black-capa-23890",
-    "title": "CEL SAMSUNG A07 SM-A075M/DS 128GB/4RAM BLACK + CAPA",
-    "brand": "SAMSUNG",
-    "category": "telefonos-y-celulares",
-    "status": "hidden",
-    "firstSeen": "2026-08-27",
-    "lastSeen": "2026-08-28",
-    "sinGarantia": false
-  },
-  {
     "id": 23891,
     "ref": "424223",
     "slug": "cooler-fan-aigo-darkflash-dm8-argb-blanco-23891",
@@ -84119,18 +83669,6 @@
     "status": "active",
     "firstSeen": "2026-08-27",
     "lastSeen": "2026-09-29",
-    "sinGarantia": false
-  },
-  {
-    "id": 23902,
-    "ref": "373966",
-    "slug": "nb-asus-x1504va-bq598w-core5-120u-8gb-512-15-6-w11-blue-usa-23902",
-    "title": "NB ASUS X1504VA-BQ598W CORE5-120U/8GB/512/15.6/W11 BLUE/USA",
-    "brand": "ASUS",
-    "category": "notebooks",
-    "status": "hidden",
-    "firstSeen": "2026-08-27",
-    "lastSeen": "2026-08-28",
     "sinGarantia": false
   },
   {
@@ -84596,18 +84134,6 @@
     "sinGarantia": false
   },
   {
-    "id": 23937,
-    "ref": "402443",
-    "slug": "mem-nb-ddr5-16gb-5600-macroway-lo-dimm-23937",
-    "title": "MEM NB DDR5 16GB 5600 MACROWAY LO-DIMM",
-    "brand": "GENERIC",
-    "category": "memorias-ram",
-    "status": "hidden",
-    "firstSeen": "2026-08-28",
-    "lastSeen": "2026-08-28",
-    "sinGarantia": false
-  },
-  {
     "id": 23938,
     "ref": "424570",
     "slug": "mouse-redragon-k1ng-ultra-m999-dpi-inalambrico-negro-23938",
@@ -84699,18 +84225,6 @@
     "status": "active",
     "firstSeen": "2026-08-28",
     "lastSeen": "2026-09-29",
-    "sinGarantia": false
-  },
-  {
-    "id": 23945,
-    "ref": "422781",
-    "slug": "ssd-2-5-2tb-kingston-skc600-2048g-550-520-mb-s-23945",
-    "title": "SSD 2.5 2TB KINGSTON SKC600/2048G 550/520 MB/S",
-    "brand": "KINGSTON",
-    "category": "almacenamiento-ssd",
-    "status": "hidden",
-    "firstSeen": "2026-08-28",
-    "lastSeen": "2026-08-28",
     "sinGarantia": false
   },
   {
@@ -87647,7 +87161,7 @@
     "slug": "lanterna-smiling-shark-sd-5991-laser-flashlight-c-bateria-ca-24161",
     "title": "LANTERNA SMILING SHARK SD-5991 LASER FLASHLIGHT C/BATERIA Cable USB-C",
     "brand": "GENERIC",
-    "category": "adaptadores-y-cables",
+    "category": "ups-y-energia",
     "specs": [],
     "price": 446000,
     "sinGarantia": false,
@@ -88348,10 +87862,8 @@
     "title": "PARAFUSADEIRA SATE BATERIA 12V A-TK841 IMPACT BAT",
     "brand": "SATE",
     "category": "ups-y-energia",
-    "specs": [],
-    "price": 205000,
     "sinGarantia": false,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-09-03",
     "lastSeen": "2026-09-29"
   },
@@ -88362,10 +87874,8 @@
     "title": "PARAFUSADEIRA SATE BATERIA 12V A-TK842 IMPACT",
     "brand": "SATE",
     "category": "ups-y-energia",
-    "specs": [],
-    "price": 174000,
     "sinGarantia": false,
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-09-03",
     "lastSeen": "2026-09-29"
   },
@@ -93153,7 +92663,7 @@
     "slug": "reloj-monitor-de-temperatura-umidade-xiaomi-g-bhr5435gl-whit-24567",
     "title": "Reloj MONITOR DE TEMPERATURA/UMIDADE XIAOMI*G BHR5435GL/WHITE",
     "brand": "XIAOMI",
-    "category": "monitores",
+    "category": "smart-home",
     "specs": [],
     "price": 112000,
     "sinGarantia": false,
@@ -94293,7 +93803,7 @@
     "slug": "pencil-xiaomi-redmi-smart-pen-1s-stylus-bhr090agl-pad-mini-p-24650",
     "title": "PENCIL XIAOMI REDMI SMART PEN 1S STYLUS BHR090AGL PAD MINI,PAD2, PRO",
     "brand": "XIAOMI",
-    "category": "telefonos-y-celulares",
+    "category": "tablets",
     "specs": [],
     "price": 576000,
     "sinGarantia": false,
@@ -100850,6 +100360,188 @@
     "category": "televisores",
     "specs": [],
     "price": 2111000,
+    "sinGarantia": false,
+    "status": "active",
+    "firstSeen": "2026-09-29",
+    "lastSeen": "2026-09-29"
+  },
+  {
+    "id": 25125,
+    "ref": "391428",
+    "slug": "bolsa-p-accesorios-k-f-slim-urban-4l-gray-25125",
+    "title": "BOLSA P/ACCESORIOS K&F SLIM URBAN 4L GRAY",
+    "brand": "GENERIC",
+    "category": "mochilas-y-maletines",
+    "specs": [],
+    "price": 149000,
+    "sinGarantia": false,
+    "status": "active",
+    "firstSeen": "2026-09-29",
+    "lastSeen": "2026-09-29"
+  },
+  {
+    "id": 25126,
+    "ref": "391439",
+    "slug": "bolsa-p-camaras-k-f-sling-bag-urban-wander-beige-25126",
+    "title": "BOLSA P/CAMARAS K&F SLING BAG URBAN WANDER BEIGE",
+    "brand": "GENERIC",
+    "category": "mochilas-y-maletines",
+    "specs": [],
+    "price": 229000,
+    "sinGarantia": false,
+    "status": "active",
+    "firstSeen": "2026-09-29",
+    "lastSeen": "2026-09-29"
+  },
+  {
+    "id": 25127,
+    "ref": "358420",
+    "slug": "lanterna-cyansky-h3-v2-0-multi-color-long-range-25127",
+    "title": "LANTERNA CYANSKY H3 V2.0 MULTI-COLOR LONG-RANGE",
+    "brand": "GENERIC",
+    "category": "ups-y-energia",
+    "specs": [],
+    "price": 378000,
+    "sinGarantia": false,
+    "status": "active",
+    "firstSeen": "2026-09-29",
+    "lastSeen": "2026-09-29"
+  },
+  {
+    "id": 25128,
+    "ref": "358442",
+    "slug": "lanterna-cyansky-h5gt-w-r-multi-color-long-range-25128",
+    "title": "LANTERNA CYANSKY H5GT W+R MULTI-COLOR LONG-RANGE",
+    "brand": "GENERIC",
+    "category": "ups-y-energia",
+    "specs": [],
+    "price": 629000,
+    "sinGarantia": false,
+    "status": "active",
+    "firstSeen": "2026-09-29",
+    "lastSeen": "2026-09-29"
+  },
+  {
+    "id": 25129,
+    "ref": "433873",
+    "slug": "lanterna-multifuncional-xiaomi-mjsdt001qw-black-bhr7004gl-bi-25129",
+    "title": "LANTERNA MULTIFUNCIONAL XIAOMI MJSDT001QW BLACK BHR7004GL BIVOL 110/220V",
+    "brand": "XIAOMI",
+    "category": "ups-y-energia",
+    "specs": [],
+    "price": 223000,
+    "sinGarantia": false,
+    "status": "active",
+    "firstSeen": "2026-09-29",
+    "lastSeen": "2026-09-29"
+  },
+  {
+    "id": 25130,
+    "ref": "302756",
+    "slug": "lanterna-smiling-shark-cabecera-td-0123c-negro-usb-c-25130",
+    "title": "LANTERNA SMILING SHARK CABECERA TD-0123C Negro USB-C",
+    "brand": "GENERIC",
+    "category": "ups-y-energia",
+    "specs": [],
+    "price": 143000,
+    "sinGarantia": false,
+    "status": "active",
+    "firstSeen": "2026-09-29",
+    "lastSeen": "2026-09-29"
+  },
+  {
+    "id": 25131,
+    "ref": "353593",
+    "slug": "lanterna-smiling-shark-gz-0892-azul-25131",
+    "title": "LANTERNA SMILING SHARK GZ-0892 Azul",
+    "brand": "GENERIC",
+    "category": "ups-y-energia",
+    "specs": [],
+    "price": 174000,
+    "sinGarantia": false,
+    "status": "active",
+    "firstSeen": "2026-09-29",
+    "lastSeen": "2026-09-29"
+  },
+  {
+    "id": 25132,
+    "ref": "302734",
+    "slug": "lanterna-smiling-shark-sd-0522-25132",
+    "title": "LANTERNA SMILING SHARK SD-0522",
+    "brand": "GENERIC",
+    "category": "ups-y-energia",
+    "specs": [],
+    "price": 124000,
+    "sinGarantia": false,
+    "status": "active",
+    "firstSeen": "2026-09-29",
+    "lastSeen": "2026-09-29"
+  },
+  {
+    "id": 25133,
+    "ref": "302745",
+    "slug": "lanterna-smiling-shark-sd-5247a-25133",
+    "title": "LANTERNA SMILING SHARK SD-5247A",
+    "brand": "GENERIC",
+    "category": "ups-y-energia",
+    "specs": [],
+    "price": 143000,
+    "sinGarantia": false,
+    "status": "active",
+    "firstSeen": "2026-09-29",
+    "lastSeen": "2026-09-29"
+  },
+  {
+    "id": 25134,
+    "ref": "321689",
+    "slug": "lanterna-smiling-shark-sd-5979-4-25134",
+    "title": "LANTERNA SMILING SHARK SD-5979-4",
+    "brand": "GENERIC",
+    "category": "ups-y-energia",
+    "specs": [],
+    "price": 396000,
+    "sinGarantia": false,
+    "status": "active",
+    "firstSeen": "2026-09-29",
+    "lastSeen": "2026-09-29"
+  },
+  {
+    "id": 25135,
+    "ref": "320947",
+    "slug": "lanterna-smiling-shark-sd-5980-negro-25135",
+    "title": "LANTERNA SMILING SHARK SD-5980 Negro",
+    "brand": "GENERIC",
+    "category": "ups-y-energia",
+    "specs": [],
+    "price": 378000,
+    "sinGarantia": false,
+    "status": "active",
+    "firstSeen": "2026-09-29",
+    "lastSeen": "2026-09-29"
+  },
+  {
+    "id": 25136,
+    "ref": "320936",
+    "slug": "lanterna-smiling-shark-sd-5981-negro-25136",
+    "title": "LANTERNA SMILING SHARK SD-5981 Negro",
+    "brand": "GENERIC",
+    "category": "ups-y-energia",
+    "specs": [],
+    "price": 464000,
+    "sinGarantia": false,
+    "status": "active",
+    "firstSeen": "2026-09-29",
+    "lastSeen": "2026-09-29"
+  },
+  {
+    "id": 25137,
+    "ref": "353606",
+    "slug": "lanterna-smiling-shark-w891-2-amarillo-25137",
+    "title": "LANTERNA SMILING SHARK W891-2 AMARILLO",
+    "brand": "GENERIC",
+    "category": "ups-y-energia",
+    "specs": [],
+    "price": 180000,
     "sinGarantia": false,
     "status": "active",
     "firstSeen": "2026-09-29",
