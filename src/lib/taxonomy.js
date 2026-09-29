@@ -99,6 +99,34 @@ export const SLUG_PROVEEDOR_A_CATEGORIA = {
  * real: con el orden equivocado, 15 notebooks; con este orden, 149.
  */
 const REGLAS = [
+    // --- agregadas el 2026-09-29, del barrido de intrusos por categoria ---
+    //
+    // Se agrupan por el TIPO que el proveedor declara al abrir el titulo. Cada
+    // una corrige productos que estaban publicados en el rubro equivocado y
+    // que ningun filtro reportaba: los filtros devolvian productos, solo que
+    // no eran los que el cliente buscaba.
+
+    // Un NVR graba camaras; un "CONTROLE DE ACCESO FACIAL" es control de
+    // acceso. Estaban en Almacenamiento y en Smart Home.
+    // Solo NVR. "CAMERA" y el control de acceso NO entran aca: desde el
+    // 2026-09-19 las camaras IP y los controles de acceso viven en Smart Home
+    // por decision propia, y los tests de esa fecha lo defienden.
+    ['camaras-y-seguridad',    /^nvr\b/i],
+    // Un disipador es refrigeracion, aunque sea para un M.2.
+    ['refrigeracion',          /^dissipador\b/i],
+    // "BOLSA MACBOOK" es una funda de transporte publicada en Notebooks.
+    // Sin ancla porque el titulo abre con la marca: "WIWU BOLSA MACBOOK 16"".
+    ['mochilas-y-maletines',   /\bbolsa\b/i],
+    // "ESTOJO" y "CAPA" son fundas: una estaba en Consolas y tres en Tablets.
+    ['peliculas-y-fundas',     /^estojo\b/i],
+    ['soportes-y-bases',       /^plataforma giratoria\b/i],
+    // Un "MONITOR DE TEMPERATURA" no es un monitor de PC, y los Echo de Amazon
+    // estaban repartidos entre Relojes y Parlantes segun el modelo.
+    ['smart-home',             /(\bmonitor de temperatura\b|\balexa\b|\becho (?:dot|spot|show|pop|studio)\b)/i],
+    ['tablets',                /^pencil\b/i],
+    // Las linternas estaban partidas entre UPS y Cables.
+    ['ups-y-energia',          /^lanterna\b/i],
+
     // 1. Accesorios: mencionan dispositivos, tienen que resolverse primero.
     ['peliculas-y-fundas',     /(\b(pelicula|capa para|case para|funda|protetor de tela|protector de pantalla)\b|^capa )/i],
     // "C/Cable" y "S/Cable" son "con cable" y "sin cable": una caracteristica
