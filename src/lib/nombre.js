@@ -300,7 +300,7 @@ function pareceCodigo(token) {
 // Anotaciones internas y palabras que no aportan al nombre. Se comparan
 // contra el token entero: "PRO" es ruido suelto pero parte del nombre en
 // "MP700 PRO", y por eso el ancla ^...$ importa.
-const RUIDO = /^(?:\*\w*|S\/CX|C\/CX|S\/FAN|C\/FAN|S\/COOLER|C\/COOLER|S\/G|S\/VIDEO|S\/VID|C\/VIDEO|S\/FONT|S\/FUENTE|PRE|EUA|OEM|BOX|PULL|CPO|WOF|BIVOLT|ESPANHOL|ESPANOL|INGLES|INGLESA|ENGLISH|PT\/BR|ESP|GLOBAL|RADEON|GEFORCE|INTEL\/AMD|AMD\/INTEL|C\/CONTROLE|C\/CABO|UNIDAD|UNIDADES|PCS|CARTELA|220V|110V|2280|IMP|COP|SCA|HW|UND)$/i;
+const RUIDO = /^(?:\*\w*|S\/CX|C\/CX|S\/FAN|C\/FAN|S\/COOLER|C\/COOLER|S\/G|S\/VIDEO|S\/VID|C\/VIDEO|S\/FONT|S\/FUENTE|PRE|EUA|OEM|BOX|PULL|CPO|WOF|BIVOLT|ESPANHOL|ESPANOL|INGLES|INGLESA|ENGLISH|PT\/BR|ESP|GLOBAL|RADEON|GEFORCE|INTEL\/AMD|AMD\/INTEL|C\/CONTROLE|C\/CABO|UNIDAD|UNIDADES|PCS|CARTELA|220V|110V|2280|IMP|COP|SCA|HW|UND|DESKTOP)$/i;
 
 // El mismo color llega escrito de tres formas en un mismo titulo ("BLK BLACK",
 // "WHI 7.1 WHITE/GRAY"). Se borran todas y se agrega una sola vez, en español.
@@ -540,6 +540,7 @@ const NOMBRADORES = {
 const TIPO_SE_CONSERVA = new Set([
     'refrigeracion', 'redes-y-conectividad', 'adaptadores-y-cables',
     'ups-y-energia', 'smart-home', 'impresoras', 'soportes-y-bases',
+    'almacenamiento-ssd',
     'peliculas-y-fundas'
 ]);
 
@@ -563,8 +564,16 @@ const TRADUCCION_DE_TIPO = [
     [/^CAPA\b/i, 'Funda'],
     [/^CABO\b/i, 'Cable'],
     [/^ADAPTADOR\b/i, 'Adaptador'],
+    // "HUB SWITCH" es un switch: el proveedor antepone HUB a los dos tipos y
+    // el nombre salia "Hub Tp-link 10P 8P Giga Poe+ Desktop", que no dice que
+    // es. Va antes que "^HUB" a secas, que sigue valiendo para los hubs USB.
+    [/^HUB\s+SWITCH\b/i, 'Switch'],
     [/^HUB\b/i, 'Hub'],
-    [/^UPS\b/i, 'UPS']
+    [/^UPS\b/i, 'UPS'],
+    [/^VENTILADOR\b/i, 'Ventilador'],
+    // Un NAS vive en Almacenamiento desde el 2026-09-29 y ahi, sin el tipo,
+    // "Asustor FS6712X 4GB" a seis millones se lee como si fuera un SSD.
+    [/^SERVIDOR\s+NAS(?:\s+STORAGE)?\b/i, 'NAS']
 ];
 
 // "AURICULAR" esta junto a "FONE" porque desde el 2026-09-19 la traduccion

@@ -176,3 +176,32 @@ test('ningun nombre publicado abre con la marca del procesador', () => {
         .map((p) => `${p.category}: ${nombres.get(p)}`);
     assert.deepEqual(rotos, []);
 });
+
+test('el nombre dice que es el producto, no como lo abrevia el proveedor', () => {
+    // Los tres los encontro dylan publicados el 2026-09-29.
+    // "HUB SWITCH" es un switch: el nombre decia "Hub ... Desktop" y no habia
+    // forma de saber que era.
+    const sw = nombreDeProducto('HUB SWITCH TP-LINK 10P TL-SG1210MP 8P Gigabit PoE+ DESKTOP', 'redes-y-conectividad');
+    assert.ok(/^Switch\b/.test(sw), sw);
+    assert.ok(!/desktop/i.test(sw), sw);
+    assert.ok(!/Giga Poe/i.test(sw), sw);
+
+    // Un NAS en Almacenamiento sin la palabra "NAS" se lee como un SSD.
+    const nas = nombreDeProducto('SERVIDOR NAS ASUSTOR FS6712X QC2.0/12BAY/4GB/GBLAN', 'almacenamiento-ssd');
+    assert.ok(/^NAS\b/.test(nas), nas);
+    assert.ok(/Asustor/i.test(nas), nas);
+
+    const vent = nombreDeProducto('VENTILADOR XIAOMI SMART DESKTOP AIR CIRCULATION WHITE 9872EU', 'smart-home');
+    assert.ok(/^Ventilador\b/.test(vent), vent);
+    assert.ok(!/desktop/i.test(vent), vent);
+});
+
+test('conservar el tipo en Almacenamiento no toca a los discos normales', () => {
+    // El cambio se hizo por los NAS; un SSD o un HD no llevan prefijo de tipo.
+    const ssd = nombreDeProducto('SSD 1TB KINGSTON NV3 M.2 NVME PCIE 4.0 SNV3S/1000G', 'almacenamiento-ssd');
+    assert.ok(/Kingston/i.test(ssd), ssd);
+    assert.ok(!/^(Almacenamiento|NAS)\b/.test(ssd), ssd);
+    const hd = nombreDeProducto('HD 2TB SEAGATE BARRACUDA ST2000DM008 7200RPM', 'almacenamiento-ssd');
+    assert.ok(/Seagate/i.test(hd), hd);
+    assert.ok(!/^(Almacenamiento|NAS)\b/.test(hd), hd);
+});

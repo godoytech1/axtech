@@ -176,6 +176,10 @@ const TRADUCCIONES = [
     [/\bapoio\b/gi, 'Apoyo'],
     // Quedaban publicados en portugues: "Cable SATA3 Dados 1 Unidade",
     // "Pila Toshiba Alkalina Unidade", "Sony Unidade de Disco Playstation 5".
+    // "GIGA POE+" son dos siglas de red, no una palabra: el nombre publicado
+    // decia "Giga Poe+", que no es como se escribe ninguna de las dos.
+    [/\bGIGA\s+POE\s*\+/gi, 'Gigabit PoE+'],
+    [/\bPOE\s*\+/gi, 'PoE+'],
     [/\bunidades?\b/gi, 'Unidad'],
     [/\bpe[cç]as?\b/gi, 'Pieza'],
     [/\bdados\b/gi, 'Datos'],
