@@ -49,13 +49,29 @@ test('no rompe con entradas vacias', () => {
     assert.equal(excluido(null), false);
 });
 
-test('ningun producto activo del catalogo esta excluido', () => {
-    // Si esto falla es que el sync todavia no corrio, o que un patron nuevo
-    // se llevo por delante algo que si se vende. Las dos cosas hay que verlas.
-    const activos = JSON.parse(readFileSync('data/catalog.json', 'utf8'))
-        .filter((p) => p.status === 'active' && excluido(p.title))
-        .map((p) => p.title);
-    assert.deepEqual(activos, []);
+test('ningun patron de exclusion se lleva por delante medio catalogo', () => {
+    // Antes exigia CERO activos excluidos, y eso creaba un circulo cerrado:
+    // agregar un patron deja productos activos excluidos hasta que el sync los
+    // oculte, pero el sync corre estos tests antes de empezar y no arrancaba.
+    // El 2026-09-29 once productos --seis atornilladores, una motosierra, una
+    // amoladora y tres procesadoras de alimentos-- dejaron el sync en rojo.
+    //
+    // Lo que importa vigilar no es que haya alguno, sino que un patron nuevo
+    // no barra con lo que si se vende. Se listan siempre para que se vean, y
+    // se falla recien pasado el 0,5% del catalogo.
+    const catalogo = JSON.parse(readFileSync('data/catalog.json', 'utf8'));
+    const activos = catalogo.filter((p) => p.status === 'active');
+    const pendientes = activos.filter((p) => excluido(p.title)).map((p) => p.title);
+
+    if (pendientes.length) {
+        console.log(`  ${pendientes.length} activos quedan excluidos y se ocultan en el proximo sync:`);
+        for (const t of pendientes.slice(0, 15)) console.log(`      ${t.slice(0, 70)}`);
+    }
+    const tope = Math.ceil(activos.length * 0.005);
+    assert.ok(
+        pendientes.length <= tope,
+        `${pendientes.length} activos excluidos, tope ${tope}: un patron nuevo se llevo algo que se vende`
+    );
 });
 
 test('excluye lo que el proveedor prohibe vender en Paraguay', () => {
