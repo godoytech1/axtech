@@ -2,6 +2,29 @@ import { formatearGs } from './formato.js';
 import { rutaPublica } from './imagenes.js';
 import { extraerSpecs } from './specs.js';
 import { repararMojibake, traducir } from './normalize.js';
+import { MARCAS, CATEGORIAS } from './taxonomy.js';
+
+/**
+ * Lo que la migracion del 2026-08-15 guardo como "spec" y no lo es.
+ *
+ * En 958 entradas la spec era la marca del producto o el nombre de su propia
+ * categoria, y la ficha las mostraba como si fueran una caracteristica: un
+ * switch TP-Link declaraba "GENERIC" y "Perifericos", y 467 productos tenian
+ * una linea que decia solo "GENERIC".
+ *
+ * Se descarta unicamente cuando la spec ES exactamente eso. "Compatible con
+ * Intel LGA1700" dice algo del producto y se conserva.
+ */
+const NO_ES_SPEC = new Set(
+    [
+        ...MARCAS, 'GENERIC',
+        ...CATEGORIAS.map((c) => c.nombre),
+        // Nombres de las categorias VIEJAS del proveedor, de antes de la
+        // taxonomia propia. "Perifericos" aparecia 675 veces.
+        'Periféricos', 'Perifericos', 'Almacenamiento (SSD)', 'Componentes',
+        'Accesorios', 'Notebooks y PCs', 'Redes', 'Otros'
+    ].map((s) => s.toUpperCase())
+);
 
 /**
  * Cuantas especificaciones muestra una ficha como maximo.
@@ -93,7 +116,9 @@ function especificaciones(registro) {
     // Se normalizan al publicar, no en el dato: el catalogo conserva lo que
     // mando el proveedor.
     const guardadas = Array.isArray(registro.specs)
-        ? registro.specs.map((s) => traducir(repararMojibake(s)))
+        ? registro.specs
+            .map((s) => traducir(repararMojibake(s)))
+            .filter((s) => !NO_ES_SPEC.has(String(s).toUpperCase().trim()))
         : [];
 
     const salida = derivadas.map(({ etiqueta, valor }) => `${etiqueta}: ${valor}`);

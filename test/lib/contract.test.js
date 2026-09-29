@@ -138,3 +138,21 @@ test('ningun producto del catalogo lleva la garantia en el nombre', () => {
         .map((p) => p.title);
     assert.deepEqual(conGarantia, []);
 });
+
+test('la ficha no publica la marca ni la categoria como si fueran una spec', () => {
+    // La migracion del 2026-08-15 guardo 958 entradas asi: 467 productos
+    // tenian una linea que decia solo "GENERIC", y un switch TP-Link
+    // declaraba "GENERIC" y "Perifericos" entre sus caracteristicas.
+    const p = {
+        id: 1, slug: 'x', title: 'HUB SWITCH TP-LINK 10P TL-SG1210MP 8P GIGA POE+',
+        brand: 'TP-LINK', category: 'redes-y-conectividad', price: 500000,
+        status: 'active', specs: ['GENERIC', 'Periféricos', 'TP-LINK', 'Gabinetes', 'Compatible con Intel LGA1700']
+    };
+    const pub = aPublicoLegado(p, { idsSinImagen: new Set(), nombre: 'Switch TP-Link TL-SG1210MP' });
+    const specs = pub.specs || [];
+    assert.ok(!specs.some((s) => /^GENERIC$/i.test(s)), specs.join(' | '));
+    assert.ok(!specs.some((s) => /^Periféricos$/i.test(s)), specs.join(' | '));
+    assert.ok(!specs.some((s) => /^Gabinetes$/i.test(s)), specs.join(' | '));
+    // Lo que si dice algo del producto se conserva.
+    assert.ok(specs.some((s) => /LGA1700/i.test(s)), specs.join(' | '));
+});
