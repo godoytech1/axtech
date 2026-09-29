@@ -31744,11 +31744,9 @@
     "title": "VENTILADOR INDUSTRIAL LEVEL LVC-201 DE PIE 220V G* 30\"",
     "brand": "GENERIC",
     "category": "refrigeracion",
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-29",
-    "specs": [],
-    "price": 670000,
     "sinGarantia": false
   },
   {
@@ -31770,11 +31768,9 @@
     "title": "VENTILADOR INDUSTRIAL LEVEL LVC-200 DE PIE 220V 26\"",
     "brand": "GENERIC",
     "category": "refrigeracion",
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-29",
-    "specs": [],
-    "price": 555000,
     "sinGarantia": false
   },
   {
@@ -31882,11 +31878,9 @@
     "title": "VENTILADOR COBY CY-TF-AB-TORRE 39INCH-WH LED 3V 40W 110V/WHITE",
     "brand": "GENERIC",
     "category": "refrigeracion",
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-29",
-    "specs": [],
-    "price": 396000,
     "sinGarantia": false
   },
   {
@@ -31896,11 +31890,9 @@
     "title": "VENTILADOR COBY CY-TF-AB-TORRE 39INCH-WH22 LED 3V 40W WHITE",
     "brand": "GENERIC",
     "category": "refrigeracion",
-    "status": "active",
+    "status": "hidden",
     "firstSeen": "2026-08-15",
     "lastSeen": "2026-09-29",
-    "specs": [],
-    "price": 396000,
     "sinGarantia": false
   },
   {
@@ -92033,7 +92025,7 @@
     "slug": "ventilador-xiaomi-mi-smart-standing-fan-2-blanco-bplds02dm-b-24521",
     "title": "VENTILADOR XIAOMI MI SMART STANDING FAN 2 Blanco BPLDS02DM BHR4828GL",
     "brand": "XIAOMI",
-    "category": "refrigeracion",
+    "category": "smart-home",
     "specs": [],
     "price": 464000,
     "sinGarantia": false,
@@ -92047,7 +92039,7 @@
     "slug": "ventilador-xiaomi-mi-smart-standing-fan-2-lite-white-pyv4007-24522",
     "title": "VENTILADOR XIAOMI MI SMART STANDING FAN 2 LITE WHITE PYV4007GL",
     "brand": "XIAOMI",
-    "category": "refrigeracion",
+    "category": "smart-home",
     "specs": [],
     "price": 359000,
     "sinGarantia": false,
