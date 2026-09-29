@@ -174,6 +174,11 @@ const TRADUCCIONES = [
     [/\bfone\b/gi, 'Auricular'],
     [/\bbot[aã]o\b/gi, 'Botón'],
     [/\bapoio\b/gi, 'Apoyo'],
+    // Quedaban publicados en portugues: "Cable SATA3 Dados 1 Unidade",
+    // "Pila Toshiba Alkalina Unidade", "Sony Unidade de Disco Playstation 5".
+    [/\bunidades?\b/gi, 'Unidad'],
+    [/\bpe[cç]as?\b/gi, 'Pieza'],
+    [/\bdados\b/gi, 'Datos'],
     [/\bajustavel\b/gi, 'Ajustable'],
     [/\bregulavel\b/gi, 'Regulable'],
     [/\bport[aá]til\b/gi, 'Portátil'],

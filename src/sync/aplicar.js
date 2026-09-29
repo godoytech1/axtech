@@ -117,9 +117,21 @@ export function aplicarLista({ catalogo, lista, hoy, config, ultimoId }) {
         existente.title = titulo;
         existente.slug = slugDeProducto(titulo, existente.id);
         existente.category = categoria;
-        if (!existente.brand || existente.brand === 'GENERIC') {
-            existente.brand = detectarMarca(titulo) || 'GENERIC';
-        }
+        // La marca se recalcula en cada corrida, igual que la categoria.
+        //
+        // Hasta el 2026-09-29 solo se recalculaba si estaba vacia o en
+        // GENERIC, asi que la que se detecto el dia que el producto entro se
+        // quedaba para siempre: agregar una marca a MARCAS o corregir el
+        // detector no arreglaba nada de lo ya catalogado. Habia 186 productos
+        // con la marca de otra empresa --doce NAS Asustor publicados como
+        // ASUS, siete mini PCs GMKtec como INTEL o AMD, doce fuentes Gamdias
+        // como AMD-- y ninguno se iba a corregir solo.
+        //
+        // Si el detector no reconoce nada se conserva lo que habia: el titulo
+        // puede no nombrar la marca y aun asi estar bien cargada.
+        const marcaDetectada = detectarMarca(titulo);
+        if (marcaDetectada) existente.brand = marcaDetectada;
+        else if (!existente.brand) existente.brand = 'GENERIC';
         if (!Array.isArray(existente.specs)) existente.specs = [];
         existente.price = precio;
         existente.sinGarantia = noTieneGarantia;

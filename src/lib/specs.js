@@ -17,7 +17,30 @@
  * pareciera un volcado del titulo.
  */
 const EXTRACTORES = [
-    ['Procesador', /\b(i[3579]-\d{4,5}[A-Z]{0,3}|ultra\s?[579]-?\d{3}[A-Z]{0,2}|ryzen\s?[3579]\s?\d{4}[A-Z]{0,3}|r[3579]-\d{3,4}[A-Z]{0,2}|core\s?\d-\d{3}[A-Z]?|athlon-?\w+|celeron\s?\w+|pentium\s?\w+|snapdragon\s?\w+)\b/i],
+    // El procesador es lo primero que mira quien compra un equipo, y 123 de
+    // los 275 equipos del catalogo --el 45%-- lo tenian vacio el 2026-09-29.
+    // El patron anterior exigia guion y cuatro digitos, y el proveedor escribe
+    // de seis formas distintas segun el rubro:
+    //
+    //   PC UP GAMER TITAN R5 5600X/...     espacio en vez de guion
+    //   PC UP GAMER LIGHT I3 3220/...      idem, y tres digitos
+    //   NB ASUS ... I7-1165G7/...          sufijo con letra Y digito
+    //   NB DUB ... INTEL N95/...           serie N, sin "i"
+    //   NB ACER ... I3-N350/...            serie N detras de la familia
+    //   APPLE MACBOOK AIR M5 16/1TB        Apple Silicon
+    //
+    // Se normaliza a guion para que dos equipos con el mismo procesador no se
+    // lean distinto segun como lo escribio el proveedor ese dia.
+    ['Procesador', /\b(ultra\s?[579])[-\s]?(\d{3}[A-Z]{0,3})\b/i, (m) => `Core ${m[1].replace(/\s+/g, ' ')}-${m[2]}`.toUpperCase()],
+    ['Procesador', /\b(i[3579])[-\s]?(N?\d{3,5}[A-Z]{0,2}\d?[A-Z]{0,2})\b/i, (m) => `${m[1]}-${m[2]}`.toUpperCase()],
+    ['Procesador', /\bintel[-\s]?(N\d{2,3})\b/i, (m) => `Intel ${m[1]}`.toUpperCase()],
+    ['Procesador', /\b(ryzen\s?[3579])\s?(\d{3,4}[A-Z]{0,3})\b/i, (m) => `${m[1].replace(/\s+/g, ' ')} ${m[2]}`.toUpperCase()],
+    // "R7-PRO-6850H": GMKtec mete la linea PRO entre la familia y el modelo.
+    ['Procesador', /\b(r[3579])[-\s](?:pro[-\s])?(\d{2,4}[A-Z]{0,3})\b/i, (m) => `${m[1]}-${m[2]}`.toUpperCase()],
+    // Apple Silicon solo en contexto Apple: "M5" suelto es un modelo de
+    // cualquier cosa --una fuente, un gabinete-- en el resto del catalogo.
+    ['Procesador', /\bmac(?:book)?\b[^,]{0,40}?\b(M[1-5]\s?(?:PRO|MAX|ULTRA)?)\b/i, (m) => `Apple ${m[1].replace(/\s+/g, ' ')}`.toUpperCase()],
+    ['Procesador', /\b(core\s?\d-\d{3}[A-Z]?|athlon-?\w+|celeron\s?\w+|pentium\s?\w+|snapdragon\s?\w+)\b/i],
 
     // Patron tipico de notebook: CPU/RAM/ALMACENAMIENTO/PANTALLA/SO
     ['Memoria RAM', /\/(\d{1,3})\s?GB?\//i, (m) => `${m[1]} GB`],

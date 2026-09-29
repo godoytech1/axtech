@@ -139,3 +139,40 @@ test('lo que el sitio filtra sigue estando en el nombre', () => {
     assert.ok(conservan >= conMedida.length * 0.9,
         `solo ${conservan} de ${conMedida.length} televisores conservan las pulgadas que el titulo declaraba`);
 });
+
+test('una PC de escritorio se nombra como una notebook: marca, modelo y lo que define la compra', () => {
+    // No habia nombrador para el rubro y caian en el generico, que publica lo
+    // que sobreviva a la limpieza: un Mini PC GMKtec NucBox M3 salia llamandose
+    // "Intel 12TH W11 Pro/eu".
+    assert.equal(
+        nombreDeProducto('MINI PC GMKTEC NUCBOX M3 INTEL 12TH I5-16/512/W11 W11 PRO/EU I5-12450H', 'pcs-de-escritorio'),
+        'Gmktec Nucbox M3 Core i5-12450H 512GB'
+    );
+    const up = nombreDeProducto('PC UP GAMER TITAN R5 5600X/16GB/1TB NVME/RX7600 550W -4FAN RGB', 'pcs-de-escritorio');
+    assert.ok(/UP Gamer/.test(up), up);
+    assert.ok(/Ryzen 5 5600X/.test(up), up);
+    assert.ok(/1TB/.test(up), up);
+});
+
+test('el nombre no arrastra la lista de caracteristicas del proveedor', () => {
+    // 115 nombres publicaban el bloque entero: "FTX-702WH Vidrio/tem/atx/matx".
+    // Se borra el token con dos barras o mas; con una sola es informacion util.
+    const n = nombreDeProducto('GABINETE FTX FTX-702WH VIDRIO/TEM/ATX/MATX Blanco', 'gabinetes');
+    assert.ok(!/\w+\/\w+\/\w+/.test(n), n);
+    assert.ok(/FTX-702WH/.test(n), n);
+});
+
+test('ningun nombre publicado abre con la marca del procesador', () => {
+    // Recorre el catalogo entero. Diez equipos abrian diciendo "Intel ...":
+    // el fabricante del chip, no el de la computadora. En procesadores y
+    // placas de video si es correcto, porque ahi Intel o AMD ES la marca.
+    const COMPONENTE = new Set(['procesadores', 'tarjetas-de-video', 'placas-madre', 'memorias-ram']);
+    const cat = JSON.parse(readFileSync('data/catalog.json', 'utf8')).filter((p) => p.status === 'active');
+    const nombres = nombrarCatalogo(cat);
+    const rotos = cat
+        .filter((p) => !COMPONENTE.has(p.category))
+        .filter((p) => /^(intel|amd|nvidia)\b/i.test(nombres.get(p) || ''))
+        .filter((p) => !/\bNUC\d/i.test(p.title))   // las NUC de Intel si son Intel
+        .map((p) => `${p.category}: ${nombres.get(p)}`);
+    assert.deepEqual(rotos, []);
+});

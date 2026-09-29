@@ -84,3 +84,32 @@ test('tolera entrada no textual', () => {
     assert.deepEqual(extraerSpecs(''), []);
     assert.deepEqual(extraerSpecs(42), []);
 });
+
+test('el procesador se detecta en los seis formatos que usa el proveedor', () => {
+    // 123 de los 275 equipos --el 45%-- publicaban la ficha sin procesador,
+    // que es lo primero que mira quien compra una computadora. El patron
+    // exigia guion y cuatro digitos; el proveedor escribe de seis maneras.
+    const cpu = (t, c = 'notebooks') =>
+        extraerSpecs(t, c).find((s) => s.etiqueta === 'Procesador')?.valor;
+
+    assert.equal(cpu('PC UP GAMER TITAN R5 5600X/16GB/1TB NVME/RX7600', 'pcs-de-escritorio'), 'R5-5600X');
+    assert.equal(cpu('PC UP GAMER LIGHT I3 3220/8GB/240SSD/230W', 'pcs-de-escritorio'), 'I3-3220');
+    assert.equal(cpu('NB ASUS X515EA-BQ1002T I7-1165G7/8GB/256/15.6/W11'), 'I7-1165G7');
+    assert.equal(cpu('NB DUB DBN2S360 INTEL N95/16GB/256/14/TCH/W11/GREY'), 'INTEL N95');
+    assert.equal(cpu('NB ACER AL15-36P-32XP I3-N350/8GB/128GB/15.6/W11'), 'I3-N350');
+    assert.ok(/M5/.test(cpu('APPLE MACBOOK AIR M5 16/1TB 13.6"') || ''));
+});
+
+test('el procesador no se confunde con la memoria que viene pegada', () => {
+    // "I5-16/512" es un i5 con 16 GB, no un "i5-16": el modelo real esta mas
+    // adelante en el mismo titulo.
+    const t = 'MINI PC GMKTEC NUCBOX M3 INTEL 12TH I5-16/512/W11 W11 PRO/EU I5-12450H';
+    assert.equal(extraerSpecs(t, 'pcs-de-escritorio').find((s) => s.etiqueta === 'Procesador').valor, 'I5-12450H');
+});
+
+test('"M5" solo es un procesador Apple en un producto Apple', () => {
+    // Suelto es el modelo de cualquier cosa: una fuente, un gabinete.
+    const cpu = (t, c) => extraerSpecs(t, c).find((s) => s.etiqueta === 'Procesador');
+    assert.ok(!cpu('GABINETE GAMEMAX M5 MATX Negro', 'gabinetes'));
+    assert.ok(cpu('APPLE MACBOOK PRO M5MAX 48/2TB 16.2"', 'notebooks'));
+});

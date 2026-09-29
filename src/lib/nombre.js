@@ -88,6 +88,16 @@ function depurarBarras(token) {
 
 function limpiar(texto) {
     return texto
+        // El proveedor amontona las caracteristicas separadas por barra y el
+        // bloque entero se colaba al nombre publicado:
+        //
+        //   "FTX FTX-702WH Vidrio/tem/atx/matx Blanco"
+        //   "Impresora 3NSTAR RPT006S Usb/red/serial"
+        //
+        // Eran 115 productos. Se borra el token cuando trae DOS barras o mas,
+        // que es lo que delata la lista: "RTX 5070 TI 12GB/16" tiene una sola
+        // y es informacion que el cliente usa.
+        .replace(/\s*\b[\w.]+(?:\/[\w.]+){2,}\b\s*/g, ' ')
         .replace(/\s*[\/,;:*+-]+\s*$/g, '')
         .replace(/\s{2,}/g, ' ')
         // "con-Cooler" viaja pegado para que presentar() no lo grite como
@@ -190,8 +200,13 @@ function modeloDeCpu(t) {
     if ((m = t.match(/\bRYZEN\s+R?([3579])\s+(\w+)\b/i))) return `Ryzen ${m[1]} ${m[2].toUpperCase()}`;
     if ((m = t.match(/\bULTRA\s?([579])[\s-]?(\w+)\b/i))) return `Core Ultra ${m[1]} ${m[2].toUpperCase()}`;
     // Las notebooks abrevian el Ryzen como "R5-7520U", sin la palabra RYZEN.
-    if ((m = t.match(/\bR([3579])-(\d{4}[A-Z]{0,2})\b/i))) return `Ryzen ${m[1]} ${m[2].toUpperCase()}`;
-    if ((m = t.match(/\bI([3579])[\s-](\w+)\b/i))) return `Core i${m[1]}-${m[2].toUpperCase()}`;
+    // Las PCs armadas lo escriben con espacio --"TITAN R5 5600X"-- y asi el
+    // procesador no entraba ni en el nombre ni en la ficha.
+    if ((m = t.match(/\bR([3579])[\s-](?:PRO[\s-])?(\d{3,4}[A-Z]{0,3})\b/i))) return `Ryzen ${m[1]} ${m[2].toUpperCase()}`;
+    // Tres digitos como minimo: con `\w+` se quedaba con el primer trozo que
+    // encontrara y "I5-16/512" --que es i5 con 16 GB-- daba "Core i5-16",
+    // tapando al "I5-12450H" que el mismo titulo trae mas adelante.
+    if ((m = t.match(/\bI([3579])[\s-](N?\d{3,5}[A-Z]{0,2}\d?[A-Z]{0,2})\b/i))) return `Core i${m[1]}-${m[2].toUpperCase()}`;
     if ((m = t.match(/\bATHLON\s+(\w+)\b/i))) return `Athlon ${m[1].toUpperCase()}`;
     if ((m = t.match(/\b(CELERON|PENTIUM)\s+(\w+)\b/i))) return `${cap(m[1])} ${m[2].toUpperCase()}`;
     return '';
@@ -416,6 +431,43 @@ const NOMBRADORES = {
         const cola = i >= 0 ? t.slice(i + marca.length).trim() : t;
         const modelo = cola.split(/\s+/).filter((w) => !RUIDO.test(w) && !pareceCodigo(w) && !/^\d{3,4}W$/i.test(w)).slice(0, 2).join(' ');
         return unir(marca, modelo, watts(t), certificacion(t));
+    },
+
+    // Las PCs armadas y los mini PC no tenian nombrador propio y caian en el
+    // generico, que publica las palabras que sobrevivan a la limpieza. Salian
+    // nombres que no dicen que es el producto:
+    //
+    //   "Intel 12TH W11 Pro/eu"   era un Mini PC GMKtec NucBox M3
+    //   "Gmktec Nucbox M6 W11 Pro/eu"  arrastraba el sufijo de region
+    //
+    // El formato del proveedor es [TIPO] [MARCA] [LINEA] [CPU]/[RAM]/[DISCO],
+    // el mismo de las notebooks, asi que se arma igual: marca, modelo, y las
+    // cuatro cosas que deciden la compra de una computadora.
+    'pcs-de-escritorio': (t, marca) => {
+        const i = marca ? t.toUpperCase().indexOf(marca.toUpperCase()) : -1;
+        const cola = i >= 0 ? t.slice(i + marca.length).trim() : t;
+
+        // El modelo es lo que va entre la marca y la primera especificacion.
+        // Se corta al llegar a una: el proveedor las pega al modelo sin coma
+        // y sin ellas el nombre se queda con "Intel 12TH" de modelo.
+        const ES_SPEC = /(\d+\s*[GT]B|\/|^(?:i[3579]|r[3579]|ryzen|ultra|intel|amd|celeron|pentium|athlon|w1[01]|\d+th)$)/i;
+        const modelo = [];
+        for (const palabra of cola.split(/\s+/)) {
+            if (!palabra || ES_SPEC.test(palabra)) break;
+            modelo.push(palabra);
+            if (modelo.length === 3) break;
+        }
+
+        const ram = (t.match(/\/(\d{1,3})\s?GB?\//i) || t.match(/\b(\d{1,3})\s?GB\s?(?:DDR[45]|RAM)\b/i) || [])[1];
+        // Sin el "GB" opcional el disco se perdia: en "I5/8GB/256GB" no hay
+        // borde de palabra entre el numero y la unidad, y 256 no se leia.
+        const disco = (t.match(/\/(\d{3,4}\s?GB)\b/i) || t.match(/\/([1-9]\s?TB)\b/i)
+            || t.match(/\/(\d{3,4}|[1-9]\s?TB)\//i) || [])[1];
+        return unir(
+            marca, modelo.join(' '), modeloDeCpu(t), gpuCorta(t),
+            ram ? `${ram}GB` : '',
+            disco ? disco.toUpperCase().replace(/\s+/g, '').replace(/^(\d+)$/, '$1GB') : ''
+        );
     },
 
     'notebooks': (t, marca) => {

@@ -128,6 +128,20 @@ const REGLAS = [
     ['mochilas-y-maletines',   /(\b(mochila|maleta|maletin|bolso|morral)\b|\bcase p\/?\s*nb\b)/i],
     ['impresion-3d',           /(\b(impresora 3d|impressora 3d|filamento|resina p\/?\s*impr)\b|\bfilamento (?:pla|abs|petg)\b)/i],
 
+    // Un ventilador de ambiente no es refrigeracion de PC. Los dos que hay son
+    // Xiaomi Smart y van con el resto de los aparatos conectados del hogar,
+    // donde ya conviven enchufes, botones Zigbee y motores de cortina.
+    // "AIR CIRCULATION" es el nombre de linea, no una palabra suelta: no toca
+    // a ningun cooler.
+    ['smart-home',             /\bair circulation\b/i],
+
+    // Un NAS es una caja de discos con red, no una PC de escritorio. Los doce
+    // del catalogo --Asustor y Synology-- se publicaban en PCs de Escritorio
+    // porque su titulo empieza con "SERVIDOR", y ahi eran lo primero que veia
+    // quien entraba a comprar una computadora. Va antes que la regla de PCs,
+    // que conserva "servidor" para un servidor de verdad.
+    ['almacenamiento-ssd',     /\b(servidor nas|nas storage|diskstation)\b/i],
+
     // 2. Dispositivos completos: le ganan a los componentes que mencionan.
     // "NB ..." es la abreviatura del proveedor para notebook: 150 productos,
     // y son los de mayor valor del catalogo (hasta US$ 3.300).
@@ -137,7 +151,17 @@ const REGLAS = [
     // dos terminaron publicadas en Procesadores.
     // "Fuente P/ NUC" es una fuente, no una PC. Nombrar el equipo al que sirve
     // un accesorio no lo convierte en ese equipo.
-    ['pcs-de-escritorio',      /(?<!p\/|para |p\/ )(\b(desktop|pc gamer|computador completo|all in one|mac ?pro|mac ?mini|mac ?studio|mini ?pc|nuc|servidor|barebone)\b|^pc )/i],
+    // "DESKTOP" salio de la lista el 2026-09-29. La palabra la usa el
+    // proveedor como ADJETIVO --"de mesa"-- y no como tipo de producto:
+    //
+    //   HUB SWITCH TP-LINK 10P TL-SG1210MP 8P GIGA POE+ DESKTOP
+    //   VENTILADOR XIAOMI SMART DESKTOP AIR CIRCULATION WHITE
+    //
+    // Los tres productos del catalogo que la traian estaban mal clasificados
+    // y ninguno dependia de ella para caer bien: un switch de red y dos
+    // ventiladores de ambiente publicados como PCs de escritorio. El tipo real
+    // ya lo declara el inicio del titulo.
+    ['pcs-de-escritorio',      /(?<!p\/|para |p\/ )(\b(pc gamer|computador completo|all in one|mac ?pro|mac ?mini|mac ?studio|mini ?pc|nuc|servidor|barebone)\b|^pc )/i],
     ['tablets',                /\b(tablet|ipad)\b/i],
     // "P/SMARTPHONE" describe para que sirve el accesorio, no que sea uno: el
     // microfono DJI MIC quedaba catalogado como telefono.
@@ -376,13 +400,42 @@ export const MARCAS = [
     'PALIT', 'GALAX', 'XIAOMI', 'SONNOFF', 'SONOFF', 'LENOVO', 'ADATA',
     'RAZER', 'APPLE', 'INTEL', 'NVIDIA', 'K-MEX', 'TEROS', 'KOLKE', 'MOZA',
     'HYTE', 'NZXT', 'AIGO', 'AZZA', 'BENQ', 'DAHUA', 'DELL', 'ACER', 'ASUS',
-    'AMD', 'MSI', 'XFX', 'JVC', 'TCL', 'AOC', 'JBL', 'SONY', 'HP', 'LG', 'MTEK'
+    'AMD', 'MSI', 'XFX', 'JVC', 'TCL', 'AOC', 'JBL', 'SONY', 'HP', 'LG', 'MTEK',
+
+    // Agregadas el 2026-09-29, a partir de los productos que el catalogo tenia
+    // con una marca que el detector de hoy ya no encuentra. Cada una estaba
+    // publicando el nombre de otra empresa:
+    //
+    //   SERVIDOR NAS ASUSTOR ...      -> decia ASUS (es su subsidiaria, pero
+    //                                    es otra marca y otro producto)
+    //   MINI PC GMKTEC NUCBOX M3 ...  -> decia INTEL, que es el procesador
+    //   MINI PC KAMRUI ...            -> decia AMD, idem
+    //   Reloj AMAZFIT / MIBRO / IMILAB-> decia XIAOMI
+    //   Pila PANASONIC SUPER HYTER    -> decia HYTE
+    //   IMP TERMICA 3NSTAR / STARLINK -> decia STAR
+    //
+    // ASUSTOR y 3NSTAR ganan a ASUS y STAR sin tocar el orden: empiezan en la
+    // misma posicion y el desempate es por longitud.
+    'ASUSTOR', 'GMKTEC', 'KAMRUI', 'AMAZFIT', 'PANASONIC', '3NSTAR',
+    'STARLINK', 'NEXXT', 'ELGIN', 'MIBRO', 'IMILAB', 'ACEFAST', 'HAYLOU',
+    'GARMIN', 'HYE', 'SYNOLOGY',
+    // Fabricantes de mini PC y notebooks economicas. Sin ellos el equipo se
+    // publicaba con el nombre del procesador: diez productos abrian diciendo
+    // "Intel ..." con el modelo del chip de modelo propio.
+    'BEELINK', 'AUDISAT', 'JOOG', 'DUB'
 ];
 
 const ALIAS_DE_MARCA = {
     LOGI: 'LOGITECH',
     WD: 'WESTERN DIGITAL',
-    TPLINK: 'TP-LINK'
+    TPLINK: 'TP-LINK',
+    // El proveedor escribe la marca abreviada o incompleta:
+    //   "TEC ATTACK MAGNETICO X82 PRO"  -> Attack Shark, sin el "Shark"
+    //   "UI. NANOSTATION5 AIRMAX NS5"   -> Ubiquiti, abreviada con punto
+    //   "UNIDADE DE DISCO PLAYSTATION 5"-> es un accesorio Sony
+    ATTACK: 'ATTACK SHARK',
+    UI: 'UBIQUITI',
+    PLAYSTATION: 'SONY'
 };
 
 // De la marca mas larga a la mas corta, para que "COOLER MASTER" no se

@@ -403,3 +403,71 @@ test('la categoria de fundas conserva su id aunque cambie el nombre', () => {
     assert.ok(c, 'el id tiene que seguir existiendo');
     assert.equal(c.nombre, 'Fundas');
 });
+
+// --------------------------------------------------------------------------
+// Errores que dylan encontro publicados el 2026-09-29
+// --------------------------------------------------------------------------
+
+test('"DESKTOP" es un adjetivo del proveedor, no una PC de escritorio', () => {
+    // Los tres productos del catalogo que traian la palabra estaban mal: un
+    // switch de red y dos ventiladores de ambiente publicados en PCs de
+    // Escritorio, y eran lo primero que veia quien entraba a comprar una
+    // computadora. Ninguno dependia de "desktop" para clasificar bien.
+    assert.equal(
+        clasificar({ titulo: 'HUB SWITCH TP-LINK 10P TL-SG1210MP 8P GIGA POE+ DESKTOP' }),
+        'redes-y-conectividad'
+    );
+    assert.equal(
+        clasificar({ titulo: 'VENTILADOR XIAOMI SMART DESKTOP AIR CIRCULATION WHITE 9872EU' }),
+        'smart-home'
+    );
+});
+
+test('un NAS no es una PC de escritorio', () => {
+    for (const t of [
+        'SERVIDOR NAS ASUSTOR FS6712X QC2.0/12BAY/4GB/GBLAN HDMI/M.2/USB3.2',
+        'SERVIDOR NAS STORAGE SYNOLOGY DISKSTATION DS223J WHITE'
+    ]) {
+        assert.equal(clasificar({ titulo: t }), 'almacenamiento-ssd', t);
+    }
+});
+
+test('una PC de verdad sigue cayendo en PCs de escritorio', () => {
+    for (const t of [
+        'PC UP GAMER TITAN R5 5600X/16GB/1TB NVME/RX7600 550W -4FAN RGB',
+        'MINI PC GMKTEC NUCBOX M3 INTEL 12TH I5-16/512/W11 W11 PRO/EU',
+        'ALL IN ONE DELL OPTIPLEX 7450 I5/8GB/256GB 23.8'
+    ]) {
+        assert.equal(clasificar({ titulo: t }), 'pcs-de-escritorio', t);
+    }
+});
+
+test('un cooler de PC no se va a Smart Home por decir ventilador', () => {
+    assert.equal(clasificar({ titulo: 'COOLER FAN UP GAMER NEVASKA KIT 3X1 ARGB' }), 'refrigeracion');
+    assert.equal(clasificar({ titulo: 'COOLER FAN LIAN LI UNI FAN TL 120 BLK' }), 'refrigeracion');
+});
+
+test('el equipo lleva su marca, no la del procesador que trae adentro', () => {
+    // Doce NAS Asustor se publicaban como ASUS, siete mini PCs GMKtec y Kamrui
+    // como INTEL o AMD, y dos PCs UP Gamer como XFX.
+    const casos = [
+        ['SERVIDOR NAS ASUSTOR FS6712X QC2.0/12BAY/4GB/GBLAN', 'ASUSTOR'],
+        ['MINI PC GMKTEC NUCBOX M3 INTEL 12TH I5-16/512/W11', 'GMKTEC'],
+        ['MINI PC KAMRUI H1 R7-7735HS/24GB/1TB/W11 PRO BLACK', 'KAMRUI'],
+        ['PC UP GAMER TITAN R5 5600X/16GB/1TB NVME/RX7600 550W', 'UP GAMER'],
+        ['MINI PC BEELINK EQ INTEL N150/12GB/500GB/W11 PRO', 'BEELINK'],
+        ['NB DUB DBN2S360 INTEL N95/16GB/256/14/TCH/W11/GREY', 'DUB'],
+        ['Reloj AMAZFIT GTR 3 PRO INFINITE BLACK A2040', 'AMAZFIT'],
+        ['Pila AAA PANASONIC SUPER HYTER - 4 UNIDADES', 'PANASONIC']
+    ];
+    for (const [titulo, esperada] of casos) {
+        assert.equal(detectarMarca(titulo), esperada, titulo);
+    }
+});
+
+test('ASUSTOR le gana a ASUS y 3NSTAR a STAR sin depender del orden', () => {
+    // Las dos empiezan en la misma posicion: el desempate es por longitud.
+    assert.equal(detectarMarca('SERVIDOR NAS ASUSTOR AS5404T'), 'ASUSTOR');
+    assert.equal(detectarMarca('NB ASUS X515EA-BQ1002T I7-1165G7/8GB'), 'ASUS');
+    assert.equal(detectarMarca('IMP TERMICA 3NSTAR LTT422 1D/2D RED/USB Blanco'), '3NSTAR');
+});
