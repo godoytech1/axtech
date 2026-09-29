@@ -112,6 +112,11 @@ const REGLAS = [
     // ... WIFI/2MP/MIC" terminaba en Microfonos por las tres letras del final.
     // Va a Smart Home, que es donde viven las camaras IP desde el 2026-09-19.
     ['smart-home',             /^camera\b/i],
+    // Un ventilador de ambiente no es refrigeracion de PC. Los Xiaomi Smart
+    // van con el resto de los aparatos conectados; los industriales y de torre
+    // se excluyen en exclusiones.js. La palabra "ventilador" sola no alcanza:
+    // tambien la usa el proveedor para los coolers ARGB de gabinete.
+    ['smart-home',             /\bventilador\b.*\b(smart|standing fan)\b/i],
     // Un router es un router aunque su titulo diga "C/ Fuente": nombrar la
     // fuente que trae no lo convierte en una. Caia en Fuentes de Poder.
     ['redes-y-conectividad',   /^router\b/i],

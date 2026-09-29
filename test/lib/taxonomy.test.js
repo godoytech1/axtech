@@ -471,3 +471,12 @@ test('ASUSTOR le gana a ASUS y 3NSTAR a STAR sin depender del orden', () => {
     assert.equal(detectarMarca('NB ASUS X515EA-BQ1002T I7-1165G7/8GB'), 'ASUS');
     assert.equal(detectarMarca('IMP TERMICA 3NSTAR LTT422 1D/2D RED/USB Blanco'), '3NSTAR');
 });
+
+test('un ventilador de ambiente no es refrigeracion de PC', () => {
+    // Seis estaban entre los coolers: dos industriales de pie de 30", dos de
+    // torre y dos Xiaomi Smart. La palabra sola no sirve para separarlos: el
+    // proveedor tambien llama "VENTILADOR" a los fans ARGB de gabinete.
+    assert.equal(clasificar({ titulo: 'VENTILADOR XIAOMI MI SMART STANDING FAN 2 Blanco' }), 'smart-home');
+    assert.equal(clasificar({ titulo: 'VENTILADOR AIGO DARKFLASH INF24T ARGB WHT' }), 'refrigeracion');
+    assert.equal(clasificar({ titulo: 'COOLER FAN UP GAMER NEVASKA KIT 3X1 ARGB' }), 'refrigeracion');
+});

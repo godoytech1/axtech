@@ -97,7 +97,12 @@ const REGLAS = [
     // el electrodomestico, asi que se excluye solo con "de alimentos".
     /\bprocesador(?:a)?\s+de\s+alimentos\b/i,
     // Herramientas electricas, en UPS y Energia porque son a bateria.
-    /\b(motosserra|motosierra|parafusadeira|atornillador|furadeira|taladro|esmerilhadeira|amoladora|lixadeira|serra (?:circular|tico))\b/i];
+    /\b(motosserra|motosierra|parafusadeira|atornillador|furadeira|taladro|esmerilhadeira|amoladora|lixadeira|serra (?:circular|tico))\b/i,
+    // Ventiladores de ambiente que estaban en Refrigeracion, entre los coolers
+    // de PC: dos industriales de pie de 30" y dos de torre. La palabra sola no
+    // sirve --el proveedor llama "VENTILADOR" a los fans ARGB de gabinete--,
+    // asi que se pide el tipo de ventilador de ambiente.
+    /\bventilador\b[^|]*\b(industrial|de pie|torre|\d{2}\s?inch)\b/i];
 
 /**
  * @param {string} titulo
