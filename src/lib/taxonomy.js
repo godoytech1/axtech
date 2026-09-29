@@ -108,6 +108,13 @@ const REGLAS = [
 
     // Un NVR graba camaras; un "CONTROLE DE ACCESO FACIAL" es control de
     // acceso. Estaban en Almacenamiento y en Smart Home.
+    // Una camara con microfono no es un microfono: "CAMERA HIKVISION BULLET
+    // ... WIFI/2MP/MIC" terminaba en Microfonos por las tres letras del final.
+    // Va a Smart Home, que es donde viven las camaras IP desde el 2026-09-19.
+    ['smart-home',             /^camera\b/i],
+    // Un router es un router aunque su titulo diga "C/ Fuente": nombrar la
+    // fuente que trae no lo convierte en una. Caia en Fuentes de Poder.
+    ['redes-y-conectividad',   /^router\b/i],
     // Solo NVR. "CAMERA" y el control de acceso NO entran aca: desde el
     // 2026-09-19 las camaras IP y los controles de acceso viven en Smart Home
     // por decision propia, y los tests de esa fecha lo defienden.

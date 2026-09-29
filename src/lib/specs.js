@@ -40,7 +40,22 @@ const EXTRACTORES = [
     // Apple Silicon solo en contexto Apple: "M5" suelto es un modelo de
     // cualquier cosa --una fuente, un gabinete-- en el resto del catalogo.
     ['Procesador', /\bmac(?:book)?\b[^,]{0,40}?\b(M[1-5]\s?(?:PRO|MAX|ULTRA)?)\b/i, (m) => `Apple ${m[1].replace(/\s+/g, ' ')}`.toUpperCase()],
+    // El proveedor abrevia Celeron y Pentium en los mini PC: "CEL-N4020",
+    // "PEN-N6005", y a veces solo deja la serie suelta ("INTEL 7305").
+    ['Procesador', /\bcel[-\s]?(N?\d{3,4}[A-Z]{0,2})\b/i, (m) => `Celeron ${m[1]}`.toUpperCase()],
+    ['Procesador', /\bpen[-\s]?(N?\d{3,4}[A-Z]{0,2})\b/i, (m) => `Pentium ${m[1]}`.toUpperCase()],
+    // "ULTRA X7-358H": la serie X de Core Ultra lleva letra antes del numero.
+    ['Procesador', /\bultra\s?(X?[579])[\s-]?([A-Z]?\d{3}[A-Z]{0,2})\b/i, (m) => `Core Ultra ${m[1]}-${m[2]}`.toUpperCase()],
     ['Procesador', /\b(core\s?\d-\d{3}[A-Z]?|athlon-?\w+|celeron\s?\w+|pentium\s?\w+|snapdragon\s?\w+)\b/i],
+
+    // --- NAS: lo que define la compra de un servidor de archivos ---
+    // Los doce del catalogo publicaban la ficha vacia, y uno decia
+    // "Formato: M.2 2280" --tiene una ranura M.2, no ES un M.2--, que es peor
+    // que no decir nada. Lo que importa son las bahias, la RAM y la red.
+    ['Bahias', /\b(\d{1,2})\s?BAY\b/i, (m) => `${m[1]} bahías`],
+    ['Bahias', /\b(\d{1,2})\s?BAIAS?\b/i, (m) => `${m[1]} bahías`],
+    ['Red', /\b(\d(?:\.\d)?)\s?-?GB?LAN\b/i, (m) => `${m[1]} Gb Ethernet`],
+    ['Red', /\b(\d)-(?:GBL|GBLAN|GBNL)\b/i, (m) => `${m[1]} puertos Gigabit`],
 
     // Patron tipico de notebook: CPU/RAM/ALMACENAMIENTO/PANTALLA/SO
     ['Memoria RAM', /\/(\d{1,3})\s?GB?\//i, (m) => `${m[1]} GB`],
@@ -167,7 +182,9 @@ const CAMPOS_POR_CATEGORIA = {
     'tarjetas-de-video': ['Chip', 'Memoria de video', 'Tipo de memoria', 'Salidas de video', 'Iluminacion', 'Color'],
     'procesadores': ['Socket', 'Frecuencia', 'Video integrado', 'Cooler incluido', 'Presentacion'],
     'memorias-ram': ['Tipo de memoria', 'Capacidad', 'Velocidad', 'Formato', 'Iluminacion', 'Color'],
-    'almacenamiento-ssd': ['Capacidad', 'Formato', 'Interfaz', 'Generacion', 'Lectura', 'Escritura'],
+    // 'Bahias' y 'Red' van primero: en un NAS son lo que decide la compra,
+    // y 'Formato' queda al final porque su ranura M.2 no lo convierte en un M.2.
+    'almacenamiento-ssd': ['Bahias', 'Red', 'Capacidad', 'Interfaz', 'Generacion', 'Lectura', 'Escritura', 'Formato'],
     'placas-madre': ['Socket', 'Chipset', 'Formato de placa', 'Tipo de memoria', 'Salidas de video'],
     'notebooks': ['Procesador', 'Memoria RAM', 'Almacenamiento', 'Pantalla', 'Tarjeta de video', 'Sistema operativo', 'Idioma', 'Color'],
     'pcs-de-escritorio': ['Procesador', 'Memoria RAM', 'Almacenamiento', 'Tarjeta de video', 'Sistema operativo'],
